@@ -1,2 +1,3 @@
-# engineer-english
-Open-source English for software engineers.
+# Engineer English
+
+ソフトウェアエンジニアが実務で使う英語のデータセットです。
