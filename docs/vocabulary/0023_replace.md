@@ -8,7 +8,7 @@ pronunciation: "/rɪˈpleɪs/"
 descriptionJa: "既存の要素を別のノードや文字列に置き換えること。"
 usageExample: "Replace the placeholder element with the rendered component."
 usageExampleJa: "仮要素を描画済みコンポーネントに置き換えてください。"
-difficulty: Beginner
+difficulty: Advanced
 scene: Implementation
 source:
   title: "Element: replaceWith() method - Web APIs | MDN"

@@ -8,7 +8,7 @@ pronunciation: "/ˌrep.ləˈkeɪ.ʃən/"
 descriptionJa: "同じデータの複製を複数箇所に維持すること。"
 usageExample: "Replication keeps customer records available across three regions."
 usageExampleJa: "複製により顧客記録を3地域で利用可能にします。"
-difficulty: Advanced
+difficulty: Intermediate
 scene: Database
 source:
   title: "Using IndexedDB - Web APIs | MDN"

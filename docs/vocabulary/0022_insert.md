@@ -8,7 +8,7 @@ pronunciation: "/ɪnˈsɝːt/"
 descriptionJa: "参照ノードの直前に新しいノードを挿入すること。"
 usageExample: "Insert the new node before the loading indicator."
 usageExampleJa: "読込表示の前に新しいノードを挿入してください。"
-difficulty: Beginner
+difficulty: Advanced
 scene: Implementation
 source:
   title: "Node: insertBefore() method - Web APIs | MDN"

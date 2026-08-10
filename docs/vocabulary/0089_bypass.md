@@ -8,7 +8,7 @@ pronunciation: "/ˈbaɪ.pæs/"
 descriptionJa: "セキュリティ上の検査や制限を回避すること。"
 usageExample: "Attackers may bypass client-side validation with direct requests."
 usageExampleJa: "攻撃者は直接の要求でクライアント側検証を回避できます。"
-difficulty: Intermediate
+difficulty: Advanced
 scene: Security
 source:
   title: "Strict-Transport-Security header"

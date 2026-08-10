@@ -8,7 +8,7 @@ pronunciation: "/ˈmɑː.nə.t̬ɚ/"
 descriptionJa: "性能指標を継続的に観測し、変化や問題を捉えること。"
 usageExample: "We monitor page latency after every production release."
 usageExampleJa: "本番リリース後は毎回ページ遅延を監視します。"
-difficulty: Intermediate
+difficulty: Advanced
 scene: Performance
 source:
   title: "Performance Monitoring: RUM vs. synthetic monitoring - Performance | MDN"

@@ -8,7 +8,7 @@ pronunciation: "/ˈdem.ən.streɪt/"
 descriptionJa: "データや原則を根拠に、技術的な主張を明確に示す。"
 usageExample: "Please demonstrate how this change improves code health."
 usageExampleJa: "この変更がコードの健全性をどう高めるか示してください。"
-difficulty: Beginner
+difficulty: Advanced
 scene: Code Review
 source:
   title: "The Standard of Code Review"

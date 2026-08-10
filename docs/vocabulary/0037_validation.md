@@ -8,7 +8,7 @@ pronunciation: "/ˌvæl.əˈdeɪ.ʃən/"
 descriptionJa: "入力や処理結果が要件を満たすかを確かめること。"
 usageExample: "Add validation tests for the custom date rule."
 usageExampleJa: "独自の日付規則に検証テストを追加してください。"
-difficulty: Intermediate
+difficulty: Advanced
 scene: Testing
 source:
   title: "Django Tutorial Part 10: Testing a Django web application - Learn web development | MDN"

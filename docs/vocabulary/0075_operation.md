@@ -8,7 +8,7 @@ pronunciation: "/ˌɑː.pəˈreɪ.ʃən/"
 descriptionJa: "APIやシステムが実行する個別の処理。"
 usageExample: "This operation writes image metadata to replicated storage."
 usageExampleJa: "この処理は画像メタデータを複製ストレージへ書き込みます。"
-difficulty: Intermediate
+difficulty: Advanced
 scene: Architecture
 source:
   title: "Non-Abstract Large Scale Design Workbook"

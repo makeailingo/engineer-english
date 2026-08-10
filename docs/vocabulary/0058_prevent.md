@@ -8,7 +8,7 @@ pronunciation: "/prɪˈvent/"
 descriptionJa: "対策により障害や被害の発生を防ぐこと。"
 usageExample: "Backpressure prevented resource exhaustion during the traffic surge."
 usageExampleJa: "バックプレッシャーが急増時の資源枯渇を防ぎました。"
-difficulty: Beginner
+difficulty: Intermediate
 scene: Incident Response
 source:
   title: "503 Service Unavailable"

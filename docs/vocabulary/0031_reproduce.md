@@ -8,7 +8,7 @@ pronunciation: "/ˌriː.prəˈduːs/"
 descriptionJa: "同じ条件や手順で、不具合をもう一度発生させること。"
 usageExample: "Can you reproduce this bug with the minimal test case?"
 usageExampleJa: "最小のテストケースでこのバグを再現できますか。"
-difficulty: Intermediate
+difficulty: Advanced
 scene: Debugging
 source:
   title: "Performance fundamentals - Performance | MDN"

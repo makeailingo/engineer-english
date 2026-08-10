@@ -8,7 +8,7 @@ pronunciation: "/ˌskeɪ.ləˈbɪl.ə.t̬i/"
 descriptionJa: "需要増加に応じて処理能力を拡張できる性質。"
 usageExample: "Does this architecture preserve scalability under peak traffic?"
 usageExampleJa: "この構成はピーク時も拡張性を保てますか。"
-difficulty: Advanced
+difficulty: Intermediate
 scene: Architecture
 source:
   title: "Server-side web frameworks - Learn web development | MDN"

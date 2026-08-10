@@ -8,7 +8,7 @@ pronunciation: "/skoʊp/"
 descriptionJa: "要件や機能に含める対象の境界。"
 usageExample: "Confirm the feature scope before estimating effort."
 usageExampleJa: "工数見積もり前に機能範囲を確認してください。"
-difficulty: Beginner
+difficulty: Advanced
 scene: Requirements
 source:
   title: "Workflows and processes - Learn web development | MDN"
