@@ -8,7 +8,7 @@ pronunciation: "/ˈɪn.deks/"
 descriptionJa: "キーから目的のレコードを素早く探す索引。"
 usageExample: "Add an index to speed up email lookups."
 usageExampleJa: "メール検索を速める索引を追加してください。"
-difficulty: Advanced
+difficulty: Intermediate
 scene: Database
 source:
   title: "IndexedDB API - Web APIs | MDN"

@@ -8,7 +8,7 @@ pronunciation: "/ˈfiːd.bæk/"
 descriptionJa: "成果物の良し悪しや改善点を伝える意見。"
 usageExample: "Could you share feedback on this API proposal?"
 usageExampleJa: "このAPI案への意見をもらえますか。"
-difficulty: Intermediate
+difficulty: Beginner
 scene: Daily Communication
 source:
   title: "How to handle reviewer comments"

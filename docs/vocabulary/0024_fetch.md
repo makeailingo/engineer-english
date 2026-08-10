@@ -8,7 +8,7 @@ pronunciation: "/fetʃ/"
 descriptionJa: "ネットワークからリソースの取得を開始すること。"
 usageExample: "Fetch the latest profile before rendering the dashboard."
 usageExampleJa: "描画前に最新プロフィールを取得してください。"
-difficulty: Intermediate
+difficulty: Beginner
 scene: Implementation
 source:
   title: "Window: fetch() method - Web APIs | MDN"

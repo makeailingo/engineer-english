@@ -8,7 +8,7 @@ pronunciation: "/əˈsɝː.ʃən/"
 descriptionJa: "テストで期待する条件が成立するかを検証するもの。"
 usageExample: "Each assertion verifies one expected result."
 usageExampleJa: "各アサーションで期待結果を1つ検証します。"
-difficulty: Advanced
+difficulty: Intermediate
 scene: Testing
 source:
   title: "What to look for in a code review"

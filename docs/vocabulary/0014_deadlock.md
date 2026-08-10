@@ -8,7 +8,7 @@ pronunciation: "/ˈded.lɑːk/"
 descriptionJa: "処理同士が互いの待機条件を満たせず進めない状態。"
 usageExample: "How would you prevent this two-lock deadlock?"
 usageExampleJa: "この二つのロックによるデッドロックをどう防ぎますか。"
-difficulty: Advanced
+difficulty: Intermediate
 scene: Technical Interview
 source:
   title: "Web Locks API - Web APIs | MDN"

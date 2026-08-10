@@ -8,7 +8,7 @@ pronunciation: "/rɪˈkʌv.ɚ.i/"
 descriptionJa: "障害後にサービスが正常な状態へ戻る過程。"
 usageExample: "Service recovery began after the faulty release was rolled back."
 usageExampleJa: "問題のリリースを戻した後、復旧が始まりました。"
-difficulty: Advanced
+difficulty: Intermediate
 scene: Incident Response
 source:
   title: "503 Service Unavailable"

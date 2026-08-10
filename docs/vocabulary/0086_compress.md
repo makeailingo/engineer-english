@@ -8,7 +8,7 @@ pronunciation: "/kəmˈpres/"
 descriptionJa: "転送するデータを小さくして読み込み時間を短縮すること。"
 usageExample: "Compress text responses to reduce transfer time."
 usageExampleJa: "テキスト応答を圧縮して転送時間を減らします。"
-difficulty: Advanced
+difficulty: Intermediate
 scene: Performance
 source:
   title: "Compression in HTTP - HTTP | MDN"
