@@ -1,0 +1,48 @@
+=== TOEIC 3ソース POC ===
+
+Fetching 3 sources...
+Wrote /workspace/evals/difficulty/poc_toeic_fixture.json
+
+## カバー率
+  0ソース: 48/100
+  1ソース: 34/100
+  2ソース: 13/100
+  3ソース: 5/100
+  1ソース以上: 52/100 (52%)
+
+## 採用 Difficulty あり: 52/100
+  現行と一致: 26/52
+  2ソース以上 & Difficulty一致（consensus）: 10/100
+
+## flagged 語（10語）
+  critique        current=Beginner     toeic→Advanced     [tw=-        tsl=-    ka=860 ] ≠
+  replace         current=Advanced     toeic→Beginner     [tw=600      tsl=-    ka=-   ] ≠
+  reproduce       current=Advanced     toeic→Advanced     [tw=-        tsl=860  ka=-   ] =
+  isolate         current=Beginner     toeic→NONE         [tw=-        tsl=-    ka=-   ] =
+  assertion       current=Beginner     toeic→Intermediate [tw=-        tsl=-    ka=730 ] ≠
+  coverage        current=Beginner     toeic→Intermediate [tw=730-800  tsl=-    ka=730 ] ≠
+  availability    current=Beginner     toeic→Beginner     [tw=-        tsl=600  ka=-   ] =
+  reliability     current=Beginner     toeic→Advanced     [tw=-        tsl=860  ka=-   ] ≠
+  capacity        current=Beginner     toeic→NONE         [tw=-        tsl=-    ka=-   ] =
+  ownership       current=Beginner     toeic→Intermediate [tw=730-800  tsl=-    ka=730 ] ≠
+
+  検出（現行≠TOEIC採用）: 6/10 → ['critique', 'replace', 'assertion', 'coverage', 'reliability', 'ownership']
+
+## anchor 語（5語）
+  feedback        anchor=Beginner     toeic→Beginner     [OK]
+  clarify         anchor=Intermediate toeic→Intermediate [OK]
+  courteous       anchor=Advanced     toeic→Intermediate [NG]
+  scrutiny        anchor=Advanced     toeic→Intermediate [NG]
+  trade-off       anchor=Intermediate toeic→NONE         [?]
+
+## ソース間 TOEIC band 一致（2ソース以上ヒット時）
+  Difficulty 一致: 10
+  Difficulty 不一致: 8
+
+## POC 成功条件
+  [PASS] 凍結 fixture から決定的
+  [FAIL] 1ソース以上カバー ≥80%
+  [FAIL] flagged 検出 ≥7/10
+  [FAIL] anchor 誤判定 ≤1/5
+
+=== FAIL ===
