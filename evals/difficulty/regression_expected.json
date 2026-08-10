@@ -7,7 +7,7 @@
       "engineerFamiliarity": "high",
       "contextualLearningNeeded": "medium",
       "nearestExamples": [
-        "dispatch",
+        "clarify",
         "defer"
       ]
     },
@@ -23,8 +23,8 @@
       "engineerFamiliarity": "high",
       "contextualLearningNeeded": "high",
       "nearestExamples": [
-        "abstraction",
-        "demonstrate"
+        "courteous",
+        "scrutiny"
       ]
     },
     "difficulty": "Advanced",
@@ -39,8 +39,8 @@
       "engineerFamiliarity": "high",
       "contextualLearningNeeded": "low",
       "nearestExamples": [
-        "approach",
-        "feedback"
+        "feedback",
+        "deadline"
       ]
     },
     "difficulty": "Beginner",
@@ -71,8 +71,8 @@
       "engineerFamiliarity": "medium",
       "contextualLearningNeeded": "medium",
       "nearestExamples": [
-        "regression",
-        "constraint"
+        "clarify",
+        "defer"
       ]
     },
     "difficulty": "Intermediate",
@@ -87,8 +87,8 @@
       "engineerFamiliarity": "high",
       "contextualLearningNeeded": "high",
       "nearestExamples": [
-        "demonstrate",
-        "abstraction"
+        "courteous",
+        "scrutiny"
       ]
     },
     "difficulty": "Advanced",
@@ -103,7 +103,7 @@
       "engineerFamiliarity": "high",
       "contextualLearningNeeded": "medium",
       "nearestExamples": [
-        "scope",
+        "clarify",
         "defer"
       ]
     },
@@ -119,8 +119,8 @@
       "engineerFamiliarity": "medium",
       "contextualLearningNeeded": "medium",
       "nearestExamples": [
-        "defer",
-        "dispatch"
+        "clarify",
+        "defer"
       ]
     },
     "difficulty": "Intermediate",
@@ -135,7 +135,7 @@
       "engineerFamiliarity": "medium",
       "contextualLearningNeeded": "medium",
       "nearestExamples": [
-        "scope",
+        "clarify",
         "defer"
       ]
     },
@@ -167,7 +167,7 @@
       "engineerFamiliarity": "high",
       "contextualLearningNeeded": "medium",
       "nearestExamples": [
-        "dispatch",
+        "clarify",
         "defer"
       ]
     },
@@ -200,7 +200,7 @@
       "contextualLearningNeeded": "low",
       "nearestExamples": [
         "feedback",
-        "approach"
+        "deadline"
       ]
     },
     "difficulty": "Beginner",
@@ -215,8 +215,8 @@
       "engineerFamiliarity": "high",
       "contextualLearningNeeded": "high",
       "nearestExamples": [
-        "abstraction",
-        "demonstrate"
+        "courteous",
+        "scrutiny"
       ]
     },
     "difficulty": "Advanced",
@@ -231,8 +231,8 @@
       "engineerFamiliarity": "medium",
       "contextualLearningNeeded": "medium",
       "nearestExamples": [
-        "defer",
-        "scope"
+        "clarify",
+        "defer"
       ]
     },
     "difficulty": "Intermediate",
@@ -247,8 +247,8 @@
       "engineerFamiliarity": "medium",
       "contextualLearningNeeded": "high",
       "nearestExamples": [
-        "consensus",
-        "discretion"
+        "courteous",
+        "scrutiny"
       ]
     },
     "difficulty": "Advanced",
@@ -263,8 +263,8 @@
       "engineerFamiliarity": "medium",
       "contextualLearningNeeded": "medium",
       "nearestExamples": [
-        "constraint",
-        "scope"
+        "clarify",
+        "defer"
       ]
     },
     "difficulty": "Intermediate",
@@ -295,8 +295,8 @@
       "engineerFamiliarity": "medium",
       "contextualLearningNeeded": "high",
       "nearestExamples": [
-        "abstraction",
-        "demonstrate"
+        "courteous",
+        "scrutiny"
       ]
     },
     "difficulty": "Advanced",
@@ -327,8 +327,8 @@
       "engineerFamiliarity": "high",
       "contextualLearningNeeded": "medium",
       "nearestExamples": [
-        "regression",
-        "scope"
+        "clarify",
+        "defer"
       ]
     },
     "difficulty": "Intermediate",
@@ -343,8 +343,8 @@
       "engineerFamiliarity": "medium",
       "contextualLearningNeeded": "medium",
       "nearestExamples": [
-        "constraint",
-        "scope"
+        "clarify",
+        "defer"
       ]
     },
     "difficulty": "Intermediate",
@@ -360,7 +360,7 @@
       "contextualLearningNeeded": "medium",
       "nearestExamples": [
         "clarify",
-        "escalate"
+        "defer"
       ]
     },
     "difficulty": "Intermediate",
@@ -391,8 +391,8 @@
       "engineerFamiliarity": "high",
       "contextualLearningNeeded": "medium",
       "nearestExamples": [
-        "regression",
-        "constraint"
+        "clarify",
+        "defer"
       ]
     },
     "difficulty": "Intermediate",
@@ -407,8 +407,8 @@
       "engineerFamiliarity": "medium",
       "contextualLearningNeeded": "medium",
       "nearestExamples": [
-        "defer",
-        "scope"
+        "clarify",
+        "defer"
       ]
     },
     "difficulty": "Intermediate",
@@ -423,7 +423,7 @@
       "engineerFamiliarity": "high",
       "contextualLearningNeeded": "medium",
       "nearestExamples": [
-        "dispatch",
+        "clarify",
         "defer"
       ]
     },
@@ -455,8 +455,8 @@
       "engineerFamiliarity": "medium",
       "contextualLearningNeeded": "high",
       "nearestExamples": [
-        "demonstrate",
-        "abstraction"
+        "courteous",
+        "scrutiny"
       ]
     },
     "difficulty": "Advanced",
@@ -471,8 +471,8 @@
       "engineerFamiliarity": "high",
       "contextualLearningNeeded": "medium",
       "nearestExamples": [
-        "scope",
-        "constraint"
+        "clarify",
+        "defer"
       ]
     },
     "difficulty": "Intermediate",
@@ -487,7 +487,7 @@
       "engineerFamiliarity": "high",
       "contextualLearningNeeded": "medium",
       "nearestExamples": [
-        "dispatch",
+        "clarify",
         "defer"
       ]
     },
@@ -503,7 +503,7 @@
       "engineerFamiliarity": "medium",
       "contextualLearningNeeded": "high",
       "nearestExamples": [
-        "demonstrate",
+        "courteous",
         "scrutiny"
       ]
     },
@@ -520,7 +520,7 @@
       "contextualLearningNeeded": "high",
       "nearestExamples": [
         "discretion",
-        "scrutiny"
+        "courteous"
       ]
     },
     "difficulty": "Advanced",
@@ -535,7 +535,7 @@
       "engineerFamiliarity": "medium",
       "contextualLearningNeeded": "medium",
       "nearestExamples": [
-        "dispatch",
+        "clarify",
         "defer"
       ]
     },
@@ -551,7 +551,7 @@
       "engineerFamiliarity": "high",
       "contextualLearningNeeded": "medium",
       "nearestExamples": [
-        "dispatch",
+        "clarify",
         "defer"
       ]
     },
@@ -567,7 +567,7 @@
       "engineerFamiliarity": "medium",
       "contextualLearningNeeded": "medium",
       "nearestExamples": [
-        "constraint",
+        "clarify",
         "defer"
       ]
     },
@@ -584,7 +584,7 @@
       "contextualLearningNeeded": "medium",
       "nearestExamples": [
         "escalate",
-        "defer"
+        "clarify"
       ]
     },
     "difficulty": "Intermediate",
@@ -599,8 +599,8 @@
       "engineerFamiliarity": "medium",
       "contextualLearningNeeded": "medium",
       "nearestExamples": [
-        "scope",
-        "clarify"
+        "clarify",
+        "defer"
       ]
     },
     "difficulty": "Intermediate",
@@ -615,8 +615,8 @@
       "engineerFamiliarity": "high",
       "contextualLearningNeeded": "low",
       "nearestExamples": [
-        "failure",
-        "approach"
+        "feedback",
+        "deadline"
       ]
     },
     "difficulty": "Beginner",
@@ -647,8 +647,8 @@
       "engineerFamiliarity": "high",
       "contextualLearningNeeded": "low",
       "nearestExamples": [
-        "fetch",
-        "query"
+        "feedback",
+        "deadline"
       ]
     },
     "difficulty": "Beginner",
@@ -663,8 +663,8 @@
       "engineerFamiliarity": "medium",
       "contextualLearningNeeded": "high",
       "nearestExamples": [
-        "abstraction",
-        "demonstrate"
+        "courteous",
+        "scrutiny"
       ]
     },
     "difficulty": "Advanced",
@@ -679,7 +679,7 @@
       "engineerFamiliarity": "high",
       "contextualLearningNeeded": "medium",
       "nearestExamples": [
-        "scope",
+        "clarify",
         "defer"
       ]
     },
@@ -695,8 +695,8 @@
       "engineerFamiliarity": "high",
       "contextualLearningNeeded": "medium",
       "nearestExamples": [
-        "query",
-        "dispatch"
+        "clarify",
+        "defer"
       ]
     },
     "difficulty": "Intermediate",
@@ -711,8 +711,8 @@
       "engineerFamiliarity": "high",
       "contextualLearningNeeded": "medium",
       "nearestExamples": [
-        "scope",
-        "constraint"
+        "clarify",
+        "defer"
       ]
     },
     "difficulty": "Intermediate",
@@ -727,8 +727,8 @@
       "engineerFamiliarity": "high",
       "contextualLearningNeeded": "low",
       "nearestExamples": [
-        "query",
-        "fetch"
+        "feedback",
+        "deadline"
       ]
     },
     "difficulty": "Beginner",
@@ -760,7 +760,7 @@
       "contextualLearningNeeded": "low",
       "nearestExamples": [
         "install",
-        "fetch"
+        "feedback"
       ]
     },
     "difficulty": "Beginner",
@@ -775,8 +775,8 @@
       "engineerFamiliarity": "medium",
       "contextualLearningNeeded": "low",
       "nearestExamples": [
-        "approach",
-        "feedback"
+        "feedback",
+        "deadline"
       ]
     },
     "difficulty": "Beginner",
@@ -791,8 +791,8 @@
       "engineerFamiliarity": "high",
       "contextualLearningNeeded": "low",
       "nearestExamples": [
-        "query",
-        "fetch"
+        "feedback",
+        "deadline"
       ]
     },
     "difficulty": "Beginner",
@@ -807,7 +807,7 @@
       "engineerFamiliarity": "high",
       "contextualLearningNeeded": "medium",
       "nearestExamples": [
-        "dispatch",
+        "clarify",
         "defer"
       ]
     },
@@ -824,7 +824,7 @@
       "contextualLearningNeeded": "medium",
       "nearestExamples": [
         "clarify",
-        "regression"
+        "defer"
       ]
     },
     "difficulty": "Intermediate",
@@ -839,8 +839,8 @@
       "engineerFamiliarity": "medium",
       "contextualLearningNeeded": "high",
       "nearestExamples": [
-        "abstraction",
-        "demonstrate"
+        "courteous",
+        "scrutiny"
       ]
     },
     "difficulty": "Advanced",
@@ -855,8 +855,8 @@
       "engineerFamiliarity": "high",
       "contextualLearningNeeded": "medium",
       "nearestExamples": [
-        "scope",
-        "regression"
+        "clarify",
+        "defer"
       ]
     },
     "difficulty": "Intermediate",
@@ -871,8 +871,8 @@
       "engineerFamiliarity": "medium",
       "contextualLearningNeeded": "medium",
       "nearestExamples": [
-        "constraint",
-        "defer"
+        "mandatory",
+        "clarify"
       ]
     },
     "difficulty": "Intermediate",
@@ -888,7 +888,7 @@
       "contextualLearningNeeded": "low",
       "nearestExamples": [
         "feedback",
-        "approach"
+        "deadline"
       ]
     },
     "difficulty": "Beginner",
@@ -903,8 +903,8 @@
       "engineerFamiliarity": "high",
       "contextualLearningNeeded": "medium",
       "nearestExamples": [
-        "dispatch",
-        "scope"
+        "clarify",
+        "defer"
       ]
     },
     "difficulty": "Intermediate",
@@ -919,8 +919,8 @@
       "engineerFamiliarity": "medium",
       "contextualLearningNeeded": "medium",
       "nearestExamples": [
-        "scope",
-        "clarify"
+        "clarify",
+        "defer"
       ]
     },
     "difficulty": "Intermediate",
@@ -935,8 +935,8 @@
       "engineerFamiliarity": "high",
       "contextualLearningNeeded": "low",
       "nearestExamples": [
-        "query",
-        "fetch"
+        "feedback",
+        "deadline"
       ]
     },
     "difficulty": "Beginner",
@@ -951,8 +951,8 @@
       "engineerFamiliarity": "high",
       "contextualLearningNeeded": "medium",
       "nearestExamples": [
-        "scope",
-        "regression"
+        "clarify",
+        "defer"
       ]
     },
     "difficulty": "Intermediate",
@@ -967,8 +967,8 @@
       "engineerFamiliarity": "medium",
       "contextualLearningNeeded": "medium",
       "nearestExamples": [
-        "constraint",
-        "scope"
+        "clarify",
+        "defer"
       ]
     },
     "difficulty": "Intermediate",
@@ -983,8 +983,8 @@
       "engineerFamiliarity": "high",
       "contextualLearningNeeded": "medium",
       "nearestExamples": [
-        "scope",
-        "escalate"
+        "clarify",
+        "defer"
       ]
     },
     "difficulty": "Intermediate",
@@ -999,7 +999,7 @@
       "engineerFamiliarity": "medium",
       "contextualLearningNeeded": "medium",
       "nearestExamples": [
-        "regression",
+        "clarify",
         "defer"
       ]
     },
@@ -1031,8 +1031,8 @@
       "engineerFamiliarity": "medium",
       "contextualLearningNeeded": "medium",
       "nearestExamples": [
-        "fetch",
-        "dispatch"
+        "clarify",
+        "defer"
       ]
     },
     "difficulty": "Intermediate",
@@ -1047,8 +1047,8 @@
       "engineerFamiliarity": "medium",
       "contextualLearningNeeded": "low",
       "nearestExamples": [
-        "approach",
-        "failure"
+        "feedback",
+        "deadline"
       ]
     },
     "difficulty": "Beginner",
@@ -1063,7 +1063,7 @@
       "engineerFamiliarity": "medium",
       "contextualLearningNeeded": "medium",
       "nearestExamples": [
-        "scope",
+        "clarify",
         "defer"
       ]
     },
@@ -1079,8 +1079,8 @@
       "engineerFamiliarity": "medium",
       "contextualLearningNeeded": "low",
       "nearestExamples": [
-        "query",
-        "fetch"
+        "feedback",
+        "deadline"
       ]
     },
     "difficulty": "Beginner",
@@ -1095,8 +1095,8 @@
       "engineerFamiliarity": "medium",
       "contextualLearningNeeded": "medium",
       "nearestExamples": [
-        "defer",
-        "scope"
+        "clarify",
+        "defer"
       ]
     },
     "difficulty": "Intermediate",
@@ -1112,7 +1112,7 @@
       "contextualLearningNeeded": "low",
       "nearestExamples": [
         "query",
-        "fetch"
+        "feedback"
       ]
     },
     "difficulty": "Beginner",
@@ -1128,7 +1128,7 @@
       "contextualLearningNeeded": "medium",
       "nearestExamples": [
         "clarify",
-        "constraint"
+        "defer"
       ]
     },
     "difficulty": "Intermediate",
@@ -1143,7 +1143,7 @@
       "engineerFamiliarity": "medium",
       "contextualLearningNeeded": "medium",
       "nearestExamples": [
-        "dispatch",
+        "clarify",
         "defer"
       ]
     },
@@ -1159,8 +1159,8 @@
       "engineerFamiliarity": "medium",
       "contextualLearningNeeded": "low",
       "nearestExamples": [
-        "failure",
-        "approach"
+        "feedback",
+        "deadline"
       ]
     },
     "difficulty": "Beginner",
@@ -1175,8 +1175,8 @@
       "engineerFamiliarity": "high",
       "contextualLearningNeeded": "medium",
       "nearestExamples": [
-        "regression",
-        "scope"
+        "clarify",
+        "defer"
       ]
     },
     "difficulty": "Intermediate",
@@ -1191,8 +1191,8 @@
       "engineerFamiliarity": "high",
       "contextualLearningNeeded": "medium",
       "nearestExamples": [
-        "regression",
-        "constraint"
+        "clarify",
+        "defer"
       ]
     },
     "difficulty": "Intermediate",
@@ -1207,8 +1207,8 @@
       "engineerFamiliarity": "medium",
       "contextualLearningNeeded": "medium",
       "nearestExamples": [
-        "defer",
-        "scope"
+        "clarify",
+        "defer"
       ]
     },
     "difficulty": "Intermediate",
@@ -1223,8 +1223,8 @@
       "engineerFamiliarity": "medium",
       "contextualLearningNeeded": "medium",
       "nearestExamples": [
-        "defer",
-        "clarify"
+        "clarify",
+        "defer"
       ]
     },
     "difficulty": "Intermediate",
@@ -1239,8 +1239,8 @@
       "engineerFamiliarity": "high",
       "contextualLearningNeeded": "medium",
       "nearestExamples": [
-        "scope",
-        "constraint"
+        "clarify",
+        "defer"
       ]
     },
     "difficulty": "Intermediate",
@@ -1256,7 +1256,7 @@
       "contextualLearningNeeded": "low",
       "nearestExamples": [
         "replace",
-        "fetch"
+        "feedback"
       ]
     },
     "difficulty": "Beginner",
@@ -1271,8 +1271,8 @@
       "engineerFamiliarity": "high",
       "contextualLearningNeeded": "medium",
       "nearestExamples": [
-        "regression",
-        "scope"
+        "clarify",
+        "defer"
       ]
     },
     "difficulty": "Intermediate",
@@ -1287,8 +1287,8 @@
       "engineerFamiliarity": "high",
       "contextualLearningNeeded": "medium",
       "nearestExamples": [
-        "regression",
-        "isolate"
+        "reproduce",
+        "clarify"
       ]
     },
     "difficulty": "Intermediate",
@@ -1303,8 +1303,8 @@
       "engineerFamiliarity": "high",
       "contextualLearningNeeded": "medium",
       "nearestExamples": [
-        "scope",
-        "clarify"
+        "clarify",
+        "defer"
       ]
     },
     "difficulty": "Intermediate",
@@ -1335,8 +1335,8 @@
       "engineerFamiliarity": "medium",
       "contextualLearningNeeded": "high",
       "nearestExamples": [
-        "scrutiny",
-        "discretion"
+        "courteous",
+        "scrutiny"
       ]
     },
     "difficulty": "Advanced",
@@ -1351,8 +1351,8 @@
       "engineerFamiliarity": "high",
       "contextualLearningNeeded": "medium",
       "nearestExamples": [
-        "scope",
-        "regression"
+        "clarify",
+        "defer"
       ]
     },
     "difficulty": "Intermediate",
@@ -1367,8 +1367,8 @@
       "engineerFamiliarity": "high",
       "contextualLearningNeeded": "medium",
       "nearestExamples": [
-        "constraint",
-        "scope"
+        "clarify",
+        "defer"
       ]
     },
     "difficulty": "Intermediate",
@@ -1383,7 +1383,7 @@
       "engineerFamiliarity": "medium",
       "contextualLearningNeeded": "medium",
       "nearestExamples": [
-        "scope",
+        "clarify",
         "defer"
       ]
     },
@@ -1400,7 +1400,7 @@
       "contextualLearningNeeded": "high",
       "nearestExamples": [
         "scrutiny",
-        "discretion"
+        "courteous"
       ]
     },
     "difficulty": "Advanced",
@@ -1415,8 +1415,8 @@
       "engineerFamiliarity": "medium",
       "contextualLearningNeeded": "medium",
       "nearestExamples": [
-        "constraint",
-        "scope"
+        "clarify",
+        "defer"
       ]
     },
     "difficulty": "Intermediate",
@@ -1431,8 +1431,8 @@
       "engineerFamiliarity": "medium",
       "contextualLearningNeeded": "high",
       "nearestExamples": [
-        "scrutiny",
-        "demonstrate"
+        "courteous",
+        "scrutiny"
       ]
     },
     "difficulty": "Advanced",
@@ -1447,8 +1447,8 @@
       "engineerFamiliarity": "high",
       "contextualLearningNeeded": "medium",
       "nearestExamples": [
-        "constraint",
-        "scope"
+        "clarify",
+        "defer"
       ]
     },
     "difficulty": "Intermediate",
@@ -1463,7 +1463,7 @@
       "engineerFamiliarity": "medium",
       "contextualLearningNeeded": "medium",
       "nearestExamples": [
-        "scope",
+        "clarify",
         "defer"
       ]
     },
@@ -1480,7 +1480,7 @@
       "contextualLearningNeeded": "low",
       "nearestExamples": [
         "feedback",
-        "approach"
+        "deadline"
       ]
     },
     "difficulty": "Beginner",
@@ -1495,8 +1495,8 @@
       "engineerFamiliarity": "high",
       "contextualLearningNeeded": "low",
       "nearestExamples": [
-        "query",
-        "fetch"
+        "feedback",
+        "deadline"
       ]
     },
     "difficulty": "Beginner",
@@ -1511,8 +1511,8 @@
       "engineerFamiliarity": "medium",
       "contextualLearningNeeded": "medium",
       "nearestExamples": [
-        "trade-off",
-        "scope"
+        "clarify",
+        "defer"
       ]
     },
     "difficulty": "Intermediate",
@@ -1527,8 +1527,8 @@
       "engineerFamiliarity": "high",
       "contextualLearningNeeded": "low",
       "nearestExamples": [
-        "query",
-        "fetch"
+        "feedback",
+        "deadline"
       ]
     },
     "difficulty": "Beginner",
@@ -1543,8 +1543,8 @@
       "engineerFamiliarity": "medium",
       "contextualLearningNeeded": "medium",
       "nearestExamples": [
-        "defer",
-        "scope"
+        "clarify",
+        "defer"
       ]
     },
     "difficulty": "Intermediate",
@@ -1559,8 +1559,8 @@
       "engineerFamiliarity": "medium",
       "contextualLearningNeeded": "medium",
       "nearestExamples": [
-        "regression",
-        "clarify"
+        "clarify",
+        "defer"
       ]
     },
     "difficulty": "Intermediate",
@@ -1575,8 +1575,8 @@
       "engineerFamiliarity": "medium",
       "contextualLearningNeeded": "high",
       "nearestExamples": [
-        "abstraction",
-        "demonstrate"
+        "courteous",
+        "scrutiny"
       ]
     },
     "difficulty": "Advanced",
@@ -1591,7 +1591,7 @@
       "engineerFamiliarity": "high",
       "contextualLearningNeeded": "medium",
       "nearestExamples": [
-        "scope",
+        "clarify",
         "defer"
       ]
     },

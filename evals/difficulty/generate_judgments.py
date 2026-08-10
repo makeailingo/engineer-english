@@ -6,8 +6,24 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
+# 代表例（Skill と同一。nearestExamples はこの語彙から選ぶ）
+EXAMPLES: dict[str, list[str]] = {
+    "Beginner": ["feedback", "deadline", "replace", "install", "query"],
+    "Intermediate": ["clarify", "defer", "escalate", "reproduce", "mandatory"],
+    "Advanced": ["courteous", "scrutiny", "discretion"],
+}
+
+
+def nearest_for(term: str, difficulty: str) -> list[str]:
+    anchors = EXAMPLES[difficulty]
+    if term in anchors:
+        other = next(a for a in anchors if a != term)
+        return [term, other]
+    return anchors[:2]
+
+
 # (generalFamiliarity, engineerFamiliarity, contextualLearningNeeded,
-#  nearestExamples, difficulty, confidence, notes)
+#  difficulty, confidence, notes)
 JUDGMENTS: dict[str, tuple] = {
     # --- Beginner (21) ---
     "approach": (
@@ -434,7 +450,8 @@ def build_entry(term: str, gf: str, ef: str, cl: str, ne: list[str], diff: str, 
 def build_expected() -> dict:
     out = {}
     for term in sorted(JUDGMENTS.keys()):
-        gf, ef, cl, ne, diff, conf, notes = JUDGMENTS[term]
+        gf, ef, cl, _ne, diff, conf, notes = JUDGMENTS[term]
+        ne = nearest_for(term, diff)
         out[term] = build_entry(term, gf, ef, cl, ne, diff, conf, notes)
     return out
 

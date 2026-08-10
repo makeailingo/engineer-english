@@ -2,7 +2,8 @@
 
 expected 語数: 100
 現行と不一致: 16/100
-代表例 維持: 5/5
+代表例 Vocabulary 一致: 9/13
+  代表例 NG: [('replace', 'Advanced', 'Beginner'), ('install', 'Intermediate', 'Beginner'), ('reproduce', 'Advanced', 'Intermediate'), ('discretion', 'Intermediate', 'Advanced')]
 不整合候補 検出: 10/10
   → ['assertion', 'availability', 'capacity', 'coverage', 'critique', 'isolate', 'ownership', 'reliability', 'replace', 'reproduce']
 
