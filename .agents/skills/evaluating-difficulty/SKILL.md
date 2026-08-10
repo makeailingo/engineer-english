@@ -1,20 +1,55 @@
 ---
 name: evaluating-difficulty
-description: CEFR（Cambridge / Oxford）から Vocabulary の difficulty を機械的に判定する。Vocabulary の作成・更新前に使用する。
+description: rubric とアンカー例に基づき Vocabulary の difficulty を判定する。Vocabulary の作成・更新前に使用する。
 ---
 
 # Evaluating Difficulty
 
-再現性を持たせるため、Difficulty Eval は **CEFR のみ** から行う。
+外部データ（CEFR、TOEIC リスト等）を正解ラベルとしては使わない。  
+**固定 rubric + アンカー例** に基づき、理由を構造化してから Difficulty を決める。
 
-## 参照ソース
+## Difficulty 定義
 
-| 用途 | ソース |
+| Difficulty | 目安 |
 | --- | --- |
-| CEFR（word） | [Cambridge Dictionary](https://dictionary.cambridge.org/dictionary/english/) → [Oxford 3000 / 5000](https://www.oxfordlearnersdictionaries.com/about/wordlists/) |
-| CEFR（phrase） | [Oxford Phrase List](https://www.oxfordlearnersdictionaries.com/about/wordlists/oxford-phrase-list) → Cambridge Dictionary |
+| Beginner | 一般的な英語、または日本人エンジニアが日常的に目にする語で、意味を推測しやすい |
+| Intermediate | 一般語だが実務での意味・使い方に学習価値がある。または技術文脈で頻出だが、自然な英語としては少し難しい |
+| Advanced | 一般的に難しい語、抽象度が高い語、または意味・ニュアンスを知らないと推測しにくい |
 
-ローカル教材（金フレ等）には依存しない。毎回公開ソースを参照して再現できる Eval とする。
+## 判断観点（3つ）
+
+各観点を **low / medium / high** で短く評価する。数値スコア化しない。
+
+| 観点 | 問い |
+| --- | --- |
+| `generalFamiliarity` | 一般英語として、意味を推測しやすいか |
+| `engineerFamiliarity` | 日本人ソフトウェアエンジニアが既知である可能性が高いか |
+| `contextualLearningNeeded` | 実務文脈で意味・用法を学ぶ必要があるか |
+
+## 判定手順
+
+1. 上記 3 観点を評価する（`reasoning` に記録）。
+2. アンカー例と比較し、**最も近いアンカー群**を選ぶ。
+3. その群の Difficulty を採用する。
+4. 迷う場合は **高い方** を選ぶ（理解に必要な知識が多い側）。
+
+いきなりラベルを出さない。必ず `reasoning` → `difficulty` の順。
+
+## アンカー例
+
+新しい語は「どのアンカー群に最も近いか」で比較する。
+
+### Beginner
+
+`feedback`, `deadline`, `query`, `fetch`, `replace`, `install`, `approach`, `failure`
+
+### Intermediate
+
+`clarify`, `trade-off`, `defer`, `escalate`, `constraint`, `regression`, `dispatch`, `scope`
+
+### Advanced
+
+`courteous`, `scrutiny`, `discretion`, `abstraction`, `demonstrate`, `consensus`, `reproduce`
 
 ## Input
 
@@ -23,115 +58,72 @@ term: "feedback"
 type: "word" # word | phrase
 ```
 
-## Difficulty Eval
-
-1. Cambridge Dictionary、Oxford 3000 / 5000からCEFRを取得する。
-2. CEFRをDifficultyに変換する:
-   - A1-B1: Beginner
-   - B2-C1: Intermediate
-   - C2: Advanced
-
-```text
-CEFR → Difficulty
-```
-
-### Step 1: CEFR の取得
-
-#### word
-
-1. Cambridge Dictionary で CEFR を取得する（`class="epp-xref dxref …"`）。
-2. Oxford Learner's Dictionaries で CEFR を取得する（`cefr="…"`）。
-3. 両方ある場合は一致を確認する。片方しかない場合はその値を採用する。
-4. どちらにも CEFR がない場合は推測する。
-
-#### phrase
-
-1. Oxford Phrase List で CEFR を確認する。
-2. 見つからない場合は Cambridge Dictionary で CEFR を確認する。
-3. どちらにも CEFR がない場合は推測する。
-
-複数の CEFR が付いている場合、または語義ごとにレベルが異なる場合は、**最も高い CEFR** を採用する。
-
-検索結果の要約だけで判断せず、各ページを開いて確認する。
-
-## 判定例
-
-| Term | CEFR | Difficulty |
-| --- | --- | --- |
-| feedback | B2 | **Intermediate** |
-| courteous | C2 | **Advanced** |
-| priority | B2 | **Intermediate** |
-| consensus | C1 | **Intermediate** |
-| clarify | C1 | **Intermediate** |
-| scrutiny | C2 | **Advanced** |
-| critique | C1 | **Intermediate** |
-| isolate | C1 | **Intermediate** |
-| assertion | C1 | **Intermediate** |
-| coverage | B2 | **Intermediate** |
-| reliability | B2 | **Intermediate** |
-| availability | B2 | **Intermediate** |
-| capacity | B2 | **Intermediate** |
-| ownership | B2 | **Intermediate** |
-
-### feedback
-
-```text
-Cambridge: B2
-→ Intermediate
-```
-
-### courteous
-
-```text
-Cambridge: C2
-→ Advanced
-```
-
-### clarify
-
-```text
-Cambridge: C1
-→ Intermediate
-```
-
 ## Output
 
 ```yaml
 term: "feedback"
 type: "word"
-difficulty: "Intermediate"
-cefr:
-  cambridge: "B2"
-  oxford: "B2"
-  adopted: "B2"
-  method: "both"
-sources:
-  - role: cefrPrimary
-    title: "FEEDBACK | English meaning - Cambridge Dictionary"
-    url: "https://dictionary.cambridge.org/dictionary/english/feedback"
-  - role: cefrCrossCheck
-    title: "feedback verb - Oxford Learners Dictionaries"
-    url: "https://www.oxfordlearnersdictionaries.com/definition/english/feedback"
-confidence: "High"
-notes: "B2 → Intermediate"
+reasoning:
+  generalFamiliarity: high
+  engineerFamiliarity: high
+  contextualLearningNeeded: low
+  nearestAnchors: [feedback, deadline]
+difficulty: Beginner
+confidence: High
+notes: "一般語として広く知られ、エンジニア文脈でもカタカナ語感覚で理解しやすい。"
+```
+
+```yaml
+term: "courteous"
+type: "word"
+reasoning:
+  generalFamiliarity: low
+  engineerFamiliarity: low
+  contextualLearningNeeded: high
+  nearestAnchors: [courteous, scrutiny]
+difficulty: Advanced
+confidence: High
+notes: "日常会話では uncommon。丁寧さのニュアンスを知らないと使い分けにくい。"
+```
+
+```yaml
+term: "clarify"
+type: "word"
+reasoning:
+  generalFamiliarity: medium
+  engineerFamiliarity: medium
+  contextualLearningNeeded: medium
+  nearestAnchors: [clarify, defer]
+difficulty: Intermediate
+confidence: High
+notes: "一般語だが、実務では要件・仕様を明確にする用法の習得が必要。"
 ```
 
 ## Confidence
 
-- `High`: CEFR が Cambridge または Oxford で確認できた。
-- `Medium`: CEFR は片方のみ、または CEFR がなく推測した。
-- `Low`: CEFR が確認できず推測に頼った。理由を `notes` に記録する。
+- `High`: 3 観点が一貫し、アンカー群との近さが明確。
+- `Medium`: 2 観点で迷いがあるが、アンカー比較で決められる。
+- `Low`: 観点が割れ、アンカー間でも判断が分かれる。`notes` に理由を記録する。
 
-## アルゴリズム検証
+## 回帰 Eval
 
-新規ルール導入時は、個々の単語を人間判定するのではなく、代表語20件程度でアルゴリズム自体の妥当性を検証する。
+ルール変更時は、アンカー例と代表語（約 20 件）で回帰確認する。
 
-検証用語の例: `feedback`, `scope`, `deploy`, `clarify`, `courteous`, `scrutiny`, `priority`, `consensus`
+| 区分 | 語 |
+| --- | --- |
+| アンカー | 上記 Beginner / Intermediate / Advanced 各群 |
+| 既知の不整合候補 | `critique`, `replace`, `isolate`, `assertion`, `coverage`, `availability`, `reliability`, `capacity`, `ownership` |
 
-## 日本人エンジニアへの馴染みについて
-
-「日本人エンジニアには簡単」という観点は Difficulty とは別軸です。将来的に `familiarityJa` などの別属性として扱うことを想定しています。
+Eval スクリプト: `evals/difficulty/poc_anchor.py`
 
 ## Vocabulary への反映
 
-Eval 結果の `difficulty` を Vocabulary の Front Matter に転記する。Eval 用の `cefr` は調査の中間出力として残し、Vocabulary の `source` には引き続き Engineering 一次資料のみを記録する（[researching-vocabulary](.agents/skills/researching-vocabulary/SKILL.md) に従う）。
+Eval 結果の `difficulty` を Vocabulary の Front Matter に転記する。  
+`reasoning` は Eval の中間出力として残してよいが、Vocabulary 本体には載せない。  
+`source` には引き続き Engineering 一次資料のみを記録する（[researching-vocabulary](.agents/skills/researching-vocabulary/SKILL.md) に従う）。
+
+## やらないこと
+
+- CEFR / TOEIC / 外部語彙リストを正解ラベルとして使う
+- 観点を数値スコア化して機械的に足し合わせる
+- 外部データ未取得を理由に判定をスキップする（アンカー比較で決める）
