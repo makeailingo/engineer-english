@@ -1,55 +1,60 @@
 ---
 name: evaluating-difficulty
-description: 固定の判断基準と代表例に基づき Vocabulary の difficulty を判定する。Vocabulary の作成・更新前に使用する。
+description: 2観点の評価と固定決定表で Vocabulary の difficulty を判定する。Vocabulary の作成・更新前に使用する。
 ---
 
 # Evaluating Difficulty
 
 外部データ（CEFR、TOEIC リスト等）を正解ラベルとしては使わない。  
-**固定の判断基準と代表例** に基づき、理由を構造化してから Difficulty を決める。
+AI は **2つの観点だけ** を評価し、**Difficulty は固定決定表** で決める。
 
-## Difficulty 定義
+## 判断観点（2つ）
 
-| Difficulty | 目安 |
-| --- | --- |
-| Beginner | 一般的な英語、または日本人エンジニアが日常的に目にする語で、意味を推測しやすい |
-| Intermediate | 一般語だが実務での意味・使い方に学習価値がある。または技術文脈で頻出だが、自然な英語としては少し難しい |
-| Advanced | 一般的に難しい語、抽象度が高い語、または意味・ニュアンスを知らないと推測しにくい |
-
-## 判断観点（3つ）
-
-各観点を **low / medium / high** で短く評価する。数値化しない。
+各観点を **low / medium / high** で評価する。
 
 | 観点 | 問い |
 | --- | --- |
-| `generalFamiliarity` | 一般英語として、意味を推測しやすいか |
-| `engineerFamiliarity` | 日本人ソフトウェアエンジニアが既知である可能性が高いか |
-| `contextualLearningNeeded` | 実務文脈で意味・用法を学ぶ必要があるか |
+| `generalFamiliarity` | 一般的な英語として、意味を推測しやすいか |
+| `engineerFamiliarity` | 日本人ソフトウェアエンジニアが、英単語として意味を理解している可能性が高いか |
+
+## 決定表（Difficulty）
+
+観点評価のあと、次の表だけで Difficulty を決める。例外解釈はしない。
+
+| 条件 | Difficulty |
+| --- | --- |
+| `generalFamiliarity` = high **かつ** `engineerFamiliarity` ≠ low | Beginner |
+| `generalFamiliarity` = low **かつ** `engineerFamiliarity` = low | Advanced |
+| 上記以外 | Intermediate |
+
+## 代表例（キャリブレーション）
+
+代表例は **観点評価の基準** として使う。Difficulty を直接決めない。
+
+`generalFamiliarity` の代表例:
+
+| 値 | 代表例 |
+| --- | --- |
+| high | `feedback`, `deadline`, `replace` |
+| medium | `clarify`, `mandatory`, `defer` |
+| low | `courteous`, `scrutiny`, `discretion` |
+
+境界語（例: `trade-off`）は代表例に入れない。
 
 ## 判定手順
 
-1. 上記 3 観点を評価する（`reasoning` に記録）。
-2. 代表例と比較し、**最も近い Difficulty の語群**を選ぶ。
-3. その Difficulty を採用する。
-4. 迷う場合は **高い方** を選ぶ（理解に必要な知識が多い側）。
+1. 代表例を参考に `generalFamiliarity` を評価する。
+2. 代表例を参考に `engineerFamiliarity` を評価する。
+3. **決定表** で Difficulty を決める。
+4. `confidence` を付与する。
+5. 必要なら `contextualLearningNeeded` を記録する（Difficulty 判定には使わない）。
 
-いきなりラベルを出さない。必ず `reasoning` → `difficulty` の順。
+いきなり Difficulty を出さない。必ず `reasoning` → `difficulty` の順。
 
-## 代表例
+## contextualLearningNeeded
 
-新しい語は、どの代表例に最も近いかで比較する。
-
-### Beginner
-
-`feedback`, `deadline`, `replace`, `install`, `query`
-
-### Intermediate
-
-`clarify`, `defer`, `escalate`, `reproduce`, `mandatory`
-
-### Advanced
-
-`courteous`, `scrutiny`, `discretion`
+Difficulty を決める入力には **使わない**。  
+記録のみ。将来の学習価値・収録優先度などに使う。
 
 ## Input
 
@@ -67,23 +72,9 @@ reasoning:
   generalFamiliarity: high
   engineerFamiliarity: high
   contextualLearningNeeded: low
-  nearestExamples: [feedback, deadline]
 difficulty: Beginner
 confidence: High
-notes: "一般語として広く知られ、エンジニア文脈でもカタカナ語感覚で理解しやすい。"
-```
-
-```yaml
-term: "courteous"
-type: "word"
-reasoning:
-  generalFamiliarity: low
-  engineerFamiliarity: low
-  contextualLearningNeeded: high
-  nearestExamples: [courteous, scrutiny]
-difficulty: Advanced
-confidence: High
-notes: "日常会話では uncommon。丁寧さのニュアンスを知らないと使い分けにくい。"
+notes: "一般語として広く知られ、エンジニア文脈でも理解しやすい。"
 ```
 
 ```yaml
@@ -93,32 +84,48 @@ reasoning:
   generalFamiliarity: medium
   engineerFamiliarity: medium
   contextualLearningNeeded: medium
-  nearestExamples: [clarify, defer]
 difficulty: Intermediate
 confidence: High
-notes: "一般語だが、実務では要件・仕様を明確にする用法の習得が必要。"
+notes: "一般語だが実務での用法に学習価値がある。代表例 mandatory/defer に近い。"
+```
+
+```yaml
+term: "courteous"
+type: "word"
+reasoning:
+  generalFamiliarity: low
+  engineerFamiliarity: low
+  contextualLearningNeeded: high
+difficulty: Advanced
+confidence: High
+notes: "日常会話では uncommon。代表例 scrutiny/discretion と同クラス。"
 ```
 
 ## Confidence
 
-- `High`: 3 観点が一貫し、代表例との近さが明確。
-- `Medium`: 2 観点で迷いがあるが、代表例の比較で決められる。
-- `Low`: 観点が割れ、代表例間でも判断が分かれる。`notes` に理由を記録する。
+- `High`: 2観点と代表例から明確に評価できる。
+- `Medium`: どちらかの観点が境界的だが、決定表で判定できる。
+- `Low`: `generalFamiliarity` / `engineerFamiliarity` 自体の評価に迷う。
+
+`confidence` が Low でも、Difficulty は決定表に従って出す。`notes` に迷いを記録する。
 
 ## 回帰確認
 
-判断基準や代表例を変更したときは、代表例と既知の不整合候補を含む約 100 語で回帰確認する。
+判断基準や決定表を変更したときは、約 100 語で回帰確認する。
+
+- **Golden Cases**（明らかな期待値）が決定表どおりか
+- **前回 baseline との差分**（何語が Beginner → Intermediate など）
 
 回帰スクリプト: `evals/difficulty/run_regression.py`
 
 ## Vocabulary への反映
 
 Eval 結果の `difficulty` を Vocabulary の Front Matter に転記する。  
-`reasoning` は Eval の中間出力として残してよいが、Vocabulary 本体には載せない。  
-`source` には引き続き Engineering 一次資料のみを記録する（[researching-vocabulary](.agents/skills/researching-vocabulary/SKILL.md) に従う）。
+`reasoning` は Eval の中間出力として残してよいが、Vocabulary 本体には載せない。
 
 ## やらないこと
 
 - CEFR / TOEIC / 外部語彙リストを正解ラベルとして使う
-- 観点を数値化して機械的に足し合わせる
-- 外部データ未取得を理由に判定をスキップする（代表例との比較で決める）
+- 代表例との類似度で Difficulty を直接決める
+- `contextualLearningNeeded` を Difficulty 判定に使う
+- 迷ったら高い方を選ぶ

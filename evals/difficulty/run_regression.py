@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""100語回帰: Skill 判断基準に沿った expected と現行 Vocabulary を比較する。"""
+"""100語回帰: Golden Cases 検証 + baseline 差分 + Vocabulary 比較。"""
 
 from __future__ import annotations
 
@@ -10,30 +10,21 @@ from pathlib import Path
 
 EVAL_DIR = Path(__file__).parent
 EXPECTED = EVAL_DIR / "regression_expected.json"
+BASELINE = EVAL_DIR / "regression_baseline.json"
 VOCAB = EVAL_DIR.parents[1] / "docs" / "vocabulary"
 
-# 代表例（Skill と同一。現行 Vocabulary の difficulty が正しいことを確認）
-REFERENCE_TERMS = {
+LEVELS = ("Beginner", "Intermediate", "Advanced")
+
+# 明らかな期待値（境界語は含めない）
+GOLDEN_CASES: dict[str, str] = {
     "feedback": "Beginner",
     "deadline": "Beginner",
-    "replace": "Beginner",
-    "install": "Beginner",
-    "query": "Beginner",
     "clarify": "Intermediate",
     "defer": "Intermediate",
-    "escalate": "Intermediate",
-    "reproduce": "Intermediate",
-    "mandatory": "Intermediate",
     "courteous": "Advanced",
     "scrutiny": "Advanced",
     "discretion": "Advanced",
 }
-
-# 既知の不整合候補
-MISJUDGMENT_CANDIDATES = [
-    "critique", "replace", "reproduce", "isolate", "assertion",
-    "coverage", "availability", "reliability", "capacity", "ownership",
-]
 
 
 def load_vocab() -> dict[str, str]:
@@ -47,12 +38,43 @@ def load_vocab() -> dict[str, str]:
     return out
 
 
+def load_difficulties(path: Path) -> dict[str, str]:
+    data = json.loads(path.read_text(encoding="utf-8"))
+    out: dict[str, str] = {}
+    for term, entry in data.items():
+        if isinstance(entry, str):
+            out[term] = entry
+        else:
+            out[term] = entry["difficulty"]
+    return out
+
+
+def transition_report(baseline: dict[str, str], current: dict[str, str]) -> list[str]:
+    lines: list[str] = []
+    changes: dict[tuple[str, str], list[str]] = {}
+
+    for term in sorted(current.keys()):
+        old = baseline.get(term)
+        new = current[term]
+        if old and old != new:
+            changes.setdefault((old, new), []).append(term)
+
+    lines.append("## baseline からの変化")
+    if not changes:
+        lines.append("  （変化なし）")
+    else:
+        for (old, new), terms in sorted(changes.items()):
+            lines.append(f"  {old} → {new}: {len(terms)}語")
+            lines.append(f"    {', '.join(terms)}")
+    return lines
+
+
 def main() -> int:
     if not EXPECTED.exists():
         print(f"Missing {EXPECTED}", file=sys.stderr)
         return 1
 
-    expected: dict[str, dict] = json.loads(EXPECTED.read_text(encoding="utf-8"))
+    expected = load_difficulties(EXPECTED)
     vocab = load_vocab()
 
     if len(expected) != 100:
@@ -62,32 +84,40 @@ def main() -> int:
         print(f"FAIL: vocabulary {len(vocab)} terms, need 100")
         return 1
 
-    mismatches = []
-    for term, entry in sorted(expected.items()):
-        exp = entry["difficulty"]
-        cur = vocab.get(term)
-        if cur != exp:
-            mismatches.append({"term": term, "current": cur, "expected": exp})
+    golden_ok = [t for t, exp in GOLDEN_CASES.items() if expected.get(t) == exp]
+    golden_ng = [(t, expected.get(t), exp) for t, exp in GOLDEN_CASES.items() if expected.get(t) != exp]
 
-    ref_ok = [t for t, exp in REFERENCE_TERMS.items() if vocab.get(t) == exp]
-    ref_ng = [(t, vocab.get(t), exp) for t, exp in REFERENCE_TERMS.items() if vocab.get(t) != exp]
-
-    flagged_hit = [m["term"] for m in mismatches if m["term"] in MISJUDGMENT_CANDIDATES]
+    vocab_mismatches = [
+        {"term": t, "current": vocab[t], "expected": expected[t]}
+        for t in sorted(expected.keys())
+        if vocab.get(t) != expected[t]
+    ]
 
     print("=== Difficulty 回帰（100語）===\n")
-    print(f"expected 語数: {len(expected)}")
-    print(f"現行と不一致: {len(mismatches)}/100")
-    print(f"代表例 Vocabulary 一致: {len(ref_ok)}/{len(REFERENCE_TERMS)}")
-    if ref_ng:
-        print(f"  代表例 NG: {ref_ng}")
-    print(f"不整合候補 検出: {len(flagged_hit)}/{len(MISJUDGMENT_CANDIDATES)}")
-    print(f"  → {flagged_hit}")
+    for level in LEVELS:
+        n = sum(1 for d in expected.values() if d == level)
+        print(f"{level}: {n}語")
 
-    print("\n## 不一致一覧")
-    for m in mismatches:
-        print(f"  {m['term']:20} current={m['current']:12} expected={m['expected']}")
+    print(f"\nGolden Cases: {len(golden_ok)}/{len(GOLDEN_CASES)}")
+    if golden_ng:
+        print(f"  NG: {golden_ng}")
 
-    ok = len(expected) == 100 and len(flagged_hit) >= 8
+    print(f"現行 Vocabulary 不一致: {len(vocab_mismatches)}/100")
+
+    if BASELINE.exists():
+        baseline = load_difficulties(BASELINE)
+        for line in transition_report(baseline, expected):
+            print(line)
+    else:
+        print("\n## baseline からの変化")
+        print("  （regression_baseline.json なし）")
+
+    if vocab_mismatches:
+        print("\n## Vocabulary 不一致")
+        for m in vocab_mismatches:
+            print(f"  {m['term']:20} current={m['current']:12} expected={m['expected']}")
+
+    ok = len(expected) == 100 and len(golden_ng) == 0
     print(f"\n=== {'PASS' if ok else 'FAIL'} ===")
     return 0 if ok else 1
 
