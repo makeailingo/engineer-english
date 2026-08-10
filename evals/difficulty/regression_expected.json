@@ -1,6 +1,7 @@
 {
   "abort": {
-    "difficulty": "Intermediate",
+    "term": "abort",
+    "type": "word",
     "reasoning": {
       "generalFamiliarity": "medium",
       "engineerFamiliarity": "high",
@@ -9,10 +10,14 @@
         "dispatch",
         "defer"
       ]
-    }
+    },
+    "difficulty": "Intermediate",
+    "confidence": "High",
+    "notes": "中断・中止は技術文脈（abort 処理）で dispatch/defer と同様に実務用法の習得が必要。"
   },
   "abstraction": {
-    "difficulty": "Advanced",
+    "term": "abstraction",
+    "type": "word",
     "reasoning": {
       "generalFamiliarity": "medium",
       "engineerFamiliarity": "high",
@@ -21,10 +26,14 @@
         "abstraction",
         "demonstrate"
       ]
-    }
+    },
+    "difficulty": "Advanced",
+    "confidence": "High",
+    "notes": "抽象化は代表例どおり demonstrate と並び、概念の抽象度が高く文脈学習が必要。"
   },
   "approach": {
-    "difficulty": "Beginner",
+    "term": "approach",
+    "type": "word",
     "reasoning": {
       "generalFamiliarity": "high",
       "engineerFamiliarity": "high",
@@ -33,10 +42,14 @@
         "approach",
         "feedback"
       ]
-    }
+    },
+    "difficulty": "Beginner",
+    "confidence": "High",
+    "notes": "進め方・方針の一般語で、feedback と同様に実務でも意味が直感的に推測できる。"
   },
   "approval": {
-    "difficulty": "Beginner",
+    "term": "approval",
+    "type": "word",
     "reasoning": {
       "generalFamiliarity": "high",
       "engineerFamiliarity": "medium",
@@ -45,10 +58,14 @@
         "feedback",
         "deadline"
       ]
-    }
+    },
+    "difficulty": "Beginner",
+    "confidence": "High",
+    "notes": "承認という日常語で、deadline ほど頻出ではないが文脈から意味を推測しやすい。"
   },
   "assertion": {
-    "difficulty": "Intermediate",
+    "term": "assertion",
+    "type": "word",
     "reasoning": {
       "generalFamiliarity": "low",
       "engineerFamiliarity": "medium",
@@ -57,10 +74,14 @@
         "regression",
         "constraint"
       ]
-    }
+    },
+    "difficulty": "Intermediate",
+    "confidence": "Medium",
+    "notes": "アサーションはテスト文脈で regression/constraint に近く、一般語としてはやや専門的。"
   },
   "authenticate": {
-    "difficulty": "Advanced",
+    "term": "authenticate",
+    "type": "word",
     "reasoning": {
       "generalFamiliarity": "medium",
       "engineerFamiliarity": "high",
@@ -69,10 +90,14 @@
         "demonstrate",
         "abstraction"
       ]
-    }
+    },
+    "difficulty": "Advanced",
+    "confidence": "High",
+    "notes": "認証は demonstrate/abstraction と同クラスで、セキュリティ文脈のニュアンス習得が必要。"
   },
   "availability": {
-    "difficulty": "Intermediate",
+    "term": "availability",
+    "type": "word",
     "reasoning": {
       "generalFamiliarity": "medium",
       "engineerFamiliarity": "high",
@@ -81,10 +106,14 @@
         "scope",
         "defer"
       ]
-    }
+    },
+    "difficulty": "Intermediate",
+    "confidence": "Medium",
+    "notes": "可用性は SRE 文脈で scope/defer と並び、一般語より実務での意味理解が重要。"
   },
   "bypass": {
-    "difficulty": "Intermediate",
+    "term": "bypass",
+    "type": "word",
     "reasoning": {
       "generalFamiliarity": "medium",
       "engineerFamiliarity": "medium",
@@ -93,10 +122,14 @@
         "defer",
         "dispatch"
       ]
-    }
+    },
+    "difficulty": "Intermediate",
+    "confidence": "Medium",
+    "notes": "迂回・回避は defer/dispatch と同クラスで、実務での使い方に学習価値がある。"
   },
   "capacity": {
-    "difficulty": "Intermediate",
+    "term": "capacity",
+    "type": "word",
     "reasoning": {
       "generalFamiliarity": "medium",
       "engineerFamiliarity": "medium",
@@ -105,10 +138,14 @@
         "scope",
         "defer"
       ]
-    }
+    },
+    "difficulty": "Intermediate",
+    "confidence": "Medium",
+    "notes": "容量・キャパシティは scope/defer と並び、一般語だが実務文脈での意味習得が必要。"
   },
   "clarify": {
-    "difficulty": "Intermediate",
+    "term": "clarify",
+    "type": "word",
     "reasoning": {
       "generalFamiliarity": "medium",
       "engineerFamiliarity": "medium",
@@ -117,10 +154,14 @@
         "clarify",
         "defer"
       ]
-    }
+    },
+    "difficulty": "Intermediate",
+    "confidence": "High",
+    "notes": "一般語だが、実務では要件・仕様を明確にする用法の習得が必要。"
   },
   "clone": {
-    "difficulty": "Intermediate",
+    "term": "clone",
+    "type": "word",
     "reasoning": {
       "generalFamiliarity": "medium",
       "engineerFamiliarity": "high",
@@ -129,10 +170,14 @@
         "dispatch",
         "defer"
       ]
-    }
+    },
+    "difficulty": "Intermediate",
+    "confidence": "High",
+    "notes": "Git の clone は dispatch/defer と同様に技術文脈で頻出だが、一般英語としてはやや限定的。"
   },
   "collaborate": {
-    "difficulty": "Intermediate",
+    "term": "collaborate",
+    "type": "word",
     "reasoning": {
       "generalFamiliarity": "medium",
       "engineerFamiliarity": "medium",
@@ -141,10 +186,14 @@
         "clarify",
         "defer"
       ]
-    }
+    },
+    "difficulty": "Intermediate",
+    "confidence": "Medium",
+    "notes": "協力は一般語だが、実務では clarify/defer と同様にチーム文脈の用法を学ぶ価値がある。"
   },
   "communication": {
-    "difficulty": "Beginner",
+    "term": "communication",
+    "type": "word",
     "reasoning": {
       "generalFamiliarity": "high",
       "engineerFamiliarity": "high",
@@ -153,10 +202,14 @@
         "feedback",
         "approach"
       ]
-    }
+    },
+    "difficulty": "Beginner",
+    "confidence": "High",
+    "notes": "コミュニケーションは広く知られ、エンジニア会話でも feedback と同クラスの基本語。"
   },
   "complexity": {
-    "difficulty": "Advanced",
+    "term": "complexity",
+    "type": "word",
     "reasoning": {
       "generalFamiliarity": "medium",
       "engineerFamiliarity": "high",
@@ -165,10 +218,14 @@
         "abstraction",
         "demonstrate"
       ]
-    }
+    },
+    "difficulty": "Advanced",
+    "confidence": "High",
+    "notes": "複雑性は abstraction/demonstrate と並び、抽象度が高く実務での意味・用法を深く学ぶ必要がある。"
   },
   "compress": {
-    "difficulty": "Intermediate",
+    "term": "compress",
+    "type": "word",
     "reasoning": {
       "generalFamiliarity": "medium",
       "engineerFamiliarity": "medium",
@@ -177,10 +234,14 @@
         "defer",
         "scope"
       ]
-    }
+    },
+    "difficulty": "Intermediate",
+    "confidence": "Medium",
+    "notes": "圧縮は一般語だが、実務では defer/scope と同様に技術文脈での使い分けが必要。"
   },
   "consensus": {
-    "difficulty": "Advanced",
+    "term": "consensus",
+    "type": "word",
     "reasoning": {
       "generalFamiliarity": "low",
       "engineerFamiliarity": "medium",
@@ -189,10 +250,14 @@
         "consensus",
         "discretion"
       ]
-    }
+    },
+    "difficulty": "Advanced",
+    "confidence": "High",
+    "notes": "合意形成は代表例 discretion と並び、一般語としてはやや難しくニュアンス習得が必要。"
   },
   "constraint": {
-    "difficulty": "Intermediate",
+    "term": "constraint",
+    "type": "word",
     "reasoning": {
       "generalFamiliarity": "medium",
       "engineerFamiliarity": "medium",
@@ -201,10 +266,14 @@
         "constraint",
         "scope"
       ]
-    }
+    },
+    "difficulty": "Intermediate",
+    "confidence": "High",
+    "notes": "制約は代表例どおり設計・要件文脈で scope と並び、実務用法の習得が必要。"
   },
   "constructive": {
-    "difficulty": "Intermediate",
+    "term": "constructive",
+    "type": "word",
     "reasoning": {
       "generalFamiliarity": "medium",
       "engineerFamiliarity": "medium",
@@ -213,10 +282,14 @@
         "clarify",
         "defer"
       ]
-    }
+    },
+    "difficulty": "Intermediate",
+    "confidence": "Medium",
+    "notes": "建設的は一般語だが、フィードバック文脈では clarify/defer と同様に実務ニュアンスの学習が必要。"
   },
   "correctness": {
-    "difficulty": "Advanced",
+    "term": "correctness",
+    "type": "word",
     "reasoning": {
       "generalFamiliarity": "low",
       "engineerFamiliarity": "medium",
@@ -225,10 +298,14 @@
         "abstraction",
         "demonstrate"
       ]
-    }
+    },
+    "difficulty": "Advanced",
+    "confidence": "High",
+    "notes": "正当性・正しさは abstraction/demonstrate と並び、形式的手法の文脈で抽象度が高い。"
   },
   "courteous": {
-    "difficulty": "Advanced",
+    "term": "courteous",
+    "type": "word",
     "reasoning": {
       "generalFamiliarity": "low",
       "engineerFamiliarity": "low",
@@ -237,10 +314,14 @@
         "courteous",
         "scrutiny"
       ]
-    }
+    },
+    "difficulty": "Advanced",
+    "confidence": "High",
+    "notes": "日常会話では uncommon。丁寧さのニュアンスを知らないと使い分けにくい。"
   },
   "coverage": {
-    "difficulty": "Intermediate",
+    "term": "coverage",
+    "type": "word",
     "reasoning": {
       "generalFamiliarity": "medium",
       "engineerFamiliarity": "high",
@@ -249,10 +330,14 @@
         "regression",
         "scope"
       ]
-    }
+    },
+    "difficulty": "Intermediate",
+    "confidence": "Medium",
+    "notes": "カバレッジはテスト文脈で regression/scope に近く、一般語より実務意味の理解が重要。"
   },
   "criterion": {
-    "difficulty": "Intermediate",
+    "term": "criterion",
+    "type": "word",
     "reasoning": {
       "generalFamiliarity": "medium",
       "engineerFamiliarity": "medium",
@@ -261,10 +346,14 @@
         "constraint",
         "scope"
       ]
-    }
+    },
+    "difficulty": "Intermediate",
+    "confidence": "Medium",
+    "notes": "基準は constraint/scope と並ぶ設計語で、一般語だが実務文脈での用法習得が必要。"
   },
   "critique": {
-    "difficulty": "Intermediate",
+    "term": "critique",
+    "type": "word",
     "reasoning": {
       "generalFamiliarity": "medium",
       "engineerFamiliarity": "medium",
@@ -273,10 +362,14 @@
         "clarify",
         "escalate"
       ]
-    }
+    },
+    "difficulty": "Intermediate",
+    "confidence": "Medium",
+    "notes": "批評は clarify/escalate と同クラスで、一般語だがレビュー文脈での使い方に学習価値がある。"
   },
   "deadline": {
-    "difficulty": "Beginner",
+    "term": "deadline",
+    "type": "word",
     "reasoning": {
       "generalFamiliarity": "high",
       "engineerFamiliarity": "high",
@@ -285,10 +378,14 @@
         "deadline",
         "feedback"
       ]
-    }
+    },
+    "difficulty": "Beginner",
+    "confidence": "High",
+    "notes": "期限は代表例どおり一般・実務ともに高頻度で、feedback と並ぶ Beginner 基準語。"
   },
   "deadlock": {
-    "difficulty": "Intermediate",
+    "term": "deadlock",
+    "type": "word",
     "reasoning": {
       "generalFamiliarity": "low",
       "engineerFamiliarity": "high",
@@ -297,10 +394,14 @@
         "regression",
         "constraint"
       ]
-    }
+    },
+    "difficulty": "Intermediate",
+    "confidence": "High",
+    "notes": "デッドロックは一般語としては専門的だが、エンジニアには regression/constraint と並ぶ頻出語。"
   },
   "decompose": {
-    "difficulty": "Intermediate",
+    "term": "decompose",
+    "type": "word",
     "reasoning": {
       "generalFamiliarity": "medium",
       "engineerFamiliarity": "medium",
@@ -309,10 +410,14 @@
         "defer",
         "scope"
       ]
-    }
+    },
+    "difficulty": "Intermediate",
+    "confidence": "Medium",
+    "notes": "分解は設計文脈で defer/scope と同様に、一般語だが実務での意味・用法を学ぶ必要がある。"
   },
   "decrypt": {
-    "difficulty": "Intermediate",
+    "term": "decrypt",
+    "type": "word",
     "reasoning": {
       "generalFamiliarity": "medium",
       "engineerFamiliarity": "high",
@@ -321,10 +426,14 @@
         "dispatch",
         "defer"
       ]
-    }
+    },
+    "difficulty": "Intermediate",
+    "confidence": "High",
+    "notes": "復号はセキュリティ文脈で dispatch/defer と同クラスの技術語で、実務用法の習得が必要。"
   },
   "defer": {
-    "difficulty": "Intermediate",
+    "term": "defer",
+    "type": "word",
     "reasoning": {
       "generalFamiliarity": "medium",
       "engineerFamiliarity": "medium",
@@ -333,10 +442,14 @@
         "defer",
         "clarify"
       ]
-    }
+    },
+    "difficulty": "Intermediate",
+    "confidence": "High",
+    "notes": "延期・委譲は代表例どおり clarify と並び、実務文脈での用法習得が必要。"
   },
   "demonstrate": {
-    "difficulty": "Advanced",
+    "term": "demonstrate",
+    "type": "word",
     "reasoning": {
       "generalFamiliarity": "medium",
       "engineerFamiliarity": "medium",
@@ -345,10 +458,14 @@
         "demonstrate",
         "abstraction"
       ]
-    }
+    },
+    "difficulty": "Advanced",
+    "confidence": "High",
+    "notes": "実証・示すは代表例 abstraction と並び、技術文書での抽象的使用に学習価値がある。"
   },
   "dependency": {
-    "difficulty": "Intermediate",
+    "term": "dependency",
+    "type": "word",
     "reasoning": {
       "generalFamiliarity": "medium",
       "engineerFamiliarity": "high",
@@ -357,10 +474,14 @@
         "scope",
         "constraint"
       ]
-    }
+    },
+    "difficulty": "Intermediate",
+    "confidence": "High",
+    "notes": "依存関係は scope/constraint と並ぶ設計語で、エンジニア文脈での意味理解が重要。"
   },
   "deploy": {
-    "difficulty": "Intermediate",
+    "term": "deploy",
+    "type": "word",
     "reasoning": {
       "generalFamiliarity": "medium",
       "engineerFamiliarity": "high",
@@ -369,10 +490,14 @@
         "dispatch",
         "defer"
       ]
-    }
+    },
+    "difficulty": "Intermediate",
+    "confidence": "High",
+    "notes": "デプロイは dispatch/defer と同様に実務頻出だが、一般英語としてはやや限定的。"
   },
   "diagnose": {
-    "difficulty": "Advanced",
+    "term": "diagnose",
+    "type": "word",
     "reasoning": {
       "generalFamiliarity": "medium",
       "engineerFamiliarity": "medium",
@@ -381,10 +506,14 @@
         "demonstrate",
         "scrutiny"
       ]
-    }
+    },
+    "difficulty": "Advanced",
+    "confidence": "Medium",
+    "notes": "診断は demonstrate/scrutiny と並び、障害分析文脈で scrutiny ほどではないが抽象用法がある。"
   },
   "discretion": {
-    "difficulty": "Advanced",
+    "term": "discretion",
+    "type": "word",
     "reasoning": {
       "generalFamiliarity": "low",
       "engineerFamiliarity": "low",
@@ -393,10 +522,14 @@
         "discretion",
         "scrutiny"
       ]
-    }
+    },
+    "difficulty": "Advanced",
+    "confidence": "High",
+    "notes": "裁量・慎重さは代表例 scrutiny と並び、一般語としては uncommon でニュアンス習得が必要。"
   },
   "dispatch": {
-    "difficulty": "Intermediate",
+    "term": "dispatch",
+    "type": "word",
     "reasoning": {
       "generalFamiliarity": "medium",
       "engineerFamiliarity": "medium",
@@ -405,10 +538,14 @@
         "dispatch",
         "defer"
       ]
-    }
+    },
+    "difficulty": "Intermediate",
+    "confidence": "High",
+    "notes": "派遣・送出は代表例どおり defer と並び、実務文脈での用法習得が必要。"
   },
   "encrypt": {
-    "difficulty": "Intermediate",
+    "term": "encrypt",
+    "type": "word",
     "reasoning": {
       "generalFamiliarity": "medium",
       "engineerFamiliarity": "high",
@@ -417,10 +554,14 @@
         "dispatch",
         "defer"
       ]
-    }
+    },
+    "difficulty": "Intermediate",
+    "confidence": "High",
+    "notes": "暗号化は dispatch/defer と同クラスのセキュリティ語で、実務用法の習得が必要。"
   },
   "enforce": {
-    "difficulty": "Intermediate",
+    "term": "enforce",
+    "type": "word",
     "reasoning": {
       "generalFamiliarity": "medium",
       "engineerFamiliarity": "medium",
@@ -429,10 +570,14 @@
         "constraint",
         "defer"
       ]
-    }
+    },
+    "difficulty": "Intermediate",
+    "confidence": "Medium",
+    "notes": "強制・適用は constraint/defer と並び、ポリシー文脈での実務用法を学ぶ価値がある。"
   },
   "escalate": {
-    "difficulty": "Intermediate",
+    "term": "escalate",
+    "type": "word",
     "reasoning": {
       "generalFamiliarity": "medium",
       "engineerFamiliarity": "medium",
@@ -441,10 +586,14 @@
         "escalate",
         "defer"
       ]
-    }
+    },
+    "difficulty": "Intermediate",
+    "confidence": "High",
+    "notes": "エスカレーションは代表例どおり defer と並び、実務でのエスカレーション用法の習得が必要。"
   },
   "expectations": {
-    "difficulty": "Intermediate",
+    "term": "expectations",
+    "type": "word",
     "reasoning": {
       "generalFamiliarity": "medium",
       "engineerFamiliarity": "medium",
@@ -453,10 +602,14 @@
         "scope",
         "clarify"
       ]
-    }
+    },
+    "difficulty": "Intermediate",
+    "confidence": "Medium",
+    "notes": "期待値は scope/clarify と同クラスで、要件・合意文脈での実務用法を学ぶ必要がある。"
   },
   "failure": {
-    "difficulty": "Beginner",
+    "term": "failure",
+    "type": "word",
     "reasoning": {
       "generalFamiliarity": "high",
       "engineerFamiliarity": "high",
@@ -465,10 +618,14 @@
         "failure",
         "approach"
       ]
-    }
+    },
+    "difficulty": "Beginner",
+    "confidence": "High",
+    "notes": "失敗・故障は一般語で、approach と同様に障害対応文脈でも直感理解できる。"
   },
   "feedback": {
-    "difficulty": "Beginner",
+    "term": "feedback",
+    "type": "word",
     "reasoning": {
       "generalFamiliarity": "high",
       "engineerFamiliarity": "high",
@@ -477,10 +634,14 @@
         "feedback",
         "deadline"
       ]
-    }
+    },
+    "difficulty": "Beginner",
+    "confidence": "High",
+    "notes": "一般語として広く知られ、エンジニア文脈でもカタカナ語感覚で理解しやすい。"
   },
   "fetch": {
-    "difficulty": "Beginner",
+    "term": "fetch",
+    "type": "word",
     "reasoning": {
       "generalFamiliarity": "medium",
       "engineerFamiliarity": "high",
@@ -489,10 +650,14 @@
         "fetch",
         "query"
       ]
-    }
+    },
+    "difficulty": "Beginner",
+    "confidence": "High",
+    "notes": "HTTP の fetch は技術入門語だが、query と並ぶ代表例どおり意味は推測しやすい。"
   },
   "functionality": {
-    "difficulty": "Advanced",
+    "term": "functionality",
+    "type": "word",
     "reasoning": {
       "generalFamiliarity": "low",
       "engineerFamiliarity": "medium",
@@ -501,10 +666,14 @@
         "abstraction",
         "demonstrate"
       ]
-    }
+    },
+    "difficulty": "Advanced",
+    "confidence": "High",
+    "notes": "機能性は abstraction/demonstrate と並び、一般語としてはやや堅く抽象度が高い。"
   },
   "implementation": {
-    "difficulty": "Intermediate",
+    "term": "implementation",
+    "type": "word",
     "reasoning": {
       "generalFamiliarity": "medium",
       "engineerFamiliarity": "high",
@@ -513,10 +682,14 @@
         "scope",
         "defer"
       ]
-    }
+    },
+    "difficulty": "Intermediate",
+    "confidence": "High",
+    "notes": "実装は scope/defer と並ぶ開発語で、一般語より実務文脈での意味理解が重要。"
   },
   "index": {
-    "difficulty": "Intermediate",
+    "term": "index",
+    "type": "word",
     "reasoning": {
       "generalFamiliarity": "medium",
       "engineerFamiliarity": "high",
@@ -525,10 +698,14 @@
         "query",
         "dispatch"
       ]
-    }
+    },
+    "difficulty": "Intermediate",
+    "confidence": "Medium",
+    "notes": "インデックスは DB 文脈で query/dispatch に近く、一般語より実務での意味習得が必要。"
   },
   "infrastructure": {
-    "difficulty": "Intermediate",
+    "term": "infrastructure",
+    "type": "word",
     "reasoning": {
       "generalFamiliarity": "medium",
       "engineerFamiliarity": "high",
@@ -537,10 +714,14 @@
         "scope",
         "constraint"
       ]
-    }
+    },
+    "difficulty": "Intermediate",
+    "confidence": "High",
+    "notes": "インフラは scope/constraint と並ぶ基盤語で、エンジニア文脈での意味理解が重要。"
   },
   "insert": {
-    "difficulty": "Beginner",
+    "term": "insert",
+    "type": "word",
     "reasoning": {
       "generalFamiliarity": "high",
       "engineerFamiliarity": "high",
@@ -549,10 +730,14 @@
         "query",
         "fetch"
       ]
-    }
+    },
+    "difficulty": "Beginner",
+    "confidence": "High",
+    "notes": "挿入は DB 操作でも日常語でも、query/fetch と同じ入門レベルの動詞。"
   },
   "inspect": {
-    "difficulty": "Intermediate",
+    "term": "inspect",
+    "type": "word",
     "reasoning": {
       "generalFamiliarity": "medium",
       "engineerFamiliarity": "medium",
@@ -561,10 +746,14 @@
         "clarify",
         "defer"
       ]
-    }
+    },
+    "difficulty": "Intermediate",
+    "confidence": "Medium",
+    "notes": "検査・確認は clarify/defer と同クラスで、デバッグ文脈での実務用法を学ぶ価値がある。"
   },
   "install": {
-    "difficulty": "Beginner",
+    "term": "install",
+    "type": "word",
     "reasoning": {
       "generalFamiliarity": "high",
       "engineerFamiliarity": "high",
@@ -573,10 +762,14 @@
         "install",
         "fetch"
       ]
-    }
+    },
+    "difficulty": "Beginner",
+    "confidence": "High",
+    "notes": "インストールは代表例どおり一般・実務ともに高頻度で fetch と同クラス。"
   },
   "interaction": {
-    "difficulty": "Beginner",
+    "term": "interaction",
+    "type": "word",
     "reasoning": {
       "generalFamiliarity": "high",
       "engineerFamiliarity": "medium",
@@ -585,10 +778,14 @@
         "approach",
         "feedback"
       ]
-    }
+    },
+    "difficulty": "Beginner",
+    "confidence": "Medium",
+    "notes": "相互作用は一般語だが実務では UI/API 文脈に限定されがちで、feedback よりやや狭い。"
   },
   "interface": {
-    "difficulty": "Beginner",
+    "term": "interface",
+    "type": "word",
     "reasoning": {
       "generalFamiliarity": "medium",
       "engineerFamiliarity": "high",
@@ -597,10 +794,14 @@
         "query",
         "fetch"
       ]
-    }
+    },
+    "difficulty": "Beginner",
+    "confidence": "High",
+    "notes": "インターフェースは query/fetch と同じ技術入門語で、実務でも日常的に目にする。"
   },
   "invoke": {
-    "difficulty": "Intermediate",
+    "term": "invoke",
+    "type": "word",
     "reasoning": {
       "generalFamiliarity": "medium",
       "engineerFamiliarity": "high",
@@ -609,10 +810,14 @@
         "dispatch",
         "defer"
       ]
-    }
+    },
+    "difficulty": "Intermediate",
+    "confidence": "High",
+    "notes": "呼び出しは dispatch/defer と同様の技術語で、一般英語としてはやや限定的。"
   },
   "isolate": {
-    "difficulty": "Intermediate",
+    "term": "isolate",
+    "type": "word",
     "reasoning": {
       "generalFamiliarity": "medium",
       "engineerFamiliarity": "medium",
@@ -621,10 +826,14 @@
         "clarify",
         "regression"
       ]
-    }
+    },
+    "difficulty": "Intermediate",
+    "confidence": "Medium",
+    "notes": "隔離は regression/clarify と並び、障害切り分け文脈での実務用法の習得が必要。"
   },
   "iterate": {
-    "difficulty": "Advanced",
+    "term": "iterate",
+    "type": "word",
     "reasoning": {
       "generalFamiliarity": "medium",
       "engineerFamiliarity": "medium",
@@ -633,10 +842,14 @@
         "abstraction",
         "demonstrate"
       ]
-    }
+    },
+    "difficulty": "Advanced",
+    "confidence": "Medium",
+    "notes": "反復は abstraction/demonstrate と並び、開発プロセス文脈で抽象的使用に学習価値がある。"
   },
   "latency": {
-    "difficulty": "Intermediate",
+    "term": "latency",
+    "type": "word",
     "reasoning": {
       "generalFamiliarity": "medium",
       "engineerFamiliarity": "high",
@@ -645,10 +858,14 @@
         "scope",
         "regression"
       ]
-    }
+    },
+    "difficulty": "Intermediate",
+    "confidence": "High",
+    "notes": "レイテンシは scope/regression と並ぶ性能語で、エンジニア文脈での意味理解が重要。"
   },
   "mandatory": {
-    "difficulty": "Intermediate",
+    "term": "mandatory",
+    "type": "word",
     "reasoning": {
       "generalFamiliarity": "medium",
       "engineerFamiliarity": "medium",
@@ -657,10 +874,14 @@
         "constraint",
         "defer"
       ]
-    }
+    },
+    "difficulty": "Intermediate",
+    "confidence": "Medium",
+    "notes": "必須は constraint/defer と同クラスで、ポリシー・要件文脈での実務用法を学ぶ必要がある。"
   },
   "mentoring": {
-    "difficulty": "Beginner",
+    "term": "mentoring",
+    "type": "word",
     "reasoning": {
       "generalFamiliarity": "medium",
       "engineerFamiliarity": "medium",
@@ -669,10 +890,14 @@
         "feedback",
         "approach"
       ]
-    }
+    },
+    "difficulty": "Beginner",
+    "confidence": "Medium",
+    "notes": "メンタリングはややビジネス語だが、feedback ほどではないものの学習コストは低い。"
   },
   "monitor": {
-    "difficulty": "Intermediate",
+    "term": "monitor",
+    "type": "word",
     "reasoning": {
       "generalFamiliarity": "medium",
       "engineerFamiliarity": "high",
@@ -681,10 +906,14 @@
         "dispatch",
         "scope"
       ]
-    }
+    },
+    "difficulty": "Intermediate",
+    "confidence": "High",
+    "notes": "監視は dispatch/scope と並ぶ運用語で、一般語より実務文脈での意味理解が重要。"
   },
   "objective": {
-    "difficulty": "Intermediate",
+    "term": "objective",
+    "type": "word",
     "reasoning": {
       "generalFamiliarity": "medium",
       "engineerFamiliarity": "medium",
@@ -693,10 +922,14 @@
         "scope",
         "clarify"
       ]
-    }
+    },
+    "difficulty": "Intermediate",
+    "confidence": "Medium",
+    "notes": "目的は scope/clarify と同クラスで、要件・合意文脈での実務用法を学ぶ価値がある。"
   },
   "operation": {
-    "difficulty": "Beginner",
+    "term": "operation",
+    "type": "word",
     "reasoning": {
       "generalFamiliarity": "high",
       "engineerFamiliarity": "high",
@@ -705,10 +938,14 @@
         "query",
         "fetch"
       ]
-    }
+    },
+    "difficulty": "Beginner",
+    "confidence": "High",
+    "notes": "操作・運用は query と同様に実務基本語で、文脈学習の必要性は低い。"
   },
   "optimize": {
-    "difficulty": "Intermediate",
+    "term": "optimize",
+    "type": "word",
     "reasoning": {
       "generalFamiliarity": "medium",
       "engineerFamiliarity": "high",
@@ -717,10 +954,14 @@
         "scope",
         "regression"
       ]
-    }
+    },
+    "difficulty": "Intermediate",
+    "confidence": "High",
+    "notes": "最適化は scope/regression と並ぶ性能語で、エンジニア文脈での意味理解が重要。"
   },
   "overload": {
-    "difficulty": "Intermediate",
+    "term": "overload",
+    "type": "word",
     "reasoning": {
       "generalFamiliarity": "medium",
       "engineerFamiliarity": "medium",
@@ -729,10 +970,14 @@
         "constraint",
         "scope"
       ]
-    }
+    },
+    "difficulty": "Intermediate",
+    "confidence": "Medium",
+    "notes": "過負荷は constraint/scope と並び、システム文脈での実務用法の習得が必要。"
   },
   "ownership": {
-    "difficulty": "Intermediate",
+    "term": "ownership",
+    "type": "word",
     "reasoning": {
       "generalFamiliarity": "medium",
       "engineerFamiliarity": "high",
@@ -741,10 +986,14 @@
         "scope",
         "escalate"
       ]
-    }
+    },
+    "difficulty": "Intermediate",
+    "confidence": "Medium",
+    "notes": "オーナーシップは scope/escalate と同クラスで、チーム責任文脈での実務用法を学ぶ必要がある。"
   },
   "pass": {
-    "difficulty": "Intermediate",
+    "term": "pass",
+    "type": "word",
     "reasoning": {
       "generalFamiliarity": "medium",
       "engineerFamiliarity": "medium",
@@ -753,10 +1002,14 @@
         "regression",
         "defer"
       ]
-    }
+    },
+    "difficulty": "Intermediate",
+    "confidence": "Medium",
+    "notes": "合格・通過は regression/defer と並び、テスト文脈での実務用法の習得が必要。"
   },
   "pinpoint": {
-    "difficulty": "Intermediate",
+    "term": "pinpoint",
+    "type": "word",
     "reasoning": {
       "generalFamiliarity": "medium",
       "engineerFamiliarity": "medium",
@@ -765,10 +1018,14 @@
         "clarify",
         "defer"
       ]
-    }
+    },
+    "difficulty": "Intermediate",
+    "confidence": "Medium",
+    "notes": "特定するは clarify/defer と同クラスで、障害調査文脈での実務用法を学ぶ価値がある。"
   },
   "preload": {
-    "difficulty": "Intermediate",
+    "term": "preload",
+    "type": "word",
     "reasoning": {
       "generalFamiliarity": "medium",
       "engineerFamiliarity": "medium",
@@ -777,10 +1034,14 @@
         "fetch",
         "dispatch"
       ]
-    }
+    },
+    "difficulty": "Intermediate",
+    "confidence": "Medium",
+    "notes": "事前読み込みは fetch/dispatch に近い技術語で、実務文脈での用法習得が必要。"
   },
   "prevent": {
-    "difficulty": "Beginner",
+    "term": "prevent",
+    "type": "word",
     "reasoning": {
       "generalFamiliarity": "high",
       "engineerFamiliarity": "medium",
@@ -789,10 +1050,14 @@
         "approach",
         "failure"
       ]
-    }
+    },
+    "difficulty": "Beginner",
+    "confidence": "High",
+    "notes": "防止は failure/approach と並ぶ平易な動詞で、一般英語としても推測しやすい。"
   },
   "priority": {
-    "difficulty": "Intermediate",
+    "term": "priority",
+    "type": "word",
     "reasoning": {
       "generalFamiliarity": "medium",
       "engineerFamiliarity": "medium",
@@ -801,10 +1066,14 @@
         "scope",
         "defer"
       ]
-    }
+    },
+    "difficulty": "Intermediate",
+    "confidence": "Medium",
+    "notes": "優先度は scope/defer と並び、タスク管理文脈での実務用法を学ぶ必要がある。"
   },
   "profile": {
-    "difficulty": "Beginner",
+    "term": "profile",
+    "type": "word",
     "reasoning": {
       "generalFamiliarity": "high",
       "engineerFamiliarity": "medium",
@@ -813,10 +1082,14 @@
         "query",
         "fetch"
       ]
-    }
+    },
+    "difficulty": "Beginner",
+    "confidence": "High",
+    "notes": "プロファイルは設定画面で日常的に見る語で、query ほど技術的ではない。"
   },
   "progress": {
-    "difficulty": "Intermediate",
+    "term": "progress",
+    "type": "word",
     "reasoning": {
       "generalFamiliarity": "medium",
       "engineerFamiliarity": "medium",
@@ -825,10 +1098,14 @@
         "defer",
         "scope"
       ]
-    }
+    },
+    "difficulty": "Intermediate",
+    "confidence": "Medium",
+    "notes": "進捗は defer/scope と同クラスで、プロジェクト文脈での実務用法の習得が必要。"
   },
   "query": {
-    "difficulty": "Beginner",
+    "term": "query",
+    "type": "word",
     "reasoning": {
       "generalFamiliarity": "medium",
       "engineerFamiliarity": "high",
@@ -837,10 +1114,14 @@
         "query",
         "fetch"
       ]
-    }
+    },
+    "difficulty": "Beginner",
+    "confidence": "High",
+    "notes": "クエリは SQL/API で fetch と並ぶ Beginner 代表例で、エンジニアには既知。"
   },
   "readability": {
-    "difficulty": "Intermediate",
+    "term": "readability",
+    "type": "word",
     "reasoning": {
       "generalFamiliarity": "medium",
       "engineerFamiliarity": "medium",
@@ -849,10 +1130,14 @@
         "clarify",
         "constraint"
       ]
-    }
+    },
+    "difficulty": "Intermediate",
+    "confidence": "Medium",
+    "notes": "可読性は clarify/constraint と並び、コード品質文脈での実務用法を学ぶ価値がある。"
   },
   "record": {
-    "difficulty": "Intermediate",
+    "term": "record",
+    "type": "word",
     "reasoning": {
       "generalFamiliarity": "medium",
       "engineerFamiliarity": "medium",
@@ -861,10 +1146,14 @@
         "dispatch",
         "defer"
       ]
-    }
+    },
+    "difficulty": "Intermediate",
+    "confidence": "Medium",
+    "notes": "記録は dispatch/defer と同クラスで、ログ・監査文脈での実務用法の習得が必要。"
   },
   "recover": {
-    "difficulty": "Beginner",
+    "term": "recover",
+    "type": "word",
     "reasoning": {
       "generalFamiliarity": "high",
       "engineerFamiliarity": "medium",
@@ -873,10 +1162,14 @@
         "failure",
         "approach"
       ]
-    }
+    },
+    "difficulty": "Beginner",
+    "confidence": "High",
+    "notes": "回復・復旧は failure に近い一般語で、障害文脈でも意味が直感的。"
   },
   "recovery": {
-    "difficulty": "Intermediate",
+    "term": "recovery",
+    "type": "word",
     "reasoning": {
       "generalFamiliarity": "medium",
       "engineerFamiliarity": "high",
@@ -885,10 +1178,14 @@
         "regression",
         "scope"
       ]
-    }
+    },
+    "difficulty": "Intermediate",
+    "confidence": "High",
+    "notes": "復旧は regression/scope と並ぶ運用語で、一般語 recover より実務文脈が強い。"
   },
   "regression": {
-    "difficulty": "Intermediate",
+    "term": "regression",
+    "type": "word",
     "reasoning": {
       "generalFamiliarity": "medium",
       "engineerFamiliarity": "high",
@@ -897,10 +1194,14 @@
         "regression",
         "constraint"
       ]
-    }
+    },
+    "difficulty": "Intermediate",
+    "confidence": "High",
+    "notes": "リグレッションは代表例どおり constraint と並び、テスト文脈での実務用法の習得が必要。"
   },
   "reinforcement": {
-    "difficulty": "Intermediate",
+    "term": "reinforcement",
+    "type": "word",
     "reasoning": {
       "generalFamiliarity": "medium",
       "engineerFamiliarity": "medium",
@@ -909,10 +1210,14 @@
         "defer",
         "scope"
       ]
-    }
+    },
+    "difficulty": "Intermediate",
+    "confidence": "Medium",
+    "notes": "強化は defer/scope と同クラスで、設計・学習文脈での実務用法を学ぶ必要がある。"
   },
   "reject": {
-    "difficulty": "Intermediate",
+    "term": "reject",
+    "type": "word",
     "reasoning": {
       "generalFamiliarity": "medium",
       "engineerFamiliarity": "medium",
@@ -921,10 +1226,14 @@
         "defer",
         "clarify"
       ]
-    }
+    },
+    "difficulty": "Intermediate",
+    "confidence": "Medium",
+    "notes": "拒否は defer/clarify と並び、レビュー・API 文脈での実務用法の習得が必要。"
   },
   "reliability": {
-    "difficulty": "Intermediate",
+    "term": "reliability",
+    "type": "word",
     "reasoning": {
       "generalFamiliarity": "medium",
       "engineerFamiliarity": "high",
@@ -933,10 +1242,14 @@
         "scope",
         "constraint"
       ]
-    }
+    },
+    "difficulty": "Intermediate",
+    "confidence": "Medium",
+    "notes": "信頼性は scope/constraint と並ぶ SRE 語で、一般語より実務文脈での意味理解が重要。"
   },
   "replace": {
-    "difficulty": "Beginner",
+    "term": "replace",
+    "type": "word",
     "reasoning": {
       "generalFamiliarity": "high",
       "engineerFamiliarity": "high",
@@ -945,10 +1258,14 @@
         "replace",
         "fetch"
       ]
-    }
+    },
+    "difficulty": "Beginner",
+    "confidence": "High",
+    "notes": "置換は代表例どおりコード・日常とも推測しやすく、fetch と同クラスの基本語。"
   },
   "replication": {
-    "difficulty": "Intermediate",
+    "term": "replication",
+    "type": "word",
     "reasoning": {
       "generalFamiliarity": "medium",
       "engineerFamiliarity": "high",
@@ -957,10 +1274,14 @@
         "regression",
         "scope"
       ]
-    }
+    },
+    "difficulty": "Intermediate",
+    "confidence": "High",
+    "notes": "レプリケーションは regression/scope と並ぶ分散語で、エンジニア文脈での意味理解が重要。"
   },
   "reproduce": {
-    "difficulty": "Intermediate",
+    "term": "reproduce",
+    "type": "word",
     "reasoning": {
       "generalFamiliarity": "medium",
       "engineerFamiliarity": "high",
@@ -969,10 +1290,14 @@
         "regression",
         "isolate"
       ]
-    }
+    },
+    "difficulty": "Intermediate",
+    "confidence": "Medium",
+    "notes": "再現は regression/isolate と並ぶ障害調査語で、Advanced 代表例 reproduce より実務頻度が高い。"
   },
   "requirements": {
-    "difficulty": "Intermediate",
+    "term": "requirements",
+    "type": "word",
     "reasoning": {
       "generalFamiliarity": "medium",
       "engineerFamiliarity": "high",
@@ -981,10 +1306,14 @@
         "scope",
         "clarify"
       ]
-    }
+    },
+    "difficulty": "Intermediate",
+    "confidence": "High",
+    "notes": "要件は scope/clarify と並ぶ開発語で、一般語より実務文脈での意味理解が重要。"
   },
   "respectful": {
-    "difficulty": "Intermediate",
+    "term": "respectful",
+    "type": "word",
     "reasoning": {
       "generalFamiliarity": "medium",
       "engineerFamiliarity": "medium",
@@ -993,10 +1322,14 @@
         "clarify",
         "defer"
       ]
-    }
+    },
+    "difficulty": "Intermediate",
+    "confidence": "Medium",
+    "notes": "敬意あるは clarify/defer と同クラスで、コミュニケーション文脈での実務用法を学ぶ価値がある。"
   },
   "sanitize": {
-    "difficulty": "Advanced",
+    "term": "sanitize",
+    "type": "word",
     "reasoning": {
       "generalFamiliarity": "low",
       "engineerFamiliarity": "medium",
@@ -1005,10 +1338,14 @@
         "scrutiny",
         "discretion"
       ]
-    }
+    },
+    "difficulty": "Advanced",
+    "confidence": "High",
+    "notes": "サニタイズは scrutiny/discretion と並び、セキュリティ文脈で一般語から離れた専門用法がある。"
   },
   "scalability": {
-    "difficulty": "Intermediate",
+    "term": "scalability",
+    "type": "word",
     "reasoning": {
       "generalFamiliarity": "medium",
       "engineerFamiliarity": "high",
@@ -1017,10 +1354,14 @@
         "scope",
         "regression"
       ]
-    }
+    },
+    "difficulty": "Intermediate",
+    "confidence": "High",
+    "notes": "スケーラビリティは scope/regression と並ぶ設計語で、エンジニア文脈での意味理解が重要。"
   },
   "schema": {
-    "difficulty": "Intermediate",
+    "term": "schema",
+    "type": "word",
     "reasoning": {
       "generalFamiliarity": "medium",
       "engineerFamiliarity": "high",
@@ -1029,10 +1370,14 @@
         "constraint",
         "scope"
       ]
-    }
+    },
+    "difficulty": "Intermediate",
+    "confidence": "High",
+    "notes": "スキーマは constraint/scope と並ぶ DB 語で、一般語より実務文脈での意味理解が重要。"
   },
   "scope": {
-    "difficulty": "Intermediate",
+    "term": "scope",
+    "type": "word",
     "reasoning": {
       "generalFamiliarity": "medium",
       "engineerFamiliarity": "medium",
@@ -1041,10 +1386,14 @@
         "scope",
         "defer"
       ]
-    }
+    },
+    "difficulty": "Intermediate",
+    "confidence": "High",
+    "notes": "スコープは代表例どおり defer と並び、プロジェクト文脈での実務用法の習得が必要。"
   },
   "scrutiny": {
-    "difficulty": "Advanced",
+    "term": "scrutiny",
+    "type": "word",
     "reasoning": {
       "generalFamiliarity": "low",
       "engineerFamiliarity": "low",
@@ -1053,10 +1402,14 @@
         "scrutiny",
         "discretion"
       ]
-    }
+    },
+    "difficulty": "Advanced",
+    "confidence": "High",
+    "notes": "精査は代表例 discretion と並び、一般語としては uncommon でニュアンス習得が必要。"
   },
   "self-contained": {
-    "difficulty": "Intermediate",
+    "term": "self-contained",
+    "type": "word",
     "reasoning": {
       "generalFamiliarity": "medium",
       "engineerFamiliarity": "medium",
@@ -1065,10 +1418,14 @@
         "constraint",
         "scope"
       ]
-    }
+    },
+    "difficulty": "Intermediate",
+    "confidence": "Medium",
+    "notes": "自己完結は constraint/scope と並び、設計文脈での実務用法を学ぶ必要がある。"
   },
   "severity": {
-    "difficulty": "Advanced",
+    "term": "severity",
+    "type": "word",
     "reasoning": {
       "generalFamiliarity": "medium",
       "engineerFamiliarity": "medium",
@@ -1077,10 +1434,14 @@
         "scrutiny",
         "demonstrate"
       ]
-    }
+    },
+    "difficulty": "Advanced",
+    "confidence": "Medium",
+    "notes": "深刻度は scrutiny/demonstrate と並び、インシデント文脈で抽象度の高い用法がある。"
   },
   "specification": {
-    "difficulty": "Intermediate",
+    "term": "specification",
+    "type": "word",
     "reasoning": {
       "generalFamiliarity": "medium",
       "engineerFamiliarity": "high",
@@ -1089,10 +1450,14 @@
         "constraint",
         "scope"
       ]
-    }
+    },
+    "difficulty": "Intermediate",
+    "confidence": "High",
+    "notes": "仕様は constraint/scope と並ぶ開発語で、一般語より実務文脈での意味理解が重要。"
   },
   "target": {
-    "difficulty": "Intermediate",
+    "term": "target",
+    "type": "word",
     "reasoning": {
       "generalFamiliarity": "medium",
       "engineerFamiliarity": "medium",
@@ -1101,10 +1466,14 @@
         "scope",
         "defer"
       ]
-    }
+    },
+    "difficulty": "Intermediate",
+    "confidence": "Medium",
+    "notes": "対象・目標は scope/defer と同クラスで、要件文脈での実務用法の習得が必要。"
   },
   "tension": {
-    "difficulty": "Beginner",
+    "term": "tension",
+    "type": "word",
     "reasoning": {
       "generalFamiliarity": "high",
       "engineerFamiliarity": "medium",
@@ -1113,10 +1482,14 @@
         "feedback",
         "approach"
       ]
-    }
+    },
+    "difficulty": "Beginner",
+    "confidence": "Medium",
+    "notes": "緊張・対立は一般語だが、実務では比喩的意味もあり feedback より文脈依存がやや高い。"
   },
   "trace": {
-    "difficulty": "Beginner",
+    "term": "trace",
+    "type": "word",
     "reasoning": {
       "generalFamiliarity": "medium",
       "engineerFamiliarity": "high",
@@ -1125,10 +1498,14 @@
         "query",
         "fetch"
       ]
-    }
+    },
+    "difficulty": "Beginner",
+    "confidence": "High",
+    "notes": "トレースはログ・デバッグで fetch/query と同クラスの入門技術語。"
   },
   "trade-off": {
-    "difficulty": "Intermediate",
+    "term": "trade-off",
+    "type": "word",
     "reasoning": {
       "generalFamiliarity": "medium",
       "engineerFamiliarity": "medium",
@@ -1137,10 +1514,14 @@
         "trade-off",
         "scope"
       ]
-    }
+    },
+    "difficulty": "Intermediate",
+    "confidence": "High",
+    "notes": "トレードオフは代表例どおり scope と並び、設計判断文脈での実務用法の習得が必要。"
   },
   "transaction": {
-    "difficulty": "Beginner",
+    "term": "transaction",
+    "type": "word",
     "reasoning": {
       "generalFamiliarity": "medium",
       "engineerFamiliarity": "high",
@@ -1149,10 +1530,14 @@
         "query",
         "fetch"
       ]
-    }
+    },
+    "difficulty": "Beginner",
+    "confidence": "High",
+    "notes": "トランザクションは DB 文脈で fetch 同等の入門語で、エンジニアには馴染み深い。"
   },
   "unavailable": {
-    "difficulty": "Intermediate",
+    "term": "unavailable",
+    "type": "word",
     "reasoning": {
       "generalFamiliarity": "medium",
       "engineerFamiliarity": "medium",
@@ -1161,10 +1546,14 @@
         "defer",
         "scope"
       ]
-    }
+    },
+    "difficulty": "Intermediate",
+    "confidence": "Medium",
+    "notes": "利用不可は defer/scope と同クラスで、可用性文脈での実務用法を学ぶ必要がある。"
   },
   "validate": {
-    "difficulty": "Intermediate",
+    "term": "validate",
+    "type": "word",
     "reasoning": {
       "generalFamiliarity": "medium",
       "engineerFamiliarity": "medium",
@@ -1173,10 +1562,14 @@
         "regression",
         "clarify"
       ]
-    }
+    },
+    "difficulty": "Intermediate",
+    "confidence": "Medium",
+    "notes": "検証は regression/clarify と並び、テスト・要件文脈での実務用法の習得が必要。"
   },
   "validation": {
-    "difficulty": "Advanced",
+    "term": "validation",
+    "type": "word",
     "reasoning": {
       "generalFamiliarity": "medium",
       "engineerFamiliarity": "medium",
@@ -1185,10 +1578,14 @@
         "abstraction",
         "demonstrate"
       ]
-    }
+    },
+    "difficulty": "Advanced",
+    "confidence": "Medium",
+    "notes": "妥当性確認は abstraction/demonstrate と並び、validate より形式・抽象度が高い。"
   },
   "velocity": {
-    "difficulty": "Intermediate",
+    "term": "velocity",
+    "type": "word",
     "reasoning": {
       "generalFamiliarity": "medium",
       "engineerFamiliarity": "high",
@@ -1197,6 +1594,9 @@
         "scope",
         "defer"
       ]
-    }
+    },
+    "difficulty": "Intermediate",
+    "confidence": "High",
+    "notes": "ベロシティは scope/defer と並ぶアジャイル語で、一般語より実務文脈での意味理解が重要。"
   }
 }
