@@ -9,35 +9,54 @@ title: Vocabulary
   | where_exp: "page", "page.layout == 'vocabulary'"
   | sort: "id" %}
 
-<p>{{ vocabularies.size }} terms</p>
+<div class="vocabulary-toolbar">
+  <div class="vocabulary-toolbar__search vocabulary-toolbar__field">
+    <label for="search">Search</label>
+    <input
+      id="search"
+      type="search"
+      placeholder="term, meaning, example..."
+    >
+  </div>
 
-<input
-  id="search"
-  type="search"
-  placeholder="Search vocabulary..."
->
+  <div class="vocabulary-toolbar__filters">
+    <div class="vocabulary-toolbar__field">
+      <label for="difficulty-filter">Difficulty</label>
+      <select id="difficulty-filter">
+        <option value="">All</option>
+        <option value="Beginner">Beginner</option>
+        <option value="Intermediate">Intermediate</option>
+        <option value="Advanced">Advanced</option>
+      </select>
+    </div>
 
-<select id="difficulty-filter">
-  <option value="">All difficulties</option>
-  <option value="Beginner">Beginner</option>
-  <option value="Intermediate">Intermediate</option>
-  <option value="Advanced">Advanced</option>
-</select>
+    <div class="vocabulary-toolbar__field">
+      <label for="scene-filter">Scene</label>
+      <select id="scene-filter">
+        <option value="">All</option>
+        {% assign scenes = site.pages
+          | where_exp: "page", "page.layout == 'vocabulary'"
+          | map: "scene"
+          | uniq
+          | sort
+        %}
+        {% for scene in scenes %}
+          {% if scene %}
+            <option value="{{ scene }}">{{ scene }}</option>
+          {% endif %}
+        {% endfor %}
+      </select>
+    </div>
+  </div>
 
-<select id="scene-filter">
-  <option value="">All scenes</option>
-  {% assign scenes = site.pages
-    | where_exp: "page", "page.layout == 'vocabulary'"
-    | map: "scene"
-    | uniq
-    | sort
-  %}
-  {% for scene in scenes %}
-    {% if scene %}
-      <option value="{{ scene }}">{{ scene }}</option>
-    {% endif %}
-  {% endfor %}
-</select>
+  <p id="vocabulary-result-count" class="vocabulary-toolbar__meta">
+    {{ vocabularies.size }} terms
+  </p>
+</div>
+
+<p id="vocabulary-empty" class="vocabulary-empty" hidden>
+  No vocabulary matches your filters.
+</p>
 
 <table id="vocabulary-table">
   <thead>
@@ -75,4 +94,5 @@ title: Vocabulary
   </tbody>
 </table>
 
+<link rel="stylesheet" href="{{ '/assets/css/vocabulary-controls.css' | relative_url }}">
 <script src="{{ '/assets/js/vocabulary-table.js' | relative_url }}"></script>
