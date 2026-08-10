@@ -5,10 +5,18 @@ description: 2観点の評価と固定決定表で Vocabulary の difficulty を
 
 # Evaluating Difficulty
 
-外部データ（CEFR、TOEIC リスト等）を正解ラベルとしては使わない。  
-AI は **2つの観点だけ** を評価し、**Difficulty は固定決定表** で決める。
+Vocabulary の `difficulty` は、CEFR・TOEIC 等の外部語彙リストでは決めない。  
+2つの観点を評価し、固定決定表で Beginner / Intermediate / Advanced を決める。
 
-## 判断観点（2つ）
+## Difficulty 定義
+
+| Difficulty | 目安 |
+| --- | --- |
+| Beginner | 一般語として広く知られ、エンジニアも意味を推測しやすい |
+| Intermediate | 一般語だが実務での用法に学習価値がある、または技術文脈で頻出する |
+| Advanced | 一般英語として uncommon で、エンジニアも英単語としては馴染みが薄い |
+
+## 判断観点
 
 各観点を **low / medium / high** で評価する。
 
@@ -17,9 +25,9 @@ AI は **2つの観点だけ** を評価し、**Difficulty は固定決定表** 
 | `generalFamiliarity` | 一般的な英語として、意味を推測しやすいか |
 | `engineerFamiliarity` | 日本人ソフトウェアエンジニアが、英単語として意味を理解している可能性が高いか |
 
-## 決定表（Difficulty）
+## 決定表
 
-観点評価のあと、次の表だけで Difficulty を決める。例外解釈はしない。
+観点評価のあと、次の表だけで Difficulty を決める。**例外解釈はしない。**
 
 | 条件 | Difficulty |
 | --- | --- |
@@ -27,11 +35,11 @@ AI は **2つの観点だけ** を評価し、**Difficulty は固定決定表** 
 | `generalFamiliarity` = low **かつ** `engineerFamiliarity` = low | Advanced |
 | 上記以外 | Intermediate |
 
-## 代表例（キャリブレーション）
+## 代表例
 
-代表例は **観点評価の基準** として使う。Difficulty を直接決めない。
+代表例は観点評価の **キャリブレーション** に使う。Difficulty は代表例から直接決めない。
 
-`generalFamiliarity` の代表例:
+### generalFamiliarity
 
 | 値 | 代表例 |
 | --- | --- |
@@ -41,20 +49,19 @@ AI は **2つの観点だけ** を評価し、**Difficulty は固定決定表** 
 
 境界語（例: `trade-off`）は代表例に入れない。
 
-## 判定手順
+## 手順
 
-1. 代表例を参考に `generalFamiliarity` を評価する。
-2. 代表例を参考に `engineerFamiliarity` を評価する。
-3. **決定表** で Difficulty を決める。
-4. `confidence` を付与する。
-5. 必要なら `contextualLearningNeeded` を記録する（Difficulty 判定には使わない）。
+1. 代表例を参考に `generalFamiliarity` を評価する
+2. 代表例を参考に `engineerFamiliarity` を評価する
+3. 決定表で Difficulty を決める
+4. `confidence` を付与する
+5. 任意で `contextualLearningNeeded` を記録する（Difficulty 判定には使わない）
 
-いきなり Difficulty を出さない。必ず `reasoning` → `difficulty` の順。
+`reasoning` を先に書き、その後 `difficulty` を書く。
 
 ## contextualLearningNeeded
 
-Difficulty を決める入力には **使わない**。  
-記録のみ。将来の学習価値・収録優先度などに使う。
+Difficulty 判定には使わない。記録のみ（将来の学習価値・収録優先度などに利用）。
 
 ## Input
 
@@ -86,7 +93,7 @@ reasoning:
   contextualLearningNeeded: medium
 difficulty: Intermediate
 confidence: High
-notes: "一般語だが実務での用法に学習価値がある。代表例 mandatory/defer に近い。"
+notes: "一般語だが、実務での用法に学習価値がある。"
 ```
 
 ```yaml
@@ -98,34 +105,29 @@ reasoning:
   contextualLearningNeeded: high
 difficulty: Advanced
 confidence: High
-notes: "日常会話では uncommon。代表例 scrutiny/discretion と同クラス。"
+notes: "日常会話では uncommon。丁寧さのニュアンスを知らないと使い分けにくい。"
 ```
 
 ## Confidence
 
-- `High`: 2観点と代表例から明確に評価できる。
-- `Medium`: どちらかの観点が境界的だが、決定表で判定できる。
-- `Low`: `generalFamiliarity` / `engineerFamiliarity` 自体の評価に迷う。
+- `High`: 2観点と代表例から明確に評価できる
+- `Medium`: どちらかの観点が境界的だが、決定表で判定できる
+- `Low`: 2観点自体の評価に迷う
 
 `confidence` が Low でも、Difficulty は決定表に従って出す。`notes` に迷いを記録する。
-
-## 回帰確認
-
-判断基準や決定表を変更したときは、約 100 語で回帰確認する。
-
-- **Golden Cases**（明らかな期待値）が決定表どおりか
-- **前回 baseline との差分**（何語が Beginner → Intermediate など）
-
-回帰スクリプト: `evals/difficulty/run_regression.py`
 
 ## Vocabulary への反映
 
 Eval 結果の `difficulty` を Vocabulary の Front Matter に転記する。  
 `reasoning` は Eval の中間出力として残してよいが、Vocabulary 本体には載せない。
 
-## やらないこと
+## ルール変更時
 
-- CEFR / TOEIC / 外部語彙リストを正解ラベルとして使う
+判断基準や決定表を変更したときは、`evals/difficulty/run_regression.py` で約 100 語の回帰確認を行う。
+
+## 禁止事項
+
+- 外部語彙リストを正解ラベルとして使う
 - 代表例との類似度で Difficulty を直接決める
 - `contextualLearningNeeded` を Difficulty 判定に使う
 - 迷ったら高い方を選ぶ
