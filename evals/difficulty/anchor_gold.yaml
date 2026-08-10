@@ -1,0 +1,35 @@
+# Anchor rubric POC — ゴールドセット
+
+Skill rubric + アンカー比較で判定した期待値。
+回帰 Eval の参照セット。
+
+anchors:
+  Beginner: [feedback, deadline, query, fetch, replace, install, approach, failure]
+  Intermediate: [clarify, trade-off, defer, escalate, constraint, regression, dispatch, scope]
+  Advanced: [courteous, scrutiny, discretion, abstraction, demonstrate, consensus, reproduce]
+
+# ユーザー指摘の不整合候補 → rubric 期待値
+flagged_expected:
+  critique: Intermediate
+  replace: Beginner
+  reproduce: Intermediate
+  isolate: Intermediate
+  assertion: Intermediate
+  coverage: Intermediate
+  availability: Intermediate
+  reliability: Intermediate
+  capacity: Intermediate
+  ownership: Intermediate
+
+# アンカー語 → 現行維持
+anchor_expected:
+  feedback: Beginner
+  clarify: Intermediate
+  courteous: Advanced
+  scrutiny: Advanced
+  trade-off: Intermediate
+  deadline: Beginner
+  query: Beginner
+  defer: Intermediate
+  escalate: Intermediate
+  discretion: Advanced
