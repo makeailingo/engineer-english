@@ -1,12 +1,12 @@
 ---
 name: evaluating-difficulty
-description: 2観点の評価と固定決定表で Vocabulary の difficulty を判定する。Vocabulary の作成・更新前に使用する。
+description: 2観点の評価と判定ルールで Vocabulary の difficulty を決める。Vocabulary の作成・更新前に使用する。
 ---
 
 # Evaluating Difficulty
 
 Vocabulary の `difficulty` は、CEFR・TOEIC 等の外部語彙リストでは決めない。  
-2つの観点を評価し、固定決定表で Beginner / Intermediate / Advanced を決める。
+2つの観点を評価し、下記の判定ルールで Beginner / Intermediate / Advanced を決める。
 
 ## Difficulty 定義
 
@@ -14,7 +14,7 @@ Vocabulary の `difficulty` は、CEFR・TOEIC 等の外部語彙リストでは
 | --- | --- |
 | Beginner | 一般語として広く知られ、エンジニアも意味を推測しやすい |
 | Intermediate | 一般語だが実務での用法に学習価値がある、または技術文脈で頻出する |
-| Advanced | 一般英語として uncommon で、エンジニアも英単語としては馴染みが薄い |
+| Advanced | 一般英語として日常的に使われず、エンジニアも英単語としては馴染みが薄い |
 
 ## 判断観点
 
@@ -25,9 +25,9 @@ Vocabulary の `difficulty` は、CEFR・TOEIC 等の外部語彙リストでは
 | `generalFamiliarity` | 一般的な英語として、意味を推測しやすいか |
 | `engineerFamiliarity` | 日本人ソフトウェアエンジニアが、英単語として意味を理解している可能性が高いか |
 
-## 決定表
+## 判定ルール
 
-観点評価のあと、次の表だけで Difficulty を決める。**例外解釈はしない。**
+観点評価のあと、次のルールだけで Difficulty を決める。**例外解釈はしない。**
 
 | 条件 | Difficulty |
 | --- | --- |
@@ -37,7 +37,7 @@ Vocabulary の `difficulty` は、CEFR・TOEIC 等の外部語彙リストでは
 
 ## 代表例
 
-代表例は観点評価の **キャリブレーション** に使う。Difficulty は代表例から直接決めない。
+代表例は観点評価の **参考** に使う。Difficulty は代表例から直接決めない。
 
 ### generalFamiliarity
 
@@ -47,13 +47,13 @@ Vocabulary の `difficulty` は、CEFR・TOEIC 等の外部語彙リストでは
 | medium | `clarify`, `mandatory`, `defer` |
 | low | `courteous`, `scrutiny`, `discretion` |
 
-境界語（例: `trade-off`）は代表例に入れない。
+判定が分かれやすい語（例: `trade-off`）は代表例に入れない。
 
 ## 手順
 
 1. 代表例を参考に `generalFamiliarity` を評価する
 2. 代表例を参考に `engineerFamiliarity` を評価する
-3. 決定表で Difficulty を決める
+3. 判定ルールで Difficulty を決める
 4. `confidence` を付与する
 5. 任意で `contextualLearningNeeded` を記録する（Difficulty 判定には使わない）
 
@@ -105,21 +105,21 @@ reasoning:
   contextualLearningNeeded: high
 difficulty: Advanced
 confidence: High
-notes: "日常会話では uncommon。丁寧さのニュアンスを知らないと使い分けにくい。"
+notes: "日常会話ではあまり使われない。丁寧さのニュアンスを知らないと使い分けにくい。"
 ```
 
 ## Confidence
 
 - `High`: 2観点と代表例から明確に評価できる
-- `Medium`: どちらかの観点が境界的だが、決定表で判定できる
+- `Medium`: どちらかの観点が境界的だが、判定ルールで決められる
 - `Low`: 2観点自体の評価に迷う
 
-`confidence` が Low でも、Difficulty は決定表に従って出す。`notes` に迷いを記録する。
+`confidence` が Low でも、Difficulty は判定ルールに従って出す。`notes` に迷いを記録する。
 
 ## Vocabulary への反映
 
-Eval 結果の `difficulty` を Vocabulary の Front Matter に転記する。  
-`reasoning` は Eval の中間出力として残してよいが、Vocabulary 本体には載せない。
+評価結果の `difficulty` を Vocabulary の YAML Front Matter に転記する。  
+`reasoning` は中間出力として残してよいが、Vocabulary 本体には載せない。
 
 ## 禁止事項
 
@@ -127,3 +127,7 @@ Eval 結果の `difficulty` を Vocabulary の Front Matter に転記する。
 - 代表例との類似度で Difficulty を直接決める
 - `contextualLearningNeeded` を Difficulty 判定に使う
 - 迷ったら高い方を選ぶ
+
+## 文言
+
+Skill 本文では、一般的でない専門用語を使わない（例: 固定決定表、uncommon）。
