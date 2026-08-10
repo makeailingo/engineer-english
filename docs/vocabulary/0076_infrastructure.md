@@ -8,7 +8,7 @@ pronunciation: "/ˈɪn.frəˌstrʌk.tʃɚ/"
 descriptionJa: "サービスを支えるサーバーやネットワークなどの基盤。"
 usageExample: "We manage cloud infrastructure through version-controlled configuration."
 usageExampleJa: "クラウド基盤をバージョン管理した設定で運用します。"
-difficulty: Intermediate
+difficulty: Beginner
 scene: Infrastructure / Cloud
 source:
   title: "Cloud computing - Glossary | MDN"

@@ -8,7 +8,7 @@ pronunciation: "/ɪnˈspekt/"
 descriptionJa: "開発者ツールで実行中のコードや値を詳しく調べること。"
 usageExample: "Inspect the variable values when execution pauses."
 usageExampleJa: "実行が一時停止したら変数の値を詳しく調べてください。"
-difficulty: Advanced
+difficulty: Intermediate
 scene: Debugging
 source:
   title: "JavaScript debugging and error handling - Learn web development | MDN"

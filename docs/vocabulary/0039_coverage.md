@@ -8,7 +8,7 @@ pronunciation: "/ˈkʌv.ɚ.ɪdʒ/"
 descriptionJa: "テストがコードや条件を網羅している度合い。"
 usageExample: "Increase coverage for the untested error branch."
 usageExampleJa: "未テストのエラー分岐の網羅率を上げてください。"
-difficulty: Intermediate
+difficulty: Beginner
 scene: Testing
 source:
   title: "How to write code review comments"

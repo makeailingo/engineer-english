@@ -8,7 +8,7 @@ pronunciation: "/kraɪˈtɪr.i.ən/"
 descriptionJa: "要件の達成可否を判断する単一の基準。"
 usageExample: "Accessibility is a release criterion."
 usageExampleJa: "アクセシビリティはリリース基準の一つです。"
-difficulty: Advanced
+difficulty: Intermediate
 scene: Requirements
 source:
   title: "Robust - Accessibility | MDN"

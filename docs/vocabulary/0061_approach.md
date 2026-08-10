@@ -8,7 +8,7 @@ pronunciation: "/əˈproʊtʃ/"
 descriptionJa: "設計課題への取り組み方や選択方針。"
 usageExample: "Which approach best preserves the system's maintainability?"
 usageExampleJa: "どの方法がシステムの保守性を最も保てますか。"
-difficulty: Intermediate
+difficulty: Beginner
 scene: Architecture
 source:
   title: "The Standard of Code Review | eng-practices"

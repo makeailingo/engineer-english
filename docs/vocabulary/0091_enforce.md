@@ -8,7 +8,7 @@ pronunciation: "/ɪnˈfɔːrs/"
 descriptionJa: "定めたセキュリティ方針を確実に適用すること。"
 usageExample: "Enforce a strict CSP to block unauthorized scripts."
 usageExampleJa: "厳格なCSPを適用して未許可スクリプトを遮断します。"
-difficulty: Advanced
+difficulty: Intermediate
 scene: Security
 source:
   title: "Content Security Policy (CSP) - HTTP | MDN"

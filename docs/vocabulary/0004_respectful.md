@@ -8,7 +8,7 @@ pronunciation: "/rɪˈspekt.fəl/"
 descriptionJa: "相手に敬意を示し、配慮して伝えるさま。"
 usageExample: "Keep technical disagreements respectful and focused on the code."
 usageExampleJa: "技術的な意見の相違でも敬意を保ち、コードに集中してください。"
-difficulty: Advanced
+difficulty: Intermediate
 scene: Daily Communication
 source:
   title: "How to write code review comments"

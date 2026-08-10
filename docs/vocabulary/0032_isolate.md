@@ -8,7 +8,7 @@ pronunciation: "/ˈaɪ.sə.leɪt/"
 descriptionJa: "影響する要素を減らし、不具合の原因を切り分けること。"
 usageExample: "Isolate the problem before changing the production code."
 usageExampleJa: "本番コードを変える前に問題を切り分けてください。"
-difficulty: Intermediate
+difficulty: Beginner
 scene: Debugging
 source:
   title: "Performance fundamentals - Performance | MDN"

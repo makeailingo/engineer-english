@@ -28,9 +28,9 @@ type: "word" # word | phrase
 
 1. Cambridge Dictionary、Oxford 3000 / 5000からCEFRを取得する。
 2. CEFRを以下に変換する。
-   - A1-A2: Beginner
-   - B1-B2: Intermediate
-   - C1-C2: Advanced
+   - A1-B1: Beginner
+   - B2-C1: Intermediate
+   - C2: Advanced
 3. JMdictに、その英単語に対応する日本語の外来語が登録されている場合、Difficultyを1段階下げる。
 4. Beginnerより下にはしない。
 
@@ -76,7 +76,8 @@ JMdictに対応する外来語あり？
 | feedback | B2 | Intermediate | フィードバック ✅ | **Beginner** |
 | courteous | C2 | Advanced | なし | **Advanced** |
 | priority | B2 | Intermediate | プライオリティ ✅ | **Beginner** |
-| consensus | C1 | Advanced | コンセンサス ✅ | **Intermediate** |
+| consensus | C1 | Intermediate | コンセンサス ✅ | **Beginner** |
+| clarify | C1 | Intermediate | なし | **Intermediate** |
 | scrutiny | C2 | Advanced | なし | **Advanced** |
 
 ### feedback
@@ -102,6 +103,18 @@ JMdict:
 対応外来語なし
 
 Final: Advanced
+```
+
+### clarify
+
+```text
+Cambridge: C1
+→ Intermediate
+
+JMdict:
+対応外来語なし
+
+Final: Intermediate
 ```
 
 ## Output

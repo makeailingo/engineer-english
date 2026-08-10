@@ -56,9 +56,9 @@ Google SREでは、SREサイト全体をCC BY 4.0とみなさず、CC BY 4.0と�
 
 1. Cambridge Dictionary、Oxford 3000 / 5000からCEFRを取得する。
 2. CEFRを以下に変換する。
-   - A1-A2: Beginner
-   - B1-B2: Intermediate
-   - C1-C2: Advanced
+   - A1-B1: Beginner
+   - B2-C1: Intermediate
+   - C2: Advanced
 3. [JMdict](https://www.edrdg.org/jmdict/j_jmdict.html)に、その英単語に対応する日本語の外来語が登録されている場合、Difficultyを1段階下げる。
 4. Beginnerより下にはしない。
 

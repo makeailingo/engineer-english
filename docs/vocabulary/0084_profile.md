@@ -8,7 +8,7 @@ pronunciation: "/ˈproʊ.faɪl/"
 descriptionJa: "実行時間や呼び出し傾向を記録した性能データ。"
 usageExample: "The performance profile exposed a CPU bottleneck."
 usageExampleJa: "性能プロファイルでCPUのボトルネックが判明しました。"
-difficulty: Intermediate
+difficulty: Beginner
 scene: Performance
 source:
   title: "console: profile() static method - Web APIs | MDN"

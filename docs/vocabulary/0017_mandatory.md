@@ -8,7 +8,7 @@ pronunciation: "/ˈmæn.də.tɔːr.i/"
 descriptionJa: "規則上、必ず対応しなければならないこと。"
 usageExample: "Fixing this null check is mandatory."
 usageExampleJa: "このnullチェックの修正は必須です。"
-difficulty: Advanced
+difficulty: Intermediate
 scene: Code Review
 source:
   title: "How to write code review comments"

@@ -8,7 +8,7 @@ pronunciation: "/ˌspes.ə.fəˈkeɪ.ʃən/"
 descriptionJa: "機能や技術の振る舞いを詳細に定める文書。"
 usageExample: "Update the specification before implementing this API."
 usageExampleJa: "このAPIの実装前に仕様を更新してください。"
-difficulty: Advanced
+difficulty: Intermediate
 scene: Requirements
 source:
   title: "Specification - Glossary | MDN"
