@@ -5,7 +5,7 @@
 - 1ファイルにつき1件とし、ファイル名は`<id>_<term>.md`とする。`term`部分は小文字のkebab-caseにする。
 - `docs/templates/vocabulary.md`を複製し、YAML Front Matterの全属性を記載する。
 - 語義・品詞・発音は researching-vocabulary Skill に従う。
-- `difficulty`は evaluating-difficulty Skill に従い、rubric とアンカー例から判定する。
+- `difficulty`は evaluating-difficulty Skill に従い、判断基準と代表例から判定する。
 - `id`は`"0001"`から始まる重複のない4桁連番とし、既存の最大値に1を加えて採番する。
 - `type`は`word`または`phrase`とする。
 - `difficulty`と`scene`は下記マスタからそれぞれ1つだけ選ぶ。
@@ -50,7 +50,7 @@ Google SREでは、SREサイト全体をCC BY 4.0とみなさず、CC BY 4.0と�
 | Intermediate | 中級 | 一般語だが、エンジニア文脈での意味や定型的な使い方の習得が必要な語句 |
 | Advanced | 上級 | 抽象度が高い、専門知識を要する、または文脈によってニュアンスが変わる語句 |
 
-`difficulty`は [evaluating-difficulty Skill](.agents/skills/evaluating-difficulty/SKILL.md) に従い、固定 rubric とアンカー例から判定する。外部語彙リスト（CEFR、TOEIC 等）は正解ラベルとして使わない。
+`difficulty`は [evaluating-difficulty Skill](.agents/skills/evaluating-difficulty/SKILL.md) に従い、固定の判断基準と代表例から判定する。外部語彙リスト（CEFR、TOEIC 等）は正解ラベルとして使わない。
 
 ## Scene Master
 

@@ -1,0 +1,962 @@
+{
+  "abort": {
+    "difficulty": "Intermediate",
+    "reasoning": {
+      "generalFamiliarity": "medium",
+      "engineerFamiliarity": "medium",
+      "contextualLearningNeeded": "medium",
+      "nearestExamples": []
+    }
+  },
+  "abstraction": {
+    "difficulty": "Advanced",
+    "reasoning": {
+      "generalFamiliarity": "medium",
+      "engineerFamiliarity": "medium",
+      "contextualLearningNeeded": "medium",
+      "nearestExamples": []
+    }
+  },
+  "approach": {
+    "difficulty": "Beginner",
+    "reasoning": {
+      "generalFamiliarity": "medium",
+      "engineerFamiliarity": "medium",
+      "contextualLearningNeeded": "medium",
+      "nearestExamples": []
+    }
+  },
+  "approval": {
+    "difficulty": "Beginner",
+    "reasoning": {
+      "generalFamiliarity": "medium",
+      "engineerFamiliarity": "medium",
+      "contextualLearningNeeded": "medium",
+      "nearestExamples": []
+    }
+  },
+  "assertion": {
+    "reasoning": {
+      "generalFamiliarity": "low",
+      "engineerFamiliarity": "medium",
+      "contextualLearningNeeded": "medium",
+      "nearestExamples": [
+        "regression",
+        "constraint"
+      ]
+    },
+    "difficulty": "Intermediate"
+  },
+  "authenticate": {
+    "difficulty": "Advanced",
+    "reasoning": {
+      "generalFamiliarity": "medium",
+      "engineerFamiliarity": "medium",
+      "contextualLearningNeeded": "medium",
+      "nearestExamples": []
+    }
+  },
+  "availability": {
+    "reasoning": {
+      "generalFamiliarity": "medium",
+      "engineerFamiliarity": "high",
+      "contextualLearningNeeded": "medium",
+      "nearestExamples": [
+        "scope",
+        "defer"
+      ]
+    },
+    "difficulty": "Intermediate"
+  },
+  "bypass": {
+    "difficulty": "Intermediate",
+    "reasoning": {
+      "generalFamiliarity": "medium",
+      "engineerFamiliarity": "medium",
+      "contextualLearningNeeded": "medium",
+      "nearestExamples": []
+    }
+  },
+  "capacity": {
+    "reasoning": {
+      "generalFamiliarity": "medium",
+      "engineerFamiliarity": "medium",
+      "contextualLearningNeeded": "medium",
+      "nearestExamples": [
+        "scope",
+        "defer"
+      ]
+    },
+    "difficulty": "Intermediate"
+  },
+  "clarify": {
+    "reasoning": {
+      "generalFamiliarity": "medium",
+      "engineerFamiliarity": "medium",
+      "contextualLearningNeeded": "medium",
+      "nearestExamples": [
+        "clarify",
+        "defer"
+      ]
+    },
+    "difficulty": "Intermediate"
+  },
+  "clone": {
+    "difficulty": "Intermediate",
+    "reasoning": {
+      "generalFamiliarity": "medium",
+      "engineerFamiliarity": "medium",
+      "contextualLearningNeeded": "medium",
+      "nearestExamples": []
+    }
+  },
+  "collaborate": {
+    "difficulty": "Intermediate",
+    "reasoning": {
+      "generalFamiliarity": "medium",
+      "engineerFamiliarity": "medium",
+      "contextualLearningNeeded": "medium",
+      "nearestExamples": []
+    }
+  },
+  "communication": {
+    "difficulty": "Beginner",
+    "reasoning": {
+      "generalFamiliarity": "medium",
+      "engineerFamiliarity": "medium",
+      "contextualLearningNeeded": "medium",
+      "nearestExamples": []
+    }
+  },
+  "complexity": {
+    "difficulty": "Advanced",
+    "reasoning": {
+      "generalFamiliarity": "medium",
+      "engineerFamiliarity": "medium",
+      "contextualLearningNeeded": "medium",
+      "nearestExamples": []
+    }
+  },
+  "compress": {
+    "difficulty": "Intermediate",
+    "reasoning": {
+      "generalFamiliarity": "medium",
+      "engineerFamiliarity": "medium",
+      "contextualLearningNeeded": "medium",
+      "nearestExamples": []
+    }
+  },
+  "consensus": {
+    "difficulty": "Advanced",
+    "reasoning": {
+      "generalFamiliarity": "medium",
+      "engineerFamiliarity": "medium",
+      "contextualLearningNeeded": "medium",
+      "nearestExamples": []
+    }
+  },
+  "constraint": {
+    "difficulty": "Intermediate",
+    "reasoning": {
+      "generalFamiliarity": "medium",
+      "engineerFamiliarity": "medium",
+      "contextualLearningNeeded": "medium",
+      "nearestExamples": []
+    }
+  },
+  "constructive": {
+    "difficulty": "Intermediate",
+    "reasoning": {
+      "generalFamiliarity": "medium",
+      "engineerFamiliarity": "medium",
+      "contextualLearningNeeded": "medium",
+      "nearestExamples": []
+    }
+  },
+  "correctness": {
+    "difficulty": "Advanced",
+    "reasoning": {
+      "generalFamiliarity": "medium",
+      "engineerFamiliarity": "medium",
+      "contextualLearningNeeded": "medium",
+      "nearestExamples": []
+    }
+  },
+  "courteous": {
+    "reasoning": {
+      "generalFamiliarity": "low",
+      "engineerFamiliarity": "low",
+      "contextualLearningNeeded": "high",
+      "nearestExamples": [
+        "courteous",
+        "scrutiny"
+      ]
+    },
+    "difficulty": "Advanced"
+  },
+  "coverage": {
+    "reasoning": {
+      "generalFamiliarity": "medium",
+      "engineerFamiliarity": "high",
+      "contextualLearningNeeded": "medium",
+      "nearestExamples": [
+        "regression",
+        "scope"
+      ]
+    },
+    "difficulty": "Intermediate"
+  },
+  "criterion": {
+    "difficulty": "Intermediate",
+    "reasoning": {
+      "generalFamiliarity": "medium",
+      "engineerFamiliarity": "medium",
+      "contextualLearningNeeded": "medium",
+      "nearestExamples": []
+    }
+  },
+  "critique": {
+    "reasoning": {
+      "generalFamiliarity": "medium",
+      "engineerFamiliarity": "medium",
+      "contextualLearningNeeded": "medium",
+      "nearestExamples": [
+        "clarify",
+        "escalate"
+      ]
+    },
+    "difficulty": "Intermediate"
+  },
+  "deadline": {
+    "reasoning": {
+      "generalFamiliarity": "high",
+      "engineerFamiliarity": "high",
+      "contextualLearningNeeded": "low",
+      "nearestExamples": [
+        "deadline",
+        "feedback"
+      ]
+    },
+    "difficulty": "Beginner"
+  },
+  "deadlock": {
+    "difficulty": "Intermediate",
+    "reasoning": {
+      "generalFamiliarity": "medium",
+      "engineerFamiliarity": "medium",
+      "contextualLearningNeeded": "medium",
+      "nearestExamples": []
+    }
+  },
+  "decompose": {
+    "difficulty": "Intermediate",
+    "reasoning": {
+      "generalFamiliarity": "medium",
+      "engineerFamiliarity": "medium",
+      "contextualLearningNeeded": "medium",
+      "nearestExamples": []
+    }
+  },
+  "decrypt": {
+    "difficulty": "Intermediate",
+    "reasoning": {
+      "generalFamiliarity": "medium",
+      "engineerFamiliarity": "medium",
+      "contextualLearningNeeded": "medium",
+      "nearestExamples": []
+    }
+  },
+  "defer": {
+    "reasoning": {
+      "generalFamiliarity": "medium",
+      "engineerFamiliarity": "medium",
+      "contextualLearningNeeded": "medium",
+      "nearestExamples": [
+        "defer",
+        "clarify"
+      ]
+    },
+    "difficulty": "Intermediate"
+  },
+  "demonstrate": {
+    "difficulty": "Advanced",
+    "reasoning": {
+      "generalFamiliarity": "medium",
+      "engineerFamiliarity": "medium",
+      "contextualLearningNeeded": "medium",
+      "nearestExamples": []
+    }
+  },
+  "dependency": {
+    "difficulty": "Intermediate",
+    "reasoning": {
+      "generalFamiliarity": "medium",
+      "engineerFamiliarity": "medium",
+      "contextualLearningNeeded": "medium",
+      "nearestExamples": []
+    }
+  },
+  "deploy": {
+    "difficulty": "Intermediate",
+    "reasoning": {
+      "generalFamiliarity": "medium",
+      "engineerFamiliarity": "medium",
+      "contextualLearningNeeded": "medium",
+      "nearestExamples": []
+    }
+  },
+  "diagnose": {
+    "difficulty": "Advanced",
+    "reasoning": {
+      "generalFamiliarity": "medium",
+      "engineerFamiliarity": "medium",
+      "contextualLearningNeeded": "medium",
+      "nearestExamples": []
+    }
+  },
+  "discretion": {
+    "reasoning": {
+      "generalFamiliarity": "low",
+      "engineerFamiliarity": "low",
+      "contextualLearningNeeded": "high",
+      "nearestExamples": [
+        "discretion",
+        "scrutiny"
+      ]
+    },
+    "difficulty": "Advanced"
+  },
+  "dispatch": {
+    "difficulty": "Intermediate",
+    "reasoning": {
+      "generalFamiliarity": "medium",
+      "engineerFamiliarity": "medium",
+      "contextualLearningNeeded": "medium",
+      "nearestExamples": []
+    }
+  },
+  "encrypt": {
+    "difficulty": "Intermediate",
+    "reasoning": {
+      "generalFamiliarity": "medium",
+      "engineerFamiliarity": "medium",
+      "contextualLearningNeeded": "medium",
+      "nearestExamples": []
+    }
+  },
+  "enforce": {
+    "difficulty": "Intermediate",
+    "reasoning": {
+      "generalFamiliarity": "medium",
+      "engineerFamiliarity": "medium",
+      "contextualLearningNeeded": "medium",
+      "nearestExamples": []
+    }
+  },
+  "escalate": {
+    "reasoning": {
+      "generalFamiliarity": "medium",
+      "engineerFamiliarity": "medium",
+      "contextualLearningNeeded": "medium",
+      "nearestExamples": [
+        "escalate",
+        "defer"
+      ]
+    },
+    "difficulty": "Intermediate"
+  },
+  "expectations": {
+    "difficulty": "Intermediate",
+    "reasoning": {
+      "generalFamiliarity": "medium",
+      "engineerFamiliarity": "medium",
+      "contextualLearningNeeded": "medium",
+      "nearestExamples": []
+    }
+  },
+  "failure": {
+    "difficulty": "Beginner",
+    "reasoning": {
+      "generalFamiliarity": "medium",
+      "engineerFamiliarity": "medium",
+      "contextualLearningNeeded": "medium",
+      "nearestExamples": []
+    }
+  },
+  "feedback": {
+    "reasoning": {
+      "generalFamiliarity": "high",
+      "engineerFamiliarity": "high",
+      "contextualLearningNeeded": "low",
+      "nearestExamples": [
+        "feedback",
+        "deadline"
+      ]
+    },
+    "difficulty": "Beginner"
+  },
+  "fetch": {
+    "difficulty": "Beginner",
+    "reasoning": {
+      "generalFamiliarity": "medium",
+      "engineerFamiliarity": "medium",
+      "contextualLearningNeeded": "medium",
+      "nearestExamples": []
+    }
+  },
+  "functionality": {
+    "difficulty": "Advanced",
+    "reasoning": {
+      "generalFamiliarity": "medium",
+      "engineerFamiliarity": "medium",
+      "contextualLearningNeeded": "medium",
+      "nearestExamples": []
+    }
+  },
+  "implementation": {
+    "difficulty": "Intermediate",
+    "reasoning": {
+      "generalFamiliarity": "medium",
+      "engineerFamiliarity": "medium",
+      "contextualLearningNeeded": "medium",
+      "nearestExamples": []
+    }
+  },
+  "index": {
+    "difficulty": "Intermediate",
+    "reasoning": {
+      "generalFamiliarity": "medium",
+      "engineerFamiliarity": "medium",
+      "contextualLearningNeeded": "medium",
+      "nearestExamples": []
+    }
+  },
+  "infrastructure": {
+    "difficulty": "Intermediate",
+    "reasoning": {
+      "generalFamiliarity": "medium",
+      "engineerFamiliarity": "medium",
+      "contextualLearningNeeded": "medium",
+      "nearestExamples": []
+    }
+  },
+  "insert": {
+    "difficulty": "Beginner",
+    "reasoning": {
+      "generalFamiliarity": "medium",
+      "engineerFamiliarity": "medium",
+      "contextualLearningNeeded": "medium",
+      "nearestExamples": []
+    }
+  },
+  "inspect": {
+    "difficulty": "Intermediate",
+    "reasoning": {
+      "generalFamiliarity": "medium",
+      "engineerFamiliarity": "medium",
+      "contextualLearningNeeded": "medium",
+      "nearestExamples": []
+    }
+  },
+  "install": {
+    "difficulty": "Beginner",
+    "reasoning": {
+      "generalFamiliarity": "medium",
+      "engineerFamiliarity": "medium",
+      "contextualLearningNeeded": "medium",
+      "nearestExamples": []
+    }
+  },
+  "interaction": {
+    "difficulty": "Beginner",
+    "reasoning": {
+      "generalFamiliarity": "medium",
+      "engineerFamiliarity": "medium",
+      "contextualLearningNeeded": "medium",
+      "nearestExamples": []
+    }
+  },
+  "interface": {
+    "difficulty": "Beginner",
+    "reasoning": {
+      "generalFamiliarity": "medium",
+      "engineerFamiliarity": "medium",
+      "contextualLearningNeeded": "medium",
+      "nearestExamples": []
+    }
+  },
+  "invoke": {
+    "difficulty": "Intermediate",
+    "reasoning": {
+      "generalFamiliarity": "medium",
+      "engineerFamiliarity": "medium",
+      "contextualLearningNeeded": "medium",
+      "nearestExamples": []
+    }
+  },
+  "isolate": {
+    "reasoning": {
+      "generalFamiliarity": "medium",
+      "engineerFamiliarity": "medium",
+      "contextualLearningNeeded": "medium",
+      "nearestExamples": [
+        "clarify",
+        "regression"
+      ]
+    },
+    "difficulty": "Intermediate"
+  },
+  "iterate": {
+    "difficulty": "Advanced",
+    "reasoning": {
+      "generalFamiliarity": "medium",
+      "engineerFamiliarity": "medium",
+      "contextualLearningNeeded": "medium",
+      "nearestExamples": []
+    }
+  },
+  "latency": {
+    "difficulty": "Intermediate",
+    "reasoning": {
+      "generalFamiliarity": "medium",
+      "engineerFamiliarity": "medium",
+      "contextualLearningNeeded": "medium",
+      "nearestExamples": []
+    }
+  },
+  "mandatory": {
+    "difficulty": "Intermediate",
+    "reasoning": {
+      "generalFamiliarity": "medium",
+      "engineerFamiliarity": "medium",
+      "contextualLearningNeeded": "medium",
+      "nearestExamples": []
+    }
+  },
+  "mentoring": {
+    "difficulty": "Beginner",
+    "reasoning": {
+      "generalFamiliarity": "medium",
+      "engineerFamiliarity": "medium",
+      "contextualLearningNeeded": "medium",
+      "nearestExamples": []
+    }
+  },
+  "monitor": {
+    "difficulty": "Intermediate",
+    "reasoning": {
+      "generalFamiliarity": "medium",
+      "engineerFamiliarity": "medium",
+      "contextualLearningNeeded": "medium",
+      "nearestExamples": []
+    }
+  },
+  "objective": {
+    "difficulty": "Intermediate",
+    "reasoning": {
+      "generalFamiliarity": "medium",
+      "engineerFamiliarity": "medium",
+      "contextualLearningNeeded": "medium",
+      "nearestExamples": []
+    }
+  },
+  "operation": {
+    "difficulty": "Beginner",
+    "reasoning": {
+      "generalFamiliarity": "medium",
+      "engineerFamiliarity": "medium",
+      "contextualLearningNeeded": "medium",
+      "nearestExamples": []
+    }
+  },
+  "optimize": {
+    "difficulty": "Intermediate",
+    "reasoning": {
+      "generalFamiliarity": "medium",
+      "engineerFamiliarity": "medium",
+      "contextualLearningNeeded": "medium",
+      "nearestExamples": []
+    }
+  },
+  "overload": {
+    "difficulty": "Intermediate",
+    "reasoning": {
+      "generalFamiliarity": "medium",
+      "engineerFamiliarity": "medium",
+      "contextualLearningNeeded": "medium",
+      "nearestExamples": []
+    }
+  },
+  "ownership": {
+    "reasoning": {
+      "generalFamiliarity": "medium",
+      "engineerFamiliarity": "high",
+      "contextualLearningNeeded": "medium",
+      "nearestExamples": [
+        "scope",
+        "escalate"
+      ]
+    },
+    "difficulty": "Intermediate"
+  },
+  "pass": {
+    "difficulty": "Intermediate",
+    "reasoning": {
+      "generalFamiliarity": "medium",
+      "engineerFamiliarity": "medium",
+      "contextualLearningNeeded": "medium",
+      "nearestExamples": []
+    }
+  },
+  "pinpoint": {
+    "difficulty": "Intermediate",
+    "reasoning": {
+      "generalFamiliarity": "medium",
+      "engineerFamiliarity": "medium",
+      "contextualLearningNeeded": "medium",
+      "nearestExamples": []
+    }
+  },
+  "preload": {
+    "difficulty": "Intermediate",
+    "reasoning": {
+      "generalFamiliarity": "medium",
+      "engineerFamiliarity": "medium",
+      "contextualLearningNeeded": "medium",
+      "nearestExamples": []
+    }
+  },
+  "prevent": {
+    "difficulty": "Beginner",
+    "reasoning": {
+      "generalFamiliarity": "medium",
+      "engineerFamiliarity": "medium",
+      "contextualLearningNeeded": "medium",
+      "nearestExamples": []
+    }
+  },
+  "priority": {
+    "difficulty": "Intermediate",
+    "reasoning": {
+      "generalFamiliarity": "medium",
+      "engineerFamiliarity": "medium",
+      "contextualLearningNeeded": "medium",
+      "nearestExamples": []
+    }
+  },
+  "profile": {
+    "difficulty": "Beginner",
+    "reasoning": {
+      "generalFamiliarity": "medium",
+      "engineerFamiliarity": "medium",
+      "contextualLearningNeeded": "medium",
+      "nearestExamples": []
+    }
+  },
+  "progress": {
+    "difficulty": "Intermediate",
+    "reasoning": {
+      "generalFamiliarity": "medium",
+      "engineerFamiliarity": "medium",
+      "contextualLearningNeeded": "medium",
+      "nearestExamples": []
+    }
+  },
+  "query": {
+    "reasoning": {
+      "generalFamiliarity": "medium",
+      "engineerFamiliarity": "high",
+      "contextualLearningNeeded": "low",
+      "nearestExamples": [
+        "query",
+        "fetch"
+      ]
+    },
+    "difficulty": "Beginner"
+  },
+  "readability": {
+    "difficulty": "Intermediate",
+    "reasoning": {
+      "generalFamiliarity": "medium",
+      "engineerFamiliarity": "medium",
+      "contextualLearningNeeded": "medium",
+      "nearestExamples": []
+    }
+  },
+  "record": {
+    "difficulty": "Intermediate",
+    "reasoning": {
+      "generalFamiliarity": "medium",
+      "engineerFamiliarity": "medium",
+      "contextualLearningNeeded": "medium",
+      "nearestExamples": []
+    }
+  },
+  "recover": {
+    "difficulty": "Beginner",
+    "reasoning": {
+      "generalFamiliarity": "medium",
+      "engineerFamiliarity": "medium",
+      "contextualLearningNeeded": "medium",
+      "nearestExamples": []
+    }
+  },
+  "recovery": {
+    "difficulty": "Intermediate",
+    "reasoning": {
+      "generalFamiliarity": "medium",
+      "engineerFamiliarity": "medium",
+      "contextualLearningNeeded": "medium",
+      "nearestExamples": []
+    }
+  },
+  "regression": {
+    "difficulty": "Intermediate",
+    "reasoning": {
+      "generalFamiliarity": "medium",
+      "engineerFamiliarity": "medium",
+      "contextualLearningNeeded": "medium",
+      "nearestExamples": []
+    }
+  },
+  "reinforcement": {
+    "difficulty": "Intermediate",
+    "reasoning": {
+      "generalFamiliarity": "medium",
+      "engineerFamiliarity": "medium",
+      "contextualLearningNeeded": "medium",
+      "nearestExamples": []
+    }
+  },
+  "reject": {
+    "difficulty": "Intermediate",
+    "reasoning": {
+      "generalFamiliarity": "medium",
+      "engineerFamiliarity": "medium",
+      "contextualLearningNeeded": "medium",
+      "nearestExamples": []
+    }
+  },
+  "reliability": {
+    "reasoning": {
+      "generalFamiliarity": "medium",
+      "engineerFamiliarity": "high",
+      "contextualLearningNeeded": "medium",
+      "nearestExamples": [
+        "scope",
+        "constraint"
+      ]
+    },
+    "difficulty": "Intermediate"
+  },
+  "replace": {
+    "reasoning": {
+      "generalFamiliarity": "high",
+      "engineerFamiliarity": "high",
+      "contextualLearningNeeded": "low",
+      "nearestExamples": [
+        "replace",
+        "fetch"
+      ]
+    },
+    "difficulty": "Beginner"
+  },
+  "replication": {
+    "difficulty": "Intermediate",
+    "reasoning": {
+      "generalFamiliarity": "medium",
+      "engineerFamiliarity": "medium",
+      "contextualLearningNeeded": "medium",
+      "nearestExamples": []
+    }
+  },
+  "reproduce": {
+    "reasoning": {
+      "generalFamiliarity": "medium",
+      "engineerFamiliarity": "high",
+      "contextualLearningNeeded": "medium",
+      "nearestExamples": [
+        "regression",
+        "isolate"
+      ]
+    },
+    "difficulty": "Intermediate"
+  },
+  "requirements": {
+    "difficulty": "Intermediate",
+    "reasoning": {
+      "generalFamiliarity": "medium",
+      "engineerFamiliarity": "medium",
+      "contextualLearningNeeded": "medium",
+      "nearestExamples": []
+    }
+  },
+  "respectful": {
+    "difficulty": "Intermediate",
+    "reasoning": {
+      "generalFamiliarity": "medium",
+      "engineerFamiliarity": "medium",
+      "contextualLearningNeeded": "medium",
+      "nearestExamples": []
+    }
+  },
+  "sanitize": {
+    "difficulty": "Advanced",
+    "reasoning": {
+      "generalFamiliarity": "medium",
+      "engineerFamiliarity": "medium",
+      "contextualLearningNeeded": "medium",
+      "nearestExamples": []
+    }
+  },
+  "scalability": {
+    "difficulty": "Intermediate",
+    "reasoning": {
+      "generalFamiliarity": "medium",
+      "engineerFamiliarity": "medium",
+      "contextualLearningNeeded": "medium",
+      "nearestExamples": []
+    }
+  },
+  "schema": {
+    "difficulty": "Intermediate",
+    "reasoning": {
+      "generalFamiliarity": "medium",
+      "engineerFamiliarity": "medium",
+      "contextualLearningNeeded": "medium",
+      "nearestExamples": []
+    }
+  },
+  "scope": {
+    "difficulty": "Intermediate",
+    "reasoning": {
+      "generalFamiliarity": "medium",
+      "engineerFamiliarity": "medium",
+      "contextualLearningNeeded": "medium",
+      "nearestExamples": []
+    }
+  },
+  "scrutiny": {
+    "reasoning": {
+      "generalFamiliarity": "low",
+      "engineerFamiliarity": "low",
+      "contextualLearningNeeded": "high",
+      "nearestExamples": [
+        "scrutiny",
+        "discretion"
+      ]
+    },
+    "difficulty": "Advanced"
+  },
+  "self-contained": {
+    "difficulty": "Intermediate",
+    "reasoning": {
+      "generalFamiliarity": "medium",
+      "engineerFamiliarity": "medium",
+      "contextualLearningNeeded": "medium",
+      "nearestExamples": []
+    }
+  },
+  "severity": {
+    "difficulty": "Advanced",
+    "reasoning": {
+      "generalFamiliarity": "medium",
+      "engineerFamiliarity": "medium",
+      "contextualLearningNeeded": "medium",
+      "nearestExamples": []
+    }
+  },
+  "specification": {
+    "difficulty": "Intermediate",
+    "reasoning": {
+      "generalFamiliarity": "medium",
+      "engineerFamiliarity": "medium",
+      "contextualLearningNeeded": "medium",
+      "nearestExamples": []
+    }
+  },
+  "target": {
+    "difficulty": "Intermediate",
+    "reasoning": {
+      "generalFamiliarity": "medium",
+      "engineerFamiliarity": "medium",
+      "contextualLearningNeeded": "medium",
+      "nearestExamples": []
+    }
+  },
+  "tension": {
+    "difficulty": "Beginner",
+    "reasoning": {
+      "generalFamiliarity": "medium",
+      "engineerFamiliarity": "medium",
+      "contextualLearningNeeded": "medium",
+      "nearestExamples": []
+    }
+  },
+  "trace": {
+    "difficulty": "Beginner",
+    "reasoning": {
+      "generalFamiliarity": "medium",
+      "engineerFamiliarity": "medium",
+      "contextualLearningNeeded": "medium",
+      "nearestExamples": []
+    }
+  },
+  "trade-off": {
+    "reasoning": {
+      "generalFamiliarity": "medium",
+      "engineerFamiliarity": "medium",
+      "contextualLearningNeeded": "medium",
+      "nearestExamples": [
+        "trade-off",
+        "scope"
+      ]
+    },
+    "difficulty": "Intermediate"
+  },
+  "transaction": {
+    "difficulty": "Beginner",
+    "reasoning": {
+      "generalFamiliarity": "medium",
+      "engineerFamiliarity": "medium",
+      "contextualLearningNeeded": "medium",
+      "nearestExamples": []
+    }
+  },
+  "unavailable": {
+    "difficulty": "Intermediate",
+    "reasoning": {
+      "generalFamiliarity": "medium",
+      "engineerFamiliarity": "medium",
+      "contextualLearningNeeded": "medium",
+      "nearestExamples": []
+    }
+  },
+  "validate": {
+    "difficulty": "Intermediate",
+    "reasoning": {
+      "generalFamiliarity": "medium",
+      "engineerFamiliarity": "medium",
+      "contextualLearningNeeded": "medium",
+      "nearestExamples": []
+    }
+  },
+  "validation": {
+    "difficulty": "Advanced",
+    "reasoning": {
+      "generalFamiliarity": "medium",
+      "engineerFamiliarity": "medium",
+      "contextualLearningNeeded": "medium",
+      "nearestExamples": []
+    }
+  },
+  "velocity": {
+    "difficulty": "Intermediate",
+    "reasoning": {
+      "generalFamiliarity": "medium",
+      "engineerFamiliarity": "medium",
+      "contextualLearningNeeded": "medium",
+      "nearestExamples": []
+    }
+  }
+}

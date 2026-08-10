@@ -1,0 +1,27 @@
+=== Difficulty 回帰（100語）===
+
+expected 語数: 100
+現行と不一致: 16/100
+代表例 維持: 5/5
+不整合候補 検出: 10/10
+  → ['assertion', 'availability', 'capacity', 'coverage', 'critique', 'isolate', 'ownership', 'reliability', 'replace', 'reproduce']
+
+## 不一致一覧
+  assertion            current=Beginner     expected=Intermediate
+  availability         current=Beginner     expected=Intermediate
+  capacity             current=Beginner     expected=Intermediate
+  consensus            current=Intermediate expected=Advanced
+  coverage             current=Beginner     expected=Intermediate
+  critique             current=Beginner     expected=Intermediate
+  dependency           current=Advanced     expected=Intermediate
+  discretion           current=Intermediate expected=Advanced
+  infrastructure       current=Beginner     expected=Intermediate
+  install              current=Intermediate expected=Beginner
+  isolate              current=Beginner     expected=Intermediate
+  ownership            current=Beginner     expected=Intermediate
+  reliability          current=Beginner     expected=Intermediate
+  replace              current=Advanced     expected=Beginner
+  reproduce            current=Advanced     expected=Intermediate
+  validate             current=Advanced     expected=Intermediate
+
+=== PASS ===
