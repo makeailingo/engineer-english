@@ -8,7 +8,7 @@ pronunciation: "/kəmˈplek.sə.t̬i/"
 descriptionJa: "設計を理解・変更しにくくする複雑さの度合い。"
 usageExample: "How would you reduce this design's complexity?"
 usageExampleJa: "この設計の複雑さをどう減らしますか。"
-difficulty: Advanced
+difficulty: Intermediate
 scene: Technical Interview
 source:
   title: "What to look for in a code review"

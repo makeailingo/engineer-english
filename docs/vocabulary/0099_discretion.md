@@ -8,7 +8,7 @@ pronunciation: "/dɪˈskreʃ.ən/"
 descriptionJa: "状況に応じて判断できるレビュアーの裁量。"
 usageExample: "Reviewers have discretion to reject overly large changes."
 usageExampleJa: "レビュアーには大きすぎる変更を拒む裁量があります。"
-difficulty: Intermediate
+difficulty: Advanced
 scene: Leadership / Management
 source:
   title: "Small CLs"

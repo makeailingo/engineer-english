@@ -8,7 +8,7 @@ pronunciation: "/səˈver.ə.t̬i/"
 descriptionJa: "レビュー指摘がどれほど重大かを示す度合い。"
 usageExample: "Label each review comment by severity."
 usageExampleJa: "各レビューコメントに重大度を付けてください。"
-difficulty: Advanced
+difficulty: Intermediate
 scene: Code Review
 source:
   title: "How to write code review comments"

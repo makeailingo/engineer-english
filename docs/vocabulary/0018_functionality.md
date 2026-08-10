@@ -8,7 +8,7 @@ pronunciation: "/ˌfʌŋk.ʃənˈæl.ə.t̬i/"
 descriptionJa: "コードやシステムが提供する機能や動作。"
 usageExample: "Please verify the new search functionality."
 usageExampleJa: "新しい検索機能を確認してください。"
-difficulty: Advanced
+difficulty: Intermediate
 scene: Code Review
 source:
   title: "What to look for in a code review"
