@@ -1,0 +1,61 @@
+============================================================
+POC 1: ライブ取得の再現性（同一語を2回取得）
+============================================================
+  fetch x2: critique
+  fetch x2: replace
+  fetch x2: reproduce
+  fetch x2: isolate
+  fetch x2: assertion
+  fetch x2: coverage
+  fetch x2: availability
+  fetch x2: reliability
+  fetch x2: capacity
+  fetch x2: ownership
+  fetch x2: feedback
+  fetch x2: clarify
+  fetch x2: courteous
+  fetch x2: scrutiny
+  fetch x2: invoke
+
+再現性: PASS
+
+取得結果 (run1):
+  critique        cam=-   ox=C1  adopted=C1   method=oxford
+  replace         cam=C2  ox=A2  adopted=C2   method=both_max
+  reproduce       cam=C2  ox=C1  adopted=C2   method=both_max
+  isolate         cam=-   ox=C1  adopted=C1   method=oxford
+  assertion       cam=-   ox=C1  adopted=C1   method=oxford
+  coverage        cam=C1  ox=C1  adopted=C1   method=both
+  availability    cam=B2  ox=C1  adopted=C1   method=both_max
+  reliability     cam=C1  ox=C1  adopted=C1   method=both
+  capacity        cam=C1  ox=C1  adopted=C1   method=both
+  ownership       cam=C1  ox=B2  adopted=C1   method=both_max
+  feedback        cam=B2  ox=B2  adopted=B2   method=both
+  clarify         cam=C1  ox=B2  adopted=C1   method=both_max
+  courteous       cam=C2  ox=C2  adopted=C2   method=both
+  scrutiny        cam=C2  ox=C1  adopted=C2   method=both_max
+  invoke          cam=-   ox=C1  adopted=C1   method=oxford
+
+CEFR 取得率: 15/15
+
+============================================================
+POC 2: 凍結フィクスチャからの決定的 Eval
+============================================================
+決定性: PASS (2回同一結果)
+
+============================================================
+POC 3: 既知不整合の検出
+============================================================
+
+Ordering inversions (0):
+
+Same-CEFR splits:
+  C1: ['Beginner', 'Intermediate'] -> {'Beginner': ['critique', 'isolate', 'assertion', 'coverage', 'availability', 'reliability', 'capacity', 'ownership'], 'Intermediate': ['clarify', 'invoke']}
+
+期待検出:
+  replace vs invoke inversion: FAIL
+  C1 same-CEFR split exists: PASS
+
+============================================================
+POC 総合: FAIL - 再現性に問題あり
+============================================================
