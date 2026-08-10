@@ -1,0 +1,14 @@
+title: Engineer English
+description: ソフトウェアエンジニアが実務で使う英語のデータセットです。
+theme: jekyll-theme-minimal
+url: https://makeailingo.github.io
+baseurl: /engineer-english
+
+exclude:
+  - templates/
+
+defaults:
+  - scope:
+      path: vocabulary
+    values:
+      layout: vocabulary

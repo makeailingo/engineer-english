@@ -1,0 +1,43 @@
+---
+layout: default
+---
+
+<article class="vocabulary">
+  <p><a href="{{ '/vocabulary/' | relative_url }}">← Vocabulary</a></p>
+
+  <h1>{{ page.term }}</h1>
+
+  <p>
+    <code>{{ page.id }}</code>
+    · {{ page.type }}
+    · {{ page.partOfSpeech }}
+    · {{ page.difficulty }}
+    · {{ page.scene }}
+  </p>
+
+  <h2>意味</h2>
+  <p>{{ page.meaningJa }}</p>
+
+  {% if page.pronunciation %}
+  <h2>発音</h2>
+  <p>{{ page.pronunciation }}</p>
+  {% endif %}
+
+  <h2>説明</h2>
+  <p>{{ page.descriptionJa }}</p>
+
+  <h2>使用例</h2>
+  <p><em>{{ page.usageExample }}</em></p>
+  <p>{{ page.usageExampleJa }}</p>
+
+  {% if page.source %}
+  <h2>出典</h2>
+  <ul>
+    <li>
+      <a href="{{ page.source.url }}">{{ page.source.title }}</a>
+      （{{ page.source.license }}）
+    </li>
+    <li>{{ page.source.context }}</li>
+  </ul>
+  {% endif %}
+</article>
