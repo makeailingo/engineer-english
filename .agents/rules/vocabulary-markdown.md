@@ -48,7 +48,7 @@ Google SREでは、SREサイト全体をCC BY 4.0とみなさず、CC BY 4.0と�
 | --- | --- | --- |
 | Beginner | 初級 | 一般語として広く知られ、エンジニアも意味を推測しやすい |
 | Intermediate | 中級 | 一般語だが実務での用法に学習価値がある、または技術文脈で頻出する |
-| Advanced | 上級 | 一般英語として uncommon で、エンジニアも英単語としては馴染みが薄い |
+| Advanced | 上級 | 一般英語として日常的に使われず、エンジニアも英単語としては馴染みが薄い |
 
 `difficulty`は [evaluating-difficulty Skill](.agents/skills/evaluating-difficulty/SKILL.md) に従う。
 
