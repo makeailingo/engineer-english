@@ -1,28 +1,49 @@
 === Difficulty 回帰（100語）===
 
-expected 語数: 100
-現行と不一致: 16/100
-代表例 Vocabulary 一致: 9/13
-  代表例 NG: [('replace', 'Advanced', 'Beginner'), ('install', 'Intermediate', 'Beginner'), ('reproduce', 'Advanced', 'Intermediate'), ('discretion', 'Intermediate', 'Advanced')]
-不整合候補 検出: 10/10
-  → ['assertion', 'availability', 'capacity', 'coverage', 'critique', 'isolate', 'ownership', 'reliability', 'replace', 'reproduce']
+Beginner: 15語
+Intermediate: 82語
+Advanced: 3語
 
-## 不一致一覧
+Golden Cases: 7/7
+現行 Vocabulary 不一致: 32/100
+## baseline からの変化
+  Advanced → Intermediate: 12語
+    abstraction, authenticate, complexity, consensus, correctness, demonstrate, diagnose, functionality, iterate, sanitize, severity, validation
+  Beginner → Intermediate: 6語
+    fetch, interface, mentoring, query, trace, transaction
+
+## Vocabulary 不一致
+  abstraction          current=Advanced     expected=Intermediate
   assertion            current=Beginner     expected=Intermediate
+  authenticate         current=Advanced     expected=Intermediate
   availability         current=Beginner     expected=Intermediate
   capacity             current=Beginner     expected=Intermediate
-  consensus            current=Intermediate expected=Advanced
+  complexity           current=Advanced     expected=Intermediate
+  correctness          current=Advanced     expected=Intermediate
   coverage             current=Beginner     expected=Intermediate
   critique             current=Beginner     expected=Intermediate
+  demonstrate          current=Advanced     expected=Intermediate
   dependency           current=Advanced     expected=Intermediate
+  diagnose             current=Advanced     expected=Intermediate
   discretion           current=Intermediate expected=Advanced
+  fetch                current=Beginner     expected=Intermediate
+  functionality        current=Advanced     expected=Intermediate
   infrastructure       current=Beginner     expected=Intermediate
   install              current=Intermediate expected=Beginner
+  interface            current=Beginner     expected=Intermediate
   isolate              current=Beginner     expected=Intermediate
+  iterate              current=Advanced     expected=Intermediate
+  mentoring            current=Beginner     expected=Intermediate
   ownership            current=Beginner     expected=Intermediate
+  query                current=Beginner     expected=Intermediate
   reliability          current=Beginner     expected=Intermediate
   replace              current=Advanced     expected=Beginner
   reproduce            current=Advanced     expected=Intermediate
+  sanitize             current=Advanced     expected=Intermediate
+  severity             current=Advanced     expected=Intermediate
+  trace                current=Beginner     expected=Intermediate
+  transaction          current=Beginner     expected=Intermediate
   validate             current=Advanced     expected=Intermediate
+  validation           current=Advanced     expected=Intermediate
 
 === PASS ===
