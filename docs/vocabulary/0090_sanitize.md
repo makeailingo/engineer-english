@@ -8,7 +8,7 @@ pronunciation: "/ˈsæn.ə.taɪz/"
 descriptionJa: "信頼できない入力から危険な要素を除去すること。"
 usageExample: "Sanitize untrusted HTML before inserting it into the DOM."
 usageExampleJa: "信頼できないHTMLはDOMへの挿入前に無害化します。"
-difficulty: Advanced
+difficulty: Intermediate
 scene: Security
 source:
   title: "HTML Sanitizer API"

@@ -8,7 +8,7 @@ pronunciation: "/ˈɪt̬.ə.reɪt/"
 descriptionJa: "データ構造の要素を順に反復処理すること。"
 usageExample: "How would you iterate over this graph without recursion?"
 usageExampleJa: "再帰なしでこのグラフをどう反復処理しますか。"
-difficulty: Advanced
+difficulty: Intermediate
 scene: Technical Interview
 source:
   title: "Iterators and generators - JavaScript | MDN"

@@ -8,7 +8,7 @@ pronunciation: "/dɪˈpen.dən.si/"
 descriptionJa: "モジュールが他の要素に頼る関係。"
 usageExample: "Should this dependency cross the domain boundary?"
 usageExampleJa: "この依存関係はドメイン境界を越えるべきですか。"
-difficulty: Advanced
+difficulty: Intermediate
 scene: Architecture
 source:
   title: "JavaScript modules - JavaScript | MDN"

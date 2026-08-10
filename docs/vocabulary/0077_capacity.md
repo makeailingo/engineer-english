@@ -8,7 +8,7 @@ pronunciation: "/kəˈpæs.ə.t̬i/"
 descriptionJa: "システムが処理または保持できる最大量。"
 usageExample: "Add capacity before the seasonal traffic peak begins."
 usageExampleJa: "季節的な通信量のピーク前に処理容量を増やします。"
-difficulty: Beginner
+difficulty: Intermediate
 scene: Infrastructure / Cloud
 source:
   title: "Non-Abstract Large Scale Design Workbook"

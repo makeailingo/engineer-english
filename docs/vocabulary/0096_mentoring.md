@@ -8,7 +8,7 @@ pronunciation: "/ˈmen.tɔːr.ɪŋ/"
 descriptionJa: "コードレビューを通じて開発者を育成すること。"
 usageExample: "Mentoring helps developers learn sound design principles."
 usageExampleJa: "指導により開発者は適切な設計原則を学びます。"
-difficulty: Beginner
+difficulty: Intermediate
 scene: Leadership / Management
 source:
   title: "The Standard of Code Review"

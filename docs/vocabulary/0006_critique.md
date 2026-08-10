@@ -8,7 +8,7 @@ pronunciation: "/krɪˈtiːk/"
 descriptionJa: "コードの改善を目的とした詳しい批評。"
 usageExample: "Her critique revealed a flaw in the cache design."
 usageExampleJa: "彼女の批評でキャッシュ設計の欠陥が判明しました。"
-difficulty: Beginner
+difficulty: Intermediate
 scene: Daily Communication
 source:
   title: "How to handle reviewer comments"

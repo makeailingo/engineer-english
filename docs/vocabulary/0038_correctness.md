@@ -8,7 +8,7 @@ pronunciation: "/kəˈrekt.nəs/"
 descriptionJa: "コードが誤りなく期待どおりに動作する性質。"
 usageExample: "These tests establish the parser's correctness."
 usageExampleJa: "これらのテストでパーサーの正しさを確認します。"
-difficulty: Advanced
+difficulty: Intermediate
 scene: Testing
 source:
   title: "Invariant - Glossary | MDN"
