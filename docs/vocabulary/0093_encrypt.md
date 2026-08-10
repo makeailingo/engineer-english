@@ -8,7 +8,7 @@ pronunciation: "/ɪnˈkrɪpt/"
 descriptionJa: "平文を鍵と暗号方式で暗号文に変換すること。"
 usageExample: "Encrypt sensitive data with authenticated encryption before transmission."
 usageExampleJa: "送信前に機密データを認証付き暗号で暗号化します。"
-difficulty: Advanced
+difficulty: Intermediate
 scene: Security
 source:
   title: "SubtleCrypto: encrypt() method"

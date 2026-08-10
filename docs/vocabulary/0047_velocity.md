@@ -8,7 +8,7 @@ pronunciation: "/vəˈlɑː.sə.t̬i/"
 descriptionJa: "チーム全体が成果を生み出す作業速度。"
 usageExample: "Use team velocity to forecast the next sprint."
 usageExampleJa: "チーム速度で次のスプリントを予測します。"
-difficulty: Advanced
+difficulty: Intermediate
 scene: Sprint Planning
 source:
   title: "Speed of Code Reviews | eng-practices"

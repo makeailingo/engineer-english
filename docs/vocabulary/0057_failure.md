@@ -8,7 +8,7 @@ pronunciation: "/ˈfeɪ.ljɚ/"
 descriptionJa: "サーバーが正常に要求を処理できなくなること。"
 usageExample: "The server failure triggered our incident response process."
 usageExampleJa: "サーバー障害を受けてインシデント対応を開始しました。"
-difficulty: Intermediate
+difficulty: Beginner
 scene: Incident Response
 source:
   title: "503 Service Unavailable"

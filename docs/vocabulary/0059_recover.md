@@ -8,7 +8,7 @@ pronunciation: "/rɪˈkʌv.ɚ/"
 descriptionJa: "一時的な障害の後、サービスが正常な状態に戻ること。"
 usageExample: "The service recovered after we reduced incoming traffic."
 usageExampleJa: "流入トラフィックを減らした後、サービスは復旧しました。"
-difficulty: Intermediate
+difficulty: Beginner
 scene: Incident Response
 source:
   title: "Using Service Workers - Web APIs | MDN"

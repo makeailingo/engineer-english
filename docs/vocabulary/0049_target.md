@@ -8,7 +8,7 @@ pronunciation: "/ˈtɑːr.ɡɪt/"
 descriptionJa: "要件を検討する際に想定する利用者層。"
 usageExample: "Our target audience is first-time mobile users."
 usageExampleJa: "対象は初めてのモバイル利用者です。"
-difficulty: Advanced
+difficulty: Intermediate
 scene: Requirements
 source:
   title: "Workflows and processes - Learn web development | MDN"

@@ -8,7 +8,7 @@ pronunciation: "/ˌriː.ɪnˈfɔːrs.mənt/"
 descriptionJa: "良い実践を称賛して継続を促すこと。"
 usageExample: "Positive reinforcement encourages developers to repeat good practices."
 usageExampleJa: "肯定的な強化は良い実践の継続を促します。"
-difficulty: Advanced
+difficulty: Intermediate
 scene: Leadership / Management
 source:
   title: "How to write code review comments"

@@ -8,7 +8,7 @@ pronunciation: "/kənˈstreɪnt/"
 descriptionJa: "設計で許容できる値や選択肢を制限する条件。"
 usageExample: "Which constraint limits the camera frame rate?"
 usageExampleJa: "どの制約がカメラのフレーム率を制限しますか。"
-difficulty: Advanced
+difficulty: Intermediate
 scene: Technical Interview
 source:
   title: "Capabilities, constraints, and settings - Web APIs | MDN"

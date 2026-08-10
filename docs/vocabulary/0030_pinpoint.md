@@ -8,7 +8,7 @@ pronunciation: "/ˈpɪn.pɔɪnt/"
 descriptionJa: "計測結果から、不具合の箇所や原因を正確に特定すること。"
 usageExample: "The profiler can pinpoint the slowest lines of code."
 usageExampleJa: "プロファイラーで最も遅いコード行を特定できます。"
-difficulty: Advanced
+difficulty: Intermediate
 scene: Debugging
 source:
   title: "Performance fundamentals - Performance | MDN"

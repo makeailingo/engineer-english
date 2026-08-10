@@ -8,7 +8,7 @@ pronunciation: "/treɪs/"
 descriptionJa: "呼び出し経路を追い、不具合の発生元を調べること。"
 usageExample: "Trace the error back to the failed network request."
 usageExampleJa: "エラーを失敗したネットワーク要求までたどってください。"
-difficulty: Advanced
+difficulty: Intermediate
 scene: Debugging
 source:
   title: "console: trace() static method - Web APIs | MDN"

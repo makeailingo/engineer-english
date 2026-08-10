@@ -8,7 +8,7 @@ pronunciation: "/kəˌmjuː.nəˈkeɪ.ʃən/"
 descriptionJa: "システム間で情報を伝達する方式や流れ。"
 usageExample: "Which communication style fits these service boundaries?"
 usageExampleJa: "どの通信方式がこのサービス境界に適しますか。"
-difficulty: Intermediate
+difficulty: Beginner
 scene: Architecture
 source:
   title: "Google SRE classroom - Distributed Publish-subscribe workshop"
