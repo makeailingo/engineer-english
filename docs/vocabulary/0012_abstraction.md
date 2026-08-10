@@ -8,7 +8,7 @@ pronunciation: "/æbˈstræk.ʃən/"
 descriptionJa: "複雑な実装詳細を、単純なAPIの背後に隠す仕組み。"
 usageExample: "What details should this abstraction hide from callers?"
 usageExampleJa: "この抽象化は何を呼び出し元から隠しますか。"
-difficulty: Advanced
+difficulty: Intermediate
 scene: Technical Interview
 source:
   title: "Abstraction - Glossary | MDN"

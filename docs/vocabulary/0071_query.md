@@ -8,7 +8,7 @@ pronunciation: "/ˈkwɪr.i/"
 descriptionJa: "条件を指定してデータを取得する問い合わせ。"
 usageExample: "This query returns orders created after midnight."
 usageExampleJa: "このクエリは深夜以降の注文を返します。"
-difficulty: Beginner
+difficulty: Intermediate
 scene: Database
 source:
   title: "Using IndexedDB - Web APIs | MDN"

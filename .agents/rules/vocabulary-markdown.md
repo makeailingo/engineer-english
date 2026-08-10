@@ -5,7 +5,7 @@
 - 1ファイルにつき1件とし、ファイル名は`<id>_<term>.md`とする。`term`部分は小文字のkebab-caseにする。
 - `docs/templates/vocabulary.md`を複製し、YAML Front Matterの全属性を記載する。
 - 語義・品詞・発音は researching-vocabulary Skill に従う。
-- `difficulty`は evaluating-difficulty Skill に従い、CEFR と JMdict 外来語定着度から判定する。
+- `difficulty`は evaluating-difficulty Skill に従う。
 - `id`は`"0001"`から始まる重複のない4桁連番とし、既存の最大値に1を加えて採番する。
 - `type`は`word`または`phrase`とする。
 - `difficulty`と`scene`は下記マスタからそれぞれ1つだけ選ぶ。
@@ -44,30 +44,13 @@ Google SREでは、SREサイト全体をCC BY 4.0とみなさず、CC BY 4.0と�
 
 ## Difficulty Master
 
-| English | 日本語 | 判定基準 |
+| English | 日本語 | 目安 |
 | --- | --- | --- |
-| Beginner | 初級 | TOEIC 600前後でも理解しやすく、一般的な意味のまま実務で使える語句 |
-| Intermediate | 中級 | 一般語だが、エンジニア文脈での意味や定型的な使い方の習得が必要な語句 |
-| Advanced | 上級 | 抽象度が高い、専門知識を要する、または文脈によってニュアンスが変わる語句 |
+| Beginner | 初級 | 一般語として広く知られ、エンジニアも意味を推測しやすい |
+| Intermediate | 中級 | 一般語だが実務での用法に学習価値がある、または技術文脈で頻出する |
+| Advanced | 上級 | 一般英語として日常的に使われず、エンジニアも英単語としては馴染みが薄い |
 
-`difficulty`は [evaluating-difficulty Skill](.agents/skills/evaluating-difficulty/SKILL.md) に従い、CEFR と JMdict 外来語定着度から機械的に判定する。
-
-## Difficulty Eval
-
-1. Cambridge Dictionary、Oxford 3000 / 5000からCEFRを取得する。
-2. CEFRを以下に変換する。
-   - A1-B1: Beginner
-   - B2-C1: Intermediate
-   - C2: Advanced
-3. [JMdict](https://www.edrdg.org/jmdict/j_jmdict.html)に、その英単語に対応する日本語の外来語が登録されている場合、Difficultyを1段階下げる。
-4. Beginnerより下にはしない。
-
-| 対象 | CEFR 参照ソース |
-| --- | --- |
-| word | Cambridge Dictionary → Oxford 3000 / 5000 |
-| phrase | Oxford Phrase List → Cambridge Dictionary |
-
-CEFR 取得時、複数の CEFR が付いている場合、または語義ごとにレベルが異なる場合は、理解に必要な知識が最も多い Difficulty を選ぶ。CEFR がどちらにもない場合のみ推測する。
+`difficulty`は [evaluating-difficulty Skill](.agents/skills/evaluating-difficulty/SKILL.md) に従う。
 
 ## Scene Master
 

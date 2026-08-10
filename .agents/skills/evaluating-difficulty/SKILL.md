@@ -1,20 +1,67 @@
 ---
 name: evaluating-difficulty
-description: CEFR（Cambridge / Oxford）から Vocabulary の difficulty を機械的に判定する。Vocabulary の作成・更新前に使用する。
+description: 2観点の評価と判定ルールで Vocabulary の difficulty を決める。Vocabulary の作成・更新前に使用する。
 ---
 
 # Evaluating Difficulty
 
-再現性を持たせるため、Difficulty Eval は **CEFR のみ** から行う。
+Vocabulary の `difficulty` は、CEFR・TOEIC 等の外部語彙リストでは決めない。  
+2つの観点を評価し、下記の判定ルールで Beginner / Intermediate / Advanced を決める。
 
-## 参照ソース
+## Difficulty 定義
 
-| 用途 | ソース |
+| Difficulty | 目安 |
 | --- | --- |
-| CEFR（word） | [Cambridge Dictionary](https://dictionary.cambridge.org/dictionary/english/) → [Oxford 3000 / 5000](https://www.oxfordlearnersdictionaries.com/about/wordlists/) |
-| CEFR（phrase） | [Oxford Phrase List](https://www.oxfordlearnersdictionaries.com/about/wordlists/oxford-phrase-list) → Cambridge Dictionary |
+| Beginner | 一般語として広く知られ、エンジニアも意味を推測しやすい |
+| Intermediate | 一般語だが実務での用法に学習価値がある、または技術文脈で頻出する |
+| Advanced | 一般英語として日常的に使われず、エンジニアも英単語としては馴染みが薄い |
 
-ローカル教材（金フレ等）には依存しない。毎回公開ソースを参照して再現できる Eval とする。
+## 判断観点
+
+各観点を **low / medium / high** で評価する。
+
+| 観点 | 問い |
+| --- | --- |
+| `generalFamiliarity` | 一般的な英語として、意味を推測しやすいか |
+| `engineerFamiliarity` | 日本人ソフトウェアエンジニアが、英単語として意味を理解している可能性が高いか |
+
+## 判定ルール
+
+観点評価のあと、次のルールだけで Difficulty を決める。**例外解釈はしない。**
+
+| 条件 | Difficulty |
+| --- | --- |
+| `generalFamiliarity` = high **かつ** `engineerFamiliarity` ≠ low | Beginner |
+| `generalFamiliarity` = low **かつ** `engineerFamiliarity` = low | Advanced |
+| 上記以外 | Intermediate |
+
+## 代表例
+
+代表例は観点評価の **参考** に使う。Difficulty は代表例から直接決めない。
+
+### generalFamiliarity
+
+| 値 | 代表例 |
+| --- | --- |
+| high | `feedback`, `deadline`, `replace` |
+| medium | `clarify`, `mandatory`, `defer` |
+| low | `courteous`, `scrutiny`, `discretion` |
+
+判定が分かれやすい語（例: `trade-off`）は代表例に入れない。
+
+## 手順
+
+1. 代表例を参考に `generalFamiliarity` を評価する
+2. 代表例を参考に `engineerFamiliarity` を評価する
+3. 判定ルールで Difficulty を決める
+4. `confidence` を付与する
+5. 任意で `contextualLearningNeeded` を記録する（Difficulty 判定には使わない）
+
+`reasoning` を先に書き、その後 `difficulty` を書く。
+
+## contextualLearningNeeded
+
+Difficulty 判定には使わない。記録のみ（将来の学習価値・収録優先度などに利用）。
 
 ## Input
 
@@ -23,115 +70,64 @@ term: "feedback"
 type: "word" # word | phrase
 ```
 
-## Difficulty Eval
-
-1. Cambridge Dictionary、Oxford 3000 / 5000からCEFRを取得する。
-2. CEFRをDifficultyに変換する:
-   - A1-B1: Beginner
-   - B2-C1: Intermediate
-   - C2: Advanced
-
-```text
-CEFR → Difficulty
-```
-
-### Step 1: CEFR の取得
-
-#### word
-
-1. Cambridge Dictionary で CEFR を取得する（`class="epp-xref dxref …"`）。
-2. Oxford Learner's Dictionaries で CEFR を取得する（`cefr="…"`）。
-3. 両方ある場合は一致を確認する。片方しかない場合はその値を採用する。
-4. どちらにも CEFR がない場合は推測する。
-
-#### phrase
-
-1. Oxford Phrase List で CEFR を確認する。
-2. 見つからない場合は Cambridge Dictionary で CEFR を確認する。
-3. どちらにも CEFR がない場合は推測する。
-
-複数の CEFR が付いている場合、または語義ごとにレベルが異なる場合は、**最も高い CEFR** を採用する。
-
-検索結果の要約だけで判断せず、各ページを開いて確認する。
-
-## 判定例
-
-| Term | CEFR | Difficulty |
-| --- | --- | --- |
-| feedback | B2 | **Intermediate** |
-| courteous | C2 | **Advanced** |
-| priority | B2 | **Intermediate** |
-| consensus | C1 | **Intermediate** |
-| clarify | C1 | **Intermediate** |
-| scrutiny | C2 | **Advanced** |
-| critique | C1 | **Intermediate** |
-| isolate | C1 | **Intermediate** |
-| assertion | C1 | **Intermediate** |
-| coverage | B2 | **Intermediate** |
-| reliability | B2 | **Intermediate** |
-| availability | B2 | **Intermediate** |
-| capacity | B2 | **Intermediate** |
-| ownership | B2 | **Intermediate** |
-
-### feedback
-
-```text
-Cambridge: B2
-→ Intermediate
-```
-
-### courteous
-
-```text
-Cambridge: C2
-→ Advanced
-```
-
-### clarify
-
-```text
-Cambridge: C1
-→ Intermediate
-```
-
 ## Output
 
 ```yaml
 term: "feedback"
 type: "word"
-difficulty: "Intermediate"
-cefr:
-  cambridge: "B2"
-  oxford: "B2"
-  adopted: "B2"
-  method: "both"
-sources:
-  - role: cefrPrimary
-    title: "FEEDBACK | English meaning - Cambridge Dictionary"
-    url: "https://dictionary.cambridge.org/dictionary/english/feedback"
-  - role: cefrCrossCheck
-    title: "feedback verb - Oxford Learners Dictionaries"
-    url: "https://www.oxfordlearnersdictionaries.com/definition/english/feedback"
-confidence: "High"
-notes: "B2 → Intermediate"
+reasoning:
+  generalFamiliarity: high
+  engineerFamiliarity: high
+  contextualLearningNeeded: low
+difficulty: Beginner
+confidence: High
+notes: "一般語として広く知られ、エンジニア文脈でも理解しやすい。"
+```
+
+```yaml
+term: "clarify"
+type: "word"
+reasoning:
+  generalFamiliarity: medium
+  engineerFamiliarity: medium
+  contextualLearningNeeded: medium
+difficulty: Intermediate
+confidence: High
+notes: "一般語だが、実務での用法に学習価値がある。"
+```
+
+```yaml
+term: "courteous"
+type: "word"
+reasoning:
+  generalFamiliarity: low
+  engineerFamiliarity: low
+  contextualLearningNeeded: high
+difficulty: Advanced
+confidence: High
+notes: "日常会話ではあまり使われない。丁寧さのニュアンスを知らないと使い分けにくい。"
 ```
 
 ## Confidence
 
-- `High`: CEFR が Cambridge または Oxford で確認できた。
-- `Medium`: CEFR は片方のみ、または CEFR がなく推測した。
-- `Low`: CEFR が確認できず推測に頼った。理由を `notes` に記録する。
+- `High`: 2観点と代表例から明確に評価できる
+- `Medium`: どちらかの観点が境界的だが、判定ルールで決められる
+- `Low`: 2観点自体の評価に迷う
 
-## アルゴリズム検証
-
-新規ルール導入時は、個々の単語を人間判定するのではなく、代表語20件程度でアルゴリズム自体の妥当性を検証する。
-
-検証用語の例: `feedback`, `scope`, `deploy`, `clarify`, `courteous`, `scrutiny`, `priority`, `consensus`
-
-## 日本人エンジニアへの馴染みについて
-
-「日本人エンジニアには簡単」という観点は Difficulty とは別軸です。将来的に `familiarityJa` などの別属性として扱うことを想定しています。
+`confidence` が Low でも、Difficulty は判定ルールに従って出す。`notes` に迷いを記録する。
 
 ## Vocabulary への反映
 
-Eval 結果の `difficulty` を Vocabulary の Front Matter に転記する。Eval 用の `cefr` は調査の中間出力として残し、Vocabulary の `source` には引き続き Engineering 一次資料のみを記録する（[researching-vocabulary](.agents/skills/researching-vocabulary/SKILL.md) に従う）。
+評価結果の `difficulty` を Vocabulary の YAML Front Matter に転記する。  
+`reasoning` は中間出力として残してよいが、Vocabulary 本体には載せない。
+
+## 禁止事項
+
+- 外部語彙リストを正解ラベルとして使う
+- 代表例との類似度で Difficulty を直接決める
+- `contextualLearningNeeded` を Difficulty 判定に使う
+- 迷ったら高い方を選ぶ
+
+## 文言
+
+Skill 本文では、一般的でない専門用語を使わない（例: 固定決定表、uncommon）。

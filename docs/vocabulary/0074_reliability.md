@@ -8,7 +8,7 @@ pronunciation: "/rɪˌlaɪ.əˈbɪl.ə.t̬i/"
 descriptionJa: "システムが期待どおり安定して動作する性質。"
 usageExample: "We test reliability before routing production traffic to the cluster."
 usageExampleJa: "本番通信を流す前に信頼性を検証します。"
-difficulty: Beginner
+difficulty: Intermediate
 scene: Infrastructure / Cloud
 source:
   title: "Non-Abstract Large Scale Design Workbook"

@@ -8,7 +8,7 @@ pronunciation: "/ɑːˈθen.t̬ə.keɪt/"
 descriptionJa: "利用者が本人であることを資格情報で確認すること。"
 usageExample: "Passkeys authenticate users without exposing reusable passwords."
 usageExampleJa: "パスキーは再利用可能なパスワードを公開せず利用者を認証します。"
-difficulty: Advanced
+difficulty: Intermediate
 scene: Security
 source:
   title: "Passkeys"

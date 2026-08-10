@@ -8,7 +8,7 @@ pronunciation: "/trænˈzæk.ʃən/"
 descriptionJa: "複数の読み書きを一体として扱う操作単位。"
 usageExample: "A transaction updates both account balances atomically."
 usageExampleJa: "一つの処理単位で両口座残高を不可分に更新します。"
-difficulty: Beginner
+difficulty: Intermediate
 scene: Database
 source:
   title: "IndexedDB API - Web APIs | MDN"
