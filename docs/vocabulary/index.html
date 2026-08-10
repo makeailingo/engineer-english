@@ -1,0 +1,78 @@
+---
+layout: default
+title: Vocabulary
+---
+
+<h1>Vocabulary</h1>
+
+{% assign vocabularies = site.pages
+  | where_exp: "page", "page.layout == 'vocabulary'"
+  | sort: "id" %}
+
+<p>{{ vocabularies.size }} terms</p>
+
+<input
+  id="search"
+  type="search"
+  placeholder="Search vocabulary..."
+>
+
+<select id="difficulty-filter">
+  <option value="">All difficulties</option>
+  <option value="Beginner">Beginner</option>
+  <option value="Intermediate">Intermediate</option>
+  <option value="Advanced">Advanced</option>
+</select>
+
+<select id="scene-filter">
+  <option value="">All scenes</option>
+  {% assign scenes = site.pages
+    | where_exp: "page", "page.layout == 'vocabulary'"
+    | map: "scene"
+    | uniq
+    | sort
+  %}
+  {% for scene in scenes %}
+    {% if scene %}
+      <option value="{{ scene }}">{{ scene }}</option>
+    {% endif %}
+  {% endfor %}
+</select>
+
+<table id="vocabulary-table">
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Term</th>
+      <th>Difficulty</th>
+      <th>Scene</th>
+      <th>意味</th>
+      <th>Usage Example</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    {% for vocabulary in vocabularies %}
+      <tr
+        data-id="{{ vocabulary.id }}"
+        data-term="{{ vocabulary.term | downcase }}"
+        data-difficulty="{{ vocabulary.difficulty }}"
+        data-scene="{{ vocabulary.scene }}"
+        data-search="{{ vocabulary.term | downcase }} {{ vocabulary.meaningJa }} {{ vocabulary.usageExample | downcase }}"
+      >
+        <td>{{ vocabulary.id }}</td>
+        <td>
+          <a href="{{ vocabulary.url | relative_url }}">
+            {{ vocabulary.term }}
+          </a>
+        </td>
+        <td>{{ vocabulary.difficulty }}</td>
+        <td>{{ vocabulary.scene }}</td>
+        <td>{{ vocabulary.meaningJa }}</td>
+        <td>{{ vocabulary.usageExample }}</td>
+      </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+<script src="{{ '/assets/js/vocabulary-table.js' | relative_url }}"></script>
