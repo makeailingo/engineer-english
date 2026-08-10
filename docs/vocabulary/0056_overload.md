@@ -8,7 +8,7 @@ pronunciation: "/ˈoʊ.vɚ.loʊd/"
 descriptionJa: "要求量がサーバーの処理能力を超えた状態。"
 usageExample: "Traffic overload caused repeated checkout timeouts."
 usageExampleJa: "トラフィック過負荷で決済のタイムアウトが続きました。"
-difficulty: Intermediate
+difficulty: Advanced
 scene: Incident Response
 source:
   title: "503 Service Unavailable"

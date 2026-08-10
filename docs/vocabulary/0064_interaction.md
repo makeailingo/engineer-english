@@ -8,7 +8,7 @@ pronunciation: "/ˌɪn.t̬ɚˈræk.ʃən/"
 descriptionJa: "システム要素間で情報をやり取りし影響し合うこと。"
 usageExample: "How does this interaction affect service boundaries?"
 usageExampleJa: "この相互作用はサービス境界にどう影響しますか。"
-difficulty: Intermediate
+difficulty: Advanced
 scene: Architecture
 source:
   title: "REST - Glossary | MDN"

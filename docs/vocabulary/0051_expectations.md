@@ -8,7 +8,7 @@ pronunciation: "/ˌek.spekˈteɪ.ʃənz/"
 descriptionJa: "相手やシステムが満たすと想定する条件。"
 usageExample: "The server must meet these expectations."
 usageExampleJa: "サーバーはこれらの想定条件を満たす必要があります。"
-difficulty: Beginner
+difficulty: Intermediate
 scene: Requirements
 source:
   title: "Expect header - HTTP | MDN"

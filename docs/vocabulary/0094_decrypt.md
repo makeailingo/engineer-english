@@ -8,7 +8,7 @@ pronunciation: "/dɪˈkrɪpt/"
 descriptionJa: "暗号文を鍵と暗号方式で平文に戻すこと。"
 usageExample: "Decrypt ciphertext with the matching key and parameters."
 usageExampleJa: "対応する鍵とパラメーターで暗号文を復号します。"
-difficulty: Advanced
+difficulty: Intermediate
 scene: Security
 source:
   title: "SubtleCrypto: decrypt() method"

@@ -8,7 +8,7 @@ pronunciation: "/praɪˈɔːr.ə.t̬i/"
 descriptionJa: "他の作業より先に取り組む重要度。"
 usageExample: "Payment failures are our highest priority this sprint."
 usageExampleJa: "今スプリントは決済障害が最優先です。"
-difficulty: Beginner
+difficulty: Advanced
 scene: Sprint Planning
 source:
   title: "Emergencies | eng-practices"

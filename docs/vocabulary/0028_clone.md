@@ -8,7 +8,7 @@ pronunciation: "/kloʊn/"
 descriptionJa: "ノードと必要に応じて子孫を複製すること。"
 usageExample: "Clone the template before inserting user data."
 usageExampleJa: "ユーザーデータ挿入前にテンプレートを複製してください。"
-difficulty: Intermediate
+difficulty: Advanced
 scene: Implementation
 source:
   title: "Node: cloneNode() method - Web APIs | MDN"

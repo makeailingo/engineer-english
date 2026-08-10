@@ -8,7 +8,7 @@ pronunciation: "/ˈɪn.t̬ɚ.feɪs/"
 descriptionJa: "構成要素が外部とのやり取りに公開する接点。"
 usageExample: "This interface isolates clients from storage details."
 usageExampleJa: "この接点はクライアントを保存処理の詳細から分離します。"
-difficulty: Intermediate
+difficulty: Advanced
 scene: Architecture
 source:
   title: "API - Glossary | MDN"

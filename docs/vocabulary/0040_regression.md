@@ -8,7 +8,7 @@ pronunciation: "/rɪˈɡreʃ.ən/"
 descriptionJa: "変更によって既存の動作や性能が悪化すること。"
 usageExample: "This test catches a regression in keyboard navigation."
 usageExampleJa: "このテストでキーボード操作の後退を検出します。"
-difficulty: Advanced
+difficulty: Intermediate
 scene: Testing
 source:
   title: "Performance Monitoring: RUM vs. synthetic monitoring - Performance | MDN"

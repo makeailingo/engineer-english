@@ -8,7 +8,7 @@ pronunciation: "/ˈrek.ɚd/"
 descriptionJa: "関連する項目をまとめた一件分の格納データ。"
 usageExample: "The transaction updates one customer record."
 usageExampleJa: "そのトランザクションは顧客レコードを1件更新します。"
-difficulty: Intermediate
+difficulty: Advanced
 scene: Database
 source:
   title: "Using IndexedDB - Web APIs | MDN"

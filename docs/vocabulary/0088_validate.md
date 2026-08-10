@@ -8,7 +8,7 @@ pronunciation: "/ˈvæl.ə.deɪt/"
 descriptionJa: "入力が想定した形式や条件を満たすか検証すること。"
 usageExample: "Validate every uploaded filename before storing the file."
 usageExampleJa: "保存前にアップロードされた全ファイル名を検証します。"
-difficulty: Intermediate
+difficulty: Advanced
 scene: Security
 source:
   title: "Input validation"

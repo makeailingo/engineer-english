@@ -8,7 +8,7 @@ pronunciation: "/ˌdaɪ.əɡˈnoʊs/"
 descriptionJa: "ツールや観測結果を使って、不具合の原因を見極めること。"
 usageExample: "Use DevTools to diagnose the slow page rendering."
 usageExampleJa: "DevToolsでページ描画が遅い原因を診断してください。"
-difficulty: Intermediate
+difficulty: Advanced
 scene: Debugging
 source:
   title: "Performance fundamentals - Performance | MDN"

@@ -8,7 +8,7 @@ pronunciation: "/rɪˈdʒekt/"
 descriptionJa: "エラー理由を渡してPromiseを失敗状態にすること。"
 usageExample: "Reject the promise with an Error for easier debugging."
 usageExampleJa: "デバッグしやすいようErrorでPromiseを拒否してください。"
-difficulty: Beginner
+difficulty: Intermediate
 scene: Debugging
 source:
   title: "Promise.reject() - JavaScript | MDN"

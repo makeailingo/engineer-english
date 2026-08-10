@@ -8,7 +8,7 @@ pronunciation: "/əˈpruː.vəl/"
 descriptionJa: "変更の提出を認める正式な許可。"
 usageExample: "This change needs security approval before merging."
 usageExampleJa: "この変更はマージ前にセキュリティ承認が必要です。"
-difficulty: Beginner
+difficulty: Intermediate
 scene: Code Review
 source:
   title: "The Standard of Code Review"

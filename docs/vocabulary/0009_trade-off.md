@@ -8,7 +8,7 @@ pronunciation: "/ˈtreɪd.ɑːf/"
 descriptionJa: "相反する利点と欠点を比較し、妥協点を選ぶこと。"
 usageExample: "What trade-off does this caching strategy introduce?"
 usageExampleJa: "このキャッシュ戦略にはどのようなトレードオフがありますか。"
-difficulty: Advanced
+difficulty: Intermediate
 scene: Technical Interview
 source:
   title: "The Standard of Code Review"

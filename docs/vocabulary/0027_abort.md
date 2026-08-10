@@ -8,7 +8,7 @@ pronunciation: "/əˈbɔːrt/"
 descriptionJa: "完了前の非同期処理を中止すること。"
 usageExample: "Abort the request when the user closes the dialog."
 usageExampleJa: "ユーザーがダイアログを閉じたら要求を中止してください。"
-difficulty: Intermediate
+difficulty: Advanced
 scene: Implementation
 source:
   title: "AbortController: abort() method - Web APIs | MDN"
