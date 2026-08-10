@@ -121,10 +121,6 @@ notes: "日常会話では uncommon。丁寧さのニュアンスを知らない
 Eval 結果の `difficulty` を Vocabulary の Front Matter に転記する。  
 `reasoning` は Eval の中間出力として残してよいが、Vocabulary 本体には載せない。
 
-## ルール変更時
-
-判断基準や決定表を変更したときは、`evals/difficulty/run_regression.py` で約 100 語の回帰確認を行う。
-
 ## 禁止事項
 
 - 外部語彙リストを正解ラベルとして使う
