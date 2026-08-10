@@ -41,15 +41,15 @@ description: 固定の判断基準と代表例に基づき Vocabulary の diffic
 
 ### Beginner
 
-`feedback`, `deadline`, `query`, `fetch`, `replace`, `install`, `approach`, `failure`
+`feedback`, `deadline`, `replace`, `install`, `query`
 
 ### Intermediate
 
-`clarify`, `trade-off`, `defer`, `escalate`, `constraint`, `regression`, `dispatch`, `scope`
+`clarify`, `defer`, `escalate`, `reproduce`, `mandatory`
 
 ### Advanced
 
-`courteous`, `scrutiny`, `discretion`, `abstraction`, `demonstrate`, `consensus`, `reproduce`
+`courteous`, `scrutiny`, `discretion`
 
 ## Input
 

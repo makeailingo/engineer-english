@@ -5,7 +5,7 @@ reasoning:
   generalFamiliarity: medium
   engineerFamiliarity: high
   contextualLearningNeeded: medium
-  nearestExamples: [dispatch, defer]
+  nearestExamples: [clarify, defer]
 difficulty: Intermediate
 confidence: High
 notes: "中断・中止は技術文脈（abort 処理）で dispatch/defer と同様に実務用法の習得が必要。"
@@ -18,7 +18,7 @@ reasoning:
   generalFamiliarity: medium
   engineerFamiliarity: high
   contextualLearningNeeded: high
-  nearestExamples: [abstraction, demonstrate]
+  nearestExamples: [courteous, scrutiny]
 difficulty: Advanced
 confidence: High
 notes: "抽象化は代表例どおり demonstrate と並び、概念の抽象度が高く文脈学習が必要。"
@@ -31,7 +31,7 @@ reasoning:
   generalFamiliarity: high
   engineerFamiliarity: high
   contextualLearningNeeded: low
-  nearestExamples: [approach, feedback]
+  nearestExamples: [feedback, deadline]
 difficulty: Beginner
 confidence: High
 notes: "進め方・方針の一般語で、feedback と同様に実務でも意味が直感的に推測できる。"
@@ -57,7 +57,7 @@ reasoning:
   generalFamiliarity: low
   engineerFamiliarity: medium
   contextualLearningNeeded: medium
-  nearestExamples: [regression, constraint]
+  nearestExamples: [clarify, defer]
 difficulty: Intermediate
 confidence: Medium
 notes: "アサーションはテスト文脈で regression/constraint に近く、一般語としてはやや専門的。"
@@ -70,7 +70,7 @@ reasoning:
   generalFamiliarity: medium
   engineerFamiliarity: high
   contextualLearningNeeded: high
-  nearestExamples: [demonstrate, abstraction]
+  nearestExamples: [courteous, scrutiny]
 difficulty: Advanced
 confidence: High
 notes: "認証は demonstrate/abstraction と同クラスで、セキュリティ文脈のニュアンス習得が必要。"
@@ -83,7 +83,7 @@ reasoning:
   generalFamiliarity: medium
   engineerFamiliarity: high
   contextualLearningNeeded: medium
-  nearestExamples: [scope, defer]
+  nearestExamples: [clarify, defer]
 difficulty: Intermediate
 confidence: Medium
 notes: "可用性は SRE 文脈で scope/defer と並び、一般語より実務での意味理解が重要。"
@@ -96,7 +96,7 @@ reasoning:
   generalFamiliarity: medium
   engineerFamiliarity: medium
   contextualLearningNeeded: medium
-  nearestExamples: [defer, dispatch]
+  nearestExamples: [clarify, defer]
 difficulty: Intermediate
 confidence: Medium
 notes: "迂回・回避は defer/dispatch と同クラスで、実務での使い方に学習価値がある。"
@@ -109,7 +109,7 @@ reasoning:
   generalFamiliarity: medium
   engineerFamiliarity: medium
   contextualLearningNeeded: medium
-  nearestExamples: [scope, defer]
+  nearestExamples: [clarify, defer]
 difficulty: Intermediate
 confidence: Medium
 notes: "容量・キャパシティは scope/defer と並び、一般語だが実務文脈での意味習得が必要。"
@@ -135,7 +135,7 @@ reasoning:
   generalFamiliarity: medium
   engineerFamiliarity: high
   contextualLearningNeeded: medium
-  nearestExamples: [dispatch, defer]
+  nearestExamples: [clarify, defer]
 difficulty: Intermediate
 confidence: High
 notes: "Git の clone は dispatch/defer と同様に技術文脈で頻出だが、一般英語としてはやや限定的。"
@@ -161,7 +161,7 @@ reasoning:
   generalFamiliarity: high
   engineerFamiliarity: high
   contextualLearningNeeded: low
-  nearestExamples: [feedback, approach]
+  nearestExamples: [feedback, deadline]
 difficulty: Beginner
 confidence: High
 notes: "コミュニケーションは広く知られ、エンジニア会話でも feedback と同クラスの基本語。"
@@ -174,7 +174,7 @@ reasoning:
   generalFamiliarity: medium
   engineerFamiliarity: high
   contextualLearningNeeded: high
-  nearestExamples: [abstraction, demonstrate]
+  nearestExamples: [courteous, scrutiny]
 difficulty: Advanced
 confidence: High
 notes: "複雑性は abstraction/demonstrate と並び、抽象度が高く実務での意味・用法を深く学ぶ必要がある。"
@@ -187,7 +187,7 @@ reasoning:
   generalFamiliarity: medium
   engineerFamiliarity: medium
   contextualLearningNeeded: medium
-  nearestExamples: [defer, scope]
+  nearestExamples: [clarify, defer]
 difficulty: Intermediate
 confidence: Medium
 notes: "圧縮は一般語だが、実務では defer/scope と同様に技術文脈での使い分けが必要。"
@@ -200,7 +200,7 @@ reasoning:
   generalFamiliarity: low
   engineerFamiliarity: medium
   contextualLearningNeeded: high
-  nearestExamples: [consensus, discretion]
+  nearestExamples: [courteous, scrutiny]
 difficulty: Advanced
 confidence: High
 notes: "合意形成は代表例 discretion と並び、一般語としてはやや難しくニュアンス習得が必要。"
@@ -213,7 +213,7 @@ reasoning:
   generalFamiliarity: medium
   engineerFamiliarity: medium
   contextualLearningNeeded: medium
-  nearestExamples: [constraint, scope]
+  nearestExamples: [clarify, defer]
 difficulty: Intermediate
 confidence: High
 notes: "制約は代表例どおり設計・要件文脈で scope と並び、実務用法の習得が必要。"
@@ -239,7 +239,7 @@ reasoning:
   generalFamiliarity: low
   engineerFamiliarity: medium
   contextualLearningNeeded: high
-  nearestExamples: [abstraction, demonstrate]
+  nearestExamples: [courteous, scrutiny]
 difficulty: Advanced
 confidence: High
 notes: "正当性・正しさは abstraction/demonstrate と並び、形式的手法の文脈で抽象度が高い。"
@@ -265,7 +265,7 @@ reasoning:
   generalFamiliarity: medium
   engineerFamiliarity: high
   contextualLearningNeeded: medium
-  nearestExamples: [regression, scope]
+  nearestExamples: [clarify, defer]
 difficulty: Intermediate
 confidence: Medium
 notes: "カバレッジはテスト文脈で regression/scope に近く、一般語より実務意味の理解が重要。"
@@ -278,7 +278,7 @@ reasoning:
   generalFamiliarity: medium
   engineerFamiliarity: medium
   contextualLearningNeeded: medium
-  nearestExamples: [constraint, scope]
+  nearestExamples: [clarify, defer]
 difficulty: Intermediate
 confidence: Medium
 notes: "基準は constraint/scope と並ぶ設計語で、一般語だが実務文脈での用法習得が必要。"
@@ -291,7 +291,7 @@ reasoning:
   generalFamiliarity: medium
   engineerFamiliarity: medium
   contextualLearningNeeded: medium
-  nearestExamples: [clarify, escalate]
+  nearestExamples: [clarify, defer]
 difficulty: Intermediate
 confidence: Medium
 notes: "批評は clarify/escalate と同クラスで、一般語だがレビュー文脈での使い方に学習価値がある。"
@@ -317,7 +317,7 @@ reasoning:
   generalFamiliarity: low
   engineerFamiliarity: high
   contextualLearningNeeded: medium
-  nearestExamples: [regression, constraint]
+  nearestExamples: [clarify, defer]
 difficulty: Intermediate
 confidence: High
 notes: "デッドロックは一般語としては専門的だが、エンジニアには regression/constraint と並ぶ頻出語。"
@@ -330,7 +330,7 @@ reasoning:
   generalFamiliarity: medium
   engineerFamiliarity: medium
   contextualLearningNeeded: medium
-  nearestExamples: [defer, scope]
+  nearestExamples: [clarify, defer]
 difficulty: Intermediate
 confidence: Medium
 notes: "分解は設計文脈で defer/scope と同様に、一般語だが実務での意味・用法を学ぶ必要がある。"
@@ -343,7 +343,7 @@ reasoning:
   generalFamiliarity: medium
   engineerFamiliarity: high
   contextualLearningNeeded: medium
-  nearestExamples: [dispatch, defer]
+  nearestExamples: [clarify, defer]
 difficulty: Intermediate
 confidence: High
 notes: "復号はセキュリティ文脈で dispatch/defer と同クラスの技術語で、実務用法の習得が必要。"
@@ -369,7 +369,7 @@ reasoning:
   generalFamiliarity: medium
   engineerFamiliarity: medium
   contextualLearningNeeded: high
-  nearestExamples: [demonstrate, abstraction]
+  nearestExamples: [courteous, scrutiny]
 difficulty: Advanced
 confidence: High
 notes: "実証・示すは代表例 abstraction と並び、技術文書での抽象的使用に学習価値がある。"
@@ -382,7 +382,7 @@ reasoning:
   generalFamiliarity: medium
   engineerFamiliarity: high
   contextualLearningNeeded: medium
-  nearestExamples: [scope, constraint]
+  nearestExamples: [clarify, defer]
 difficulty: Intermediate
 confidence: High
 notes: "依存関係は scope/constraint と並ぶ設計語で、エンジニア文脈での意味理解が重要。"
@@ -395,7 +395,7 @@ reasoning:
   generalFamiliarity: medium
   engineerFamiliarity: high
   contextualLearningNeeded: medium
-  nearestExamples: [dispatch, defer]
+  nearestExamples: [clarify, defer]
 difficulty: Intermediate
 confidence: High
 notes: "デプロイは dispatch/defer と同様に実務頻出だが、一般英語としてはやや限定的。"
@@ -408,7 +408,7 @@ reasoning:
   generalFamiliarity: medium
   engineerFamiliarity: medium
   contextualLearningNeeded: high
-  nearestExamples: [demonstrate, scrutiny]
+  nearestExamples: [courteous, scrutiny]
 difficulty: Advanced
 confidence: Medium
 notes: "診断は demonstrate/scrutiny と並び、障害分析文脈で scrutiny ほどではないが抽象用法がある。"
@@ -421,7 +421,7 @@ reasoning:
   generalFamiliarity: low
   engineerFamiliarity: low
   contextualLearningNeeded: high
-  nearestExamples: [discretion, scrutiny]
+  nearestExamples: [discretion, courteous]
 difficulty: Advanced
 confidence: High
 notes: "裁量・慎重さは代表例 scrutiny と並び、一般語としては uncommon でニュアンス習得が必要。"
@@ -434,7 +434,7 @@ reasoning:
   generalFamiliarity: medium
   engineerFamiliarity: medium
   contextualLearningNeeded: medium
-  nearestExamples: [dispatch, defer]
+  nearestExamples: [clarify, defer]
 difficulty: Intermediate
 confidence: High
 notes: "派遣・送出は代表例どおり defer と並び、実務文脈での用法習得が必要。"
@@ -447,7 +447,7 @@ reasoning:
   generalFamiliarity: medium
   engineerFamiliarity: high
   contextualLearningNeeded: medium
-  nearestExamples: [dispatch, defer]
+  nearestExamples: [clarify, defer]
 difficulty: Intermediate
 confidence: High
 notes: "暗号化は dispatch/defer と同クラスのセキュリティ語で、実務用法の習得が必要。"
@@ -460,7 +460,7 @@ reasoning:
   generalFamiliarity: medium
   engineerFamiliarity: medium
   contextualLearningNeeded: medium
-  nearestExamples: [constraint, defer]
+  nearestExamples: [clarify, defer]
 difficulty: Intermediate
 confidence: Medium
 notes: "強制・適用は constraint/defer と並び、ポリシー文脈での実務用法を学ぶ価値がある。"
@@ -473,7 +473,7 @@ reasoning:
   generalFamiliarity: medium
   engineerFamiliarity: medium
   contextualLearningNeeded: medium
-  nearestExamples: [escalate, defer]
+  nearestExamples: [escalate, clarify]
 difficulty: Intermediate
 confidence: High
 notes: "エスカレーションは代表例どおり defer と並び、実務でのエスカレーション用法の習得が必要。"
@@ -486,7 +486,7 @@ reasoning:
   generalFamiliarity: medium
   engineerFamiliarity: medium
   contextualLearningNeeded: medium
-  nearestExamples: [scope, clarify]
+  nearestExamples: [clarify, defer]
 difficulty: Intermediate
 confidence: Medium
 notes: "期待値は scope/clarify と同クラスで、要件・合意文脈での実務用法を学ぶ必要がある。"
@@ -499,7 +499,7 @@ reasoning:
   generalFamiliarity: high
   engineerFamiliarity: high
   contextualLearningNeeded: low
-  nearestExamples: [failure, approach]
+  nearestExamples: [feedback, deadline]
 difficulty: Beginner
 confidence: High
 notes: "失敗・故障は一般語で、approach と同様に障害対応文脈でも直感理解できる。"
@@ -525,7 +525,7 @@ reasoning:
   generalFamiliarity: medium
   engineerFamiliarity: high
   contextualLearningNeeded: low
-  nearestExamples: [fetch, query]
+  nearestExamples: [feedback, deadline]
 difficulty: Beginner
 confidence: High
 notes: "HTTP の fetch は技術入門語だが、query と並ぶ代表例どおり意味は推測しやすい。"
@@ -538,7 +538,7 @@ reasoning:
   generalFamiliarity: low
   engineerFamiliarity: medium
   contextualLearningNeeded: high
-  nearestExamples: [abstraction, demonstrate]
+  nearestExamples: [courteous, scrutiny]
 difficulty: Advanced
 confidence: High
 notes: "機能性は abstraction/demonstrate と並び、一般語としてはやや堅く抽象度が高い。"
@@ -551,7 +551,7 @@ reasoning:
   generalFamiliarity: medium
   engineerFamiliarity: high
   contextualLearningNeeded: medium
-  nearestExamples: [scope, defer]
+  nearestExamples: [clarify, defer]
 difficulty: Intermediate
 confidence: High
 notes: "実装は scope/defer と並ぶ開発語で、一般語より実務文脈での意味理解が重要。"
@@ -564,7 +564,7 @@ reasoning:
   generalFamiliarity: medium
   engineerFamiliarity: high
   contextualLearningNeeded: medium
-  nearestExamples: [query, dispatch]
+  nearestExamples: [clarify, defer]
 difficulty: Intermediate
 confidence: Medium
 notes: "インデックスは DB 文脈で query/dispatch に近く、一般語より実務での意味習得が必要。"
@@ -577,7 +577,7 @@ reasoning:
   generalFamiliarity: medium
   engineerFamiliarity: high
   contextualLearningNeeded: medium
-  nearestExamples: [scope, constraint]
+  nearestExamples: [clarify, defer]
 difficulty: Intermediate
 confidence: High
 notes: "インフラは scope/constraint と並ぶ基盤語で、エンジニア文脈での意味理解が重要。"
@@ -590,7 +590,7 @@ reasoning:
   generalFamiliarity: high
   engineerFamiliarity: high
   contextualLearningNeeded: low
-  nearestExamples: [query, fetch]
+  nearestExamples: [feedback, deadline]
 difficulty: Beginner
 confidence: High
 notes: "挿入は DB 操作でも日常語でも、query/fetch と同じ入門レベルの動詞。"
@@ -616,7 +616,7 @@ reasoning:
   generalFamiliarity: high
   engineerFamiliarity: high
   contextualLearningNeeded: low
-  nearestExamples: [install, fetch]
+  nearestExamples: [install, feedback]
 difficulty: Beginner
 confidence: High
 notes: "インストールは代表例どおり一般・実務ともに高頻度で fetch と同クラス。"
@@ -629,7 +629,7 @@ reasoning:
   generalFamiliarity: high
   engineerFamiliarity: medium
   contextualLearningNeeded: low
-  nearestExamples: [approach, feedback]
+  nearestExamples: [feedback, deadline]
 difficulty: Beginner
 confidence: Medium
 notes: "相互作用は一般語だが実務では UI/API 文脈に限定されがちで、feedback よりやや狭い。"
@@ -642,7 +642,7 @@ reasoning:
   generalFamiliarity: medium
   engineerFamiliarity: high
   contextualLearningNeeded: low
-  nearestExamples: [query, fetch]
+  nearestExamples: [feedback, deadline]
 difficulty: Beginner
 confidence: High
 notes: "インターフェースは query/fetch と同じ技術入門語で、実務でも日常的に目にする。"
@@ -655,7 +655,7 @@ reasoning:
   generalFamiliarity: medium
   engineerFamiliarity: high
   contextualLearningNeeded: medium
-  nearestExamples: [dispatch, defer]
+  nearestExamples: [clarify, defer]
 difficulty: Intermediate
 confidence: High
 notes: "呼び出しは dispatch/defer と同様の技術語で、一般英語としてはやや限定的。"
@@ -668,7 +668,7 @@ reasoning:
   generalFamiliarity: medium
   engineerFamiliarity: medium
   contextualLearningNeeded: medium
-  nearestExamples: [clarify, regression]
+  nearestExamples: [clarify, defer]
 difficulty: Intermediate
 confidence: Medium
 notes: "隔離は regression/clarify と並び、障害切り分け文脈での実務用法の習得が必要。"
@@ -681,7 +681,7 @@ reasoning:
   generalFamiliarity: medium
   engineerFamiliarity: medium
   contextualLearningNeeded: high
-  nearestExamples: [abstraction, demonstrate]
+  nearestExamples: [courteous, scrutiny]
 difficulty: Advanced
 confidence: Medium
 notes: "反復は abstraction/demonstrate と並び、開発プロセス文脈で抽象的使用に学習価値がある。"
@@ -694,7 +694,7 @@ reasoning:
   generalFamiliarity: medium
   engineerFamiliarity: high
   contextualLearningNeeded: medium
-  nearestExamples: [scope, regression]
+  nearestExamples: [clarify, defer]
 difficulty: Intermediate
 confidence: High
 notes: "レイテンシは scope/regression と並ぶ性能語で、エンジニア文脈での意味理解が重要。"
@@ -707,7 +707,7 @@ reasoning:
   generalFamiliarity: medium
   engineerFamiliarity: medium
   contextualLearningNeeded: medium
-  nearestExamples: [constraint, defer]
+  nearestExamples: [mandatory, clarify]
 difficulty: Intermediate
 confidence: Medium
 notes: "必須は constraint/defer と同クラスで、ポリシー・要件文脈での実務用法を学ぶ必要がある。"
@@ -720,7 +720,7 @@ reasoning:
   generalFamiliarity: medium
   engineerFamiliarity: medium
   contextualLearningNeeded: low
-  nearestExamples: [feedback, approach]
+  nearestExamples: [feedback, deadline]
 difficulty: Beginner
 confidence: Medium
 notes: "メンタリングはややビジネス語だが、feedback ほどではないものの学習コストは低い。"
@@ -733,7 +733,7 @@ reasoning:
   generalFamiliarity: medium
   engineerFamiliarity: high
   contextualLearningNeeded: medium
-  nearestExamples: [dispatch, scope]
+  nearestExamples: [clarify, defer]
 difficulty: Intermediate
 confidence: High
 notes: "監視は dispatch/scope と並ぶ運用語で、一般語より実務文脈での意味理解が重要。"
@@ -746,7 +746,7 @@ reasoning:
   generalFamiliarity: medium
   engineerFamiliarity: medium
   contextualLearningNeeded: medium
-  nearestExamples: [scope, clarify]
+  nearestExamples: [clarify, defer]
 difficulty: Intermediate
 confidence: Medium
 notes: "目的は scope/clarify と同クラスで、要件・合意文脈での実務用法を学ぶ価値がある。"
@@ -759,7 +759,7 @@ reasoning:
   generalFamiliarity: high
   engineerFamiliarity: high
   contextualLearningNeeded: low
-  nearestExamples: [query, fetch]
+  nearestExamples: [feedback, deadline]
 difficulty: Beginner
 confidence: High
 notes: "操作・運用は query と同様に実務基本語で、文脈学習の必要性は低い。"
@@ -772,7 +772,7 @@ reasoning:
   generalFamiliarity: medium
   engineerFamiliarity: high
   contextualLearningNeeded: medium
-  nearestExamples: [scope, regression]
+  nearestExamples: [clarify, defer]
 difficulty: Intermediate
 confidence: High
 notes: "最適化は scope/regression と並ぶ性能語で、エンジニア文脈での意味理解が重要。"
@@ -785,7 +785,7 @@ reasoning:
   generalFamiliarity: medium
   engineerFamiliarity: medium
   contextualLearningNeeded: medium
-  nearestExamples: [constraint, scope]
+  nearestExamples: [clarify, defer]
 difficulty: Intermediate
 confidence: Medium
 notes: "過負荷は constraint/scope と並び、システム文脈での実務用法の習得が必要。"
@@ -798,7 +798,7 @@ reasoning:
   generalFamiliarity: medium
   engineerFamiliarity: high
   contextualLearningNeeded: medium
-  nearestExamples: [scope, escalate]
+  nearestExamples: [clarify, defer]
 difficulty: Intermediate
 confidence: Medium
 notes: "オーナーシップは scope/escalate と同クラスで、チーム責任文脈での実務用法を学ぶ必要がある。"
@@ -811,7 +811,7 @@ reasoning:
   generalFamiliarity: medium
   engineerFamiliarity: medium
   contextualLearningNeeded: medium
-  nearestExamples: [regression, defer]
+  nearestExamples: [clarify, defer]
 difficulty: Intermediate
 confidence: Medium
 notes: "合格・通過は regression/defer と並び、テスト文脈での実務用法の習得が必要。"
@@ -837,7 +837,7 @@ reasoning:
   generalFamiliarity: medium
   engineerFamiliarity: medium
   contextualLearningNeeded: medium
-  nearestExamples: [fetch, dispatch]
+  nearestExamples: [clarify, defer]
 difficulty: Intermediate
 confidence: Medium
 notes: "事前読み込みは fetch/dispatch に近い技術語で、実務文脈での用法習得が必要。"
@@ -850,7 +850,7 @@ reasoning:
   generalFamiliarity: high
   engineerFamiliarity: medium
   contextualLearningNeeded: low
-  nearestExamples: [approach, failure]
+  nearestExamples: [feedback, deadline]
 difficulty: Beginner
 confidence: High
 notes: "防止は failure/approach と並ぶ平易な動詞で、一般英語としても推測しやすい。"
@@ -863,7 +863,7 @@ reasoning:
   generalFamiliarity: medium
   engineerFamiliarity: medium
   contextualLearningNeeded: medium
-  nearestExamples: [scope, defer]
+  nearestExamples: [clarify, defer]
 difficulty: Intermediate
 confidence: Medium
 notes: "優先度は scope/defer と並び、タスク管理文脈での実務用法を学ぶ必要がある。"
@@ -876,7 +876,7 @@ reasoning:
   generalFamiliarity: high
   engineerFamiliarity: medium
   contextualLearningNeeded: low
-  nearestExamples: [query, fetch]
+  nearestExamples: [feedback, deadline]
 difficulty: Beginner
 confidence: High
 notes: "プロファイルは設定画面で日常的に見る語で、query ほど技術的ではない。"
@@ -889,7 +889,7 @@ reasoning:
   generalFamiliarity: medium
   engineerFamiliarity: medium
   contextualLearningNeeded: medium
-  nearestExamples: [defer, scope]
+  nearestExamples: [clarify, defer]
 difficulty: Intermediate
 confidence: Medium
 notes: "進捗は defer/scope と同クラスで、プロジェクト文脈での実務用法の習得が必要。"
@@ -902,7 +902,7 @@ reasoning:
   generalFamiliarity: medium
   engineerFamiliarity: high
   contextualLearningNeeded: low
-  nearestExamples: [query, fetch]
+  nearestExamples: [query, feedback]
 difficulty: Beginner
 confidence: High
 notes: "クエリは SQL/API で fetch と並ぶ Beginner 代表例で、エンジニアには既知。"
@@ -915,7 +915,7 @@ reasoning:
   generalFamiliarity: medium
   engineerFamiliarity: medium
   contextualLearningNeeded: medium
-  nearestExamples: [clarify, constraint]
+  nearestExamples: [clarify, defer]
 difficulty: Intermediate
 confidence: Medium
 notes: "可読性は clarify/constraint と並び、コード品質文脈での実務用法を学ぶ価値がある。"
@@ -928,7 +928,7 @@ reasoning:
   generalFamiliarity: medium
   engineerFamiliarity: medium
   contextualLearningNeeded: medium
-  nearestExamples: [dispatch, defer]
+  nearestExamples: [clarify, defer]
 difficulty: Intermediate
 confidence: Medium
 notes: "記録は dispatch/defer と同クラスで、ログ・監査文脈での実務用法の習得が必要。"
@@ -941,7 +941,7 @@ reasoning:
   generalFamiliarity: high
   engineerFamiliarity: medium
   contextualLearningNeeded: low
-  nearestExamples: [failure, approach]
+  nearestExamples: [feedback, deadline]
 difficulty: Beginner
 confidence: High
 notes: "回復・復旧は failure に近い一般語で、障害文脈でも意味が直感的。"
@@ -954,7 +954,7 @@ reasoning:
   generalFamiliarity: medium
   engineerFamiliarity: high
   contextualLearningNeeded: medium
-  nearestExamples: [regression, scope]
+  nearestExamples: [clarify, defer]
 difficulty: Intermediate
 confidence: High
 notes: "復旧は regression/scope と並ぶ運用語で、一般語 recover より実務文脈が強い。"
@@ -967,7 +967,7 @@ reasoning:
   generalFamiliarity: medium
   engineerFamiliarity: high
   contextualLearningNeeded: medium
-  nearestExamples: [regression, constraint]
+  nearestExamples: [clarify, defer]
 difficulty: Intermediate
 confidence: High
 notes: "リグレッションは代表例どおり constraint と並び、テスト文脈での実務用法の習得が必要。"
@@ -980,7 +980,7 @@ reasoning:
   generalFamiliarity: medium
   engineerFamiliarity: medium
   contextualLearningNeeded: medium
-  nearestExamples: [defer, scope]
+  nearestExamples: [clarify, defer]
 difficulty: Intermediate
 confidence: Medium
 notes: "強化は defer/scope と同クラスで、設計・学習文脈での実務用法を学ぶ必要がある。"
@@ -993,7 +993,7 @@ reasoning:
   generalFamiliarity: medium
   engineerFamiliarity: medium
   contextualLearningNeeded: medium
-  nearestExamples: [defer, clarify]
+  nearestExamples: [clarify, defer]
 difficulty: Intermediate
 confidence: Medium
 notes: "拒否は defer/clarify と並び、レビュー・API 文脈での実務用法の習得が必要。"
@@ -1006,7 +1006,7 @@ reasoning:
   generalFamiliarity: medium
   engineerFamiliarity: high
   contextualLearningNeeded: medium
-  nearestExamples: [scope, constraint]
+  nearestExamples: [clarify, defer]
 difficulty: Intermediate
 confidence: Medium
 notes: "信頼性は scope/constraint と並ぶ SRE 語で、一般語より実務文脈での意味理解が重要。"
@@ -1019,7 +1019,7 @@ reasoning:
   generalFamiliarity: high
   engineerFamiliarity: high
   contextualLearningNeeded: low
-  nearestExamples: [replace, fetch]
+  nearestExamples: [replace, feedback]
 difficulty: Beginner
 confidence: High
 notes: "置換は代表例どおりコード・日常とも推測しやすく、fetch と同クラスの基本語。"
@@ -1032,7 +1032,7 @@ reasoning:
   generalFamiliarity: medium
   engineerFamiliarity: high
   contextualLearningNeeded: medium
-  nearestExamples: [regression, scope]
+  nearestExamples: [clarify, defer]
 difficulty: Intermediate
 confidence: High
 notes: "レプリケーションは regression/scope と並ぶ分散語で、エンジニア文脈での意味理解が重要。"
@@ -1045,7 +1045,7 @@ reasoning:
   generalFamiliarity: medium
   engineerFamiliarity: high
   contextualLearningNeeded: medium
-  nearestExamples: [regression, isolate]
+  nearestExamples: [reproduce, clarify]
 difficulty: Intermediate
 confidence: Medium
 notes: "再現は regression/isolate と並ぶ障害調査語で、Advanced 代表例 reproduce より実務頻度が高い。"
@@ -1058,7 +1058,7 @@ reasoning:
   generalFamiliarity: medium
   engineerFamiliarity: high
   contextualLearningNeeded: medium
-  nearestExamples: [scope, clarify]
+  nearestExamples: [clarify, defer]
 difficulty: Intermediate
 confidence: High
 notes: "要件は scope/clarify と並ぶ開発語で、一般語より実務文脈での意味理解が重要。"
@@ -1084,7 +1084,7 @@ reasoning:
   generalFamiliarity: low
   engineerFamiliarity: medium
   contextualLearningNeeded: high
-  nearestExamples: [scrutiny, discretion]
+  nearestExamples: [courteous, scrutiny]
 difficulty: Advanced
 confidence: High
 notes: "サニタイズは scrutiny/discretion と並び、セキュリティ文脈で一般語から離れた専門用法がある。"
@@ -1097,7 +1097,7 @@ reasoning:
   generalFamiliarity: medium
   engineerFamiliarity: high
   contextualLearningNeeded: medium
-  nearestExamples: [scope, regression]
+  nearestExamples: [clarify, defer]
 difficulty: Intermediate
 confidence: High
 notes: "スケーラビリティは scope/regression と並ぶ設計語で、エンジニア文脈での意味理解が重要。"
@@ -1110,7 +1110,7 @@ reasoning:
   generalFamiliarity: medium
   engineerFamiliarity: high
   contextualLearningNeeded: medium
-  nearestExamples: [constraint, scope]
+  nearestExamples: [clarify, defer]
 difficulty: Intermediate
 confidence: High
 notes: "スキーマは constraint/scope と並ぶ DB 語で、一般語より実務文脈での意味理解が重要。"
@@ -1123,7 +1123,7 @@ reasoning:
   generalFamiliarity: medium
   engineerFamiliarity: medium
   contextualLearningNeeded: medium
-  nearestExamples: [scope, defer]
+  nearestExamples: [clarify, defer]
 difficulty: Intermediate
 confidence: High
 notes: "スコープは代表例どおり defer と並び、プロジェクト文脈での実務用法の習得が必要。"
@@ -1136,7 +1136,7 @@ reasoning:
   generalFamiliarity: low
   engineerFamiliarity: low
   contextualLearningNeeded: high
-  nearestExamples: [scrutiny, discretion]
+  nearestExamples: [scrutiny, courteous]
 difficulty: Advanced
 confidence: High
 notes: "精査は代表例 discretion と並び、一般語としては uncommon でニュアンス習得が必要。"
@@ -1149,7 +1149,7 @@ reasoning:
   generalFamiliarity: medium
   engineerFamiliarity: medium
   contextualLearningNeeded: medium
-  nearestExamples: [constraint, scope]
+  nearestExamples: [clarify, defer]
 difficulty: Intermediate
 confidence: Medium
 notes: "自己完結は constraint/scope と並び、設計文脈での実務用法を学ぶ必要がある。"
@@ -1162,7 +1162,7 @@ reasoning:
   generalFamiliarity: medium
   engineerFamiliarity: medium
   contextualLearningNeeded: high
-  nearestExamples: [scrutiny, demonstrate]
+  nearestExamples: [courteous, scrutiny]
 difficulty: Advanced
 confidence: Medium
 notes: "深刻度は scrutiny/demonstrate と並び、インシデント文脈で抽象度の高い用法がある。"
@@ -1175,7 +1175,7 @@ reasoning:
   generalFamiliarity: medium
   engineerFamiliarity: high
   contextualLearningNeeded: medium
-  nearestExamples: [constraint, scope]
+  nearestExamples: [clarify, defer]
 difficulty: Intermediate
 confidence: High
 notes: "仕様は constraint/scope と並ぶ開発語で、一般語より実務文脈での意味理解が重要。"
@@ -1188,7 +1188,7 @@ reasoning:
   generalFamiliarity: medium
   engineerFamiliarity: medium
   contextualLearningNeeded: medium
-  nearestExamples: [scope, defer]
+  nearestExamples: [clarify, defer]
 difficulty: Intermediate
 confidence: Medium
 notes: "対象・目標は scope/defer と同クラスで、要件文脈での実務用法の習得が必要。"
@@ -1201,7 +1201,7 @@ reasoning:
   generalFamiliarity: high
   engineerFamiliarity: medium
   contextualLearningNeeded: low
-  nearestExamples: [feedback, approach]
+  nearestExamples: [feedback, deadline]
 difficulty: Beginner
 confidence: Medium
 notes: "緊張・対立は一般語だが、実務では比喩的意味もあり feedback より文脈依存がやや高い。"
@@ -1214,7 +1214,7 @@ reasoning:
   generalFamiliarity: medium
   engineerFamiliarity: high
   contextualLearningNeeded: low
-  nearestExamples: [query, fetch]
+  nearestExamples: [feedback, deadline]
 difficulty: Beginner
 confidence: High
 notes: "トレースはログ・デバッグで fetch/query と同クラスの入門技術語。"
@@ -1227,7 +1227,7 @@ reasoning:
   generalFamiliarity: medium
   engineerFamiliarity: medium
   contextualLearningNeeded: medium
-  nearestExamples: [trade-off, scope]
+  nearestExamples: [clarify, defer]
 difficulty: Intermediate
 confidence: High
 notes: "トレードオフは代表例どおり scope と並び、設計判断文脈での実務用法の習得が必要。"
@@ -1240,7 +1240,7 @@ reasoning:
   generalFamiliarity: medium
   engineerFamiliarity: high
   contextualLearningNeeded: low
-  nearestExamples: [query, fetch]
+  nearestExamples: [feedback, deadline]
 difficulty: Beginner
 confidence: High
 notes: "トランザクションは DB 文脈で fetch 同等の入門語で、エンジニアには馴染み深い。"
@@ -1253,7 +1253,7 @@ reasoning:
   generalFamiliarity: medium
   engineerFamiliarity: medium
   contextualLearningNeeded: medium
-  nearestExamples: [defer, scope]
+  nearestExamples: [clarify, defer]
 difficulty: Intermediate
 confidence: Medium
 notes: "利用不可は defer/scope と同クラスで、可用性文脈での実務用法を学ぶ必要がある。"
@@ -1266,7 +1266,7 @@ reasoning:
   generalFamiliarity: medium
   engineerFamiliarity: medium
   contextualLearningNeeded: medium
-  nearestExamples: [regression, clarify]
+  nearestExamples: [clarify, defer]
 difficulty: Intermediate
 confidence: Medium
 notes: "検証は regression/clarify と並び、テスト・要件文脈での実務用法の習得が必要。"
@@ -1279,7 +1279,7 @@ reasoning:
   generalFamiliarity: medium
   engineerFamiliarity: medium
   contextualLearningNeeded: high
-  nearestExamples: [abstraction, demonstrate]
+  nearestExamples: [courteous, scrutiny]
 difficulty: Advanced
 confidence: Medium
 notes: "妥当性確認は abstraction/demonstrate と並び、validate より形式・抽象度が高い。"
@@ -1292,7 +1292,7 @@ reasoning:
   generalFamiliarity: medium
   engineerFamiliarity: high
   contextualLearningNeeded: medium
-  nearestExamples: [scope, defer]
+  nearestExamples: [clarify, defer]
 difficulty: Intermediate
 confidence: High
 notes: "ベロシティは scope/defer と並ぶアジャイル語で、一般語より実務文脈での意味理解が重要。"
