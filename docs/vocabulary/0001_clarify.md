@@ -8,7 +8,7 @@ pronunciation: "/ˈkler.ə.faɪ/"
 descriptionJa: "曖昧な要件やコードの意図を、相手が理解できるよう明確にすること。"
 usageExample: "Could you clarify why this retry loop has no limit?"
 usageExampleJa: "この再試行ループに制限がない理由を説明してもらえますか。"
-difficulty: Advanced
+difficulty: Intermediate
 scene: Code Review
 source:
   title: "What to look for in a code review"

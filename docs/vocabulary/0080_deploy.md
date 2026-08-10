@@ -8,7 +8,7 @@ pronunciation: "/dɪˈplɔɪ/"
 descriptionJa: "アプリケーションを本番環境へ配置し利用可能にする。"
 usageExample: "Deploy the API to two cloud regions."
 usageExampleJa: "APIを2つのクラウドリージョンへ配置します。"
-difficulty: Advanced
+difficulty: Intermediate
 scene: Infrastructure / Cloud
 source:
   title: "Express Tutorial Part 7: Deploying to production - Learn web development | MDN"

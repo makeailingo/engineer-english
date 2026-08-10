@@ -8,7 +8,7 @@ pronunciation: "/ɪnˈvoʊk/"
 descriptionJa: "関数や処理を呼び出して実行を開始すること。"
 usageExample: "Invoke the callback after validation succeeds."
 usageExampleJa: "検証成功後にコールバックを呼び出してください。"
-difficulty: Advanced
+difficulty: Intermediate
 scene: Implementation
 source:
   title: "Reflect.apply() - JavaScript | MDN"

@@ -8,7 +8,7 @@ pronunciation: "/ˌʌn.əˈveɪ.lə.bəl/"
 descriptionJa: "サービスが要求を処理できず利用不能な状態。"
 usageExample: "Checkout was unavailable during the regional database incident."
 usageExampleJa: "地域データベース障害中、決済は利用不能でした。"
-difficulty: Advanced
+difficulty: Intermediate
 scene: Incident Response
 source:
   title: "503 Service Unavailable"

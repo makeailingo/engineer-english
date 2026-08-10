@@ -8,7 +8,7 @@ pronunciation: "/kəˈlæb.ə.reɪt/"
 descriptionJa: "意見の違いを越え、相手と協力して解決すること。"
 usageExample: "Let's collaborate to resolve this design disagreement."
 usageExampleJa: "この設計上の意見の相違を協力して解決しましょう。"
-difficulty: Advanced
+difficulty: Intermediate
 scene: Daily Communication
 source:
   title: "How to handle reviewer comments"

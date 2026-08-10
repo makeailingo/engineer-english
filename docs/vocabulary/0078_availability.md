@@ -8,7 +8,7 @@ pronunciation: "/əˌveɪ.ləˈbɪl.ə.t̬i/"
 descriptionJa: "障害時もサービスを利用できる性質や度合い。"
 usageExample: "Replication improves availability during a regional storage failure."
 usageExampleJa: "複製により地域ストレージ障害時の可用性が向上します。"
-difficulty: Intermediate
+difficulty: Beginner
 scene: Infrastructure / Cloud
 source:
   title: "Non-Abstract Large Scale Design Workbook"
