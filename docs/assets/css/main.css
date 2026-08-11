@@ -147,10 +147,11 @@ code {
 
 .hero-band__subtitle {
   margin: 0;
-  max-width: 32rem;
+  max-width: 38rem;
   font-size: 15px;
   line-height: 1.6;
   color: var(--color-muted);
+  word-break: keep-all;
 }
 
 /* Cards */
