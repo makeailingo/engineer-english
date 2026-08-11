@@ -385,15 +385,9 @@ code {
   margin: 0 0 var(--spacing-xl);
 }
 
-.vocabulary__meta code {
-  padding: 4px 10px;
-  font-size: 11px;
-  font-weight: 600;
-  letter-spacing: 0.88px;
-  text-transform: uppercase;
-  color: var(--color-muted);
+.vocabulary__meta .badge-pill {
+  color: var(--color-body);
   background: var(--color-surface-strong);
-  border-radius: var(--rounded-pill);
 }
 
 .vocabulary__section {
@@ -418,28 +412,33 @@ code {
   color: var(--color-muted);
 }
 
-.vocabulary__section p {
+.vocabulary__section p,
+.vocabulary__meaning,
+.vocabulary__pronunciation,
+.vocabulary__example {
   margin: 0;
   font-size: 16px;
+  font-weight: 400;
   line-height: 1.6;
-  color: var(--color-body);
-}
-
-.vocabulary__section p + p {
-  margin-top: var(--spacing-sm);
-}
-
-.vocabulary__meaning {
-  font-size: 20px;
-  font-weight: 600;
-  line-height: 1.4;
   color: var(--color-ink);
 }
 
-.vocabulary__pronunciation {
+.vocabulary__section p + p,
+.vocabulary__example + p {
+  margin-top: var(--spacing-sm);
+}
+
+.vocabulary__pronunciation,
+.vocabulary__example {
   font-family: var(--font-mono);
-  font-size: 14px;
-  color: var(--color-muted);
+  font-size: 15px;
+}
+
+.vocabulary__example {
+  padding: var(--spacing-sm) var(--spacing-base);
+  background: var(--color-canvas-soft);
+  border: 1px solid var(--color-hairline);
+  border-radius: var(--rounded-md);
 }
 
 .vocabulary__source {
@@ -450,7 +449,9 @@ code {
 .vocabulary__source li {
   margin-bottom: var(--spacing-xs);
   font-size: 14px;
+  font-weight: 400;
   line-height: 1.5;
+  color: var(--color-body);
 }
 
 .vocabulary__source li:last-child {

@@ -8,14 +8,14 @@ layout: default
   <h1 class="vocabulary__title">{{ page.term }}</h1>
 
   <div class="vocabulary__meta">
-    <code>{{ page.id }}</code>
+    <span class="badge-pill">{{ page.id }}</span>
     {% if site.labels.type[page.type] %}
       <span class="badge-pill">{{ site.labels.type[page.type] }}</span>
     {% endif %}
     {% if site.labels.part_of_speech[page.partOfSpeech] %}
       <span class="badge-pill">{{ site.labels.part_of_speech[page.partOfSpeech] }}</span>
     {% endif %}
-    <span class="badge-pill badge-pill--{{ page.difficulty | downcase }}">{{ site.labels.difficulty[page.difficulty] }}</span>
+    <span class="badge-pill">{{ site.labels.difficulty[page.difficulty] }}</span>
     <span class="badge-pill">{{ site.labels.scene[page.scene] }}</span>
   </div>
 
@@ -38,7 +38,7 @@ layout: default
 
   <section class="vocabulary__section">
     <h2>使用例</h2>
-    <div class="code-block"><em>{{ page.usageExample }}</em></div>
+    <p class="vocabulary__example">{{ page.usageExample }}</p>
     <p>{{ page.usageExampleJa }}</p>
   </section>
 
