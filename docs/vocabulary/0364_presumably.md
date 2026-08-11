@@ -2,10 +2,12 @@
 id: "0364"
 term: "presumably"
 type: "word"
-partOfSpeech: "adverb"
-meaningJa: "おそらく"
+partOfSpeech: adverb
 pronunciation: "/prɪˈzuː.mə.bli/"
+description: "Represents a reasonable inference from the situation."
 descriptionJa: "状況からの妥当な推測を表す。"
+meaning: probably
+meaningJa: "おそらく"
 usageExample: "Presumably the cache was stale."
 usageExampleJa: "おそらくキャッシュが古かったのでしょう。"
 difficulty: "Intermediate"

@@ -1,19 +1,22 @@
 ---
 name: evaluating-scene
-description: usageExample と source context から Vocabulary の scene が整合しているか評価する。Vocabulary の作成・更新前、または scene の検証時に使用する。
+description: Evaluate whether a Vocabulary scene matches usageExample and source context. Use before creating or updating Vocabulary, or when validating scene.
 ---
 
 # Evaluating Scene
 
-Vocabulary の `scene` が、その語義・使用例・一次資料で確認した
-エンジニアリング文脈と整合しているか評価する。
+> Japanese: [SKILL.ja.md](SKILL.ja.md)
 
-Scene は term 単体では判定しない。
+Evaluate whether Vocabulary `scene` aligns with the adopted sense,
+usage example, and engineering context verified in the primary source.
+
+Do not assign Scene from the term alone.
 
 ## Input
 
 ```yaml
 term: "router"
+meaning: "a device or rule that directs traffic along a path"
 meaningJa: "ルーター、経路振分"
 usageExample: "..."
 source:
@@ -43,51 +46,45 @@ currentScene: "Sprint Planning"
 
 ## Evaluation Principle
 
-Scene は、
+Scene answers:
 
-> 「この単語は何に関係するか」
+> "What work is the engineer doing in this usage example?"
 
-ではなく、
+not:
 
-> 「この用例で、エンジニアは何の仕事をしているか」
+> "What topic does this word relate to?"
 
-で決定する。
-
-例えば `review`, `server`, `error`, `database` などの
-キーワードが含まれているだけでは Scene の根拠にしない。
+Do not choose Scene just because keywords such as `review`, `server`, `error`, or `database` appear.
 
 ## Workflow
 
-### 1. 語義を固定する
+### 1. Fix the adopted sense
 
-`meaningJa` と `usageExample` から、
-この Vocabulary で採用している語義を特定する。
+Identify the sense used in this Vocabulary entry from `meaning`, `meaningJa`, and `usageExample`.
 
-別語義を根拠に Scene を判定しない。
+Do not use a different sense as evidence for Scene.
 
-### 2. 使用例の行為を特定する
+### 2. Identify the action in the usage example
 
-使用例について、
+Summarize briefly:
 
-* 誰が
-* 何を
-* 何の目的でしているか
+* who
+* does what
+* for what purpose
 
-を短く要約する。
-
-例:
+Example:
 
 > "Escalate unresolved disagreements to the engineering manager."
 
-→ 解決できない技術的対立について上位者に判断を求めている。
+→ Asking a senior decision-maker to resolve a technical disagreement.
 
-### 3. 一次資料の文脈を確認する
+### 3. Confirm primary-source context
 
-`source.url` を開き、実際にその term が使われている周辺を確認する。
+Open `source.url` and read the surrounding text where the term appears.
 
-検索結果の要約だけで判定しない。
+Do not decide from search-result snippets alone.
 
-一次資料上で、
+Confirm which activity the source discusses, such as:
 
 * code review
 * incident handling
@@ -95,103 +92,100 @@ Scene は、
 * implementation
 * testing
 
-など、どの活動について述べられているか確認する。
+### 4. Map to Scene Master
 
-### 4. Scene Master に対応させる
-
-以下の定義に最も直接一致する Scene を1つ選ぶ。
+Choose the one Scene that most directly matches.
 
 ## Scene Definitions
 
 ### Daily Communication
 
-日常的な相談、依頼、意見交換、合意形成。
+Everyday consultation, requests, opinion exchange, and alignment.
 
 ### Technical Interview
 
-技術面接での設計・アルゴリズム・技術判断の説明。
+Explaining design, algorithms, or technical judgment in an interview.
 
 ### Implementation
 
-コードを書く、変更する、実行する、APIや機能を実装する。
+Writing, changing, or running code; implementing APIs or features.
 
 ### Code Review
 
-コード変更をレビューし、品質・設計・可読性について指摘する。
+Reviewing code changes and commenting on quality, design, or readability.
 
 ### Debugging
 
-既に存在する不具合の原因を調査・特定する。
+Investigating and identifying the cause of an existing defect.
 
 ### Testing
 
-期待結果を検証し、テストを作成・実行する。
+Verifying expected results; creating or running tests.
 
 ### Sprint Planning
 
-タスク、優先順位、工数、期限、スプリント計画を扱う。
+Handling tasks, priorities, effort, deadlines, and sprint planning.
 
 ### Requirements
 
-要件、仕様、対象範囲、受け入れ条件を定義する。
+Defining requirements, specifications, scope, and acceptance criteria.
 
 ### Incident Response
 
-本番障害を検知・緩和・復旧・エスカレーションする。
+Detecting, mitigating, recovering from, or escalating production incidents.
 
 ### Architecture
 
-システム構造、責務、境界、依存関係、設計判断を扱う。
+Handling system structure, responsibilities, boundaries, dependencies, and design decisions.
 
 ### Database
 
-データの保存、取得、整合性、DB固有の操作・構造を扱う。
+Handling data storage, retrieval, integrity, and DB-specific operations or structure.
 
 ### Infrastructure / Cloud
 
-実行環境、ネットワーク、クラウド、デプロイ基盤を扱う。
+Handling runtime environments, networks, cloud platforms, and deployment infrastructure.
 
 ### Performance
 
-速度、レイテンシ、CPU、メモリ、負荷などを改善・計測する。
+Improving or measuring speed, latency, CPU, memory, or load.
 
 ### Security
 
-認証、認可、攻撃、防御、機密性などを扱う。
+Handling authentication, authorization, attacks, defenses, and confidentiality.
 
 ### Leadership / Management
 
-育成、責任、組織調整、意思決定、マネジメントを扱う。
+Handling mentoring, responsibility, organizational coordination, decision-making, and management.
 
 ## Conflict Resolution
 
-複数 Scene に該当しそうな場合は、
-単語の一般的な所属ではなく **usageExample で行われている主目的**
-を採用する。
+When multiple Scenes seem possible, use the **primary purpose in usageExample**,
+not the word's general category.
 
-例:
+Examples:
 
 "Review the query before merging this change."
 
-* query → Database ではない
-* merging / review が主目的
+* query → not Database
+* merging / review is the primary purpose
   → Code Review
 
 "Optimize this query to reduce response latency."
 
-* query は Database
-* 行為の主目的は性能改善
+* query is Database-related
+* the primary purpose is performance improvement
   → Performance
 
 "Restore the database after the production outage."
 
-* database が含まれる
-* 主目的は障害復旧
+* database appears
+* the primary purpose is incident recovery
   → Incident Response
 
 ## Evaluation
 
-`currentScene` と判定結果を比較する。
+Compare `currentScene` with the expected result.
 
 ```yaml
 result: PASS # PASS | FAIL
@@ -200,61 +194,60 @@ expectedScene: "Infrastructure / Cloud"
 reason: "The example concerns network routing, not sprint planning."
 ```
 
-Scene が一致していれば PASS。
+PASS when Scene matches.
 
-一致しなければ FAIL とし、
-`expectedScene` を返す。
+If not, return FAIL and `expectedScene`.
 
 ## Output
 
-検証時:
+For validation:
 
 ```yaml
 term: "router"
-actionSummary: "トラフィック移行前にルーター規則を更新している。"
+actionSummary: "Updating router rules before a traffic migration."
 expectedScene: "Infrastructure / Cloud"
 currentScene: "Sprint Planning"
 result: FAIL
-reason: "主目的はデプロイ基盤上のトラフィック振分であり、スプリント計画ではない。"
+reason: "The primary purpose is traffic routing on deployment infrastructure, not sprint planning."
 confidence: High
 ```
 
-新規作成・更新時:
+For creation or update:
 
 ```yaml
 term: "router"
-actionSummary: "トラフィック移行前にルーター規則を更新している。"
+actionSummary: "Updating router rules before a traffic migration."
 scene: "Infrastructure / Cloud"
 confidence: High
-notes: "source は Express デプロイ文脈だが、行為はインフラ運用。"
+notes: "The source discusses Express deployment, but the action is infrastructure operations."
 ```
 
-`actionSummary` を先に書き、その後 `scene` または `expectedScene` を書く。
+Write `actionSummary` first, then `scene` or `expectedScene`.
 
 ## Confidence
 
-- `High`: 使用例の主目的と一次資料の活動が一致し、Scene が1つに定まる
-- `Medium`: 主目的は特定できるが、複数 Scene の境界付近である
-- `Low`: 使用例だけでは主目的が曖昧、または一次資料と乖離がある
+- `High`: primary purpose in the example and source activity align; one Scene is clear
+- `Medium`: primary purpose is identifiable, but near a boundary between Scenes
+- `Low`: primary purpose is ambiguous from the example alone, or the source diverges
 
-`confidence` が Low でも、Scene Master から1つ選ぶ。`notes` に迷いを記録する。
+Even when `confidence` is Low, choose one Scene from Scene Master and record uncertainty in `notes`.
 
-## Vocabulary への反映
+## Applying Results to Vocabulary
 
-評価結果の `scene` を Vocabulary の YAML Front Matter に転記する。
-`actionSummary` は中間出力として残してよいが、Vocabulary 本体には載せない。
+Copy the resulting `scene` into the Vocabulary YAML front matter.
+You may keep `actionSummary` as intermediate output, but do not include it in the Vocabulary entry.
 
-FAIL の場合は `expectedScene` で Vocabulary の `scene` を修正する。
+When validation FAILs, update Vocabulary `scene` to `expectedScene`.
 
 ## Rules
 
-* term 単体で Scene を決めない。
-* カタカナ技術用語のカテゴリだけで決めない。
-* usageExample に登場する名詞だけで決めない。
-* `source` のカテゴリを無条件に Scene にコピーしない。
-* usageExample の **主たる仕事・目的** を最優先する。
-* 必ず Scene Master から1つだけ選ぶ。
+* Do not assign Scene from the term alone.
+* Do not assign Scene from katakana technical category alone.
+* Do not assign Scene from nouns in `usageExample` alone.
+* Do not copy `source` category to Scene unconditionally.
+* Prioritize the **primary work or purpose** in `usageExample`.
+* Always choose exactly one Scene from Scene Master.
 
-## 文言
+## Wording
 
-Skill 本文では、一般的でない専門用語を使わない。
+Avoid uncommon specialist jargon in this Skill.

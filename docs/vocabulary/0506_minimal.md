@@ -2,10 +2,12 @@
 id: "0506"
 term: "minimal"
 type: "word"
-partOfSpeech: "adjective"
-meaningJa: "最小限の"
+partOfSpeech: adjective
 pronunciation: "/ˈmɪn.ə.məl/"
+description: "kept to the bare minimum."
 descriptionJa: "必要最低限に抑えたこと。"
+meaning: minimal
+meaningJa: "最小限の"
 usageExample: "Ship a minimal fix before the refactor."
 usageExampleJa: "リファクタ前に最小限の修正を出してください。"
 difficulty: "Beginner"

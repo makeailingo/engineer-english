@@ -2,10 +2,12 @@
 id: "0766"
 term: "quarantine"
 type: "word"
-partOfSpeech: "verb"
-meaningJa: "隔離する"
+partOfSpeech: verb
 pronunciation: "/ˈkwɔːr.ən.tiːn/"
+description: "Isolate the problem node or traffic."
 descriptionJa: "問題ノードやトラフィックを切り離す。"
+meaning: isolate
+meaningJa: "隔離する"
 usageExample: "Quarantine bad nodes during the outage."
 usageExampleJa: "障害中は問題ノードを隔離してください。"
 difficulty: "Advanced"

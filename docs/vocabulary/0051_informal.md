@@ -2,10 +2,12 @@
 id: "0051"
 term: "informal"
 type: "word"
-partOfSpeech: "adjective"
-meaningJa: "非公式な"
+partOfSpeech: adjective
 pronunciation: "/ɪnˈfɔːr.məl/"
+description: "It has not gone through formal procedures."
 descriptionJa: "正式手続きを経ていないこと。"
+meaning: informal
+meaningJa: "非公式な"
 usageExample: "We agreed informally in Slack yesterday."
 usageExampleJa: "昨日Slackで非公式に合意しました。"
 difficulty: "Beginner"

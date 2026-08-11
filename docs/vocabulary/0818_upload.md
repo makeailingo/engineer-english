@@ -1,15 +1,17 @@
 ---
 id: "0818"
-term: upload
-type: word
+term: "upload"
+type: "word"
 partOfSpeech: verb
-meaningJa: "アップロードする、送信する"
 pronunciation: "/ˈʌp.loʊd/"
+description: "Send files from client to server."
 descriptionJa: "クライアントからサーバーへファイルを送る。"
+meaning: "upload, send"
+meaningJa: "アップロードする、送信する"
 usageExample: "Upload the build artifact to the release bucket."
 usageExampleJa: "ビルド成果物をリリースバケットへアップロードします。"
-difficulty: Beginner
-scene: Infrastructure / Cloud
+difficulty: "Beginner"
+scene: "Infrastructure / Cloud"
 source:
   title: "FormData - Web APIs | MDN"
   url: "https://developer.mozilla.org/en-US/docs/Web/API/FormData"

@@ -2,10 +2,12 @@
 id: "0556"
 term: "prioritization"
 type: "word"
-partOfSpeech: "noun"
-meaningJa: "優先順位付け"
+partOfSpeech: noun
 pronunciation: "/praɪˌɔːr.ə.t̬əˈzeɪ.ʃən/"
+description: "Determine tasks and requirements in order of importance."
 descriptionJa: "タスクや要件の重要度順決定。"
+meaning: Prioritization
+meaningJa: "優先順位付け"
 usageExample: "Prioritization should reflect customer impact."
 usageExampleJa: "優先順位は顧客影響を反映すべきです。"
 difficulty: "Intermediate"

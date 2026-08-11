@@ -2,10 +2,12 @@
 id: "0044"
 term: "diverse"
 type: "word"
-partOfSpeech: "adjective"
-meaningJa: "多様な"
+partOfSpeech: adjective
 pronunciation: "/dɪˈvɝːs/"
+description: "Wide variety of types and backgrounds."
 descriptionJa: "種類や背景が幅広いこと。"
+meaning: diverse
+meaningJa: "多様な"
 usageExample: "We need diverse input on accessibility."
 usageExampleJa: "アクセシビリティには多様な意見が必要です。"
 difficulty: "Beginner"

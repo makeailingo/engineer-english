@@ -2,10 +2,12 @@
 id: "0171"
 term: "affect"
 type: "word"
-partOfSpeech: "verb"
-meaningJa: "影響を与える"
+partOfSpeech: verb
 pronunciation: "/əˈfekt/"
+description: "Effects of changes on other functions and performance."
 descriptionJa: "変更が他機能や性能に及ぼす作用。"
+meaning: influence
+meaningJa: "影響を与える"
 usageExample: "This change may affect checkout latency."
 usageExampleJa: "この変更は決済遅延に影響する可能性があります。"
 difficulty: "Beginner"

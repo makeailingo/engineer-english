@@ -2,10 +2,12 @@
 id: "0787"
 term: "initial"
 type: "word"
-partOfSpeech: "adjective"
-meaningJa: "初期の"
+partOfSpeech: adjective
 pronunciation: "/ɪˈnɪʃ.əl/"
+description: "It is the first stage/state."
 descriptionJa: "最初の段階・状態であること。"
+meaning: early
+meaningJa: "初期の"
 usageExample: "The initial rollout covers ten percent."
 usageExampleJa: "初期ロールアウトは10%を対象にします。"
 difficulty: "Beginner"

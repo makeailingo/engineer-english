@@ -1,159 +1,147 @@
 ---
 name: sorting-vocabulary
-description: Engineer English の語彙を5章の学習順に並べ替え、ID・ファイル名・参照を更新する。語彙の並べ替え、再採番、章分類を依頼されたときに使用する。
+description: Sort Engineer English vocabulary into five learning chapters and update IDs, filenames, and references. Use when reordering, renumbering, or reclassifying vocabulary.
 ---
 
 # Sorting Vocabulary
 
-Engineer English の語彙を学習しやすい順序に並べ替え、
-ID・ファイル名・関連参照を更新する。
+> Japanese: [SKILL.ja.md](SKILL.ja.md)
 
-対象: `docs/vocabulary/**/*.md`
+Sort Engineer English vocabulary into a learner-friendly order and update IDs, filenames, and related references.
 
-並べ替えは本 Skill に従って直接行う。
-Python などの自動化スクリプトは作成しない。
+Scope: `docs/vocabulary/**/*.md`
 
-## 1. 章
+Perform sorting directly according to this Skill.
+Do not create automation scripts in Python or other languages.
 
-すべての語彙を以下の5章のいずれかに分類する。
+## 1. Chapters
 
-### 第1章 基本コミュニケーション
+Assign every entry to one of the five chapters below.
 
-確認・依頼・共有・意見・認識合わせなど、
-日常的なエンジニア業務で使う英語。
+### Chapter 1: Basic Communication
 
-例:
+English for everyday engineering work such as confirmation, requests, sharing, opinions, and alignment.
+
+Examples:
 - follow up
 - wrap up
 - clarify
 - reach out
 - heads-up
 
-### 第2章 開発とレビュー
+### Chapter 2: Development and Review
 
-実装・コードレビュー・テスト・デバッグなど、
-コードを読み書きし改善する場面で使う英語。
+English for writing, reviewing, testing, and debugging code.
 
-例:
+Examples:
 - reproduce
 - isolate
 - validate
 - refactor
 - regression
 
-### 第3章 計画と意思決定
+### Chapter 3: Planning and Decision-Making
 
-要件・優先順位・見積もり・根拠・トレードオフなど、
-何をどう作るか決める場面で使う英語。
+English for requirements, priorities, estimates, rationale, and trade-offs.
 
-例:
+Examples:
 - scope
 - priority
 - estimate
 - rationale
 - trade-off
 
-### 第4章 運用と障害対応
+### Chapter 4: Operations and Incident Response
 
-インフラ・性能・インシデント・リスクなど、
-サービスを運用する場面で使う英語。
+English for infrastructure, performance, incidents, and risk in production operations.
 
-例:
+Examples:
 - mitigate
 - rollback
 - outage
 - latency
 - on-call
 
-### 第5章 高度な技術英語
+### Chapter 5: Advanced Technical English
 
-アーキテクチャ・技術面接・高度な議論・
-ニュアンスの難しい表現。
+Architecture, technical interviews, advanced discussion, and nuanced expressions.
 
-例:
+Examples:
 - abstraction
 - scalability
 - corroborate
 - recursion
 - time complexity
 
-## 2. 章の順序
+## 2. Chapter Order
 
-必ず以下の順序にする。
+Always use this order:
 
-1. 基本コミュニケーション
-2. 開発とレビュー
-3. 計画と意思決定
-4. 運用と障害対応
-5. 高度な技術英語
+1. Basic Communication
+2. Development and Review
+3. Planning and Decision-Making
+4. Operations and Incident Response
+5. Advanced Technical English
 
-既存の `scene` は章分類の参考にしてよいが、
-Sceneを機械的にChapterへ変換してはいけない。
+You may use existing `scene` values as hints, but do not map Scene to Chapter mechanically.
 
-## 3. 章分類を章内ソートより先に確定する
+## 3. Decide Chapter Assignment Before Within-Chapter Sorting
 
-作業の順序は必ず次のとおりとする。
+Always work in this order:
 
-1. 全語彙を5章のどこに属するか決定する
-2. 各章の中だけを並べ替える
-3. 5章を連結する
-4. IDを再採番する
+1. Decide which chapter each entry belongs to
+2. Sort within each chapter only
+3. Concatenate the five chapters
+4. Renumber IDs
 
-1〜4章を先に並べ、残りを第5章へ置く処理は禁止する。
-難易度や `scene` を理由に、
-本来別の章に属する語を第5章へ送ってはいけない。
+Do not sort chapters 1–4 first and place the remainder in chapter 5.
+Do not send entries that belong elsewhere to chapter 5 because of difficulty or `scene`.
 
-第5章は「残った語を入れる章」ではない。
-第5章に含めるのは、
-アーキテクチャ・技術面接・高度な技術議論・
-高度なニュアンスを持つ語彙に限定する。
+Chapter 5 is not a catch-all.
+Include only vocabulary for architecture, technical interviews, advanced technical discussion, and advanced nuance.
 
-第5章に入れてはいけない例:
+Examples that must not go in chapter 5:
 
-- `currently`、`previously`、`shortly` などの一般副詞
-  （第1章 基本コミュニケーション）
-- `alternative`、`approach`、`select` などの初級一般語
-  （第3章 計画と意思決定、または該当する章）
-- `migrate`、`swap` などのデータベース実務語
-  （第4章 運用と障害対応）
+- General adverbs such as `currently`, `previously`, `shortly`
+  (Chapter 1: Basic Communication)
+- Beginner general words such as `alternative`, `approach`, `select`
+  (Chapter 3: Planning and Decision-Making, or the appropriate chapter)
+- Database operations words such as `migrate`, `swap`
+  (Chapter 4: Operations and Incident Response)
 
-`scene` が Architecture でも、
-初級の一般語や計画・意思決定の語彙は第5章に入れない。
-`scene` が Daily Communication や Debugging の語彙を、
-難易度が Advanced だからといって第5章へ送らない。
+Even when `scene` is Architecture, do not put beginner general words or planning/decision vocabulary in chapter 5.
+Do not move entries whose `scene` is Daily Communication or Debugging to chapter 5 just because difficulty is Advanced.
 
-### 章分類の目安
+### Chapter Assignment Guide
 
-| 章 | 主な `scene` | 補足 |
+| Chapter | Main `scene` values | Notes |
 | --- | --- | --- |
-| 第1章 | Daily Communication | 確認・依頼・共有・意見・認識合わせ |
-| 第2章 | Implementation, Code Review, Debugging, Testing | コードの読み書きと改善 |
-| 第3章 | Sprint Planning, Requirements, Leadership / Management | 計画・要件・意思決定 |
-| 第4章 | Incident Response, Infrastructure / Cloud, Performance, Security, Database | 運用・障害・性能・セキュリティ |
-| 第5章 | Architecture（高度な語彙）, Technical Interview | 上記4章に属さない高度な技術語のみ |
+| 1 | Daily Communication | Confirmation, requests, sharing, opinions, alignment |
+| 2 | Implementation, Code Review, Debugging, Testing | Reading, writing, and improving code |
+| 3 | Sprint Planning, Requirements, Leadership / Management | Planning, requirements, decision-making |
+| 4 | Incident Response, Infrastructure / Cloud, Performance, Security, Database | Operations, incidents, performance, security |
+| 5 | Architecture (advanced vocabulary), Technical Interview | Advanced technical terms not covered by chapters 1–4 |
 
-Architecture の語彙は、
-初級一般語は第3章、
-高度な技術議論・設計の語彙は第5章とする。
+For Architecture vocabulary:
+- beginner general words → chapter 3
+- advanced technical discussion and design vocabulary → chapter 5
 
-## 4. 章内の並べ替え
+## 4. Within-Chapter Sorting
 
-各章では、以下の優先順位で前に配置する。
+Within each chapter, place entries earlier when they rank higher on:
 
-1. 日本人エンジニアにとって学習価値が高い
-2. 実務で遭遇・使用する頻度が高い（実用性）
-3. Beginner → Intermediate → Advanced（難易度）
+1. Learning value for Japanese engineers
+2. Practical frequency in professional work
+3. Difficulty: Beginner → Intermediate → Advanced
 
-難易度だけでは決めない。
-上級ラベルでも、Engineer English として学習価値・実用性が高い語彙
-（`touch base`、`loop in`、`circle back` など）は
-初級の一般語より前に置く。
+Do not sort by difficulty alone.
+Even Advanced entries with high learning value and practical use
+(`touch base`, `loop in`, `circle back`, etc.)
+should come before obvious Beginner general words.
 
-例えば `update` のように意味が明白で
-学習価値の低い語を、Beginnerという理由だけで
-章の先頭に配置しない。
+Do not place low-learning-value obvious words such as `update` at the front of a chapter just because they are Beginner.
 
-一方、
+Prioritize expressions that are hard for Japanese learners to infer even when built from simple words, such as:
 
 - wrap up
 - follow up
@@ -161,81 +149,79 @@ Architecture の語彙は、
 - hold off
 - sort out
 
-のような、簡単な単語から構成されていても
-日本人学習者には意味を推測しづらい表現は優先する。
+## 5. Renumbering IDs
 
-## 5. IDの再採番
+After sorting is complete, assign IDs in final learning order:
 
-すべての並べ替えが完了した後、
-最終的な学習順に従ってIDを振り直す。
-
-- 最初: `0001`
-- 次: `0002`
+- First: `0001`
+- Next: `0002`
 - ...
-- 最後: 全語彙数
+- Last: total vocabulary count
 
-旧IDを維持する必要はない。
+Old IDs do not need to be preserved.
 
-## 6. ファイル名の変更
+## 6. Renaming Files
 
-語彙ファイル名は新しいIDに合わせて変更する。
+Rename vocabulary files to match the new ID.
 
-例:
+Example:
 
-旧:
+Old:
 `0042_wrap-up.md`
 
-新しい学習順で15番目になった場合:
+If it becomes the 15th entry in learning order:
 
 `0015_wrap-up.md`
 
-term部分は変更しない。
+Do not change the `term` segment.
 
-## 7. コンテンツの更新
+## 7. Updating Content
 
-各MarkdownファイルのFront Matterにある `id` を
-新しいIDへ更新する。
+Update the `id` in each file's YAML front matter to the new ID.
 
-並べ替え作業では以下は変更しない。
+During sorting, do not change:
 
 - term
 - type
+- partOfSpeech
+- pronunciation
+- meaning
+- meaningJa
+- description
+- descriptionJa
 - difficulty
 - scene
-- meaningJa
-- descriptionJa
 - usageExample
 - usageExampleJa
 - source
 
-## 8. 参照の更新
+## 8. Updating References
 
-旧IDまたは旧ファイル名を参照している箇所がある場合、
-すべて新しいID・ファイル名へ更新する。
+Update every reference to old IDs or filenames to the new ID and filename.
 
-対象例:
+Examples:
 
-- Markdownリンク
-- Jekyll内部リンク
-- テスト
+- Markdown links
+- Jekyll internal links
+- tests
 - fixtures
-- snapshot
+- snapshots
 - README
-- ドキュメント
+- documentation
 
-termだけを参照しておりIDに依存しない箇所は変更しない。
+Do not change places that reference only `term` and do not depend on ID.
 
-## 9. 検証
+## 9. Verification
 
-作業完了後、必ず以下を確認する。
+After sorting, confirm:
 
-- 全語彙が5章のいずれかに属する
-- 章の順序が正しい
-- 全語彙が1回だけ存在する
-- 語彙の追加・削除がない
-- IDが0001から連続している
-- IDの重複・欠番がない
-- ファイル名とFront MatterのIDが一致する
-- 旧IDへの参照が残っていない
-- termや意味、例文などが意図せず変更されていない
-- Jekyllのbuildと既存テストが成功する
+- Every entry belongs to one of the five chapters
+- Chapter order is correct
+- Every entry appears exactly once
+- No entries were added or removed
+- IDs run continuously from 0001
+- There are no duplicate or missing IDs
+- Filenames match front matter IDs
+- No references to old IDs remain
+- Terms, meanings, and examples were not changed unintentionally
+- Jekyll build and existing tests succeed

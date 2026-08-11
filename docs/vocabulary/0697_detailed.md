@@ -2,10 +2,12 @@
 id: "0697"
 term: "detailed"
 type: "word"
-partOfSpeech: "adjective"
-meaningJa: "詳細な"
+partOfSpeech: adjective
 pronunciation: "/dɪˈteɪld/"
+description: "Be highly specific and detailed."
 descriptionJa: "具体性が高く細部まで書かれていること。"
+meaning: detailed
+meaningJa: "詳細な"
 usageExample: "Provide detailed steps in the runbook."
 usageExampleJa: "ランブックに詳細手順を記載してください。"
 difficulty: "Beginner"

@@ -1,15 +1,17 @@
 ---
 id: "0739"
-term: patch
-type: word
+term: "patch"
+type: "word"
 partOfSpeech: verb
-meaningJa: "パッチする、修正を当てる"
 pronunciation: "/pætʃ/"
+description: "Apply small fixes to existing code."
 descriptionJa: "小さな修正を既存コードへ適用する。"
+meaning: "patching, fixing"
+meaningJa: "パッチする、修正を当てる"
 usageExample: "Patch the security vulnerability in a hotfix release."
 usageExampleJa: "ホットフィックスで脆弱性修正を当てます。"
-difficulty: Intermediate
-scene: Incident Response
+difficulty: "Intermediate"
+scene: "Incident Response"
 source:
   title: "Code Review Emergencies"
   url: "https://google.github.io/eng-practices/review/emergencies.html"

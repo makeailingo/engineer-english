@@ -2,10 +2,12 @@
 id: "0128"
 term: "shortly"
 type: "word"
-partOfSpeech: "adverb"
-meaningJa: "まもなく"
+partOfSpeech: adverb
 pronunciation: "/ˈʃɔːrt.li/"
+description: "Represents something that will happen soon."
 descriptionJa: "近いうちに起きることを表す。"
+meaning: shortly
+meaningJa: "まもなく"
 usageExample: "The fix will be released shortly."
 usageExampleJa: "修正はまもなくリリースされます。"
 difficulty: "Beginner"

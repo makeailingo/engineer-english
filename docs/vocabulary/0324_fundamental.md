@@ -2,10 +2,12 @@
 id: "0324"
 term: "fundamental"
 type: "word"
-partOfSpeech: "adjective"
-meaningJa: "根本的な"
+partOfSpeech: adjective
 pronunciation: "/ˌfʌn.dəˈmen.t̬əl/"
+description: "Essential things related to the basics."
 descriptionJa: "基礎に関わる本質的なこと。"
+meaning: fundamental
+meaningJa: "根本的な"
 usageExample: "We have a fundamental design flaw here."
 usageExampleJa: "ここに根本的な設計欠陥があります。"
 difficulty: "Intermediate"

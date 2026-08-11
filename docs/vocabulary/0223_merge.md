@@ -1,15 +1,17 @@
 ---
 id: "0223"
-term: merge
-type: word
+term: "merge"
+type: "word"
 partOfSpeech: verb
-meaningJa: "マージする、統合する"
 pronunciation: "/mɝːdʒ/"
+description: "Merge branches and changes into one."
 descriptionJa: "ブランチや変更を1つに合流させる。"
+meaning: "merge, integrate"
+meaningJa: "マージする、統合する"
 usageExample: "Merge only after all required checks pass."
 usageExampleJa: "必須チェック通過後にのみマージします。"
-difficulty: Beginner
-scene: Code Review
+difficulty: "Beginner"
+scene: "Code Review"
 source:
   title: "Standard code review"
   url: "https://google.github.io/eng-practices/review/reviewer/standard.html"

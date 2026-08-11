@@ -2,10 +2,12 @@
 id: "0437"
 term: "impartial"
 type: "word"
-partOfSpeech: "adjective"
-meaningJa: "公平不偏な"
+partOfSpeech: adjective
 pronunciation: "/ɪmˈpɑːr.ʃəl/"
+description: "Don't lean towards a particular side."
 descriptionJa: "特定側に偏らないこと。"
+meaning: unbiased
+meaningJa: "公平不偏な"
 usageExample: "Choose an impartial reviewer for this RFC."
 usageExampleJa: "このRFCには公平なレビュアーを選んでください。"
 difficulty: "Advanced"

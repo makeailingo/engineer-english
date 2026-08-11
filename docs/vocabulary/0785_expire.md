@@ -1,15 +1,17 @@
 ---
 id: "0785"
-term: expire
-type: word
+term: "expire"
+type: "word"
 partOfSpeech: verb
-meaningJa: "期限切れになる"
 pronunciation: "/ɪkˈspaɪr/"
+description: "It expires and becomes invalid."
 descriptionJa: "有効期限が切れて無効になる。"
+meaning: expires
+meaningJa: "期限切れになる"
 usageExample: "Sessions expire after thirty minutes of inactivity."
 usageExampleJa: "非アクティブ30分でセッションが期限切れになります。"
-difficulty: Beginner
-scene: Security
+difficulty: "Beginner"
+scene: "Security"
 source:
   title: "Set-Cookie header - HTTP | MDN"
   url: "https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Set-Cookie"

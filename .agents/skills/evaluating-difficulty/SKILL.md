@@ -1,67 +1,69 @@
 ---
 name: evaluating-difficulty
-description: 2観点の評価と判定ルールで Vocabulary の difficulty を決める。Vocabulary の作成・更新前に使用する。
+description: Assign Vocabulary difficulty using two evaluation axes and fixed decision rules. Use before creating or updating Vocabulary entries.
 ---
 
 # Evaluating Difficulty
 
-Vocabulary の `difficulty` は、CEFR・TOEIC 等の外部語彙リストでは決めない。  
-2つの観点を評価し、下記の判定ルールで Beginner / Intermediate / Advanced を決める。
+> Japanese: [SKILL.ja.md](SKILL.ja.md)
 
-## Difficulty 定義
+Assign Vocabulary `difficulty` from two evaluation axes and the decision rules below.
+Do not use external vocabulary lists such as CEFR or TOEIC as the source of truth.
 
-| Difficulty | 目安 |
+## Difficulty Definitions
+
+| Difficulty | Guideline |
 | --- | --- |
-| Beginner | 一般語として広く知られ、エンジニアも意味を推測しやすい |
-| Intermediate | 一般語だが実務での用法に学習価値がある、または技術文脈で頻出する |
-| Advanced | 一般英語として日常的に使われず、エンジニアも英単語としては馴染みが薄い |
+| Beginner | Widely known general vocabulary; engineers can infer the meaning easily |
+| Intermediate | General vocabulary with learning value in professional use, or frequent in technical contexts |
+| Advanced | Uncommon in everyday English; even engineers are unlikely to know the word as English vocabulary |
 
-## 判断観点
+## Evaluation Axes
 
-各観点を **low / medium / high** で評価する。
+Rate each axis as **low**, **medium**, or **high**.
 
-| 観点 | 問い |
+| Axis | Question |
 | --- | --- |
-| `generalFamiliarity` | 一般的な英語として、意味を推測しやすいか |
-| `engineerFamiliarity` | 日本人ソフトウェアエンジニアが、英単語として意味を理解している可能性が高いか |
+| `generalFamiliarity` | As general English, is the meaning easy to infer? |
+| `engineerFamiliarity` | Are Japanese software engineers likely to know the word as English vocabulary? |
 
-## 判定ルール
+## Decision Rules
 
-観点評価のあと、次のルールだけで Difficulty を決める。**例外解釈はしない。**
+After rating the axes, choose Difficulty using only these rules. **Do not interpret exceptions.**
 
-| 条件 | Difficulty |
+| Condition | Difficulty |
 | --- | --- |
-| `generalFamiliarity` = high **かつ** `engineerFamiliarity` ≠ low | Beginner |
-| `generalFamiliarity` = low **かつ** `engineerFamiliarity` = low | Advanced |
-| 上記以外 | Intermediate |
+| `generalFamiliarity` = high **and** `engineerFamiliarity` ≠ low | Beginner |
+| `generalFamiliarity` = low **and** `engineerFamiliarity` = low | Advanced |
+| All other cases | Intermediate |
 
-## 代表例
+## Reference Examples
 
-代表例は観点評価の **参考** に使う。Difficulty は代表例から直接決めない。
+Reference examples guide axis ratings only. Do not assign Difficulty directly from them.
 
 ### generalFamiliarity
 
-| 値 | 代表例 |
+| Value | Examples |
 | --- | --- |
 | high | `feedback`, `deadline`, `replace` |
 | medium | `clarify`, `mandatory`, `defer` |
 | low | `courteous`, `scrutiny`, `discretion` |
 
-判定が分かれやすい語（例: `trade-off`）は代表例に入れない。
+Do not include borderline terms such as `trade-off` in reference examples.
 
-## 手順
+## Workflow
 
-1. 代表例を参考に `generalFamiliarity` を評価する
-2. 代表例を参考に `engineerFamiliarity` を評価する
-3. 判定ルールで Difficulty を決める
-4. `confidence` を付与する
-5. 任意で `contextualLearningNeeded` を記録する（Difficulty 判定には使わない）
+1. Rate `generalFamiliarity` using reference examples
+2. Rate `engineerFamiliarity` using reference examples
+3. Choose Difficulty with the decision rules
+4. Assign `confidence`
+5. Optionally record `contextualLearningNeeded` (not used for Difficulty)
 
-`reasoning` を先に書き、その後 `difficulty` を書く。
+Write `reasoning` first, then `difficulty`.
 
 ## contextualLearningNeeded
 
-Difficulty 判定には使わない。記録のみ（将来の学習価値・収録優先度などに利用）。
+Not used for Difficulty. Record only for future learning-value or prioritization notes.
 
 ## Input
 
@@ -81,7 +83,7 @@ reasoning:
   contextualLearningNeeded: low
 difficulty: Beginner
 confidence: High
-notes: "一般語として広く知られ、エンジニア文脈でも理解しやすい。"
+notes: "Widely known general vocabulary and easy to understand in engineering contexts."
 ```
 
 ```yaml
@@ -93,7 +95,7 @@ reasoning:
   contextualLearningNeeded: medium
 difficulty: Intermediate
 confidence: High
-notes: "一般語だが、実務での用法に学習価値がある。"
+notes: "General vocabulary with learning value in professional use."
 ```
 
 ```yaml
@@ -105,29 +107,29 @@ reasoning:
   contextualLearningNeeded: high
 difficulty: Advanced
 confidence: High
-notes: "日常会話ではあまり使われない。丁寧さのニュアンスを知らないと使い分けにくい。"
+notes: "Uncommon in everyday conversation; nuance matters for appropriate use."
 ```
 
 ## Confidence
 
-- `High`: 2観点と代表例から明確に評価できる
-- `Medium`: どちらかの観点が境界的だが、判定ルールで決められる
-- `Low`: 2観点自体の評価に迷う
+- `High`: both axes are clear from reference examples
+- `Medium`: one axis is borderline, but the decision rules still decide Difficulty
+- `Low`: axis ratings themselves are uncertain
 
-`confidence` が Low でも、Difficulty は判定ルールに従って出す。`notes` に迷いを記録する。
+Even when `confidence` is Low, still output Difficulty from the decision rules and record uncertainty in `notes`.
 
-## Vocabulary への反映
+## Applying Results to Vocabulary
 
-評価結果の `difficulty` を Vocabulary の YAML Front Matter に転記する。  
-`reasoning` は中間出力として残してよいが、Vocabulary 本体には載せない。
+Copy the resulting `difficulty` into the Vocabulary YAML front matter.
+You may keep `reasoning` as intermediate output, but do not include it in the Vocabulary entry.
 
-## 禁止事項
+## Prohibited Actions
 
-- 外部語彙リストを正解ラベルとして使う
-- 代表例との類似度で Difficulty を直接決める
-- `contextualLearningNeeded` を Difficulty 判定に使う
-- 迷ったら高い方を選ぶ
+- Using external vocabulary lists as ground truth
+- Assigning Difficulty directly from similarity to reference examples
+- Using `contextualLearningNeeded` in Difficulty decisions
+- Choosing the higher level when uncertain
 
-## 文言
+## Wording
 
-Skill 本文では、一般的でない専門用語を使わない（例: 固定決定表、uncommon）。
+Avoid uncommon specialist jargon in this Skill (for example, "fixed decision table", "uncommon").

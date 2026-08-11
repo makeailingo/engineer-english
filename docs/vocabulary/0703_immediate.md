@@ -2,10 +2,12 @@
 id: "0703"
 term: "immediate"
 type: "word"
-partOfSpeech: "adjective"
-meaningJa: "即時の"
+partOfSpeech: adjective
 pronunciation: "/ɪˈmiː.di.ət/"
+description: "What you need now without delay."
 descriptionJa: "遅延なく今すぐ必要なこと。"
+meaning: immediate
+meaningJa: "即時の"
 usageExample: "This bug needs an immediate hotfix."
 usageExampleJa: "このバグには即時ホットフィックスが必要です。"
 difficulty: "Beginner"

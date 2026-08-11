@@ -2,10 +2,12 @@
 id: "0500"
 term: "flexible"
 type: "word"
-partOfSpeech: "adjective"
-meaningJa: "柔軟な"
+partOfSpeech: adjective
 pronunciation: "/ˈflek.sə.bəl/"
+description: "Easily adaptable to change and expansion."
 descriptionJa: "変更や拡張に適応しやすいこと。"
+meaning: Adaptable
+meaningJa: "柔軟な"
 usageExample: "Keep the schema flexible for new fields."
 usageExampleJa: "新フィールドに備えてスキーマを柔軟にしてください。"
 difficulty: "Beginner"

@@ -2,10 +2,12 @@
 id: "0259"
 term: "stable"
 type: "word"
-partOfSpeech: "adjective"
-meaningJa: "安定した"
+partOfSpeech: adjective
 pronunciation: "/ˈsteɪ.bəl/"
+description: "It means that it can be used with peace of mind without any changes or."
 descriptionJa: "変化や障害がなく安心して使えることを表す。"
+meaning: stable
+meaningJa: "安定した"
 usageExample: "Pin the SDK to the latest stable version."
 usageExampleJa: "SDKは最新の安定版に固定してください。"
 difficulty: "Beginner"

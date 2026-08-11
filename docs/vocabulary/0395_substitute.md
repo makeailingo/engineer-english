@@ -1,15 +1,17 @@
 ---
 id: "0395"
-term: substitute
-type: word
+term: "substitute"
+type: "word"
 partOfSpeech: verb
-meaningJa: "置き換える、代替する"
 pronunciation: "/ˈsʌb.stɪ.tuːt/"
+description: "Replace with another implementation or value."
 descriptionJa: "別実装や値で差し替える。"
+meaning: "replace, replace"
+meaningJa: "置き換える、代替する"
 usageExample: "Substitute the mock client during unit tests."
 usageExampleJa: "単体テスト中はモッククライアントに差し替えます。"
-difficulty: Intermediate
-scene: Testing
+difficulty: "Intermediate"
+scene: "Testing"
 source:
   title: "What to look for in a code review - Google Engineering Practices"
   url: "https://google.github.io/eng-practices/review/reviewer/looking-for.html"

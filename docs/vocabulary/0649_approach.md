@@ -1,15 +1,17 @@
 ---
 id: "0649"
-term: approach
-type: word
+term: "approach"
+type: "word"
 partOfSpeech: noun
-meaningJa: "方法、取り組み方"
 pronunciation: "/əˈproʊtʃ/"
+description: "How to tackle design issues and selection policies."
 descriptionJa: "設計課題への取り組み方や選択方針。"
+meaning: "Method and approach"
+meaningJa: "方法、取り組み方"
 usageExample: "Which approach best preserves the system's maintainability?"
 usageExampleJa: "どの方法がシステムの保守性を最も保てますか。"
-difficulty: Beginner
-scene: Architecture
+difficulty: "Beginner"
+scene: "Architecture"
 source:
   title: "The Standard of Code Review | eng-practices"
   url: "https://google.github.io/eng-practices/review/reviewer/standard.html"

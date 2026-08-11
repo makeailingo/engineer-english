@@ -2,10 +2,12 @@
 id: "0342"
 term: "interpret"
 type: "word"
-partOfSpeech: "verb"
-meaningJa: "解釈する"
+partOfSpeech: verb
 pronunciation: "/ɪnˈtɝː.prət/"
+description: "Reading the meaning of logs and specifications."
 descriptionJa: "ログや仕様の意味を読み取ること。"
+meaning: interpret
+meaningJa: "解釈する"
 usageExample: "How do you interpret this ambiguous log line?"
 usageExampleJa: "この曖昧なログ行をどう解釈しますか。"
 difficulty: "Intermediate"

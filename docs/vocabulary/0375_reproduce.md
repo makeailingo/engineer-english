@@ -1,15 +1,17 @@
 ---
 id: "0375"
-term: reproduce
-type: word
+term: "reproduce"
+type: "word"
 partOfSpeech: verb
-meaningJa: "再現する"
 pronunciation: "/ˌriː.prəˈduːs/"
+description: "To cause the problem to occur again under the same conditions and procedures."
 descriptionJa: "同じ条件や手順で、不具合をもう一度発生させること。"
+meaning: reproduce
+meaningJa: "再現する"
 usageExample: "Can you reproduce this bug with the minimal test case?"
 usageExampleJa: "最小のテストケースでこのバグを再現できますか。"
-difficulty: Intermediate
-scene: Debugging
+difficulty: "Intermediate"
+scene: "Debugging"
 source:
   title: "Performance fundamentals - Performance | MDN"
   url: "https://developer.mozilla.org/en-US/docs/Web/Performance/Guides/Fundamentals"

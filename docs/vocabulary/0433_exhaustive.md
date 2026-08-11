@@ -2,10 +2,12 @@
 id: "0433"
 term: "exhaustive"
 type: "word"
-partOfSpeech: "adjective"
-meaningJa: "網羅的な"
+partOfSpeech: adjective
 pronunciation: "/ɪɡˈzɔːs.t̬ɪv/"
+description: "Cover all cases without omission."
 descriptionJa: "漏れなく全ケースをカバーすること。"
+meaning: exhaustive
+meaningJa: "網羅的な"
 usageExample: "Exhaustive tests are too slow for CI."
 usageExampleJa: "網羅的テストはCIには遅すぎます。"
 difficulty: "Advanced"

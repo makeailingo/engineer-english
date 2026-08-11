@@ -2,10 +2,12 @@
 id: "0542"
 term: "imperfect"
 type: "word"
-partOfSpeech: "adjective"
-meaningJa: "不完全な"
+partOfSpeech: adjective
 pronunciation: "/ɪmˈpɝː.fekt/"
+description: "It's not ideal, but it's within an acceptable range."
 descriptionJa: "理想どおりではないが許容範囲のこと。"
+meaning: incomplete
+meaningJa: "不完全な"
 usageExample: "Ship an imperfect MVP and iterate."
 usageExampleJa: "不完全なMVPを出して改善を続けてください。"
 difficulty: "Intermediate"

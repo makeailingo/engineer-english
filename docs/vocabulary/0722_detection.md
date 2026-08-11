@@ -2,10 +2,12 @@
 id: "0722"
 term: "detection"
 type: "word"
-partOfSpeech: "noun"
-meaningJa: "検知"
+partOfSpeech: noun
 pronunciation: "/dɪˈtek.ʃən/"
+description: "Identifying obstacles and anomalies."
 descriptionJa: "障害や異常を見つけること。"
+meaning: detection
+meaningJa: "検知"
 usageExample: "Improve detection time for checkout errors."
 usageExampleJa: "決済エラーの検知時間を改善してください。"
 difficulty: "Intermediate"

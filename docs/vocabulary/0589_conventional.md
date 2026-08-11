@@ -2,10 +2,12 @@
 id: "0589"
 term: "conventional"
 type: "word"
-partOfSpeech: "adjective"
-meaningJa: "従来型の"
+partOfSpeech: adjective
 pronunciation: "/kənˈven.ʃən.əl/"
+description: "Be in line with common practice."
 descriptionJa: "一般的な慣習に沿っていること。"
+meaning: conventional
+meaningJa: "従来型の"
 usageExample: "A conventional REST API fits this use case."
 usageExampleJa: "従来型REST APIがこの用途に合います。"
 difficulty: "Intermediate"

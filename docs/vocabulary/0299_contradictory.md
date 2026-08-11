@@ -2,10 +2,12 @@
 id: "0299"
 term: "contradictory"
 type: "word"
-partOfSpeech: "adjective"
-meaningJa: "矛盾した"
+partOfSpeech: adjective
 pronunciation: "/ˌkɑːn.trəˈdɪk.t̬ɚ.i/"
+description: "Content that contradicts each other."
 descriptionJa: "互いに否定し合う内容であること。"
+meaning: contradictory
+meaningJa: "矛盾した"
 usageExample: "These two log entries look contradictory."
 usageExampleJa: "この二つのログは矛盾しているように見えます。"
 difficulty: "Intermediate"

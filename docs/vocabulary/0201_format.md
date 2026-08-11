@@ -1,15 +1,17 @@
 ---
 id: "0201"
-term: format
-type: word
+term: "format"
+type: "word"
 partOfSpeech: verb
-meaningJa: "フォーマットする、整形する"
 pronunciation: "/ˈfɔːr.mæt/"
+description: "Organize data and code into a specified format."
 descriptionJa: "データやコードを規定の形式に整える。"
+meaning: "format, format"
+meaningJa: "フォーマットする、整形する"
 usageExample: "Format JSON responses with consistent indentation."
 usageExampleJa: "JSONレスポンスを統一インデントで整形します。"
-difficulty: Beginner
-scene: Implementation
+difficulty: "Beginner"
+scene: "Implementation"
 source:
   title: "JSON.stringify() - JavaScript | MDN"
   url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify"

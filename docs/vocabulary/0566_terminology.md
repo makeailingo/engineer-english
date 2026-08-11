@@ -2,10 +2,12 @@
 id: "0566"
 term: "terminology"
 type: "word"
-partOfSpeech: "noun"
-meaningJa: "用語"
+partOfSpeech: noun
 pronunciation: "/ˌtɝː.məˈnɑː.lə.dʒi/"
+description: "Professional language used in the field."
 descriptionJa: "分野で使われる専門的な言葉づかい。"
+meaning: term
+meaningJa: "用語"
 usageExample: "Align on terminology before writing the spec."
 usageExampleJa: "仕様書を書く前に用語をそろえてください。"
 difficulty: "Intermediate"

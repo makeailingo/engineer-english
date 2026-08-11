@@ -3,13 +3,15 @@ id: "0029"
 term: "make a note of"
 type: "phrase"
 partOfSpeech: "phrasal verb"
-meaningJa: "メモしておく"
 pronunciation: "/ˌmeɪk ə ˈnoʊt ʌv/"
+description: "Record your observations and issues so you can refer to them later."
 descriptionJa: "後で参照できるよう、気づきや課題を記録しておくこと。"
+meaning: "make a note of it"
+meaningJa: "メモしておく"
 usageExample: "Maybe also make a note of it."
 usageExampleJa: "ついでにメモしておくのもありです。"
-difficulty: Intermediate
-scene: Daily Communication
+difficulty: "Intermediate"
+scene: "Daily Communication"
 source:
   title: "Life of An SRE with Dave Reisner"
   url: "https://sre.google/prodcast/transcripts/sre-prodcast-02-06/"

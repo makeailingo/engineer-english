@@ -1,15 +1,17 @@
 ---
 id: "0906"
-term: throttle
-type: word
+term: "throttle"
+type: "word"
 partOfSpeech: verb
-meaningJa: "スロットルする、流量制限する"
 pronunciation: "/ˈθrɑː.təl/"
+description: "Limit the amount and frequency of processing."
 descriptionJa: "処理量や頻度を制限する。"
+meaning: "throttle, limit flow"
+meaningJa: "スロットルする、流量制限する"
 usageExample: "Throttle API calls to stay within rate limits."
 usageExampleJa: "レート制限内に収めるためAPI呼び出しを制限します。"
-difficulty: Intermediate
-scene: Performance
+difficulty: "Intermediate"
+scene: "Performance"
 source:
   title: "Non-Abstract Large Scale Design Workbook"
   url: "https://static.googleusercontent.com/media/sre.google/en//static/pdf/nalsd-workbook-a4.pdf"

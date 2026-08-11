@@ -2,10 +2,12 @@
 id: "0643"
 term: "equitable"
 type: "word"
-partOfSpeech: "adjective"
-meaningJa: "公平な"
+partOfSpeech: adjective
 pronunciation: "/ˈek.wɪ.t̬ə.bəl/"
+description: "Consideration must be given to all parties without bias."
 descriptionJa: "関係者に偏りなく配慮されていること。"
+meaning: Fair
+meaningJa: "公平な"
 usageExample: "Assign on-call shifts in an equitable way."
 usageExampleJa: "オンコール当番を公平に割り当ててください。"
 difficulty: "Advanced"

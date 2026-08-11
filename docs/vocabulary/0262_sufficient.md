@@ -2,10 +2,12 @@
 id: "0262"
 term: "sufficient"
 type: "word"
-partOfSpeech: "adjective"
-meaningJa: "十分な"
+partOfSpeech: adjective
 pronunciation: "/səˈfɪʃ.ənt/"
+description: "The necessary conditions and quantities must be met."
 descriptionJa: "必要な条件や量を満たしていること。"
+meaning: enough
+meaningJa: "十分な"
 usageExample: "Is test coverage sufficient for this change?"
 usageExampleJa: "この変更のテストカバレッジは十分ですか。"
 difficulty: "Beginner"

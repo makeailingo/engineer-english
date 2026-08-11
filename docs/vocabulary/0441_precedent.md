@@ -2,10 +2,12 @@
 id: "0441"
 term: "precedent"
 type: "word"
-partOfSpeech: "noun"
-meaningJa: "先例"
+partOfSpeech: noun
 pronunciation: "/ˈpres.ɪ.dənt/"
+description: "Past decisions will serve as future reference."
 descriptionJa: "過去の判断が今後の参考になること。"
+meaning: precedent
+meaningJa: "先例"
 usageExample: "There is no precedent for this rollback."
 usageExampleJa: "このロールバックに先例はありません。"
 difficulty: "Advanced"

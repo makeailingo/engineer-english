@@ -2,14 +2,16 @@
 id: "0744"
 term: "recurrence"
 type: "word"
-partOfSpeech: "noun"
-meaningJa: "再発"
+partOfSpeech: noun
 pronunciation: "/rɪˈkɝː.əns/"
+description: "The same type of disorder will occur again."
 descriptionJa: "同種の障害が再び起きること。"
+meaning: recurrence
+meaningJa: "再発"
 usageExample: "We must prevent recurrence of this outage."
 usageExampleJa: "この障害の再発を防ぐ必要があります。"
 difficulty: "Intermediate"
-scene: Incident Response
+scene: "Incident Response"
 source:
   title: "The Art of SLOs – Facilitator Handbook"
   url: "https://sre.google/static/pdf/art-of-slos-howto-a4.pdf"

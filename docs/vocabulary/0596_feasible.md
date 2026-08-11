@@ -2,10 +2,12 @@
 id: "0596"
 term: "feasible"
 type: "word"
-partOfSpeech: "adjective"
-meaningJa: "実現可能な"
+partOfSpeech: adjective
 pronunciation: "/ˈfiː.zə.bəl/"
+description: "What can be done technically and with resources."
 descriptionJa: "技術・リソース的に実行できること。"
+meaning: achievable
+meaningJa: "実現可能な"
 usageExample: "Is zero-downtime migration feasible now?"
 usageExampleJa: "無停止移行は現実的に可能ですか。"
 difficulty: "Intermediate"

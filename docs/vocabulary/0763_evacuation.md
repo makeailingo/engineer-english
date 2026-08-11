@@ -2,10 +2,12 @@
 id: "0763"
 term: "evacuation"
 type: "word"
-partOfSpeech: "noun"
-meaningJa: "退避"
+partOfSpeech: noun
 pronunciation: "/ɪˌvæk.juˈeɪ.ʃən/"
+description: "Evacuate traffic from dangerous regions."
 descriptionJa: "危険リージョンからトラフィック退避。"
+meaning: Evacuation
+meaningJa: "退避"
 usageExample: "Traffic evacuation saved the primary region."
 usageExampleJa: "トラフィック退避で主要リージョンを救いました。"
 difficulty: "Advanced"

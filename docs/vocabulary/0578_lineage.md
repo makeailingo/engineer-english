@@ -1,15 +1,17 @@
 ---
 id: "0578"
-term: lineage
-type: word
+term: "lineage"
+type: "word"
 partOfSpeech: noun
-meaningJa: "系譜、データ由来"
 pronunciation: "/ˈlɪn.i.ɪdʒ/"
+description: "Routes and origins of data generation."
 descriptionJa: "データの生成経路や由来。"
+meaning: "Genealogy, data origin"
+meaningJa: "系譜、データ由来"
 usageExample: "Track data lineage for compliance audit requests."
 usageExampleJa: "コンプライアンス監査のためデータ系譜を追跡します。"
-difficulty: Advanced
-scene: Requirements
+difficulty: "Advanced"
+scene: "Requirements"
 source:
   title: "Writing good CL descriptions - Google Engineering Practices"
   url: "https://google.github.io/eng-practices/review/developer/cl-descriptions.html"

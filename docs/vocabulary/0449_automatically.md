@@ -2,10 +2,12 @@
 id: "0449"
 term: "automatically"
 type: "word"
-partOfSpeech: "adverb"
-meaningJa: "自動的に"
+partOfSpeech: adverb
 pronunciation: "/ˌɑː.t̬əˈmæt̬.ɪ.kəl.i/"
+description: "Represents something that is done by a mechanism without human intervention."
 descriptionJa: "人手を介さず仕組みが行うことを表す。"
+meaning: automatically
+meaningJa: "自動的に"
 usageExample: "Sessions expire automatically after an hour."
 usageExampleJa: "セッションは1時間後に自動的に失効します。"
 difficulty: "Beginner"

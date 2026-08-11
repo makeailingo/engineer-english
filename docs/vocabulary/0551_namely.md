@@ -2,10 +2,12 @@
 id: "0551"
 term: "namely"
 type: "word"
-partOfSpeech: "adverb"
-meaningJa: "すなわち"
+partOfSpeech: adverb
 pronunciation: "/ˈneɪm.li/"
+description: "Specify and specifically list the previous contents."
 descriptionJa: "直前の内容を具体的に列挙して特定する。"
+meaning: i.e.
+meaningJa: "すなわち"
 usageExample: "Two fields are required, namely id and email."
 usageExampleJa: "必須項目は2つ、すなわちidとemailです。"
 difficulty: "Intermediate"

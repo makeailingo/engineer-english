@@ -2,10 +2,12 @@
 id: "0607"
 term: "thereby"
 type: "word"
-partOfSpeech: "adverb"
-meaningJa: "それによって"
+partOfSpeech: adverb
 pronunciation: "/ˌðerˈbaɪ/"
+description: "It indicates that the previous action has a result."
 descriptionJa: "前の行為が結果をもたらすことを表す。"
+meaning: thereby
+meaningJa: "それによって"
 usageExample: "We cache tokens, thereby reducing auth calls."
 usageExampleJa: "トークンをキャッシュし、認証呼び出しを減らします。"
 difficulty: "Intermediate"

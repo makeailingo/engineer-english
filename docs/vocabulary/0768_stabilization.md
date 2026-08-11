@@ -2,10 +2,12 @@
 id: "0768"
 term: "stabilization"
 type: "word"
-partOfSpeech: "noun"
-meaningJa: "安定化"
+partOfSpeech: noun
 pronunciation: "/ˌsteɪ.bəl.əˈzeɪ.ʃən/"
+description: "Stabilize service after a failure."
 descriptionJa: "障害後にサービスを安定させること。"
+meaning: stabilization
+meaningJa: "安定化"
 usageExample: "Stabilization took two hours after rollback."
 usageExampleJa: "ロールバック後、安定化に2時間要しました。"
 difficulty: "Advanced"

@@ -2,10 +2,12 @@
 id: "0509"
 term: "optional"
 type: "word"
-partOfSpeech: "adjective"
-meaningJa: "任意の"
+partOfSpeech: adjective
 pronunciation: "/ˈɑːp.ʃən.əl/"
+description: "Indicates that it is not mandatory and can be omitted."
 descriptionJa: "必須ではなく省略できることを表す。"
+meaning: any
+meaningJa: "任意の"
 usageExample: "The avatar field is optional in the API."
 usageExampleJa: "APIのアバター項目は任意です。"
 difficulty: "Beginner"

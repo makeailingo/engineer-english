@@ -1,15 +1,17 @@
 ---
 id: "0258"
-term: split
-type: word
+term: "split"
+type: "word"
 partOfSpeech: verb
-meaningJa: "分割する、スプリットする"
 pronunciation: "/splɪt/"
+description: "Split data or string into multiple parts."
 descriptionJa: "データや文字列を複数部分に分ける。"
+meaning: "divide, split"
+meaningJa: "分割する、スプリットする"
 usageExample: "Split the CSV rows before sending to workers."
 usageExampleJa: "ワーカー送信前にCSV行を分割します。"
-difficulty: Beginner
-scene: Implementation
+difficulty: "Beginner"
+scene: "Implementation"
 source:
   title: "Streams API - Web APIs | MDN"
   url: "https://developer.mozilla.org/en-US/docs/Web/API/Streams_API"

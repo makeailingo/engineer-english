@@ -1,15 +1,17 @@
 ---
 id: "0813"
-term: specify
-type: word
+term: "specify"
+type: "word"
 partOfSpeech: verb
-meaningJa: "指定する、明示する"
 pronunciation: "/ˈspes.ə.faɪ/"
+description: "Specify requirements and parameters."
 descriptionJa: "要件やパラメータを明示する。"
+meaning: "specify, clarify"
+meaningJa: "指定する、明示する"
 usageExample: "Specify timeout values in the deployment manifest."
 usageExampleJa: "デプロイマニフェストでタイムアウト値を指定します。"
-difficulty: Beginner
-scene: Infrastructure / Cloud
+difficulty: "Beginner"
+scene: "Infrastructure / Cloud"
 source:
   title: "Change descriptions - Google Engineering Practices"
   url: "https://google.github.io/eng-practices/review/developer/cl-descriptions.html"

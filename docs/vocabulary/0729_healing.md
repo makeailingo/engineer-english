@@ -2,10 +2,12 @@
 id: "0729"
 term: "healing"
 type: "word"
-partOfSpeech: "noun"
-meaningJa: "自己修復"
+partOfSpeech: noun
 pronunciation: "/ˈhiː.lɪŋ/"
+description: "The system automatically returns to normal state."
 descriptionJa: "システムが自動で正常状態へ戻ること。"
+meaning: Self-Repair
+meaningJa: "自己修復"
 usageExample: "Pod healing recovered after node failure."
 usageExampleJa: "ノード障害後Pod自己修復で復旧しました。"
 difficulty: "Intermediate"

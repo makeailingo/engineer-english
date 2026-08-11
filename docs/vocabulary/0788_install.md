@@ -1,15 +1,17 @@
 ---
 id: "0788"
-term: install
-type: word
+term: "install"
+type: "word"
 partOfSpeech: verb
-meaningJa: "インストールする、導入する"
 pronunciation: "/ɪnˈstɑːl/"
+description: "Introducing software and components in a usable state."
 descriptionJa: "ソフトや構成要素を使える状態で導入すること。"
+meaning: "install, introduce"
+meaningJa: "インストールする、導入する"
 usageExample: "Install the required packages before deploying the app."
 usageExampleJa: "アプリデプロイ前に必要なパッケージをインストールします。"
-difficulty: Beginner
-scene: Infrastructure / Cloud
+difficulty: "Beginner"
+scene: "Infrastructure / Cloud"
 source:
   title: "Express Tutorial Part 7: Deploying to production - Learn web development | MDN"
   url: "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/deployment"

@@ -2,10 +2,12 @@
 id: "0914"
 term: "unplanned"
 type: "word"
-partOfSpeech: "adjective"
-meaningJa: "計画外の"
+partOfSpeech: adjective
 pronunciation: "/ʌnˈplænd/"
+description: "Unplanned downtime or changes."
 descriptionJa: "予定していなかったダウンタイムや変更。"
+meaning: unplanned
+meaningJa: "計画外の"
 usageExample: "Unplanned downtime exceeded our SLO budget."
 usageExampleJa: "計画外ダウンタイムがSLO枠を超えました。"
 difficulty: "Intermediate"

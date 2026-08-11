@@ -2,10 +2,12 @@
 id: "0519"
 term: "workload"
 type: "word"
-partOfSpeech: "noun"
-meaningJa: "作業負荷"
+partOfSpeech: noun
 pronunciation: "/ˈwɝːk.loʊd/"
+description: "The amount of work a team can do simultaneously."
 descriptionJa: "チームが同時にこなす作業量。"
+meaning: Workload
+meaningJa: "作業負荷"
 usageExample: "The workload exceeds our sprint capacity."
 usageExampleJa: "作業負荷がスプリントキャパを超えています。"
 difficulty: "Beginner"

@@ -1,15 +1,17 @@
 ---
 id: "0358"
-term: override
-type: word
+term: "override"
+type: "word"
 partOfSpeech: verb
-meaningJa: "上書きする、優先させる"
 pronunciation: "/ˌoʊ.vɚˈraɪd/"
+description: "Replace default settings or parent behavior."
 descriptionJa: "デフォルト設定や親の動作を置き換える。"
+meaning: "overwrite, prioritize"
+meaningJa: "上書きする、優先させる"
 usageExample: "Override the default timeout only in integration tests."
 usageExampleJa: "統合テストでのみデフォルトタイムアウトを上書きします。"
-difficulty: Intermediate
-scene: Testing
+difficulty: "Intermediate"
+scene: "Testing"
 source:
   title: "What to look for in a code review"
   url: "https://google.github.io/eng-practices/review/reviewer/looking-for.html"

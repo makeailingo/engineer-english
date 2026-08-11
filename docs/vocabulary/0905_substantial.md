@@ -2,10 +2,12 @@
 id: "0905"
 term: "substantial"
 type: "word"
-partOfSpeech: "adjective"
-meaningJa: "かなりの"
+partOfSpeech: adjective
 pronunciation: "/səbˈstæn.ʃəl/"
+description: "Denotes a clearly large amount or degree."
 descriptionJa: "量や程度が明確に大きいことを表す。"
+meaning: considerable
+meaningJa: "かなりの"
 usageExample: "We saw a substantial drop in memory usage."
 usageExampleJa: "メモリ使用量がかなり減少しました。"
 difficulty: "Intermediate"

@@ -2,10 +2,12 @@
 id: "0493"
 term: "duration"
 type: "word"
-partOfSpeech: "noun"
-meaningJa: "期間"
+partOfSpeech: noun
 pronunciation: "/dʊˈreɪ.ʃən/"
+description: "The time required for a task or sprint."
 descriptionJa: "作業やスプリントに要する時間。"
+meaning: Periods
+meaningJa: "期間"
 usageExample: "Estimate duration including QA and rollout."
 usageExampleJa: "QAと展開を含めて期間を見積もってください。"
 difficulty: "Beginner"

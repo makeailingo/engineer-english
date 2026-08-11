@@ -1,16 +1,18 @@
 ---
 name: researching-vocabulary
-description: 英単語・フレーズの品詞、語義、米国英語のIPA、ソフトウェア開発での用法を複数の資料で調査する。Vocabularyの作成・更新前に使用する。
+description: Research part of speech, sense, US English IPA, and software-development usage from multiple sources. Use before creating or updating Vocabulary.
 ---
 
 # Researching Vocabulary
 
-## 辞書
+> Japanese: [SKILL.ja.md](SKILL.ja.md)
 
-- 一次情報とする辞書: [Cambridge Dictionary](https://dictionary.cambridge.org/dictionary/english/)
-- ダブルチェック用の辞書: [Oxford Advanced Learner's Dictionary](https://www.oxfordlearnersdictionaries.com/definition/english/)
+## Dictionaries
 
-Cambridgeは品詞、語義ごとの定義、米国英語のIPAを同じ項目で確認できる。学習者向けで、コーパスにも基づいているため、辞書情報の一次資料として使用する。Oxfordは一般米語（General American）のIPA、語義、用例を独立して確認できるため、ダブルチェックに使用する。
+- Primary dictionary: [Cambridge Dictionary](https://dictionary.cambridge.org/dictionary/english/)
+- Cross-check dictionary: [Oxford Advanced Learner's Dictionary](https://www.oxfordlearnersdictionaries.com/definition/english/)
+
+Cambridge provides part of speech, sense-specific definitions, and US English IPA in one entry. It is learner-oriented and corpus-based, so use it as the primary dictionary source. Oxford provides General American IPA, senses, and examples independently, so use it for cross-checking.
 
 ## Input
 
@@ -20,23 +22,23 @@ term: "address"
 
 ## Workflow
 
-1. Cambridgeで対象語の品詞を確認する。
-2. Cambridgeで一般的な語義と、語義ごとの区分を確認する。
-3. Cambridgeで米国英語のIPAを確認する。
-4. Google Engineering Practices、Google SRE、MDNの一次資料で実務用法を確認する。
-5. 辞書に掲載された語義のうち、一次資料のソフトウェア開発文脈で実際に使われているものを特定する。
-6. 特定した語義に限定して、自然で簡潔な日本語訳を作成する。
-7. Oxfordで品詞、語義、米国英語のIPAを照合し、不一致がないか確認する。
-8. 各 Vocabulary を確定する前に、`evaluating-meaningJa` のルールを適用する。
-
-   Before finalizing each vocabulary item, apply the `evaluating-meaningJa` rules.
+1. Confirm the part of speech in Cambridge.
+2. Confirm general senses and sense divisions in Cambridge.
+3. Confirm US English IPA in Cambridge.
+4. Confirm professional usage in Google Engineering Practices, Google SRE, and MDN primary sources.
+5. Identify which dictionary senses are actually used in the software development context from those primary sources.
+6. For the adopted sense only, write a natural, concise Japanese translation.
+7. Cross-check part of speech, sense, and US English IPA in Oxford.
+8. Before finalizing each vocabulary item, apply the evaluating-meaningJa rules.
 
    In particular:
 
    - `meaningJa` must explain the English meaning to a Japanese learner.
+   - `meaning` must state the adopted English sense concisely for learners.
+   - `description` must summarize professional usage in English within 80 characters.
    - Do not use katakana transliteration alone as the meaning.
    - Katakana may be retained only when accompanied by a useful Japanese explanation.
-   - Keep the explanation concise and aligned with the intended sense in `usageExample`.
+   - Keep explanations concise and aligned with the intended sense in `usageExample`.
 
    Examples:
 
@@ -50,34 +52,38 @@ term: "address"
    backlog → 未着手の作業や要望の一覧、バックログ
    on-call → 障害対応のため待機する当番、オンコール
 
-検索結果に表示される要約だけで判断せず、各ページを開いて確認する。不一致を解消できない場合は推測せず、`confidence: Low`として理由を示す。
+Do not decide from search-result snippets alone. Open each page and verify. If inconsistencies cannot be resolved, do not guess; set `confidence: Low` and explain why.
 
 ## Output
 
 ```yaml
-partOfSpeech: "<採用した語義に対応する品詞>"
-meaningJa: "<ソフトウェア開発の文脈に対応する日本語訳>"
-pronunciation: "<米国英語のIPA>"
-engineeringSense: "<ソフトウェア開発の文脈における簡潔な英語の語義>"
+partOfSpeech: "<part of speech for the adopted sense>"
+meaning: "<concise English sense for software development>"
+meaningJa: "<Japanese translation for the software development sense>"
+description: "<concise English note on professional usage>"
+pronunciation: "<US English IPA>"
+engineeringSense: "<same sense as meaning; intermediate output>"
 sources:
   - role: primaryDictionary
-    title: "<Cambridgeの項目名>"
-    url: "<確認したURL>"
+    title: "<Cambridge entry title>"
+    url: "<verified URL>"
   - role: crossCheckDictionary
-    title: "<Oxfordの項目名>"
-    url: "<確認したURL>"
+    title: "<Oxford entry title>"
+    url: "<verified URL>"
   - role: engineeringPrimary
-    title: "<一次資料のページタイトル>"
-    url: "<確認したURL>"
-    license: "<ライセンス>"
-    context: "<実務用法の簡潔な日本語要約>"
+    title: "<primary source page title>"
+    url: "<verified URL>"
+    license: "<license>"
+    context: "<concise Japanese summary of professional usage>"
 confidence: "<High | Medium | Low>"
 ```
 
 ## Confidence
 
-- `High`: 2つの辞書と一次資料の間で、品詞、語義、IPAに不一致がない。
-- `Medium`: 語義は一致しているが、表記に差がある、または一次資料の用例が間接的である。
-- `Low`: 必須情報が不足している、または不一致を解消できない。Vocabularyには採用しない。
+- `High`: part of speech, sense, and IPA agree across both dictionaries and the primary source
+- `Medium`: senses agree but notation differs, or the primary-source example is indirect
+- `Low`: required information is missing, or inconsistencies cannot be resolved. Do not adopt the entry.
 
-調査用の辞書URLは中間出力に残す。Vocabularyの`source`には`engineeringPrimary`だけを転記する。
+Keep dictionary URLs in intermediate output. Copy only `engineeringPrimary` into Vocabulary `source`.
+
+Copy `meaning` and `description` into Vocabulary front matter.

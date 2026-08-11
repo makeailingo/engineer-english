@@ -2,10 +2,12 @@
 id: "0040"
 term: "condition"
 type: "word"
-partOfSpeech: "noun"
-meaningJa: "条件"
+partOfSpeech: noun
 pronunciation: "/kənˈdɪʃ.ən/"
+description: "Requirements that are a prerequisite for agreement or implementation."
 descriptionJa: "合意や実行の前提となる要件。"
+meaning: conditions
+meaningJa: "条件"
 usageExample: "Approval is conditional on load test results."
 usageExampleJa: "承認は負荷試験結果を条件とします。"
 difficulty: "Beginner"

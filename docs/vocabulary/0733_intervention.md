@@ -2,10 +2,12 @@
 id: "0733"
 term: "intervention"
 type: "word"
-partOfSpeech: "noun"
-meaningJa: "介入"
+partOfSpeech: noun
 pronunciation: "/ˌɪn.t̬ɚˈven.ʃən/"
+description: "Automatic recovery is not possible and must be handled manually."
 descriptionJa: "自動復旧できず人手で対処すること。"
+meaning: intervention
+meaningJa: "介入"
 usageExample: "Manual intervention was required at midnight."
 usageExampleJa: "深夜に手動介入が必要でした。"
 difficulty: "Intermediate"

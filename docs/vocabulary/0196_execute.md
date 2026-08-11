@@ -1,15 +1,17 @@
 ---
 id: "0196"
-term: execute
-type: word
+term: "execute"
+type: "word"
 partOfSpeech: verb
-meaningJa: "実行する"
 pronunciation: "/ˈek.sə.kjuːt/"
+description: "Run code and commands."
 descriptionJa: "コードやコマンドを実際に動かす。"
+meaning: execute
+meaningJa: "実行する"
 usageExample: "Execute the migration script in a staging environment."
 usageExampleJa: "ステージング環境で移行スクリプトを実行します。"
-difficulty: Beginner
-scene: Testing
+difficulty: "Beginner"
+scene: "Testing"
 source:
   title: "Django testing - Learn web development | MDN"
   url: "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/Django/Testing"

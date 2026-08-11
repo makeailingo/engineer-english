@@ -2,10 +2,12 @@
 id: "0343"
 term: "intuitive"
 type: "word"
-partOfSpeech: "adjective"
-meaningJa: "直感的な"
+partOfSpeech: adjective
 pronunciation: "/ɪnˈtuː.ə.t̬ɪv/"
+description: "Easy to understand without explanation."
 descriptionJa: "説明なしでも理解しやすいこと。"
+meaning: intuitive
+meaningJa: "直感的な"
 usageExample: "Make error messages intuitive for developers."
 usageExampleJa: "開発者に直感的なエラーメッセージを提供してください。"
 difficulty: "Intermediate"

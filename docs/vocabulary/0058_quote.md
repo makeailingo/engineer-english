@@ -2,10 +2,12 @@
 id: "0058"
 term: "quote"
 type: "word"
-partOfSpeech: "verb"
-meaningJa: "引用する"
+partOfSpeech: verb
 pronunciation: "/kwoʊt/"
+description: "Show specifications and past statements as evidence."
 descriptionJa: "仕様や過去の発言を根拠として示すこと。"
+meaning: quote
+meaningJa: "引用する"
 usageExample: "Quote the RFC when explaining this behavior."
 usageExampleJa: "この挙動説明ではRFCを引用してください。"
 difficulty: "Beginner"

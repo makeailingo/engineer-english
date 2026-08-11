@@ -2,10 +2,12 @@
 id: "0980"
 term: "resilient"
 type: "word"
-partOfSpeech: "adjective"
-meaningJa: "回復力のある"
+partOfSpeech: adjective
 pronunciation: "/rɪˈzɪl.jənt/"
+description: "It represents the ability to recover by one's own efforts even if an obstacle."
 descriptionJa: "障害が起きても自力で立ち直れることを表す。"
+meaning: Resilient
+meaningJa: "回復力のある"
 usageExample: "Design resilient services that degrade gracefully."
 usageExampleJa: "障害時に段階的に縮退できる回復力のあるサービスを設計してください。"
 difficulty: "Intermediate"

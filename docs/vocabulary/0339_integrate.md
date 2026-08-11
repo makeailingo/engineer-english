@@ -1,15 +1,17 @@
 ---
 id: "0339"
-term: integrate
-type: word
+term: "integrate"
+type: "word"
 partOfSpeech: verb
-meaningJa: "統合する、連携させる"
 pronunciation: "/ˈɪn.tə.ɡreɪt/"
+description: "Connect with other systems and APIs for integrated operation."
 descriptionJa: "別システムやAPIと接続して一体運用する。"
+meaning: "integrate, coordinate"
+meaningJa: "統合する、連携させる"
 usageExample: "Integrate the payment provider into the checkout flow."
 usageExampleJa: "決済プロバイダをチェックアウトフローへ統合します。"
-difficulty: Intermediate
-scene: Implementation
+difficulty: "Intermediate"
+scene: "Implementation"
 source:
   title: "API - Glossary | MDN"
   url: "https://developer.mozilla.org/en-US/docs/Glossary/API"

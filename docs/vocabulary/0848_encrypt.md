@@ -1,15 +1,17 @@
 ---
 id: "0848"
-term: encrypt
-type: word
+term: "encrypt"
+type: "word"
 partOfSpeech: verb
-meaningJa: "暗号化する"
 pronunciation: "/ɪnˈkrɪpt/"
+description: "Converting plaintext into ciphertext using a key and encryption method."
 descriptionJa: "平文を鍵と暗号方式で暗号文に変換すること。"
+meaning: encrypt
+meaningJa: "暗号化する"
 usageExample: "Encrypt sensitive data with authenticated encryption before transmission."
 usageExampleJa: "送信前に機密データを認証付き暗号で暗号化します。"
-difficulty: Intermediate
-scene: Security
+difficulty: "Intermediate"
+scene: "Security"
 source:
   title: "SubtleCrypto: encrypt() method"
   url: "https://developer.mozilla.org/en-US/docs/Web/API/SubtleCrypto/encrypt"

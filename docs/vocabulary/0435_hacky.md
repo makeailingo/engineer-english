@@ -2,10 +2,12 @@
 id: "0435"
 term: "hacky"
 type: "word"
-partOfSpeech: "adjective"
-meaningJa: "その場しのぎの"
+partOfSpeech: adjective
 pronunciation: "/ˈhæk.i/"
+description: "Indicates that it is a temporary structure that is not clean."
 descriptionJa: "きれいでない一時的な作りであることを表す。"
+meaning: makeshift
+meaningJa: "その場しのぎの"
 usageExample: "This fix feels hacky; let's add a proper interface."
 usageExampleJa: "この修正は場当たり的なので、適切な設計に直しましょう。"
 difficulty: "Advanced"

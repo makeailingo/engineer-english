@@ -2,10 +2,12 @@
 id: "0836"
 term: "comprehensive"
 type: "word"
-partOfSpeech: "adjective"
-meaningJa: "包括的な"
+partOfSpeech: adjective
 pronunciation: "/ˌkɑːm.prəˈhen.sɪv/"
+description: "Include the necessary elements without leakage."
 descriptionJa: "必要な要素を漏れなく含むこと。"
+meaning: comprehensive
+meaningJa: "包括的な"
 usageExample: "Write a comprehensive rollback checklist."
 usageExampleJa: "包括的なロールバックチェックリストを書いてください。"
 difficulty: "Intermediate"

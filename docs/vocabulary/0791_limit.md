@@ -1,15 +1,17 @@
 ---
 id: "0791"
-term: limit
-type: word
+term: "limit"
+type: "word"
 partOfSpeech: verb
-meaningJa: "制限する、上限を設ける"
 pronunciation: "/ˈlɪm.ɪt/"
+description: "Set upper and lower limits for numbers and ranges."
 descriptionJa: "数値や範囲の上限・下限を設定する。"
+meaning: "limit, set an upper limit"
+meaningJa: "制限する、上限を設ける"
 usageExample: "Limit concurrent requests to ten per instance."
 usageExampleJa: "インスタンスあたり同時リクエストを10件に制限します。"
-difficulty: Beginner
-scene: Performance
+difficulty: "Beginner"
+scene: "Performance"
 source:
   title: "Performance fundamentals - Performance | MDN"
   url: "https://developer.mozilla.org/en-US/docs/Web/Performance/Guides/Fundamentals"

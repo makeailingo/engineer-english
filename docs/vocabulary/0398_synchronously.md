@@ -2,10 +2,12 @@
 id: "0398"
 term: "synchronously"
 type: "word"
-partOfSpeech: "adverb"
-meaningJa: "同期的に"
+partOfSpeech: adverb
 pronunciation: "/ˈsɪŋ.krə.nəs.li/"
+description: "Represents a method of waiting for completion before proceeding to the next."
 descriptionJa: "完了を待ってから次へ進む方式を表す。"
+meaning: synchronously
+meaningJa: "同期的に"
 usageExample: "Avoid calling external APIs synchronously."
 usageExampleJa: "外部APIを同期的に呼び出すのは避けてください。"
 difficulty: "Intermediate"

@@ -2,10 +2,12 @@
 id: "0043"
 term: "debate"
 type: "word"
-partOfSpeech: "noun"
-meaningJa: "討論"
+partOfSpeech: noun
 pronunciation: "/dɪˈbeɪt/"
+description: "Have a lively discussion about your options."
 descriptionJa: "選択肢について活発に議論すること。"
+meaning: discussion
+meaningJa: "討論"
 usageExample: "Let's debate trade-offs in tomorrow's meeting."
 usageExampleJa: "明日の会議でトレードオフを討論しましょう。"
 difficulty: "Beginner"

@@ -2,10 +2,12 @@
 id: "0193"
 term: "emphasize"
 type: "word"
-partOfSpeech: "verb"
-meaningJa: "強調する"
+partOfSpeech: verb
 pronunciation: "/ˈem.fə.saɪz/"
+description: "Communicate important points clearly."
 descriptionJa: "重要点をはっきり伝えること。"
+meaning: emphasize
+meaningJa: "強調する"
 usageExample: "Emphasize backward compatibility in the PR."
 usageExampleJa: "PRで後方互換性を強調してください。"
 difficulty: "Beginner"

@@ -2,10 +2,12 @@
 id: "0811"
 term: "significantly"
 type: "word"
-partOfSpeech: "adverb"
-meaningJa: "大幅に"
+partOfSpeech: adverb
 pronunciation: "/sɪɡˈnɪf.ə.kənt.li/"
+description: "Indicates that the change is too large to be ignored."
 descriptionJa: "変化が無視できない大きさであることを表す。"
+meaning: significantly
+meaningJa: "大幅に"
 usageExample: "Caching significantly reduced response times."
 usageExampleJa: "キャッシュで応答時間が大幅に短縮されました。"
 difficulty: "Beginner"

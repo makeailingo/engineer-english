@@ -2,10 +2,12 @@
 id: "0994"
 term: "revamp"
 type: "word"
-partOfSpeech: "verb"
-meaningJa: "刷新する"
+partOfSpeech: verb
 pronunciation: "/ˌriːˈvæmp/"
+description: "To remake something that is old."
 descriptionJa: "古くなったものを大きく作り直すこと。"
+meaning: renew
+meaningJa: "刷新する"
 usageExample: "We plan to revamp the onboarding flow."
 usageExampleJa: "オンボーディングの流れを刷新する予定です。"
 difficulty: "Advanced"

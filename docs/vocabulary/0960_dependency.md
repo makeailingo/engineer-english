@@ -1,15 +1,17 @@
 ---
 id: "0960"
-term: dependency
-type: word
+term: "dependency"
+type: "word"
 partOfSpeech: noun
-meaningJa: "依存関係、他の要素を必要とする関係"
 pronunciation: "/dɪˈpen.dən.si/"
+description: "A relationship in which a module depends on other elements."
 descriptionJa: "モジュールが他の要素に頼る関係。"
+meaning: "dependencies, relationships that require other elements"
+meaningJa: "依存関係、他の要素を必要とする関係"
 usageExample: "Should this dependency cross the domain boundary?"
 usageExampleJa: "この依存関係はドメイン境界を越えるべきですか。"
-difficulty: Intermediate
-scene: Architecture
+difficulty: "Intermediate"
+scene: "Architecture"
 source:
   title: "JavaScript modules - JavaScript | MDN"
   url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules"

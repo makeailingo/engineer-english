@@ -1,15 +1,17 @@
 ---
 id: "0206"
-term: handle
-type: word
+term: "handle"
+type: "word"
 partOfSpeech: verb
-meaningJa: "処理する、扱う"
 pronunciation: "/ˈhæn.dəl/"
+description: "Handle events and exceptions."
 descriptionJa: "イベントや例外に対する処理を行う。"
+meaning: "process, handle"
+meaningJa: "処理する、扱う"
 usageExample: "Handle timeout errors with an exponential backoff retry."
 usageExampleJa: "タイムアウトは指数バックオフで再試行します。"
-difficulty: Beginner
-scene: Implementation
+difficulty: "Beginner"
+scene: "Implementation"
 source:
   title: "Using Service Workers - Web APIs | MDN"
   url: "https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API/Using_Service_Workers"

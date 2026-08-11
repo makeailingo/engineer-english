@@ -1,81 +1,106 @@
 # Vocabulary Markdown
 
-対象: `docs/vocabulary/**/*.md`
+> Japanese: [vocabulary-markdown.ja.md](vocabulary-markdown.ja.md)
 
-- 1ファイルにつき1件とし、ファイル名は`<id>_<term>.md`とする。`term`部分は小文字のkebab-caseにする。
-- `docs/templates/vocabulary.md`を複製し、YAML Front Matterの全属性を記載する。
-- 語義・品詞・発音は researching-vocabulary Skill に従う。
-- `difficulty`は evaluating-difficulty Skill に従う。
-- `scene`は evaluating-scene Skill に従う。
-- `meaningJa`は evaluating-meaningJa Skill に従う。
-- `id`は`"0001"`から`"1000"`までの重複のない4桁連番とする。`id`は表示順・学習順を表す。
-- 学習順は [sorting-vocabulary Skill](.agents/skills/sorting-vocabulary/SKILL.md) に従う。全語彙を5章（基本コミュニケーション → 開発とレビュー → 計画と意思決定 → 運用と障害対応 → 高度な技術英語）へ分類し、各章内では学習価値 → 実用性 → 難易度の順で並べ、5章を連結して ID を振り直す。
-- `type`は`word`または`phrase`とする。
-- `difficulty`と`scene`は下記マスタからそれぞれ1つだけ選ぶ。
-- `source`には、実在と用法を確認した一次情報を1件、下記Source Schemaで記載する。
-- 日本語訳、説明、使用例、使用例訳は独自に作成し、出典本文をコピー・翻案しない。
-- 語義、説明、使用例、使用例訳、`scene`、`source`の文脈を意味的に一致させる。
-- `descriptionJa`は40文字以内にする。
-- `usageExample`は10語以内、`usageExampleJa`は40文字以内にする。
-- 使用例は対象語の意味が文脈から判断できる、自然で具体的な実務表現にする。
-- `usageExampleJa`の作成・修正・レビューは [japanese-tech-writing Skill](.agents/skills/japanese-tech-writing/SKILL.md) に従う。
-- 作成前に既存Vocabularyとの重複を確認する。
+Scope: `docs/vocabulary/**/*.md`
+
+- One entry per file. Name files `<id>_<term>.md`. Use lowercase kebab-case for the `term` segment.
+- Copy `docs/templates/vocabulary.md` and fill every YAML front matter field.
+- Follow the researching-vocabulary Skill for sense, part of speech, and pronunciation.
+- Follow the evaluating-difficulty Skill for `difficulty`.
+- Follow the evaluating-scene Skill for `scene`.
+- Follow the evaluating-meaningJa Skill for `meaningJa`.
+- Use unique 4-digit IDs from `"0001"` through `"1000"`. The `id` reflects display and learning order.
+- Follow the [sorting-vocabulary Skill](.agents/skills/sorting-vocabulary/SKILL.md) for learning order. Sort all entries into five chapters (Basic Communication → Development and Review → Planning and Decision-Making → Operations and Incident Response → Advanced Technical English), order within each chapter by learning value → practical frequency → difficulty, then concatenate the chapters and renumber IDs.
+- Set `type` to `word` or `phrase`.
+- Choose one value each for `difficulty` and `scene` from the masters below.
+- Record one verified primary source in `source` using the Source Schema below.
+- Write Japanese translations, explanations, and usage examples independently. Do not copy or adapt source text.
+- Keep `meaning`, `description`, `usageExample`, `meaningJa`, `descriptionJa`, `usageExampleJa`, `scene`, and `source.context` semantically aligned.
+- Limit `description` to 80 characters.
+- Limit `descriptionJa` to 40 characters.
+- Limit `usageExample` to 10 words.
+- Limit `usageExampleJa` to 40 characters.
+- Usage examples must be natural, concrete professional expressions where the target term's meaning is clear from context.
+- Follow the [japanese-tech-writing Skill](.agents/skills/japanese-tech-writing/SKILL.md) when writing or reviewing `usageExampleJa`.
+- Check for duplicates against existing Vocabulary before creating a new entry.
+
+## Field Order
+
+YAML front matter is the single source of truth. Use this field order:
+
+1. `id`
+2. `term`
+3. `type`
+4. `partOfSpeech`
+5. `pronunciation`
+6. `description`
+7. `descriptionJa`
+8. `meaning`
+9. `meaningJa`
+10. `usageExample`
+11. `usageExampleJa`
+12. `difficulty`
+13. `scene`
+14. `source`
+
+The Jekyll layout renders bilingual section headings from these fields. Do not duplicate field values in the Markdown body.
 
 ## Source Schema
 
-`source`は単一オブジェクトとし、次の4属性を必須とする。
+`source` is a single object with four required attributes:
 
-| 属性 | 内容 |
+| Attribute | Content |
 | --- | --- |
-| `title` | 一次資料の正式なページタイトル |
-| `url` | 対象語の用法を実際に確認した公開ページのURL |
-| `license` | 一次資料に明記されたライセンス名 |
-| `context` | 対象語が使われているソフトウェア開発上の文脈をまとめた簡潔な日本語 |
+| `title` | Official page title of the primary source |
+| `url` | Public URL where usage of the target term was verified |
+| `license` | License name stated on the primary source |
+| `context` | Concise Japanese summary of the software development context in which the term appears |
 
-`context`は原文を長く引用せず、採用根拠が判断できる内容にする。
+Do not quote the source at length in `context`. Include enough detail to judge why the entry was accepted.
 
-## 一次資料
+## Primary Sources
 
-Vocabularyの採用根拠には、次の3つに含まれる公開資料だけを使用する。
+Use only public materials from these three providers as adoption evidence:
 
-| 提供元 | 公式URL | 主な用途 | ライセンス | 取り扱い |
+| Provider | Official URL | Main use | License | Handling |
 | --- | --- | --- | --- | --- |
-| Google Engineering Practices | https://google.github.io/eng-practices/ | Code Review、設計、開発コミュニケーション | CC BY 3.0 | 再利用可能。出典とライセンスを明記する。 |
-| Google SREのCC BY 4.0資料 | https://sre.google/classroom/ | Incident、Reliability、Operations、SLO | CC BY 4.0 | 各資料のライセンス表示を確認し、Googleを原著者として明記する。例: [The Art of SLOs](https://sre.google/resources/practices-and-processes/art-of-slos/) |
-| MDN Web Docs | https://developer.mozilla.org/en-US/docs/ | Frontend、Web、API、Debugging | 原則CC BY-SA 2.5以降 | 単語の採用根拠として使用する。本文のコピーや翻案は行わない。 |
+| Google Engineering Practices | https://google.github.io/eng-practices/ | Code review, design, development communication | CC BY 3.0 | Reusable. Attribute the source and license. |
+| Google SRE CC BY 4.0 materials | https://sre.google/classroom/ | Incident, reliability, operations, SLO | CC BY 4.0 | Confirm each material's license notice and attribute Google as the author. Example: [The Art of SLOs](https://sre.google/resources/practices-and-processes/art-of-slos/) |
+| MDN Web Docs | https://developer.mozilla.org/en-US/docs/ | Frontend, web, API, debugging | Generally CC BY-SA 2.5 or later | Use only to confirm usage. Do not copy or adapt body text. |
 
-Google SREでは、SREサイト全体をCC BY 4.0とみなさず、CC BY 4.0と明記された教材だけを使用する。MDNで本文を再利用すると継承ライセンスの条件が生じるため、本データセットでは用法の確認に限って使用する。
+For Google SRE, do not treat the whole SRE site as CC BY 4.0. Use only materials explicitly marked CC BY 4.0. Because reusing MDN body text triggers share-alike obligations, this dataset uses MDN only to confirm usage.
 
 ## Difficulty Master
 
-| English | 日本語 | 目安 |
+| English | Japanese | Guideline |
 | --- | --- | --- |
-| Beginner | 初級 | 一般語として広く知られ、エンジニアも意味を推測しやすい |
-| Intermediate | 中級 | 一般語だが実務での用法に学習価値がある、または技術文脈で頻出する |
-| Advanced | 上級 | 一般英語として日常的に使われず、エンジニアも英単語としては馴染みが薄い |
+| Beginner | 初級 | Widely known general vocabulary; engineers can infer the meaning easily |
+| Intermediate | 中級 | General vocabulary with learning value in professional use, or frequent in technical contexts |
+| Advanced | 上級 | Uncommon in everyday English; even engineers are unlikely to know the word as English vocabulary |
 
-`difficulty`は [evaluating-difficulty Skill](.agents/skills/evaluating-difficulty/SKILL.md) に従う。
+Follow the [evaluating-difficulty Skill](.agents/skills/evaluating-difficulty/SKILL.md) for `difficulty`.
 
-`scene`は [evaluating-scene Skill](.agents/skills/evaluating-scene/SKILL.md) に従う。
+Follow the [evaluating-scene Skill](.agents/skills/evaluating-scene/SKILL.md) for `scene`.
 
-`meaningJa`は [evaluating-meaningJa Skill](.agents/skills/evaluating-meaningJa/SKILL.md) に従う。
+Follow the [evaluating-meaningJa Skill](.agents/skills/evaluating-meaningJa/SKILL.md) for `meaningJa`.
 
-## usageExampleJa のレビュー
+## Reviewing usageExampleJa
 
-`usageExampleJa`を新規作成・修正するとき、またはレビューを依頼されたときは、必ず [japanese-tech-writing Skill](.agents/skills/japanese-tech-writing/SKILL.md) を読み、そのルールに沿って推敲する。
+When creating, editing, or reviewing `usageExampleJa`, read the [japanese-tech-writing Skill](.agents/skills/japanese-tech-writing/SKILL.md) and revise accordingly.
 
-レビューでは、少なくとも次を確認する。
+At minimum, check:
 
-- `usageExample`の意味と一致しているか。英語の多義語（`commit`、`drain`、`prune` など）を誤訳していないか。
-- 40文字以内の制約を守りつつ、助詞不足の名詞連結（「API不可時」など）になっていないか。
-- 依頼・疑問のトーンが英語と揃っているか（`Please` / `Could you` → 「〜してください」だけにしない）。
-- 定訳・慣用語を使っているか（`cooldown` → クールダウン、`liveness probe` → ライブネスプローブ、`footprint` → フットプリント など）。
-- 同一語彙セット内で表記がぶれていないか（レイテンシ / レイテンシー、デプロイ / 配備 など）。
-- LLM 口調の空句、em ダッシュ、中黒並列、イ形容詞 + 「です」の孤立文がないか。
+- The Japanese matches `usageExample`. Polysemous English terms (`commit`, `drain`, `prune`, etc.) are not mistranslated.
+- The 40-character limit is met without noun chains missing particles (e.g. 「API不可時」).
+- Request and question tone matches English (`Please` / `Could you` are not flattened to 「〜してください」 alone).
+- Established translations are used (`cooldown` → クールダウン, `liveness probe` → ライブネスプローブ, `footprint` → フットプリント, etc.).
+- Terminology is consistent within the dataset (レイテンシ / レイテンシー, デプロイ / 配備, etc.).
+- There are no LLM-style filler phrases, em dashes, middle-dot lists, or isolated イ-adjective + 「です」 sentences.
 
 ## Scene Master
 
-| English | 日本語 |
+| English | Japanese |
 | --- | --- |
 | Daily Communication | 日常会話 |
 | Technical Interview | 技術面接 |
@@ -93,6 +118,6 @@ Google SREでは、SREサイト全体をCC BY 4.0とみなさず、CC BY 4.0と�
 | Security | セキュリティ |
 | Leadership / Management | リーダーシップ / マネジメント |
 
-## 作成例
+## Example
 
-テンプレートを使用した完成例: `docs/vocabulary/0003_clarify.md`
+Completed example using the template: `docs/vocabulary/0003_clarify.md`

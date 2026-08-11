@@ -2,10 +2,12 @@
 id: "0377"
 term: "respectively"
 type: "word"
-partOfSpeech: "adverb"
-meaningJa: "それぞれ"
+partOfSpeech: adverb
 pronunciation: "/rɪˈspek.tɪv.li/"
+description: "Indicates that the items correspond to the listed items in order."
 descriptionJa: "並べた項目に順に対応することを表す。"
+meaning: each
+meaningJa: "それぞれ"
 usageExample: "Set timeouts to five and thirty seconds, respectively."
 usageExampleJa: "タイムアウトはそれぞれ5秒と30秒に設定してください。"
 difficulty: "Intermediate"

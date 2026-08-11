@@ -1,15 +1,17 @@
 ---
 id: "0841"
-term: decrypt
-type: word
+term: "decrypt"
+type: "word"
 partOfSpeech: verb
-meaningJa: "復号する"
 pronunciation: "/dɪˈkrɪpt/"
+description: "Converting ciphertext back to plaintext using a key and encryption method."
 descriptionJa: "暗号文を鍵と暗号方式で平文に戻すこと。"
+meaning: decrypt
+meaningJa: "復号する"
 usageExample: "Decrypt ciphertext with the matching key and parameters."
 usageExampleJa: "対応する鍵とパラメーターで暗号文を復号します。"
-difficulty: Intermediate
-scene: Security
+difficulty: "Intermediate"
+scene: "Security"
 source:
   title: "SubtleCrypto: decrypt() method"
   url: "https://developer.mozilla.org/en-US/docs/Web/API/SubtleCrypto/decrypt"

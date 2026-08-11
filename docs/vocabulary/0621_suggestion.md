@@ -2,10 +2,12 @@
 id: "0621"
 term: "suggestion"
 type: "word"
-partOfSpeech: "noun"
-meaningJa: "提案"
+partOfSpeech: noun
 pronunciation: "/səɡˈdʒes.tʃən/"
+description: "Suggestions as improvements or advice."
 descriptionJa: "改善案や助言としての示唆。"
+meaning: suggestion
+meaningJa: "提案"
 usageExample: "Thanks for the suggestion on retry logic."
 usageExampleJa: "再試行ロジックへの提案をありがとうございます。"
 difficulty: "Beginner"

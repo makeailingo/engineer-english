@@ -1,15 +1,17 @@
 ---
 id: "0239"
-term: refresh
-type: word
+term: "refresh"
+type: "word"
 partOfSpeech: verb
-meaningJa: "更新する、再読み込みする"
 pronunciation: "/rɪˈfreʃ/"
+description: "Update the screen and cache to the latest state."
 descriptionJa: "画面やキャッシュを最新状態に更新する。"
+meaning: "refresh, reload"
+meaningJa: "更新する、再読み込みする"
 usageExample: "Refresh the dashboard to load new metrics."
 usageExampleJa: "ダッシュボードを更新して新メトリクスを読み込みます。"
-difficulty: Beginner
-scene: Implementation
+difficulty: "Beginner"
+scene: "Implementation"
 source:
   title: "Fetch API - Web APIs | MDN"
   url: "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API"

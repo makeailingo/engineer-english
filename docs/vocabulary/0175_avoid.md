@@ -2,10 +2,12 @@
 id: "0175"
 term: "avoid"
 type: "word"
-partOfSpeech: "verb"
-meaningJa: "避ける"
+partOfSpeech: verb
 pronunciation: "/əˈvɔɪd/"
+description: "Don't use risky or deprecated patterns."
 descriptionJa: "リスクや非推奨パターンを使わないこと。"
+meaning: avoid
+meaningJa: "避ける"
 usageExample: "Avoid blocking calls inside request handlers."
 usageExampleJa: "リクエスト処理内のブロッキング呼び出しは避けてください。"
 difficulty: "Beginner"

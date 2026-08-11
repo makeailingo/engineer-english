@@ -1,15 +1,17 @@
 ---
 id: "0261"
-term: submit
-type: word
+term: "submit"
+type: "word"
 partOfSpeech: verb
-meaningJa: "送信する、サブミットする"
 pronunciation: "/səbˈmɪt/"
+description: "Submit forms and changes."
 descriptionJa: "フォームや変更を提出する。"
+meaning: "send, submit"
+meaningJa: "送信する、サブミットする"
 usageExample: "Submit the form data using multipart encoding."
 usageExampleJa: "multipart形式でフォームデータを送信します。"
-difficulty: Beginner
-scene: Implementation
+difficulty: "Beginner"
+scene: "Implementation"
 source:
   title: "FormData - Web APIs | MDN"
   url: "https://developer.mozilla.org/en-US/docs/Web/API/FormData"

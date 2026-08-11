@@ -3,13 +3,15 @@ id: "0167"
 term: "sinks in"
 type: "phrase"
 partOfSpeech: "phrasal verb"
-meaningJa: "理解が定着する"
 pronunciation: "/ˌsɪŋks ˈɪn/"
+description: "After receiving an explanation, I finally understand the intentions and reasons."
 descriptionJa: "説明を受けて、ようやく意図や理由が腹落ちすること。"
+meaning: "understanding takes root"
+meaningJa: "理解が定着する"
 usageExample: "It takes a few rounds before it sinks in."
 usageExampleJa: "理解が定着するまで数回説明が必要です。"
-difficulty: Advanced
-scene: Code Review
+difficulty: "Advanced"
+scene: "Code Review"
 source:
   title: "Handling pushback in code reviews"
   url: "https://google.github.io/eng-practices/review/reviewer/pushback.html"

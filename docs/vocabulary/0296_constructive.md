@@ -1,15 +1,17 @@
 ---
 id: "0296"
-term: constructive
-type: word
+term: "constructive"
+type: "word"
 partOfSpeech: adjective
-meaningJa: "建設的な、有益な"
 pronunciation: "/kənˈstrʌk.t̬ɪv/"
+description: "Expresses opinions and ways of communicating that lead to improvement of."
 descriptionJa: "問題の改善につながる意見や伝え方を表す。"
+meaning: "constructive, useful"
+meaningJa: "建設的な、有益な"
 usageExample: "Please keep your feedback constructive and specific."
 usageExampleJa: "フィードバックは建設的かつ具体的に保ってください。"
-difficulty: Intermediate
-scene: Code Review
+difficulty: "Intermediate"
+scene: "Code Review"
 source:
   title: "How to handle reviewer comments"
   url: "https://google.github.io/eng-practices/review/developer/handling-comments.html"

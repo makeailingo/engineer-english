@@ -2,10 +2,12 @@
 id: "0088"
 term: "persuade"
 type: "word"
-partOfSpeech: "verb"
-meaningJa: "説得する"
+partOfSpeech: verb
 pronunciation: "/pɚˈsweɪd/"
+description: "Providing evidence to encourage agreement and action."
 descriptionJa: "根拠を示して合意や行動を促すこと。"
+meaning: persuade
+meaningJa: "説得する"
 usageExample: "We persuaded them to adopt trunk-based development."
 usageExampleJa: "トランクベース開発の採用を説得しました。"
 difficulty: "Intermediate"

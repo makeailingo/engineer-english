@@ -1,52 +1,54 @@
 ---
 name: git-commit
-description: Conventional branching に沿ったコミットメッセージとブランチ名を決める。git commit、コミット作成、push 前のメッセージ起草、ブランチ命名のときに使用する。
+description: Choose commit messages and branch names that follow conventional branching. Use when committing, drafting messages before push, or naming branches.
 ---
 
 # Git Commit
 
-このリポジトリでは conventional branching に従う。
-使えるのは `feat`、`bugfix`、`docs`、`chore` の4つだけとする。
+> Japanese: [SKILL.ja.md](SKILL.ja.md)
 
-| 接頭辞 | 用途 |
+This repository follows conventional branching.
+Use only these four prefixes: `feat`, `bugfix`, `docs`, and `chore`.
+
+| Prefix | Use |
 | --- | --- |
-| `feat` | 新機能、新しいボキャブラリー、ユーザー向けの追加 |
-| `bugfix` | バグ修正、誤訳・誤記の是正、既存挙動の修正 |
-| `docs` | ドキュメント、README の追加・更新 |
-| `chore` | スキル、ルール、ツール、設定、依存、リファクタ（挙動不変） |
+| `feat` | New features, new vocabulary, user-facing additions |
+| `bugfix` | Bug fixes, translation or wording corrections, behavior fixes |
+| `docs` | Documentation and README updates |
+| `chore` | Skills, rules, tools, configuration, dependencies, refactors with no behavior change |
 
-`fix`、`refactor`、`style`、`test` など、上記以外は使わない。
+Do not use `fix`, `refactor`, `style`, `test`, or any other prefix.
 
-## ブランチ名
+## Branch Names
 
 ```
-<feat|bugfix|docs|chore>/<短い説明>
+<feat|bugfix|docs|chore>/<short-description>
 ```
 
-- `<短い説明>` は英小文字とハイフン（kebab-case）
-- 例: `feat/add-vocabulary-0501`、`bugfix/consensus-usage-example`、`docs/jekyll-local-dev`
+- `<short-description>` uses lowercase English and hyphens (kebab-case)
+- Examples: `feat/add-vocabulary-0501`, `bugfix/consensus-usage-example`, `docs/jekyll-local-dev`
 
-## コミットメッセージ
+## Commit Messages
 
-英語、1行のみ。本文は書かない。
+English, one line only. No body.
 
 ```
 <feat|bugfix|docs|chore>: <summary>
 ```
 
-- **summary**: 英語50文字以内を目安に、変更内容がわかる句にする
-- HEREDOC で渡す（シェルエスケープを避ける）
+- **summary**: Aim for 50 characters or fewer in English; state what changed clearly
+- Pass via HEREDOC to avoid shell escaping issues
 
-## 判定
+## Decision Order
 
-迷ったら次の順で決める。
+When unsure, decide in this order:
 
-1. 既存の誤り・不具合を直す → `bugfix`
-2. 新しい内容・能力を足す → `feat`
-3. ドキュメントだけを変える → `docs`
-4. スキル、ルール、設定、その他の保守作業 → `chore`
+1. Fixing an existing error or defect → `bugfix`
+2. Adding new content or capability → `feat`
+3. Documentation-only change → `docs`
+4. Skills, rules, configuration, or other maintenance → `chore`
 
-## 例
+## Examples
 
 ```
 bugfix: fix usageExampleJa for consensus and respectful
@@ -55,9 +57,9 @@ docs: add Jekyll local development setup
 chore: add git-commit skill
 ```
 
-## コミット前チェック
+## Pre-commit Checks
 
-- `git status` と `git diff` で対象を確認する
-- 無関係な変更を同じコミットに含めない
-- 秘密情報（`.env`、鍵）を含めない
-- ユーザーが commit を明示的に求めていない限り、コミットしない
+- Review targets with `git status` and `git diff`
+- Do not include unrelated changes in the same commit
+- Do not include secrets (`.env`, keys)
+- Do not commit unless the user explicitly asks for a commit

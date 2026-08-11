@@ -1,15 +1,17 @@
 ---
 id: "0631"
-term: mentoring
-type: word
+term: "mentoring"
+type: "word"
 partOfSpeech: noun
-meaningJa: "指導、育成"
 pronunciation: "/ˈmen.tɔːr.ɪŋ/"
+description: "Developing developers through code reviews."
 descriptionJa: "コードレビューを通じて開発者を育成すること。"
+meaning: "Guidance, training"
+meaningJa: "指導、育成"
 usageExample: "Mentoring helps developers learn sound design principles."
 usageExampleJa: "指導により開発者は適切な設計原則を学びます。"
-difficulty: Intermediate
-scene: Leadership / Management
+difficulty: "Intermediate"
+scene: "Leadership / Management"
 source:
   title: "The Standard of Code Review"
   url: "https://google.github.io/eng-practices/review/reviewer/standard.html"

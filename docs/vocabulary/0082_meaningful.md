@@ -2,10 +2,12 @@
 id: "0082"
 term: "meaningful"
 type: "word"
-partOfSpeech: "adjective"
-meaningJa: "意味のある"
+partOfSpeech: adjective
 pronunciation: "/ˈmiː.nɪŋ.fəl/"
+description: "Something that has practical value or difference."
 descriptionJa: "実務上価値や差があること。"
+meaning: meaningful
+meaningJa: "意味のある"
 usageExample: "Set meaningful SLO targets for checkout."
 usageExampleJa: "決済向けに意味あるSLO目標を設定してください。"
 difficulty: "Intermediate"

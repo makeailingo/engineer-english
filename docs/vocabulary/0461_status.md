@@ -1,15 +1,17 @@
 ---
 id: "0461"
-term: status
-type: word
+term: "status"
+type: "word"
 partOfSpeech: noun
-meaningJa: "ステータス、状態情報"
 pronunciation: "/ˈstæt.əs/"
+description: "Current status of processing and resources."
 descriptionJa: "処理やリソースの現在状況。"
+meaning: "Status, condition information"
+meaningJa: "ステータス、状態情報"
 usageExample: "Return a clear status code for each API failure mode."
 usageExampleJa: "各API失敗モードで明確なステータスコードを返します。"
-difficulty: Beginner
-scene: Implementation
+difficulty: "Beginner"
+scene: "Implementation"
 source:
   title: "Fetch API - Web APIs | MDN"
   url: "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API"

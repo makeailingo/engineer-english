@@ -2,14 +2,16 @@
 id: "0938"
 term: "tampering"
 type: "word"
-partOfSpeech: "noun"
-meaningJa: "改ざん"
+partOfSpeech: noun
 pronunciation: "/ˈtæm.pɚ.ɪŋ/"
+description: "Unauthorized changes to settings or data."
 descriptionJa: "設定やデータへの不正な変更。"
+meaning: falsification
+meaningJa: "改ざん"
 usageExample: "Audit logs showed config tampering."
 usageExampleJa: "監査ログに設定改ざんが記録されました。"
 difficulty: "Advanced"
-scene: Security
+scene: "Security"
 source:
   title: "Web Crypto API - Web APIs | MDN"
   url: "https://developer.mozilla.org/en-US/docs/Web/API/Web_Crypto_API"

@@ -2,10 +2,12 @@
 id: "0228"
 term: "polish"
 type: "word"
-partOfSpeech: "verb"
-meaningJa: "磨きをかける"
+partOfSpeech: verb
 pronunciation: "/ˈpɑː.lɪʃ/"
+description: "Arranging the details of something that is nearing completion."
 descriptionJa: "完成間近のものの細部を整えること。"
+meaning: polish
+meaningJa: "磨きをかける"
 usageExample: "Polish the error messages before the launch."
 usageExampleJa: "ローンチ前にエラーメッセージに磨きをかけてください。"
 difficulty: "Beginner"

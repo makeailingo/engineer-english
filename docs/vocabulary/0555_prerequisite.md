@@ -2,10 +2,12 @@
 id: "0555"
 term: "prerequisite"
 type: "word"
-partOfSpeech: "noun"
-meaningJa: "前提条件"
+partOfSpeech: noun
 pronunciation: "/ˌpriːˈrek.wə.zɪt/"
+description: "Conditions that must be met before starting."
 descriptionJa: "始める前に満たしておくべき条件。"
+meaning: Prerequisites
+meaningJa: "前提条件"
 usageExample: "List the prerequisites for the migration."
 usageExampleJa: "移行の前提条件を列挙してください。"
 difficulty: "Intermediate"

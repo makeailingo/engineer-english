@@ -1,15 +1,17 @@
 ---
 id: "0587"
-term: compatibility
-type: word
+term: "compatibility"
+type: "word"
 partOfSpeech: noun
-meaningJa: "互換性、後方互換性"
 pronunciation: "/kəmˌpæt.əˈbɪl.ə.t̬i/"
+description: "Operational compatibility between old and new versions and environments."
 descriptionJa: "新旧版や環境間の動作互換。"
+meaning: "Compatibility, backwards compatibility"
+meaningJa: "互換性、後方互換性"
 usageExample: "Maintain backward compatibility for public API fields."
 usageExampleJa: "公開APIフィールドの後方互換を維持します。"
-difficulty: Intermediate
-scene: Architecture
+difficulty: "Intermediate"
+scene: "Architecture"
 source:
   title: "Change descriptions - Google Engineering Practices"
   url: "https://google.github.io/eng-practices/review/developer/cl-descriptions.html"

@@ -2,10 +2,12 @@
 id: "0972"
 term: "optimal"
 type: "word"
-partOfSpeech: "adjective"
-meaningJa: "最適な"
+partOfSpeech: adjective
 pronunciation: "/ˈɑːp.tə.məl/"
+description: "Indicates that the level cannot be improved further."
 descriptionJa: "それ以上よくできない水準であることを表す。"
+meaning: optimal
+meaningJa: "最適な"
 usageExample: "Is this the optimal approach for lookups?"
 usageExampleJa: "検索処理としてこれが最適な方法ですか。"
 difficulty: "Intermediate"

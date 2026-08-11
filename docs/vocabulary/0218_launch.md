@@ -1,15 +1,17 @@
 ---
 id: "0218"
-term: launch
-type: word
+term: "launch"
+type: "word"
 partOfSpeech: verb
-meaningJa: "起動する、リリースする"
 pronunciation: "/lɑːntʃ/"
+description: "Publish and launch apps and features."
 descriptionJa: "アプリや機能を公開・開始する。"
+meaning: "launch, release"
+meaningJa: "起動する、リリースする"
 usageExample: "Launch the feature behind a feature flag."
 usageExampleJa: "機能フラグの裏で機能をリリースします。"
-difficulty: Beginner
-scene: Implementation
+difficulty: "Beginner"
+scene: "Implementation"
 source:
   title: "Code Review Emergencies"
   url: "https://google.github.io/eng-practices/review/emergencies.html"

@@ -2,10 +2,12 @@
 id: "0696"
 term: "delay"
 type: "word"
-partOfSpeech: "noun"
-meaningJa: "遅延"
+partOfSpeech: noun
 pronunciation: "/dɪˈleɪ/"
+description: "Restoration and notifications may be delayed than planned."
 descriptionJa: "復旧や通知が予定より遅れること。"
+meaning: Delay
+meaningJa: "遅延"
 usageExample: "Expect delay in status page updates."
 usageExampleJa: "ステータスページ更新に遅延あり得ます。"
 difficulty: "Beginner"

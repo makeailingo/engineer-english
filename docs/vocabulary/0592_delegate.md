@@ -1,15 +1,17 @@
 ---
 id: "0592"
-term: delegate
-type: word
+term: "delegate"
+type: "word"
 partOfSpeech: verb
-meaningJa: "委譲する、任せる"
 pronunciation: "/ˈdel.ə.ɡeɪt/"
+description: "Delegate processing and authority to another module."
 descriptionJa: "処理や権限を別のモジュールに任せる。"
+meaning: "delegate, entrust"
+meaningJa: "委譲する、任せる"
 usageExample: "Delegate authentication checks to the auth service."
 usageExampleJa: "認証チェックを認証サービスへ委譲します。"
-difficulty: Intermediate
-scene: Architecture
+difficulty: "Intermediate"
+scene: "Architecture"
 source:
   title: "What to look for in a code review"
   url: "https://google.github.io/eng-practices/review/reviewer/looking-for.html"

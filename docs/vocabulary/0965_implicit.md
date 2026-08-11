@@ -2,10 +2,12 @@
 id: "0965"
 term: "implicit"
 type: "word"
-partOfSpeech: "adjective"
-meaningJa: "暗黙的な"
+partOfSpeech: adjective
 pronunciation: "/ɪmˈplɪs.ɪt/"
+description: "Things that are not documented and are assumed."
 descriptionJa: "文書化されず前提とされていること。"
+meaning: implicit
+meaningJa: "暗黙的な"
 usageExample: "Watch for implicit coupling between services."
 usageExampleJa: "サービス間の暗黙的結合に注意してください。"
 difficulty: "Intermediate"

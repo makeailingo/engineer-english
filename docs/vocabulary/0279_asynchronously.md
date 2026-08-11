@@ -2,10 +2,12 @@
 id: "0279"
 term: "asynchronously"
 type: "word"
-partOfSpeech: "adverb"
-meaningJa: "非同期に"
+partOfSpeech: adverb
 pronunciation: "/eɪˈsɪŋ.krə.nəs.li/"
+description: "Represents a method of proceeding with processing without waiting for."
 descriptionJa: "完了を待たずに処理を進める方式を表す。"
+meaning: asynchronously
+meaningJa: "非同期に"
 usageExample: "Send the emails asynchronously via the queue."
 usageExampleJa: "メールはキュー経由で非同期に送信してください。"
 difficulty: "Intermediate"

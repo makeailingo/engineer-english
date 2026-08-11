@@ -2,10 +2,12 @@
 id: "0754"
 term: "threat"
 type: "word"
-partOfSpeech: "noun"
-meaningJa: "脅威"
+partOfSpeech: noun
 pronunciation: "/θret/"
+description: "Risk to security or availability."
 descriptionJa: "セキュリティや可用性への危険。"
+meaning: threat
+meaningJa: "脅威"
 usageExample: "Treat credential leaks as an active threat."
 usageExampleJa: "認証情報漏洩は能動的脅威として扱います。"
 difficulty: "Intermediate"

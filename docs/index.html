@@ -18,19 +18,19 @@ title: Engineer English
 
   <div class="vocabulary-toolbar">
     <div class="vocabulary-toolbar__search vocabulary-toolbar__field">
-      <label for="search">検索</label>
+      <label for="search">Search / 検索</label>
       <input
         id="search"
         type="search"
-        placeholder="単語、意味、使用例..."
+        placeholder="Term, meaning, usage example... / 単語、意味、使用例..."
       >
     </div>
 
     <div class="vocabulary-toolbar__filters">
       <div class="vocabulary-toolbar__field">
-        <label for="difficulty-filter">難易度</label>
+        <label for="difficulty-filter">Difficulty / 難易度</label>
         <select id="difficulty-filter">
-          <option value="">すべて</option>
+          <option value="">All / すべて</option>
           <option value="Beginner">{{ site.labels.difficulty.Beginner }}</option>
           <option value="Intermediate">{{ site.labels.difficulty.Intermediate }}</option>
           <option value="Advanced">{{ site.labels.difficulty.Advanced }}</option>
@@ -38,9 +38,9 @@ title: Engineer English
       </div>
 
       <div class="vocabulary-toolbar__field">
-        <label for="scene-filter">シーン</label>
+        <label for="scene-filter">Scene / シーン</label>
         <select id="scene-filter">
-          <option value="">すべて</option>
+          <option value="">All / すべて</option>
           {% for scene in scenes %}
             {% if scene %}
               <option value="{{ scene }}">{{ site.labels.scene[scene] }}</option>
@@ -51,12 +51,12 @@ title: Engineer English
     </div>
 
     <p id="vocabulary-result-count" class="vocabulary-toolbar__meta">
-      {{ vocabularies.size }} 件
+      {{ vocabularies.size }} entries / 件
     </p>
   </div>
 
   <p id="vocabulary-empty" class="vocabulary-empty" hidden>
-    条件に一致する単語がありません。
+    条件に一致する単語がありません。 / No entries match the filters.
   </p>
 
   <div class="table-card">
@@ -65,12 +65,12 @@ title: Engineer English
         <thead>
           <tr>
             <th>ID</th>
-            <th>単語</th>
-            <th>難易度</th>
-            <th>シーン</th>
-            <th>意味</th>
-            <th>使用例</th>
-            <th>使用例（日本語訳）</th>
+            <th>Term / 単語</th>
+            <th>Difficulty / 難易度</th>
+            <th>Scene / シーン</th>
+            <th>Meaning / 意味</th>
+            <th>Usage Example / 使用例</th>
+            <th>Usage Example (JA) / 使用例（日本語訳）</th>
           </tr>
         </thead>
 
@@ -81,7 +81,7 @@ title: Engineer English
               data-term="{{ vocabulary.term | downcase }}"
               data-difficulty="{{ vocabulary.difficulty }}"
               data-scene="{{ vocabulary.scene }}"
-              data-search="{{ vocabulary.term | downcase }} {{ vocabulary.meaningJa }} {{ vocabulary.usageExample | downcase }} {{ vocabulary.usageExampleJa }}"
+              data-search="{{ vocabulary.term | downcase }} {{ vocabulary.meaning | downcase }} {{ vocabulary.meaningJa }} {{ vocabulary.usageExample | downcase }} {{ vocabulary.usageExampleJa }}"
             >
               <td>{{ vocabulary.id }}</td>
               <td>
@@ -95,7 +95,13 @@ title: Engineer English
                 </span>
               </td>
               <td>{{ site.labels.scene[vocabulary.scene] }}</td>
-              <td>{{ vocabulary.meaningJa }}</td>
+              <td>
+                {% if vocabulary.meaning %}
+                  {{ vocabulary.meaning }}
+                {% else %}
+                  {{ vocabulary.meaningJa }}
+                {% endif %}
+              </td>
               <td>{{ vocabulary.usageExample }}</td>
               <td>{{ vocabulary.usageExampleJa }}</td>
             </tr>

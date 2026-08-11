@@ -1,15 +1,17 @@
 ---
 id: "0599"
-term: legacy
-type: word
+term: "legacy"
+type: "word"
 partOfSpeech: adjective
-meaningJa: "レガシーの、旧式の"
 pronunciation: "/ˈleɡ.ə.si/"
+description: "Legacy implementations and methods that deviate from current standards."
 descriptionJa: "現行標準から外れた旧来の実装や方式。"
+meaning: "legacy, old-fashioned"
+meaningJa: "レガシーの、旧式の"
 usageExample: "Replace the legacy auth module in the next quarter."
 usageExampleJa: "来四半期に旧認証モジュールを置き換えます。"
-difficulty: Intermediate
-scene: Architecture
+difficulty: "Intermediate"
+scene: "Architecture"
 source:
   title: "What to look for in a code review"
   url: "https://google.github.io/eng-practices/review/reviewer/looking-for.html"

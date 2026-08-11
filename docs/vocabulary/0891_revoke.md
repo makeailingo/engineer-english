@@ -1,15 +1,17 @@
 ---
 id: "0891"
-term: revoke
-type: word
+term: "revoke"
+type: "word"
 partOfSpeech: verb
-meaningJa: "取り消す、無効化する"
 pronunciation: "/rɪˈvoʊk/"
+description: "Revoke permissions or tokens."
 descriptionJa: "権限やトークンを無効化する。"
+meaning: "Undo, Deactivate"
+meaningJa: "取り消す、無効化する"
 usageExample: "Revoke the API key after the employee offboards."
 usageExampleJa: "退職後にAPIキーを失効させます。"
-difficulty: Intermediate
-scene: Security
+difficulty: "Intermediate"
+scene: "Security"
 source:
   title: "Web Crypto API - Web APIs | MDN"
   url: "https://developer.mozilla.org/en-US/docs/Web/API/Web_Crypto_API"

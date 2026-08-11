@@ -2,10 +2,12 @@
 id: "0655"
 term: "independent"
 type: "word"
-partOfSpeech: "adjective"
-meaningJa: "独立した"
+partOfSpeech: adjective
 pronunciation: "/ˌɪn.dɪˈpen.dənt/"
+description: "To work independently without depending on others."
 descriptionJa: "他に依存せず単独で動くこと。"
+meaning: independent
+meaningJa: "独立した"
 usageExample: "Services should be independently deployable."
 usageExampleJa: "サービスは独立デプロイ可能であるべきです。"
 difficulty: "Beginner"

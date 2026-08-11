@@ -1,15 +1,17 @@
 ---
 id: "0774"
-term: broadcast
-type: word
+term: "broadcast"
+type: "word"
 partOfSpeech: noun
-meaningJa: "一斉配信、一斉通知"
 pronunciation: "/ˈbrɔːd.kæst/"
+description: "Simultaneous notification to multiple recipients."
 descriptionJa: "複数宛先への一斉通知。"
+meaning: "Simultaneous Distribution, Simultaneous Notification"
+meaningJa: "一斉配信、一斉通知"
 usageExample: "Send a broadcast when the maintenance window starts."
 usageExampleJa: "メンテ開始時に一斉通知を送ります。"
-difficulty: Beginner
-scene: Infrastructure / Cloud
+difficulty: "Beginner"
+scene: "Infrastructure / Cloud"
 source:
   title: "Code Review Emergencies"
   url: "https://google.github.io/eng-practices/review/emergencies.html"

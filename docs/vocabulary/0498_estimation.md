@@ -2,10 +2,12 @@
 id: "0498"
 term: "estimation"
 type: "word"
-partOfSpeech: "noun"
-meaningJa: "見積もり"
+partOfSpeech: noun
 pronunciation: "/ˌes.təˈmeɪ.ʃən/"
+description: "Forecasting man-hours and duration."
 descriptionJa: "工数や期間の予測。"
+meaning: estimate
+meaningJa: "見積もり"
 usageExample: "Revisit estimation after the spike results."
 usageExampleJa: "スパイク結果後に見積もりを見直してください。"
 difficulty: "Beginner"

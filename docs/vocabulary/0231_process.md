@@ -2,10 +2,12 @@
 id: "0231"
 term: "process"
 type: "word"
-partOfSpeech: "verb"
-meaningJa: "処理する"
+partOfSpeech: verb
 pronunciation: "/ˈprɑː.ses/"
+description: "Processing data or requests in sequence."
 descriptionJa: "データやリクエストを順に処理すること。"
+meaning: process
+meaningJa: "処理する"
 usageExample: "This worker processes retry queue messages."
 usageExampleJa: "このワーカーは再試行キューを処理します。"
 difficulty: "Beginner"

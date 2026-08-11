@@ -2,10 +2,12 @@
 id: "0400"
 term: "thorough"
 type: "word"
-partOfSpeech: "adjective"
-meaningJa: "徹底的な"
+partOfSpeech: adjective
 pronunciation: "/ˈθɝː.oʊ/"
+description: "It shows how everything is done to ensure there are no omissions."
 descriptionJa: "抜けがないよう隅々まで行う様子を表す。"
+meaning: Thorough
+meaningJa: "徹底的な"
 usageExample: "Thanks for the thorough review of the PR."
 usageExampleJa: "PRの徹底したレビューをありがとうございます。"
 difficulty: "Intermediate"

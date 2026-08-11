@@ -2,10 +2,12 @@
 id: "0507"
 term: "minor"
 type: "word"
-partOfSpeech: "adjective"
-meaningJa: "軽微な"
+partOfSpeech: adjective
 pronunciation: "/ˈmaɪ.nɚ/"
+description: "Low impact and low priority."
 descriptionJa: "影響が小さく優先度が低いこと。"
+meaning: Minor
+meaningJa: "軽微な"
 usageExample: "This is a minor UI glitch, not a blocker."
 usageExampleJa: "ブロッカーではない軽微なUI不具合です。"
 difficulty: "Beginner"

@@ -2,10 +2,12 @@
 id: "0753"
 term: "symptom"
 type: "word"
-partOfSpeech: "noun"
-meaningJa: "症状"
+partOfSpeech: noun
 pronunciation: "/ˈsɪmp.t̬əm/"
+description: "Symptoms that appear on the surface rather than the root cause."
 descriptionJa: "根本原因ではなく表面に現れる兆候。"
+meaning: symptoms
+meaningJa: "症状"
 usageExample: "Timeouts are a symptom, not the root cause."
 usageExampleJa: "タイムアウトは症状で根本原因ではありません。"
 difficulty: "Intermediate"

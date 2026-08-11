@@ -2,10 +2,12 @@
 id: "0233"
 term: "provide"
 type: "word"
-partOfSpeech: "verb"
-meaningJa: "提供する"
+partOfSpeech: verb
 pronunciation: "/prəˈvaɪd/"
+description: "To make features and information available."
 descriptionJa: "機能や情報を利用可能にすること。"
+meaning: provide
+meaningJa: "提供する"
 usageExample: "Provide clear error messages to API clients."
 usageExampleJa: "APIクライアントへ明確なエラーを返してください。"
 difficulty: "Beginner"

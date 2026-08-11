@@ -2,10 +2,12 @@
 id: "0202"
 term: "freeze"
 type: "word"
-partOfSpeech: "verb"
-meaningJa: "固まる"
+partOfSpeech: verb
 pronunciation: "/friːz/"
+description: "The screen or process stops working."
 descriptionJa: "画面や処理が動かなくなること。"
+meaning: harden
+meaningJa: "固まる"
 usageExample: "The UI freezes when the list is huge."
 usageExampleJa: "リストが巨大だとUIが固まります。"
 difficulty: "Beginner"

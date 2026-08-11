@@ -1,15 +1,17 @@
 ---
 id: "0834"
-term: capacity
-type: word
+term: "capacity"
+type: "word"
 partOfSpeech: noun
-meaningJa: "処理容量、システムが対応できる量"
 pronunciation: "/kəˈpæs.ə.t̬i/"
+description: "The maximum amount that the system can process or hold."
 descriptionJa: "システムが処理または保持できる最大量。"
+meaning: "Processing capacity, amount that the system can handle"
+meaningJa: "処理容量、システムが対応できる量"
 usageExample: "Add capacity before the seasonal traffic peak begins."
 usageExampleJa: "季節的な通信量のピーク前に処理容量を増やします。"
-difficulty: Intermediate
-scene: Infrastructure / Cloud
+difficulty: "Intermediate"
+scene: "Infrastructure / Cloud"
 source:
   title: "Non-Abstract Large Scale Design Workbook"
   url: "https://static.googleusercontent.com/media/sre.google/en//static/pdf/nalsd-workbook-a4.pdf"

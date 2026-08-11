@@ -1,15 +1,17 @@
 ---
 id: "0899"
-term: shutdown
-type: word
+term: "shutdown"
+type: "word"
 partOfSpeech: verb
-meaningJa: "シャットダウンする、停止する"
 pronunciation: "/ˈʃʌt.daʊn/"
+description: "Safely stop processes and services."
 descriptionJa: "プロセスやサービスを安全に停止する。"
+meaning: "shut down, stop"
+meaningJa: "シャットダウンする、停止する"
 usageExample: "Shutdown the worker gracefully before deploying."
 usageExampleJa: "デプロイ前にワーカーを安全停止します。"
-difficulty: Intermediate
-scene: Infrastructure / Cloud
+difficulty: "Intermediate"
+scene: "Infrastructure / Cloud"
 source:
   title: "Code Review Emergencies"
   url: "https://google.github.io/eng-practices/review/emergencies.html"

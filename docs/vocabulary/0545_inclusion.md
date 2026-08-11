@@ -1,15 +1,17 @@
 ---
 id: "0545"
-term: inclusion
-type: word
+term: "inclusion"
+type: "word"
 partOfSpeech: noun
-meaningJa: "包含、インクルージョン"
 pronunciation: "/ɪnˈkluː.ʒən/"
+description: "Including elements in a set or result."
 descriptionJa: "集合や結果に要素を含めること。"
+meaning: "inclusion, inclusion"
+meaningJa: "包含、インクルージョン"
 usageExample: "Define inclusion rules for audit log events."
 usageExampleJa: "監査ログイベントの包含規則を定義します。"
-difficulty: Intermediate
-scene: Requirements
+difficulty: "Intermediate"
+scene: "Requirements"
 source:
   title: "What to look for in a code review - Google Engineering Practices"
   url: "https://google.github.io/eng-practices/review/reviewer/looking-for.html"

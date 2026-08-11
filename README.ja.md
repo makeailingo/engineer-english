@@ -1,0 +1,82 @@
+# Engineer English
+
+> English: [README.md](README.md)
+
+ソフトウェアエンジニアが実務で使う英語のデータセットです。
+
+## コンセプト
+
+- 信頼性の高い一次情報（Google Engineering Practices、Google SREのCC BY 4.0資料、MDN Web Docs）から、ソフトウェアエンジニアリングの文脈で実際に使われる単語・フレーズを抽出しています。
+- 語義・品詞・発音記号は、信頼性の高い外部の辞書（Cambridge Dictionary を一次情報とし、Oxford Advanced Learner's Dictionary で照合）から取得しています。
+- 難易度は次の3段階で分類しています。
+
+| 難易度 | 目安 |
+| --- | --- |
+| Beginner（初級） | 一般語として広く知られ、エンジニアも意味を推測しやすい |
+| Intermediate（中級） | 一般語だが実務での用法に学習価値がある、または技術文脈で頻出する |
+| Advanced（上級） | 一般英語として日常的に使われず、エンジニアも英単語としては馴染みが薄い |
+
+- 日本語訳・説明・使用例は独自に作成しており、出典本文のコピー・翻案は行っていません。
+
+## 学習順（ID）
+
+語彙の `id`（0001 から連番）は、次の5章をこの順に並べた学習順を表します。
+
+| 章 | 内容 | ID 範囲（995語時点） |
+| --- | --- | --- |
+| 第1章 | 基本コミュニケーション | 0001–0128 |
+| 第2章 | 開発とレビュー | 0129–0461 |
+| 第3章 | 計画と意思決定 | 0462–0658 |
+| 第4章 | 運用と障害対応 | 0659–0945 |
+| 第5章 | 高度な技術英語 | 0946–0995 |
+
+章分類を先に確定し、各章内では **学習価値 → 実用性 → 難易度** の順で並べます。
+第5章は残り語の入れ物ではなく、アーキテクチャ・技術面接・高度な技術議論の語彙に限定します。
+詳細は [sorting-vocabulary Skill](.agents/skills/sorting-vocabulary/SKILL.md) を参照してください。
+
+## ローカル開発
+
+### 前提
+
+- [Homebrew](https://brew.sh/) で Ruby をインストール済みであること
+
+```bash
+brew install ruby
+```
+
+シェルで Homebrew の Ruby を優先する（`~/.zshrc` に追記）:
+
+```bash
+export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
+```
+
+### セットアップ
+
+```bash
+cd docs
+bundle install
+```
+
+### 起動
+
+```bash
+cd docs
+bundle exec jekyll serve --baseurl ""
+```
+
+ブラウザで http://127.0.0.1:4000/ を開く。
+
+`--baseurl ""` は GitHub Pages 用の `/engineer-english` プレフィックスを外し、ローカルではルートから表示するための指定。
+
+### ビルドのみ
+
+```bash
+cd docs
+bundle exec jekyll build --baseurl ""
+```
+
+生成物は `docs/_site/` に出力される。
+
+## ライセンス
+
+MIT. See [LICENSE](LICENSE).
