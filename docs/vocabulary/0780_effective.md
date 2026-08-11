@@ -1,0 +1,18 @@
+---
+id: "0780"
+term: "effective"
+type: "word"
+partOfSpeech: "adjective"
+meaningJa: "効果的な"
+pronunciation: "/ɪˈfek.t̬ɪv/"
+descriptionJa: "目的達成に実際に役立つこと。"
+usageExample: "Caching is effective for read-heavy APIs."
+usageExampleJa: "読み取り中心APIではキャッシュが効果的です。"
+difficulty: "Beginner"
+scene: "Performance"
+source:
+  title: "How to handle reviewer comments"
+  url: "https://google.github.io/eng-practices/review/developer/handling-comments.html"
+  license: "CC BY 3.0"
+  context: "開発チーム内の日常コミュニケーションの文脈。"
+---

@@ -1,0 +1,18 @@
+---
+id: "0096"
+term: "retrospect"
+type: "word"
+partOfSpeech: "noun"
+meaningJa: "振り返り"
+pronunciation: "/ˈret.rə.spekt/"
+descriptionJa: "過去の判断を後から評価すること。"
+usageExample: "In retrospect, the rollout was too fast."
+usageExampleJa: "振り返るとロールアウトは速すぎました。"
+difficulty: "Intermediate"
+scene: "Daily Communication"
+source:
+  title: "How to handle reviewer comments"
+  url: "https://google.github.io/eng-practices/review/developer/handling-comments.html"
+  license: "CC BY 3.0"
+  context: "開発チーム内の日常コミュニケーションの文脈。"
+---
