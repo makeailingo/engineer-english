@@ -7,7 +7,7 @@ meaningJa: "リポジトリ、保管庫"
 pronunciation: "/rɪˈpɑː.zə.t̬ɔːr.i/"
 descriptionJa: "ソースや成果物の保管場所。"
 usageExample: "Mirror the repository to reduce clone latency regionally."
-usageExampleJa: "地域的clone遅延低減のためリポジトリをミラーします。"
+usageExampleJa: "クローンのレイテンシを下げるため、リポジトリをミラーします。"
 difficulty: Intermediate
 scene: Code Review
 source:

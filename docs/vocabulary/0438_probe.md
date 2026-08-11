@@ -7,7 +7,7 @@ meaningJa: "プローブ、疎通確認"
 pronunciation: "/proʊb/"
 descriptionJa: "健全性を確認するチェック。"
 usageExample: "Configure liveness probes for every stateful pod."
-usageExampleJa: "ステートフルPod全てに生存プローブを設定します。"
+usageExampleJa: "ステートフルPodすべてにライブネスプローブを設定します。"
 difficulty: Intermediate
 scene: Infrastructure / Cloud
 source:

@@ -7,7 +7,7 @@ meaningJa: "失効、リボケーション"
 pronunciation: "/ˌrev.əˈkeɪ.ʃən/"
 descriptionJa: "資格情報の無効化。"
 usageExample: "Process certificate revocation within the documented SLA."
-usageExampleJa: "文書化SLA内で証明書失効を処理します。"
+usageExampleJa: "文書化されたSLAの範囲内で証明書失効を処理します。"
 difficulty: Advanced
 scene: Incident Response
 source:

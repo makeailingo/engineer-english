@@ -7,7 +7,7 @@ meaningJa: "建設的な、有益な"
 pronunciation: "/kənˈstrʌk.t̬ɪv/"
 descriptionJa: "問題の改善につながる意見や伝え方を表す。"
 usageExample: "Please keep your feedback constructive and specific."
-usageExampleJa: "フィードバックは建設的かつ具体的にしてください。"
+usageExampleJa: "フィードバックは建設的かつ具体的に保ってください。"
 difficulty: Intermediate
 scene: Daily Communication
 source:

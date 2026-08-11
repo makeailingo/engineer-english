@@ -7,7 +7,7 @@ meaningJa: "ライフサイクル、寿命周期"
 pronunciation: "/ˈlaɪf.saɪ.kəl/"
 descriptionJa: "生成から破棄までの寿命。"
 usageExample: "Document resource lifecycle hooks in the service README."
-usageExampleJa: "サービスREADMEにリソース寿命フックを記載します。"
+usageExampleJa: "サービスREADMEにリソースライフサイクルフックを記載します。"
 difficulty: Intermediate
 scene: Architecture
 source:

@@ -7,7 +7,7 @@ meaningJa: "機能、機能性"
 pronunciation: "/ˌfʌŋk.ʃənˈæl.ə.t̬i/"
 descriptionJa: "コードやシステムが提供する機能や動作。"
 usageExample: "Please verify the new search functionality."
-usageExampleJa: "新しい検索機能を確認してください。"
+usageExampleJa: "新しい検索機能を確認してもらえますか。"
 difficulty: Intermediate
 scene: Code Review
 source:

@@ -7,7 +7,7 @@ meaningJa: "展開する、アンパックする"
 pronunciation: "/ʌnˈpæk/"
 descriptionJa: "アーカイブやバイナリを展開する。"
 usageExample: "Unpack the release tarball on the target host."
-usageExampleJa: "対象ホストでリリースtarballを展開します。"
+usageExampleJa: "対象ホストでリリースアーカイブを展開します。"
 difficulty: Intermediate
 scene: Infrastructure / Cloud
 source:

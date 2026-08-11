@@ -7,7 +7,7 @@ meaningJa: "インストールする、導入する"
 pronunciation: "/ɪnˈstɑːl/"
 descriptionJa: "ソフトや構成要素を使える状態で導入すること。"
 usageExample: "Install the required packages before deploying the app."
-usageExampleJa: "アプリ配備前に必要なパッケージをインストールします。"
+usageExampleJa: "アプリデプロイ前に必要なパッケージをインストールします。"
 difficulty: Beginner
 scene: Infrastructure / Cloud
 source:

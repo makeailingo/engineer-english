@@ -7,7 +7,7 @@ meaningJa: "明確に示す、実証する"
 pronunciation: "/ˈdem.ən.streɪt/"
 descriptionJa: "データや原則を根拠に、技術的な主張を明確に示す。"
 usageExample: "Please demonstrate how this change improves code health."
-usageExampleJa: "この変更がコードの健全性をどう高めるか示してください。"
+usageExampleJa: "この変更がコードの健全性をどう高めるか示してもらえますか。"
 difficulty: Intermediate
 scene: Code Review
 source:

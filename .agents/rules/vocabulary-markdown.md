@@ -15,6 +15,7 @@
 - `descriptionJa`は40文字以内にする。
 - `usageExample`は10語以内、`usageExampleJa`は40文字以内にする。
 - 使用例は対象語の意味が文脈から判断できる、自然で具体的な実務表現にする。
+- `usageExampleJa`の作成・修正・レビューは [japanese-tech-writing Skill](.agents/skills/japanese-tech-writing/SKILL.md) に従う。
 - 作成前に既存Vocabularyとの重複を確認する。
 
 ## Source Schema
@@ -51,6 +52,19 @@ Google SREでは、SREサイト全体をCC BY 4.0とみなさず、CC BY 4.0と�
 | Advanced | 上級 | 一般英語として日常的に使われず、エンジニアも英単語としては馴染みが薄い |
 
 `difficulty`は [evaluating-difficulty Skill](.agents/skills/evaluating-difficulty/SKILL.md) に従う。
+
+## usageExampleJa のレビュー
+
+`usageExampleJa`を新規作成・修正するとき、またはレビューを依頼されたときは、必ず [japanese-tech-writing Skill](.agents/skills/japanese-tech-writing/SKILL.md) を読み、そのルールに沿って推敲する。
+
+レビューでは、少なくとも次を確認する。
+
+- `usageExample`の意味と一致しているか。英語の多義語（`commit`、`drain`、`prune` など）を誤訳していないか。
+- 40文字以内の制約を守りつつ、助詞不足の名詞連結（「API不可時」など）になっていないか。
+- 依頼・疑問のトーンが英語と揃っているか（`Please` / `Could you` → 「〜してください」だけにしない）。
+- 定訳・慣用語を使っているか（`cooldown` → クールダウン、`liveness probe` → ライブネスプローブ、`footprint` → フットプリント など）。
+- 同一語彙セット内で表記がぶれていないか（レイテンシ / レイテンシー、デプロイ / 配備 など）。
+- LLM 口調の空句、em ダッシュ、中黒並列、イ形容詞 + 「です」の孤立文がないか。
 
 ## Scene Master
 

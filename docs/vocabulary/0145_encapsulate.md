@@ -7,7 +7,7 @@ meaningJa: "カプセル化する、内部を隠蔽する"
 pronunciation: "/ɪnˈkæp.sjə.leɪt/"
 descriptionJa: "実装詳細を外部から隠して公開する。"
 usageExample: "Encapsulate database access behind a repository layer."
-usageExampleJa: "DB操作をリポジトリ層の内側に隠蔽します。"
+usageExampleJa: "DB操作をリポジトリ層の内側にカプセル化します。"
 difficulty: Advanced
 scene: Architecture
 source:

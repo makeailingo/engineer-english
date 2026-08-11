@@ -7,7 +7,7 @@ meaningJa: "保守する、維持する"
 pronunciation: "/meɪnˈteɪn/"
 descriptionJa: "システムを継続的に管理・更新する。"
 usageExample: "Maintain backward compatibility for one release cycle."
-usageExampleJa: "1リリースサイクル後方互換性を維持します。"
+usageExampleJa: "1リリースサイクルの間、後方互換性を維持します。"
 difficulty: Beginner
 scene: Leadership / Management
 source:

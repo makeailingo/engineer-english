@@ -7,7 +7,7 @@ meaningJa: "レイテンシー、応答までの遅延"
 pronunciation: "/ˈleɪ.tən.si/"
 descriptionJa: "要求から応答までに生じる通信や処理の遅延。"
 usageExample: "High latency delays every request to the API."
-usageExampleJa: "高いレイテンシーでAPIへの全要求が遅延します。"
+usageExampleJa: "高いレイテンシでAPIへの全要求が遅延します。"
 difficulty: Intermediate
 scene: Performance
 source:

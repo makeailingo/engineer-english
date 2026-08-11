@@ -7,7 +7,7 @@ meaningJa: "整理する、不要分を削除する"
 pronunciation: "/pruːn/"
 descriptionJa: "不要なデータや依存を切り詰める。"
 usageExample: "Prune unused dependencies from the bundle each sprint."
-usageExampleJa: "毎スプリント未使用依存をバンドルから整理します。"
+usageExampleJa: "毎スプリント未使用依存をバンドルから除去します。"
 difficulty: Advanced
 scene: Performance
 source:

@@ -7,7 +7,7 @@ meaningJa: "スケーラ、拡縮制御"
 pronunciation: "/ˈskeɪ.lɚ/"
 descriptionJa: "自動スケールを制御するコンポーネント。"
 usageExample: "Tune the autoscaler cooldown to prevent flapping."
-usageExampleJa: "フラッピング防止のためオートスケーラー冷却を調整します。"
+usageExampleJa: "フラッピング防止のためオートスケーラーのクールダウンを調整します。"
 difficulty: Intermediate
 scene: Infrastructure / Cloud
 source:

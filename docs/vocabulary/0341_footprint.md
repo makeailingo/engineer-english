@@ -7,7 +7,7 @@ meaningJa: "フットプリント、占有量"
 pronunciation: "/ˈfʊt.prɪnt/"
 descriptionJa: "メモリやリソースの使用量。"
 usageExample: "Reduce memory footprint by streaming large responses."
-usageExampleJa: "大レスポンスをストリーム化してメモリ占有を減らします。"
+usageExampleJa: "大レスポンスをストリーム化してメモリフットプリントを減らします。"
 difficulty: Intermediate
 scene: Performance
 source:
