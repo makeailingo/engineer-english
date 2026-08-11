@@ -6,8 +6,8 @@ partOfSpeech: "phrasal verb"
 meaningJa: "締めくくる、終わらせる、まとめる"
 pronunciation: "/ˌræp ˈʌp/"
 descriptionJa: "会議や作業を切り上げて終えること。"
-usageExample: "Anything else you want to wrap up?"
-usageExampleJa: "他に締めくくりたい話題はありますか？"
+usageExample: "If there's nothing else, let's wrap up."
+usageExampleJa: "他に話題がなければ会議を終わらせます。"
 difficulty: Beginner
 scene: Daily Communication
 source:
