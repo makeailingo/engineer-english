@@ -135,14 +135,7 @@ code {
 
   #vocabulary-table {
     min-width: 0;
-    table-layout: auto;
-  }
-
-  #vocabulary-table thead tr,
-  #vocabulary-table tbody tr {
-    display: flex;
-    align-items: center;
-    gap: var(--spacing-sm);
+    table-layout: fixed;
   }
 
   #vocabulary-table th:first-child,
@@ -158,34 +151,14 @@ code {
     display: none;
   }
 
-  #vocabulary-table th,
-  #vocabulary-table td {
-    display: block;
-    width: auto;
-    border-bottom: none;
-  }
-
-  #vocabulary-table thead {
-    border-bottom: 1px solid var(--color-hairline);
-  }
-
-  #vocabulary-table tbody tr {
-    border-bottom: 1px solid var(--color-hairline-soft);
-  }
-
-  #vocabulary-table tbody tr:last-child {
-    border-bottom: none;
-  }
-
   #vocabulary-table th:nth-child(2),
   #vocabulary-table td:nth-child(2) {
-    flex: 0 1 auto;
-    min-width: 0;
+    width: 55%;
   }
 
   #vocabulary-table th:nth-child(3),
   #vocabulary-table td:nth-child(3) {
-    flex: 0 0 auto;
+    width: 45%;
   }
 }
 
