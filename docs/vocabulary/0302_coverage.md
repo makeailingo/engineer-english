@@ -1,15 +1,17 @@
 ---
 id: "0302"
-term: coverage
-type: word
+term: "coverage"
+type: "word"
 partOfSpeech: noun
-meaningJa: "テスト網羅率、カバレッジ"
 pronunciation: "/ˈkʌv.ɚ.ɪdʒ/"
+description: "The extent to which tests cover code and conditions."
 descriptionJa: "テストがコードや条件を網羅している度合い。"
+meaning: "Test coverage rate, coverage"
+meaningJa: "テスト網羅率、カバレッジ"
 usageExample: "Increase coverage for the untested error branch."
 usageExampleJa: "未テストのエラー分岐の網羅率を上げてください。"
-difficulty: Intermediate
-scene: Testing
+difficulty: "Intermediate"
+scene: "Testing"
 source:
   title: "How to write code review comments"
   url: "https://google.github.io/eng-practices/review/reviewer/comments.html"

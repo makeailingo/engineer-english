@@ -2,10 +2,12 @@
 id: "0853"
 term: "favorable"
 type: "word"
-partOfSpeech: "adjective"
-meaningJa: "好ましい"
+partOfSpeech: adjective
 pronunciation: "/ˈfeɪ.vɚ.ə.bəl/"
+description: "A desirable condition or result."
 descriptionJa: "条件や結果として望ましいこと。"
+meaning: preferable
+meaningJa: "好ましい"
 usageExample: "Load tests show favorable latency trends."
 usageExampleJa: "負荷試験は好ましい遅延傾向を示します。"
 difficulty: "Intermediate"

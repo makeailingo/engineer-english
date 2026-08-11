@@ -2,10 +2,12 @@
 id: "0554"
 term: "obligation"
 type: "word"
-partOfSpeech: "noun"
-meaningJa: "義務"
+partOfSpeech: noun
 pronunciation: "/ˌɑː.blɪˈɡeɪ.ʃən/"
+description: "Responsibility for performance under a contract or agreement."
 descriptionJa: "契約や合意上の履行責任。"
+meaning: duty
+meaningJa: "義務"
 usageExample: "We have an obligation to meet the SLA."
 usageExampleJa: "SLA達成は契約上の義務です。"
 difficulty: "Intermediate"

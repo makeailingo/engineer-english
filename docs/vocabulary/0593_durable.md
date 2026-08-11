@@ -2,10 +2,12 @@
 id: "0593"
 term: "durable"
 type: "word"
-partOfSpeech: "adjective"
-meaningJa: "耐久性のある"
+partOfSpeech: adjective
 pronunciation: "/ˈdʊr.ə.bəl/"
+description: "Ability to maintain long-term operation or after failure."
 descriptionJa: "長期運用や障害後も維持できること。"
+meaning: durable
+meaningJa: "耐久性のある"
 usageExample: "Choose a durable queue for retry jobs."
 usageExampleJa: "再試行ジョブには耐久性のあるキューを使ってください。"
 difficulty: "Intermediate"

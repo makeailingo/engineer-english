@@ -2,10 +2,12 @@
 id: "0489"
 term: "concrete"
 type: "word"
-partOfSpeech: "adjective"
-meaningJa: "具体的な"
+partOfSpeech: adjective
 pronunciation: "/kənˈkriːt/"
+description: "There should be actual examples and numerical values ​​rather than abstractions."
 descriptionJa: "抽象ではなく実例や数値があること。"
+meaning: specific
+meaningJa: "具体的な"
 usageExample: "Give concrete acceptance criteria in tickets."
 usageExampleJa: "チケットに具体的な受け入れ基準を書いてください。"
 difficulty: "Beginner"

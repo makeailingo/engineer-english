@@ -2,10 +2,12 @@
 id: "0641"
 term: "concession"
 type: "word"
-partOfSpeech: "noun"
-meaningJa: "譲歩"
+partOfSpeech: noun
 pronunciation: "/kənˈseʃ.ən/"
+description: "A concession given to the other party in an argument."
 descriptionJa: "議論で相手に渡した譲り。"
+meaning: concession
+meaningJa: "譲歩"
 usageExample: "That concession unblocked the design review."
 usageExampleJa: "その譲歩で設計レビューが進みました。"
 difficulty: "Advanced"

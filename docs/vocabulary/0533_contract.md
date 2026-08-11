@@ -1,15 +1,17 @@
 ---
 id: "0533"
-term: contract
-type: word
+term: "contract"
+type: "word"
 partOfSpeech: noun
-meaningJa: "契約、コントラクト"
 pronunciation: "/ˈkɑːn.trækt/"
+description: "Input/output promises between services."
 descriptionJa: "サービス間の入出力約束。"
+meaning: "contract, contract"
+meaningJa: "契約、コントラクト"
 usageExample: "Document the API contract before implementation starts."
 usageExampleJa: "実装前にAPI契約を文書化します。"
-difficulty: Intermediate
-scene: Requirements
+difficulty: "Intermediate"
+scene: "Requirements"
 source:
   title: "Change descriptions - Google Engineering Practices"
   url: "https://google.github.io/eng-practices/review/developer/cl-descriptions.html"

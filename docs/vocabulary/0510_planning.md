@@ -2,10 +2,12 @@
 id: "0510"
 term: "planning"
 type: "word"
-partOfSpeech: "noun"
-meaningJa: "計画"
+partOfSpeech: noun
 pronunciation: "/ˈplæn.ɪŋ/"
+description: "Pre-design work and releases."
 descriptionJa: "作業やリリースの事前設計。"
+meaning: plan
+meaningJa: "計画"
 usageExample: "Capacity planning happens before sprint planning."
 usageExampleJa: "キャパ計画はスプリント計画の前に行います。"
 difficulty: "Beginner"

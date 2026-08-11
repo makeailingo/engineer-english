@@ -1,15 +1,17 @@
 ---
 id: "0351"
-term: matrix
-type: word
+term: "matrix"
+type: "word"
 partOfSpeech: noun
-meaningJa: "マトリクス、表形式"
 pronunciation: "/ˈmeɪ.trɪks/"
+description: "Multidimensional data and combination tables."
 descriptionJa: "多次元データや組合せ表。"
+meaning: "matrix, tabular format"
+meaningJa: "マトリクス、表形式"
 usageExample: "Build a compatibility matrix for supported browser versions."
 usageExampleJa: "対応ブラウザ版の互換マトリクスを作成します。"
-difficulty: Intermediate
-scene: Testing
+difficulty: "Intermediate"
+scene: "Testing"
 source:
   title: "The Standard of Code Review - Google Engineering Practices"
   url: "https://google.github.io/eng-practices/review/reviewer/standard.html"

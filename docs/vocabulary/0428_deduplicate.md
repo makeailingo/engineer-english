@@ -1,15 +1,17 @@
 ---
 id: "0428"
-term: deduplicate
-type: word
+term: "deduplicate"
+type: "word"
 partOfSpeech: verb
-meaningJa: "重複を除去する"
 pronunciation: "/diːˈduː.plə.keɪt/"
+description: "Remove duplicate entries of the same data."
 descriptionJa: "同一データの重複エントリを取り除く。"
+meaning: "remove duplicates"
+meaningJa: "重複を除去する"
 usageExample: "Deduplicate incoming events by message identifier."
 usageExampleJa: "メッセージIDで受信イベントの重複を除去します。"
-difficulty: Advanced
-scene: Implementation
+difficulty: "Advanced"
+scene: "Implementation"
 source:
   title: "Using IndexedDB - Web APIs | MDN"
   url: "https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API/Using_IndexedDB"

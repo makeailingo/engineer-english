@@ -2,10 +2,12 @@
 id: "0659"
 term: "workaround"
 type: "word"
-partOfSpeech: "noun"
-meaningJa: "回避策"
+partOfSpeech: noun
 pronunciation: "/ˈwɝː.kə.raʊnd/"
+description: "Temporary solution before fundamental correction."
 descriptionJa: "根本修正前の暫定対処。"
+meaning: Workaround
+meaningJa: "回避策"
 usageExample: "Document the workaround in the incident ticket."
 usageExampleJa: "インシデント票に回避策を記載してください。"
 difficulty: "Intermediate"

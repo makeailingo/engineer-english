@@ -1,15 +1,17 @@
 ---
 id: "0376"
-term: respectful
-type: word
+term: "respectful"
+type: "word"
 partOfSpeech: adjective
-meaningJa: "敬意を示す、礼儀正しい"
 pronunciation: "/rɪˈspekt.fəl/"
+description: "Show respect and be considerate."
 descriptionJa: "相手に敬意を示し、配慮して伝えるさま。"
+meaning: "show respect, be polite"
+meaningJa: "敬意を示す、礼儀正しい"
 usageExample: "Keep technical disagreements respectful and focused on the code."
 usageExampleJa: "技術的な相違も、敬意を保ちコードを論点にしてください。"
-difficulty: Intermediate
-scene: Code Review
+difficulty: "Intermediate"
+scene: "Code Review"
 source:
   title: "How to write code review comments"
   url: "https://google.github.io/eng-practices/review/reviewer/comments.html"

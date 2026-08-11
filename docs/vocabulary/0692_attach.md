@@ -1,15 +1,17 @@
 ---
 id: "0692"
-term: attach
-type: word
+term: "attach"
+type: "word"
 partOfSpeech: verb
-meaningJa: "添付する、接続する"
 pronunciation: "/əˈtætʃ/"
+description: "Associate files and resources."
 descriptionJa: "ファイルやリソースを関連付ける。"
+meaning: "attach, connect"
+meaningJa: "添付する、接続する"
 usageExample: "Attach the heap dump to the incident ticket."
 usageExampleJa: "ヒープダンプをインシデントチケットに添付します。"
-difficulty: Beginner
-scene: Incident Response
+difficulty: "Beginner"
+scene: "Incident Response"
 source:
   title: "Handling reviewer comments"
   url: "https://google.github.io/eng-practices/review/developer/handling-comments.html"

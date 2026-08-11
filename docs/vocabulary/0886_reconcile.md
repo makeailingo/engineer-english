@@ -1,15 +1,17 @@
 ---
 id: "0886"
-term: reconcile
-type: word
+term: "reconcile"
+type: "word"
 partOfSpeech: verb
-meaningJa: "照合する、整合させる"
 pronunciation: "/ˈrek.ən.saɪl/"
+description: "Match the differences between DB and cache."
 descriptionJa: "DBとキャッシュの差分を整合させる。"
+meaning: "collate, match"
+meaningJa: "照合する、整合させる"
 usageExample: "Reconcile inventory counts after the nightly sync job."
 usageExampleJa: "夜間同期後に在庫数を照合します。"
-difficulty: Intermediate
-scene: Database
+difficulty: "Intermediate"
+scene: "Database"
 source:
   title: "Using IndexedDB - Web APIs | MDN"
   url: "https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API/Using_IndexedDB"

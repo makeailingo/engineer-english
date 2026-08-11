@@ -1,15 +1,17 @@
 ---
 id: "0344"
-term: invoke
-type: word
+term: "invoke"
+type: "word"
 partOfSpeech: verb
-meaningJa: "呼び出す、実行を開始する"
 pronunciation: "/ɪnˈvoʊk/"
+description: "To start execution by calling a function or process."
 descriptionJa: "関数や処理を呼び出して実行を開始すること。"
+meaning: "call, begin execution"
+meaningJa: "呼び出す、実行を開始する"
 usageExample: "Invoke the callback after validation succeeds."
 usageExampleJa: "検証成功後にコールバックを呼び出してください。"
-difficulty: Intermediate
-scene: Implementation
+difficulty: "Intermediate"
+scene: "Implementation"
 source:
   title: "Reflect.apply() - JavaScript | MDN"
   url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Reflect/apply"

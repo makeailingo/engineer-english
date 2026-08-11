@@ -1,80 +1,82 @@
 # Engineer English
 
-ソフトウェアエンジニアが実務で使う英語のデータセットです。
+> Japanese: [README.ja.md](README.ja.md)
 
-## コンセプト
+An open dataset of English used in day-to-day software engineering work.
 
-- 信頼性の高い一次情報（Google Engineering Practices、Google SREのCC BY 4.0資料、MDN Web Docs）から、ソフトウェアエンジニアリングの文脈で実際に使われる単語・フレーズを抽出しています。
-- 語義・品詞・発音記号は、信頼性の高い外部の辞書（Cambridge Dictionary を一次情報とし、Oxford Advanced Learner's Dictionary で照合）から取得しています。
-- 難易度は次の3段階で分類しています。
+## Concept
 
-| 難易度 | 目安 |
+- We extract words and phrases actually used in software engineering from reliable primary sources (Google Engineering Practices, Google SRE CC BY 4.0 materials, MDN Web Docs).
+- We obtain senses, parts of speech, and pronunciation (US English IPA) from reliable external dictionaries (Cambridge Dictionary as the primary source; Oxford Advanced Learner's Dictionary for cross-checking).
+- Difficulty is classified into three levels:
+
+| Difficulty | Guideline |
 | --- | --- |
-| Beginner（初級） | 一般語として広く知られ、エンジニアも意味を推測しやすい |
-| Intermediate（中級） | 一般語だが実務での用法に学習価値がある、または技術文脈で頻出する |
-| Advanced（上級） | 一般英語として日常的に使われず、エンジニアも英単語としては馴染みが薄い |
+| Beginner | Widely known general vocabulary; engineers can infer the meaning easily |
+| Intermediate | General vocabulary with learning value in professional use, or frequent in technical contexts |
+| Advanced | Uncommon in everyday English; even engineers are unlikely to know the word as English vocabulary |
 
-- 日本語訳・説明・使用例は独自に作成しており、出典本文のコピー・翻案は行っていません。
+- Japanese translations, explanations, and usage examples are written independently. We do not copy or adapt source text.
 
-## 学習順（ID）
+## Learning Order (ID)
 
-語彙の `id`（0001 から連番）は、次の5章をこの順に並べた学習順を表します。
+Each vocabulary `id` (0001 onward) reflects learning order across five chapters in this sequence:
 
-| 章 | 内容 | ID 範囲（995語時点） |
+| Chapter | Topic | ID range (995 entries) |
 | --- | --- | --- |
-| 第1章 | 基本コミュニケーション | 0001–0128 |
-| 第2章 | 開発とレビュー | 0129–0461 |
-| 第3章 | 計画と意思決定 | 0462–0658 |
-| 第4章 | 運用と障害対応 | 0659–0945 |
-| 第5章 | 高度な技術英語 | 0946–0995 |
+| 1 | Basic Communication | 0001–0128 |
+| 2 | Development and Review | 0129–0461 |
+| 3 | Planning and Decision-Making | 0462–0658 |
+| 4 | Operations and Incident Response | 0659–0945 |
+| 5 | Advanced Technical English | 0946–0995 |
 
-章分類を先に確定し、各章内では **学習価値 → 実用性 → 難易度** の順で並べます。
-第5章は残り語の入れ物ではなく、アーキテクチャ・技術面接・高度な技術議論の語彙に限定します。
-詳細は [sorting-vocabulary Skill](.agents/skills/sorting-vocabulary/SKILL.md) を参照してください。
+Within each chapter, entries are ordered by **learning value → practical frequency → difficulty**.
+Chapter 5 is not a catch-all; it is limited to architecture, technical interviews, and advanced technical discussion.
+See the [sorting-vocabulary Skill](.agents/skills/sorting-vocabulary/SKILL.md) for details.
 
-## ローカル開発
+## Local Development
 
-### 前提
+### Prerequisites
 
-- [Homebrew](https://brew.sh/) で Ruby をインストール済みであること
+- Ruby installed via [Homebrew](https://brew.sh/)
 
 ```bash
 brew install ruby
 ```
 
-シェルで Homebrew の Ruby を優先する（`~/.zshrc` に追記）:
+Prefer Homebrew Ruby in your shell (add to `~/.zshrc`):
 
 ```bash
 export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
 ```
 
-### セットアップ
+### Setup
 
 ```bash
 cd docs
 bundle install
 ```
 
-### 起動
+### Serve
 
 ```bash
 cd docs
 bundle exec jekyll serve --baseurl ""
 ```
 
-ブラウザで http://127.0.0.1:4000/ を開く。
+Open http://127.0.0.1:4000/ in a browser.
 
-`--baseurl ""` は GitHub Pages 用の `/engineer-english` プレフィックスを外し、ローカルではルートから表示するための指定。
+`--baseurl ""` removes the GitHub Pages `/engineer-english` prefix so the site is served from the root locally.
 
-### ビルドのみ
+### Build only
 
 ```bash
 cd docs
 bundle exec jekyll build --baseurl ""
 ```
 
-生成物は `docs/_site/` に出力される。
+Output is written to `docs/_site/`.
 
-## ライセンス
+## License
 
 MIT. See [LICENSE](LICENSE).

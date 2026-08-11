@@ -1,15 +1,17 @@
 ---
 id: "0775"
-term: configure
-type: word
+term: "configure"
+type: "word"
 partOfSpeech: verb
-meaningJa: "設定する、構成する"
 pronunciation: "/kənˈfɪɡ.jɚ/"
+description: "Set environment and application operating parameters."
 descriptionJa: "環境やアプリの動作パラメータを設定する。"
+meaning: "set, configure"
+meaningJa: "設定する、構成する"
 usageExample: "Configure the build pipeline for staging deployments."
 usageExampleJa: "ステージング用にビルドパイプラインを設定します。"
-difficulty: Beginner
-scene: Infrastructure / Cloud
+difficulty: "Beginner"
+scene: "Infrastructure / Cloud"
 source:
   title: "Express deployment - Learn web development | MDN"
   url: "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/deployment"

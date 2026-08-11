@@ -1,15 +1,17 @@
 ---
 id: "0288"
-term: clone
-type: word
+term: "clone"
+type: "word"
 partOfSpeech: verb
-meaningJa: "複製する"
 pronunciation: "/kloʊn/"
+description: "Duplicate nodes and optionally descendants."
 descriptionJa: "ノードと必要に応じて子孫を複製すること。"
+meaning: duplicate
+meaningJa: "複製する"
 usageExample: "Clone the template before inserting user data."
 usageExampleJa: "ユーザーデータ挿入前にテンプレートを複製してください。"
-difficulty: Intermediate
-scene: Implementation
+difficulty: "Intermediate"
+scene: "Implementation"
 source:
   title: "Node: cloneNode() method - Web APIs | MDN"
   url: "https://developer.mozilla.org/en-US/docs/Web/API/Node/cloneNode"

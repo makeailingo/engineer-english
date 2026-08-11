@@ -2,10 +2,12 @@
 id: "0789"
 term: "invalid"
 type: "word"
-partOfSpeech: "adjective"
-meaningJa: "無効な"
+partOfSpeech: adjective
 pronunciation: "/ɪnˈvæl.ɪd/"
+description: "Failure to comply with rules or formalities."
 descriptionJa: "ルールや形式を満たさないこと。"
+meaning: invalid
+meaningJa: "無効な"
 usageExample: "Reject invalid tokens at the gateway."
 usageExampleJa: "ゲートウェイで無効トークンを拒否してください。"
 difficulty: "Beginner"

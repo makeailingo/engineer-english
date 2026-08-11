@@ -2,10 +2,12 @@
 id: "0720"
 term: "defensive"
 type: "word"
-partOfSpeech: "adjective"
-meaningJa: "防御的な"
+partOfSpeech: adjective
 pronunciation: "/dɪˈfen.sɪv/"
+description: "Be defensive in the face of criticism."
 descriptionJa: "批判に対し身を守る姿勢になること。"
+meaning: defensive
+meaningJa: "防御的な"
 usageExample: "Avoid defensive responses during postmortems."
 usageExampleJa: "ポストモーテムで防御的な返答は避けてください。"
 difficulty: "Intermediate"

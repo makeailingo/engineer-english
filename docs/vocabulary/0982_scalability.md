@@ -1,15 +1,17 @@
 ---
 id: "0982"
-term: scalability
-type: word
+term: "scalability"
+type: "word"
 partOfSpeech: noun
-meaningJa: "拡張性、需要増加に対応できる性質"
 pronunciation: "/ˌskeɪ.ləˈbɪl.ə.t̬i/"
+description: "The ability to expand processing capacity in response to increased demand."
 descriptionJa: "需要増加に応じて処理能力を拡張できる性質。"
+meaning: "Scalability and ability to respond to increased demand"
+meaningJa: "拡張性、需要増加に対応できる性質"
 usageExample: "Does this architecture preserve scalability under peak traffic?"
 usageExampleJa: "この構成はピーク時も拡張性を保てますか。"
-difficulty: Intermediate
-scene: Architecture
+difficulty: "Intermediate"
+scene: "Architecture"
 source:
   title: "Server-side web frameworks - Learn web development | MDN"
   url: "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/First_steps/Web_frameworks"

@@ -1,15 +1,17 @@
 ---
 id: "0795"
-term: permission
-type: word
+term: "permission"
+type: "word"
 partOfSpeech: noun
-meaningJa: "権限、パーミッション"
 pronunciation: "/pɚˈmɪʃ.ən/"
+description: "Settings that allow the operation."
 descriptionJa: "操作を許可する設定。"
+meaning: "rights, permissions"
+meaningJa: "権限、パーミッション"
 usageExample: "Request geolocation permission only after user interaction."
 usageExampleJa: "位置情報権限はユーザー操作後に要求します。"
-difficulty: Beginner
-scene: Security
+difficulty: "Beginner"
+scene: "Security"
 source:
   title: "Permissions API - Web APIs | MDN"
   url: "https://developer.mozilla.org/en-US/docs/Web/API/Permissions_API"

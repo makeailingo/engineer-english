@@ -1,15 +1,17 @@
 ---
 id: "0230"
-term: preview
-type: word
+term: "preview"
+type: "word"
 partOfSpeech: noun
-meaningJa: "プレビュー、事前確認"
 pronunciation: "/ˈpriː.vjuː/"
+description: "Confirmation display before application."
 descriptionJa: "本適用前の確認表示。"
+meaning: "Preview, advance confirmation"
+meaningJa: "プレビュー、事前確認"
 usageExample: "Show a preview diff before merging large refactors."
 usageExampleJa: "大規模リファクタはマージ前に差分プレビューを表示します。"
-difficulty: Beginner
-scene: Code Review
+difficulty: "Beginner"
+scene: "Code Review"
 source:
   title: "How to do a code review - Google Engineering Practices"
   url: "https://google.github.io/eng-practices/review/reviewer/"

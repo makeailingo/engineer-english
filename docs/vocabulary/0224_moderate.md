@@ -2,10 +2,12 @@
 id: "0224"
 term: "moderate"
 type: "word"
-partOfSpeech: "adjective"
-meaningJa: "中程度の"
+partOfSpeech: adjective
 pronunciation: "/ˈmɑː.dər.ət/"
+description: "Moderate, not extreme."
 descriptionJa: "極端でなく適度なこと。"
+meaning: medium
+meaningJa: "中程度の"
 usageExample: "We see moderate error rates after deploy."
 usageExampleJa: "デプロイ後は中程度のエラー率です。"
 difficulty: "Beginner"

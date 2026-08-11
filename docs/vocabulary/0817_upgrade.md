@@ -1,15 +1,17 @@
 ---
 id: "0817"
-term: upgrade
-type: word
+term: "upgrade"
+type: "word"
 partOfSpeech: verb
-meaningJa: "アップグレードする、更新する"
 pronunciation: "/ʌpˈɡreɪd/"
+description: "Improve version and performance."
 descriptionJa: "バージョンや性能を向上させる。"
+meaning: "upgrade, update"
+meaningJa: "アップグレードする、更新する"
 usageExample: "Upgrade the database engine during the maintenance window."
 usageExampleJa: "メンテ時間帯にDBエンジンをアップグレードします。"
-difficulty: Beginner
-scene: Infrastructure / Cloud
+difficulty: "Beginner"
+scene: "Infrastructure / Cloud"
 source:
   title: "Non-Abstract Large Scale Design Workbook"
   url: "https://static.googleusercontent.com/media/sre.google/en//static/pdf/nalsd-workbook-a4.pdf"

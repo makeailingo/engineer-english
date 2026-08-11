@@ -3,7 +3,7 @@ layout: default
 ---
 
 <article class="vocabulary">
-  <a class="vocabulary__back" href="{{ '/' | relative_url }}">← 一覧に戻る</a>
+  <a class="vocabulary__back" href="{{ '/' | relative_url }}">← Back to list / 一覧に戻る</a>
 
   <h1 class="vocabulary__title">{{ page.term }}</h1>
 
@@ -19,32 +19,48 @@ layout: default
     <span class="badge-pill">{{ site.labels.scene[page.scene] }}</span>
   </div>
 
+  {% if page.meaning %}
   <section class="vocabulary__section">
-    <h2>意味</h2>
+    <h2>Meaning / 意味</h2>
+    <p>{{ page.meaning }}</p>
     <p>{{ page.meaningJa }}</p>
   </section>
+  {% endif %}
 
   {% if page.pronunciation %}
   <section class="vocabulary__section">
-    <h2>発音</h2>
+    <h2>Pronunciation / 発音</h2>
     <p class="vocabulary__pronunciation">{{ page.pronunciation }}</p>
   </section>
   {% endif %}
 
+  {% if page.description or page.descriptionJa %}
   <section class="vocabulary__section">
-    <h2>説明</h2>
-    <p>{{ page.descriptionJa }}</p>
+    <h2>Description / 説明</h2>
+    {% if page.description %}
+      <p>{{ page.description }}</p>
+    {% endif %}
+    {% if page.descriptionJa %}
+      <p>{{ page.descriptionJa }}</p>
+    {% endif %}
   </section>
+  {% endif %}
 
+  {% if page.usageExample or page.usageExampleJa %}
   <section class="vocabulary__section">
-    <h2>使用例</h2>
-    <p class="vocabulary__example">{{ page.usageExample }}</p>
-    <p>{{ page.usageExampleJa }}</p>
+    <h2>Usage Example / 使用例</h2>
+    {% if page.usageExample %}
+      <p class="vocabulary__example">{{ page.usageExample }}</p>
+    {% endif %}
+    {% if page.usageExampleJa %}
+      <p>{{ page.usageExampleJa }}</p>
+    {% endif %}
   </section>
+  {% endif %}
 
   {% if page.source %}
   <section class="vocabulary__section">
-    <h2>出典</h2>
+    <h2>Source / 出典</h2>
     <ul class="vocabulary__source">
       <li>
         <a href="{{ page.source.url }}">{{ page.source.title }}</a>

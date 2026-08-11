@@ -1,9 +1,11 @@
 ---
 name: evaluating-meaningJa
-description: meaningJa が日本語の学習者向け意味説明として成立しているか評価する。Vocabulary の作成・更新前、または meaningJa の検証時に使用する。
+description: Evaluate whether meaningJa works as a useful Japanese meaning explanation for learners. Use before creating or updating Vocabulary, or when validating meaningJa.
 ---
 
 # Evaluating MeaningJa
+
+> Japanese: [SKILL.ja.md](SKILL.ja.md)
 
 Evaluate whether `meaningJa` works as a useful Japanese explanation
 for a Japanese software engineer learning English.
@@ -21,6 +23,7 @@ from `meaningJa` even if they do not already know the English term.
 
 ```yaml
 term: "blocker"
+meaning: "something that prevents progress"
 meaningJa: "ブロッカー"
 usageExample: "This dependency is a release blocker."
 usageExampleJa: "この依存はリリースブロッカーです。"
@@ -65,7 +68,7 @@ FAIL when:
 * the Japanese is unnatural
 * the translation uses the wrong sense
 * the explanation is too vague to understand the intended meaning
-* the explanation is inconsistent with `usageExample`
+* the explanation is inconsistent with `usageExample` or `meaning`
 
 Examples:
 
@@ -92,11 +95,11 @@ FAIL because the Japanese translation is verbal while the entry is a noun.
 * If plain Japanese alone is natural and sufficient, katakana is unnecessary.
 * Do not turn `meaningJa` into a long technical definition.
 * Keep the explanation concise.
-* Evaluate the intended sense shown by `usageExample`.
+* Evaluate the intended sense shown by `usageExample` and `meaning`.
 * Do not evaluate another possible sense of the term.
 * Do not change `term`, `difficulty`, or `scene`.
 
-## Decision criterion
+## Decision Criterion
 
 Ask:
 
@@ -124,6 +127,6 @@ currentMeaningJa: "基準値、ベースライン"
 reason: "The Japanese explains the meaning while preserving the established katakana term."
 ```
 
-## 文言
+## Wording
 
-Skill 本文では、一般的でない専門用語を使わない。
+Avoid uncommon specialist jargon in this Skill.

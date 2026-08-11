@@ -2,10 +2,12 @@
 id: "0328"
 term: "hypothesis"
 type: "word"
-partOfSpeech: "noun"
-meaningJa: "仮説"
+partOfSpeech: noun
 pronunciation: "/haɪˈpɑː.θə.sɪs/"
+description: "An estimate of cause and effect before verification."
 descriptionJa: "検証の前に立てる原因や結果の見立て。"
+meaning: hypothesis
+meaningJa: "仮説"
 usageExample: "State your hypothesis before changing the code."
 usageExampleJa: "コードを変える前に仮説を述べてください。"
 difficulty: "Intermediate"

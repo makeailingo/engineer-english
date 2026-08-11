@@ -2,10 +2,12 @@
 id: "0799"
 term: "protect"
 type: "word"
-partOfSpeech: "verb"
-meaningJa: "保護する"
+partOfSpeech: verb
 pronunciation: "/prəˈtekt/"
+description: "Protecting data and systems from threats."
 descriptionJa: "データやシステムを脅威から守ること。"
+meaning: protect
+meaningJa: "保護する"
 usageExample: "Protect secrets using a managed vault."
 usageExampleJa: "マネージドVaultでシークレットを保護してください。"
 difficulty: "Beginner"

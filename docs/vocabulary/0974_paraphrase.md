@@ -2,10 +2,12 @@
 id: "0974"
 term: "paraphrase"
 type: "word"
-partOfSpeech: "verb"
-meaningJa: "言い換える"
+partOfSpeech: verb
 pronunciation: "/ˈper.ə.freɪz/"
+description: "restating the same content in different words."
 descriptionJa: "同じ内容を別の言葉で言い直すこと。"
+meaning: paraphrase
+meaningJa: "言い換える"
 usageExample: "Let me paraphrase the requirements first."
 usageExampleJa: "まず要件を自分の言葉で言い換えます。"
 difficulty: "Intermediate"

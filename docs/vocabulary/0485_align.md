@@ -1,15 +1,17 @@
 ---
 id: "0485"
-term: align
-type: word
+term: "align"
+type: "word"
 partOfSpeech: verb
-meaningJa: "整合させる、アラインする"
 pronunciation: "/əˈlaɪn/"
+description: "Match designs and team perceptions."
 descriptionJa: "設計やチーム認識を一致させる。"
+meaning: "to match, to align"
+meaningJa: "整合させる、アラインする"
 usageExample: "Align API contracts with frontend expectations early."
 usageExampleJa: "早期にAPI契約をフロント期待と整合させます。"
-difficulty: Beginner
-scene: Requirements
+difficulty: "Beginner"
+scene: "Requirements"
 source:
   title: "Change descriptions - Google Engineering Practices"
   url: "https://google.github.io/eng-practices/review/developer/cl-descriptions.html"

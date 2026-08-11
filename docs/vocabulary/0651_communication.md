@@ -1,15 +1,17 @@
 ---
 id: "0651"
-term: communication
-type: word
+term: "communication"
+type: "word"
 partOfSpeech: noun
-meaningJa: "通信、情報の伝達"
 pronunciation: "/kəˌmjuː.nəˈkeɪ.ʃən/"
+description: "A method or flow for transmitting information between systems."
 descriptionJa: "システム間で情報を伝達する方式や流れ。"
+meaning: "communication, transmission of information"
+meaningJa: "通信、情報の伝達"
 usageExample: "Which communication style fits these service boundaries?"
 usageExampleJa: "どの通信方式がこのサービス境界に適しますか。"
-difficulty: Beginner
-scene: Architecture
+difficulty: "Beginner"
+scene: "Architecture"
 source:
   title: "Google SRE classroom - Distributed Publish-subscribe workshop"
   url: "https://sre.google/classroom/distributed-pubsub/"

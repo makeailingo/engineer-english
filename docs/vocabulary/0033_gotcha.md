@@ -2,10 +2,12 @@
 id: "0033"
 term: "gotcha"
 type: "word"
-partOfSpeech: "noun"
-meaningJa: "落とし穴"
+partOfSpeech: noun
 pronunciation: "/ˈɡɑː.tʃə/"
+description: "Unexpected behavior that is easy to fall into if you don't know about it."
 descriptionJa: "知らないとはまりやすい思わぬ挙動。"
+meaning: Pitfall
+meaningJa: "落とし穴"
 usageExample: "A common gotcha is the timezone conversion."
 usageExampleJa: "よくある落とし穴はタイムゾーン変換です。"
 difficulty: "Advanced"

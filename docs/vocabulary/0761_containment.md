@@ -2,10 +2,12 @@
 id: "0761"
 term: "containment"
 type: "word"
-partOfSpeech: "noun"
-meaningJa: "封じ込め"
+partOfSpeech: noun
 pronunciation: "/kənˈteɪn.mənt/"
+description: "Isolation measures to stop the spread of the disorder."
 descriptionJa: "障害拡大を止める隔離対策。"
+meaning: containment
+meaningJa: "封じ込め"
 usageExample: "Containment stopped the bad config spread."
 usageExampleJa: "封じ込めで不良設定の拡散を止めました。"
 difficulty: "Advanced"

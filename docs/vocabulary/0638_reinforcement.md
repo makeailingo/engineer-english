@@ -1,15 +1,17 @@
 ---
 id: "0638"
-term: reinforcement
-type: word
+term: "reinforcement"
+type: "word"
 partOfSpeech: noun
-meaningJa: "強化、奨励"
 pronunciation: "/ˌriː.ɪnˈfɔːrs.mənt/"
+description: "Praise good practices and encourage persistence."
 descriptionJa: "良い実践を称賛して継続を促すこと。"
+meaning: "reinforcement, encouragement"
+meaningJa: "強化、奨励"
 usageExample: "Positive reinforcement encourages developers to repeat good practices."
 usageExampleJa: "肯定的な強化は良い実践の継続を促します。"
-difficulty: Intermediate
-scene: Leadership / Management
+difficulty: "Intermediate"
+scene: "Leadership / Management"
 source:
   title: "How to write code review comments"
   url: "https://google.github.io/eng-practices/review/reviewer/comments.html"

@@ -2,10 +2,12 @@
 id: "0921"
 term: "empirical"
 type: "word"
-partOfSpeech: "adjective"
-meaningJa: "実証的な"
+partOfSpeech: adjective
 pronunciation: "/ɪmˈpɪr.ɪ.kəl/"
+description: "Based on actual measurements and observations."
 descriptionJa: "実測や観察に基づくこと。"
+meaning: empirical
+meaningJa: "実証的な"
 usageExample: "We need empirical data before optimizing."
 usageExampleJa: "最適化前に実証データが必要です。"
 difficulty: "Advanced"

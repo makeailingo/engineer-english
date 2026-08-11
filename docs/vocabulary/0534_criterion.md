@@ -1,15 +1,17 @@
 ---
 id: "0534"
-term: criterion
-type: word
+term: "criterion"
+type: "word"
 partOfSpeech: noun
-meaningJa: "基準、判断条件"
 pronunciation: "/kraɪˈtɪr.i.ən/"
+description: "A single criterion for determining whether requirements are achieved."
 descriptionJa: "要件の達成可否を判断する単一の基準。"
+meaning: "Criteria, judgment conditions"
+meaningJa: "基準、判断条件"
 usageExample: "Accessibility is a release criterion."
 usageExampleJa: "アクセシビリティはリリース基準の一つです。"
-difficulty: Intermediate
-scene: Requirements
+difficulty: "Intermediate"
+scene: "Requirements"
 source:
   title: "Robust - Accessibility | MDN"
   url: "https://developer.mozilla.org/en-US/docs/Web/Accessibility/Guides/Understanding_WCAG/Robust"

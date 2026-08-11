@@ -1,15 +1,17 @@
 ---
 id: "0864"
-term: latency
-type: word
+term: "latency"
+type: "word"
 partOfSpeech: noun
-meaningJa: "レイテンシー、応答までの遅延"
 pronunciation: "/ˈleɪ.tən.si/"
+description: "Delays in communication and processing from request to response."
 descriptionJa: "要求から応答までに生じる通信や処理の遅延。"
+meaning: "Latency, delay in response"
+meaningJa: "レイテンシー、応答までの遅延"
 usageExample: "High latency delays every request to the API."
 usageExampleJa: "高いレイテンシでAPIへの全要求が遅延します。"
-difficulty: Intermediate
-scene: Performance
+difficulty: "Intermediate"
+scene: "Performance"
 source:
   title: "Understanding latency - Performance | MDN"
   url: "https://developer.mozilla.org/en-US/docs/Web/Performance/Guides/Understanding_latency"

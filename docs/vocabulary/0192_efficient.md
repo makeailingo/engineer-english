@@ -2,10 +2,12 @@
 id: "0192"
 term: "efficient"
 type: "word"
-partOfSpeech: "adjective"
-meaningJa: "効率的な"
+partOfSpeech: adjective
 pronunciation: "/ɪˈfɪʃ.ənt/"
+description: "Less waste and more results."
 descriptionJa: "無駄が少なく成果が出ること。"
+meaning: efficient
+meaningJa: "効率的な"
 usageExample: "Batch inserts are more efficient here."
 usageExampleJa: "ここではバッチ挿入の方が効率的です。"
 difficulty: "Beginner"

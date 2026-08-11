@@ -1,15 +1,17 @@
 ---
 id: "0968"
-term: iterate
-type: word
+term: "iterate"
+type: "word"
 partOfSpeech: verb
-meaningJa: "反復する、要素を順に処理する"
 pronunciation: "/ˈɪt̬.ə.reɪt/"
+description: "Iterating over the elements of a data structure in sequence."
 descriptionJa: "データ構造の要素を順に反復処理すること。"
+meaning: "iterate, process elements in sequence"
+meaningJa: "反復する、要素を順に処理する"
 usageExample: "How would you iterate over this graph without recursion?"
 usageExampleJa: "再帰なしでこのグラフをどう反復処理しますか。"
-difficulty: Intermediate
-scene: Technical Interview
+difficulty: "Intermediate"
+scene: "Technical Interview"
 source:
   title: "Iterators and generators - JavaScript | MDN"
   url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Iterators_and_generators"

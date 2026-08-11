@@ -2,10 +2,12 @@
 id: "0535"
 term: "deliverable"
 type: "word"
-partOfSpeech: "noun"
-meaningJa: "成果物"
+partOfSpeech: noun
 pronunciation: "/dɪˈlɪv.ər.ə.bəl/"
+description: "Specific results to be delivered by the deadline."
 descriptionJa: "期日までに提供すべき具体成果。"
+meaning: Deliverables
+meaningJa: "成果物"
 usageExample: "List deliverables for the milestone review."
 usageExampleJa: "マイルストーンレビュー用の成果物を列挙してください。"
 difficulty: "Intermediate"

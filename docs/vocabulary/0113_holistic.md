@@ -2,10 +2,12 @@
 id: "0113"
 term: "holistic"
 type: "word"
-partOfSpeech: "adjective"
-meaningJa: "全体論的な"
+partOfSpeech: adjective
 pronunciation: "/hoʊˈlɪs.t̬ɪk/"
+description: "Look at the whole system, not the parts."
 descriptionJa: "部分ではなくシステム全体を見ること。"
+meaning: holistic
+meaningJa: "全体論的な"
 usageExample: "Take a holistic view of reliability."
 usageExampleJa: "信頼性は全体論的に見てください。"
 difficulty: "Advanced"

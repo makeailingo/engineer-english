@@ -2,10 +2,12 @@
 id: "0549"
 term: "measurable"
 type: "word"
-partOfSpeech: "adjective"
-meaningJa: "測定可能な"
+partOfSpeech: adjective
 pronunciation: "/ˈmeʒ.ər.ə.bəl/"
+description: "Things that can be tracked numerically using indicators."
 descriptionJa: "指標で数値として追えること。"
+meaning: Measurable
+meaningJa: "測定可能な"
 usageExample: "Define measurable success criteria first."
 usageExampleJa: "まず測定可能な成功基準を定義してください。"
 difficulty: "Intermediate"

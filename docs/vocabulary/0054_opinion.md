@@ -2,10 +2,12 @@
 id: "0054"
 term: "opinion"
 type: "word"
-partOfSpeech: "noun"
-meaningJa: "意見"
+partOfSpeech: noun
 pronunciation: "/əˈpɪn.jən/"
+description: "Individual and team views."
 descriptionJa: "個人やチームの見解。"
+meaning: opinion
+meaningJa: "意見"
 usageExample: "Share your opinion on the migration plan."
 usageExampleJa: "移行計画について意見を共有してください。"
 difficulty: "Beginner"

@@ -3,13 +3,15 @@ id: "0010"
 term: "push back"
 type: "phrase"
 partOfSpeech: "phrasal verb"
-meaningJa: "反論する、異議を唱える"
 pronunciation: "/ˌpʊʃ ˈbæk/"
+description: "Politely express your disagreement with a review or policy."
 descriptionJa: "レビューや方針に対して丁寧に反対意見を述べること。"
+meaning: "refute, object to"
+meaningJa: "反論する、異議を唱える"
 usageExample: "Sometimes a developer will push back on a review."
 usageExampleJa: "開発者がレビューに反論することもあります。"
-difficulty: Intermediate
-scene: Code Review
+difficulty: "Intermediate"
+scene: "Code Review"
 source:
   title: "Handling pushback in code reviews"
   url: "https://google.github.io/eng-practices/review/reviewer/pushback.html"

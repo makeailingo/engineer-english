@@ -2,10 +2,12 @@
 id: "0941"
 term: "frequently"
 type: "word"
-partOfSpeech: "adverb"
-meaningJa: "頻繁に"
+partOfSpeech: adverb
 pronunciation: "/ˈfriː.kwənt.li/"
+description: "Indicates something that occurs frequently."
 descriptionJa: "高い頻度で起きることを表す。"
+meaning: frequently
+meaningJa: "頻繁に"
 usageExample: "This query runs frequently during peak hours."
 usageExampleJa: "このクエリはピーク時間帯に頻繁に実行されます。"
 difficulty: "Beginner"

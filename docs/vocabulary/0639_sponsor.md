@@ -1,15 +1,17 @@
 ---
 id: "0639"
-term: sponsor
-type: word
+term: "sponsor"
+type: "word"
 partOfSpeech: noun
-meaningJa: "スポンサー、後援者"
 pronunciation: "/ˈspɑːn.sɚ/"
+description: "Person responsible for promoting changes and measures."
 descriptionJa: "変更や施策の推進責任者。"
+meaning: "sponsor, patron"
+meaningJa: "スポンサー、後援者"
 usageExample: "Identify a sponsor before starting cross-team migrations."
 usageExampleJa: "チーム横断移行前にスポンサーを決めます。"
-difficulty: Intermediate
-scene: Leadership / Management
+difficulty: "Intermediate"
+scene: "Leadership / Management"
 source:
   title: "Speed of Code Reviews - Google Engineering Practices"
   url: "https://google.github.io/eng-practices/review/reviewer/speed.html"

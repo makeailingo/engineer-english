@@ -1,15 +1,17 @@
 ---
 id: "0243"
-term: remove
-type: word
+term: "remove"
+type: "word"
 partOfSpeech: verb
-meaningJa: "削除する、取り除く"
 pronunciation: "/rɪˈmuːv/"
+description: "Remove unnecessary elements and data."
 descriptionJa: "不要な要素やデータを取り除く。"
+meaning: "delete, remove"
+meaningJa: "削除する、取り除く"
 usageExample: "Remove expired entries from the cache map."
 usageExampleJa: "期限切れエントリをキャッシュから削除します。"
-difficulty: Beginner
-scene: Implementation
+difficulty: "Beginner"
+scene: "Implementation"
 source:
   title: "MutationObserver - Web APIs | MDN"
   url: "https://developer.mozilla.org/en-US/docs/Web/API/MutationObserver"

@@ -2,10 +2,12 @@
 id: "0874"
 term: "observability"
 type: "word"
-partOfSpeech: "noun"
-meaningJa: "可観測性"
+partOfSpeech: noun
 pronunciation: "/əbˌzɝː.vəˈbɪl.ə.t̬i/"
+description: "The property of being able to understand the internal state from external data."
 descriptionJa: "内部状態を外部データから把握できる性質。"
+meaning: observability
+meaningJa: "可観測性"
 usageExample: "Improve observability before the next outage."
 usageExampleJa: "次障害前に可観測性を改善してください。"
 difficulty: "Intermediate"

@@ -2,10 +2,12 @@
 id: "0211"
 term: "inaccurate"
 type: "word"
-partOfSpeech: "adjective"
-meaningJa: "不正確な"
+partOfSpeech: adjective
 pronunciation: "/ɪnˈæk.jər.ət/"
+description: "Facts and figures are incorrect."
 descriptionJa: "事実や数値が誤っていること。"
+meaning: inaccurate
+meaningJa: "不正確な"
 usageExample: "The dashboard shows inaccurate error counts."
 usageExampleJa: "ダッシュボードのエラー数が不正確です。"
 difficulty: "Beginner"

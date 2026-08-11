@@ -1,15 +1,17 @@
 ---
 id: "0149"
-term: trade-off
-type: word
+term: "trade-off"
+type: "word"
 partOfSpeech: noun
-meaningJa: "トレードオフ、一方を得るために他方を犠牲にすること"
 pronunciation: "/ˈtreɪd.ɑːf/"
+description: "Compare conflicting advantages and disadvantages and choose a compromise."
 descriptionJa: "相反する利点と欠点を比較し、妥協点を選ぶこと。"
+meaning: "trade-off, sacrificing one thing to gain the other"
+meaningJa: "トレードオフ、一方を得るために他方を犠牲にすること"
 usageExample: "What trade-off does this caching strategy introduce?"
 usageExampleJa: "このキャッシュ戦略にはどのようなトレードオフがありますか。"
-difficulty: Intermediate
-scene: Code Review
+difficulty: "Intermediate"
+scene: "Code Review"
 source:
   title: "The Standard of Code Review"
   url: "https://google.github.io/eng-practices/review/reviewer/standard.html"

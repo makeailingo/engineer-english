@@ -2,10 +2,12 @@
 id: "0037"
 term: "approximate"
 type: "word"
-partOfSpeech: "adjective"
-meaningJa: "おおよその"
+partOfSpeech: adjective
 pronunciation: "/əˈprɑːk.sə.mət/"
+description: "Not strictly correct, but generally correct."
 descriptionJa: "厳密ではないが概ね正しいこと。"
+meaning: Approximate
+meaningJa: "おおよその"
 usageExample: "Give an approximate timeline for rollout."
 usageExampleJa: "ロールアウトの概算スケジュールを教えてください。"
 difficulty: "Beginner"

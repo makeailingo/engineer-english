@@ -1,15 +1,17 @@
 ---
 id: "0492"
-term: deliver
-type: word
+term: "deliver"
+type: "word"
 partOfSpeech: verb
-meaningJa: "提供する、配信する"
 pronunciation: "/dɪˈlɪv.ɚ/"
+description: "Deliver features and updates to users."
 descriptionJa: "機能や更新をユーザーへ届ける。"
+meaning: "provide, distribute"
+meaningJa: "提供する、配信する"
 usageExample: "We deliver features in small weekly releases."
 usageExampleJa: "小さな週次リリースで機能を提供します。"
-difficulty: Beginner
-scene: Sprint Planning
+difficulty: "Beginner"
+scene: "Sprint Planning"
 source:
   title: "Small CLs"
   url: "https://google.github.io/eng-practices/review/developer/small-cls.html"

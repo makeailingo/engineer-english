@@ -1,15 +1,17 @@
 ---
 id: "0203"
-term: generate
-type: word
+term: "generate"
+type: "word"
 partOfSpeech: verb
-meaningJa: "生成する、作り出す"
 pronunciation: "/ˈdʒen.ə.reɪt/"
+description: "Automatically generate code and data."
 descriptionJa: "コードやデータを自動的に作り出す。"
+meaning: "generate, create"
+meaningJa: "生成する、作り出す"
 usageExample: "Generate API clients from the OpenAPI specification."
 usageExampleJa: "OpenAPI仕様からAPIクライアントを生成します。"
-difficulty: Beginner
-scene: Implementation
+difficulty: "Beginner"
+scene: "Implementation"
 source:
   title: "Specification - Glossary | MDN"
   url: "https://developer.mozilla.org/en-US/docs/Glossary/Specification"

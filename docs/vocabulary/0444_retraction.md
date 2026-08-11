@@ -2,10 +2,12 @@
 id: "0444"
 term: "retraction"
 type: "word"
-partOfSpeech: "noun"
-meaningJa: "撤回"
+partOfSpeech: noun
 pronunciation: "/rɪˈtræk.ʃən/"
+description: "Withdrawing incorrect statements or suggestions."
 descriptionJa: "誤った発言や提案の取り下げ。"
+meaning: Retract
+meaningJa: "撤回"
 usageExample: "He posted a retraction on the RFC thread."
 usageExampleJa: "RFCスレッドで提案撤回を投稿しました。"
 difficulty: "Advanced"

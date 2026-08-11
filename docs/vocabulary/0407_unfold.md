@@ -1,14 +1,16 @@
 ---
 id: "0407"
-term: unfold
-type: word
+term: "unfold"
+type: "word"
 partOfSpeech: verb
-meaningJa: "展開する、アンフォールドする"
 pronunciation: "/ʌnˈfoʊld/"
+description: "Expand the folded structure."
 descriptionJa: "折りたたまれた構造を展開する。"
+meaning: "unfold, unfold"
+meaningJa: "展開する、アンフォールドする"
 usageExample: "Unfold nested JSON into flat key-value pairs."
 usageExampleJa: "ネストJSONをフラットなキー値へ展開します。"
-difficulty: Intermediate
+difficulty: "Intermediate"
 scene: "Implementation"
 source:
   title: "JSON.parse() - JavaScript | MDN"

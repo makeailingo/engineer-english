@@ -2,10 +2,12 @@
 id: "0329"
 term: "hypothetical"
 type: "word"
-partOfSpeech: "adjective"
-meaningJa: "仮定の"
+partOfSpeech: adjective
 pronunciation: "/ˌhaɪ.pəˈθet̬.ɪ.kəl/"
+description: "It's hypothetical rather than actual."
 descriptionJa: "実際ではなく想定上のこと。"
+meaning: Hypothetical
+meaningJa: "仮定の"
 usageExample: "This is a hypothetical failure scenario."
 usageExampleJa: "これは仮定の障害シナリオです。"
 difficulty: "Intermediate"

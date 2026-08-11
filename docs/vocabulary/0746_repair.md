@@ -2,10 +2,12 @@
 id: "0746"
 term: "repair"
 type: "word"
-partOfSpeech: "verb"
-meaningJa: "修復する"
+partOfSpeech: verb
 pronunciation: "/rɪˈper/"
+description: "Normalize the system after a failure."
 descriptionJa: "障害後にシステムを正常化すること。"
+meaning: repair
+meaningJa: "修復する"
 usageExample: "Repair corrupted rows before reopening traffic."
 usageExampleJa: "トラフィック再開前に破損した行を修復してください。"
 difficulty: "Intermediate"

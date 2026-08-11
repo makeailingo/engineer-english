@@ -2,10 +2,12 @@
 id: "0332"
 term: "inconsistency"
 type: "word"
-partOfSpeech: "noun"
-meaningJa: "不整合"
+partOfSpeech: noun
 pronunciation: "/ˌɪn.kənˈsɪs.t̬ən.si/"
+description: "A state where rules and data do not match."
 descriptionJa: "ルールやデータが一致しない状態。"
+meaning: inconsistency
+meaningJa: "不整合"
 usageExample: "Fix the inconsistency in error codes."
 usageExampleJa: "エラーコードの不整合を修正してください。"
 difficulty: "Intermediate"

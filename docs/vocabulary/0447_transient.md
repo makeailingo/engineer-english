@@ -2,10 +2,12 @@
 id: "0447"
 term: "transient"
 type: "word"
-partOfSpeech: "adjective"
-meaningJa: "一過性の"
+partOfSpeech: adjective
 pronunciation: "/ˈtræn.zi.ənt/"
+description: "Represents a temporary phenomenon that disappears quickly."
 descriptionJa: "すぐに消える一時的な現象を表す。"
+meaning: temporary
+meaningJa: "一過性の"
 usageExample: "Retry only on transient network errors."
 usageExampleJa: "一過性のネットワークエラーの場合だけ再試行してください。"
 difficulty: "Advanced"

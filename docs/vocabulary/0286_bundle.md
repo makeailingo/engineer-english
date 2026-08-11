@@ -1,15 +1,17 @@
 ---
 id: "0286"
-term: bundle
-type: word
+term: "bundle"
+type: "word"
 partOfSpeech: noun
-meaningJa: "バンドル、束ねた配布単位"
 pronunciation: "/ˈbʌn.dəl/"
+description: "A distribution unit that bundles multiple modules."
 descriptionJa: "複数モジュールを束ねた配布単位。"
+meaning: "bundle, bundled distribution unit"
+meaningJa: "バンドル、束ねた配布単位"
 usageExample: "Split the bundle to reduce initial page load time."
 usageExampleJa: "初期読み込み短縮のためバンドルを分割します。"
-difficulty: Intermediate
-scene: Implementation
+difficulty: "Intermediate"
+scene: "Implementation"
 source:
   title: "Express deployment - Learn web development | MDN"
   url: "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/deployment"

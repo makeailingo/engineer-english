@@ -1,15 +1,17 @@
 ---
 id: "0314"
-term: dispatch
-type: word
+term: "dispatch"
+type: "word"
 partOfSpeech: verb
-meaningJa: "送出する、発行する"
 pronunciation: "/dɪˈspætʃ/"
+description: "To send an event to a target synchronously."
 descriptionJa: "対象へイベントを同期的に送出すること。"
+meaning: "send out, issue"
+meaningJa: "送出する、発行する"
 usageExample: "Dispatch a change event after updating the input."
 usageExampleJa: "入力更新後にchangeイベントを送出してください。"
-difficulty: Intermediate
-scene: Implementation
+difficulty: "Intermediate"
+scene: "Implementation"
 source:
   title: "EventTarget: dispatchEvent() method - Web APIs | MDN"
   url: "https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/dispatchEvent"

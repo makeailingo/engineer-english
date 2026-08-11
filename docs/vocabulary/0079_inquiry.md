@@ -2,10 +2,12 @@
 id: "0079"
 term: "inquiry"
 type: "word"
-partOfSpeech: "noun"
-meaningJa: "問い合わせ"
+partOfSpeech: noun
 pronunciation: "/ɪnˈkwaɪr.i/"
+description: "Questions that request information or confirmation."
 descriptionJa: "情報や確認を求める質問。"
+meaning: inquiry
+meaningJa: "問い合わせ"
 usageExample: "Open an inquiry with the platform team."
 usageExampleJa: "プラットフォームチームへ問い合わせてください。"
 difficulty: "Intermediate"

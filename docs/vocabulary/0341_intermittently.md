@@ -2,10 +2,12 @@
 id: "0341"
 term: "intermittently"
 type: "word"
-partOfSpeech: "adverb"
-meaningJa: "断続的に"
+partOfSpeech: adverb
 pronunciation: "/ˌɪn.t̬ɚˈmɪt̬.ənt.li/"
+description: "It refers to the irregular repetition of waking up and stopping."
 descriptionJa: "起きたり止んだりを不規則に繰り返すことを表す。"
+meaning: intermittently
+meaningJa: "断続的に"
 usageExample: "The test fails intermittently on CI."
 usageExampleJa: "このテストはCI上で断続的に失敗します。"
 difficulty: "Intermediate"

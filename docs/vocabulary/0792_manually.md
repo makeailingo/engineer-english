@@ -2,10 +2,12 @@
 id: "0792"
 term: "manually"
 type: "word"
-partOfSpeech: "adverb"
-meaningJa: "手動で"
+partOfSpeech: adverb
 pronunciation: "/ˈmæn.ju.əl.i/"
+description: "It means to be done manually rather than by automation."
 descriptionJa: "自動化ではなく人の手でという意味を表す。"
+meaning: manually
+meaningJa: "手動で"
 usageExample: "Restart the service manually if automation fails."
 usageExampleJa: "自動化が失敗したらサービスを手動で再起動してください。"
 difficulty: "Beginner"

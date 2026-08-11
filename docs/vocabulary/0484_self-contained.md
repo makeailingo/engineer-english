@@ -1,15 +1,17 @@
 ---
 id: "0484"
-term: self-contained
-type: word
+term: "self-contained"
+type: "word"
 partOfSpeech: adjective
-meaningJa: "自己完結した、単独で成り立つ"
 pronunciation: "/ˌself.kənˈteɪnd/"
+description: "Represents a unit of change that can be understood and reviewed independently."
 descriptionJa: "単独で理解・レビューできる変更単位を表す。"
+meaning: "self-contained, independent"
+meaningJa: "自己完結した、単独で成り立つ"
 usageExample: "Each sprint item should produce a self-contained change."
 usageExampleJa: "各項目を自己完結した変更にしてください。"
-difficulty: Intermediate
-scene: Sprint Planning
+difficulty: "Intermediate"
+scene: "Sprint Planning"
 source:
   title: "Small CLs | eng-practices"
   url: "https://google.github.io/eng-practices/review/developer/small-cls.html"

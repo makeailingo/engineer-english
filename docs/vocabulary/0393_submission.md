@@ -2,10 +2,12 @@
 id: "0393"
 term: "submission"
 type: "word"
-partOfSpeech: "noun"
-meaningJa: "提出"
+partOfSpeech: noun
 pronunciation: "/səbˈmɪʃ.ən/"
+description: "Formal submission for review and approval."
 descriptionJa: "レビューや承認のための正式提出。"
+meaning: submission
+meaningJa: "提出"
 usageExample: "Submit the RFC before the architecture submission."
 usageExampleJa: "アーキ提出前にRFCを提出してください。"
 difficulty: "Intermediate"

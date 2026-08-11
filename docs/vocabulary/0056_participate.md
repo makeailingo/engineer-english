@@ -2,10 +2,12 @@
 id: "0056"
 term: "participate"
 type: "word"
-partOfSpeech: "verb"
-meaningJa: "参加する"
+partOfSpeech: verb
 pronunciation: "/pɑːrˈtɪs.ə.peɪt/"
+description: "Be involved in reviews and meetings."
 descriptionJa: "レビューや会議に関与すること。"
+meaning: participate
+meaningJa: "参加する"
 usageExample: "Please participate in tomorrow's design review."
 usageExampleJa: "明日の設計レビューに参加してください。"
 difficulty: "Beginner"

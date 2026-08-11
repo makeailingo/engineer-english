@@ -2,10 +2,12 @@
 id: "0057"
 term: "prepare"
 type: "word"
-partOfSpeech: "verb"
-meaningJa: "準備する"
+partOfSpeech: verb
 pronunciation: "/prɪˈper/"
+description: "Preparing for releases and meetings in advance."
 descriptionJa: "リリースや会議の事前準備をすること。"
+meaning: prepare
+meaningJa: "準備する"
 usageExample: "Prepare a demo for the stakeholder meeting."
 usageExampleJa: "ステークホルダー会議用デモを準備してください。"
 difficulty: "Beginner"

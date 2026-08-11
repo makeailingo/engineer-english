@@ -1,15 +1,17 @@
 ---
 id: "0326"
-term: guard
-type: word
+term: "guard"
+type: "word"
 partOfSpeech: noun
-meaningJa: "ガード、条件保護"
 pronunciation: "/ɡɑːrd/"
+description: "Condition checks to prevent incorrect conditions."
 descriptionJa: "不正状態を防ぐ条件チェック。"
+meaning: "guard, condition protection"
+meaningJa: "ガード、条件保護"
 usageExample: "Add a null guard before dereferencing the pointer."
 usageExampleJa: "ポインタ参照前にnullガードを追加します。"
-difficulty: Intermediate
-scene: Implementation
+difficulty: "Intermediate"
+scene: "Implementation"
 source:
   title: "What to look for in a code review - Google Engineering Practices"
   url: "https://google.github.io/eng-practices/review/reviewer/looking-for.html"

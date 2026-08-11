@@ -1,15 +1,17 @@
 ---
 id: "0247"
-term: resolve
-type: word
+term: "resolve"
+type: "word"
 partOfSpeech: verb
-meaningJa: "解決する、決定する"
 pronunciation: "/rɪˈzɑːlv/"
+description: "Solve problems and promises."
 descriptionJa: "問題やPromiseを解決する。"
+meaning: "solve, decide"
+meaningJa: "解決する、決定する"
 usageExample: "Resolve the promise when the download completes."
 usageExampleJa: "ダウンロード完了時にPromiseを解決します。"
-difficulty: Beginner
-scene: Implementation
+difficulty: "Beginner"
+scene: "Implementation"
 source:
   title: "Fetch API - Web APIs | MDN"
   url: "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API"

@@ -1,15 +1,17 @@
 ---
 id: "0186"
-term: crash
-type: word
+term: "crash"
+type: "word"
 partOfSpeech: verb
-meaningJa: "クラッシュする、異常終了する"
 pronunciation: "/kræʃ/"
+description: "Processes stop unexpectedly."
 descriptionJa: "プロセスが予期せず停止する。"
+meaning: "Crashes or terminates abnormally"
+meaningJa: "クラッシュする、異常終了する"
 usageExample: "The worker process crashes when memory runs out."
 usageExampleJa: "メモリ不足でワーカープロセスが停止します。"
-difficulty: Beginner
-scene: Debugging
+difficulty: "Beginner"
+scene: "Debugging"
 source:
   title: "Performance fundamentals - Performance | MDN"
   url: "https://developer.mozilla.org/en-US/docs/Web/Performance/Guides/Fundamentals"

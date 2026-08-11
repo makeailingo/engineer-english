@@ -1,15 +1,17 @@
 ---
 id: "0888"
-term: replicate
-type: word
+term: "replicate"
+type: "word"
 partOfSpeech: verb
-meaningJa: "複製する、レプリケートする"
 pronunciation: "/ˈrep.lɪ.keɪt/"
+description: "Duplicate data and settings to another environment."
 descriptionJa: "データや設定を別環境へ複製する。"
+meaning: "duplicate, replicate"
+meaningJa: "複製する、レプリケートする"
 usageExample: "Replicate the schema to the standby region."
 usageExampleJa: "スキーマを待機リージョンへ複製します。"
-difficulty: Intermediate
-scene: Infrastructure / Cloud
+difficulty: "Intermediate"
+scene: "Infrastructure / Cloud"
 source:
   title: "Non-Abstract Large Scale Design Workbook"
   url: "https://static.googleusercontent.com/media/sre.google/en//static/pdf/nalsd-workbook-a4.pdf"

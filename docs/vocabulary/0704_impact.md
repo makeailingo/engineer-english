@@ -2,10 +2,12 @@
 id: "0704"
 term: "impact"
 type: "word"
-partOfSpeech: "noun"
-meaningJa: "影響"
+partOfSpeech: noun
 pronunciation: "/ˈɪm.pækt/"
+description: "Effects of failures on users and operations."
 descriptionJa: "障害が及ぼすユーザー・業務への作用。"
+meaning: influence
+meaningJa: "影響"
 usageExample: "Assess customer impact before closing the incident."
 usageExampleJa: "インシデント終了前に顧客影響を評価してください。"
 difficulty: "Beginner"

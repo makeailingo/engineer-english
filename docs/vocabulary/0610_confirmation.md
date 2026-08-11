@@ -2,10 +2,12 @@
 id: "0610"
 term: "confirmation"
 type: "word"
-partOfSpeech: "noun"
-meaningJa: "確認"
+partOfSpeech: noun
 pronunciation: "/ˌkɑːn.fɚˈmeɪ.ʃən/"
+description: "Confirm that understanding and agreement are correct."
 descriptionJa: "理解や合意が正しいかの確認。"
+meaning: confirmation
+meaningJa: "確認"
 usageExample: "Awaiting confirmation from the data owner."
 usageExampleJa: "データ所有者の確認待ちです。"
 difficulty: "Beginner"

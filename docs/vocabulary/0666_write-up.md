@@ -2,10 +2,12 @@
 id: "0666"
 term: "write-up"
 type: "phrase"
-partOfSpeech: "phrase"
-meaningJa: "報告書"
+partOfSpeech: phrase
 pronunciation: "/ˈraɪt ʌp/"
+description: "A report documenting the problem."
 descriptionJa: "障害内容を文書化した報告。"
+meaning: report
+meaningJa: "報告書"
 usageExample: "Publish the write-up within forty-eight hours."
 usageExampleJa: "48時間以内に報告書を公開してください。"
 difficulty: "Intermediate"

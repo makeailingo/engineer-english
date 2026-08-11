@@ -2,10 +2,12 @@
 id: "0573"
 term: "disproportionate"
 type: "word"
-partOfSpeech: "adjective"
-meaningJa: "不均衡な"
+partOfSpeech: adjective
 pronunciation: "/ˌdɪs.prəˈpɔːr.ʃən.ət/"
+description: "Something that is too large or too small relative to its size."
 descriptionJa: "規模に対して過大または過小なこと。"
+meaning: unbalanced
+meaningJa: "不均衡な"
 usageExample: "The fix effort seems disproportionate."
 usageExampleJa: "修正工数が問題規模に対して不均衡です。"
 difficulty: "Advanced"

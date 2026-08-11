@@ -2,10 +2,12 @@
 id: "0561"
 term: "reassess"
 type: "word"
-partOfSpeech: "verb"
-meaningJa: "再評価する"
+partOfSpeech: verb
 pronunciation: "/ˌriː.əˈses/"
+description: "Review decisions after changing circumstances."
 descriptionJa: "状況変化後に判断を見直すこと。"
+meaning: re-evaluate
+meaningJa: "再評価する"
 usageExample: "Reassess priorities after the outage."
 usageExampleJa: "障害後に優先度を再評価してください。"
 difficulty: "Intermediate"

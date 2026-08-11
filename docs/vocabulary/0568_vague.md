@@ -2,10 +2,12 @@
 id: "0568"
 term: "vague"
 type: "word"
-partOfSpeech: "adjective"
-meaningJa: "曖昧な"
+partOfSpeech: adjective
 pronunciation: "/veɪɡ/"
+description: "It indicates that the content is vague and cannot be specified."
 descriptionJa: "内容がぼんやりして特定できない様子を表す。"
+meaning: ambiguous
+meaningJa: "曖昧な"
 usageExample: "The ticket description is too vague to estimate."
 usageExampleJa: "チケットの説明が曖昧すぎて見積もれません。"
 difficulty: "Intermediate"

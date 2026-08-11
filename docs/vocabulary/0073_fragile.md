@@ -2,10 +2,12 @@
 id: "0073"
 term: "fragile"
 type: "word"
-partOfSpeech: "adjective"
-meaningJa: "脆い"
+partOfSpeech: adjective
 pronunciation: "/ˈfrædʒ.əl/"
+description: "Easily broken by small changes."
 descriptionJa: "小さな変更で壊れやすいこと。"
+meaning: brittle
+meaningJa: "脆い"
 usageExample: "This integration is fragile under load."
 usageExampleJa: "この連携は負荷下で脆くなります。"
 difficulty: "Intermediate"

@@ -2,10 +2,12 @@
 id: "0084"
 term: "misleading"
 type: "word"
-partOfSpeech: "adjective"
-meaningJa: "誤解を招く"
+partOfSpeech: adjective
 pronunciation: "/mɪsˈliː.d̬ɪŋ/"
+description: "To give an impression that is different from the reality."
 descriptionJa: "実態と異なる印象を与えること。"
+meaning: misleading
+meaningJa: "誤解を招く"
 usageExample: "The metric name is misleading for on-call."
 usageExampleJa: "その指標名はオンコールに誤解を招きます。"
 difficulty: "Intermediate"

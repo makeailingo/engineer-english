@@ -2,10 +2,12 @@
 id: "0520"
 term: "acceptance"
 type: "word"
-partOfSpeech: "noun"
-meaningJa: "受け入れ"
+partOfSpeech: noun
 pronunciation: "/əkˈsep.t̬əns/"
+description: "Requirements and deliverables are recognized as passing."
 descriptionJa: "要件や成果物が合格と認められること。"
+meaning: accept
+meaningJa: "受け入れ"
 usageExample: "Get product acceptance before closing the epic."
 usageExampleJa: "エピック完了前にプロダクトの受け入れを得てください。"
 difficulty: "Intermediate"

@@ -2,10 +2,12 @@
 id: "0127"
 term: "propose"
 type: "word"
-partOfSpeech: "verb"
-meaningJa: "提案する"
+partOfSpeech: verb
 pronunciation: "/prəˈpoʊz/"
+description: "Presenting solutions and strategies to the team."
 descriptionJa: "解決策や方針をチームに示すこと。"
+meaning: suggest
+meaningJa: "提案する"
 usageExample: "I propose splitting this service into two."
 usageExampleJa: "このサービスを二つに分ける案を提案します。"
 difficulty: "Beginner"

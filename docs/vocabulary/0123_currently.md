@@ -2,10 +2,12 @@
 id: "0123"
 term: "currently"
 type: "word"
-partOfSpeech: "adverb"
-meaningJa: "現在は"
+partOfSpeech: adverb
 pronunciation: "/ˈkɝː.ənt.li/"
+description: "Represents the current state."
 descriptionJa: "今の時点での状態を表す。"
+meaning: Currently
+meaningJa: "現在は"
 usageExample: "The service is currently in maintenance mode."
 usageExampleJa: "サービスは現在メンテナンスモードです。"
 difficulty: "Beginner"

@@ -2,10 +2,12 @@
 id: "0846"
 term: "dominant"
 type: "word"
-partOfSpeech: "adjective"
-meaningJa: "支配的な"
+partOfSpeech: adjective
 pronunciation: "/ˈdɑː.mə.nənt/"
+description: "Is more influential or frequent than others."
 descriptionJa: "他より影響や頻度が大きいこと。"
+meaning: dominant
+meaningJa: "支配的な"
 usageExample: "CPU wait is the dominant bottleneck."
 usageExampleJa: "CPU待ちが支配的なボトルネックです。"
 difficulty: "Intermediate"

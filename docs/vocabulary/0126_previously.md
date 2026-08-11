@@ -2,10 +2,12 @@
 id: "0126"
 term: "previously"
 type: "word"
-partOfSpeech: "adverb"
-meaningJa: "以前は"
+partOfSpeech: adverb
 pronunciation: "/ˈpriː.vi.əs.li/"
+description: "Represents the state up to a certain point in the past."
 descriptionJa: "過去のある時点までの状態を表す。"
+meaning: Previously
+meaningJa: "以前は"
 usageExample: "This endpoint previously returned XML."
 usageExampleJa: "このエンドポイントは以前XMLを返していました。"
 difficulty: "Beginner"

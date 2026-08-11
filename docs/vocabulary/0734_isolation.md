@@ -2,10 +2,12 @@
 id: "0734"
 term: "isolation"
 type: "word"
-partOfSpeech: "noun"
-meaningJa: "隔離"
+partOfSpeech: noun
 pronunciation: "/ˌaɪ.səˈleɪ.ʃən/"
+description: "Separate and seal off the area of ​​failure."
 descriptionJa: "障害範囲を切り離して封じること。"
+meaning: isolation
+meaningJa: "隔離"
 usageExample: "Isolation prevented cross-region failure."
 usageExampleJa: "隔離でリージョン間障害を防ぎました。"
 difficulty: "Intermediate"

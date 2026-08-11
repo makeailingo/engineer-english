@@ -2,10 +2,12 @@
 id: "0276"
 term: "apparently"
 type: "word"
-partOfSpeech: "adverb"
-meaningJa: "どうやら〜らしい"
+partOfSpeech: adverb
 pronunciation: "/əˈper.ənt.li/"
+description: "Expresses an estimate based on what has been seen and heard."
 descriptionJa: "見聞きした範囲での推定を表す。"
+meaning: Apparently...
+meaningJa: "どうやら〜らしい"
 usageExample: "Apparently the cron job never ran."
 usageExampleJa: "どうやらcronジョブは一度も実行されていません。"
 difficulty: "Intermediate"

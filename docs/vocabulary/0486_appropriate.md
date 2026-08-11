@@ -2,10 +2,12 @@
 id: "0486"
 term: "appropriate"
 type: "word"
-partOfSpeech: "adjective"
-meaningJa: "適切な"
+partOfSpeech: adjective
 pronunciation: "/əˈproʊ.pri.ət/"
+description: "Be appropriate for the situation or purpose."
 descriptionJa: "状況や目的に合っていること。"
+meaning: appropriate
+meaningJa: "適切な"
 usageExample: "Use an appropriate retry policy here."
 usageExampleJa: "ここでは適切な再試行方針を使ってください。"
 difficulty: "Beginner"

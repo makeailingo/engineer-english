@@ -2,10 +2,12 @@
 id: "0612"
 term: "decision"
 type: "word"
-partOfSpeech: "noun"
-meaningJa: "決定"
+partOfSpeech: noun
 pronunciation: "/dɪˈsɪʒ.ən/"
+description: "The result of deciding on a policy from the options."
 descriptionJa: "選択肢から方針が確定した結果。"
+meaning: Set
+meaningJa: "決定"
 usageExample: "We need a decision on the auth provider."
 usageExampleJa: "認証プロバイダの決定が必要です。"
 difficulty: "Beginner"

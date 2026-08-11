@@ -2,10 +2,12 @@
 id: "0429"
 term: "deferral"
 type: "word"
-partOfSpeech: "noun"
-meaningJa: "延期"
+partOfSpeech: noun
 pronunciation: "/dɪˈfɝː.əl/"
+description: "To postpone judgment or work until later."
 descriptionJa: "判断や作業を後に回すこと。"
+meaning: postponement
+meaningJa: "延期"
 usageExample: "The deferral gives us time for testing."
 usageExampleJa: "延期でテスト時間が確保できました。"
 difficulty: "Advanced"

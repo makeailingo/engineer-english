@@ -1,15 +1,17 @@
 ---
 id: "0244"
-term: render
-type: word
+term: "render"
+type: "word"
 partOfSpeech: verb
-meaningJa: "描画する、レンダリングする"
 pronunciation: "/ˈren.dɚ/"
+description: "Draw data to the UI or screen."
 descriptionJa: "データをUIや画面に描画する。"
+meaning: "draw, render"
+meaningJa: "描画する、レンダリングする"
 usageExample: "Render the chart after the API response arrives."
 usageExampleJa: "API応答後にチャートを描画します。"
-difficulty: Beginner
-scene: Implementation
+difficulty: "Beginner"
+scene: "Implementation"
 source:
   title: "Intersection Observer API - Web APIs | MDN"
   url: "https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API"

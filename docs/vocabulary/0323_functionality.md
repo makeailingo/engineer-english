@@ -1,15 +1,17 @@
 ---
 id: "0323"
-term: functionality
-type: word
+term: "functionality"
+type: "word"
 partOfSpeech: noun
-meaningJa: "機能、機能性"
 pronunciation: "/ˌfʌŋk.ʃənˈæl.ə.t̬i/"
+description: "The functionality or behavior provided by the code or system."
 descriptionJa: "コードやシステムが提供する機能や動作。"
+meaning: "function, functionality"
+meaningJa: "機能、機能性"
 usageExample: "Please verify the new search functionality."
 usageExampleJa: "新しい検索機能を確認してもらえますか。"
-difficulty: Intermediate
-scene: Code Review
+difficulty: "Intermediate"
+scene: "Code Review"
 source:
   title: "What to look for in a code review"
   url: "https://google.github.io/eng-practices/review/reviewer/looking-for.html"

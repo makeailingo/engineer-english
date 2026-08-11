@@ -1,15 +1,17 @@
 ---
 id: "0861"
-term: invalidate
-type: word
+term: "invalidate"
+type: "word"
 partOfSpeech: verb
-meaningJa: "無効化する"
 pronunciation: "/ɪnˈvæl.ə.deɪt/"
+description: "Disable cache and sessions."
 descriptionJa: "キャッシュやセッションを使えなくする。"
+meaning: Disable
+meaningJa: "無効化する"
 usageExample: "Invalidate cached entries after deploying the schema change."
 usageExampleJa: "スキーマ変更デプロイ後にキャッシュを無効化します。"
-difficulty: Intermediate
-scene: Performance
+difficulty: "Intermediate"
+scene: "Performance"
 source:
   title: "Cache - Web APIs | MDN"
   url: "https://developer.mozilla.org/en-US/docs/Web/API/Cache"

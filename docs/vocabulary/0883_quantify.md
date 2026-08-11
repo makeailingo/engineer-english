@@ -2,10 +2,12 @@
 id: "0883"
 term: "quantify"
 type: "word"
-partOfSpeech: "verb"
-meaningJa: "数値化する"
+partOfSpeech: verb
 pronunciation: "/ˈkwɑːn.t̬ə.faɪ/"
+description: "Show the impact and improvement numerically."
 descriptionJa: "影響や改善を数値で示すこと。"
+meaning: quantify
+meaningJa: "数値化する"
 usageExample: "Quantify the latency gain from caching."
 usageExampleJa: "キャッシュによる遅延改善を数値化してください。"
 difficulty: "Intermediate"

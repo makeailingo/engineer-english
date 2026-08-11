@@ -2,10 +2,12 @@
 id: "0340"
 term: "intentional"
 type: "word"
-partOfSpeech: "adjective"
-meaningJa: "意図的な"
+partOfSpeech: adjective
 pronunciation: "/ɪnˈten.ʃən.əl/"
+description: "It wasn't a coincidence, it was planned."
 descriptionJa: "偶然ではなく計画されたこと。"
+meaning: intentional
+meaningJa: "意図的な"
 usageExample: "The breaking change was intentional."
 usageExampleJa: "破壊的変更は意図的なものでした。"
 difficulty: "Intermediate"

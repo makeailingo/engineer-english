@@ -2,10 +2,12 @@
 id: "0050"
 term: "inadequate"
 type: "word"
-partOfSpeech: "adjective"
-meaningJa: "不十分な"
+partOfSpeech: adjective
 pronunciation: "/ɪnˈæd.ə.kwət/"
+description: "Failure to meet required standards or quantities."
 descriptionJa: "必要な基準や量を満たさないこと。"
+meaning: insufficient
+meaningJa: "不十分な"
 usageExample: "Monitoring is inadequate for this service."
 usageExampleJa: "このサービスの監視は不十分です。"
 difficulty: "Beginner"

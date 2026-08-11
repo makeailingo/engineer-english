@@ -1,15 +1,17 @@
 ---
 id: "0616"
-term: maintain
-type: word
+term: "maintain"
+type: "word"
 partOfSpeech: verb
-meaningJa: "保守する、維持する"
 pronunciation: "/meɪnˈteɪn/"
+description: "Continuously manage and update the system."
 descriptionJa: "システムを継続的に管理・更新する。"
+meaning: "maintain, maintain"
+meaningJa: "保守する、維持する"
 usageExample: "Maintain backward compatibility for one release cycle."
 usageExampleJa: "1リリースサイクルの間、後方互換性を維持します。"
-difficulty: Beginner
-scene: Leadership / Management
+difficulty: "Beginner"
+scene: "Leadership / Management"
 source:
   title: "Standard code review"
   url: "https://google.github.io/eng-practices/review/reviewer/standard.html"

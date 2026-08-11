@@ -2,10 +2,12 @@
 id: "0866"
 term: "legitimate"
 type: "word"
-partOfSpeech: "adjective"
-meaningJa: "正当な"
+partOfSpeech: adjective
 pronunciation: "/ləˈdʒɪt̬.ə.mət/"
+description: "What is accepted by rules and common sense."
 descriptionJa: "規則や常識上認められること。"
+meaning: legitimate
+meaningJa: "正当な"
 usageExample: "That is a legitimate security concern."
 usageExampleJa: "それは正当なセキュリティ懸念です。"
 difficulty: "Intermediate"

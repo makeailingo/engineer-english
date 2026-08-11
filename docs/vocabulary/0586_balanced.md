@@ -2,10 +2,12 @@
 id: "0586"
 term: "balanced"
 type: "word"
-partOfSpeech: "adjective"
-meaningJa: "バランスの取れた"
+partOfSpeech: adjective
 pronunciation: "/ˈbæl.ənst/"
+description: "Being balanced without being extreme."
 descriptionJa: "極端なく調和が取れていること。"
+meaning: balanced
+meaningJa: "バランスの取れた"
 usageExample: "We need a balanced approach to consistency."
 usageExampleJa: "整合性にはバランスの取れた方針が必要です。"
 difficulty: "Intermediate"

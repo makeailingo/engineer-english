@@ -2,10 +2,12 @@
 id: "0515"
 term: "requirement"
 type: "word"
-partOfSpeech: "noun"
-meaningJa: "要件"
+partOfSpeech: noun
 pronunciation: "/rɪˈkwaɪr.mənt/"
+description: "Conditions that the system must meet."
 descriptionJa: "システムが満たすべき条件。"
+meaning: requirements
+meaningJa: "要件"
 usageExample: "Each requirement needs clear acceptance criteria."
 usageExampleJa: "各要件に明確な受け入れ基準を書いてください。"
 difficulty: "Beginner"

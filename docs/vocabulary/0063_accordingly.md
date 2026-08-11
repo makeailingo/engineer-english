@@ -2,10 +2,12 @@
 id: "0063"
 term: "accordingly"
 type: "word"
-partOfSpeech: "adverb"
-meaningJa: "それに応じて"
+partOfSpeech: adverb
 pronunciation: "/əˈkɔːr.dɪŋ.li/"
+description: "Represents responding in accordance with changing circumstances."
 descriptionJa: "状況の変化に合わせて対応することを表す。"
+meaning: accordingly
+meaningJa: "それに応じて"
 usageExample: "Update the documentation accordingly."
 usageExampleJa: "それに合わせてドキュメントも更新してください。"
 difficulty: "Intermediate"

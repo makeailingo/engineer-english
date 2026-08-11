@@ -2,10 +2,12 @@
 id: "0619"
 term: "refuse"
 type: "word"
-partOfSpeech: "verb"
-meaningJa: "拒否する"
+partOfSpeech: verb
 pronunciation: "/rɪˈfjuːz/"
+description: "Failure to explicitly accept requests or changes."
 descriptionJa: "要求や変更を明確に受け入れないこと。"
+meaning: refuse
+meaningJa: "拒否する"
 usageExample: "We refused the request without a security review."
 usageExampleJa: "セキュリティレビューなしの要求は拒否しました。"
 difficulty: "Beginner"

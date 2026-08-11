@@ -1,15 +1,17 @@
 ---
 id: "0606"
-term: segment
-type: word
+term: "segment"
+type: "word"
 partOfSpeech: noun
-meaningJa: "セグメント、区間"
 pronunciation: "/ˈseɡ.mənt/"
+description: "Divided parts and user groups."
 descriptionJa: "分割された部分やユーザー群。"
+meaning: "segment, interval"
+meaningJa: "セグメント、区間"
 usageExample: "Route each traffic segment through dedicated pools."
 usageExampleJa: "各トラフィックセグメントを専用プールへ振り分けます。"
-difficulty: Intermediate
-scene: Architecture
+difficulty: "Intermediate"
+scene: "Architecture"
 source:
   title: "RUM vs. synthetic monitoring - Performance | MDN"
   url: "https://developer.mozilla.org/en-US/docs/Web/Performance/Guides/Rum-vs-Synthetic"

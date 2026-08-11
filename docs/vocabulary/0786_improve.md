@@ -2,10 +2,12 @@
 id: "0786"
 term: "improve"
 type: "word"
-partOfSpeech: "verb"
-meaningJa: "改善する"
+partOfSpeech: verb
 pronunciation: "/ɪmˈpruːv/"
+description: "Improve quality and performance."
 descriptionJa: "品質や性能をより良くすること。"
+meaning: Improve
+meaningJa: "改善する"
 usageExample: "This change improves cold start latency."
 usageExampleJa: "この変更はコールドスタート遅延を改善します。"
 difficulty: "Beginner"

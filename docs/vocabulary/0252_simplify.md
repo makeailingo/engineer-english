@@ -2,10 +2,12 @@
 id: "0252"
 term: "simplify"
 type: "word"
-partOfSpeech: "verb"
-meaningJa: "単純化する"
+partOfSpeech: verb
 pronunciation: "/ˈsɪm.plə.faɪ/"
+description: "Making complex things easy to understand."
 descriptionJa: "複雑なものを分かりやすい形にすること。"
+meaning: simplify
+meaningJa: "単純化する"
 usageExample: "Can you simplify this nested logic?"
 usageExampleJa: "この入れ子のロジックを単純化できますか。"
 difficulty: "Beginner"

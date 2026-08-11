@@ -2,10 +2,12 @@
 id: "0052"
 term: "misunderstanding"
 type: "word"
-partOfSpeech: "noun"
-meaningJa: "誤解"
+partOfSpeech: noun
 pronunciation: "/ˌmɪs.ʌn.dɚˈstæn.dɪŋ/"
+description: "To misunderstand someone else's intentions."
 descriptionJa: "相手の意図を誤って理解すること。"
+meaning: misunderstanding
+meaningJa: "誤解"
 usageExample: "Clear docs prevent misunderstanding of retries."
 usageExampleJa: "明確な文書で再試行の誤解を防げます。"
 difficulty: "Beginner"

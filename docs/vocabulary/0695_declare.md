@@ -2,10 +2,12 @@
 id: "0695"
 term: "declare"
 type: "word"
-partOfSpeech: "verb"
-meaningJa: "宣言する、明示する"
+partOfSpeech: verb
 pronunciation: "/dɪˈkler/"
+description: "To officially state a policy or condition."
 descriptionJa: "方針や状態を公式に示すこと。"
+meaning: declare
+meaningJa: "宣言する、明示する"
 usageExample: "We declared the incident resolved at noon."
 usageExampleJa: "正午にインシデント解消を宣言しました。"
 difficulty: "Beginner"

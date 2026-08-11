@@ -2,10 +2,12 @@
 id: "0075"
 term: "incremental"
 type: "word"
-partOfSpeech: "adjective"
-meaningJa: "段階的な"
+partOfSpeech: adjective
 pronunciation: "/ˌɪŋ.krəˈmen.t̬əl/"
+description: "Proceed in small steps."
 descriptionJa: "小さなステップで進めること。"
+meaning: gradual
+meaningJa: "段階的な"
 usageExample: "Prefer incremental migration over big bang."
 usageExampleJa: "一括より段階的移行を優先してください。"
 difficulty: "Intermediate"

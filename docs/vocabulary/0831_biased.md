@@ -2,10 +2,12 @@
 id: "0831"
 term: "biased"
 type: "word"
-partOfSpeech: "adjective"
-meaningJa: "偏った"
+partOfSpeech: adjective
 pronunciation: "/ˈbaɪ.əst/"
+description: "Being unfairly tilted in a particular direction."
 descriptionJa: "特定方向へ不公平に傾いていること。"
+meaning: biased
+meaningJa: "偏った"
 usageExample: "This benchmark setup looks biased."
 usageExampleJa: "このベンチマーク設定は偏っています。"
 difficulty: "Intermediate"

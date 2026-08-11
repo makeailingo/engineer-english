@@ -1,15 +1,17 @@
 ---
 id: "0188"
-term: detect
-type: word
+term: "detect"
+type: "word"
 partOfSpeech: verb
-meaningJa: "検出する、発見する"
 pronunciation: "/dɪˈtekt/"
+description: "Automatically find anomalies and patterns."
 descriptionJa: "異常やパターンを自動的に見つける。"
+meaning: "detect, discover"
+meaningJa: "検出する、発見する"
 usageExample: "Detect memory leaks with periodic heap snapshots."
 usageExampleJa: "定期的なヒープスナップショットでメモリリークを検出します。"
-difficulty: Beginner
-scene: Debugging
+difficulty: "Beginner"
+scene: "Debugging"
 source:
   title: "console.trace() - Web APIs | MDN"
   url: "https://developer.mozilla.org/en-US/docs/Web/API/console/trace_static"

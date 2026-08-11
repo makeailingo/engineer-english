@@ -2,10 +2,12 @@
 id: "0590"
 term: "credible"
 type: "word"
-partOfSpeech: "adjective"
-meaningJa: "信頼できる"
+partOfSpeech: adjective
 pronunciation: "/ˈkred.ə.bəl/"
+description: "Be grounded and trustworthy."
 descriptionJa: "根拠があり信頼に値すること。"
+meaning: reliable
+meaningJa: "信頼できる"
 usageExample: "Do we have a credible rollback plan?"
 usageExampleJa: "信頼できるロールバック計画はありますか。"
 difficulty: "Intermediate"

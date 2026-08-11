@@ -2,10 +2,12 @@
 id: "0067"
 term: "coherent"
 type: "word"
-partOfSpeech: "adjective"
-meaningJa: "一貫した"
+partOfSpeech: adjective
 pronunciation: "/koʊˈhɪr.ənt/"
+description: "Logic and structure must be consistent and consistent."
 descriptionJa: "論理や構成が矛盾なく通っていること。"
+meaning: consistent
+meaningJa: "一貫した"
 usageExample: "The design doc is clear and coherent."
 usageExampleJa: "設計書は明確で一貫しています。"
 difficulty: "Intermediate"

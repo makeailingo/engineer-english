@@ -1,15 +1,17 @@
 ---
 id: "0603"
-term: ordering
-type: word
+term: "ordering"
+type: "word"
 partOfSpeech: noun
-meaningJa: "順序付け、オーダリング"
 pronunciation: "/ˈɔːr.dɚ.ɪŋ/"
+description: "Guaranteed order of processing and events."
 descriptionJa: "処理やイベントの順序保証。"
+meaning: "sequencing, ordering"
+meaningJa: "順序付け、オーダリング"
 usageExample: "Preserve ordering for related account update events."
 usageExampleJa: "関連口座更新イベントの順序を保証します。"
-difficulty: Intermediate
-scene: Architecture
+difficulty: "Intermediate"
+scene: "Architecture"
 source:
   title: "Array.prototype.sort() - JavaScript | MDN"
   url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort"

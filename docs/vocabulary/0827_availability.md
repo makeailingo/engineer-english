@@ -1,15 +1,17 @@
 ---
 id: "0827"
-term: availability
-type: word
+term: "availability"
+type: "word"
 partOfSpeech: noun
-meaningJa: "可用性、サービスを利用できる度合い"
 pronunciation: "/əˌveɪ.ləˈbɪl.ə.t̬i/"
+description: "The nature and extent to which the service can be used even in the event of a."
 descriptionJa: "障害時もサービスを利用できる性質や度合い。"
+meaning: "Availability, degree to which a service is available"
+meaningJa: "可用性、サービスを利用できる度合い"
 usageExample: "Replication improves availability during a regional storage failure."
 usageExampleJa: "複製により地域ストレージ障害時の可用性が向上します。"
-difficulty: Intermediate
-scene: Infrastructure / Cloud
+difficulty: "Intermediate"
+scene: "Infrastructure / Cloud"
 source:
   title: "Non-Abstract Large Scale Design Workbook"
   url: "https://static.googleusercontent.com/media/sre.google/en//static/pdf/nalsd-workbook-a4.pdf"

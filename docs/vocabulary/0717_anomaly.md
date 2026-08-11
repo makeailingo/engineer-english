@@ -2,10 +2,12 @@
 id: "0717"
 term: "anomaly"
 type: "word"
-partOfSpeech: "noun"
-meaningJa: "異常"
+partOfSpeech: noun
 pronunciation: "/əˈnɑː.mə.li/"
+description: "Behavior that deviates from normal patterns."
 descriptionJa: "通常パターンから外れた挙動。"
+meaning: abnormality
+meaningJa: "異常"
 usageExample: "The dashboard flagged a latency anomaly."
 usageExampleJa: "ダッシュボードが遅延異常を検知しました。"
 difficulty: "Intermediate"

@@ -1,15 +1,17 @@
 ---
 id: "0312"
-term: directive
-type: word
+term: "directive"
+type: "word"
 partOfSpeech: noun
-meaningJa: "ディレクティブ、指示"
 pronunciation: "/dɪˈrek.tɪv/"
+description: "Instructions to the compiler and settings."
 descriptionJa: "コンパイラや設定への指示。"
+meaning: "directive, instruction"
+meaningJa: "ディレクティブ、指示"
 usageExample: "Add a cache-control directive for static assets."
 usageExampleJa: "静的アセット向けキャッシュ指示を追加します。"
-difficulty: Intermediate
-scene: Implementation
+difficulty: "Intermediate"
+scene: "Implementation"
 source:
   title: "Cache-Control header - HTTP | MDN"
   url: "https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Cache-Control"

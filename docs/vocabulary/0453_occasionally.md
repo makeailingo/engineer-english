@@ -2,10 +2,12 @@
 id: "0453"
 term: "occasionally"
 type: "word"
-partOfSpeech: "adverb"
-meaningJa: "時折"
+partOfSpeech: adverb
 pronunciation: "/əˈkeɪ.ʒən.əl.i/"
+description: "Indicates that the frequency is low and irregular."
 descriptionJa: "頻度が低く不定期であることを表す。"
+meaning: sometimes
+meaningJa: "時折"
 usageExample: "The worker occasionally drops messages."
 usageExampleJa: "このワーカーは時折メッセージを取りこぼします。"
 difficulty: "Beginner"

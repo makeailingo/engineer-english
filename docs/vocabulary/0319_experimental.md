@@ -2,10 +2,12 @@
 id: "0319"
 term: "experimental"
 type: "word"
-partOfSpeech: "adjective"
-meaningJa: "実験的な"
+partOfSpeech: adjective
 pronunciation: "/ɪkˌsper.ɪˈmen.t̬əl/"
+description: "To be used on a trial basis before actual use."
 descriptionJa: "本番前に試験的に使うこと。"
+meaning: experimental
+meaningJa: "実験的な"
 usageExample: "Ship this feature behind an experimental flag."
 usageExampleJa: "実験フラグの裏でこの機能を出してください。"
 difficulty: "Intermediate"
