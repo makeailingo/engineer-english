@@ -295,6 +295,7 @@ code {
   #vocabulary-table th:nth-child(3),
   #vocabulary-table td:nth-child(3) {
     width: 45%;
+    text-align: right;
   }
 }
 
