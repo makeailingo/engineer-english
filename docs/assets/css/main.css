@@ -385,7 +385,7 @@ code {
   margin: 0 0 var(--spacing-xl);
 }
 
-.vocabulary__meta .badge-pill {
+.vocabulary__meta .badge-pill:not(.badge-pill--beginner):not(.badge-pill--intermediate):not(.badge-pill--advanced) {
   color: var(--color-body);
   background: var(--color-surface-strong);
 }
@@ -413,7 +413,6 @@ code {
 }
 
 .vocabulary__section p,
-.vocabulary__meaning,
 .vocabulary__pronunciation,
 .vocabulary__example {
   margin: 0;

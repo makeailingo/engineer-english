@@ -15,13 +15,13 @@ layout: default
     {% if site.labels.part_of_speech[page.partOfSpeech] %}
       <span class="badge-pill">{{ site.labels.part_of_speech[page.partOfSpeech] }}</span>
     {% endif %}
-    <span class="badge-pill">{{ site.labels.difficulty[page.difficulty] }}</span>
+    <span class="badge-pill badge-pill--{{ page.difficulty | downcase }}">{{ site.labels.difficulty[page.difficulty] }}</span>
     <span class="badge-pill">{{ site.labels.scene[page.scene] }}</span>
   </div>
 
   <section class="vocabulary__section">
     <h2>意味</h2>
-    <p class="vocabulary__meaning">{{ page.meaningJa }}</p>
+    <p>{{ page.meaningJa }}</p>
   </section>
 
   {% if page.pronunciation %}
