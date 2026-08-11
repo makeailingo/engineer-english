@@ -8,7 +8,8 @@
 - `difficulty`は evaluating-difficulty Skill に従う。
 - `scene`は evaluating-scene Skill に従う。
 - `meaningJa`は evaluating-meaningJa Skill に従う。
-- `id`は`"0001"`から`"1000"`までの重複のない4桁連番とする。`id`は表示順・学習順を表し、実務で身につけやすい順に並べる。
+- `id`は`"0001"`から`"1000"`までの重複のない4桁連番とする。`id`は表示順・学習順を表す。
+- 学習順は [sorting-vocabulary Skill](.agents/skills/sorting-vocabulary/SKILL.md) に従う。全語彙を5章（基本コミュニケーション → 開発とレビュー → 計画と意思決定 → 運用と障害対応 → 高度な技術英語）へ分類し、各章内では学習価値 → 実用性 → 難易度の順で並べ、5章を連結して ID を振り直す。
 - `type`は`word`または`phrase`とする。
 - `difficulty`と`scene`は下記マスタからそれぞれ1つだけ選ぶ。
 - `source`には、実在と用法を確認した一次情報を1件、下記Source Schemaで記載する。
