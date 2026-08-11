@@ -133,33 +133,6 @@ code {
     overflow-wrap: anywhere;
   }
 
-  #vocabulary-table {
-    min-width: 0;
-    table-layout: fixed;
-  }
-
-  #vocabulary-table th:first-child,
-  #vocabulary-table td:first-child,
-  #vocabulary-table th:nth-child(4),
-  #vocabulary-table td:nth-child(4),
-  #vocabulary-table th:nth-child(5),
-  #vocabulary-table td:nth-child(5),
-  #vocabulary-table th:nth-child(6),
-  #vocabulary-table td:nth-child(6),
-  #vocabulary-table th:nth-child(7),
-  #vocabulary-table td:nth-child(7) {
-    display: none;
-  }
-
-  #vocabulary-table th:nth-child(2),
-  #vocabulary-table td:nth-child(2) {
-    width: 55%;
-  }
-
-  #vocabulary-table th:nth-child(3),
-  #vocabulary-table td:nth-child(3) {
-    width: 45%;
-  }
 }
 
 /* Hero */
@@ -293,6 +266,36 @@ code {
 
 #vocabulary-table td:nth-child(2) a:hover {
   color: var(--color-primary);
+}
+
+@media (max-width: 640px) {
+  #vocabulary-table {
+    min-width: 0;
+    table-layout: fixed;
+  }
+
+  #vocabulary-table th:first-child,
+  #vocabulary-table td:first-child,
+  #vocabulary-table th:nth-child(4),
+  #vocabulary-table td:nth-child(4),
+  #vocabulary-table th:nth-child(5),
+  #vocabulary-table td:nth-child(5),
+  #vocabulary-table th:nth-child(6),
+  #vocabulary-table td:nth-child(6),
+  #vocabulary-table th:nth-child(7),
+  #vocabulary-table td:nth-child(7) {
+    display: none;
+  }
+
+  #vocabulary-table th:nth-child(2),
+  #vocabulary-table td:nth-child(2) {
+    width: 55%;
+  }
+
+  #vocabulary-table th:nth-child(3),
+  #vocabulary-table td:nth-child(3) {
+    width: 45%;
+  }
 }
 
 /* Badges */
