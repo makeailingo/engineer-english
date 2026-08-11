@@ -64,11 +64,12 @@ title: Engineer English
   <thead>
     <tr>
       <th>ID</th>
-      <th>Term</th>
-      <th>Difficulty</th>
-      <th>Scene</th>
+      <th>単語</th>
+      <th>難易度</th>
+      <th>シーン</th>
       <th>意味</th>
-      <th>Usage Example</th>
+      <th>使用例</th>
+      <th>使用例の日本語訳</th>
     </tr>
   </thead>
 
@@ -79,7 +80,7 @@ title: Engineer English
         data-term="{{ vocabulary.term | downcase }}"
         data-difficulty="{{ vocabulary.difficulty }}"
         data-scene="{{ vocabulary.scene }}"
-        data-search="{{ vocabulary.term | downcase }} {{ vocabulary.meaningJa }} {{ vocabulary.usageExample | downcase }}"
+        data-search="{{ vocabulary.term | downcase }} {{ vocabulary.meaningJa }} {{ vocabulary.usageExample | downcase }} {{ vocabulary.usageExampleJa }}"
       >
         <td>{{ vocabulary.id }}</td>
         <td>
@@ -91,6 +92,7 @@ title: Engineer English
         <td>{{ vocabulary.scene }}</td>
         <td>{{ vocabulary.meaningJa }}</td>
         <td>{{ vocabulary.usageExample }}</td>
+        <td>{{ vocabulary.usageExampleJa }}</td>
       </tr>
     {% endfor %}
   </tbody>
