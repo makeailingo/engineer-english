@@ -9,9 +9,13 @@ layout: default
 
   <div class="vocabulary__meta">
     <code>{{ page.id }}</code>
-    <span class="badge-pill">{{ site.labels.type[page.type] }}</span>
-    <span class="badge-pill">{{ site.labels.part_of_speech[page.partOfSpeech] }}</span>
-    <span class="badge-pill">{{ site.labels.difficulty[page.difficulty] }}</span>
+    {% if site.labels.type[page.type] %}
+      <span class="badge-pill">{{ site.labels.type[page.type] }}</span>
+    {% endif %}
+    {% if site.labels.part_of_speech[page.partOfSpeech] %}
+      <span class="badge-pill">{{ site.labels.part_of_speech[page.partOfSpeech] }}</span>
+    {% endif %}
+    <span class="badge-pill badge-pill--{{ page.difficulty | downcase }}">{{ site.labels.difficulty[page.difficulty] }}</span>
     <span class="badge-pill">{{ site.labels.scene[page.scene] }}</span>
   </div>
 

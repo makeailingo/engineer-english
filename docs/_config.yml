@@ -29,10 +29,15 @@ labels:
     Testing: テスト
   type:
     word: 単語
+    phrase: フレーズ
   part_of_speech:
     verb: 動詞
     noun: 名詞
     adjective: 形容詞
+    adverb: 副詞
+    "phrasal verb": 句動詞
+    idiom: イディオム
+    phrase: フレーズ
 
 exclude:
   - templates/
