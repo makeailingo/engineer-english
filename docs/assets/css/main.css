@@ -396,9 +396,8 @@ code {
 /* Footer */
 
 .footer {
-  padding: var(--spacing-base) var(--spacing-lg);
-  border-top: 1px solid var(--color-hairline);
-  background: var(--color-canvas-soft);
+  padding: var(--spacing-xl) var(--spacing-lg);
+  background: var(--color-canvas);
 }
 
 .footer__inner {
@@ -410,5 +409,5 @@ code {
 .footer__copyright {
   margin: 0;
   font-size: 13px;
-  color: var(--color-ink-muted);
+  color: var(--color-muted);
 }
