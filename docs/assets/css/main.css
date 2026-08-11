@@ -108,7 +108,7 @@ code {
 }
 
 .site-main:has(.vocabulary) {
-  padding-bottom: var(--spacing-sm);
+  padding-bottom: var(--spacing-xxl);
 }
 
 @media (max-width: 640px) {
@@ -396,7 +396,7 @@ code {
 /* Footer */
 
 .footer {
-  padding: var(--spacing-xl) var(--spacing-lg);
+  padding: var(--spacing-xxl) var(--spacing-lg) var(--spacing-xl);
   background: var(--color-canvas);
 }
 
