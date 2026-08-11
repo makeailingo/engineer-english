@@ -11,7 +11,6 @@ html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   scroll-behavior: smooth;
-  overflow-x: clip;
 }
 
 body {
@@ -22,6 +21,7 @@ body {
   line-height: 1.5;
   color: var(--color-body);
   background: var(--color-canvas);
+  overflow-x: hidden;
 }
 
 ::selection {
@@ -104,6 +104,8 @@ code {
 
 .site-main {
   max-width: var(--max-width);
+  width: 100%;
+  min-width: 0;
   margin: 0 auto;
   padding: var(--spacing-xl) var(--spacing-lg) var(--spacing-base);
 }
@@ -113,6 +115,10 @@ code {
 }
 
 @media (max-width: 640px) {
+  .site-header__inner {
+    padding: 0 var(--spacing-base);
+  }
+
   .site-main {
     padding: var(--spacing-xl) var(--spacing-base) var(--spacing-sm);
   }
@@ -122,7 +128,41 @@ code {
   }
 
   .hero-band__subtitle {
+    max-width: none;
     word-break: normal;
+    overflow-wrap: anywhere;
+  }
+
+  #vocabulary-table {
+    min-width: 0;
+    table-layout: fixed;
+  }
+
+  #vocabulary-table th:first-child,
+  #vocabulary-table td:first-child,
+  #vocabulary-table th:nth-child(5),
+  #vocabulary-table td:nth-child(5),
+  #vocabulary-table th:nth-child(6),
+  #vocabulary-table td:nth-child(6),
+  #vocabulary-table th:nth-child(7),
+  #vocabulary-table td:nth-child(7) {
+    display: none;
+  }
+
+  #vocabulary-table th:nth-child(2),
+  #vocabulary-table td:nth-child(2) {
+    width: 38%;
+  }
+
+  #vocabulary-table th:nth-child(3),
+  #vocabulary-table td:nth-child(3) {
+    width: 22%;
+  }
+
+  #vocabulary-table th:nth-child(4),
+  #vocabulary-table td:nth-child(4) {
+    width: 40%;
+    white-space: normal;
     overflow-wrap: anywhere;
   }
 }
@@ -162,7 +202,7 @@ code {
   font-size: 15px;
   line-height: 1.6;
   color: var(--color-muted);
-  word-break: keep-all;
+  overflow-wrap: anywhere;
 }
 
 /* Cards */
@@ -178,6 +218,8 @@ code {
 /* Table */
 
 .table-card {
+  max-width: 100%;
+  min-width: 0;
   overflow: hidden;
   background: var(--color-surface-card);
   border: 1px solid var(--color-hairline);
@@ -186,6 +228,9 @@ code {
 }
 
 .table-scroll {
+  display: block;
+  width: 100%;
+  max-width: 100%;
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
 }
