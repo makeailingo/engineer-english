@@ -1,8 +1,35 @@
 title: Engineer English
 description: ソフトウェアエンジニアが実務で使う英語のデータセットです。
-theme: jekyll-theme-primer
 url: https://makeailingo.github.io
 baseurl: /engineer-english
+
+labels:
+  difficulty:
+    Beginner: 初級
+    Intermediate: 中級
+    Advanced: 上級
+  scene:
+    Architecture: アーキテクチャ
+    Code Review: コードレビュー
+    Daily Communication: 日常コミュニケーション
+    Database: データベース
+    Debugging: デバッグ
+    Implementation: 実装
+    Incident Response: インシデント対応
+    Infrastructure / Cloud: インフラ / クラウド
+    Leadership / Management: リーダーシップ / マネジメント
+    Performance: パフォーマンス
+    Requirements: 要件定義
+    Security: セキュリティ
+    Sprint Planning: スプリント計画
+    Technical Interview: 技術面接
+    Testing: テスト
+  type:
+    word: 単語
+  part_of_speech:
+    verb: 動詞
+    noun: 名詞
+    adjective: 形容詞
 
 exclude:
   - templates/

@@ -29,8 +29,8 @@ function filterRows() {
 
   resultCount.textContent =
     visible === total
-      ? `${total} terms`
-      : `${visible} of ${total} terms`;
+      ? `${total} 件`
+      : `${visible} / ${total} 件`;
 
   emptyState.hidden = visible > 0;
 }

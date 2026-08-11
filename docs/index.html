@@ -3,100 +3,111 @@ layout: default
 title: Engineer English
 ---
 
-<h1>Engineer English</h1>
-
-<p>ソフトウェアエンジニアが実務で使う英語のデータセットです。</p>
+<section class="hero-band">
+  <h1 class="hero-band__title">Engineer English</h1>
+</section>
 
 {% assign vocabularies = site.pages
   | where_exp: "page", "page.layout == 'vocabulary'"
   | sort: "id" %}
 
-<div class="vocabulary-toolbar">
-  <div class="vocabulary-toolbar__search vocabulary-toolbar__field">
-    <label for="search">Search</label>
-    <input
-      id="search"
-      type="search"
-      placeholder="term, meaning, example..."
-    >
-  </div>
+<section class="vocabulary-section">
 
-  <div class="vocabulary-toolbar__filters">
-    <div class="vocabulary-toolbar__field">
-      <label for="difficulty-filter">Difficulty</label>
-      <select id="difficulty-filter">
-        <option value="">All</option>
-        <option value="Beginner">Beginner</option>
-        <option value="Intermediate">Intermediate</option>
-        <option value="Advanced">Advanced</option>
-      </select>
-    </div>
-
-    <div class="vocabulary-toolbar__field">
-      <label for="scene-filter">Scene</label>
-      <select id="scene-filter">
-        <option value="">All</option>
-        {% assign scenes = site.pages
-          | where_exp: "page", "page.layout == 'vocabulary'"
-          | map: "scene"
-          | uniq
-          | sort
-        %}
-        {% for scene in scenes %}
-          {% if scene %}
-            <option value="{{ scene }}">{{ scene }}</option>
-          {% endif %}
-        {% endfor %}
-      </select>
-    </div>
-  </div>
-
-  <p id="vocabulary-result-count" class="vocabulary-toolbar__meta">
-    {{ vocabularies.size }} terms
-  </p>
-</div>
-
-<p id="vocabulary-empty" class="vocabulary-empty" hidden>
-  No vocabulary matches your filters.
-</p>
-
-<table id="vocabulary-table">
-  <thead>
-    <tr>
-      <th>ID</th>
-      <th>単語</th>
-      <th>難易度</th>
-      <th>シーン</th>
-      <th>意味</th>
-      <th>使用例</th>
-      <th>使用例の日本語訳</th>
-    </tr>
-  </thead>
-
-  <tbody>
-    {% for vocabulary in vocabularies %}
-      <tr
-        data-id="{{ vocabulary.id }}"
-        data-term="{{ vocabulary.term | downcase }}"
-        data-difficulty="{{ vocabulary.difficulty }}"
-        data-scene="{{ vocabulary.scene }}"
-        data-search="{{ vocabulary.term | downcase }} {{ vocabulary.meaningJa }} {{ vocabulary.usageExample | downcase }} {{ vocabulary.usageExampleJa }}"
+  <div class="vocabulary-toolbar">
+    <div class="vocabulary-toolbar__search vocabulary-toolbar__field">
+      <label for="search">検索</label>
+      <input
+        id="search"
+        type="search"
+        placeholder="単語、意味、使用例..."
       >
-        <td>{{ vocabulary.id }}</td>
-        <td>
-          <a href="{{ vocabulary.url | relative_url }}">
-            {{ vocabulary.term }}
-          </a>
-        </td>
-        <td>{{ vocabulary.difficulty }}</td>
-        <td>{{ vocabulary.scene }}</td>
-        <td>{{ vocabulary.meaningJa }}</td>
-        <td>{{ vocabulary.usageExample }}</td>
-        <td>{{ vocabulary.usageExampleJa }}</td>
-      </tr>
-    {% endfor %}
-  </tbody>
-</table>
+    </div>
+
+    <div class="vocabulary-toolbar__filters">
+      <div class="vocabulary-toolbar__field">
+        <label for="difficulty-filter">難易度</label>
+        <select id="difficulty-filter">
+          <option value="">すべて</option>
+          <option value="Beginner">{{ site.labels.difficulty.Beginner }}</option>
+          <option value="Intermediate">{{ site.labels.difficulty.Intermediate }}</option>
+          <option value="Advanced">{{ site.labels.difficulty.Advanced }}</option>
+        </select>
+      </div>
+
+      <div class="vocabulary-toolbar__field">
+        <label for="scene-filter">シーン</label>
+        <select id="scene-filter">
+          <option value="">すべて</option>
+          {% assign scenes = site.pages
+            | where_exp: "page", "page.layout == 'vocabulary'"
+            | map: "scene"
+            | uniq
+            | sort
+          %}
+          {% for scene in scenes %}
+            {% if scene %}
+              <option value="{{ scene }}">{{ site.labels.scene[scene] }}</option>
+            {% endif %}
+          {% endfor %}
+        </select>
+      </div>
+    </div>
+
+    <p id="vocabulary-result-count" class="vocabulary-toolbar__meta">
+      {{ vocabularies.size }} 件
+    </p>
+  </div>
+
+  <p id="vocabulary-empty" class="vocabulary-empty" hidden>
+    条件に一致する単語がありません。
+  </p>
+
+  <div class="table-card">
+    <div class="table-scroll">
+      <table id="vocabulary-table">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>単語</th>
+            <th>難易度</th>
+            <th>シーン</th>
+            <th>意味</th>
+            <th>使用例</th>
+            <th>使用例（日本語訳）</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          {% for vocabulary in vocabularies %}
+            <tr
+              data-id="{{ vocabulary.id }}"
+              data-term="{{ vocabulary.term | downcase }}"
+              data-difficulty="{{ vocabulary.difficulty }}"
+              data-scene="{{ vocabulary.scene }}"
+              data-search="{{ vocabulary.term | downcase }} {{ vocabulary.meaningJa }} {{ vocabulary.usageExample | downcase }} {{ vocabulary.usageExampleJa }}"
+            >
+              <td>{{ vocabulary.id }}</td>
+              <td>
+                <a href="{{ vocabulary.url | relative_url }}">
+                  {{ vocabulary.term }}
+                </a>
+              </td>
+              <td>
+                <span class="badge-pill">
+                  {{ site.labels.difficulty[vocabulary.difficulty] }}
+                </span>
+              </td>
+              <td>{{ site.labels.scene[vocabulary.scene] }}</td>
+              <td>{{ vocabulary.meaningJa }}</td>
+              <td>{{ vocabulary.usageExample }}</td>
+              <td>{{ vocabulary.usageExampleJa }}</td>
+            </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
 
 <link rel="stylesheet" href="{{ '/assets/css/vocabulary-controls.css' | relative_url }}">
 <script src="{{ '/assets/js/vocabulary-table.js' | relative_url }}"></script>
