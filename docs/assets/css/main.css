@@ -403,28 +403,11 @@ code {
 .footer__inner {
   max-width: var(--max-width);
   margin: 0 auto;
+  text-align: center;
 }
 
-.footer__brand {
-  display: inline-flex;
-  align-items: center;
-  gap: var(--spacing-xs);
-}
-
-.footer__name {
-  font-size: 14px;
-  font-weight: 600;
-  color: var(--color-ink);
-}
-
-.footer__license {
-  margin: var(--spacing-xs) 0 0;
+.footer__copyright {
+  margin: 0;
   font-size: 13px;
   color: var(--color-ink-muted);
-}
-
-.footer__license a {
-  color: inherit;
-  text-decoration: underline;
-  text-underline-offset: 2px;
 }
