@@ -9,7 +9,7 @@ descriptionJa: "データを逐次送受信する。"
 usageExample: "Stream large files instead of loading them fully."
 usageExampleJa: "大ファイルは全読み込みせずストリーミングします。"
 difficulty: Intermediate
-scene: Technical Interview
+scene: Implementation
 source:
   title: "Streams API - Web APIs | MDN"
   url: "https://developer.mozilla.org/en-US/docs/Web/API/Streams_API"

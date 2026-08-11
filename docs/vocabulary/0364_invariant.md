@@ -9,7 +9,7 @@ descriptionJa: "常に真であるべき条件。"
 usageExample: "Document system invariants checked by integration tests."
 usageExampleJa: "結合テストで検証する不変条件を文書化します。"
 difficulty: Advanced
-scene: Technical Interview
+scene: Architecture
 source:
   title: "What to look for in a code review - Google Engineering Practices"
   url: "https://google.github.io/eng-practices/review/reviewer/looking-for.html"

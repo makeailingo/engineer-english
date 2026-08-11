@@ -9,7 +9,7 @@ descriptionJa: "既存機能を追加するモジュール。"
 usageExample: "Disable the browser extension during repro steps."
 usageExampleJa: "再現手順中はブラウザ拡張を無効化します。"
 difficulty: Beginner
-scene: Implementation
+scene: Debugging
 source:
   title: "Permissions API - Web APIs | MDN"
   url: "https://developer.mozilla.org/en-US/docs/Web/API/Permissions_API"

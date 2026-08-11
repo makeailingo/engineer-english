@@ -9,7 +9,7 @@ descriptionJa: "非同期処理が完了状態になる。"
 usageExample: "Wait until all pending promises settle first."
 usageExampleJa: "保留中のPromiseが全て確定するまで待ちます。"
 difficulty: Intermediate
-scene: Daily Communication
+scene: Implementation
 source:
   title: "Fetch API - Web APIs | MDN"
   url: "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API"

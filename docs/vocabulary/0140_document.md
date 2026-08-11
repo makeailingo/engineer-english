@@ -9,7 +9,7 @@ descriptionJa: "設計やAPIの使い方を文書に残す。"
 usageExample: "Document the rollback steps in the runbook."
 usageExampleJa: "ロールバック手順をランブックに文書化します。"
 difficulty: Beginner
-scene: Requirements
+scene: Incident Response
 source:
   title: "Standard code review"
   url: "https://google.github.io/eng-practices/review/reviewer/standard.html"

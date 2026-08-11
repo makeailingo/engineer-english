@@ -9,7 +9,7 @@ descriptionJa: "条件に合う項目を選び出す。"
 usageExample: "Select rows where the status flag is active."
 usageExampleJa: "ステータスフラグが有効な行を選択します。"
 difficulty: Beginner
-scene: Security
+scene: Database
 source:
   title: "Document.querySelector() - Web APIs | MDN"
   url: "https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector"

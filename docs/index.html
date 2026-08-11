@@ -3,13 +3,20 @@ layout: default
 title: Engineer English
 ---
 
-<section class="hero-band">
-  <h1 class="hero-band__title">Engineer English</h1>
-</section>
-
 {% assign vocabularies = site.pages
   | where_exp: "page", "page.layout == 'vocabulary'"
   | sort: "id" %}
+
+{% assign scenes = vocabularies | map: "scene" | uniq %}
+
+<section class="hero-band">
+  <h1 class="hero-band__title">現場で使える、エンジニア英語</h1>
+  <p class="hero-band__subtitle">
+    {{ vocabularies.size }}語の実務英語データセット。コードレビューからインシデント対応まで、
+    シーン別にすぐ探せる。
+    <a href="{{ site.github_url }}" target="_blank" rel="noopener noreferrer">GitHub でオープンソース公開中</a>。
+  </p>
+</section>
 
 <section class="vocabulary-section">
 
@@ -38,12 +45,6 @@ title: Engineer English
         <label for="scene-filter">シーン</label>
         <select id="scene-filter">
           <option value="">すべて</option>
-          {% assign scenes = site.pages
-            | where_exp: "page", "page.layout == 'vocabulary'"
-            | map: "scene"
-            | uniq
-            | sort
-          %}
           {% for scene in scenes %}
             {% if scene %}
               <option value="{{ scene }}">{{ site.labels.scene[scene] }}</option>
@@ -93,7 +94,7 @@ title: Engineer English
                 </a>
               </td>
               <td>
-                <span class="badge-pill">
+                <span class="badge-pill badge-pill--{{ vocabulary.difficulty | downcase }}">
                   {{ site.labels.difficulty[vocabulary.difficulty] }}
                 </span>
               </td>

@@ -9,7 +9,7 @@ descriptionJa: "OSの中核部分。"
 usageExample: "Check kernel logs when nodes reboot unexpectedly."
 usageExampleJa: "予期せぬ再起動時はカーネルログを確認します。"
 difficulty: Intermediate
-scene: Architecture
+scene: Debugging
 source:
   title: "console.trace() - Web APIs | MDN"
   url: "https://developer.mozilla.org/en-US/docs/Web/API/console/trace_static"

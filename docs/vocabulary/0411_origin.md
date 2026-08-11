@@ -9,7 +9,7 @@ descriptionJa: "リクエストの発信元。"
 usageExample: "Allow only trusted origins in CORS configuration."
 usageExampleJa: "CORS設定では信頼オリジンのみ許可します。"
 difficulty: Intermediate
-scene: Debugging
+scene: Security
 source:
   title: "Cross-Origin Resource Sharing (CORS) - HTTP | MDN"
   url: "https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CORS"

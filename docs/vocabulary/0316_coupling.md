@@ -9,7 +9,7 @@ descriptionJa: "モジュール間の依存の強さ。"
 usageExample: "Reduce coupling by introducing clear service boundaries."
 usageExampleJa: "明確な境界でモジュール結合を弱めます。"
 difficulty: Intermediate
-scene: Technical Interview
+scene: Architecture
 source:
   title: "What to look for in a code review - Google Engineering Practices"
   url: "https://google.github.io/eng-practices/review/reviewer/looking-for.html"

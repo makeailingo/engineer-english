@@ -9,7 +9,7 @@ descriptionJa: "外部データを取り込むコンポーネント。"
 usageExample: "Run the importer after validating source file schemas."
 usageExampleJa: "ソーススキーマ検証後にインポータを実行します。"
 difficulty: Intermediate
-scene: Security
+scene: Implementation
 source:
   title: "import - JavaScript | MDN"
   url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import"

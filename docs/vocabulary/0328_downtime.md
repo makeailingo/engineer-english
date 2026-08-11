@@ -9,7 +9,7 @@ descriptionJa: "サービスが利用不能な時間。"
 usageExample: "Minimize downtime with rolling update strategies."
 usageExampleJa: "ローリング更新でダウンタイムを最小化します。"
 difficulty: Intermediate
-scene: Incident Response
+scene: Infrastructure / Cloud
 source:
   title: "The Art of SLOs - Google SRE"
   url: "https://sre.google/resources/practices-and-processes/art-of-slos/"

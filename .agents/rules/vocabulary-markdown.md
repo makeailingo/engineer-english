@@ -6,6 +6,7 @@
 - `docs/templates/vocabulary.md`を複製し、YAML Front Matterの全属性を記載する。
 - 語義・品詞・発音は researching-vocabulary Skill に従う。
 - `difficulty`は evaluating-difficulty Skill に従う。
+- `scene`は evaluating-scene Skill に従う。
 - `id`は`"0001"`から始まる重複のない4桁連番とし、既存の最大値に1を加えて採番する。
 - `type`は`word`または`phrase`とする。
 - `difficulty`と`scene`は下記マスタからそれぞれ1つだけ選ぶ。
@@ -52,6 +53,8 @@ Google SREでは、SREサイト全体をCC BY 4.0とみなさず、CC BY 4.0と�
 | Advanced | 上級 | 一般英語として日常的に使われず、エンジニアも英単語としては馴染みが薄い |
 
 `difficulty`は [evaluating-difficulty Skill](.agents/skills/evaluating-difficulty/SKILL.md) に従う。
+
+`scene`は [evaluating-scene Skill](.agents/skills/evaluating-scene/SKILL.md) に従う。
 
 ## usageExampleJa のレビュー
 

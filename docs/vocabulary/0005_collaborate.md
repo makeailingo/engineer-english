@@ -9,7 +9,7 @@ descriptionJa: "意見の違いを越え、相手と協力して解決するこ�
 usageExample: "Let's collaborate to resolve this design disagreement."
 usageExampleJa: "この設計上の意見の相違を協力して解決しましょう。"
 difficulty: Intermediate
-scene: Daily Communication
+scene: Code Review
 source:
   title: "How to handle reviewer comments"
   url: "https://google.github.io/eng-practices/review/developer/handling-comments.html"

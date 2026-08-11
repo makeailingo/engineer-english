@@ -9,7 +9,7 @@ descriptionJa: "容量超過による溢れ。"
 usageExample: "Guard against buffer overflow in native parsers."
 usageExampleJa: "ネイティブパーサーのバッファ溢れを防ぎます。"
 difficulty: Intermediate
-scene: Debugging
+scene: Security
 source:
   title: "console.trace() - Web APIs | MDN"
   url: "https://developer.mozilla.org/en-US/docs/Web/API/console/trace_static"

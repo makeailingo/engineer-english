@@ -9,7 +9,7 @@ descriptionJa: "形式やスケールを統一すること。"
 usageExample: "Apply normalization before comparing metric values."
 usageExampleJa: "メトリクス比較前に正規化を適用します。"
 difficulty: Intermediate
-scene: Technical Interview
+scene: Performance
 source:
   title: "String.prototype.normalize() - JavaScript | MDN"
   url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/normalize"

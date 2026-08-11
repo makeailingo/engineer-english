@@ -9,7 +9,7 @@ descriptionJa: "期待条件をコードで明示する。"
 usageExample: "Assert the response status before parsing JSON."
 usageExampleJa: "JSON解析前にレスポンスステータスを検証します。"
 difficulty: Intermediate
-scene: Daily Communication
+scene: Testing
 source:
   title: "What to look for in a code review - Google Engineering Practices"
   url: "https://google.github.io/eng-practices/review/reviewer/looking-for.html"

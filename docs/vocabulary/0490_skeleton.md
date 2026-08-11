@@ -9,7 +9,7 @@ descriptionJa: "最小構成の骨組みUI。"
 usageExample: "Show skeleton placeholders while data loads asynchronously."
 usageExampleJa: "非同期読み込み中はスケルトンUIを表示します。"
 difficulty: Intermediate
-scene: Architecture
+scene: Implementation
 source:
   title: "Fetch API - Web APIs | MDN"
   url: "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API"

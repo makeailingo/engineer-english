@@ -9,7 +9,7 @@ descriptionJa: "DBとキャッシュの差分を整合させる。"
 usageExample: "Reconcile inventory counts after the nightly sync job."
 usageExampleJa: "夜間同期後に在庫数を照合します。"
 difficulty: Intermediate
-scene: Technical Interview
+scene: Database
 source:
   title: "Using IndexedDB - Web APIs | MDN"
   url: "https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API/Using_IndexedDB"

@@ -9,7 +9,7 @@ descriptionJa: "ソースや成果物の保管場所。"
 usageExample: "Mirror the repository to reduce clone latency regionally."
 usageExampleJa: "クローンのレイテンシを下げるため、リポジトリをミラーします。"
 difficulty: Intermediate
-scene: Code Review
+scene: Infrastructure / Cloud
 source:
   title: "Small CLs - Google Engineering Practices"
   url: "https://google.github.io/eng-practices/review/developer/small-cls.html"

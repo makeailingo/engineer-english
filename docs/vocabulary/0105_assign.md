@@ -9,7 +9,7 @@ descriptionJa: "変数やタスクに値や担当を設定する。"
 usageExample: "Assign the bug to the platform team."
 usageExampleJa: "バグをプラットフォームチームに割り当てます。"
 difficulty: Beginner
-scene: Sprint Planning
+scene: Incident Response
 source:
   title: "Standard code review"
   url: "https://google.github.io/eng-practices/review/reviewer/standard.html"

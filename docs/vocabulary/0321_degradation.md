@@ -9,7 +9,7 @@ descriptionJa: "品質や性能が段階的に低下すること。"
 usageExample: "Watch for latency degradation during peak hours."
 usageExampleJa: "ピーク時間帯のレイテンシ劣化を監視します。"
 difficulty: Intermediate
-scene: Incident Response
+scene: Performance
 source:
   title: "RUM vs. synthetic monitoring - Performance | MDN"
   url: "https://developer.mozilla.org/en-US/docs/Web/Performance/Guides/Rum-vs-Synthetic"

@@ -1,6 +1,7 @@
 :root {
   /* Brand & Accent */
   --color-primary: #f54e00;
+  --color-primary-soft: rgba(245, 78, 0, 0.08);
   --color-primary-active: #d04200;
   --color-on-primary: #ffffff;
 
@@ -9,6 +10,7 @@
   --color-canvas-soft: #fafaf7;
   --color-surface-card: #ffffff;
   --color-surface-strong: #e6e5e0;
+  --color-surface-code: #1b1b18;
 
   /* Hairlines */
   --color-hairline: #e6e5e0;
@@ -51,4 +53,10 @@
 
   /* Layout */
   --max-width: 1200px;
+  --header-height: 44px;
+
+  /* Effects */
+  --shadow-sm: 0 1px 2px rgba(38, 37, 30, 0.04);
+  --shadow-md: 0 4px 24px rgba(38, 37, 30, 0.06);
+  --transition-fast: 150ms ease;
 }

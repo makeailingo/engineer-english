@@ -9,7 +9,7 @@ descriptionJa: "厳密でないが実用的な判断規則。"
 usageExample: "Use a simple heuristic to detect stuck workers."
 usageExampleJa: "簡易経験則で停止ワーカーを検知します。"
 difficulty: Advanced
-scene: Technical Interview
+scene: Debugging
 source:
   title: "console.trace() - Web APIs | MDN"
   url: "https://developer.mozilla.org/en-US/docs/Web/API/console/trace_static"

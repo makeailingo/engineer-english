@@ -9,7 +9,7 @@ descriptionJa: "選択肢や結果を基準に照らして判断する。"
 usageExample: "Evaluate whether this library meets our latency budget."
 usageExampleJa: "このライブラリがレイテンシ予算を満たすか評価します。"
 difficulty: Beginner
-scene: Architecture
+scene: Performance
 source:
   title: "Standard code review"
   url: "https://google.github.io/eng-practices/review/reviewer/standard.html"

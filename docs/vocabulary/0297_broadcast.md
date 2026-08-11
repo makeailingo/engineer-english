@@ -9,7 +9,7 @@ descriptionJa: "複数宛先への一斉通知。"
 usageExample: "Send a broadcast when the maintenance window starts."
 usageExampleJa: "メンテ開始時に一斉通知を送ります。"
 difficulty: Beginner
-scene: Sprint Planning
+scene: Infrastructure / Cloud
 source:
   title: "Code Review Emergencies"
   url: "https://google.github.io/eng-practices/review/emergencies.html"

@@ -9,7 +9,7 @@ descriptionJa: "コードの改善を目的とした詳しい批評。"
 usageExample: "Her critique revealed a flaw in the cache design."
 usageExampleJa: "彼女の批評でキャッシュ設計の欠陥が判明しました。"
 difficulty: Intermediate
-scene: Daily Communication
+scene: Code Review
 source:
   title: "How to handle reviewer comments"
   url: "https://google.github.io/eng-practices/review/developer/handling-comments.html"

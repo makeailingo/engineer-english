@@ -9,7 +9,7 @@ descriptionJa: "設計を理解・変更しにくくする複雑さの度合い�
 usageExample: "How would you reduce this design's complexity?"
 usageExampleJa: "この設計の複雑さをどう減らしますか。"
 difficulty: Intermediate
-scene: Technical Interview
+scene: Code Review
 source:
   title: "What to look for in a code review"
   url: "https://google.github.io/eng-practices/review/reviewer/looking-for.html"

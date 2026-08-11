@@ -9,7 +9,7 @@ descriptionJa: "リクエストを転送する装置。"
 usageExample: "Update router rules before shifting traffic eastward."
 usageExampleJa: "東側へトラフィック移行前にルーター規則を更新します。"
 difficulty: Intermediate
-scene: Sprint Planning
+scene: Infrastructure / Cloud
 source:
   title: "Express deployment - Learn web development | MDN"
   url: "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/Express_Nodejs/deployment"

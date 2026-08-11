@@ -9,7 +9,7 @@ descriptionJa: "サービス間の入出力約束。"
 usageExample: "Document the API contract before implementation starts."
 usageExampleJa: "実装前にAPI契約を文書化します。"
 difficulty: Intermediate
-scene: Technical Interview
+scene: Requirements
 source:
   title: "Change descriptions - Google Engineering Practices"
   url: "https://google.github.io/eng-practices/review/developer/cl-descriptions.html"

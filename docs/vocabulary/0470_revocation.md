@@ -9,7 +9,7 @@ descriptionJa: "資格情報の無効化。"
 usageExample: "Process certificate revocation within the documented SLA."
 usageExampleJa: "文書化されたSLAの範囲内で証明書失効を処理します。"
 difficulty: Advanced
-scene: Incident Response
+scene: Security
 source:
   title: "Web Crypto API - Web APIs | MDN"
   url: "https://developer.mozilla.org/en-US/docs/Web/API/Web_Crypto_API"

@@ -9,7 +9,7 @@ descriptionJa: "クライアントからサーバーへファイルを送る。"
 usageExample: "Upload the build artifact to the release bucket."
 usageExampleJa: "ビルド成果物をリリースバケットへアップロードします。"
 difficulty: Beginner
-scene: Implementation
+scene: Infrastructure / Cloud
 source:
   title: "FormData - Web APIs | MDN"
   url: "https://developer.mozilla.org/en-US/docs/Web/API/FormData"

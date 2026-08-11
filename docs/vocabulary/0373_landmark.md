@@ -9,7 +9,7 @@ descriptionJa: "進捗や位置の目印。"
 usageExample: "Mark release landmarks in the deployment timeline."
 usageExampleJa: "デプロイタイムラインにリリース目印を記録します。"
 difficulty: Intermediate
-scene: Performance
+scene: Infrastructure / Cloud
 source:
   title: "Speed of Code Reviews - Google Engineering Practices"
   url: "https://google.github.io/eng-practices/review/reviewer/speed.html"

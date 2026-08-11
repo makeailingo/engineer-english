@@ -9,7 +9,7 @@ descriptionJa: "ネットワーク上のホスト識別名。"
 usageExample: "Validate the hostname before issuing the TLS certificate."
 usageExampleJa: "TLS証明書発行前にホスト名を検証します。"
 difficulty: Intermediate
-scene: Infrastructure / Cloud
+scene: Security
 source:
   title: "URL - Glossary | MDN"
   url: "https://developer.mozilla.org/en-US/docs/Glossary/Host"

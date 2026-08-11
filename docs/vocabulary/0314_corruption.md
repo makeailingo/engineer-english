@@ -9,7 +9,7 @@ descriptionJa: "データやファイルの整合性喪失。"
 usageExample: "Detect corruption early with periodic checksum scans."
 usageExampleJa: "定期チェックサムで早期に破損を検知します。"
 difficulty: Intermediate
-scene: Incident Response
+scene: Database
 source:
   title: "The Art of SLOs – Facilitator Handbook"
   url: "https://sre.google/static/pdf/art-of-slos-howto-a4.pdf"

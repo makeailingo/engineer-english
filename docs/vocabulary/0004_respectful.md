@@ -9,7 +9,7 @@ descriptionJa: "相手に敬意を示し、配慮して伝えるさま。"
 usageExample: "Keep technical disagreements respectful and focused on the code."
 usageExampleJa: "技術的な相違も、敬意を保ちコードを論点にしてください。"
 difficulty: Intermediate
-scene: Daily Communication
+scene: Code Review
 source:
   title: "How to write code review comments"
   url: "https://google.github.io/eng-practices/review/reviewer/comments.html"

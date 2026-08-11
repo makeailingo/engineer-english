@@ -9,7 +9,7 @@ descriptionJa: "要件やパラメータを明示する。"
 usageExample: "Specify timeout values in the deployment manifest."
 usageExampleJa: "デプロイマニフェストでタイムアウト値を指定します。"
 difficulty: Beginner
-scene: Code Review
+scene: Infrastructure / Cloud
 source:
   title: "Change descriptions - Google Engineering Practices"
   url: "https://google.github.io/eng-practices/review/developer/cl-descriptions.html"

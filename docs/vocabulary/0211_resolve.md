@@ -9,7 +9,7 @@ descriptionJa: "問題やPromiseを解決する。"
 usageExample: "Resolve the promise when the download completes."
 usageExampleJa: "ダウンロード完了時にPromiseを解決します。"
 difficulty: Beginner
-scene: Technical Interview
+scene: Implementation
 source:
   title: "Fetch API - Web APIs | MDN"
   url: "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API"

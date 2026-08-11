@@ -9,7 +9,7 @@ descriptionJa: "状況に応じて判断できるレビュアーの裁量。"
 usageExample: "Reviewers have discretion to reject overly large changes."
 usageExampleJa: "レビュアーには大きすぎる変更を拒む裁量があります。"
 difficulty: Advanced
-scene: Leadership / Management
+scene: Code Review
 source:
   title: "Small CLs"
   url: "https://google.github.io/eng-practices/review/developer/small-cls.html"

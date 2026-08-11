@@ -9,7 +9,7 @@ descriptionJa: "水平分割されたデータ断片。"
 usageExample: "Rehash shards when node capacity nears limits."
 usageExampleJa: "ノード容量上限接近時にシャードを再ハッシュします。"
 difficulty: Intermediate
-scene: Security
+scene: Database
 source:
   title: "Non-Abstract Large Scale Design Workbook"
   url: "https://static.googleusercontent.com/media/sre.google/en//static/pdf/nalsd-workbook-a4.pdf"

@@ -9,7 +9,7 @@ descriptionJa: "処理やイベントの順序保証。"
 usageExample: "Preserve ordering for related account update events."
 usageExampleJa: "関連口座更新イベントの順序を保証します。"
 difficulty: Intermediate
-scene: Database
+scene: Architecture
 source:
   title: "Array.prototype.sort() - JavaScript | MDN"
   url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort"

@@ -9,7 +9,7 @@ descriptionJa: "障害時に予備系へ自動的に切り替える仕組み。"
 usageExample: "Test failover before the holiday traffic peak."
 usageExampleJa: "繁忙期前にフェイルオーバーをテストします。"
 difficulty: Advanced
-scene: Infrastructure / Cloud
+scene: Testing
 source:
   title: "Network resilience - Performance | MDN"
   url: "https://developer.mozilla.org/en-US/docs/Web/Performance/Guides/Network_resilience"

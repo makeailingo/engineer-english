@@ -9,7 +9,7 @@ descriptionJa: "APIやサービスの接続先。"
 usageExample: "Monitor latency for each public HTTP endpoint."
 usageExampleJa: "公開HTTPエンドポイントごとにレイテンシを監視します。"
 difficulty: Beginner
-scene: Implementation
+scene: Performance
 source:
   title: "Fetch API - Web APIs | MDN"
   url: "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API"

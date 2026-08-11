@@ -9,7 +9,7 @@ descriptionJa: "設計やチーム認識を一致させる。"
 usageExample: "Align API contracts with frontend expectations early."
 usageExampleJa: "早期にAPI契約をフロント期待と整合させます。"
 difficulty: Beginner
-scene: Sprint Planning
+scene: Requirements
 source:
   title: "Change descriptions - Google Engineering Practices"
   url: "https://google.github.io/eng-practices/review/developer/cl-descriptions.html"

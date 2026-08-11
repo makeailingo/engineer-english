@@ -9,7 +9,7 @@ descriptionJa: "ユーザーまたはシステムの優先選択。"
 usageExample: "Persist theme preference in local storage safely."
 usageExampleJa: "テーマ設定をlocalStorageへ安全に保存します。"
 difficulty: Beginner
-scene: Daily Communication
+scene: Implementation
 source:
   title: "Using the Web Storage API - Web APIs | MDN"
   url: "https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API/Using_the_Web_Storage_API"

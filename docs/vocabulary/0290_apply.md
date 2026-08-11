@@ -9,7 +9,7 @@ descriptionJa: "設定や変更を実際に反映する。"
 usageExample: "Apply the migration before serving new traffic."
 usageExampleJa: "新トラフィック処理前にマイグレーションを適用します。"
 difficulty: Beginner
-scene: Code Review
+scene: Implementation
 source:
   title: "Function.prototype.apply() - JavaScript | MDN"
   url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/apply"

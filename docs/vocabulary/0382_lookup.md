@@ -9,7 +9,7 @@ descriptionJa: "キーから値を引く操作。"
 usageExample: "Optimize lookup tables used on the hot request path."
 usageExampleJa: "ホット経路のルックアップ表を最適化します。"
 difficulty: Intermediate
-scene: Implementation
+scene: Performance
 source:
   title: "Map - JavaScript | MDN"
   url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map"

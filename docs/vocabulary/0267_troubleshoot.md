@@ -9,7 +9,7 @@ descriptionJa: "障害原因を体系的に調査する。"
 usageExample: "Troubleshoot the timeout using distributed trace spans."
 usageExampleJa: "分散トレースでタイムアウト原因を調査します。"
 difficulty: Intermediate
-scene: Technical Interview
+scene: Debugging
 source:
   title: "console.trace() - Web APIs | MDN"
   url: "https://developer.mozilla.org/en-US/docs/Web/API/console/trace_static"

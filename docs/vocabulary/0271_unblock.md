@@ -9,7 +9,7 @@ descriptionJa: "待ち状態の処理を再開可能にする。"
 usageExample: "Unblock the deploy pipeline after tests pass."
 usageExampleJa: "テスト合格後にデプロイパイプラインを解除します。"
 difficulty: Intermediate
-scene: Incident Response
+scene: Infrastructure / Cloud
 source:
   title: "The Art of SLOs – Facilitator Handbook"
   url: "https://sre.google/static/pdf/art-of-slos-howto-a4.pdf"

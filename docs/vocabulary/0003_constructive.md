@@ -9,7 +9,7 @@ descriptionJa: "問題の改善につながる意見や伝え方を表す。"
 usageExample: "Please keep your feedback constructive and specific."
 usageExampleJa: "フィードバックは建設的かつ具体的に保ってください。"
 difficulty: Intermediate
-scene: Daily Communication
+scene: Code Review
 source:
   title: "How to handle reviewer comments"
   url: "https://google.github.io/eng-practices/review/developer/handling-comments.html"

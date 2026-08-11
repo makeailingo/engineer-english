@@ -9,7 +9,7 @@ descriptionJa: "未完成部分の仮置き。"
 usageExample: "Replace placeholder values before production rollout."
 usageExampleJa: "本番展開前にプレースホルダ値を置き換えます。"
 difficulty: Intermediate
-scene: Requirements
+scene: Implementation
 source:
   title: "Change descriptions - Google Engineering Practices"
   url: "https://google.github.io/eng-practices/review/developer/cl-descriptions.html"

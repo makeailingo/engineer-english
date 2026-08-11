@@ -9,7 +9,7 @@ descriptionJa: "モデルやメンバーの能力を育成する。"
 usageExample: "Train the ranking model on last month's click logs."
 usageExampleJa: "先月のクリックログでランキングモデルを学習します。"
 difficulty: Beginner
-scene: Leadership / Management
+scene: Implementation
 source:
   title: "What to look for in a code review - Google Engineering Practices"
   url: "https://google.github.io/eng-practices/review/reviewer/looking-for.html"

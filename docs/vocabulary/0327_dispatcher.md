@@ -9,7 +9,7 @@ descriptionJa: "処理を適切な先へ振り分ける役。"
 usageExample: "The dispatcher routes jobs to idle worker threads."
 usageExampleJa: "ディスパッチャが空きワーカーへジョブを振り分けます。"
 difficulty: Intermediate
-scene: Incident Response
+scene: Implementation
 source:
   title: "EventTarget: dispatchEvent() method - Web APIs | MDN"
   url: "https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/dispatchEvent"

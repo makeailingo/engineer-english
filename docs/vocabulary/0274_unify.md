@@ -9,7 +9,7 @@ descriptionJa: "複数実装や設定を一つにまとめる。"
 usageExample: "Unify logging libraries across backend services."
 usageExampleJa: "バックエンドのログライブラリを統合します。"
 difficulty: Intermediate
-scene: Daily Communication
+scene: Architecture
 source:
   title: "The Standard of Code Review - Google Engineering Practices"
   url: "https://google.github.io/eng-practices/review/reviewer/standard.html"

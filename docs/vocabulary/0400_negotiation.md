@@ -9,7 +9,7 @@ descriptionJa: "双方条件を調整するプロセス。"
 usageExample: "Handle content negotiation for JSON and XML clients."
 usageExampleJa: "JSON/XMLクライアント向けコンテンツ交渉を処理します。"
 difficulty: Intermediate
-scene: Leadership / Management
+scene: Implementation
 source:
   title: "Fetch API - Web APIs | MDN"
   url: "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API"

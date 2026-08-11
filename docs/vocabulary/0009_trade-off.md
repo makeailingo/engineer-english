@@ -9,7 +9,7 @@ descriptionJa: "相反する利点と欠点を比較し、妥協点を選ぶこ�
 usageExample: "What trade-off does this caching strategy introduce?"
 usageExampleJa: "このキャッシュ戦略にはどのようなトレードオフがありますか。"
 difficulty: Intermediate
-scene: Technical Interview
+scene: Code Review
 source:
   title: "The Standard of Code Review"
   url: "https://google.github.io/eng-practices/review/reviewer/standard.html"

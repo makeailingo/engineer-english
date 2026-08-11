@@ -9,7 +9,7 @@ descriptionJa: "名前やキーの先頭部分。"
 usageExample: "Namespace cache keys with a service-specific prefix."
 usageExampleJa: "キャッシュキーへサービス固有プレフィックスを付けます。"
 difficulty: Intermediate
-scene: Daily Communication
+scene: Implementation
 source:
   title: "String.prototype.startsWith() - JavaScript | MDN"
   url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/startsWith"

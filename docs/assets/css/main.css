@@ -10,6 +10,7 @@ html {
   font-size: 16px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -22,13 +23,19 @@ body {
   background: var(--color-canvas);
 }
 
+::selection {
+  background: var(--color-primary-soft);
+  color: var(--color-ink);
+}
+
 a {
   color: var(--color-ink);
   text-decoration: none;
+  transition: color var(--transition-fast);
 }
 
 a:hover {
-  text-decoration: underline;
+  color: var(--color-primary);
 }
 
 code {
@@ -37,31 +44,84 @@ code {
   line-height: 1.5;
 }
 
+/* Header */
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  height: var(--header-height);
+  background: rgba(247, 247, 244, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--color-hairline);
+}
+
+.site-header__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: var(--max-width);
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 var(--spacing-lg);
+}
+
+.site-header__brand {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+  color: var(--color-ink);
+}
+
+.site-header__brand:hover {
+  color: var(--color-ink);
+}
+
+.site-header__name {
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
 /* Main */
 
 .site-main {
   max-width: var(--max-width);
   margin: 0 auto;
-  padding: var(--spacing-section) var(--spacing-lg);
+  padding: var(--spacing-xl) var(--spacing-lg) var(--spacing-section);
 }
 
 @media (max-width: 640px) {
   .site-main {
-    padding: var(--spacing-xxl) var(--spacing-base);
+    padding: var(--spacing-xl) var(--spacing-base) var(--spacing-xxl);
   }
 }
 
 /* Hero */
 
 .hero-band {
+  position: relative;
   margin-bottom: var(--spacing-xl);
+  padding: var(--spacing-lg) 0 var(--spacing-lg);
+}
+
+.hero-band::before {
+  content: "";
+  position: absolute;
+  inset: -var(--spacing-xxl) -var(--spacing-lg) var(--spacing-lg);
+  background:
+    radial-gradient(ellipse 80% 60% at 50% -10%, rgba(245, 78, 0, 0.06), transparent),
+    radial-gradient(ellipse 50% 40% at 80% 20%, rgba(38, 37, 30, 0.03), transparent);
+  pointer-events: none;
+  z-index: -1;
 }
 
 .hero-band__title {
-  margin: 0 0 var(--spacing-base);
-  font-size: clamp(32px, 5vw, 56px);
+  margin: 0 0 var(--spacing-sm);
+  font-size: clamp(28px, 4vw, 40px);
   font-weight: 400;
-  line-height: 1.1;
+  line-height: 1.15;
   letter-spacing: -0.03em;
   color: var(--color-ink);
 }
@@ -69,9 +129,23 @@ code {
 .hero-band__subtitle {
   margin: 0;
   max-width: 36rem;
-  font-size: 16px;
-  line-height: 1.5;
+  font-size: 17px;
+  line-height: 1.7;
   color: var(--color-body);
+}
+
+.hero-band__subtitle a {
+  color: var(--color-ink);
+  font-weight: 500;
+  text-decoration: underline;
+  text-decoration-color: var(--color-hairline-strong);
+  text-underline-offset: 3px;
+  transition: color var(--transition-fast), text-decoration-color var(--transition-fast);
+}
+
+.hero-band__subtitle a:hover {
+  color: var(--color-primary);
+  text-decoration-color: var(--color-primary);
 }
 
 /* Cards */
@@ -81,6 +155,7 @@ code {
   background: var(--color-surface-card);
   border: 1px solid var(--color-hairline);
   border-radius: var(--rounded-lg);
+  box-shadow: var(--shadow-sm);
 }
 
 /* Table */
@@ -90,6 +165,7 @@ code {
   background: var(--color-surface-card);
   border: 1px solid var(--color-hairline);
   border-radius: var(--rounded-lg);
+  box-shadow: var(--shadow-sm);
 }
 
 .table-scroll {
@@ -124,6 +200,11 @@ code {
   vertical-align: top;
   color: var(--color-body);
   border-bottom: 1px solid var(--color-hairline-soft);
+  transition: background var(--transition-fast);
+}
+
+#vocabulary-table tbody tr:hover td {
+  background: var(--color-canvas-soft);
 }
 
 #vocabulary-table tbody tr:last-child td {
@@ -145,6 +226,10 @@ code {
   color: var(--color-ink);
 }
 
+#vocabulary-table td:nth-child(2) a:hover {
+  color: var(--color-primary);
+}
+
 /* Badges */
 
 .badge-pill {
@@ -160,22 +245,38 @@ code {
   white-space: nowrap;
 }
 
+.badge-pill--beginner {
+  color: var(--color-success);
+  background: rgba(31, 138, 101, 0.1);
+}
+
+.badge-pill--intermediate {
+  color: #b86a00;
+  background: rgba(184, 106, 0, 0.1);
+}
+
+.badge-pill--advanced {
+  color: var(--color-primary);
+  background: var(--color-primary-soft);
+}
+
 /* Code Block */
 
 .code-block {
   margin: var(--spacing-base) 0;
-  padding: var(--spacing-md);
+  padding: var(--spacing-md) var(--spacing-lg);
   font-family: var(--font-mono);
   font-size: 13px;
-  line-height: 1.5;
-  color: var(--color-ink);
-  background: var(--color-surface-card);
-  border: 1px solid var(--color-hairline);
+  line-height: 1.6;
+  color: #e8e6e3;
+  background: var(--color-surface-code);
+  border: 1px solid rgba(255, 255, 255, 0.06);
   border-radius: var(--rounded-lg);
 }
 
 .code-block em {
   font-style: normal;
+  color: #c4c2be;
 }
 
 /* Vocabulary Detail */
@@ -185,7 +286,9 @@ code {
 }
 
 .vocabulary__back {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  gap: var(--spacing-xxs);
   margin-bottom: var(--spacing-lg);
   font-size: 14px;
   font-weight: 500;
@@ -193,15 +296,15 @@ code {
 }
 
 .vocabulary__back:hover {
-  color: var(--color-ink);
+  color: var(--color-primary);
 }
 
 .vocabulary__title {
   margin: 0 0 var(--spacing-base);
-  font-size: clamp(26px, 4vw, 36px);
+  font-size: clamp(32px, 5vw, 48px);
   font-weight: 400;
-  line-height: 1.2;
-  letter-spacing: -0.02em;
+  line-height: 1.1;
+  letter-spacing: -0.03em;
   color: var(--color-ink);
 }
 
@@ -248,7 +351,7 @@ code {
 .vocabulary__section p {
   margin: 0;
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 1.6;
   color: var(--color-body);
 }
 
@@ -257,7 +360,7 @@ code {
 }
 
 .vocabulary__meaning {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 600;
   line-height: 1.4;
   color: var(--color-ink);
@@ -290,6 +393,7 @@ code {
   margin-top: var(--spacing-section);
   padding: var(--spacing-xxl) var(--spacing-lg) var(--spacing-xl);
   border-top: 1px solid var(--color-hairline);
+  background: var(--color-canvas-soft);
 }
 
 .footer__inner {
@@ -297,9 +401,23 @@ code {
   margin: 0 auto;
 }
 
+.footer__brand {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+  margin-bottom: var(--spacing-sm);
+}
+
+.footer__name {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--color-ink);
+}
+
 .footer__text {
   margin: 0;
+  max-width: 32rem;
   font-size: 14px;
-  line-height: 1.5;
+  line-height: 1.6;
   color: var(--color-muted);
 }

@@ -9,7 +9,7 @@ descriptionJa: "ユーザー入力を促す表示。"
 usageExample: "Localize the confirmation prompt for destructive actions."
 usageExampleJa: "破壊的操作の確認プロンプトをローカライズします。"
 difficulty: Beginner
-scene: Technical Interview
+scene: Implementation
 source:
   title: "Clipboard API - Web APIs | MDN"
   url: "https://developer.mozilla.org/en-US/docs/Web/API/Clipboard_API"
