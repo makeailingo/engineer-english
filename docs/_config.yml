@@ -1,6 +1,8 @@
 title: Engineer English
-description: ソフトウェアエンジニアが実務で使う英語のデータセットです。
+description: ソフトウェアエンジニアが実務で使う英語をまとめたオープンなデータセットです。
 github_url: https://github.com/makeailingo/engineer-english
+license: MIT
+license_url: https://github.com/makeailingo/engineer-english/blob/main/LICENSE
 url: https://makeailingo.github.io
 baseurl: /engineer-english
 

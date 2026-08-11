@@ -27,6 +27,9 @@
       <a class="site-header__brand" href="{{ '/' | relative_url }}">
         <span class="site-header__name">{{ site.title }}</span>
       </a>
+      <nav class="site-header__nav" aria-label="外部リンク">
+        <a class="site-header__link" href="{{ site.github_url }}" target="_blank" rel="noopener noreferrer">GitHub</a>
+      </nav>
     </div>
   </header>
 
@@ -39,7 +42,11 @@
       <div class="footer__brand">
         <span class="footer__name">{{ site.title }}</span>
       </div>
-      <p class="footer__text">{{ site.description }}</p>
+      {%- if site.license and site.license_url -%}
+        <p class="footer__license">
+          <a href="{{ site.license_url }}">{{ site.license }} License</a>
+        </p>
+      {%- endif -%}
     </div>
   </footer>
 </body>

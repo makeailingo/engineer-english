@@ -44,3 +44,7 @@ bundle exec jekyll build --baseurl ""
 ```
 
 生成物は `docs/_site/` に出力される。
+
+## ライセンス
+
+このプロジェクトは [MIT License](LICENSE) の下で公開されています。
