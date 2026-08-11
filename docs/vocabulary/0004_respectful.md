@@ -7,7 +7,7 @@ meaningJa: "敬意を示す、礼儀正しい"
 pronunciation: "/rɪˈspekt.fəl/"
 descriptionJa: "相手に敬意を示し、配慮して伝えるさま。"
 usageExample: "Keep technical disagreements respectful and focused on the code."
-usageExampleJa: "技術的な意見の相違でも敬意を保ち、コードに集中してください。"
+usageExampleJa: "技術的な相違も、敬意を保ちコードを論点にしてください。"
 difficulty: Intermediate
 scene: Daily Communication
 source:

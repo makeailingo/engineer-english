@@ -7,7 +7,7 @@ meaningJa: "合意、総意"
 pronunciation: "/kənˈsen.səs/"
 descriptionJa: "参加者が技術的事実に基づいて合意すること。"
 usageExample: "We reached consensus on the rollout plan."
-usageExampleJa: "展開計画について合意しました。"
+usageExampleJa: "段階的に公開する計画について合意しました。"
 difficulty: Intermediate
 scene: Daily Communication
 source:
