@@ -27,6 +27,28 @@ term: "address"
 5. 辞書に掲載された語義のうち、一次資料のソフトウェア開発文脈で実際に使われているものを特定する。
 6. 特定した語義に限定して、自然で簡潔な日本語訳を作成する。
 7. Oxfordで品詞、語義、米国英語のIPAを照合し、不一致がないか確認する。
+8. 各 Vocabulary を確定する前に、`evaluating-meaningJa` のルールを適用する。
+
+   Before finalizing each vocabulary item, apply the `evaluating-meaningJa` rules.
+
+   In particular:
+
+   - `meaningJa` must explain the English meaning to a Japanese learner.
+   - Do not use katakana transliteration alone as the meaning.
+   - Katakana may be retained only when accompanied by a useful Japanese explanation.
+   - Keep the explanation concise and aligned with the intended sense in `usageExample`.
+
+   Examples:
+
+   NG:
+   blocker → ブロッカー
+   backlog → バックログ
+   on-call → オンコール
+
+   OK:
+   blocker → 作業の進行を妨げる問題、ブロッカー
+   backlog → 未着手の作業や要望の一覧、バックログ
+   on-call → 障害対応のため待機する当番、オンコール
 
 検索結果に表示される要約だけで判断せず、各ページを開いて確認する。不一致を解消できない場合は推測せず、`confidence: Low`として理由を示す。
 
