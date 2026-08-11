@@ -47,4 +47,4 @@ bundle exec jekyll build --baseurl ""
 
 ## ライセンス
 
-このプロジェクトは [MIT License](LICENSE) の下で公開されています。
+MIT. See [LICENSE](LICENSE).
