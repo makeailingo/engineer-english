@@ -20,3 +20,4 @@
 - シーンの判定は [evaluating-scene Skill](.agents/skills/evaluating-scene/SKILL.md) に従う。
 - `meaningJa` の評価は [evaluating-meaningJa Skill](.agents/skills/evaluating-meaningJa/SKILL.md) に従う。
 - 日本語文の作成・レビューは [japanese-tech-writing Skill](.agents/skills/japanese-tech-writing/SKILL.md) に従う。
+- 語彙の並べ替え・再採番は [sorting-vocabulary Skill](.agents/skills/sorting-vocabulary/SKILL.md) に従う。
