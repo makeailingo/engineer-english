@@ -1,0 +1,18 @@
+---
+id: "0786"
+term: "detailed"
+type: "word"
+partOfSpeech: "adjective"
+meaningJa: "詳細な"
+pronunciation: "/dɪˈteɪld/"
+descriptionJa: "具体性が高く細部まで書かれていること。"
+usageExample: "Provide detailed steps in the runbook."
+usageExampleJa: "ランブックに詳細手順を記載してください。"
+difficulty: "Beginner"
+scene: "Incident Response"
+source:
+  title: "What to look for in a code review"
+  url: "https://google.github.io/eng-practices/review/reviewer/looking-for.html"
+  license: "CC BY 3.0"
+  context: "コードレビューで設計や可読性を確認する文脈。"
+---

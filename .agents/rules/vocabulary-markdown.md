@@ -8,7 +8,7 @@
 - `difficulty`は evaluating-difficulty Skill に従う。
 - `scene`は evaluating-scene Skill に従う。
 - `meaningJa`は evaluating-meaningJa Skill に従う。
-- `id`は`"0001"`から始まる重複のない4桁連番とし、既存の最大値に1を加えて採番する。
+- `id`は`"0001"`から`"1000"`までの重複のない4桁連番とする。`id`は表示順・学習順を表し、実務で身につけやすい順に並べる。
 - `type`は`word`または`phrase`とする。
 - `difficulty`と`scene`は下記マスタからそれぞれ1つだけ選ぶ。
 - `source`には、実在と用法を確認した一次情報を1件、下記Source Schemaで記載する。
@@ -94,4 +94,4 @@ Google SREでは、SREサイト全体をCC BY 4.0とみなさず、CC BY 4.0と�
 
 ## 作成例
 
-テンプレートを使用した完成例: `docs/vocabulary/0001_clarify.md`
+テンプレートを使用した完成例: `docs/vocabulary/0003_clarify.md`

@@ -1,0 +1,18 @@
+---
+id: "0013"
+term: "sync up"
+type: "phrase"
+partOfSpeech: "phrasal verb"
+meaningJa: "認識を合わせる"
+pronunciation: "/ˌsɪŋk ˈʌp/"
+descriptionJa: "短い会話で情報や認識をそろえること。"
+usageExample: "Let's sync up before the sprint review."
+usageExampleJa: "スプリントレビューの前に認識を合わせましょう。"
+difficulty: "Intermediate"
+scene: "Daily Communication"
+source:
+  title: "How to handle reviewer comments"
+  url: "https://google.github.io/eng-practices/review/developer/handling-comments.html"
+  license: "CC BY 3.0"
+  context: "開発者間の相談や依頼、合意形成の文脈。"
+---

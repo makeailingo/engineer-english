@@ -1,0 +1,18 @@
+---
+id: "0787"
+term: "determine"
+type: "word"
+partOfSpeech: "verb"
+meaningJa: "決定する、判定する"
+pronunciation: "/dɪˈtɝː.mɪn/"
+descriptionJa: "調査結果から結論を出すこと。"
+usageExample: "We must determine whether data was lost."
+usageExampleJa: "データ欠損があったか判定する必要があります。"
+difficulty: "Beginner"
+scene: "Incident Response"
+source:
+  title: "Small CLs"
+  url: "https://google.github.io/eng-practices/review/developer/small-cls.html"
+  license: "CC BY 3.0"
+  context: "要件整理と変更計画の文脈。"
+---
