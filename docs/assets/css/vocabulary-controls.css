@@ -114,6 +114,17 @@
 @media (max-width: 640px) {
   .vocabulary-toolbar {
     padding: var(--spacing-base);
+    min-width: 0;
+  }
+
+  .vocabulary-toolbar__search {
+    flex: 1 1 100%;
+    min-width: 0;
+  }
+
+  .vocabulary-toolbar__filters {
+    flex: 1 1 100%;
+    min-width: 0;
   }
 
   .vocabulary-toolbar__field {

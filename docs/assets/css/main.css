@@ -11,6 +11,7 @@ html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   scroll-behavior: smooth;
+  overflow-x: clip;
 }
 
 body {
@@ -115,6 +116,15 @@ code {
   .site-main {
     padding: var(--spacing-xl) var(--spacing-base) var(--spacing-sm);
   }
+
+  .hero-band::before {
+    inset: -var(--spacing-xxl) 0 var(--spacing-lg);
+  }
+
+  .hero-band__subtitle {
+    word-break: normal;
+    overflow-wrap: anywhere;
+  }
 }
 
 /* Hero */
@@ -123,6 +133,7 @@ code {
   position: relative;
   margin-bottom: var(--spacing-xl);
   padding: var(--spacing-lg) 0 var(--spacing-lg);
+  overflow-x: clip;
 }
 
 .hero-band::before {
@@ -176,10 +187,12 @@ code {
 
 .table-scroll {
   overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 #vocabulary-table {
   width: 100%;
+  min-width: 48rem;
   border-collapse: collapse;
   font-size: 14px;
 }
@@ -207,6 +220,12 @@ code {
   color: var(--color-body);
   border-bottom: 1px solid var(--color-hairline-soft);
   transition: background var(--transition-fast);
+  overflow-wrap: anywhere;
+}
+
+#vocabulary-table td:nth-child(3),
+#vocabulary-table td:nth-child(4) {
+  white-space: nowrap;
 }
 
 #vocabulary-table tbody tr:hover td {
