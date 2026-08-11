@@ -135,11 +135,20 @@ code {
 
   #vocabulary-table {
     min-width: 0;
-    table-layout: fixed;
+    table-layout: auto;
+  }
+
+  #vocabulary-table thead tr,
+  #vocabulary-table tbody tr {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-sm);
   }
 
   #vocabulary-table th:first-child,
   #vocabulary-table td:first-child,
+  #vocabulary-table th:nth-child(4),
+  #vocabulary-table td:nth-child(4),
   #vocabulary-table th:nth-child(5),
   #vocabulary-table td:nth-child(5),
   #vocabulary-table th:nth-child(6),
@@ -149,21 +158,34 @@ code {
     display: none;
   }
 
+  #vocabulary-table th,
+  #vocabulary-table td {
+    display: block;
+    width: auto;
+    border-bottom: none;
+  }
+
+  #vocabulary-table thead {
+    border-bottom: 1px solid var(--color-hairline);
+  }
+
+  #vocabulary-table tbody tr {
+    border-bottom: 1px solid var(--color-hairline-soft);
+  }
+
+  #vocabulary-table tbody tr:last-child {
+    border-bottom: none;
+  }
+
   #vocabulary-table th:nth-child(2),
   #vocabulary-table td:nth-child(2) {
-    width: 38%;
+    flex: 0 1 auto;
+    min-width: 0;
   }
 
   #vocabulary-table th:nth-child(3),
   #vocabulary-table td:nth-child(3) {
-    width: 22%;
-  }
-
-  #vocabulary-table th:nth-child(4),
-  #vocabulary-table td:nth-child(4) {
-    width: 40%;
-    white-space: normal;
-    overflow-wrap: anywhere;
+    flex: 0 0 auto;
   }
 }
 
