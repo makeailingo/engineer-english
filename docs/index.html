@@ -69,6 +69,7 @@ title: Engineer English
             <th>Difficulty / 難易度</th>
             <th>Scene / シーン</th>
             <th>Meaning / 意味</th>
+            <th>Meaning (JA) / 意味（日本語）</th>
             <th>Usage Example / 使用例</th>
             <th>Usage Example (JA) / 使用例（日本語訳）</th>
           </tr>
@@ -97,13 +98,8 @@ title: Engineer English
                   </span>
                 </td>
                 <td>{{ site.labels.scene[vocabulary.scene] }}</td>
-                <td>
-                  {% if vocabulary.meaning %}
-                    {{ vocabulary.meaning }}
-                  {% else %}
-                    {{ vocabulary.meaningJa }}
-                  {% endif %}
-                </td>
+                <td>{{ vocabulary.meaning }}</td>
+                <td>{{ vocabulary.meaningJa }}</td>
                 <td>{{ vocabulary.usageExample }}</td>
                 <td>{{ vocabulary.usageExampleJa }}</td>
               </tr>

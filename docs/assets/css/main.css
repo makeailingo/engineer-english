@@ -205,7 +205,7 @@ code {
 
 #vocabulary-table {
   width: 100%;
-  min-width: 48rem;
+  min-width: 56rem;
   border-collapse: collapse;
   font-size: 14px;
 }
@@ -283,7 +283,9 @@ code {
   #vocabulary-table th:nth-child(6),
   #vocabulary-table td:nth-child(6),
   #vocabulary-table th:nth-child(7),
-  #vocabulary-table td:nth-child(7) {
+  #vocabulary-table td:nth-child(7),
+  #vocabulary-table th:nth-child(8),
+  #vocabulary-table td:nth-child(8) {
     display: none;
   }
 
