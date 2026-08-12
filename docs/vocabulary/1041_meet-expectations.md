@@ -1,0 +1,20 @@
+---
+id: "1041"
+term: "meet expectations"
+type: "phrase"
+partOfSpeech: "phrase"
+pronunciation: "/miːt ˌek.spekˈteɪ.ʃənz/"
+description: "Perform at the level required for your role."
+descriptionJa: "役割で求められる水準の成果を出すこと。"
+meaning: "perform at the level required for your role"
+meaningJa: "期待に応える、求められた水準を満たす"
+usageExample: "Results-driven engineers meet or exceed expectations consistently."
+usageExampleJa: "成果志向のエンジニアは期待を継続的に満たします。"
+difficulty: "Intermediate"
+scene: "Technical Interview"
+source:
+  title: "SDE II Interview Prep"
+  url: "https://www.amazon.jobs/content/en/how-we-hire/sde-ii-interview-prep"
+  license: "No open license identified"
+  context: "SDE IIの特性として期待水準を満たす姿勢の文脈。"
+---
