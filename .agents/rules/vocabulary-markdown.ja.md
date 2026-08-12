@@ -104,4 +104,4 @@ Amazon Jobsを出典とする場合、`source.license`には`No open license ide
 
 ## 作成例
 
-テンプレートを使用した完成例: `docs/vocabulary/0003_clarify.md`
+テンプレートを使用した完成例: `docs/vocabulary/0087_clarify.md`

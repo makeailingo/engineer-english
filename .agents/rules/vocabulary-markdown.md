@@ -124,4 +124,4 @@ At minimum, check:
 
 ## Example
 
-Completed example using the template: `docs/vocabulary/0003_clarify.md`
+Completed example using the template: `docs/vocabulary/0087_clarify.md`
