@@ -48,18 +48,15 @@ used only as part of an incident or review does not automatically belong there.
 
 Within each Scene, place entries earlier when they rank higher on:
 
-1. Learning value for Japanese engineers
-2. Practical frequency in professional work
-3. Difficulty: Beginner → Intermediate → Advanced
+1. Difficulty: Beginner → Intermediate → Advanced
+2. Learning value for Japanese engineers
+3. Practical frequency in professional work
 
-Do not sort by difficulty alone.
-Even Advanced entries with high learning value and practical use
-(`touch base`, `loop in`, `circle back`, etc.)
-should come before obvious Beginner general words.
+Place Beginner entries toward the front of each Scene so learners can start with
+easier vocabulary in every context.
 
-Do not place low-learning-value obvious words such as `update` at the front of a Scene just because they are Beginner.
-
-Prioritize expressions that are hard for Japanese learners to infer even when built from simple words, such as:
+Within the same difficulty, prioritize expressions that are hard for Japanese
+learners to infer even when built from simple words, such as:
 
 - wrap up
 - follow up

@@ -1,0 +1,20 @@
+---
+id: "0091"
+term: "set up"
+type: "phrase"
+partOfSpeech: "phrasal verb"
+pronunciation: "/ˌset ˈʌp/"
+description: "Prepare the environment and tools for use."
+descriptionJa: "環境やツールを使える状態に整えること。"
+meaning: "build, configure"
+meaningJa: "構築する、設定する"
+usageExample: "Set up the local environment with Docker."
+usageExampleJa: "Dockerでローカル環境を構築してください。"
+difficulty: "Beginner"
+scene: "Implementation / Review"
+source:
+  title: "Fetch API - Web APIs | MDN"
+  url: "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API"
+  license: "CC BY-SA 2.5"
+  context: "APIや機能を実装する文脈。"
+---

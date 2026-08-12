@@ -45,7 +45,7 @@ Amazon Jobsの本文、例文、質問文は、データセットへコピー、
 | 6 | テクニカルライティング | 0985–1025 |
 | 7 | マネジメント | 1026–1063 |
 
-Scene分類を先に確定し、各Scene内では **学習価値 → 実用性 → 難易度** の順で並べます。
+Scene分類を先に確定し、各Scene内では **難易度 → 学習価値 → 実用性** の順で並べます。
 詳細は [sorting-vocabulary Skill](.agents/skills/sorting-vocabulary/SKILL.md) を参照してください。
 
 ## ローカル開発

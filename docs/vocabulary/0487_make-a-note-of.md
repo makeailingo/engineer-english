@@ -1,0 +1,20 @@
+---
+id: "0487"
+term: "make a note of"
+type: "phrase"
+partOfSpeech: "phrasal verb"
+pronunciation: "/ˌmeɪk ə ˈnoʊt ʌv/"
+description: "Record your observations and issues so you can refer to them later."
+descriptionJa: "後で参照できるよう、気づきや課題を記録しておくこと。"
+meaning: "make a note of it"
+meaningJa: "メモしておく"
+usageExample: "Maybe also make a note of it."
+usageExampleJa: "ついでにメモしておくのもありです。"
+difficulty: "Intermediate"
+scene: "Meetings / Events"
+source:
+  title: "Life of An SRE with Dave Reisner"
+  url: "https://sre.google/prodcast/transcripts/sre-prodcast-02-06/"
+  license: "CC BY 4.0"
+  context: "学習中の気づきを後で見返すため記録する場面。"
+---

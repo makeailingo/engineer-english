@@ -44,7 +44,7 @@ Each vocabulary `id` (0001 onward) reflects learning order across seven Scenes i
 | 6 | Technical Writing | 0985–1025 |
 | 7 | Management | 1026–1063 |
 
-Within each Scene, entries are ordered by **learning value → practical frequency → difficulty**.
+Within each Scene, entries are ordered by **difficulty → learning value → practical frequency**.
 See the [sorting-vocabulary Skill](.agents/skills/sorting-vocabulary/SKILL.md) for details.
 
 ## Local Development

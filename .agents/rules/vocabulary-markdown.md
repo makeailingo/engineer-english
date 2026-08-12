@@ -11,7 +11,7 @@ Scope: `docs/vocabulary/**/*.md`
 - Follow the evaluating-scene Skill for `scene`.
 - Follow the evaluating-meaningJa Skill for `meaningJa`.
 - Use unique 4-digit IDs from `"0001"` through `"9999"`. The `id` reflects display and learning order.
-- Follow the [sorting-vocabulary Skill](.agents/skills/sorting-vocabulary/SKILL.md) for learning order. Sort entries by Scene (Career / Interview → Implementation / Review → Meetings / Events → Design / Architecture → Incident Response → Technical Writing → Management), then within each Scene by learning value → practical frequency → difficulty, and renumber IDs.
+- Follow the [sorting-vocabulary Skill](.agents/skills/sorting-vocabulary/SKILL.md) for learning order. Sort entries by Scene (Career / Interview → Implementation / Review → Meetings / Events → Design / Architecture → Incident Response → Technical Writing → Management), then within each Scene by difficulty → learning value → practical frequency, and renumber IDs.
 - Set `type` to `word` or `phrase`.
 - Choose one value each for `difficulty` and `scene` from the masters below.
 - Record one verified primary source in `source` using the Source Schema below.
@@ -124,4 +124,4 @@ At minimum, check:
 
 ## Example
 
-Completed example using the template: `docs/vocabulary/0087_clarify.md`
+Completed example using the template: `docs/vocabulary/0207_clarify.md`

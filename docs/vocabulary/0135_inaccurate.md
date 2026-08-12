@@ -1,0 +1,20 @@
+---
+id: "0135"
+term: "inaccurate"
+type: "word"
+partOfSpeech: adjective
+pronunciation: "/ɪnˈæk.jər.ət/"
+description: "Facts and figures are incorrect."
+descriptionJa: "事実や数値が誤っていること。"
+meaning: inaccurate
+meaningJa: "不正確な"
+usageExample: "The dashboard shows inaccurate error counts."
+usageExampleJa: "ダッシュボードのエラー数が不正確です。"
+difficulty: "Beginner"
+scene: "Implementation / Review"
+source:
+  title: "What to look for in a code review"
+  url: "https://google.github.io/eng-practices/review/reviewer/looking-for.html"
+  license: "CC BY 3.0"
+  context: "コードレビューで設計や可読性を確認する文脈。"
+---

@@ -1,0 +1,20 @@
+---
+id: "0088"
+term: "figure out"
+type: "phrase"
+partOfSpeech: "phrasal verb"
+pronunciation: "/ˌfɪɡ.jɚ ˈaʊt/"
+description: "To arrive at an answer by thinking and researching."
+descriptionJa: "考えたり調べたりして答えにたどり着くこと。"
+meaning: "unravel, understand"
+meaningJa: "解き明かす、理解する"
+usageExample: "I can't figure out why the test fails."
+usageExampleJa: "テストが失敗する理由が分かりません。"
+difficulty: "Beginner"
+scene: "Implementation / Review"
+source:
+  title: "Performance fundamentals - Performance | MDN"
+  url: "https://developer.mozilla.org/en-US/docs/Web/Performance/Guides/Fundamentals"
+  license: "CC BY-SA 2.5"
+  context: "不具合調査と原因特定の文脈。"
+---

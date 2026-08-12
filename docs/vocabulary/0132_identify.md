@@ -1,0 +1,20 @@
+---
+id: "0132"
+term: "identify"
+type: "word"
+partOfSpeech: verb
+pronunciation: "/aɪˈden.tə.faɪ/"
+description: "Clearly identify causes and targets."
+descriptionJa: "原因や対象を明確に見分ける。"
+meaning: "identify, identify"
+meaningJa: "特定する、識別する"
+usageExample: "Identify the commit that introduced the regression."
+usageExampleJa: "リグレッションを導入したコミットを特定します。"
+difficulty: "Beginner"
+scene: "Implementation / Review"
+source:
+  title: "What to look for in a code review"
+  url: "https://google.github.io/eng-practices/review/reviewer/looking-for.html"
+  license: "CC BY 3.0"
+  context: "バグの原因や影響範囲を特定するレビューの文脈。"
+---

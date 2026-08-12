@@ -13,7 +13,7 @@
 - `scene`は evaluating-scene Skill に従う。
 - `meaningJa`は evaluating-meaningJa Skill に従う。
 - `id`は`"0001"`から`"9999"`までの重複のない4桁連番とする。`id`は表示順・学習順を表す。
-- 学習順は [sorting-vocabulary Skill](.agents/skills/sorting-vocabulary/SKILL.md) に従う。Scene（転職・面接 → 実装・レビュー → 会議・イベント → 設計・アーキテクチャ → 障害対応 → テクニカルライティング → マネジメント）の順に分類し、各 Scene 内では学習価値 → 実用性 → 難易度の順で並べ、IDを振り直す。
+- 学習順は [sorting-vocabulary Skill](.agents/skills/sorting-vocabulary/SKILL.md) に従う。Scene（転職・面接 → 実装・レビュー → 会議・イベント → 設計・アーキテクチャ → 障害対応 → テクニカルライティング → マネジメント）の順に分類し、各 Scene 内では難易度 → 学習価値 → 実用性の順で並べ、IDを振り直す。
 - `type`は`word`または`phrase`とする。
 - `difficulty`と`scene`は下記マスタからそれぞれ1つだけ選ぶ。
 - `source`には、実在と用法を確認した一次情報を1件、下記Source Schemaで記載する。
@@ -104,4 +104,4 @@ Amazon Jobsを出典とする場合、`source.license`には`No open license ide
 
 ## 作成例
 
-テンプレートを使用した完成例: `docs/vocabulary/0087_clarify.md`
+テンプレートを使用した完成例: `docs/vocabulary/0207_clarify.md`

@@ -1,0 +1,20 @@
+---
+id: "0077"
+term: "adjust the solution"
+type: "phrase"
+partOfSpeech: "phrase"
+pronunciation: "/əˈdʒʌst ðə səˈluː.ʃən/"
+description: "Modify your code after running it against test cases."
+descriptionJa: "テスト実行後にコードを修正すること。"
+meaning: "modify your code after running it against test cases"
+meaningJa: "テスト後に解法を修正する"
+usageExample: "Test and adjust the solution to pass all test cases."
+usageExampleJa: "全テストケース通過まで解法を調整してください。"
+difficulty: "Intermediate"
+scene: "Career / Interview"
+source:
+  title: "SDE II Interview Prep"
+  url: "https://www.amazon.jobs/content/en/how-we-hire/sde-ii-interview-prep"
+  license: "No open license identified"
+  context: "コーディング面接でテスト後に解法を修正する文脈。"
+---

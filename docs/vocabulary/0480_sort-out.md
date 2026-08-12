@@ -1,0 +1,20 @@
+---
+id: "0480"
+term: "sort out"
+type: "phrase"
+partOfSpeech: "phrasal verb"
+pronunciation: "/ˌsɔːrt ˈaʊt/"
+description: "To clear up problems and messes and make things normal."
+descriptionJa: "問題やごたごたを片付けて正常にすること。"
+meaning: "solve, organize"
+meaningJa: "解決する、整理する"
+usageExample: "We sorted out the permission issue yesterday."
+usageExampleJa: "権限の問題は昨日解決しました。"
+difficulty: "Intermediate"
+scene: "Meetings / Events"
+source:
+  title: "How to handle reviewer comments"
+  url: "https://google.github.io/eng-practices/review/developer/handling-comments.html"
+  license: "CC BY 3.0"
+  context: "開発者間の相談や依頼、合意形成の文脈。"
+---

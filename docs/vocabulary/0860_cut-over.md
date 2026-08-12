@@ -1,0 +1,20 @@
+---
+id: "0860"
+term: "cut over"
+type: "phrase"
+partOfSpeech: "phrasal verb"
+pronunciation: "/ˌkʌt ˈoʊ.vɚ/"
+description: "Switching production from the old environment to the new environment."
+descriptionJa: "旧環境から新環境へ本番を切り替えること。"
+meaning: "Switch to new system"
+meaningJa: "新システムへ切り替える"
+usageExample: "We cut over to the new database at midnight."
+usageExampleJa: "深夜0時に新しいデータベースへ切り替えました。"
+difficulty: "Advanced"
+scene: "Design / Architecture"
+source:
+  title: "503 Service Unavailable"
+  url: "https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status/503"
+  license: "CC BY-SA 2.5"
+  context: "インフラ運用と可用性管理の文脈。"
+---

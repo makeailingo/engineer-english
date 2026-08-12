@@ -1,0 +1,20 @@
+---
+id: "0547"
+term: "chime in"
+type: "phrase"
+partOfSpeech: "phrasal verb"
+pronunciation: "/ˌtʃaɪm ˈɪn/"
+description: "To interject your opinion into an ongoing discussion."
+descriptionJa: "進行中の議論に途中から意見を挟むこと。"
+meaning: "join the conversation and give your opinion"
+meaningJa: "会話に加わって意見する"
+usageExample: "Feel free to chime in on the thread."
+usageExampleJa: "スレッドに気軽に意見をください。"
+difficulty: "Advanced"
+scene: "Meetings / Events"
+source:
+  title: "How to handle reviewer comments"
+  url: "https://google.github.io/eng-practices/review/developer/handling-comments.html"
+  license: "CC BY 3.0"
+  context: "開発者間の相談や依頼、合意形成の文脈。"
+---
