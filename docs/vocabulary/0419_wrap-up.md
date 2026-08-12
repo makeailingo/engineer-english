@@ -1,0 +1,20 @@
+---
+id: "0419"
+term: "wrap up"
+type: "phrase"
+partOfSpeech: "phrasal verb"
+pronunciation: "/ˌræp ˈʌp/"
+description: "To finish a meeting or task."
+descriptionJa: "会議や作業を切り上げて終えること。"
+meaning: "conclude, bring to an end, sum up"
+meaningJa: "締めくくる、終わらせる、まとめる"
+usageExample: "If there's nothing else, let's wrap up."
+usageExampleJa: "他に話題がなければ会議を終わらせます。"
+difficulty: "Beginner"
+scene: "Meetings / Events"
+source:
+  title: "Life of An SRE with Dave Reisner"
+  url: "https://sre.google/prodcast/transcripts/sre-prodcast-02-06/"
+  license: "CC BY 4.0"
+  context: "SREポッドキャストのインタビューを締めくくる場面。"
+---

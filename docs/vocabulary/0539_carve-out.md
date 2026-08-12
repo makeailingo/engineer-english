@@ -1,0 +1,20 @@
+---
+id: "0539"
+term: "carve out"
+type: "phrase"
+partOfSpeech: "phrasal verb"
+pronunciation: "/ˌkɑːrv ˈaʊt/"
+description: "To clearly cut out and secure a part from the whole."
+descriptionJa: "全体から一部を明確に切り出して確保すること。"
+meaning: "Secure time and space"
+meaningJa: "時間や領域を確保する"
+usageExample: "Carve out time for tech debt each sprint."
+usageExampleJa: "毎スプリント、技術的負債の時間を確保してください。"
+difficulty: "Advanced"
+scene: "Meetings / Events"
+source:
+  title: "Small CLs"
+  url: "https://google.github.io/eng-practices/review/developer/small-cls.html"
+  license: "CC BY 3.0"
+  context: "作業の分割と計画の文脈。"
+---

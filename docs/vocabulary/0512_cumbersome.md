@@ -1,0 +1,20 @@
+---
+id: "0512"
+term: "cumbersome"
+type: "word"
+partOfSpeech: adjective
+pronunciation: "/ˈkʌm.bɚ.səm/"
+description: "It indicates that there are many steps and it is difficult."
+descriptionJa: "手順が多く重たい様子を表す。"
+meaning: "difficult to handle, troublesome"
+meaningJa: "扱いにくい、面倒な"
+usageExample: "The current release process is cumbersome."
+usageExampleJa: "現在のリリースプロセスは手間がかかります。"
+difficulty: "Advanced"
+scene: "Meetings / Events"
+source:
+  title: "How to handle reviewer comments"
+  url: "https://google.github.io/eng-practices/review/developer/handling-comments.html"
+  license: "CC BY 3.0"
+  context: "開発者間の相談や依頼、合意形成の文脈。"
+---

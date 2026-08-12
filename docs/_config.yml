@@ -6,27 +6,28 @@ license_url: https://github.com/makeailingo/engineer-english/blob/main/LICENSE
 url: https://makeailingo.github.io
 baseurl: /engineer-english
 
+scene_order:
+  - Career / Interview
+  - Implementation / Review
+  - Meetings / Events
+  - Design / Architecture
+  - Incident Response
+  - Technical Writing
+  - Management
+
 labels:
   difficulty:
     Beginner: 初級
     Intermediate: 中級
     Advanced: 上級
   scene:
-    Architecture: アーキテクチャ
-    Code Review: コードレビュー
-    Daily Communication: 日常コミュニケーション
-    Database: データベース
-    Debugging: デバッグ
-    Implementation: 実装
-    Incident Response: インシデント対応
-    Infrastructure / Cloud: インフラ / クラウド
-    Leadership / Management: リーダーシップ / マネジメント
-    Performance: パフォーマンス
-    Requirements: 要件定義
-    Security: セキュリティ
-    Sprint Planning: スプリント計画
-    Technical Interview: 技術面接
-    Testing: テスト
+    Career / Interview: 転職・面接
+    Implementation / Review: 実装・レビュー
+    Meetings / Events: 会議・イベント
+    Design / Architecture: 設計・アーキテクチャ
+    Incident Response: 障害対応
+    Technical Writing: テクニカルライティング
+    Management: マネジメント
   type:
     word: 単語
     phrase: フレーズ

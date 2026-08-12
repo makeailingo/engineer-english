@@ -7,7 +7,7 @@ title: Engineer English
   | where_exp: "page", "page.layout == 'vocabulary'"
   | sort: "id" %}
 
-{% assign scenes = vocabularies | map: "scene" | uniq %}
+{% assign scenes = site.scene_order %}
 
 <section class="hero-band">
   <h1 class="hero-band__title">Engineer English</h1>
@@ -75,36 +75,39 @@ title: Engineer English
         </thead>
 
         <tbody>
-          {% for vocabulary in vocabularies %}
-            <tr
-              data-id="{{ vocabulary.id }}"
-              data-term="{{ vocabulary.term | downcase }}"
-              data-difficulty="{{ vocabulary.difficulty }}"
-              data-scene="{{ vocabulary.scene }}"
-              data-search="{{ vocabulary.term | downcase }} {{ vocabulary.meaning | downcase }} {{ vocabulary.meaningJa }} {{ vocabulary.usageExample | downcase }} {{ vocabulary.usageExampleJa }}"
-            >
-              <td>{{ vocabulary.id }}</td>
-              <td>
-                <a href="{{ vocabulary.url | relative_url }}">
-                  {{ vocabulary.term }}
-                </a>
-              </td>
-              <td>
-                <span class="badge-pill badge-pill--{{ vocabulary.difficulty | downcase }}">
-                  {{ site.labels.difficulty[vocabulary.difficulty] }}
-                </span>
-              </td>
-              <td>{{ site.labels.scene[vocabulary.scene] }}</td>
-              <td>
-                {% if vocabulary.meaning %}
-                  {{ vocabulary.meaning }}
-                {% else %}
-                  {{ vocabulary.meaningJa }}
-                {% endif %}
-              </td>
-              <td>{{ vocabulary.usageExample }}</td>
-              <td>{{ vocabulary.usageExampleJa }}</td>
-            </tr>
+          {% for scene in scenes %}
+            {% assign scene_vocabularies = vocabularies | where: "scene", scene %}
+            {% for vocabulary in scene_vocabularies %}
+              <tr
+                data-id="{{ vocabulary.id }}"
+                data-term="{{ vocabulary.term | downcase }}"
+                data-difficulty="{{ vocabulary.difficulty }}"
+                data-scene="{{ vocabulary.scene }}"
+                data-search="{{ vocabulary.term | downcase }} {{ vocabulary.meaning | downcase }} {{ vocabulary.meaningJa }} {{ vocabulary.usageExample | downcase }} {{ vocabulary.usageExampleJa }}"
+              >
+                <td>{{ vocabulary.id }}</td>
+                <td>
+                  <a href="{{ vocabulary.url | relative_url }}">
+                    {{ vocabulary.term }}
+                  </a>
+                </td>
+                <td>
+                  <span class="badge-pill badge-pill--{{ vocabulary.difficulty | downcase }}">
+                    {{ site.labels.difficulty[vocabulary.difficulty] }}
+                  </span>
+                </td>
+                <td>{{ site.labels.scene[vocabulary.scene] }}</td>
+                <td>
+                  {% if vocabulary.meaning %}
+                    {{ vocabulary.meaning }}
+                  {% else %}
+                    {{ vocabulary.meaningJa }}
+                  {% endif %}
+                </td>
+                <td>{{ vocabulary.usageExample }}</td>
+                <td>{{ vocabulary.usageExampleJa }}</td>
+              </tr>
+            {% endfor %}
           {% endfor %}
         </tbody>
       </table>

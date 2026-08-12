@@ -1,0 +1,20 @@
+---
+id: "0518"
+term: "rebuttal"
+type: "word"
+partOfSpeech: noun
+pronunciation: "/rɪˈbʌt.əl/"
+description: "Refutation of points and suggestions."
+descriptionJa: "指摘や提案への反論。"
+meaning: "refutation, rebuttal"
+meaningJa: "反駁、反論"
+usageExample: "She offered a calm rebuttal in design review."
+usageExampleJa: "設計レビューで冷静な反論を述べました。"
+difficulty: "Advanced"
+scene: "Meetings / Events"
+source:
+  title: "How to handle reviewer comments"
+  url: "https://google.github.io/eng-practices/review/developer/handling-comments.html"
+  license: "CC BY 3.0"
+  context: "開発チーム内の日常コミュニケーションの文脈。"
+---

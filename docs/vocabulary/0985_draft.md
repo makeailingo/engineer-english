@@ -1,0 +1,20 @@
+---
+id: "0985"
+term: "draft"
+type: "word"
+partOfSpeech: verb
+pronunciation: "/dræft/"
+description: "Creating the first version of a document or specification."
+descriptionJa: "文書や仕様の初版を作成すること。"
+meaning: "draft, draft"
+meaningJa: "起草する、下書きする"
+usageExample: "I'll draft the RFC by end of day."
+usageExampleJa: "今日中にRFCの下書きを書きます。"
+difficulty: "Beginner"
+scene: "Technical Writing"
+source:
+  title: "What to look for in a code review"
+  url: "https://google.github.io/eng-practices/review/reviewer/looking-for.html"
+  license: "CC BY 3.0"
+  context: "コードレビューで設計や可読性を確認する文脈。"
+---

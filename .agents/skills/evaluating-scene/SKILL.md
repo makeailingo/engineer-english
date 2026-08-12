@@ -23,26 +23,18 @@ source:
   title: "..."
   url: "..."
   context: "..."
-currentScene: "Sprint Planning"
+currentScene: "Meetings / Events"
 ```
 
 ## Scene Master
 
-* Daily Communication
-* Technical Interview
-* Implementation
-* Code Review
-* Debugging
-* Testing
-* Sprint Planning
-* Requirements
+* Career / Interview
+* Implementation / Review
+* Meetings / Events
+* Design / Architecture
 * Incident Response
-* Architecture
-* Database
-* Infrastructure / Cloud
-* Performance
-* Security
-* Leadership / Management
+* Technical Writing
+* Management
 
 ## Evaluation Principle
 
@@ -98,63 +90,32 @@ Choose the one Scene that most directly matches.
 
 ## Scene Definitions
 
-### Daily Communication
+### Career / Interview
 
-Everyday consultation, requests, opinion exchange, and alignment.
+Job searches, applications, interview preparation, and interview evaluation.
 
-### Technical Interview
+### Implementation / Review
 
-Explaining design, algorithms, or technical judgment in an interview.
+Writing, changing, testing, debugging, or reviewing code and features.
 
-### Implementation
+### Meetings / Events
 
-Writing, changing, or running code; implementing APIs or features.
+Consultation, discussion, planning, presentations, workshops, and team events.
 
-### Code Review
+### Design / Architecture
 
-Reviewing code changes and commenting on quality, design, or readability.
-
-### Debugging
-
-Investigating and identifying the cause of an existing defect.
-
-### Testing
-
-Verifying expected results; creating or running tests.
-
-### Sprint Planning
-
-Handling tasks, priorities, effort, deadlines, and sprint planning.
-
-### Requirements
-
-Defining requirements, specifications, scope, and acceptance criteria.
+Defining requirements and making decisions about system structure, data,
+infrastructure, performance, or security.
 
 ### Incident Response
 
 Detecting, mitigating, recovering from, or escalating production incidents.
 
-### Architecture
+### Technical Writing
 
-Handling system structure, responsibilities, boundaries, dependencies, and design decisions.
+Creating, editing, structuring, or maintaining engineering documentation.
 
-### Database
-
-Handling data storage, retrieval, integrity, and DB-specific operations or structure.
-
-### Infrastructure / Cloud
-
-Handling runtime environments, networks, cloud platforms, and deployment infrastructure.
-
-### Performance
-
-Improving or measuring speed, latency, CPU, memory, or load.
-
-### Security
-
-Handling authentication, authorization, attacks, defenses, and confidentiality.
-
-### Leadership / Management
+### Management
 
 Handling mentoring, responsibility, organizational coordination, decision-making, and management.
 
@@ -167,15 +128,15 @@ Examples:
 
 "Review the query before merging this change."
 
-* query → not Database
+* query → not Design / Architecture
 * merging / review is the primary purpose
-  → Code Review
+  → Implementation / Review
 
 "Optimize this query to reduce response latency."
 
 * query is Database-related
 * the primary purpose is performance improvement
-  → Performance
+  → Design / Architecture
 
 "Restore the database after the production outage."
 
@@ -189,9 +150,9 @@ Compare `currentScene` with the expected result.
 
 ```yaml
 result: PASS # PASS | FAIL
-currentScene: "Sprint Planning"
-expectedScene: "Infrastructure / Cloud"
-reason: "The example concerns network routing, not sprint planning."
+currentScene: "Meetings / Events"
+expectedScene: "Design / Architecture"
+reason: "The example concerns network routing, not a meeting or event."
 ```
 
 PASS when Scene matches.
@@ -205,10 +166,10 @@ For validation:
 ```yaml
 term: "router"
 actionSummary: "Updating router rules before a traffic migration."
-expectedScene: "Infrastructure / Cloud"
-currentScene: "Sprint Planning"
+expectedScene: "Design / Architecture"
+currentScene: "Meetings / Events"
 result: FAIL
-reason: "The primary purpose is traffic routing on deployment infrastructure, not sprint planning."
+reason: "The primary purpose is traffic routing on deployment infrastructure, not a meeting."
 confidence: High
 ```
 
@@ -217,7 +178,7 @@ For creation or update:
 ```yaml
 term: "router"
 actionSummary: "Updating router rules before a traffic migration."
-scene: "Infrastructure / Cloud"
+scene: "Design / Architecture"
 confidence: High
 notes: "The source discusses Express deployment, but the action is infrastructure operations."
 ```

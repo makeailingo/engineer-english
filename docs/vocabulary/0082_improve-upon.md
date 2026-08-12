@@ -1,0 +1,20 @@
+---
+id: "0082"
+term: "improve upon"
+type: "phrase"
+partOfSpeech: "phrasal verb"
+pronunciation: "/ɪmˈpruːv əˈpɑːn/"
+description: "Make a working solution better after initial verification."
+descriptionJa: "初期検証後に動く解法をさらに良くすること。"
+meaning: "make something that already works even better"
+meaningJa: "さらに改善する、既存の解法を上乗せ改善する"
+usageExample: "Consider how to continue improving upon your working solution."
+usageExampleJa: "動く解法をさらに改善する方法を検討してください。"
+difficulty: "Intermediate"
+scene: "Career / Interview"
+source:
+  title: "SDE II Interview Prep"
+  url: "https://www.amazon.jobs/content/en/how-we-hire/sde-ii-interview-prep"
+  license: "No open license identified"
+  context: "コーディング面接で動く解法のさらなる改善を促す文脈。"
+---

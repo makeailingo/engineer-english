@@ -12,8 +12,8 @@
 - `difficulty`は evaluating-difficulty Skill に従う。
 - `scene`は evaluating-scene Skill に従う。
 - `meaningJa`は evaluating-meaningJa Skill に従う。
-- `id`は`"0001"`から`"1000"`までの重複のない4桁連番とする。`id`は表示順・学習順を表す。
-- 学習順は [sorting-vocabulary Skill](.agents/skills/sorting-vocabulary/SKILL.md) に従う。全語彙を5章（基本コミュニケーション → 開発とレビュー → 計画と意思決定 → 運用と障害対応 → 高度な技術英語）へ分類し、各章内では学習価値 → 実用性 → 難易度の順で並べ、5章を連結して ID を振り直す。
+- `id`は`"0001"`から`"9999"`までの重複のない4桁連番とする。`id`は表示順・学習順を表す。
+- 学習順は [sorting-vocabulary Skill](.agents/skills/sorting-vocabulary/SKILL.md) に従う。Scene（転職・面接 → 実装・レビュー → 会議・イベント → 設計・アーキテクチャ → 障害対応 → テクニカルライティング → マネジメント）の順に分類し、各 Scene 内では学習価値 → 実用性 → 難易度の順で並べ、IDを振り直す。
 - `type`は`word`または`phrase`とする。
 - `difficulty`と`scene`は下記マスタからそれぞれ1つだけ選ぶ。
 - `source`には、実在と用法を確認した一次情報を1件、下記Source Schemaで記載する。
@@ -94,22 +94,14 @@ Amazon Jobsを出典とする場合、`source.license`には`No open license ide
 
 | English | 日本語 |
 | --- | --- |
-| Daily Communication | 日常会話 |
-| Technical Interview | 技術面接 |
-| Implementation | 実装 |
-| Code Review | コードレビュー |
-| Debugging | デバッグ |
-| Testing | テスト |
-| Sprint Planning | スプリントプランニング |
-| Requirements | 要件定義 |
-| Incident Response | インシデント対応 |
-| Architecture | アーキテクチャ |
-| Database | データベース |
-| Infrastructure / Cloud | インフラストラクチャ / クラウド |
-| Performance | パフォーマンス |
-| Security | セキュリティ |
-| Leadership / Management | リーダーシップ / マネジメント |
+| Career / Interview | 転職・面接 |
+| Implementation / Review | 実装・レビュー |
+| Meetings / Events | 会議・イベント |
+| Design / Architecture | 設計・アーキテクチャ |
+| Incident Response | 障害対応 |
+| Technical Writing | テクニカルライティング |
+| Management | マネジメント |
 
 ## 作成例
 
-テンプレートを使用した完成例: `docs/vocabulary/0003_clarify.md`
+テンプレートを使用した完成例: `docs/vocabulary/0087_clarify.md`
