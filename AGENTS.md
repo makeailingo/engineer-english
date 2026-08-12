@@ -6,6 +6,7 @@ A dataset of English used in day-to-day software engineering work.
 
 ## Concept
 
+- Include words and phrases that engineers repeatedly encounter regardless of role or tech stack—career and interviewing, meetings, implementation, code review, design, incident response, technical writing, management, and similar cross-cutting work. Exclude specialized terminology whose meaning depends on a particular technology, role, or domain.
 - Extract words and phrases actually used in software engineering from reliable primary sources. Open-license sources are Google Engineering Practices, explicitly licensed Google SRE CC BY 4.0 materials, and MDN Web Docs. Amazon Jobs Interview Prep is a usage-reference source because no open license has been identified.
 - Obtain senses, parts of speech, and US English IPA pronunciation from reliable external dictionaries (primary: Cambridge Dictionary; cross-check: Oxford Advanced Learner's Dictionary).
 - Classify difficulty into three levels:

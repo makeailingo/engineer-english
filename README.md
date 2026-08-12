@@ -6,6 +6,7 @@ An open dataset of English used in day-to-day software engineering work.
 
 ## Concept
 
+- We include words and phrases that engineers repeatedly encounter regardless of role or tech stack—career and interviewing, meetings, implementation, code review, design, incident response, technical writing, management, and similar cross-cutting work. We exclude specialized terminology whose meaning depends on a particular technology, role, or domain.
 - We extract words and phrases actually used in software engineering from reliable primary sources.
 - We obtain senses, parts of speech, and pronunciation (US English IPA) from reliable external dictionaries (Cambridge Dictionary as the primary source; Oxford Advanced Learner's Dictionary for cross-checking).
 - Difficulty is classified into three levels:
