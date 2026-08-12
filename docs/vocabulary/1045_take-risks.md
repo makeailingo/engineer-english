@@ -1,0 +1,20 @@
+---
+id: "1045"
+term: "take risks"
+type: "phrase"
+partOfSpeech: "phrase"
+pronunciation: "/teɪk rɪsks/"
+description: "Describe decisions where you accepted uncertainty for gain."
+descriptionJa: "不確実性を受け入れた判断の経験を語ること。"
+meaning: "accept the possibility of loss in pursuit of a goal"
+meaningJa: "リスクを取る、不確実性を受け入れる"
+usageExample: "Have examples that show how you have taken risks."
+usageExampleJa: "リスクを取った経験を示す具体例を用意してください。"
+difficulty: "Intermediate"
+scene: "Technical Interview"
+source:
+  title: "SDE II Interview Prep"
+  url: "https://www.amazon.jobs/content/en/how-we-hire/sde-ii-interview-prep"
+  license: "No open license identified"
+  context: "面接準備でリスクを取った経験例を用意する文脈。"
+---
