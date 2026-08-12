@@ -21,26 +21,18 @@ source:
   title: "..."
   url: "..."
   context: "..."
-currentScene: "Sprint Planning"
+currentScene: "Meetings / Events"
 ```
 
 ## Scene Master
 
-* Daily Communication
-* Technical Interview
-* Implementation
-* Code Review
-* Debugging
-* Testing
-* Sprint Planning
-* Requirements
+* Career / Interview
+* Implementation / Review
+* Meetings / Events
+* Design / Architecture
 * Incident Response
-* Architecture
-* Database
-* Infrastructure / Cloud
-* Performance
-* Security
-* Leadership / Management
+* Technical Writing
+* Management
 
 ## Evaluation Principle
 
@@ -104,63 +96,32 @@ Scene は、
 
 ## Scene Definitions
 
-### Daily Communication
+### Career / Interview
 
-日常的な相談、依頼、意見交換、合意形成。
+転職活動、応募、面接準備、面接での評価を扱う。
 
-### Technical Interview
+### Implementation / Review
 
-技術面接での設計・アルゴリズム・技術判断の説明。
+コードや機能の実装、変更、テスト、デバッグ、レビューを行う。
 
-### Implementation
+### Meetings / Events
 
-コードを書く、変更する、実行する、APIや機能を実装する。
+相談、議論、計画、発表、ワークショップ、チームイベントを扱う。
 
-### Code Review
+### Design / Architecture
 
-コード変更をレビューし、品質・設計・可読性について指摘する。
-
-### Debugging
-
-既に存在する不具合の原因を調査・特定する。
-
-### Testing
-
-期待結果を検証し、テストを作成・実行する。
-
-### Sprint Planning
-
-タスク、優先順位、工数、期限、スプリント計画を扱う。
-
-### Requirements
-
-要件、仕様、対象範囲、受け入れ条件を定義する。
+要件を定義し、システム構造、データ、インフラ、性能、
+セキュリティに関する設計判断を行う。
 
 ### Incident Response
 
 本番障害を検知・緩和・復旧・エスカレーションする。
 
-### Architecture
+### Technical Writing
 
-システム構造、責務、境界、依存関係、設計判断を扱う。
+技術文書を作成、編集、構成、保守する。
 
-### Database
-
-データの保存、取得、整合性、DB固有の操作・構造を扱う。
-
-### Infrastructure / Cloud
-
-実行環境、ネットワーク、クラウド、デプロイ基盤を扱う。
-
-### Performance
-
-速度、レイテンシ、CPU、メモリ、負荷などを改善・計測する。
-
-### Security
-
-認証、認可、攻撃、防御、機密性などを扱う。
-
-### Leadership / Management
+### Management
 
 育成、責任、組織調整、意思決定、マネジメントを扱う。
 
@@ -174,15 +135,15 @@ Scene は、
 
 "Review the query before merging this change."
 
-* query → Database ではない
+* query → Design / Architecture ではない
 * merging / review が主目的
-  → Code Review
+  → Implementation / Review
 
 "Optimize this query to reduce response latency."
 
 * query は Database
 * 行為の主目的は性能改善
-  → Performance
+  → Design / Architecture
 
 "Restore the database after the production outage."
 
@@ -196,9 +157,9 @@ Scene は、
 
 ```yaml
 result: PASS # PASS | FAIL
-currentScene: "Sprint Planning"
-expectedScene: "Infrastructure / Cloud"
-reason: "The example concerns network routing, not sprint planning."
+currentScene: "Meetings / Events"
+expectedScene: "Design / Architecture"
+reason: "The example concerns network routing, not a meeting or event."
 ```
 
 Scene が一致していれば PASS。
@@ -213,10 +174,10 @@ Scene が一致していれば PASS。
 ```yaml
 term: "router"
 actionSummary: "トラフィック移行前にルーター規則を更新している。"
-expectedScene: "Infrastructure / Cloud"
-currentScene: "Sprint Planning"
+expectedScene: "Design / Architecture"
+currentScene: "Meetings / Events"
 result: FAIL
-reason: "主目的はデプロイ基盤上のトラフィック振分であり、スプリント計画ではない。"
+reason: "主目的はデプロイ基盤上のトラフィック振分であり、会議ではない。"
 confidence: High
 ```
 
@@ -225,7 +186,7 @@ confidence: High
 ```yaml
 term: "router"
 actionSummary: "トラフィック移行前にルーター規則を更新している。"
-scene: "Infrastructure / Cloud"
+scene: "Design / Architecture"
 confidence: High
 notes: "source は Express デプロイ文脈だが、行為はインフラ運用。"
 ```

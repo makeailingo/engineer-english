@@ -1,0 +1,20 @@
+---
+id: "0126"
+term: "step through"
+type: "phrase"
+partOfSpeech: "phrasal verb"
+pronunciation: "/ˌstep ˈθruː/"
+description: "Check the code step by step in the debugger."
+descriptionJa: "デバッガでコードを1ステップずつ確認すること。"
+meaning: "execute line by line"
+meaningJa: "一行ずつ実行する"
+usageExample: "Step through the function in the debugger."
+usageExampleJa: "デバッガでこの関数を1行ずつ実行してください。"
+difficulty: "Intermediate"
+scene: "Implementation / Review"
+source:
+  title: "Performance fundamentals - Performance | MDN"
+  url: "https://developer.mozilla.org/en-US/docs/Web/Performance/Guides/Fundamentals"
+  license: "CC BY-SA 2.5"
+  context: "不具合調査と原因特定の文脈。"
+---

@@ -32,18 +32,19 @@ Amazon Jobs body text, examples, and questions are not copied, translated, summa
 
 ## Learning Order (ID)
 
-Each vocabulary `id` (0001 onward) reflects learning order across five chapters in this sequence:
+Each vocabulary `id` (0001 onward) reflects learning order across seven Scenes in this sequence:
 
-| Chapter | Topic | ID range (995 entries) |
+| Order | Scene | ID range (1,063 entries) |
 | --- | --- | --- |
-| 1 | Basic Communication | 0001–0128 |
-| 2 | Development and Review | 0129–0461 |
-| 3 | Planning and Decision-Making | 0462–0658 |
-| 4 | Operations and Incident Response | 0659–0945 |
-| 5 | Advanced Technical English | 0946–0995 |
+| 1 | Career / Interview | 0001–0086 |
+| 2 | Implementation / Review | 0087–0417 |
+| 3 | Meetings / Events | 0418–0579 |
+| 4 | Design / Architecture | 0580–0896 |
+| 5 | Incident Response | 0897–0984 |
+| 6 | Technical Writing | 0985–1025 |
+| 7 | Management | 1026–1063 |
 
-Within each chapter, entries are ordered by **learning value → practical frequency → difficulty**.
-Chapter 5 is not a catch-all; it is limited to architecture, technical interviews, and advanced technical discussion.
+Within each Scene, entries are ordered by **learning value → practical frequency → difficulty**.
 See the [sorting-vocabulary Skill](.agents/skills/sorting-vocabulary/SKILL.md) for details.
 
 ## Local Development

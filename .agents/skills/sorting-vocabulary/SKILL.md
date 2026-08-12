@@ -1,6 +1,6 @@
 ---
 name: sorting-vocabulary
-description: Sort Engineer English vocabulary into five learning chapters and update IDs, filenames, and references. Use when reordering, renumbering, or reclassifying vocabulary.
+description: Sort Engineer English vocabulary by Scene and update IDs, filenames, and references. Use when reordering, renumbering, or reclassifying vocabulary.
 ---
 
 # Sorting Vocabulary
@@ -14,121 +14,39 @@ Scope: `docs/vocabulary/**/*.md`
 Perform sorting directly according to this Skill.
 Do not create automation scripts in Python or other languages.
 
-## 1. Chapters
+## 1. Scenes
 
-Assign every entry to one of the five chapters below.
+Assign every entry to exactly one Scene according to the
+[evaluating-scene Skill](../evaluating-scene/SKILL.md).
 
-### Chapter 1: Basic Communication
-
-English for everyday engineering work such as confirmation, requests, sharing, opinions, and alignment.
-
-Examples:
-- follow up
-- wrap up
-- clarify
-- reach out
-- heads-up
-
-### Chapter 2: Development and Review
-
-English for writing, reviewing, testing, and debugging code.
-
-Examples:
-- reproduce
-- isolate
-- validate
-- refactor
-- regression
-
-### Chapter 3: Planning and Decision-Making
-
-English for requirements, priorities, estimates, rationale, and trade-offs.
-
-Examples:
-- scope
-- priority
-- estimate
-- rationale
-- trade-off
-
-### Chapter 4: Operations and Incident Response
-
-English for infrastructure, performance, incidents, and risk in production operations.
-
-Examples:
-- mitigate
-- rollback
-- outage
-- latency
-- on-call
-
-### Chapter 5: Advanced Technical English
-
-Architecture, technical interviews, advanced discussion, and nuanced expressions.
-
-Examples:
-- abstraction
-- scalability
-- corroborate
-- recursion
-- time complexity
-
-## 2. Chapter Order
+## 2. Scene Order
 
 Always use this order:
 
-1. Basic Communication
-2. Development and Review
-3. Planning and Decision-Making
-4. Operations and Incident Response
-5. Advanced Technical English
+1. Career / Interview
+2. Implementation / Review
+3. Meetings / Events
+4. Design / Architecture
+5. Incident Response
+6. Technical Writing
+7. Management
 
-You may use existing `scene` values as hints, but do not map Scene to Chapter mechanically.
-
-## 3. Decide Chapter Assignment Before Within-Chapter Sorting
+## 3. Decide Scene Assignment Before Within-Scene Sorting
 
 Always work in this order:
 
-1. Decide which chapter each entry belongs to
-2. Sort within each chapter only
-3. Concatenate the five chapters
+1. Decide which Scene each entry belongs to from its usage example and source context
+2. Sort within each Scene only
+3. Concatenate the seven Scenes in the fixed order
 4. Renumber IDs
 
-Do not sort chapters 1–4 first and place the remainder in chapter 5.
-Do not send entries that belong elsewhere to chapter 5 because of difficulty or `scene`.
+Do not assign Scene from the term alone. Technical Writing is for examples whose
+primary work is creating or maintaining engineering documentation; documentation
+used only as part of an incident or review does not automatically belong there.
 
-Chapter 5 is not a catch-all.
-Include only vocabulary for architecture, technical interviews, advanced technical discussion, and advanced nuance.
+## 4. Within-Scene Sorting
 
-Examples that must not go in chapter 5:
-
-- General adverbs such as `currently`, `previously`, `shortly`
-  (Chapter 1: Basic Communication)
-- Beginner general words such as `alternative`, `approach`, `select`
-  (Chapter 3: Planning and Decision-Making, or the appropriate chapter)
-- Database operations words such as `migrate`, `swap`
-  (Chapter 4: Operations and Incident Response)
-
-Even when `scene` is Architecture, do not put beginner general words or planning/decision vocabulary in chapter 5.
-Do not move entries whose `scene` is Daily Communication or Debugging to chapter 5 just because difficulty is Advanced.
-
-### Chapter Assignment Guide
-
-| Chapter | Main `scene` values | Notes |
-| --- | --- | --- |
-| 1 | Daily Communication | Confirmation, requests, sharing, opinions, alignment |
-| 2 | Implementation, Code Review, Debugging, Testing | Reading, writing, and improving code |
-| 3 | Sprint Planning, Requirements, Leadership / Management | Planning, requirements, decision-making |
-| 4 | Incident Response, Infrastructure / Cloud, Performance, Security, Database | Operations, incidents, performance, security |
-| 5 | Architecture (advanced vocabulary), Technical Interview | Advanced technical terms not covered by chapters 1–4 |
-
-For Architecture vocabulary:
-- beginner general words → chapter 3
-- advanced technical discussion and design vocabulary → chapter 5
-
-## 4. Within-Chapter Sorting
-
-Within each chapter, place entries earlier when they rank higher on:
+Within each Scene, place entries earlier when they rank higher on:
 
 1. Learning value for Japanese engineers
 2. Practical frequency in professional work
@@ -139,7 +57,7 @@ Even Advanced entries with high learning value and practical use
 (`touch base`, `loop in`, `circle back`, etc.)
 should come before obvious Beginner general words.
 
-Do not place low-learning-value obvious words such as `update` at the front of a chapter just because they are Beginner.
+Do not place low-learning-value obvious words such as `update` at the front of a Scene just because they are Beginner.
 
 Prioritize expressions that are hard for Japanese learners to infer even when built from simple words, such as:
 
@@ -215,8 +133,8 @@ Do not change places that reference only `term` and do not depend on ID.
 
 After sorting, confirm:
 
-- Every entry belongs to one of the five chapters
-- Chapter order is correct
+- Every entry belongs to one of the seven Scenes
+- Scene order is correct
 - Every entry appears exactly once
 - No entries were added or removed
 - IDs run continuously from 0001

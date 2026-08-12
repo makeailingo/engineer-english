@@ -10,8 +10,8 @@ Scope: `docs/vocabulary/**/*.md`
 - Follow the evaluating-difficulty Skill for `difficulty`.
 - Follow the evaluating-scene Skill for `scene`.
 - Follow the evaluating-meaningJa Skill for `meaningJa`.
-- Use unique 4-digit IDs from `"0001"` through `"1000"`. The `id` reflects display and learning order.
-- Follow the [sorting-vocabulary Skill](.agents/skills/sorting-vocabulary/SKILL.md) for learning order. Sort all entries into five chapters (Basic Communication → Development and Review → Planning and Decision-Making → Operations and Incident Response → Advanced Technical English), order within each chapter by learning value → practical frequency → difficulty, then concatenate the chapters and renumber IDs.
+- Use unique 4-digit IDs from `"0001"` through `"9999"`. The `id` reflects display and learning order.
+- Follow the [sorting-vocabulary Skill](.agents/skills/sorting-vocabulary/SKILL.md) for learning order. Sort entries by Scene (Career / Interview → Implementation / Review → Meetings / Events → Design / Architecture → Incident Response → Technical Writing → Management), then within each Scene by learning value → practical frequency → difficulty, and renumber IDs.
 - Set `type` to `word` or `phrase`.
 - Choose one value each for `difficulty` and `scene` from the masters below.
 - Record one verified primary source in `source` using the Source Schema below.
@@ -114,21 +114,13 @@ At minimum, check:
 
 | English | Japanese |
 | --- | --- |
-| Daily Communication | 日常会話 |
-| Technical Interview | 技術面接 |
-| Implementation | 実装 |
-| Code Review | コードレビュー |
-| Debugging | デバッグ |
-| Testing | テスト |
-| Sprint Planning | スプリントプランニング |
-| Requirements | 要件定義 |
-| Incident Response | インシデント対応 |
-| Architecture | アーキテクチャ |
-| Database | データベース |
-| Infrastructure / Cloud | インフラストラクチャ / クラウド |
-| Performance | パフォーマンス |
-| Security | セキュリティ |
-| Leadership / Management | リーダーシップ / マネジメント |
+| Career / Interview | 転職・面接対策 |
+| Implementation / Review | 実装・レビュー |
+| Meetings / Events | 会議・イベント |
+| Design / Architecture | 設計・アーキテクチャ |
+| Incident Response | 障害対応 |
+| Technical Writing | テクニカルライティング |
+| Management | マネジメント |
 
 ## Example
 

@@ -1,0 +1,20 @@
+---
+id: "0121"
+term: "mock up"
+type: "phrase"
+partOfSpeech: "phrasal verb"
+pronunciation: "/ˌmɑːk ˈʌp/"
+description: "Give shape to the appearance of screens and functions first."
+descriptionJa: "画面や機能の見た目を先に形にすること。"
+meaning: "Make a prototype model"
+meaningJa: "試作モデルを作る"
+usageExample: "Mock up the new settings page first."
+usageExampleJa: "まず新しい設定画面のモックを作ってください。"
+difficulty: "Intermediate"
+scene: "Implementation / Review"
+source:
+  title: "Fetch API - Web APIs | MDN"
+  url: "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API"
+  license: "CC BY-SA 2.5"
+  context: "APIや機能を実装する文脈。"
+---

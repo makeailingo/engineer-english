@@ -1,0 +1,20 @@
+---
+id: "0483"
+term: "innovative"
+type: "word"
+partOfSpeech: adjective
+pronunciation: "/ˈɪn.ə.veɪ.t̬ɪv/"
+description: "Incorporating new methods and ideas."
+descriptionJa: "新しい手法や発想を取り入れること。"
+meaning: innovative
+meaningJa: "革新的な"
+usageExample: "An innovative caching layer reduced cost."
+usageExampleJa: "革新的キャッシュ層がコストを削減しました。"
+difficulty: "Intermediate"
+scene: "Meetings / Events"
+source:
+  title: "How to handle reviewer comments"
+  url: "https://google.github.io/eng-practices/review/developer/handling-comments.html"
+  license: "CC BY 3.0"
+  context: "開発チーム内の日常コミュニケーションの文脈。"
+---

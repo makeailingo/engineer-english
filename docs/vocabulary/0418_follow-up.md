@@ -1,0 +1,20 @@
+---
+id: "0418"
+term: "follow up"
+type: "phrase"
+partOfSpeech: "phrasal verb"
+pronunciation: "/ˌfɑː.loʊ ˈʌp/"
+description: "Check and respond to the continuation of the conversation or assignment later."
+descriptionJa: "会話や課題の続きを後から確認・対応すること。"
+meaning: "follow up, take further action"
+meaningJa: "フォローアップする、追って対応する"
+usageExample: "I'll follow up on the open review comments."
+usageExampleJa: "未対応のレビューコメントは私が追って対応します。"
+difficulty: "Beginner"
+scene: "Meetings / Events"
+source:
+  title: "How to handle reviewer comments"
+  url: "https://google.github.io/eng-practices/review/developer/handling-comments.html"
+  license: "CC BY 3.0"
+  context: "開発者間の相談や依頼、合意形成の文脈。"
+---

@@ -1,0 +1,20 @@
+---
+id: "0103"
+term: "kick in"
+type: "phrase"
+partOfSpeech: "phrasal verb"
+pronunciation: "/ˌkɪk ˈɪn/"
+description: "The mechanism begins to operate when the conditions are met."
+descriptionJa: "仕組みが条件を満たして動き出すこと。"
+meaning: "start working"
+meaningJa: "作動し始める"
+usageExample: "The rate limiter kicks in under heavy load."
+usageExampleJa: "高負荷時にレート制限が作動します。"
+difficulty: "Intermediate"
+scene: "Implementation / Review"
+source:
+  title: "Fetch API - Web APIs | MDN"
+  url: "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API"
+  license: "CC BY-SA 2.5"
+  context: "APIや機能を実装する文脈。"
+---
