@@ -114,7 +114,7 @@ At minimum, check:
 
 | English | Japanese |
 | --- | --- |
-| Career / Interview | 転職・面接対策 |
+| Career / Interview | 転職・面接 |
 | Implementation / Review | 実装・レビュー |
 | Meetings / Events | 会議・イベント |
 | Design / Architecture | 設計・アーキテクチャ |
