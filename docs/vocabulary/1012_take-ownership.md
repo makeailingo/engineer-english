@@ -1,0 +1,20 @@
+---
+id: "1012"
+term: "take ownership"
+type: "phrase"
+partOfSpeech: "phrasal verb"
+pronunciation: "/teɪk ˈoʊ.nɚ.ʃɪp/"
+description: "Describe taking responsibility for your work and team outcomes."
+descriptionJa: "自分の仕事とチーム成果に責任を持つ経験。"
+meaning: "accept responsibility for outcomes"
+meaningJa: "主体的に責任を持つ、オーナーシップを取る"
+usageExample: "Describe when you took ownership of a failing service."
+usageExampleJa: "障害サービスの責任を引き受けた経験を話してください。"
+difficulty: "Intermediate"
+scene: "Technical Interview"
+source:
+  title: "SDE II Interview Prep"
+  url: "https://www.amazon.jobs/content/en/how-we-hire/sde-ii-interview-prep"
+  license: "No open license identified"
+  context: "SDE IIの求める姿勢として仕事とチーム成果に責任を持つ文脈。"
+---
