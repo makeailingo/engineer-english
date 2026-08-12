@@ -68,10 +68,13 @@ Primary sources are divided into two categories according to their licenses.
 | Provider | Official URL | Main use | License | Handling |
 | --- | --- | --- | --- | --- |
 | Google Engineering Practices | https://google.github.io/eng-practices/ | Code review, design, development communication | CC BY 3.0 | Reusable. Attribute the source and license. |
+| Google Developer Documentation Style Guide | https://developers.google.com/style/ | Technical writing, documentation structure, wording | CC BY 4.0 | Reusable. Attribute the source and license. |
 | Google SRE CC BY 4.0 materials | https://sre.google/classroom/ | Incident, reliability, operations, SLO | CC BY 4.0 | Confirm each material's license notice and attribute Google as the author. Example: [The Art of SLOs](https://sre.google/resources/practices-and-processes/art-of-slos/) |
-| MDN Web Docs | https://developer.mozilla.org/en-US/docs/ | Frontend, web, API, debugging | Generally CC BY-SA 2.5 or later | Use only to confirm usage. Do not copy or adapt body text. |
+| MDN Web Docs | https://developer.mozilla.org/en-US/docs/ | Frontend, web, API, debugging, team workflows | Generally CC BY-SA 2.5 or later | Use only to confirm usage. Do not copy or adapt body text. |
 
-For Google SRE, do not treat the whole SRE site as CC BY 4.0. Use only materials explicitly marked CC BY 4.0. Because reusing MDN body text triggers share-alike obligations, this dataset uses MDN only to confirm usage.
+For Google SRE, do not treat the whole SRE site as CC BY 4.0. Use only materials explicitly marked CC BY 4.0. The SRE Workbook is CC BY-NC-ND 4.0 and is not a primary source for this dataset. Because reusing MDN body text triggers share-alike obligations, this dataset uses MDN only to confirm usage.
+
+Every Vocabulary entry must cite a primary source page where the target term actually appears. Run `python3 scripts/verify_vocabulary_sources.py` after bulk edits; it must report zero failures before merging.
 
 ### B. Usage-reference materials
 

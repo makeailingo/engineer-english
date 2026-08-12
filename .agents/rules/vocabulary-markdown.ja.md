@@ -48,10 +48,13 @@
 | 提供元 | 公式URL | 主な用途 | ライセンス | 取り扱い |
 | --- | --- | --- | --- | --- |
 | Google Engineering Practices | https://google.github.io/eng-practices/ | Code Review、設計、開発コミュニケーション | CC BY 3.0 | 再利用可能。出典とライセンスを明記する。 |
+| Google Developer Documentation Style Guide | https://developers.google.com/style/ | テクニカルライティング、文書構成、用語 | CC BY 4.0 | 再利用可能。出典とライセンスを明記する。 |
 | Google SREのCC BY 4.0資料 | https://sre.google/classroom/ | Incident、Reliability、Operations、SLO | CC BY 4.0 | 各資料のライセンス表示を確認し、Googleを原著者として明記する。例: [The Art of SLOs](https://sre.google/resources/practices-and-processes/art-of-slos/) |
-| MDN Web Docs | https://developer.mozilla.org/en-US/docs/ | Frontend、Web、API、Debugging | 原則CC BY-SA 2.5以降 | 単語の採用根拠として使用する。本文のコピーや翻案は行わない。 |
+| MDN Web Docs | https://developer.mozilla.org/en-US/docs/ | Frontend、Web、API、Debugging、チームワークフロー | 原則CC BY-SA 2.5以降 | 単語の採用根拠として使用する。本文のコピーや翻案は行わない。 |
 
-Google SREでは、SREサイト全体をCC BY 4.0とみなさず、CC BY 4.0と明記された教材だけを使用する。MDNで本文を再利用すると継承ライセンスの条件が生じるため、本データセットでは用法の確認に限って使用する。
+Google SREでは、SREサイト全体をCC BY 4.0とみなさず、CC BY 4.0と明記された教材だけを使用する。SRE WorkbookはCC BY-NC-ND 4.0であり、本データセットの一次資料には含めない。MDNで本文を再利用すると継承ライセンスの条件が生じるため、本データセットでは用法の確認に限って使用する。
+
+各Vocabularyエントリは、対象語が実際に出現する一次資料ページを引用する。大量更新後は `python3 scripts/verify_vocabulary_sources.py` を実行し、失敗0件であることを確認してからマージする。
 
 ### B. 用法参照資料
 
