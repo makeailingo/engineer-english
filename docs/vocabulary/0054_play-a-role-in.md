@@ -1,0 +1,20 @@
+---
+id: "0054"
+term: "play a role in"
+type: "phrase"
+partOfSpeech: "phrase"
+pronunciation: "/pleɪ ə roʊl ɪn/"
+description: "Describe your contribution to a team effort or outcome."
+descriptionJa: "チームの取り組みや成果への自分の関与を語ること。"
+meaning: "be involved in and contribute to an effort or outcome"
+meaningJa: "役割を果たす、〜に関与する"
+usageExample: "Explain the role you played in recruiting for your team."
+usageExampleJa: "チーム採用で果たした役割を説明してください。"
+difficulty: "Intermediate"
+scene: "Career / Interview"
+source:
+  title: "SDE II Interview Prep"
+  url: "https://www.amazon.jobs/content/en/how-we-hire/sde-ii-interview-prep"
+  license: "No open license identified"
+  context: "チーム採用などで果たした役割を語る文脈。"
+---

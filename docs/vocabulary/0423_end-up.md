@@ -1,0 +1,20 @@
+---
+id: "0423"
+term: "end up"
+type: "phrase"
+partOfSpeech: "phrasal verb"
+pronunciation: "/ˌend ˈʌp/"
+description: "To settle down to a final state at the end of a process."
+descriptionJa: "経緯の末に最終的な状態へ落ち着くこと。"
+meaning: "In the end it becomes ~"
+meaningJa: "結局〜になる"
+usageExample: "We ended up rewriting the parser."
+usageExampleJa: "結局パーサーを書き直すことになりました。"
+difficulty: "Beginner"
+scene: "Meetings / Events"
+source:
+  title: "Small CLs | eng-practices"
+  url: "https://google.github.io/eng-practices/review/developer/small-cls.html"
+  license: "CC BY 3.0"
+  context: "チーム内の打合せと調整の文脈。"
+---

@@ -1,0 +1,20 @@
+---
+id: "0525"
+term: "circle back"
+type: "phrase"
+partOfSpeech: "phrasal verb"
+pronunciation: "/ˌsɝː.kəl ˈbæk/"
+description: "Returning to a topic you put on hold later."
+descriptionJa: "保留した話題に後から戻ること。"
+meaning: "talk again later"
+meaningJa: "後で改めて話す"
+usageExample: "Let's circle back on this after the standup."
+usageExampleJa: "この件はスタンドアップの後に改めて話しましょう。"
+difficulty: "Advanced"
+scene: "Meetings / Events"
+source:
+  title: "JavaScript modules - JavaScript | MDN"
+  url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules"
+  license: "CC BY-SA 2.5"
+  context: "チーム内の打合せと調整の文脈。"
+---

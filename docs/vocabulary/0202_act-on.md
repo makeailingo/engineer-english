@@ -1,0 +1,20 @@
+---
+id: "0202"
+term: "act on"
+type: "phrase"
+partOfSpeech: "phrasal verb"
+pronunciation: "/ˌækt ˈɑːn/"
+description: "Act on the information and advice you receive."
+descriptionJa: "得た情報や助言に基づいて行動すること。"
+meaning: "respond, put into action"
+meaningJa: "対応する、実行に移す"
+usageExample: "Act on the review feedback before Friday."
+usageExampleJa: "金曜までにレビューの指摘に対応してください。"
+difficulty: "Intermediate"
+scene: "Implementation / Review"
+source:
+  title: "What to look for in a code review"
+  url: "https://google.github.io/eng-practices/review/reviewer/looking-for.html"
+  license: "CC BY 3.0"
+  context: "コードレビューで品質や設計を確認する文脈。"
+---

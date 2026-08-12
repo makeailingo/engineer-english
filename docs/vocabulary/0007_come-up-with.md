@@ -1,0 +1,20 @@
+---
+id: "0007"
+term: "come up with"
+type: "phrase"
+partOfSpeech: "phrasal verb"
+pronunciation: "/ˌkʌm ˈʌp wɪð/"
+description: "Describe creating original solutions to complex problems."
+descriptionJa: "複雑な問題への独創的な解決策を考え出すこと。"
+meaning: "think of and propose an idea or solution"
+meaningJa: "考え出す、解決策やアイデアを生み出す"
+usageExample: "Tell us when you came up with an original solution."
+usageExampleJa: "独創的な解決策を考え出した経験を話してください。"
+difficulty: "Beginner"
+scene: "Career / Interview"
+source:
+  title: "SDE II Interview Prep"
+  url: "https://www.amazon.jobs/content/en/how-we-hire/sde-ii-interview-prep"
+  license: "No open license identified"
+  context: "SDE IIの特性として複雑な問題への独創的な解決策を考える文脈。"
+---

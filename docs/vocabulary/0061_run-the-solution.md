@@ -1,0 +1,20 @@
+---
+id: "0061"
+term: "run the solution"
+type: "phrase"
+partOfSpeech: "phrase"
+pronunciation: "/rʌn ðə səˈluː.ʃən/"
+description: "Execute your code against test cases in a coding interview."
+descriptionJa: "コーディング面接でテストケースに対しコードを実行すること。"
+meaning: "execute your code against test cases in a coding interview"
+meaningJa: "テストケースに対して解法を実行する"
+usageExample: "Run the solution and verify it passes all test cases."
+usageExampleJa: "解法を実行し全テストケース通過を確認してください。"
+difficulty: "Intermediate"
+scene: "Career / Interview"
+source:
+  title: "SDE II Interview Prep"
+  url: "https://www.amazon.jobs/content/en/how-we-hire/sde-ii-interview-prep"
+  license: "No open license identified"
+  context: "コーディング面接で解法を実行して検証する文脈。"
+---

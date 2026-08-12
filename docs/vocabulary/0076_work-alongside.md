@@ -1,0 +1,20 @@
+---
+id: "0076"
+term: "work alongside"
+type: "phrase"
+partOfSpeech: "phrase"
+pronunciation: "/wɝːk əˈlɔːŋ.saɪd/"
+description: "Collaborate closely with customers, peers, or stakeholders."
+descriptionJa: "顧客や同僚、ステークホルダーと協力して働くこと。"
+meaning: "work cooperatively with others in the same effort"
+meaningJa: "協力して働く、並んで取り組む"
+usageExample: "Describe when you worked alongside customers to deliver value."
+usageExampleJa: "顧客と協力して価値を届けた経験を話してください。"
+difficulty: "Intermediate"
+scene: "Career / Interview"
+source:
+  title: "SDE II Interview Prep"
+  url: "https://www.amazon.jobs/content/en/how-we-hire/sde-ii-interview-prep"
+  license: "No open license identified"
+  context: "顧客や同僚と協力して成果を出す経験を語る文脈。"
+---

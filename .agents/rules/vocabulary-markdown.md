@@ -125,4 +125,4 @@ At minimum, check:
 
 ## Example
 
-Completed example using the template: `docs/vocabulary/0218_clarify.md`
+Completed example using the template: `docs/vocabulary/0217_clarify.md`
