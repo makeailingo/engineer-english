@@ -54,14 +54,16 @@ The Jekyll layout renders bilingual section headings from these fields. Do not d
 | --- | --- |
 | `title` | Official page title of the primary source |
 | `url` | Public URL where usage of the target term was verified |
-| `license` | License name stated on the primary source |
+| `license` | License name stated on the primary source, or `No open license identified` when no open license is identified |
 | `context` | Concise Japanese summary of the software development context in which the term appears |
 
 Do not quote the source at length in `context`. Include enough detail to judge why the entry was accepted.
 
 ## Primary Sources
 
-Use only public materials from these three providers as adoption evidence:
+Primary sources are divided into two categories according to their licenses.
+
+### A. Open-license materials
 
 | Provider | Official URL | Main use | License | Handling |
 | --- | --- | --- | --- | --- |
@@ -70,6 +72,16 @@ Use only public materials from these three providers as adoption evidence:
 | MDN Web Docs | https://developer.mozilla.org/en-US/docs/ | Frontend, web, API, debugging | Generally CC BY-SA 2.5 or later | Use only to confirm usage. Do not copy or adapt body text. |
 
 For Google SRE, do not treat the whole SRE site as CC BY 4.0. Use only materials explicitly marked CC BY 4.0. Because reusing MDN body text triggers share-alike obligations, this dataset uses MDN only to confirm usage.
+
+### B. Usage-verification-only materials
+
+| Provider | Official pages | Main use | License | Handling |
+| --- | --- | --- | --- | --- |
+| Amazon Jobs Interview Prep | [Software development interview topics](https://www.amazon.jobs/content/en/how-we-hire/interview-prep/software-development-topics), [SDE II Interview Prep](https://www.amazon.jobs/content/en/how-we-hire/sde-ii-interview-prep), [SDE III/Sr. SDE Interview Prep](https://www.amazon.jobs/content/en/how-we-hire/sde-iii-interview-prep) | Technical interview, system design, career and interview | No open license identified | Use only to verify that a term appears in an engineering context. |
+
+For usage-verification-only materials, do not copy, translate, summarize, or adapt source body text, examples, or questions into Vocabulary. Write `meaning`, `description`, `usageExample`, `meaningJa`, `descriptionJa`, and `usageExampleJa` independently from the source.
+
+For an Amazon Jobs source, set `source.license` to `No open license identified`. Write `source.context` independently as a concise adoption rationale that identifies the engineering interview context. Do not reproduce or translate the original wording.
 
 ## Difficulty Master
 

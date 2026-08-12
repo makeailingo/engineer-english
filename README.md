@@ -6,7 +6,7 @@ An open dataset of English used in day-to-day software engineering work.
 
 ## Concept
 
-- We extract words and phrases actually used in software engineering from reliable primary sources (Google Engineering Practices, Google SRE CC BY 4.0 materials, MDN Web Docs).
+- We extract words and phrases actually used in software engineering from reliable primary sources.
 - We obtain senses, parts of speech, and pronunciation (US English IPA) from reliable external dictionaries (Cambridge Dictionary as the primary source; Oxford Advanced Learner's Dictionary for cross-checking).
 - Difficulty is classified into three levels:
 
@@ -16,7 +16,19 @@ An open dataset of English used in day-to-day software engineering work.
 | Intermediate | General vocabulary with learning value in professional use, or frequent in technical contexts |
 | Advanced | Uncommon in everyday English; even engineers are unlikely to know the word as English vocabulary |
 
-- Japanese translations, explanations, and usage examples are written independently. We do not copy or adapt source text.
+- Learner-facing content is written independently.
+
+## Primary Source Usage
+
+Primary sources are handled according to their licenses.
+
+- **Open-license materials:** Google Engineering Practices, explicitly licensed Google SRE CC BY 4.0 materials, and MDN Web Docs. Each source is used according to its license. MDN body text is not reused because doing so would trigger share-alike obligations.
+- **Usage-verification-only materials:** Amazon Jobs Interview Prep. No open license has been identified, so these pages are used only to verify that a term appears in an engineering context:
+  - [Software development interview topics](https://www.amazon.jobs/content/en/how-we-hire/interview-prep/software-development-topics)
+  - [SDE II Interview Prep](https://www.amazon.jobs/content/en/how-we-hire/sde-ii-interview-prep)
+  - [SDE III/Sr. SDE Interview Prep](https://www.amazon.jobs/content/en/how-we-hire/sde-iii-interview-prep)
+
+Amazon Jobs body text, examples, and questions are not copied, translated, summarized, or adapted into the dataset. Meanings, explanations, usage examples, translations, and source-context descriptions are written independently.
 
 ## Learning Order (ID)
 
@@ -80,3 +92,5 @@ Output is written to `docs/_site/`.
 ## License
 
 MIT. See [LICENSE](LICENSE).
+
+This license covers content in this repository, not linked third-party source pages. Those pages remain subject to their respective licenses and terms.

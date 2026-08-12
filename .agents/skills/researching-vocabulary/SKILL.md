@@ -25,7 +25,7 @@ term: "address"
 1. Confirm the part of speech in Cambridge.
 2. Confirm general senses and sense divisions in Cambridge.
 3. Confirm US English IPA in Cambridge.
-4. Confirm professional usage in Google Engineering Practices, Google SRE, and MDN primary sources.
+4. Confirm professional usage in an approved primary source: Google Engineering Practices, explicitly licensed Google SRE CC BY 4.0 materials, MDN Web Docs, or Amazon Jobs Interview Prep.
 5. Identify which dictionary senses are actually used in the software development context from those primary sources.
 6. For the adopted sense only, write a natural, concise Japanese translation.
 7. Cross-check part of speech, sense, and US English IPA in Oxford.
@@ -53,6 +53,16 @@ term: "address"
    on-call → 障害対応のため待機する当番、オンコール
 
 Do not decide from search-result snippets alone. Open each page and verify. If inconsistencies cannot be resolved, do not guess; set `confidence: Low` and explain why.
+
+## Source Handling
+
+Follow the primary-source categories in the vocabulary-markdown rule. Amazon Jobs Interview Prep is a usage-verification-only source because no open license has been identified. Use it only to confirm that a term appears in an engineering context.
+
+For an Amazon Jobs source:
+
+- Do not copy, translate, summarize, or adapt its body text, examples, or questions.
+- Write all learner-facing fields and `source.context` independently.
+- Set `source.license` to `No open license identified`.
 
 ## Output
 

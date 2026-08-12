@@ -24,7 +24,7 @@ term: "address"
 1. Cambridgeで対象語の品詞を確認する。
 2. Cambridgeで一般的な語義と、語義ごとの区分を確認する。
 3. Cambridgeで米国英語のIPAを確認する。
-4. Google Engineering Practices、Google SRE、MDNの一次資料で実務用法を確認する。
+4. 承認済みの一次資料（Google Engineering Practices、CC BY 4.0と明記されたGoogle SRE資料、MDN Web Docs、Amazon Jobs Interview Prep）で実務用法を確認する。
 5. 辞書に掲載された語義のうち、一次資料のソフトウェア開発文脈で実際に使われているものを特定する。
 6. 特定した語義に限定して、自然で簡潔な日本語訳を作成する。
 7. Oxfordで品詞、語義、米国英語のIPAを照合し、不一致がないか確認する。
@@ -52,6 +52,18 @@ term: "address"
    on-call → 障害対応のため待機する当番、オンコール
 
 検索結果に表示される要約だけで判断せず、各ページを開いて確認する。不一致を解消できない場合は推測せず、`confidence: Low`として理由を示す。
+
+## 一次資料の取り扱い
+
+vocabulary-markdownルールの一次資料区分に従う。
+Amazon Jobs Interview Prepはオープンライセンスを確認できないため、用法確認専用資料とする。
+対象語がエンジニアリングの文脈で使われていることの確認に限って使用する。
+
+Amazon Jobsを出典とする場合は、次の規則に従う。
+
+- 本文、例文、質問文をコピー、翻訳、要約、翻案しない。
+- 学習用の全フィールドと`source.context`を独自に作成する。
+- `source.license`には`No open license identified`と記載する。
 
 ## Output
 

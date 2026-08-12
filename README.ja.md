@@ -6,7 +6,7 @@
 
 ## コンセプト
 
-- 信頼性の高い一次情報（Google Engineering Practices、Google SREのCC BY 4.0資料、MDN Web Docs）から、ソフトウェアエンジニアリングの文脈で実際に使われる単語・フレーズを抽出しています。
+- 信頼性の高い一次資料から、ソフトウェアエンジニアリングの文脈で実際に使われる単語やフレーズを抽出しています。
 - 語義・品詞・発音記号は、信頼性の高い外部の辞書（Cambridge Dictionary を一次情報とし、Oxford Advanced Learner's Dictionary で照合）から取得しています。
 - 難易度は次の3段階で分類しています。
 
@@ -16,7 +16,20 @@
 | Intermediate（中級） | 一般語だが実務での用法に学習価値がある、または技術文脈で頻出する |
 | Advanced（上級） | 一般英語として日常的に使われず、エンジニアも英単語としては馴染みが薄い |
 
-- 日本語訳・説明・使用例は独自に作成しており、出典本文のコピー・翻案は行っていません。
+- 学習用コンテンツは独自に作成しています。
+
+## 一次資料の利用区分
+
+一次資料はライセンスに応じて扱いを分けています。
+
+- **オープンライセンス資料**：Google Engineering Practices、CC BY 4.0と明記されたGoogle SRE資料、MDN Web Docs。各資料のライセンス条件に従います。MDNの本文は、再利用によって継承ライセンスの条件が生じるため使用しません。
+- **用法確認専用資料**：Amazon Jobs Interview Prep。オープンライセンスを確認できないため、対象語がエンジニアリングの文脈で使われていることの確認に限って、次のページを使用します。
+  - [Software development interview topics](https://www.amazon.jobs/content/en/how-we-hire/interview-prep/software-development-topics)
+  - [SDE II Interview Prep](https://www.amazon.jobs/content/en/how-we-hire/sde-ii-interview-prep)
+  - [SDE III/Sr. SDE Interview Prep](https://www.amazon.jobs/content/en/how-we-hire/sde-iii-interview-prep)
+
+Amazon Jobsの本文、例文、質問文は、データセットへコピー、翻訳、要約、翻案しません。
+語義、説明、使用例、日本語訳、出典の文脈説明は独自に作成します。
 
 ## 学習順（ID）
 
@@ -80,3 +93,6 @@ bundle exec jekyll build --baseurl ""
 ## ライセンス
 
 MIT. See [LICENSE](LICENSE).
+
+このライセンスはリポジトリ内のコンテンツに適用され、リンク先の第三者資料には適用されません。
+リンク先の資料には、それぞれのライセンスと利用条件が適用されます。
