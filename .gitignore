@@ -7,8 +7,3 @@ docs/.sass-cache/
 # Bundler
 docs/vendor/bundle/
 docs/.bundle/
-
-# Generated source-verification artifacts
-scripts/source_index.json
-scripts/source_fix_report.json
-scripts/removed_vocabulary.json

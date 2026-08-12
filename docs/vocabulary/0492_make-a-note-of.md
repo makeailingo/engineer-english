@@ -1,0 +1,20 @@
+---
+id: "0492"
+term: "make a note of"
+type: "phrase"
+partOfSpeech: "phrasal verb"
+pronunciation: "/ˌmeɪk ə ˈnoʊt ʌv/"
+description: "Record your observations and issues so you can refer to them later."
+descriptionJa: "後で参照できるよう、気づきや課題を記録しておくこと。"
+meaning: "make a note of it"
+meaningJa: "メモしておく"
+usageExample: "Maybe also make a note of it."
+usageExampleJa: "ついでにメモしておくのもありです。"
+difficulty: "Intermediate"
+scene: "Meetings / Events"
+source:
+  title: "Small CLs | eng-practices"
+  url: "https://google.github.io/eng-practices/review/developer/small-cls.html"
+  license: "CC BY 3.0"
+  context: "チーム内の打合せと調整の文脈。"
+---

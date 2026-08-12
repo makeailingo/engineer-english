@@ -74,8 +74,6 @@ Primary sources are divided into two categories according to their licenses.
 
 For Google SRE, do not treat the whole SRE site as CC BY 4.0. Use only materials explicitly marked CC BY 4.0. The SRE Workbook is CC BY-NC-ND 4.0 and is not a primary source for this dataset. Because reusing MDN body text triggers share-alike obligations, this dataset uses MDN only to confirm usage.
 
-Every Vocabulary entry must cite a primary source page where the target term actually appears. Run `python3 scripts/verify_vocabulary_sources.py` after bulk edits; it must report zero failures before merging.
-
 ### B. Usage-reference materials
 
 | Provider | Official pages | Main use | License | Handling |

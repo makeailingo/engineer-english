@@ -35,15 +35,15 @@ Amazon Jobs body text, examples, and questions are not copied, translated, summa
 
 Each vocabulary `id` (0001 onward) reflects learning order across seven Scenes in this sequence:
 
-| Order | Scene | ID range (1,017 entries) |
+| Order | Scene | ID range (1,007 entries) |
 | --- | --- | --- |
 | 1 | Career / Interview | 0001–0085 |
-| 2 | Implementation / Review | 0086–0408 |
-| 3 | Meetings / Events | 0409–0558 |
-| 4 | Design / Architecture | 0559–0862 |
-| 5 | Incident Response | 0863–0942 |
-| 6 | Technical Writing | 0943–0985 |
-| 7 | Management | 0986–1017 |
+| 2 | Implementation / Review | 0086–0405 |
+| 3 | Meetings / Events | 0406–0552 |
+| 4 | Design / Architecture | 0553–0856 |
+| 5 | Incident Response | 0857–0936 |
+| 6 | Technical Writing | 0937–0976 |
+| 7 | Management | 0977–1007 |
 
 Within each Scene, entries are ordered by **difficulty → learning value → practical frequency**.
 See the [sorting-vocabulary Skill](.agents/skills/sorting-vocabulary/SKILL.md) for details.

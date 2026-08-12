@@ -1,0 +1,20 @@
+---
+id: "0826"
+term: "cut over"
+type: "phrase"
+partOfSpeech: "phrasal verb"
+pronunciation: "/ˌkʌt ˈoʊ.vɚ/"
+description: "Switching production from the old environment to the new environment."
+descriptionJa: "旧環境から新環境へ本番を切り替えること。"
+meaning: "Switch to new system"
+meaningJa: "新システムへ切り替える"
+usageExample: "We cut over to the new database at midnight."
+usageExampleJa: "深夜0時に新しいデータベースへ切り替えました。"
+difficulty: "Advanced"
+scene: "Design / Architecture"
+source:
+  title: "Google SRE - Art of slo | customer reliability engineering"
+  url: "https://sre.google/resources/practices-and-processes/art-of-slos/"
+  license: "CC BY 4.0"
+  context: "システム設計と運用判断の文脈。"
+---
