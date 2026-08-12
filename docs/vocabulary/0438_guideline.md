@@ -13,8 +13,8 @@ usageExampleJa: "ここではAPIバージョニングの指針に従ってくだ
 difficulty: "Beginner"
 scene: "Meetings / Events"
 source:
-  title: "How to handle reviewer comments"
-  url: "https://google.github.io/eng-practices/review/developer/handling-comments.html"
+  title: "Google Engineering Practices Documentation | eng-practices"
+  url: "https://google.github.io/eng-practices/"
   license: "CC BY 3.0"
-  context: "開発チーム内の日常コミュニケーションの文脈。"
+  context: "チーム内の打合せと調整の文脈。"
 ---

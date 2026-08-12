@@ -13,8 +13,8 @@ usageExampleJa: "このサービスの監視は不十分です。"
 difficulty: "Beginner"
 scene: "Meetings / Events"
 source:
-  title: "How to handle reviewer comments"
-  url: "https://google.github.io/eng-practices/review/developer/handling-comments.html"
+  title: "Writing good CL descriptions | eng-practices"
+  url: "https://google.github.io/eng-practices/review/developer/cl-descriptions.html"
   license: "CC BY 3.0"
-  context: "開発チーム内の日常コミュニケーションの文脈。"
+  context: "チーム内の打合せと調整の文脈。"
 ---

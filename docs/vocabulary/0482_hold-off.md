@@ -1,0 +1,20 @@
+---
+id: "0482"
+term: "hold off"
+type: "phrase"
+partOfSpeech: "phrasal verb"
+pronunciation: "/ˌhoʊld ˈɔːf/"
+description: "To defer execution."
+descriptionJa: "実行をあえて先延ばしにすること。"
+meaning: "postpone, put on hold"
+meaningJa: "見送る、保留する"
+usageExample: "Hold off on the deploy until Monday."
+usageExampleJa: "デプロイは月曜まで見送ってください。"
+difficulty: "Intermediate"
+scene: "Meetings / Events"
+source:
+  title: "Google SRE - Understanding sre team lifecycle handbook"
+  url: "https://sre.google/workbook/team-lifecycles/"
+  license: "CC BY 4.0"
+  context: "チーム内の打合せと調整の文脈。"
+---

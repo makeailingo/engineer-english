@@ -1,0 +1,20 @@
+---
+id: "0464"
+term: "wrap up"
+type: "phrase"
+partOfSpeech: "phrasal verb"
+pronunciation: "/ˌræp ˈʌp/"
+description: "To finish a meeting or task."
+descriptionJa: "会議や作業を切り上げて終えること。"
+meaning: "conclude, bring to an end, sum up"
+meaningJa: "締めくくる、終わらせる、まとめる"
+usageExample: "If there's nothing else, let's wrap up."
+usageExampleJa: "他に話題がなければ会議を終わらせます。"
+difficulty: "Beginner"
+scene: "Meetings / Events"
+source:
+  title: "Google SRE - Art of slo | customer reliability engineering"
+  url: "https://sre.google/resources/practices-and-processes/art-of-slos/"
+  license: "CC BY 4.0"
+  context: "チーム内の打合せと調整の文脈。"
+---

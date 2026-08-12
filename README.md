@@ -23,7 +23,7 @@ An open dataset of English used in day-to-day software engineering work.
 
 Primary sources are handled according to their licenses.
 
-- **Open-license materials:** Google Engineering Practices, explicitly licensed Google SRE CC BY 4.0 materials, and MDN Web Docs. Each source is used according to its license. MDN body text is not reused because doing so would trigger share-alike obligations.
+- **Open-license materials:** Google Engineering Practices, Google Developer Documentation Style Guide, explicitly licensed Google SRE CC BY 4.0 materials, and MDN Web Docs. Each source is used according to its license. MDN body text is not reused because doing so would trigger share-alike obligations.
 - **Usage-reference materials:** Amazon Jobs Interview Prep. No open license has been identified, so these pages are used only to verify that a term appears in an engineering context:
   - [Software development interview topics](https://www.amazon.jobs/content/en/how-we-hire/interview-prep/software-development-topics)
   - [SDE II Interview Prep](https://www.amazon.jobs/content/en/how-we-hire/sde-ii-interview-prep)
@@ -35,15 +35,15 @@ Amazon Jobs body text, examples, and questions are not copied, translated, summa
 
 Each vocabulary `id` (0001 onward) reflects learning order across seven Scenes in this sequence:
 
-| Order | Scene | ID range (1,063 entries) |
+| Order | Scene | ID range (1,007 entries) |
 | --- | --- | --- |
-| 1 | Career / Interview | 0001–0086 |
-| 2 | Implementation / Review | 0087–0417 |
-| 3 | Meetings / Events | 0418–0579 |
-| 4 | Design / Architecture | 0580–0896 |
-| 5 | Incident Response | 0897–0984 |
-| 6 | Technical Writing | 0985–1025 |
-| 7 | Management | 1026–1063 |
+| 1 | Career / Interview | 0001–0085 |
+| 2 | Implementation / Review | 0086–0405 |
+| 3 | Meetings / Events | 0406–0552 |
+| 4 | Design / Architecture | 0553–0856 |
+| 5 | Incident Response | 0857–0936 |
+| 6 | Technical Writing | 0937–0976 |
+| 7 | Management | 0977–1007 |
 
 Within each Scene, entries are ordered by **difficulty → learning value → practical frequency**.
 See the [sorting-vocabulary Skill](.agents/skills/sorting-vocabulary/SKILL.md) for details.

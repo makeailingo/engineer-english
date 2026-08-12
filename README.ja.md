@@ -23,7 +23,7 @@
 
 一次資料はライセンスに応じて扱いを分けています。
 
-- **オープンライセンス資料**：Google Engineering Practices、CC BY 4.0と明記されたGoogle SRE資料、MDN Web Docs。各資料のライセンス条件に従います。MDNの本文は、再利用によって継承ライセンスの条件が生じるため使用しません。
+- **オープンライセンス資料**：Google Engineering Practices、Google Developer Documentation Style Guide、CC BY 4.0と明記されたGoogle SRE資料、MDN Web Docs。各資料のライセンス条件に従います。MDNの本文は、再利用によって継承ライセンスの条件が生じるため使用しません。
 - **用法参照資料**：Amazon Jobs Interview Prep。オープンライセンスを確認できないため、対象語がエンジニアリングの文脈で使われていることの確認に限って、次のページを使用します。
   - [Software development interview topics](https://www.amazon.jobs/content/en/how-we-hire/interview-prep/software-development-topics)
   - [SDE II Interview Prep](https://www.amazon.jobs/content/en/how-we-hire/sde-ii-interview-prep)
@@ -36,15 +36,15 @@ Amazon Jobsの本文、例文、質問文は、データセットへコピー、
 
 語彙の `id`（0001 から連番）は、次の7つのSceneをこの順に並べた学習順を表します。
 
-| 順序 | Scene | ID 範囲（1,063語時点） |
+| 順序 | Scene | ID 範囲（1,007語） |
 | --- | --- | --- |
-| 1 | 転職・面接 | 0001–0086 |
-| 2 | 実装・レビュー | 0087–0417 |
-| 3 | 会議・イベント | 0418–0579 |
-| 4 | 設計・アーキテクチャ | 0580–0896 |
-| 5 | 障害対応 | 0897–0984 |
-| 6 | テクニカルライティング | 0985–1025 |
-| 7 | マネジメント | 1026–1063 |
+| 1 | 転職・面接 | 0001–0085 |
+| 2 | 実装・レビュー | 0086–0405 |
+| 3 | 会議・イベント | 0406–0552 |
+| 4 | 設計・アーキテクチャ | 0553–0856 |
+| 5 | 障害対応 | 0857–0936 |
+| 6 | テクニカルライティング | 0937–0976 |
+| 7 | マネジメント | 0977–1007 |
 
 Scene分類を先に確定し、各Scene内では **難易度 → 学習価値 → 実用性** の順で並べます。
 詳細は [sorting-vocabulary Skill](.agents/skills/sorting-vocabulary/SKILL.md) を参照してください。
