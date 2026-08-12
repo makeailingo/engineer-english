@@ -1,0 +1,20 @@
+---
+id: "1006"
+term: "get comfortable with"
+type: "phrase"
+partOfSpeech: "phrasal verb"
+pronunciation: "/ɡet ˈkʌm.fɚ.t̬ə.bəl wɪð/"
+description: "Prepare by practicing coding without your usual IDE tools."
+descriptionJa: "IDEなしのコーディングなどに慣れておくこと。"
+meaning: "become familiar enough to perform confidently"
+meaningJa: "慣れて自信を持てるようになる"
+usageExample: "Get comfortable with coding without an IDE before interviewing."
+usageExampleJa: "面接前にIDEなしコーディングに慣れてください。"
+difficulty: "Intermediate"
+scene: "Technical Interview"
+source:
+  title: "SDE II Interview Prep"
+  url: "https://www.amazon.jobs/content/en/how-we-hire/sde-ii-interview-prep"
+  license: "No open license identified"
+  context: "面接前にIDEなしのコーディング環境に慣れるよう促す準備の文脈。"
+---
