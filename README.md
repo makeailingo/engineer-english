@@ -23,7 +23,7 @@ An open dataset of English used in day-to-day software engineering work.
 Primary sources are handled according to their licenses.
 
 - **Open-license materials:** Google Engineering Practices, explicitly licensed Google SRE CC BY 4.0 materials, and MDN Web Docs. Each source is used according to its license. MDN body text is not reused because doing so would trigger share-alike obligations.
-- **Usage-verification-only materials:** Amazon Jobs Interview Prep. No open license has been identified, so these pages are used only to verify that a term appears in an engineering context:
+- **Usage-reference materials:** Amazon Jobs Interview Prep. No open license has been identified, so these pages are used only to verify that a term appears in an engineering context:
   - [Software development interview topics](https://www.amazon.jobs/content/en/how-we-hire/interview-prep/software-development-topics)
   - [SDE II Interview Prep](https://www.amazon.jobs/content/en/how-we-hire/sde-ii-interview-prep)
   - [SDE III/Sr. SDE Interview Prep](https://www.amazon.jobs/content/en/how-we-hire/sde-iii-interview-prep)

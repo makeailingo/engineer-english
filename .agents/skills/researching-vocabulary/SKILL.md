@@ -56,7 +56,7 @@ Do not decide from search-result snippets alone. Open each page and verify. If i
 
 ## Source Handling
 
-Follow the primary-source categories in the vocabulary-markdown rule. Amazon Jobs Interview Prep is a usage-verification-only source because no open license has been identified. Use it only to confirm that a term appears in an engineering context.
+Follow the primary-source categories in the vocabulary-markdown rule. Amazon Jobs Interview Prep is a usage-reference source because no open license has been identified. Use it only to confirm that a term appears in an engineering context.
 
 For an Amazon Jobs source:
 

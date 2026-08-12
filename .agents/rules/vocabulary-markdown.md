@@ -73,13 +73,13 @@ Primary sources are divided into two categories according to their licenses.
 
 For Google SRE, do not treat the whole SRE site as CC BY 4.0. Use only materials explicitly marked CC BY 4.0. Because reusing MDN body text triggers share-alike obligations, this dataset uses MDN only to confirm usage.
 
-### B. Usage-verification-only materials
+### B. Usage-reference materials
 
 | Provider | Official pages | Main use | License | Handling |
 | --- | --- | --- | --- | --- |
 | Amazon Jobs Interview Prep | [Software development interview topics](https://www.amazon.jobs/content/en/how-we-hire/interview-prep/software-development-topics), [SDE II Interview Prep](https://www.amazon.jobs/content/en/how-we-hire/sde-ii-interview-prep), [SDE III/Sr. SDE Interview Prep](https://www.amazon.jobs/content/en/how-we-hire/sde-iii-interview-prep) | Technical interview, system design, career and interview | No open license identified | Use only to verify that a term appears in an engineering context. |
 
-For usage-verification-only materials, do not copy, translate, summarize, or adapt source body text, examples, or questions into Vocabulary. Write `meaning`, `description`, `usageExample`, `meaningJa`, `descriptionJa`, and `usageExampleJa` independently from the source.
+For usage-reference materials, do not copy, translate, summarize, or adapt source body text, examples, or questions into Vocabulary. Write `meaning`, `description`, `usageExample`, `meaningJa`, `descriptionJa`, and `usageExampleJa` independently from the source.
 
 For an Amazon Jobs source, set `source.license` to `No open license identified`. Write `source.context` independently as a concise adoption rationale that identifies the engineering interview context. Do not reproduce or translate the original wording.
 

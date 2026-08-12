@@ -56,7 +56,7 @@ term: "address"
 ## 一次資料の取り扱い
 
 vocabulary-markdownルールの一次資料区分に従う。
-Amazon Jobs Interview Prepはオープンライセンスを確認できないため、用法確認専用資料とする。
+Amazon Jobs Interview Prepはオープンライセンスを確認できないため、用法参照資料とする。
 対象語がエンジニアリングの文脈で使われていることの確認に限って使用する。
 
 Amazon Jobsを出典とする場合は、次の規則に従う。

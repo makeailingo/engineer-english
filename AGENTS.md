@@ -6,13 +6,13 @@ A dataset of English used in day-to-day software engineering work.
 
 ## Concept
 
-- Extract words and phrases actually used in software engineering from reliable primary sources. Open-license sources are Google Engineering Practices, explicitly licensed Google SRE CC BY 4.0 materials, and MDN Web Docs. Amazon Jobs Interview Prep is a usage-verification-only source because no open license has been identified.
+- Extract words and phrases actually used in software engineering from reliable primary sources. Open-license sources are Google Engineering Practices, explicitly licensed Google SRE CC BY 4.0 materials, and MDN Web Docs. Amazon Jobs Interview Prep is a usage-reference source because no open license has been identified.
 - Obtain senses, parts of speech, and US English IPA pronunciation from reliable external dictionaries (primary: Cambridge Dictionary; cross-check: Oxford Advanced Learner's Dictionary).
 - Classify difficulty into three levels:
   - **Beginner**: widely known general vocabulary; engineers can infer the meaning easily
   - **Intermediate**: general vocabulary with learning value in professional use, or frequent in technical contexts
   - **Advanced**: uncommon in everyday English; even engineers are unlikely to know the word as English vocabulary
-- Write learner-facing content independently. Do not copy, translate, summarize, or adapt source text from usage-verification-only materials.
+- Write learner-facing content independently. Do not copy, translate, summarize, or adapt source text from usage-reference materials.
 
 ## Working Rules
 

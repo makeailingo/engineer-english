@@ -53,13 +53,13 @@
 
 Google SREでは、SREサイト全体をCC BY 4.0とみなさず、CC BY 4.0と明記された教材だけを使用する。MDNで本文を再利用すると継承ライセンスの条件が生じるため、本データセットでは用法の確認に限って使用する。
 
-### B. 用法確認専用資料
+### B. 用法参照資料
 
 | 提供元 | 公式ページ | 主な用途 | ライセンス | 取り扱い |
 | --- | --- | --- | --- | --- |
 | Amazon Jobs Interview Prep | [Software development interview topics](https://www.amazon.jobs/content/en/how-we-hire/interview-prep/software-development-topics)、[SDE II Interview Prep](https://www.amazon.jobs/content/en/how-we-hire/sde-ii-interview-prep)、[SDE III/Sr. SDE Interview Prep](https://www.amazon.jobs/content/en/how-we-hire/sde-iii-interview-prep) | Technical Interview、System Design、Career / Interview | No open license identified | 対象語がエンジニアリングの文脈で使われていることの確認に限って使用する。 |
 
-用法確認専用資料の本文、例文、質問文は、Vocabularyへコピー、翻訳、要約、翻案しない。`meaning`、`description`、`usageExample`、`meaningJa`、`descriptionJa`、`usageExampleJa`は一次資料から独立して作成する。
+用法参照資料の本文、例文、質問文は、Vocabularyへコピー、翻訳、要約、翻案しない。`meaning`、`description`、`usageExample`、`meaningJa`、`descriptionJa`、`usageExampleJa`は一次資料から独立して作成する。
 
 Amazon Jobsを出典とする場合、`source.license`には`No open license identified`と記載する。`source.context`には、対象語が使われているエンジニア面接の文脈と採用根拠を独自の文章で簡潔に記載し、原文の転載や翻訳は行わない。
 

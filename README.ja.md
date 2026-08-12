@@ -23,7 +23,7 @@
 一次資料はライセンスに応じて扱いを分けています。
 
 - **オープンライセンス資料**：Google Engineering Practices、CC BY 4.0と明記されたGoogle SRE資料、MDN Web Docs。各資料のライセンス条件に従います。MDNの本文は、再利用によって継承ライセンスの条件が生じるため使用しません。
-- **用法確認専用資料**：Amazon Jobs Interview Prep。オープンライセンスを確認できないため、対象語がエンジニアリングの文脈で使われていることの確認に限って、次のページを使用します。
+- **用法参照資料**：Amazon Jobs Interview Prep。オープンライセンスを確認できないため、対象語がエンジニアリングの文脈で使われていることの確認に限って、次のページを使用します。
   - [Software development interview topics](https://www.amazon.jobs/content/en/how-we-hire/interview-prep/software-development-topics)
   - [SDE II Interview Prep](https://www.amazon.jobs/content/en/how-we-hire/sde-ii-interview-prep)
   - [SDE III/Sr. SDE Interview Prep](https://www.amazon.jobs/content/en/how-we-hire/sde-iii-interview-prep)
