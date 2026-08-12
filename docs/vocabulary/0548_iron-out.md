@@ -13,8 +13,8 @@ usageExampleJa: "ローンチ前にエッジケースの問題を解消してく
 difficulty: "Advanced"
 scene: "Meetings / Events"
 source:
-  title: "How to handle reviewer comments"
-  url: "https://google.github.io/eng-practices/review/developer/handling-comments.html"
-  license: "CC BY 3.0"
-  context: "開発者間の相談や依頼、合意形成の文脈。"
+  title: "Google SRE - Understanding sre team lifecycle handbook"
+  url: "https://sre.google/workbook/team-lifecycles/"
+  license: "CC BY 4.0"
+  context: "チーム内の打合せと調整の文脈。"
 ---

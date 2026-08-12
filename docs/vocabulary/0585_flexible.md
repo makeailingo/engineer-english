@@ -13,8 +13,8 @@ usageExampleJa: "新フィールドに備えてスキーマを柔軟にしてく
 difficulty: "Beginner"
 scene: "Design / Architecture"
 source:
-  title: "Small CLs"
-  url: "https://google.github.io/eng-practices/review/developer/small-cls.html"
-  license: "CC BY 3.0"
-  context: "要件整理と変更計画の文脈。"
+  title: "Cloud computing - Glossary | MDN"
+  url: "https://developer.mozilla.org/en-US/docs/Glossary/Cloud_computing"
+  license: "CC BY-SA 2.5"
+  context: "システム設計と運用判断の文脈。"
 ---

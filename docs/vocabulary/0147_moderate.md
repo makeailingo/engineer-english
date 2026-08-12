@@ -13,8 +13,8 @@ usageExampleJa: "デプロイ後は中程度のエラー率です。"
 difficulty: "Beginner"
 scene: "Implementation / Review"
 source:
-  title: "What to look for in a code review"
-  url: "https://google.github.io/eng-practices/review/reviewer/looking-for.html"
-  license: "CC BY 3.0"
-  context: "コードレビューで設計や可読性を確認する文脈。"
+  title: "Server-side web frameworks - Learn web development | MDN"
+  url: "https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/First_steps/Web_frameworks"
+  license: "CC BY-SA 2.5"
+  context: "コードの実装とレビューの文脈。"
 ---

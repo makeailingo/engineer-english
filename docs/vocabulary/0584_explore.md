@@ -13,8 +13,8 @@ usageExampleJa: "段階公開用のフィーチャーフラグを検討しまし
 difficulty: "Beginner"
 scene: "Design / Architecture"
 source:
-  title: "Small CLs"
-  url: "https://google.github.io/eng-practices/review/developer/small-cls.html"
-  license: "CC BY 3.0"
-  context: "要件整理と変更計画の文脈。"
+  title: "Google SRE - Continuous Improvement To Get Reliability"
+  url: "https://sre.google/workbook/implementing-slos/"
+  license: "CC BY 4.0"
+  context: "システム設計と運用判断の文脈。"
 ---

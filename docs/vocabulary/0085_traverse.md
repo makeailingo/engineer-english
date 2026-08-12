@@ -13,8 +13,8 @@ usageExampleJa: "木を幅優先でたどってください。"
 difficulty: "Advanced"
 scene: "Career / Interview"
 source:
-  title: "Abstraction - Glossary | MDN"
-  url: "https://developer.mozilla.org/en-US/docs/Glossary/Abstraction"
+  title: "AbortController - Web APIs | MDN"
+  url: "https://developer.mozilla.org/en-US/docs/Web/API/AbortController"
   license: "CC BY-SA 2.5"
-  context: "技術概念を説明する文脈。"
+  context: "技術面接の準備と評価の文脈。"
 ---

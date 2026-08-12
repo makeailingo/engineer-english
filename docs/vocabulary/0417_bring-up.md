@@ -1,0 +1,20 @@
+---
+id: "0417"
+term: "bring up"
+type: "phrase"
+partOfSpeech: "phrasal verb"
+pronunciation: "/ˌbrɪŋ ˈʌp/"
+description: "Bring it up as an issue in a meeting or conversation."
+descriptionJa: "会議や会話で議題として持ち出すこと。"
+meaning: "bring up the topic"
+meaningJa: "話題に出す"
+usageExample: "Bring up the capacity risk in planning."
+usageExampleJa: "キャパシティのリスクを計画会議で提起してください。"
+difficulty: "Beginner"
+scene: "Meetings / Events"
+source:
+  title: "Google SRE - Understanding sre team lifecycle handbook"
+  url: "https://sre.google/workbook/team-lifecycles/"
+  license: "CC BY 4.0"
+  context: "チーム内の打合せと調整の文脈。"
+---

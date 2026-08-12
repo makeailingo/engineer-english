@@ -1,0 +1,20 @@
+---
+id: "0525"
+term: "sync up"
+type: "phrase"
+partOfSpeech: "phrasal verb"
+pronunciation: "/ˌsɪŋk ˈʌp/"
+description: "Gathering information and understanding through short conversations."
+descriptionJa: "短い会話で情報や認識をそろえること。"
+meaning: "align one's understanding"
+meaningJa: "認識を合わせる"
+usageExample: "Let's sync up before the sprint review."
+usageExampleJa: "スプリントレビューの前に認識を合わせましょう。"
+difficulty: "Intermediate"
+scene: "Meetings / Events"
+source:
+  title: "Workflows and processes - Learn web development | MDN"
+  url: "https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Soft_skills/Workflows_and_processes"
+  license: "CC BY-SA 2.5"
+  context: "チーム内の打合せと調整の文脈。"
+---

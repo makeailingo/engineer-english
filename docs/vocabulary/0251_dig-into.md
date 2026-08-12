@@ -1,0 +1,20 @@
+---
+id: "0251"
+term: "dig into"
+type: "phrase"
+partOfSpeech: "phrasal verb"
+pronunciation: "/ˌdɪɡ ˈɪn.tuː/"
+description: "Dig deeper into your logs and code."
+descriptionJa: "ログやコードを深く調べること。"
+meaning: "Find out more"
+meaningJa: "詳しく調べる"
+usageExample: "I'll dig into the logs after the standup."
+usageExampleJa: "スタンドアップの後にログを詳しく調べます。"
+difficulty: "Intermediate"
+scene: "Implementation / Review"
+source:
+  title: "JavaScript debugging and error handling - Learn web development | MDN"
+  url: "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Debugging_JavaScript"
+  license: "CC BY-SA 2.5"
+  context: "コードの実装とレビューの文脈。"
+---

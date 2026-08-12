@@ -13,8 +13,8 @@ usageExampleJa: "ノイズの多いヘルスチェックのログを止めてく
 difficulty: "Beginner"
 scene: "Implementation / Review"
 source:
-  title: "Performance fundamentals - Performance | MDN"
-  url: "https://developer.mozilla.org/en-US/docs/Web/Performance/Guides/Fundamentals"
+  title: "Capabilities, constraints, and settings - Web APIs | MDN"
+  url: "https://developer.mozilla.org/en-US/docs/Web/API/Media_Capture_and_Streams_API/Constraints"
   license: "CC BY-SA 2.5"
-  context: "不具合調査と原因特定の文脈。"
+  context: "コードの実装とレビューの文脈。"
 ---

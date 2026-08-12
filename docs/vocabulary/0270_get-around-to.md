@@ -1,0 +1,20 @@
+---
+id: "0270"
+term: "get around to"
+type: "phrase"
+partOfSpeech: "phrasal verb"
+pronunciation: "/ˌɡet əˈraʊnd tuː/"
+description: "Finally get started on the tasks you've been putting off."
+descriptionJa: "後回しにしていた作業にようやく着手すること。"
+meaning: "Finally getting started"
+meaningJa: "ようやく取りかかる"
+usageExample: "I haven't gotten around to your review yet."
+usageExampleJa: "まだあなたのレビューに取りかかれていません。"
+difficulty: "Intermediate"
+scene: "Implementation / Review"
+source:
+  title: "How to write code review comments | eng-practices"
+  url: "https://google.github.io/eng-practices/review/reviewer/comments.html"
+  license: "CC BY 3.0"
+  context: "コードの実装とレビューの文脈。"
+---

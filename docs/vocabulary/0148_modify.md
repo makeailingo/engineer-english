@@ -13,8 +13,8 @@ usageExampleJa: "公開契約を変えずにハンドラを修正します。"
 difficulty: "Beginner"
 scene: "Implementation / Review"
 source:
-  title: "Handling reviewer comments"
-  url: "https://google.github.io/eng-practices/review/developer/handling-comments.html"
+  title: "Small CLs | eng-practices"
+  url: "https://google.github.io/eng-practices/review/developer/small-cls.html"
   license: "CC BY 3.0"
-  context: "レビュー指摘に基づきコードを修正する文脈。"
+  context: "コードの実装とレビューの文脈。"
 ---
