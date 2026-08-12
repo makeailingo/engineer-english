@@ -1,0 +1,20 @@
+---
+id: "0552"
+term: "back up"
+type: "phrase"
+partOfSpeech: "phrasal verb"
+pronunciation: "/ˌbæk ˈʌp/"
+description: "Storing a copy of your data in another location."
+descriptionJa: "データの複製を別の場所に保存すること。"
+meaning: "take a backup"
+meaningJa: "バックアップを取る"
+usageExample: "Back up the database before the migration."
+usageExampleJa: "移行の前にデータベースをバックアップしてください。"
+difficulty: "Beginner"
+scene: "Design / Architecture"
+source:
+  title: "Using IndexedDB - Web APIs | MDN"
+  url: "https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API/Using_IndexedDB"
+  license: "CC BY-SA 2.5"
+  context: "データの保存と整合性を扱う文脈。"
+---

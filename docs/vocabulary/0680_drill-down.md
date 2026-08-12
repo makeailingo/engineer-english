@@ -1,0 +1,20 @@
+---
+id: "0680"
+term: "drill down"
+type: "phrase"
+partOfSpeech: "phrasal verb"
+pronunciation: "/ˌdrɪl ˈdaʊn/"
+description: "Step-by-step descent from aggregation to detailed data."
+descriptionJa: "集計から詳細データへ段階的に降りること。"
+meaning: "Drill down and analyze"
+meaningJa: "掘り下げて分析する"
+usageExample: "Drill down into the p99 latency metrics."
+usageExampleJa: "p99レイテンシの内訳を掘り下げてください。"
+difficulty: "Intermediate"
+scene: "Design / Architecture"
+source:
+  title: "What went wrong? Troubleshooting JavaScript - Learn web development | MDN"
+  url: "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/What_went_wrong"
+  license: "CC BY-SA 2.5"
+  context: "システム設計と運用判断の文脈。"
+---

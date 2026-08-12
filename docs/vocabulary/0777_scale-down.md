@@ -1,0 +1,20 @@
+---
+id: "0777"
+term: "scale down"
+type: "phrase"
+partOfSpeech: "phrasal verb"
+pronunciation: "/ˌskeɪl ˈdaʊn/"
+description: "Reduce unused processing power."
+descriptionJa: "使っていない処理能力を減らすこと。"
+meaning: "scale down"
+meaningJa: "規模を縮小する"
+usageExample: "Scale down idle workers to save cost."
+usageExampleJa: "コスト削減のため待機中のワーカーを縮小してください。"
+difficulty: "Intermediate"
+scene: "Design / Architecture"
+source:
+  title: "Google SRE - Continuous Improvement To Get Reliability"
+  url: "https://sre.google/workbook/implementing-slos/"
+  license: "CC BY 4.0"
+  context: "システム設計と運用判断の文脈。"
+---

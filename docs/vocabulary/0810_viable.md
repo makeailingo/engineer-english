@@ -1,0 +1,20 @@
+---
+id: "0810"
+term: "viable"
+type: "word"
+partOfSpeech: adjective
+pronunciation: "/ˈvaɪ.ə.bəl/"
+description: "Can be operated and adopted over the long term."
+descriptionJa: "長期的に運用・採用できること。"
+meaning: "viable, viable"
+meaningJa: "実行可能な、存続可能な"
+usageExample: "The monolith split still looks viable."
+usageExampleJa: "モノリス分割は依然実行可能に見えます。"
+difficulty: "Intermediate"
+scene: "Design / Architecture"
+source:
+  title: "art-of-slos-howto-a4.pdf"
+  url: "https://sre.google/static/pdf/art-of-slos-howto-a4.pdf"
+  license: "CC BY 4.0"
+  context: "システム設計と運用判断の文脈。"
+---

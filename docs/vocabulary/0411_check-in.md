@@ -1,0 +1,20 @@
+---
+id: "0411"
+term: "check in"
+type: "phrase"
+partOfSpeech: "phrasal verb"
+pronunciation: "/ˌtʃek ˈɪn/"
+description: "Check progress and status regularly."
+descriptionJa: "進捗や状況を定期的に確かめること。"
+meaning: "Check progress along the way"
+meaningJa: "途中経過を確認し合う"
+usageExample: "Let's check in on the migration every Friday."
+usageExampleJa: "移行の進捗を毎週金曜に確認しましょう。"
+difficulty: "Beginner"
+scene: "Meetings / Events"
+source:
+  title: "Small CLs | eng-practices"
+  url: "https://google.github.io/eng-practices/review/developer/small-cls.html"
+  license: "CC BY 3.0"
+  context: "チーム内の打合せと調整の文脈。"
+---
