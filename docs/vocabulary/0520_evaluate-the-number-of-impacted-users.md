@@ -1,0 +1,15 @@
+---
+id: "0520"
+term: "evaluate the number of impacted users"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/ɪˈvæljueɪt ðə ˈnʌmbər əv ˈɪmpæktɪd ˈjuːzəz/"
+description: "Call for measuring impact scope by counting affected users."
+descriptionJa: "影響範囲測定のアクションとして明確にする。"
+meaning: "to assess how many users were affected"
+meaningJa: "影響ユーザー数を評価する"
+usageExample: "We need to evaluate the number of impacted users."
+usageExampleJa: "影響を受けたユーザー数を評価する必要がある。"
+difficulty: "Intermediate"
+scene: "Incident Response"
+---

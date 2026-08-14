@@ -1,0 +1,15 @@
+---
+id: "0546"
+term: "manually clear the cache"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/ˈmænjuəli klɪə ðə kæʃ/"
+description: "Suggest manual cache clearing as a temporary recovery step."
+descriptionJa: "一時的対処としてキャッシュクリアを提案・実行。"
+meaning: "to manually clear the cache"
+meaningJa: "キャッシュを手動で消去する"
+usageExample: "Should we manually clear the cache to restore login temporarily?"
+usageExampleJa: "ログインを一時復旧するため、キャッシュを手動消去すべきか？"
+difficulty: "Intermediate"
+scene: "Incident Response"
+---

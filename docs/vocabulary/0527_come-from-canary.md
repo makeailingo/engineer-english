@@ -1,0 +1,15 @@
+---
+id: "0527"
+term: "come from canary"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/kʌm frɒm ˈkænəri/"
+description: "Clarify failing traffic is from canary, not production."
+descriptionJa: "本番トラフィックではなくカナリアからのものであることを明示する。"
+meaning: "to come from the canary environment"
+meaningJa: "カナリア環境由来である"
+usageExample: "The failing requests appear to come from canary, not production."
+usageExampleJa: "失敗リクエストは本番ではなくカナリア由来のようだ。"
+difficulty: "Intermediate"
+scene: "Incident Response"
+---

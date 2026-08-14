@@ -1,0 +1,15 @@
+---
+id: "0486"
+term: "re-enable login"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/riː ɪˈneɪbl ˈlɒɡɪn/"
+description: "Restore login via a temporary fix while preparing a permanent one."
+descriptionJa: "機能制限を解除して暫定対処で回復させる旨を述べる。"
+meaning: "to re-enable login"
+meaningJa: "ログインを再び有効化する"
+usageExample: "The temporary cleanup may re-enable login while we prepare a permanent fix."
+usageExampleJa: "恒久対応の準備中、暫定クリーンアップでログインが再有効化される可能性がある。"
+difficulty: "Beginner"
+scene: "Incident Response"
+---

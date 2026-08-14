@@ -1,0 +1,15 @@
+---
+id: "0499"
+term: "all services recovered"
+type: "phrase"
+partOfSpeech: "clause"
+pronunciation: "/ɔːl ˈsɜːvɪsɪz rɪˈkʌvəd/"
+description: "Report full service recovery and the approximate time."
+descriptionJa: "全体の復旧完了および時刻を報告する。"
+meaning: "all services have recovered"
+meaningJa: "すべてのサービスが復旧した"
+usageExample: "All services recovered at approximately 14:20."
+usageExampleJa: "全サービスが14:20頃に復旧した。"
+difficulty: "Beginner"
+scene: "Incident Response"
+---

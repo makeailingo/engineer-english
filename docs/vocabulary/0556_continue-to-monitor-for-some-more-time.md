@@ -1,0 +1,15 @@
+---
+id: "0556"
+term: "continue to monitor for some more time"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/kənˈtɪnjuː tuː ˈmɒnɪtə fɔː sʌm mɔː taɪm/"
+description: "Stay vigilant even when the system looks stable again."
+descriptionJa: "安定傾向だが警戒を継続することを伝える。"
+meaning: "to keep monitoring longer"
+meaningJa: "もうしばらく監視を続ける"
+usageExample: "Things look stable, but I'll continue to monitor for some more time."
+usageExampleJa: "安定しているが、もうしばらく監視を続ける。"
+difficulty: "Intermediate"
+scene: "Incident Response"
+---

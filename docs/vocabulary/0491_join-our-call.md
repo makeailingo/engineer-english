@@ -1,0 +1,15 @@
+---
+id: "0491"
+term: "join our call"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/dʒɔɪn ˈaʊə kɔːl/"
+description: "Invite others to join a live incident bridge for updates."
+descriptionJa: "同期コミュニケーションが必要な場面で通話参加を促す。"
+meaning: "to join our incident call"
+meaningJa: "障害対応の通話に参加する"
+usageExample: "Please join our call if you need to share updates or ask questions."
+usageExampleJa: "更新共有や質問があれば、通話に参加してほしい。"
+difficulty: "Beginner"
+scene: "Incident Response"
+---

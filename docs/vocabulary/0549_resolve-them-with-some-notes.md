@@ -1,0 +1,15 @@
+---
+id: "0549"
+term: "resolve them with some notes"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/rɪˈzɒlv ðem wɪð sʌm nəʊts/"
+description: "Close expected alerts with notes when monitoring can continue."
+descriptionJa: "静観可能・解決済みとしてメモを残しクローズすることを提案する。"
+meaning: "to resolve alerts with notes"
+meaningJa: "メモを添えてアラートを解決済みとする"
+usageExample: "If these are expected errors, let's resolve them with some notes."
+usageExampleJa: "想定内のエラーなら、メモを添えて解決済みにしよう。"
+difficulty: "Intermediate"
+scene: "Incident Response"
+---

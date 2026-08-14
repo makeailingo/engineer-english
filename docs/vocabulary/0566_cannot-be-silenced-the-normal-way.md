@@ -1,0 +1,15 @@
+---
+id: "0566"
+term: "cannot be silenced the normal way"
+type: "phrase"
+partOfSpeech: "clause"
+pronunciation: "/ˈkænɒt biː ˈsaɪlənst ðə ˈnɔːml weɪ/"
+description: "Report alerts that need a non-standard silence or workaround."
+descriptionJa: "アラートの挙動が通常と異なり、別の対応が必要なことを共有する。"
+meaning: "cannot be silenced normally"
+meaningJa: "通常の方法ではアラートを停止できない"
+usageExample: "These alerts cannot be silenced the normal way."
+usageExampleJa: "これらのアラートは通常の方法では停止できない。"
+difficulty: "Advanced"
+scene: "Incident Response"
+---

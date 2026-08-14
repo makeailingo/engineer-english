@@ -1,0 +1,15 @@
+---
+id: "0536"
+term: "appear to be a consequence of ..."
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/əˈpɪə tuː biː ə ˈkɒnsɪkwəns əv/"
+description: "Frame an error as a secondary effect of an upstream failure."
+descriptionJa: "発生したエラーが一次要因ではなく、二次障害の二次的結果という見解を示す。"
+meaning: "to appear caused by something else"
+meaningJa: "〜の好結果として現れていると思われる"
+usageExample: "This appears to be a consequence of the upstream timeout."
+usageExampleJa: "これは上流タイムアウトの結果として現れているようだ。"
+difficulty: "Intermediate"
+scene: "Incident Response"
+---

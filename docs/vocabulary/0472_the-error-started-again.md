@@ -1,0 +1,15 @@
+---
+id: "0472"
+term: "The error started again"
+type: "phrase"
+partOfSpeech: "clause"
+pronunciation: "/ði ˈerə ˈstɑːtɪd əˈɡen/"
+description: "Report that an error has started happening again and when."
+descriptionJa: "再発のタイミングを報告する。"
+meaning: "the error recurred"
+meaningJa: "エラーが再び発生し始めた"
+usageExample: "The initialization error started again around 18:00."
+usageExampleJa: "初期化エラーが18:00頃から再び発生し始めた。"
+difficulty: "Beginner"
+scene: "Incident Response"
+---

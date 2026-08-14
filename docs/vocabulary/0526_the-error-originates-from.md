@@ -1,0 +1,15 @@
+---
+id: "0526"
+term: "the error originates from ..."
+type: "phrase"
+partOfSpeech: "clause"
+pronunciation: "/ði ˈerə əˈrɪdʒɪneɪts frɒm/"
+description: "Point to the component or layer where the error starts."
+descriptionJa: "ルーティング層や特定コンポーネントがエラーの発生起点であることを指摘する。"
+meaning: "the error comes from a specific layer"
+meaningJa: "エラーの発生元は〜である"
+usageExample: "The error appears to originate from the routing layer."
+usageExampleJa: "エラーはルーティング層から発生しているようだ。"
+difficulty: "Intermediate"
+scene: "Incident Response"
+---

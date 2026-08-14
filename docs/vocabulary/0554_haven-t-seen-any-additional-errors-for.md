@@ -1,0 +1,15 @@
+---
+id: "0554"
+term: "haven't seen any additional errors for ..."
+type: "phrase"
+partOfSpeech: "clause"
+pronunciation: "/ˈhævnt siːn ˈeni əˈdɪʃənl ˈerəz fɔː/"
+description: "Give a clean-error window as evidence toward recovery."
+descriptionJa: "復旧判断の根拠となる無エラー時間を具体的に伝える。"
+meaning: "no new errors for a period"
+meaningJa: "一定時間、追加のエラーが確認されていない"
+usageExample: "We haven't seen any additional errors for 15 minutes."
+usageExampleJa: "15分間、追加のエラーは確認されていない。"
+difficulty: "Intermediate"
+scene: "Incident Response"
+---

@@ -1,0 +1,15 @@
+---
+id: "0561"
+term: "root cause analysis"
+type: "phrase"
+partOfSpeech: "noun phrase"
+pronunciation: "/ruːt kɔːz əˈnæləsɪs/"
+description: "Ask to capture findings in a post-incident root cause analysis."
+descriptionJa: "障害報告書（ポストモーテム等）の作成において根拠を残す。"
+meaning: "analysis of the root cause"
+meaningJa: "根本原因分析"
+usageExample: "Please include this finding in the root cause analysis."
+usageExampleJa: "この調査結果を根本原因分析に含めてほしい。"
+difficulty: "Intermediate"
+scene: "Incident Response"
+---

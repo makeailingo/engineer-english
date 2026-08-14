@@ -1,0 +1,15 @@
+---
+id: "0500"
+term: "become available"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/bɪˈkʌm əˈveɪləbl/"
+description: "Report partial recovery as a component becomes available again."
+descriptionJa: "全面回復前段階の段階的復旧を報告する。"
+meaning: "to become available again"
+meaningJa: "利用可能状態に戻る"
+usageExample: "The cache layer is becoming available again."
+usageExampleJa: "キャッシュ層が再び利用可能になりつつある。"
+difficulty: "Beginner"
+scene: "Incident Response"
+---

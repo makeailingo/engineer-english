@@ -1,0 +1,15 @@
+---
+id: "0563"
+term: "Identify the impact scope at the user or session level"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/aɪˈdentɪfaɪ ði ˈɪmpækt skəʊp æt ðə ˈjuːzə ɔː ˈseʃn ˈlevl/"
+description: "Ask for granular impact analysis at user or session level."
+descriptionJa: "影響を個別のユーザーやセッション単位で精密に特定する。"
+meaning: "to pinpoint impact per user or session"
+meaningJa: "ユーザーまたはセッション単位で影響範囲を特定する"
+usageExample: "Can we identify the impact scope at the user or session level?"
+usageExampleJa: "ユーザーまたはセッション単位で影響範囲を特定できるか？"
+difficulty: "Advanced"
+scene: "Incident Response"
+---

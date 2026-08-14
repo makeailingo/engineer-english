@@ -1,0 +1,15 @@
+---
+id: "0475"
+term: "as long as production is healthy"
+type: "phrase"
+partOfSpeech: "clause"
+pronunciation: "/æz lɒŋ æz prəˈdʌkʃn ɪz ˈhelθi/"
+description: "Propose deferring urgent work if production is still stable."
+descriptionJa: "本番環境が正常であれば、緊急の夜間対応ではなく営業時間内に調査を継続することを提案する。"
+meaning: "while production remains healthy"
+meaningJa: "本番環境が正常である限り"
+usageExample: "As long as production is healthy, we can continue investigating during business hours."
+usageExampleJa: "本番が正常であれば、営業時間内に調査を継続できる。"
+difficulty: "Beginner"
+scene: "Incident Response"
+---

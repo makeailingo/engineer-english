@@ -1,0 +1,15 @@
+---
+id: "0513"
+term: "successful requests have dropped to zero"
+type: "phrase"
+partOfSpeech: "clause"
+pronunciation: "/səkˈsesfl rɪˈkwests hæv drɒpt tuː ˈzɪərəʊ/"
+description: "Report zero successful requests as a severe customer impact signal."
+descriptionJa: "過去5分間で成功リクエスト数がゼロに落ちた致命的影響を述べる。"
+meaning: "successful requests fell to zero"
+meaningJa: "成功リクエストがゼロまで減少した"
+usageExample: "Successful requests have dropped to zero in the last five minutes."
+usageExampleJa: "過去5分間で成功リクエストがゼロまで減少した。"
+difficulty: "Intermediate"
+scene: "Incident Response"
+---
