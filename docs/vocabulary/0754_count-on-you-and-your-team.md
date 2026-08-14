@@ -1,0 +1,15 @@
+---
+id: "0754"
+term: "count on you and your team"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/kaʊnt ɒn juː ænd jɔː tiːm/"
+description: "Ask directly for a commitment of support from a partner team."
+descriptionJa: "協力関係を直接確認し、支援のコミットメントを取り付ける表現。"
+meaning: "to count on you and your team"
+meaningJa: "あなたとチームの支援をあてにする"
+usageExample: "If infrastructure support is needed, may I count on you and your team?"
+usageExampleJa: "インフラ支援が必要なら、あなたとチームを頼れるか？"
+difficulty: "Intermediate"
+scene: "Management"
+---

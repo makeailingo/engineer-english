@@ -1,0 +1,15 @@
+---
+id: "0720"
+term: "shift left"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/ʃɪft left/"
+description: "Move review, testing, or security earlier while requirements stay flexible."
+descriptionJa: "レビュー、テスト、セキュリティ、関係者調整を早期化する方針を描く表現。"
+meaning: "to shift left"
+meaningJa: "検討や検証を工程の早い段階に移行する"
+usageExample: "Let's shift left and involve QA while the requirements are still flexible."
+usageExampleJa: "要件が柔軟なうちにQAを関与させ、左シフトしよう。"
+difficulty: "Intermediate"
+scene: "Management"
+---

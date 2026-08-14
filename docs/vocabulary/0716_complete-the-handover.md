@@ -1,0 +1,15 @@
+---
+id: "0716"
+term: "complete the handover"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/kəmˈpliːt ðə ˈhændəʊvə/"
+description: "Require handover completion before the current owner goes on leave."
+descriptionJa: "概念的な引き継ぎの完了点まで明示し、抜け漏れを防ぐ表現。"
+meaning: "to complete the handover"
+meaningJa: "引き継ぎを完了する"
+usageExample: "Please complete the handover before the current owner goes on leave."
+usageExampleJa: "現オーナー休暇前に、引き継ぎを完了して。"
+difficulty: "Intermediate"
+scene: "Management"
+---

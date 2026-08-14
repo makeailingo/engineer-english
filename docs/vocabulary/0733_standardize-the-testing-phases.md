@@ -1,0 +1,15 @@
+---
+id: "0733"
+term: "standardize the testing phases"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/ˈstændədaɪz ðə ˈtestɪŋ feɪzɪz/"
+description: "Unify phase names, scope, and owners across teams."
+descriptionJa: "チームごとに異なる工程名、責任、成果物を共通化したいときの明確な表現。"
+meaning: "to standardize testing phases"
+meaningJa: "テスト工程を標準化する"
+usageExample: "We should standardize the testing phases, including their scope and owners."
+usageExampleJa: "テスト工程のスコープとオーナーを含め標準化すべきだ。"
+difficulty: "Intermediate"
+scene: "Management"
+---

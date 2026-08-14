@@ -1,0 +1,15 @@
+---
+id: "0738"
+term: "treat all releases as equal"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/triːt ɔːl rɪˈliːsɪz æz ˈiːkwəl/"
+description: "Apply one standard to all releases until classification is reliable."
+descriptionJa: "例外的な扱いによる混乱を避け、一律の適用基準を適用するときに使う。"
+meaning: "to treat all releases equally"
+meaningJa: "すべてのリレーを等しく扱う"
+usageExample: "Until the classification is reliable, we should treat all releases as equal."
+usageExampleJa: "分類が信頼できるまで、すべてのリリースを同等に扱うべきだ。"
+difficulty: "Intermediate"
+scene: "Management"
+---

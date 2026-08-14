@@ -1,0 +1,15 @@
+---
+id: "0687"
+term: "figure out the details later"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/ˈfɪɡə aʊt ðə ˈdiːteɪlz ˈleɪtə/"
+description: "Agree on direction first and defer detailed discussion to avoid churn."
+descriptionJa: "朝令暮改で前提に捉われず、まず方針決定を優先したいときに使う。"
+meaning: "to defer detailed discussion"
+meaningJa: "詳細の議論は後回しにする"
+usageExample: "Let's agree on the direction now and figure out the details later."
+usageExampleJa: "方針に合意し、詳細は後で詰めよう。"
+difficulty: "Intermediate"
+scene: "Management"
+---

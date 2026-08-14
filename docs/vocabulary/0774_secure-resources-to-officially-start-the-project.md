@@ -1,0 +1,15 @@
+---
+id: "0774"
+term: "secure resources to officially start the project"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/sɪˈkjʊə rɪˈsɔːsɪz tuː əˈfɪʃəli stɑːt ðə ˈprɒdʒekt/"
+description: "Secure people or budget needed to move from idea to execution."
+descriptionJa: "アイデア段階から実行フェーズへ移行するための、人員や予算の確保を目的とする表現。"
+meaning: "to secure resources to start the project"
+meaningJa: "正式開始に必要なリソースを確保する"
+usageExample: "We need to secure resources to officially start the project next quarter."
+usageExampleJa: "来四半期の正式開始に必要なリソースを確保する必要がある。"
+difficulty: "Advanced"
+scene: "Management"
+---

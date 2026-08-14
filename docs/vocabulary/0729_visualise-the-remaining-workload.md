@@ -1,0 +1,15 @@
+---
+id: "0729"
+term: "visualise the remaining workload"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/ˈvɪʒuəlaɪz ðə rɪˈmeɪnɪŋ ˈwɜːkləʊd/"
+description: "Make remaining work visible before accepting another project."
+descriptionJa: "感覚ではなく、視覚化で作業量を判断できる状況を作る。"
+meaning: "to visualize remaining workload"
+meaningJa: "残作業量を可視化する"
+usageExample: "We need to visualise the remaining workload before accepting another project."
+usageExampleJa: "新案件受入前に、残作業量を可視化する必要がある。"
+difficulty: "Intermediate"
+scene: "Management"
+---

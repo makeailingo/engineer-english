@@ -1,0 +1,15 @@
+---
+id: "0691"
+term: "a safety net just in case"
+type: "phrase"
+partOfSpeech: "noun phrase"
+pronunciation: "/ə ˈseɪfti net dʒʌst ɪn keɪs/"
+description: "Describe a secondary review as backup if the primary automated check fails."
+descriptionJa: "主な手順の代替手段ではなく、免失時のバックアップ手段であることを説明する表現。"
+meaning: "a backup safeguard"
+meaningJa: "万一に備えた安全装置"
+usageExample: "The second review is a safety net just in case the automated check misses something."
+usageExampleJa: "2次レビューは、自動チェック漏れに備えた安全装置だ。"
+difficulty: "Intermediate"
+scene: "Management"
+---

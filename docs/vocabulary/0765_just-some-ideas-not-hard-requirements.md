@@ -1,0 +1,15 @@
+---
+id: "0765"
+term: "just some ideas, not hard requirements"
+type: "phrase"
+partOfSpeech: "clause"
+pronunciation: "/dʒʌst sʌm aɪˈdɪəz nɒt hɑːd rɪˈkwaɪəmənts/"
+description: "Present a draft and invite challenge by lowering the stakes."
+descriptionJa: "たたき台を提示し、相手が安心して修正意見を出せる雰囲気を作る。"
+meaning: "ideas only, not strict requirements"
+meaningJa: "あくまでアイデアであり、厳格な要件ではない"
+usageExample: "These are just some ideas, not hard requirements, so please challenge them."
+usageExampleJa: "あくまでアイデアなので、遠慮なく修正してください。"
+difficulty: "Advanced"
+scene: "Management"
+---

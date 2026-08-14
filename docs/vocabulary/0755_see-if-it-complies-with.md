@@ -1,0 +1,15 @@
+---
+id: "0755"
+term: "see if it complies with"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/siː ɪf ɪt kəmˈplaɪz wɪð/"
+description: "Check policy compliance with compliance before proceeding."
+descriptionJa: "規定や方針への適合性を事前に確認したいときに使う。"
+meaning: "to see if it complies with"
+meaningJa: "〜に適合するか確認する"
+usageExample: "We should inform compliance about the plan and see if it complies with the policy."
+usageExampleJa: "計画をコンプライアンスに伝え、方針適合を確認しよう。"
+difficulty: "Intermediate"
+scene: "Management"
+---

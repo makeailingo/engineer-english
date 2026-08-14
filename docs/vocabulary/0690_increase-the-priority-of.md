@@ -1,0 +1,15 @@
+---
+id: "0690"
+term: "increase the priority of"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/ɪnˈkriːs ðə praɪˈɒrəti əv/"
+description: "Explain a reprioritization based on new facts such as a recent incident."
+descriptionJa: "新しい事実やリスクを根拠に、優先順位を変更したことを説明する表現。"
+meaning: "to raise the priority of"
+meaningJa: "〜の優先度を上げる"
+usageExample: "The recent incident increased the priority of our monitoring improvements."
+usageExampleJa: "最近のインシデントで、監視改善の優先度が上がった。"
+difficulty: "Intermediate"
+scene: "Management"
+---

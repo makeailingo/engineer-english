@@ -1,0 +1,15 @@
+---
+id: "0718"
+term: "a development timeline"
+type: "phrase"
+partOfSpeech: "noun phrase"
+pronunciation: "/ə dɪˈveləpmənt ˈtaɪmlaɪn/"
+description: "Avoid committing to a schedule before main dependencies are clear."
+descriptionJa: "依存関係が明らかになる前までの時期等、時期計画の要領で扱うときの表現。"
+meaning: "a development timeline"
+meaningJa: "開発スケジュール"
+usageExample: "We should not commit to a development timeline until the main dependencies are clear."
+usageExampleJa: "主要依存が明確になるまで、開発スケジュールを確約すべきでない。"
+difficulty: "Intermediate"
+scene: "Management"
+---

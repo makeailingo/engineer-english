@@ -1,0 +1,15 @@
+---
+id: "0760"
+term: "focus on technical sanity"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/ˈfəʊkəs ɒn ˈteknɪkl ˈsænəti/"
+description: "Keep engineering review on design soundness while PM handles coordination."
+descriptionJa: "設計の課題や構成の妥当性、無理な実装ではないか技術的観点から検証と責任に集中するときに使う。"
+meaning: "to focus on technical sanity"
+meaningJa: "技術的な健全性に重点を置く"
+usageExample: "The engineering review should focus on technical sanity while the PM handles coordination."
+usageExampleJa: "PMが調整を担い、エンジニアリングレビューは技術健全性に集中すべきだ。"
+difficulty: "Intermediate"
+scene: "Management"
+---

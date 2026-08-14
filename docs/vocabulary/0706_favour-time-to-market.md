@@ -1,0 +1,15 @@
+---
+id: "0706"
+term: "favour time to market"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/ˈfeɪvə taɪm tuː ˈmɑːkɪt/"
+description: "Prioritize speed while keeping critical controls in early stages."
+descriptionJa: "難易度段階で速度を優先する段階を、品質や統制とのトレードオフの中で説明できる。"
+meaning: "to favour time to market"
+meaningJa: "市場投入までの軽さを優先する"
+usageExample: "At this stage, we should favour time to market while keeping the critical controls."
+usageExampleJa: "この段階では、重要統制を保ちつつ市場投入を優先すべきだ。"
+difficulty: "Intermediate"
+scene: "Management"
+---

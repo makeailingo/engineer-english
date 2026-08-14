@@ -1,0 +1,15 @@
+---
+id: "0678"
+term: "if applicable"
+type: "phrase"
+partOfSpeech: "clause"
+pronunciation: "/ɪf ˌæplɪˈkəbl/"
+description: "Apply a step conditionally rather than mandating it for everyone."
+descriptionJa: "全体に一律強要せず、条件に応じた適用を柔軟に示す表現。"
+meaning: "if applicable"
+meaningJa: "該当する場合は"
+usageExample: "Please involve Legal and Security, if applicable."
+usageExampleJa: "該当する場合は、法務とセキュリティにも関与して。"
+difficulty: "Beginner"
+scene: "Management"
+---

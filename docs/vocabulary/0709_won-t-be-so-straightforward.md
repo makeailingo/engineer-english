@@ -1,0 +1,15 @@
+---
+id: "0709"
+term: "won't be so straightforward"
+type: "phrase"
+partOfSpeech: "clause"
+pronunciation: "/wəʊnt biː səʊ ˌstreɪtˈfɔːwəd/"
+description: "Warn that re-architecture gets harder as more teams depend on the service."
+descriptionJa: "将来の構成変更をいかに不都合か、早期の問題を提示する表現。"
+meaning: "will not be straightforward"
+meaningJa: "それほど直球にはいかない"
+usageExample: "The re-architecture won't be so straightforward once more teams depend on the service."
+usageExampleJa: "多くのチームが依存すると、再構成は直球にいかない。"
+difficulty: "Intermediate"
+scene: "Management"
+---

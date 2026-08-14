@@ -1,0 +1,15 @@
+---
+id: "0683"
+term: "for visibility"
+type: "phrase"
+partOfSpeech: "prepositional phrase"
+pronunciation: "/fɔː ˌvɪzəˈbɪləti/"
+description: "Add someone for awareness without requiring immediate action."
+descriptionJa: "アクションを即座に要求するのではなく、認知や情報共有を目的として共有する時に使う。"
+meaning: "for visibility"
+meaningJa: "透明性・可視化のために"
+usageExample: "I'm adding the support lead for visibility; no action is required yet."
+usageExampleJa: "可視化のためサポートリードを追加する。まだ対応不要。"
+difficulty: "Beginner"
+scene: "Management"
+---

@@ -1,0 +1,15 @@
+---
+id: "0724"
+term: "check whether the team has the bandwidth"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/tʃek ˈweðə ðə tiːm hæz ðə ˈbændwɪdθ/"
+description: "Verify a team's real capacity before assigning migration support."
+descriptionJa: "仕事を割り当てる前にまず、相手チームの実質的なキャパシティを確認する慎重な表現。"
+meaning: "to check team capacity"
+meaningJa: "チームに対応余力があるかを確認する"
+usageExample: "Could you check whether the team has the bandwidth to support the migration this quarter?"
+usageExampleJa: "今四半期、移行支援の余力があるか確認して。"
+difficulty: "Intermediate"
+scene: "Management"
+---

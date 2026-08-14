@@ -1,0 +1,15 @@
+---
+id: "0744"
+term: "there is a concern regarding"
+type: "phrase"
+partOfSpeech: "clause"
+pronunciation: "/ðeər ɪz ə kənˈsɜːn rɪˈɡɑːdɪŋ/"
+description: "Raise an issue objectively without blaming individuals."
+descriptionJa: "個人を論的にせず、検討すべき懸念事項を客観的に提示する表現。"
+meaning: "there is a concern regarding"
+meaningJa: "〜について懸念がある"
+usageExample: "There is a concern regarding the support capacity after launch."
+usageExampleJa: "ローンチ後のサポートキャパシティについて懸念がある。"
+difficulty: "Intermediate"
+scene: "Management"
+---

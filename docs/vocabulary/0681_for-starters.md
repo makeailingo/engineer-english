@@ -1,0 +1,15 @@
+---
+id: "0681"
+term: "for starters"
+type: "phrase"
+partOfSpeech: "adverb phrase"
+pronunciation: "/fɔː ˈstɑːtəz/"
+description: "Propose the first small step when facing a large set of tasks."
+descriptionJa: "膨大なタスクを前に、最初の第一歩を示す表現。"
+meaning: "for starters; to begin with"
+meaningJa: "まず手始めに"
+usageExample: "For starters, let's document the current owners and open decisions."
+usageExampleJa: "まず手始めに、現オーナーと未決事項を文書化しよう。"
+difficulty: "Beginner"
+scene: "Management"
+---

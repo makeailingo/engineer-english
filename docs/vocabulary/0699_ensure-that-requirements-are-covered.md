@@ -1,0 +1,15 @@
+---
+id: "0699"
+term: "ensure that requirements are covered"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/ɪnˈʃʊə ðæt rɪˈkwaɪəmənts ɑː ˈkʌvəd/"
+description: "Assign clear responsibility to verify key requirements before approval."
+descriptionJa: "漏れが無いかのチェック責任の分担を、明確な報告課題として明示できる。"
+meaning: "to ensure requirements are covered"
+meaningJa: "要件が網羅されていることを確認する"
+usageExample: "The product manager should ensure that the key requirements are covered before approval."
+usageExampleJa: "PMは承認前に主要要件が網羅されていることを確認すべきだ。"
+difficulty: "Intermediate"
+scene: "Management"
+---

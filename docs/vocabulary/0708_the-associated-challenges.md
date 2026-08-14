@@ -1,0 +1,15 @@
+---
+id: "0708"
+term: "the associated challenges"
+type: "phrase"
+partOfSpeech: "noun phrase"
+pronunciation: "/ði əˈsəʊʃieɪtɪd ˈtʃælɪndʒɪz/"
+description: "Include accompanying difficulties and risks when adopting a new model."
+descriptionJa: "面の対応だけでなくそれに付随する困難やリスクも含めて議論するときに使える。"
+meaning: "the related challenges"
+meaningJa: "それに伴う課題"
+usageExample: "We must acknowledge the associated challenges before adopting the new operating model."
+usageExampleJa: "新運用モデル採用前に、それに伴う課題を認識すべきだ。"
+difficulty: "Intermediate"
+scene: "Management"
+---

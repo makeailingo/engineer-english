@@ -1,0 +1,15 @@
+---
+id: "0743"
+term: "consider this high priority"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/kənˈsɪdə ðɪs haɪ praɪˈɒrəti/"
+description: "State priority based on impact scope or urgency."
+descriptionJa: "影響範囲や緊急性を理由に、優先度の判断を明示するときに使う。"
+meaning: "to consider this high priority"
+meaningJa: "これを優先度が高いと判断する"
+usageExample: "Because this affects several teams, I consider this high priority."
+usageExampleJa: "複数チームに影響するため、これは高優先度と判断する。"
+difficulty: "Intermediate"
+scene: "Management"
+---
