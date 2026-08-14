@@ -1,0 +1,15 @@
+---
+id: "0291"
+term: "an important point"
+type: "phrase"
+partOfSpeech: "noun phrase"
+pronunciation: "/ən ɪmˈpɔːtnt pɔɪnt/"
+description: "Highlight something the team must not miss."
+descriptionJa: "議論の中で見落とせない重要ポイントを強調して伝える。"
+meaning: "an important point"
+meaningJa: "重要な点"
+usageExample: "This is an important point we should capture in the design."
+usageExampleJa: "設計に盛り込むべき重要な点だ。"
+difficulty: "Beginner"
+scene: "Meetings / Events"
+---

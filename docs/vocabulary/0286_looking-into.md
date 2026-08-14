@@ -1,0 +1,15 @@
+---
+id: "0286"
+term: "looking into"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/ˈlʊkɪŋ ˈɪntuː/"
+description: "Report ongoing research into an issue or approach."
+descriptionJa: "課題や新技術の調査を進行させている状況を表す。"
+meaning: "investigating"
+meaningJa: "調査している、検討している"
+usageExample: "I'm looking into the new deployment approach."
+usageExampleJa: "新しいデプロイ方式を調査している。"
+difficulty: "Beginner"
+scene: "Meetings / Events"
+---

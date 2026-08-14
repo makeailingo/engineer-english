@@ -1,0 +1,15 @@
+---
+id: "0335"
+term: "unless there are any objections"
+type: "phrase"
+partOfSpeech: "clause"
+pronunciation: "/ənˈles ðeər ɑːr ˈeni əbˈdʒekʃnz/"
+description: "Confirm consensus before moving forward."
+descriptionJa: "反対意見や懸念の有無を確かめた上で進める確認の決め台詞。"
+meaning: "if no one objects"
+meaningJa: "異論がなければ"
+usageExample: "Unless there are any objections, we'll proceed with this plan."
+usageExampleJa: "異論がなければこの計画で進める。"
+difficulty: "Intermediate"
+scene: "Meetings / Events"
+---

@@ -1,0 +1,15 @@
+---
+id: "0302"
+term: "take over"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/teɪk ˈəʊvə/"
+description: "Hand off work while someone is away."
+descriptionJa: "担当者の移動や休暇に伴い、別のメンバーが仕事を引き継ぐ。"
+meaning: "to take ownership"
+meaningJa: "担当を引き継ぐ"
+usageExample: "Another engineer will take over while she is away."
+usageExampleJa: "休暇中は別エンジニアが引き継ぐ。"
+difficulty: "Beginner"
+scene: "Meetings / Events"
+---

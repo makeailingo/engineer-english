@@ -1,0 +1,15 @@
+---
+id: "0279"
+term: "as much as possible"
+type: "phrase"
+partOfSpeech: "adverb phrase"
+pronunciation: "/æz mʌtʃ æz ˈpɒsəbl/"
+description: "State a goal to minimize or maximize something."
+descriptionJa: "最大限回避・努力する方針を明示する表現。"
+meaning: "as far as possible"
+meaningJa: "できる限り"
+usageExample: "We want to avoid unnecessary exceptions as much as possible."
+usageExampleJa: "不要な例外はできる限り避けたい。"
+difficulty: "Beginner"
+scene: "Meetings / Events"
+---

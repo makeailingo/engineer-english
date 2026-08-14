@@ -1,0 +1,15 @@
+---
+id: "0341"
+term: "higher-priority tickets"
+type: "phrase"
+partOfSpeech: "noun phrase"
+pronunciation: "/ˈhaɪə praɪˈɒrəti ˈtɪkɪts/"
+description: "Justify delay by citing more urgent work items."
+descriptionJa: "他の重要な課題対応が発生したことを理由として提示する際。"
+meaning: "more urgent tickets"
+meaningJa: "優先度が高いチケット"
+usageExample: "I had to deal with a few higher-priority tickets first."
+usageExampleJa: "優先度の高いチケットを先に対応した。"
+difficulty: "Intermediate"
+scene: "Meetings / Events"
+---

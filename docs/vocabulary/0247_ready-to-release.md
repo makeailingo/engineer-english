@@ -1,0 +1,15 @@
+---
+id: "0247"
+term: "ready to release"
+type: "phrase"
+partOfSpeech: "adjective phrase"
+pronunciation: "/ˈredi tuː rɪˈliːs/"
+description: "Report that testing and prep are done enough to ship."
+descriptionJa: "テストや準備が終わり、リリース可能な状態を示す。"
+meaning: "ready for release"
+meaningJa: "リリース準備ができている"
+usageExample: "Once QA signs off, we'll be ready to release."
+usageExampleJa: "QA承認後、リリース可能な状態になる。"
+difficulty: "Beginner"
+scene: "Meetings / Events"
+---

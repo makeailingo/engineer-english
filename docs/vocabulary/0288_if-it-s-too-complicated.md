@@ -1,0 +1,15 @@
+---
+id: "0288"
+term: "if it's too complicated"
+type: "phrase"
+partOfSpeech: "clause"
+pronunciation: "/ɪf ɪts tuː ˌkɒmplɪˈkeɪtɪd/"
+description: "Suggest a simpler fallback if complexity is high."
+descriptionJa: "導入コストが高い場合の安全策や別方針へ促す。"
+meaning: "if it is too complex"
+meaningJa: "もし複雑すぎるなら"
+usageExample: "If it's too complicated, we can use the current process."
+usageExampleJa: "複雑すぎるなら現行プロセスを使える。"
+difficulty: "Beginner"
+scene: "Meetings / Events"
+---

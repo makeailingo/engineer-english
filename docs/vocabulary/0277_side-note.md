@@ -1,0 +1,15 @@
+---
+id: "0277"
+term: "side note"
+type: "phrase"
+partOfSpeech: "noun phrase"
+pronunciation: "/saɪd nəʊt/"
+description: "Add related information off the main topic."
+descriptionJa: "主題とは直接関係ないが、関連する補足情報を添える会話。"
+meaning: "by the way"
+meaningJa: "補足ですが、余談ですが"
+usageExample: "Side note: the service has a 99.99% availability target."
+usageExampleJa: "補足：サービスの可用性目標は99.99%だ。"
+difficulty: "Beginner"
+scene: "Meetings / Events"
+---

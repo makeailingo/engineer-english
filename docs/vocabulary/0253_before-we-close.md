@@ -1,0 +1,15 @@
+---
+id: "0253"
+term: "before we close"
+type: "phrase"
+partOfSpeech: "prepositional phrase"
+pronunciation: "/bɪˈfɔː wiː kləʊz/"
+description: "Prompt final checks or comments before ending."
+descriptionJa: "終了前の最後の確認や発言を促す際に非常に便利。"
+meaning: "before we finish"
+meaningJa: "会議を終える前に"
+usageExample: "Before we close, let's confirm the action items."
+usageExampleJa: "終了前にアクションアイテムを確認しよう。"
+difficulty: "Beginner"
+scene: "Meetings / Events"
+---

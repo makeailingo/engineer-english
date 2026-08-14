@@ -1,0 +1,15 @@
+---
+id: "0359"
+term: "comply with"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/kəmˈplaɪ wɪð/"
+description: "Say teams must follow a policy or guideline."
+descriptionJa: "規定やルール、方針に沿って実装や運用を行う。"
+meaning: "to follow rules"
+meaningJa: "〜に準拠する、従う"
+usageExample: "All teams need to comply with the guideline."
+usageExampleJa: "全チームがガイドラインに準拠する必要がある。"
+difficulty: "Intermediate"
+scene: "Meetings / Events"
+---

@@ -1,0 +1,15 @@
+---
+id: "0306"
+term: "in the meantime"
+type: "phrase"
+partOfSpeech: "adverb phrase"
+pronunciation: "/ɪn ðə miːnˈtaɪm/"
+description: "Describe interim work until the main fix lands."
+descriptionJa: "本格対応までの接続期間中に行う暫定対応を述べる。"
+meaning: "meanwhile"
+meaningJa: "その合間に、それまでの間"
+usageExample: "In the meantime, we can keep the existing behavior."
+usageExampleJa: "その間は既存の挙動を維持できる。"
+difficulty: "Beginner"
+scene: "Meetings / Events"
+---

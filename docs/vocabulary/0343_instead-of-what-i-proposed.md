@@ -1,0 +1,15 @@
+---
+id: "0343"
+term: "instead of what I proposed"
+type: "phrase"
+partOfSpeech: "prepositional phrase"
+pronunciation: "/ɪnˈsted əv wɒt aɪ prəˈpəʊzd/"
+description: "Compare your idea with an alternative option."
+descriptionJa: "自身の案と比較し、別の代案を検討・比較する際に使用。"
+meaning: "rather than my proposal"
+meaningJa: "私が提案した内容の代わりに"
+usageExample: "Could we retry the request instead of what I proposed?"
+usageExampleJa: "私の提案の代わりにリクエストを再試行できるか？"
+difficulty: "Intermediate"
+scene: "Meetings / Events"
+---

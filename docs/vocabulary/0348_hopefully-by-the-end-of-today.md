@@ -1,0 +1,15 @@
+---
+id: "0348"
+term: "hopefully by the end of today"
+type: "phrase"
+partOfSpeech: "adverb phrase"
+pronunciation: "/həʊpfəli baɪ ði end əv təˈdeɪ/"
+description: "Share a target finish time without promising it."
+descriptionJa: "確約ではないが、目標とする完了タイミングを伝える。"
+meaning: "hopefully today"
+meaningJa: "うまくいけば今日中に"
+usageExample: "Hopefully, we can finish the alert setup by the end of today."
+usageExampleJa: "うまくいけば今日中にアラート設定を終えられる。"
+difficulty: "Intermediate"
+scene: "Meetings / Events"
+---

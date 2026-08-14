@@ -1,0 +1,15 @@
+---
+id: "0314"
+term: "if I'm not mistaken"
+type: "phrase"
+partOfSpeech: "clause"
+pronunciation: "/ɪf aɪm nɒt mɪsˈteɪkən/"
+description: "Share information while leaving room for correction."
+descriptionJa: "記憶や情報に少し不確実性を持たせながら確認を促す口語的な表現。"
+meaning: "if my memory is correct"
+meaningJa: "私の勘違いでなければ"
+usageExample: "If I'm not mistaken, this change affects two endpoints."
+usageExampleJa: "私の記憶が正しければ、この変更は2エンドポイントに影響する。"
+difficulty: "Intermediate"
+scene: "Meetings / Events"
+---

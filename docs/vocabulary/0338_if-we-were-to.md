@@ -1,0 +1,15 @@
+---
+id: "0338"
+term: "if we were to"
+type: "phrase"
+partOfSpeech: "clause"
+pronunciation: "/ɪf wiː wɜː tuː/"
+description: "Discuss a hypothetical scenario and its impact."
+descriptionJa: "仮定のシナリオを置いて、想定される影響や追加要件を議論する。"
+meaning: "if we were to"
+meaningJa: "仮に私たちが〜するとしたら"
+usageExample: "If we were to investigate older data, we'd need another storage layer."
+usageExampleJa: "古いデータを調査するなら別ストレージ層が必要だ。"
+difficulty: "Intermediate"
+scene: "Meetings / Events"
+---

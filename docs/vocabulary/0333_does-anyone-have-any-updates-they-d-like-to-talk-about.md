@@ -1,0 +1,15 @@
+---
+id: "0333"
+term: "does anyone have any updates they'd like to talk about?"
+type: "phrase"
+partOfSpeech: "question"
+pronunciation: "/dʌz ˈeniwʌn hæv ˈeni ʌpdeɪts/"
+description: "Invite voluntary progress updates in a stand-up."
+descriptionJa: "朝会や進捗会で参加者に自発的な発言を促す定番フレーズ。"
+meaning: "any updates to share"
+meaningJa: "何か共有したい進捗はありますか？"
+usageExample: "Does anyone have any updates they'd like to talk about in this meeting?"
+usageExampleJa: "この会議で共有したい進捗はあるか？"
+difficulty: "Intermediate"
+scene: "Meetings / Events"
+---

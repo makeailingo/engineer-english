@@ -1,0 +1,15 @@
+---
+id: "0360"
+term: "that requires a slight change to our plan"
+type: "phrase"
+partOfSpeech: "clause"
+pronunciation: "/ðæt rɪˈkwaɪəz ə slaɪt tʃeɪndʒ/"
+description: "Report a minor schedule adjustment is needed."
+descriptionJa: "条件変更に伴い、計画の一部を調整する必要が生じたことを報告。"
+meaning: "that needs a small plan change"
+meaningJa: "それにより計画のわずかな変更が必要になります"
+usageExample: "That requires a slight change to our plan for next week."
+usageExampleJa: "来週の計画にわずかな変更が必要になる。"
+difficulty: "Intermediate"
+scene: "Meetings / Events"
+---

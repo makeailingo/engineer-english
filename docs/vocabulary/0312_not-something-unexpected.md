@@ -1,0 +1,15 @@
+---
+id: "0312"
+term: "not something unexpected"
+type: "phrase"
+partOfSpeech: "clause"
+pronunciation: "/nɒt ˈsʌmθɪŋ ˌʌnɪkˈspektɪd/"
+description: "Explain that an issue fits known or expected behavior."
+descriptionJa: "問題に見える現象が想定・既知のものであると説明する表現。"
+meaning: "not surprising"
+meaningJa: "想定外のことではない"
+usageExample: "The delayed response is not something unexpected."
+usageExampleJa: "応答遅延は想定外の事象ではない。"
+difficulty: "Intermediate"
+scene: "Meetings / Events"
+---
