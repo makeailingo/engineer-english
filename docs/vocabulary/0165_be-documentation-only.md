@@ -1,0 +1,15 @@
+---
+id: "0165"
+term: "be documentation-only"
+type: "phrase"
+partOfSpeech: "adjective phrase"
+pronunciation: "/bi ˌdɒkjumenˈteɪʃn ˈəʊnli/"
+description: "State a PR updates docs without affecting runtime behavior."
+descriptionJa: "コードの挙動に影響がなく安全であることを伝える。"
+meaning: "to change only documentation"
+meaningJa: "ドキュメントのみの変更である"
+usageExample: "This PR is documentation-only and does not affect runtime behavior."
+usageExampleJa: "このPRはドキュメントのみの変更で実行時挙動に影響しない。"
+difficulty: "Intermediate"
+scene: "Implementation / Review"
+---

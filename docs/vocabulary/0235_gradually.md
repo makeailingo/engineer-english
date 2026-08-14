@@ -1,0 +1,15 @@
+---
+id: "0235"
+term: "gradually"
+type: "word"
+partOfSpeech: "adverb"
+pronunciation: "/ˈɡrædʒuəli/"
+description: "Say changes will happen in stages, not all at once."
+descriptionJa: "一度に行わず段階的、あるいは順調に増やす方針を表す。"
+meaning: "step by step"
+meaningJa: "徐々に、段階的に"
+usageExample: "We'll add the remaining scenarios gradually."
+usageExampleJa: "残りのシナリオは段階的に追加する。"
+difficulty: "Beginner"
+scene: "Meetings / Events"
+---

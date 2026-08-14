@@ -1,0 +1,15 @@
+---
+id: "0034"
+term: "make sure"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/meɪk ʃʊə/"
+description: "Confirm that something is true, done, or safe before proceeding."
+descriptionJa: "事故・不備を防ぐために自発的に手段を講じた文脈で使える。"
+meaning: "to check or ensure something"
+meaningJa: "確実にする、確認する"
+usageExample: "I added automated checks to make sure the data remained consistent."
+usageExampleJa: "データ整合性を保つ自動チェックを追加した。"
+difficulty: "Beginner"
+scene: "Career / Interview"
+---

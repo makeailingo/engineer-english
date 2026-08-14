@@ -1,0 +1,15 @@
+---
+id: "0349"
+term: "there shouldn't be any technical reason why"
+type: "phrase"
+partOfSpeech: "clause"
+pronunciation: "/ðeə ʃʊdnt biː ˈeni ˈteknɪkl ˈriːzn/"
+description: "Argue nothing technical should prevent the change."
+descriptionJa: "技術的障害がないことを指摘し、移設や実行を肯定的に促す。"
+meaning: "there should be no technical blocker"
+meaningJa: "〜できない技術的な理由はないはずです"
+usageExample: "There shouldn't be any technical reason why we can't move the script."
+usageExampleJa: "スクリプト移設を妨げる技術的理由はないはずだ。"
+difficulty: "Intermediate"
+scene: "Meetings / Events"
+---

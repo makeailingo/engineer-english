@@ -1,0 +1,15 @@
+---
+id: "0244"
+term: "just ping me"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/dʒʌst pɪŋ miː/"
+description: "Invite someone to contact you casually on chat."
+descriptionJa: "チャットで簡潔に連絡してほしいと伝えるカジュアルな文脈。"
+meaning: "just message me"
+meaningJa: "気軽に連絡してください"
+usageExample: "If you need the configuration, just ping me."
+usageExampleJa: "設定が必要なら気軽に連絡してほしい。"
+difficulty: "Beginner"
+scene: "Meetings / Events"
+---

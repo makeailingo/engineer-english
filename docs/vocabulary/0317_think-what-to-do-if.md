@@ -1,0 +1,15 @@
+---
+id: "0317"
+term: "think what to do if"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/θɪŋk wɒt tuː duː ɪf/"
+description: "Talk through fallback actions for failure cases."
+descriptionJa: "エラーケースや例外処理の設計方針を述べる際の一言。"
+meaning: "to plan for if"
+meaningJa: "もし〜ならどうするか考える"
+usageExample: "We need to think what to do if the dependency fails."
+usageExampleJa: "依存が失敗した場合の対応を考える必要がある。"
+difficulty: "Intermediate"
+scene: "Meetings / Events"
+---

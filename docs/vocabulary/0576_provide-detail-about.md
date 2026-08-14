@@ -1,0 +1,15 @@
+---
+id: "0576"
+term: "provide detail about"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/prəˈvaɪd ˈdiːteɪl əˈbaʊt/"
+description: "Request detailed explanation of failure conditions or root causes."
+descriptionJa: "障害原因等の詳細を求める際に使う表現。"
+meaning: "to provide detail about"
+meaningJa: "〜について詳細を提供する"
+usageExample: "The document should provide detail about the failure conditions."
+usageExampleJa: "文書は障害条件について詳細を提供すべきだ。"
+difficulty: "Intermediate"
+scene: "Technical Writing"
+---

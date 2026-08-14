@@ -1,0 +1,15 @@
+---
+id: "0664"
+term: "detect ... was caused by ..."
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/dɪˈtekt wɒz kɔːzd baɪ/"
+description: "Require detecting whether a failure stemmed from a specific root cause."
+descriptionJa: "根本原因を検出する攻撃要件を示す表現。"
+meaning: "to detect was caused by"
+meaningJa: "〜が〜によって起こったと検出する"
+usageExample: "We should detect whether the failure was caused by missing data."
+usageExampleJa: "障害がデータ欠落によって起きたか検出すべきだ。"
+difficulty: "Advanced"
+scene: "Technical Writing"
+---

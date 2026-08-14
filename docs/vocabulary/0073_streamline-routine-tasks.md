@@ -1,0 +1,15 @@
+---
+id: "0073"
+term: "streamline routine tasks"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/ˈstriːmlaɪn ruːˈtiːn tɑːsks/"
+description: "Simplify repetitive work so the team can focus on higher-value tasks."
+descriptionJa: "定常作業の改善や自動化でチーム全体の成果を向上させることに貢献。"
+meaning: "to make regular work more efficient"
+meaningJa: "定型業務を効率化・簡素化する"
+usageExample: "I streamlined routine tasks so the team could focus on higher-value engineering work."
+usageExampleJa: "定型業務を効率化し、高付加価値作業へ集中させた。"
+difficulty: "Intermediate"
+scene: "Career / Interview"
+---

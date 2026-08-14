@@ -1,0 +1,15 @@
+---
+id: "0062"
+term: "keep communication transparent"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/kiːp kəˌmjuːnɪˈkeɪʃn trænsˈpeərənt/"
+description: "Share progress, risks, and decisions openly with stakeholders."
+descriptionJa: "情報の隠蔽を防ぎ、進捗やリスクをオープンにした姿勢を表し、信頼関係の構築に使える。"
+meaning: "to share information openly"
+meaningJa: "コミュニケーションを透明に保つ"
+usageExample: "I kept communication transparent by sharing risks and progress every week."
+usageExampleJa: "毎週リスクと進捗を共有し透明なコミュニケーションを保った。"
+difficulty: "Intermediate"
+scene: "Career / Interview"
+---

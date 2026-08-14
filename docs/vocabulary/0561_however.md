@@ -1,0 +1,15 @@
+---
+id: "0561"
+term: "however"
+type: "phrase"
+partOfSpeech: "adverb"
+pronunciation: "/haʊˈevə/"
+description: "Introduce a contrast or problem that contradicts a prior statement."
+descriptionJa: "前言の前提と相反する問題点を指摘。"
+meaning: "however"
+meaningJa: "しかしながら"
+usageExample: "However, the callback path does not exist in the new application."
+usageExampleJa: "しかし、新アプリにはコールバックパスが存在しない。"
+difficulty: "Beginner"
+scene: "Technical Writing"
+---

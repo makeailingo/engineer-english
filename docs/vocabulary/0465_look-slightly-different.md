@@ -1,0 +1,15 @@
+---
+id: "0465"
+term: "look slightly different"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/lʊk ˈslaɪtli ˈdɪfrənt/"
+description: "Note differences from a previous similar incident or error log."
+descriptionJa: "過去の同様事例とは性質やエラーログが少し異なることを指摘する。"
+meaning: "to look a bit different"
+meaningJa: "少し異なって見える"
+usageExample: "This error looks slightly different from the previous one."
+usageExampleJa: "このエラーは前回のものと少し異なって見える。"
+difficulty: "Beginner"
+scene: "Incident Response"
+---

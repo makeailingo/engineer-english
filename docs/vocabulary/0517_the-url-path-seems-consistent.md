@@ -1,0 +1,15 @@
+---
+id: "0517"
+term: "the URL path seems consistent"
+type: "phrase"
+partOfSpeech: "clause"
+pronunciation: "/ðə juː ɑːr el pɑːθ siːmz kənˈsɪstənt/"
+description: "Highlight a common URL pattern across recent incident events."
+descriptionJa: "障害イベントの共通点・パターンを指摘し、対象範囲を探る。"
+meaning: "the URL path looks consistent"
+meaningJa: "URLパスには一貫性があるようだ"
+usageExample: "The URL path seems consistent across the recent events."
+usageExampleJa: "最近のイベント間でURLパスに一貫性があるようだ。"
+difficulty: "Intermediate"
+scene: "Incident Response"
+---

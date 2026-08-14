@@ -1,0 +1,15 @@
+---
+id: "0564"
+term: "be called to retrieve"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/biː kɔːld tuː rɪˈtriːv/"
+description: "Describe an endpoint invoked synchronously to fetch data such as user settings."
+descriptionJa: "ユーザー設定取得など、処理を同期で取得する文脈。"
+meaning: "to be called to retrieve data"
+meaningJa: "取得するために呼び出される"
+usageExample: "This endpoint is called to retrieve the user's current settings."
+usageExampleJa: "このエンドポイントはユーザーの現在の設定を取得するために呼び出される。"
+difficulty: "Intermediate"
+scene: "Technical Writing"
+---

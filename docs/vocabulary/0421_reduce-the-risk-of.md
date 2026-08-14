@@ -1,0 +1,15 @@
+---
+id: "0421"
+term: "reduce the risk of"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/rɪˈdjuːs ðə rɪsk əv/"
+description: "Use sanitization or guards to limit exposure risk."
+descriptionJa: "特定のリスクを軽減する設計・運用対策を述べる。"
+meaning: "to lower the risk of"
+meaningJa: "〜のリスクを軽減・低減させる"
+usageExample: "Sanitizing logs helps to reduce the risk of exposing diagnostic data."
+usageExampleJa: "ログのサニタイズは診断データ露出のリスクを低減する。"
+difficulty: "Intermediate"
+scene: "Design / Architecture"
+---

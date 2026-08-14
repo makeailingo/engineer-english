@@ -1,0 +1,15 @@
+---
+id: "0142"
+term: "correctly expose the allowed values"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/kəˈrektli ɪkˈspəʊz ði əˈlaʊd ˈvæljuːz/"
+description: "Ensure enums or constraints appear correctly in generated schemas."
+descriptionJa: "許容値のリストがドキュメントやAPI仕様に正しく反映された。"
+meaning: "to show allowed values correctly"
+meaningJa: "許可された値を正しく公開する"
+usageExample: "The generated schema now correctly exposes the allowed values."
+usageExampleJa: "生成スキーマが許可値を正しく公開するようになった。"
+difficulty: "Intermediate"
+scene: "Implementation / Review"
+---

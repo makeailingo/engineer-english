@@ -1,0 +1,15 @@
+---
+id: "0342"
+term: "take a look at that when the time comes"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/teɪk ə lʊk æt ðæt/"
+description: "Defer review until the right stage arrives."
+descriptionJa: "今すぐ決める必要がなく、段階が進んでから対処する方針を示す。"
+meaning: "to review it later"
+meaningJa: "その時が来たら確認する・対応する"
+usageExample: "We will take a look at that when the time comes."
+usageExampleJa: "その段階になったら確認する。"
+difficulty: "Intermediate"
+scene: "Meetings / Events"
+---

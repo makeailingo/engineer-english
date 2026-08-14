@@ -1,0 +1,15 @@
+---
+id: "0447"
+term: "unmasked PII"
+type: "phrase"
+partOfSpeech: "noun phrase"
+pronunciation: "/ʌnˈmɑːskt piː aɪ aɪ/"
+description: "Block error responses with raw PII from reaching consoles."
+descriptionJa: "マスキングされていない個人情報が含まれるリスクを指摘する。"
+meaning: "personal data without masking"
+meaningJa: "マスキング（伏字処理）されていない個人情報"
+usageExample: "An error response may contain unmasked PII and must not be written to the console."
+usageExampleJa: "エラーレスポンスにマスクされていないPIIが含まれる可能性があり、コンソール出力禁止。"
+difficulty: "Advanced"
+scene: "Design / Architecture"
+---

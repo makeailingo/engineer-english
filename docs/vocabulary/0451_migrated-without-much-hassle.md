@@ -1,0 +1,15 @@
+---
+id: "0451"
+term: "migrated without much hassle"
+type: "phrase"
+partOfSpeech: "clause"
+pronunciation: "/maɪˈɡreɪtɪd wɪˈðaʊt mʌtʃ ˈhæsl/"
+description: "Say migration was easy because the model had no joins."
+descriptionJa: "大きな問題なくスムーズに移行完了できたことを述べる。"
+meaning: "migrated smoothly with little trouble"
+meaningJa: "大きな問題や手間もなくスムーズに移行完了できたこと"
+usageExample: "The records can be migrated without much hassle because the model has no joins."
+usageExampleJa: "モデルにJOINがないため、レコードは大きな手間なく移行できる。"
+difficulty: "Advanced"
+scene: "Design / Architecture"
+---

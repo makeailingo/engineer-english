@@ -1,0 +1,15 @@
+---
+id: "0262"
+term: "as I mentioned"
+type: "phrase"
+partOfSpeech: "discourse marker"
+pronunciation: "/æz aɪ ˈmenʃnd/"
+description: "Repeat an earlier point for emphasis."
+descriptionJa: "すでに述べた要点を繰り返して強調する時に使う。"
+meaning: "as I said earlier"
+meaningJa: "先述した通り、前述したように"
+usageExample: "As I mentioned, the KC auth is not the source of truth."
+usageExampleJa: "先述の通り、KC認証は正の情報源ではない。"
+difficulty: "Beginner"
+scene: "Meetings / Events"
+---

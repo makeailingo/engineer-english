@@ -1,0 +1,15 @@
+---
+id: "0513"
+term: "doesn't seem to be an app issue"
+type: "phrase"
+partOfSpeech: "clause"
+pronunciation: "/ˈdʌznt siːm tuː biː ən æp ˈɪʃuː/"
+description: "Rule out the application layer and look for other causes."
+descriptionJa: "アプリレイヤーの問題ではないと一次切り分けを行い、別の要因を探る。"
+meaning: "does not look like an app issue"
+meaningJa: "アプリの問題ではなさそうだ"
+usageExample: "Based on the downstream logs, it doesn't seem to be an app issue."
+usageExampleJa: "下流ログから、アプリの問題ではなさそうだ。"
+difficulty: "Intermediate"
+scene: "Incident Response"
+---

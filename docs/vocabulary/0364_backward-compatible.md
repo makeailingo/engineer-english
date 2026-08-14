@@ -1,0 +1,15 @@
+---
+id: "0364"
+term: "backward compatible"
+type: "phrase"
+partOfSpeech: "adjective phrase"
+pronunciation: "/ˈbækwəd kəmˈpætəbl/"
+description: "Add fields or changes without breaking existing clients."
+descriptionJa: "新旧仕様の互換性を保つ設計方針を述べる。"
+meaning: "compatible with earlier versions"
+meaningJa: "以前の形式や仕様との互換性を保つこと"
+usageExample: "The new fields should be backward compatible with the previous response shape."
+usageExampleJa: "新フィールドは以前のレスポンス形式と後方互換であるべきだ。"
+difficulty: "Beginner"
+scene: "Design / Architecture"
+---

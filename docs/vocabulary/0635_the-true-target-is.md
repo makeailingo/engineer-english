@@ -1,0 +1,15 @@
+---
+id: "0635"
+term: "the true target is"
+type: "phrase"
+partOfSpeech: "clause"
+pronunciation: "/ðə truː ˈtɑːɡɪt ɪz/"
+description: "Contrast the apparent destination with the correct navigation target."
+descriptionJa: "見かけ上の値と正しい到達先を対比する表現。"
+meaning: "the true target is"
+meaningJa: "実際の遷移先は〜である"
+usageExample: "The true target is the account setup page."
+usageExampleJa: "実際の遷移先はアカウント設定ページである。"
+difficulty: "Intermediate"
+scene: "Technical Writing"
+---

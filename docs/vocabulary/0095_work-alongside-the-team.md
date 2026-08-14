@@ -1,0 +1,15 @@
+---
+id: "0095"
+term: "work alongside the team"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/wɜːk əˈlɒŋsaɪd ðə tiːm/"
+description: "Partner closely with a team for a period rather than directing remotely."
+descriptionJa: "上からの指示だけではなく、一定期間チームに入り込み伴走型で共に適応・支援した経験。"
+meaning: "to work together with a team closely"
+meaningJa: "チームと並行して協力して働く"
+usageExample: "I worked alongside the team for two sprints to establish the new automation practices."
+usageExampleJa: "2スプリント伴走し新しい自動化の定着を支援した。"
+difficulty: "Intermediate"
+scene: "Career / Interview"
+---

@@ -1,0 +1,15 @@
+---
+id: "0206"
+term: "be a laborious task"
+type: "phrase"
+partOfSpeech: "noun phrase"
+pronunciation: "/bi ə ləˈbɔːriəs tɑːsk/"
+description: "Argue for scoping down work that would touch every call site."
+descriptionJa: "作業範囲の限定や段階的な変更を行う妥当性を主張する。"
+meaning: "to be very time-consuming work"
+meaningJa: "手間のかかる作業である"
+usageExample: "Migrating every call site in one PR would be a laborious task."
+usageExampleJa: "全呼び出し箇所を1PRで移行するのは手間のかかる作業だ。"
+difficulty: "Advanced"
+scene: "Implementation / Review"
+---

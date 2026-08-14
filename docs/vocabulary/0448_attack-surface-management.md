@@ -1,0 +1,15 @@
+---
+id: "0448"
+term: "attack surface management"
+type: "phrase"
+partOfSpeech: "noun phrase"
+pronunciation: "/əˈtæk ˈsɜːfɪs ˈmænɪdʒmənt/"
+description: "Track and reduce publicly reachable internal endpoints."
+descriptionJa: "攻撃対象領域を網羅的に把握・管理するセキュリティ設計。"
+meaning: "managing exposed attack vectors"
+meaningJa: "攻撃対象領域（アタックサーフェス）を網羅的に把握・管理する脅威管理"
+usageExample: "Effective attack surface management should detect publicly reachable internal endpoints."
+usageExampleJa: "効果的なアタックサーフェス管理は、公開到達可能な内部EPを検出すべきだ。"
+difficulty: "Advanced"
+scene: "Design / Architecture"
+---

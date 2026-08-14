@@ -1,0 +1,15 @@
+---
+id: "0219"
+term: "have a limited period of negative impact"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/hæv ə ˈlɪmɪtɪd ˈpɪəriəd ɒv ˈneɡətɪv ˈɪmpækt/"
+description: "Explain harm is temporary and expires naturally."
+descriptionJa: "不具合や互換性の問題の影響が一時的であり、時間の経過で自然解消されることを報告する。"
+meaning: "to have limited negative impact"
+meaningJa: "悪影響が及ぶ期間が限定的されている"
+usageExample: "The state value has a limited period of negative impact because it expires quickly."
+usageExampleJa: "状態値はすぐ失効するため悪影響期間は限定的だ。"
+difficulty: "Advanced"
+scene: "Implementation / Review"
+---

@@ -1,0 +1,15 @@
+---
+id: "0590"
+term: "generate random values"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/ˈdʒenəreɪt ˈrændəm ˈvæljuːz/"
+description: "Explain security or validation behavior that creates random values."
+descriptionJa: "暗号化やセキュリティ処理の挙動を説明する表現。"
+meaning: "to generate random values"
+meaningJa: "ランダムな値を生成する"
+usageExample: "The system generates two random values for request validation."
+usageExampleJa: "システムはリクエスト検証用に2つのランダム値を生成する。"
+difficulty: "Intermediate"
+scene: "Technical Writing"
+---

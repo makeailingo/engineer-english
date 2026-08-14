@@ -1,0 +1,15 @@
+---
+id: "0291"
+term: "on my side"
+type: "phrase"
+partOfSpeech: "prepositional phrase"
+pronunciation: "/ɒn maɪ saɪd/"
+description: "Report status within your own scope or team."
+descriptionJa: "自分の担当範囲やチーム側の状況を切り出して報告する基本表現。"
+meaning: "on my end"
+meaningJa: "私の側では、私の担当範囲については"
+usageExample: "On my side, the implementation is complete."
+usageExampleJa: "私の担当範囲では実装は完了している。"
+difficulty: "Beginner"
+scene: "Meetings / Events"
+---

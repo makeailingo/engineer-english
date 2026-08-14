@@ -1,0 +1,15 @@
+---
+id: "0387"
+term: "break existing behavior"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/breɪk ɪɡˈzɪstɪŋ bɪˈheɪvjə/"
+description: "Flag that a change may alter behavior existing clients rely on."
+descriptionJa: "変更が既存の挙動を壊す可能性があると述べる。"
+meaning: "to break current behavior"
+meaningJa: "既存の挙動を壊す"
+usageExample: "Changing the middleware order may break existing behavior for returning users."
+usageExampleJa: "ミドルウェア順序の変更は、既存ユーザーの挙動を壊す可能性がある。"
+difficulty: "Intermediate"
+scene: "Design / Architecture"
+---

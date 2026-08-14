@@ -1,0 +1,15 @@
+---
+id: "0053"
+term: "take ownership of"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/teɪk əʊnəʃɪp ɒv/"
+description: "Accept responsibility and drive work proactively beyond your lane."
+descriptionJa: "自分の担当領域だけでなく、自発的に責任を持って推進したことを強調できる。"
+meaning: "to accept responsibility for something"
+meaningJa: "〜に責任を持ち、主体的に引き受ける"
+usageExample: "I took ownership of the migration and coordinated the rollout across three teams."
+usageExampleJa: "移行を主体的に担い、3チーム横断の展開を調整した。"
+difficulty: "Intermediate"
+scene: "Career / Interview"
+---

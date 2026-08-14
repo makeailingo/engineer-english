@@ -1,0 +1,15 @@
+---
+id: "0643"
+term: "cause ... to be ..."
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/kɔːz tuː biː/"
+description: "Describe how a mapping or change leads to a misleading result."
+descriptionJa: "結果・影響関係を示す表現。"
+meaning: "to cause to be"
+meaningJa: "〜が〜という結果になる"
+usageExample: "This mapping causes the error message to be misleading."
+usageExampleJa: "このマッピングによりエラーメッセージが誤解を招く結果になる。"
+difficulty: "Intermediate"
+scene: "Technical Writing"
+---

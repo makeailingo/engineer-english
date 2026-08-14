@@ -1,0 +1,15 @@
+---
+id: "0761"
+term: "avoid putting everything on one person's shoulders"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/əˈvɔɪd ˈpʊtɪŋ ˈevriθɪŋ ɒn wʌn ˈpɜːsnz ˈʃəʊldəz/"
+description: "Split roles to spread load and reduce single-point dependency."
+descriptionJa: "負荷の分散、属人化排除の観点から役割分担を促すときに使う。"
+meaning: "to avoid overloading one person"
+meaningJa: "一人にすべてを背負わせるのを防ぐ"
+usageExample: "We should split the roles to avoid putting everything on one person's shoulders."
+usageExampleJa: "役割を分け、一人にすべてを背負わせないようにしよう。"
+difficulty: "Advanced"
+scene: "Management"
+---

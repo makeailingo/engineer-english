@@ -1,0 +1,15 @@
+---
+id: "0290"
+term: "good to know"
+type: "phrase"
+partOfSpeech: "clause"
+pronunciation: "/ɡʊd tuː nəʊ/"
+description: "Thank someone for helpful information."
+descriptionJa: "相手の情報提供に対して感謝を示しつつ、有益であったと伝える返答。"
+meaning: "useful to know"
+meaningJa: "それを知ることができてよかった、参考になります"
+usageExample: "Good to know. I'll update the ownership list."
+usageExampleJa: "参考になった。所有権リストを更新する。"
+difficulty: "Beginner"
+scene: "Meetings / Events"
+---

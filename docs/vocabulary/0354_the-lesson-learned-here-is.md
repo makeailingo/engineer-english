@@ -1,0 +1,15 @@
+---
+id: "0354"
+term: "the lesson learned here is"
+type: "phrase"
+partOfSpeech: "clause"
+pronunciation: "/ðə ˈlesn lɜːnd hɪə ɪz/"
+description: "Share a takeaway from a retrospective or incident."
+descriptionJa: "トラブルや失敗の振り返り（Post-mortem）等で学びを共有・教訓化する。"
+meaning: "the lesson here is"
+meaningJa: "ここから得られた教訓・学びは"
+usageExample: "The lesson learned here is to keep credentials separate."
+usageExampleJa: "教訓は認証情報を分離しておくことだ。"
+difficulty: "Advanced"
+scene: "Meetings / Events"
+---

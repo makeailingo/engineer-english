@@ -1,0 +1,15 @@
+---
+id: "0340"
+term: "one thing, and the other thing is"
+type: "phrase"
+partOfSpeech: "discourse marker"
+pronunciation: "/wʌn θɪŋ ænd ði ˈʌðə θɪŋ ɪz/"
+description: "Structure a update with two clear points."
+descriptionJa: "伝えたいポイントが2点あることをあらかじめ整理して話す構成。"
+meaning: "one point and another is"
+meaningJa: "一つ目は〜で、もう一つは〜です"
+usageExample: "One thing is the cost, and the other thing is maintenance."
+usageExampleJa: "一つはコスト、もう一つは保守だ。"
+difficulty: "Intermediate"
+scene: "Meetings / Events"
+---

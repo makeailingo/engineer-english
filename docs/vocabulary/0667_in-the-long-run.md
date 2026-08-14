@@ -1,0 +1,15 @@
+---
+id: "0667"
+term: "in the long run"
+type: "phrase"
+partOfSpeech: "adverb phrase"
+pronunciation: "/ɪn ðə lɒŋ rʌn/"
+description: "Contrast short-term fixes with a desired future operating model."
+descriptionJa: "短期対策と比較して、将来の望ましい状態や設計方針を述べる時に使う。"
+meaning: "over the long term"
+meaningJa: "長目的には"
+usageExample: "In the long run, each domain should have a clearly accountable owner."
+usageExampleJa: "長期的には、各ドメインに明確な責任者が必要だ。"
+difficulty: "Beginner"
+scene: "Management"
+---

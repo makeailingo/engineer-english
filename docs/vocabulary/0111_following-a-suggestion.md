@@ -1,0 +1,15 @@
+---
+id: "0111"
+term: "following a suggestion"
+type: "phrase"
+partOfSpeech: "prepositional phrase"
+pronunciation: "/ˈfɒləʊɪŋ ə səˈdʒestʃn/"
+description: "Note that a review suggestion drove a code change."
+descriptionJa: "レビューコメントで指摘・提案された内容を反映したことを文脈で伝える。"
+meaning: "after receiving a suggestion"
+meaningJa: "提案を受けて、指摘に従って"
+usageExample: "Following a suggestion from the API review, I changed the field to a boolean."
+usageExampleJa: "APIレビューの提案を受け、フィールドをbooleanに変更した。"
+difficulty: "Beginner"
+scene: "Implementation / Review"
+---

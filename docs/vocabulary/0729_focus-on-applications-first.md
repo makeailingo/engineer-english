@@ -1,0 +1,15 @@
+---
+id: "0729"
+term: "focus on applications first"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/ˈfəʊkəs ɒn ˌæplɪˈkeɪʃnz fɜːst/"
+description: "Narrow scope to applications before broader model discussions."
+descriptionJa: "全体構想に気を取られず、目の前の範囲に焦点を絞る指示。"
+meaning: "to focus on applications first"
+meaningJa: "まずアプリケーションに集中する"
+usageExample: "The broader model matters, but I'd like to focus on applications first."
+usageExampleJa: "広いモデルも重要だが、まずアプリケーションに集中したい。"
+difficulty: "Intermediate"
+scene: "Management"
+---

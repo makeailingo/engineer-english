@@ -1,0 +1,15 @@
+---
+id: "0578"
+term: "seem to be"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/siːm tuː biː/"
+description: "Share a tentative conclusion while investigation is still underway."
+descriptionJa: "現状の推論や調査中の見解を述べる定型表現。"
+meaning: "to seem to be"
+meaningJa: "〜のようである"
+usageExample: "The issue seems to be limited to migrated accounts."
+usageExampleJa: "問題は移行済みアカウントに限定されているようだ。"
+difficulty: "Intermediate"
+scene: "Technical Writing"
+---

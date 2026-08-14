@@ -1,0 +1,15 @@
+---
+id: "0141"
+term: "cause A to appear incorrectly"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/kɔːz tuː əˈpɪə ˌɪnkəˈrektli/"
+description: "Explain a misconfiguration that made a property display wrongly."
+descriptionJa: "設定ミスなどで間違ったプロパティが表示されていた現象を説明する。"
+meaning: "to make A show up incorrectly"
+meaningJa: "Aが誤って現れる原因となる"
+usageExample: "The misconfiguration caused the property to appear incorrectly in the schema."
+usageExampleJa: "設定ミスでプロパティがスキーマ上誤って表示されていた。"
+difficulty: "Intermediate"
+scene: "Implementation / Review"
+---

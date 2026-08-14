@@ -1,0 +1,15 @@
+---
+id: "0604"
+term: "make a few requests related to"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/meɪk ə fjuː rɪˈkwests rɪˈleɪtɪd tuː/"
+description: "Politely introduce several change requests about one API or area."
+descriptionJa: "複数の変更要望をまとめて導入する丁寧な表現。"
+meaning: "to make a few requests related to"
+meaningJa: "〜に関する要望をいくつか出す"
+usageExample: "I'd like to make a few requests related to the signup API."
+usageExampleJa: "登録APIに関していくつか要望を出したい。"
+difficulty: "Intermediate"
+scene: "Technical Writing"
+---

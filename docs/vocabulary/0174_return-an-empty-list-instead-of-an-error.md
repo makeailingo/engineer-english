@@ -1,0 +1,15 @@
+---
+id: "0174"
+term: "return an empty list instead of an error"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/rɪˈtɜːn ən ˈempti lɪst ɪnˈsted ɒv ən ˈerə/"
+description: "Treat missing upstream data as an empty list, not failure."
+descriptionJa: "エラーハンドリングの挙動変更で、データ不在を正常系として扱うケース。"
+meaning: "to return an empty list, not an error"
+meaningJa: "エラーではなく空リストを返す"
+usageExample: "The adapter returns an empty list instead of a server error when the upstream body is null."
+usageExampleJa: "上流ボディがnullのときエラーではなく空リストを返す。"
+difficulty: "Intermediate"
+scene: "Implementation / Review"
+---

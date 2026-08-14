@@ -1,0 +1,15 @@
+---
+id: "0122"
+term: "save memory"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/seɪv ˈmeməri/"
+description: "Lighten stored data to reduce memory consumption."
+descriptionJa: "データ軽量化やメモリ効率化の目的を明確に示す。"
+meaning: "to reduce memory use"
+meaningJa: "メモリ使用量を削減する"
+usageExample: "Storing only the JME token value to save memory."
+usageExampleJa: "JMEトークン値のみ保存しメモリを節約する。"
+difficulty: "Beginner"
+scene: "Implementation / Review"
+---

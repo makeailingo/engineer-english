@@ -1,0 +1,15 @@
+---
+id: "0147"
+term: "be carried out in the following steps"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/bi ˈkærid aʊt ɪn ðə ˈfɒləʊɪŋ steps/"
+description: "Outline a staged rollout across services or environments."
+descriptionJa: "複数サービスにまたがる段階的なデプロイ手順を導入する際に使う。"
+meaning: "to be done in listed steps"
+meaningJa: "次の手順で実施される"
+usageExample: "The rollout will be carried out in the following steps."
+usageExampleJa: "展開は次の手順で段階的に実施される。"
+difficulty: "Intermediate"
+scene: "Implementation / Review"
+---

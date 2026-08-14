@@ -1,0 +1,15 @@
+---
+id: "0217"
+term: "result in high cardinality"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/rɪˈzʌlt ɪn haɪ ˌkɑːdɪˈnæləti/"
+description: "Warn that dynamic labels can explode metric cardinality."
+descriptionJa: "メトリクスラベルの動的パラメータ等による高カーディナリティ（データ膨大化）のリスクを説明する。"
+meaning: "to cause high metric cardinality"
+meaningJa: "高カーディナリティを引き起こす"
+usageExample: "Using expanded identifiers in metric labels can result in high cardinality."
+usageExampleJa: "メトリクスラベルに展開識別子を使うと高カーディナリティになる。"
+difficulty: "Advanced"
+scene: "Implementation / Review"
+---

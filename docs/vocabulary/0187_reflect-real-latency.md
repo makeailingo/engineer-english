@@ -1,0 +1,15 @@
+---
+id: "0187"
+term: "reflect real latency"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/rɪˈflekt rɪəl ˈleɪtənsi/"
+description: "Adjust histogram bounds to match production latency."
+descriptionJa: "本番環境の実測値に合わせて測定スケールや閾値を修正した。"
+meaning: "to reflect actual latency"
+meaningJa: "実際のレイテンシーを反映する"
+usageExample: "The histogram boundary was increased to reflect real latency in production."
+usageExampleJa: "本番レイテンシを反映するためヒストグラム上限を引き上げた。"
+difficulty: "Intermediate"
+scene: "Implementation / Review"
+---

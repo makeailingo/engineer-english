@@ -1,0 +1,15 @@
+---
+id: "0595"
+term: "be combined into one"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/biː kəmˈbaɪnd ˈɪntuː wʌn/"
+description: "Propose merging multiple checks or requests into a single call."
+descriptionJa: "複数処理の統合や統合を提案する表現。"
+meaning: "to be combined into one"
+meaningJa: "統合できる"
+usageExample: "These two checks can be combined into one request."
+usageExampleJa: "この2つのチェックは1つのリクエストに統合できる。"
+difficulty: "Intermediate"
+scene: "Technical Writing"
+---

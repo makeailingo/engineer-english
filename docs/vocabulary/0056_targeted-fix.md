@@ -1,0 +1,15 @@
+---
+id: "0056"
+term: "targeted fix"
+type: "phrase"
+partOfSpeech: "noun phrase"
+pronunciation: "/ˈtɑːɡɪtɪd fɪks/"
+description: "Apply a precise correction aimed at the actual cause."
+descriptionJa: "暫定処置ではなく、ピンポイントで本質的な修正を行ったことをアピール。"
+meaning: "a precise fix for a specific cause"
+meaningJa: "狙いを絞った的確な修正"
+usageExample: "I implemented a targeted fix instead of applying a broad workaround."
+usageExampleJa: "広範な回避策ではなく的確な修正を実装した。"
+difficulty: "Intermediate"
+scene: "Career / Interview"
+---

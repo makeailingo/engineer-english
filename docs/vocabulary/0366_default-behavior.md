@@ -1,0 +1,15 @@
+---
+id: "0366"
+term: "default behavior"
+type: "phrase"
+partOfSpeech: "noun phrase"
+pronunciation: "/dɪˈfɔːlt bɪˈheɪvjə/"
+description: "Document what happens when optional fields are omitted."
+descriptionJa: "明示的指定がない場合の既定動作を設計文書で定義する表現。"
+meaning: "behavior when nothing is specified"
+meaningJa: "明示的な指定がない場合の既定の動作"
+usageExample: "Document the default behavior when the audience field is omitted."
+usageExampleJa: "オーディエンスフィールド省略時の既定動作を文書化する。"
+difficulty: "Beginner"
+scene: "Design / Architecture"
+---

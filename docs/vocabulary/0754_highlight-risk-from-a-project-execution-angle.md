@@ -1,0 +1,15 @@
+---
+id: "0754"
+term: "highlight risk from a project execution angle"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/ˈhaɪlaɪt rɪsk frɒm ə ˈprɒdʒekt ˌeksɪˈkjuːʃn ˈæŋɡl/"
+description: "Focus reviews on delivery risks such as dependencies and progress."
+descriptionJa: "技術的リスクだけでなく、依存関係、進捗状況などの運行リスクに重点を当てる表現。"
+meaning: "to highlight execution risk"
+meaningJa: "プロジェクト進行の観点からリスクを明確にする"
+usageExample: "The weekly review should highlight risk from a project execution angle."
+usageExampleJa: "週次レビューでは、進行観点のリスクを明確にすべきだ。"
+difficulty: "Advanced"
+scene: "Management"
+---

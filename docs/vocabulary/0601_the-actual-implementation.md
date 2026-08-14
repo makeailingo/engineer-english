@@ -1,0 +1,15 @@
+---
+id: "0601"
+term: "the actual implementation"
+type: "phrase"
+partOfSpeech: "noun phrase"
+pronunciation: "/ði ˈæktʃuəl ˌɪmplɪmenˈteɪʃn/"
+description: "Contrast written specification with what the code actually does."
+descriptionJa: "仕様上の定義と実装をコードを対比する表現。"
+meaning: "the actual implementation"
+meaningJa: "実際の実装"
+usageExample: "The specification and the actual implementation must remain aligned."
+usageExampleJa: "仕様と実際の実装は一致したままでなければならない。"
+difficulty: "Intermediate"
+scene: "Technical Writing"
+---

@@ -1,0 +1,15 @@
+---
+id: "0373"
+term: "avoid breaking the existing flow"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/əˈvɔɪd ˈbreɪkɪŋ ði ɪɡˈzɪstɪŋ fləʊ/"
+description: "Use redirects or compat layers to keep current user paths."
+descriptionJa: "既存処理フローを壊さないよう配慮する設計方針。"
+meaning: "to preserve the current flow"
+meaningJa: "既存の処理フローを壊さないように配慮・設計する"
+usageExample: "We can use a redirect order to avoid breaking the existing flow."
+usageExampleJa: "リダイレクト順序で既存フローを壊さないようにできる。"
+difficulty: "Beginner"
+scene: "Design / Architecture"
+---

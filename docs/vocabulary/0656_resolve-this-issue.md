@@ -1,0 +1,15 @@
+---
+id: "0656"
+term: "resolve this issue"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/rɪˈzɒlv ðɪs ˈɪʃuː/"
+description: "Link a proposed change directly to fixing the reported problem."
+descriptionJa: "提案した変更と解決の結び付けを行う表現。"
+meaning: "to resolve this issue"
+meaningJa: "この問題を解決する"
+usageExample: "Adding the missing field to resolve this issue."
+usageExampleJa: "不足フィールドを追加してこの問題を解決する。"
+difficulty: "Intermediate"
+scene: "Technical Writing"
+---

@@ -1,0 +1,15 @@
+---
+id: "0467"
+term: "need more details to investigate further"
+type: "phrase"
+partOfSpeech: "clause"
+pronunciation: "/niːd mɔː ˈdiːteɪlz tuː ɪnˈvestɪɡeɪt ˈfɜːðə/"
+description: "Ask for missing repro steps, logs, or context to proceed."
+descriptionJa: "情報不足（再現手順や関連ログ等）を指摘し、次のアクションへ促す。"
+meaning: "need more details to continue"
+meaningJa: "さらなる調査には詳細が必要である"
+usageExample: "I need more details to investigate further."
+usageExampleJa: "さらなる調査には詳細情報が必要だ。"
+difficulty: "Beginner"
+scene: "Incident Response"
+---

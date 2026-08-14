@@ -1,0 +1,15 @@
+---
+id: "0069"
+term: "current understanding"
+type: "phrase"
+partOfSpeech: "noun phrase"
+pronunciation: "/ˈkʌrənt ˌʌndəˈstændɪŋ/"
+description: "Summarize what you know and confirm it with the team."
+descriptionJa: "認識の齟齬を防ぐため、前提をチームに共有してすり合わせたプロセスの説明。"
+meaning: "what you currently believe is true"
+meaningJa: "現在の理解・把握状況"
+usageExample: "I summarized my current understanding and asked the team to confirm it."
+usageExampleJa: "現時点の理解を整理し、チームに確認を求めた。"
+difficulty: "Intermediate"
+scene: "Career / Interview"
+---

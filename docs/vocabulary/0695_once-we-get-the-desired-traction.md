@@ -1,0 +1,15 @@
+---
+id: "0695"
+term: "once we get the desired traction"
+type: "phrase"
+partOfSpeech: "clause"
+pronunciation: "/wʌns wiː ɡet ðə dɪˈzaɪəd ˈtrækʃn/"
+description: "Set traction as the condition for investing in stricter process later."
+descriptionJa: "面の対応だけでなく投資の判定を、次の投資・後回し化の条件として示すときに使う。"
+meaning: "once desired traction is achieved"
+meaningJa: "期待する手応え・支持が得られたら"
+usageExample: "We can invest in a stricter process once we get the desired traction."
+usageExampleJa: "期待する手応えが得られたら、より厳格なプロセスに投資できる。"
+difficulty: "Intermediate"
+scene: "Management"
+---

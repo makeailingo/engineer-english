@@ -1,0 +1,15 @@
+---
+id: "0741"
+term: "suggest the following steps"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/səˈdʒest ðə ˈfɒləʊɪŋ steps/"
+description: "Propose concrete next steps when discussion is unclear."
+descriptionJa: "議論が混迷している状況で、次の行動手順を具体的に提示する表現。"
+meaning: "to suggest the following steps"
+meaningJa: "以下のステップを提案する"
+usageExample: "Given the open questions, allow me to suggest the following steps."
+usageExampleJa: "未解決点が多いので、以下のステップを提案する。"
+difficulty: "Intermediate"
+scene: "Management"
+---

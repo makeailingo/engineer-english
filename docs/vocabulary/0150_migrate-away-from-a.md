@@ -1,0 +1,15 @@
+---
+id: "0150"
+term: "migrate away from A"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/maɪˈɡreɪt əˈweɪ frɒm/"
+description: "Describe moving off an old integration or library."
+descriptionJa: "古い方式や旧ライブラリからの脱却を目指す文脈で使用。"
+meaning: "to move off A gradually"
+meaningJa: "Aから段階的に移行する"
+usageExample: "We need to migrate away from the proxy-based integration."
+usageExampleJa: "プロキシ連携から段階的に移行する必要がある。"
+difficulty: "Intermediate"
+scene: "Implementation / Review"
+---

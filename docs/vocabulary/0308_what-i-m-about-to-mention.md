@@ -1,0 +1,15 @@
+---
+id: "0308"
+term: "what I'm about to mention"
+type: "phrase"
+partOfSpeech: "noun phrase"
+pronunciation: "/wɒt aɪm əˈbaʊt tuː ˈmenʃn/"
+description: "Link your upcoming point to the current discussion."
+descriptionJa: "相手の要望を受け、これから説明する内容に繋げる発言。"
+meaning: "what I will say next"
+meaningJa: "これから私が話そうとしていること"
+usageExample: "This is related to what I'm about to mention."
+usageExampleJa: "これから話す内容に関連している。"
+difficulty: "Intermediate"
+scene: "Meetings / Events"
+---

@@ -1,0 +1,15 @@
+---
+id: "0115"
+term: "put a task on hold"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/pʊt ə tɑːsk ɒn həʊld/"
+description: "Defer cleanup until another dependency finishes."
+descriptionJa: "外部要因や他作業の完了待ちで保留にする判断を伝える。"
+meaning: "to pause a task"
+meaningJa: "タスクを保留にする"
+usageExample: "We will put the cleanup task on hold until the client migration is complete."
+usageExampleJa: "クライアント移行完了までクリーンアップタスクを保留にする。"
+difficulty: "Beginner"
+scene: "Implementation / Review"
+---

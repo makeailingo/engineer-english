@@ -1,0 +1,15 @@
+---
+id: "0485"
+term: "things look good now"
+type: "phrase"
+partOfSpeech: "clause"
+pronunciation: "/θɪŋz lʊk ɡʊd naʊ/"
+description: "Report that the situation has normalized after recovery."
+descriptionJa: "状況の正常化を伝える。"
+meaning: "things look good now"
+meaningJa: "現状は良好で問題なさそうだ"
+usageExample: "All services recovered, and things look good now."
+usageExampleJa: "全サービスが復旧し、現状は問題なさそうだ。"
+difficulty: "Beginner"
+scene: "Incident Response"
+---

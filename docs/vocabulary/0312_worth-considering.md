@@ -1,0 +1,15 @@
+---
+id: "0312"
+term: "worth considering"
+type: "phrase"
+partOfSpeech: "adjective phrase"
+pronunciation: "/wɜːθ kənˈsɪdərɪŋ/"
+description: "Suggest an option may be useful under certain conditions."
+descriptionJa: "条件付きで検討を進めるメリット・余地があることを示す。"
+meaning: "worth discussing"
+meaningJa: "検討する価値がある"
+usageExample: "If the performance gain is significant, it's worth considering."
+usageExampleJa: "性能向上が大きければ検討する価値がある。"
+difficulty: "Intermediate"
+scene: "Meetings / Events"
+---

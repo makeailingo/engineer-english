@@ -1,0 +1,15 @@
+---
+id: "0041"
+term: "address issues"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/əˈdres ˈɪʃuːz/"
+description: "Take action on problems affecting delivery, quality, or reliability."
+descriptionJa: "単に問題を認識しただけでなく、解決に向けて対応したこと。"
+meaning: "to deal with problems"
+meaningJa: "課題・問題に対応する"
+usageExample: "We addressed issues in the build pipeline that were delaying releases."
+usageExampleJa: "リリース遅延のビルドパイプライン課題に対応した。"
+difficulty: "Beginner"
+scene: "Career / Interview"
+---

@@ -1,0 +1,15 @@
+---
+id: "0693"
+term: "a lighter review process"
+type: "phrase"
+partOfSpeech: "noun phrase"
+pronunciation: "/ə ˈlaɪtə rɪˈvjuː ˈprəʊses/"
+description: "Propose lighter reviews to learn faster without lowering quality standards."
+descriptionJa: "品質基準を無造作に下げるのではなく、手軽に早期に合わせて学習を速くする考え方を示す。"
+meaning: "a lighter review process"
+meaningJa: "より軽量なレビュープロセス"
+usageExample: "For the experiment, a lighter review process may help us learn faster."
+usageExampleJa: "実験では、より軽量なレビューで学習を速くできる。"
+difficulty: "Intermediate"
+scene: "Management"
+---

@@ -1,0 +1,15 @@
+---
+id: "0598"
+term: "need to pass through"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/niːd tuː pɑːs θruː/"
+description: "Instruct a BFF or proxy to forward headers or values upstream."
+descriptionJa: "ヘッダーや値を中継する指示を表す表現。"
+meaning: "to need to pass through"
+meaningJa: "そのまま通過させる必要がある"
+usageExample: "The BFF needs to pass through the correlation header to the upstream service."
+usageExampleJa: "BFFは相関ヘッダーを上流サービスへそのまま通過させる必要がある。"
+difficulty: "Intermediate"
+scene: "Technical Writing"
+---

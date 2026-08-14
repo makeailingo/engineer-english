@@ -1,0 +1,15 @@
+---
+id: "0071"
+term: "started the analysis"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/ˈstɑːtɪd ði əˈnæləsɪs/"
+description: "Describe how you began structured analysis in a STAR Action section."
+descriptionJa: "問題解決や開発の初期の行動を具体的に述べる、STAR形式のActionとしての表現。"
+meaning: "to begin examining a problem systematically"
+meaningJa: "分析を開始した"
+usageExample: "I started the analysis by mapping the failure patterns across environments."
+usageExampleJa: "環境横断の障害パターン整理から分析を開始した。"
+difficulty: "Intermediate"
+scene: "Career / Interview"
+---

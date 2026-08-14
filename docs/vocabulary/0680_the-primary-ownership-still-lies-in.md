@@ -1,0 +1,15 @@
+---
+id: "0680"
+term: "the primary ownership still lies in"
+type: "phrase"
+partOfSpeech: "clause"
+pronunciation: "/ðə ˈpraɪməri ˈəʊnəʃɪp stɪl laɪz ɪn/"
+description: "Confirm the service team retains primary ownership despite central support."
+descriptionJa: "支援体制を設けても、最終的な自治責任が損なわれないことを確認するときに使う。"
+meaning: "primary ownership still rests with"
+meaningJa: "一番の主導的な責任は引き続き〜にある"
+usageExample: "The primary ownership still lies in the service team, even with central support."
+usageExampleJa: "中央支援があっても、主導的責任はサービスチームにある。"
+difficulty: "Intermediate"
+scene: "Management"
+---

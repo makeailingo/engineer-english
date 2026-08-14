@@ -1,0 +1,15 @@
+---
+id: "0403"
+term: "proper entity identifier"
+type: "phrase"
+partOfSpeech: "noun phrase"
+pronunciation: "/ˈprɒpə ˈentɪti aɪˈdentɪfaɪə/"
+description: "Prefer an ID tied to the entity rather than an unrelated one."
+descriptionJa: "ドメインエンティティに適切な識別子を使うべきだと述べる。"
+meaning: "correct entity identifier"
+meaningJa: "適切な実体・エンティティの識別子"
+usageExample: "Prefer a proper entity identifier rather than an unrelated card ID."
+usageExampleJa: "無関係なカードIDより、適切なエンティティ識別子を優先する。"
+difficulty: "Intermediate"
+scene: "Design / Architecture"
+---

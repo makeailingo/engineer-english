@@ -1,0 +1,15 @@
+---
+id: "0374"
+term: "all aligned on"
+type: "phrase"
+partOfSpeech: "clause"
+pronunciation: "/ɔːl əˈlaɪnd ɒn/"
+description: "Confirm shared understanding before changing producer schemas."
+descriptionJa: "チーム全体の認識・合意が取れているか確認する表現。"
+meaning: "everyone agrees on"
+meaningJa: "〜について全体の認識・合意が取れている"
+usageExample: "Please confirm we are all aligned on extending the interface before changing the producer schema."
+usageExampleJa: "プロデューサースキーマ変更前に、インターフェース拡張で全体合意があるか確認してほしい。"
+difficulty: "Beginner"
+scene: "Design / Architecture"
+---

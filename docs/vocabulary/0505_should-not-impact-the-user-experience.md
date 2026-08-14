@@ -1,0 +1,15 @@
+---
+id: "0505"
+term: "should not impact the user experience"
+type: "phrase"
+partOfSpeech: "clause"
+pronunciation: "/ʃʊd nɒt ˈɪmpækt ðə ˈjuːzə ɪkˈspɪəriəns/"
+description: "Say UX impact is unlikely while verification is still underway."
+descriptionJa: "影響がないと考えているものの、念のため確認中であることを伝達する。"
+meaning: "should not affect user experience"
+meaningJa: "ユーザー体験には影響しない見込みである"
+usageExample: "This should not impact the user experience, but we are verifying it."
+usageExampleJa: "ユーザー体験への影響はない見込みだが、確認中である。"
+difficulty: "Intermediate"
+scene: "Incident Response"
+---

@@ -1,0 +1,15 @@
+---
+id: "0060"
+term: "evaluate the impact"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/ɪˈvæljueɪt ði ˈɪmpækt/"
+description: "Measure how a change affected metrics, users, or operations."
+descriptionJa: "変更や施策の効果を指標で計測したことを示す。"
+meaning: "to judge the effect of something"
+meaningJa: "影響を評価する"
+usageExample: "We evaluated the impact using conversion rate, latency, and support-volume data."
+usageExampleJa: "CV率・レイテンシ・問合せ件数で影響を評価した。"
+difficulty: "Intermediate"
+scene: "Career / Interview"
+---

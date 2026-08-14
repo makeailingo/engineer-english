@@ -1,0 +1,15 @@
+---
+id: "0689"
+term: "add one more layer to maintain"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/æd wʌn mɔː ˈleɪə tuː meɪnˈteɪn/"
+description: "Highlight ongoing operational cost when a new committee adds complexity."
+descriptionJa: "組織の運用コストや継続的な複雑さを指摘するときに使える表現。"
+meaning: "to add another layer to maintain"
+meaningJa: "保守対象の層をもう一つ増やす"
+usageExample: "A separate committee would add one more layer to maintain without clear benefits."
+usageExampleJa: "別委員会は、明確な利益なく保守層を増やす。"
+difficulty: "Intermediate"
+scene: "Management"
+---

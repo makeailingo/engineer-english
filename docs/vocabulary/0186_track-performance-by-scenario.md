@@ -1,0 +1,15 @@
+---
+id: "0186"
+term: "track performance by scenario"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/træk pəˈfɔːməns baɪ sɪˈnɑːriəʊ/"
+description: "Split reports so each scenario has its own metrics."
+descriptionJa: "ダッシュボードやメトリクスの可視化範囲を細分化したことを示す。"
+meaning: "to track performance per scenario"
+meaningJa: "シナリオ別に性能を追跡する"
+usageExample: "The report is split so we can track performance by scenario."
+usageExampleJa: "レポートを分割しシナリオ別に性能を追跡できる。"
+difficulty: "Intermediate"
+scene: "Implementation / Review"
+---

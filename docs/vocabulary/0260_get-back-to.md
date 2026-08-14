@@ -1,0 +1,15 @@
+---
+id: "0260"
+term: "get back to"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/ɡet bæk tuː/"
+description: "Say you will resume a paused task or topic."
+descriptionJa: "中断していた本来の作業や議論へ戻る際に使える。"
+meaning: "to return to"
+meaningJa: "〜に戻る、改めて対応する"
+usageExample: "Once this is done, I'll get back to the security task."
+usageExampleJa: "完了後、セキュリティタスクに戻る。"
+difficulty: "Beginner"
+scene: "Meetings / Events"
+---

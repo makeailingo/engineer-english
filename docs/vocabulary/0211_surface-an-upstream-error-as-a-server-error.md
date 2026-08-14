@@ -1,0 +1,15 @@
+---
+id: "0211"
+term: "surface an upstream error as a server error"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/ˈsɜːfɪs ən ˈʌpstriːm ˈerər æz ə ˈsɜːvə ˈerə/"
+description: "Describe incorrect error mapping from upstream failures."
+descriptionJa: "不適切なエラーハンドリングやステータスコードの変換を指す。"
+meaning: "to expose upstream errors as 5xx"
+meaningJa: "上流エラーをサーバーエラーとして露出させる"
+usageExample: "The old implementation surfaced an upstream validation error as a server error."
+usageExampleJa: "旧実装は上流検証エラーをサーバーエラーとして露出させていた。"
+difficulty: "Advanced"
+scene: "Implementation / Review"
+---

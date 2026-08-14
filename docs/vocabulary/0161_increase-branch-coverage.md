@@ -1,0 +1,15 @@
+---
+id: "0161"
+term: "increase branch coverage"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/ɪnˈkriːs brɑːntʃ ˈkʌvərɪdʒ/"
+description: "Add tests to cover more conditional branches."
+descriptionJa: "条件分岐の全パターンを網羅する目的のテスト追加を指す。"
+meaning: "to raise branch coverage"
+meaningJa: "分岐カバレッジを高める"
+usageExample: "Additional tests increase branch coverage for the fallback logic."
+usageExampleJa: "追加テストでフォールバックロジックの分岐カバレッジを高めた。"
+difficulty: "Intermediate"
+scene: "Implementation / Review"
+---

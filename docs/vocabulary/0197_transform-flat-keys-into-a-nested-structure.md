@@ -1,0 +1,15 @@
+---
+id: "0197"
+term: "transform flat keys into a nested structure"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/trænsˈfɔːm flæt kiːz ˈɪntuː ə ˈnestɪd ˈstrʌktʃə/"
+description: "Convert flat keys into nested structures clients expect."
+descriptionJa: "レスポンスのデータ形式整形（ネスト化）を行う理由。"
+meaning: "to nest flat keys"
+meaningJa: "フラットなキーを入れ子構造へ変換する"
+usageExample: "The adapter transforms flat keys into the nested structure expected by the client."
+usageExampleJa: "アダプターがフラットキーをクライアント期待の入れ子構造へ変換する。"
+difficulty: "Intermediate"
+scene: "Implementation / Review"
+---

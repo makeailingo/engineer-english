@@ -1,0 +1,15 @@
+---
+id: "0484"
+term: "keep an eye on ..."
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/kiːp ən aɪ ɒn/"
+description: "Commit to continued monitoring of alerts or metrics."
+descriptionJa: "退勤前や深夜待機でも監視を継続することを宣言する。"
+meaning: "to keep watching closely"
+meaningJa: "〜を引き続き注意して見る"
+usageExample: "I'll keep an eye on the alert channel overnight."
+usageExampleJa: "夜間もアラートチャンネルを引き続き監視する。"
+difficulty: "Beginner"
+scene: "Incident Response"
+---

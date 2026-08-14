@@ -1,0 +1,15 @@
+---
+id: "0109"
+term: "allow time for learning and investigation"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/əˈlaʊ taɪm fɔː ˈlɜːnɪŋ ænd ɪnˌvestɪˈɡeɪʃn/"
+description: "Budget time for unknown domains before committing to delivery dates."
+descriptionJa: "未知の技術領域に対し、見積もり段階で学習期間を確保した計画性。"
+meaning: "to reserve time for learning before delivery"
+meaningJa: "学習と調査のための時間を確保する"
+usageExample: "Because the domain was new to us, I allowed time for learning and investigation in the estimate."
+usageExampleJa: "未知領域のため、見積もりに学習・調査時間を確保した。"
+difficulty: "Advanced"
+scene: "Career / Interview"
+---

@@ -1,0 +1,15 @@
+---
+id: "0617"
+term: "required endpoints"
+type: "phrase"
+partOfSpeech: "noun phrase"
+pronunciation: "/rɪˈkwaɪəd ˈendpɔɪnts/"
+description: "Introduce the list of endpoints that must be implemented."
+descriptionJa: "実装対象の一覧を導入する指示文頭。"
+meaning: "required endpoints"
+meaningJa: "必要なエンドポイント"
+usageExample: "The required endpoints are listed below."
+usageExampleJa: "必要なエンドポイントは以下に示す。"
+difficulty: "Intermediate"
+scene: "Technical Writing"
+---

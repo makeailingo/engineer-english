@@ -1,0 +1,15 @@
+---
+id: "0037"
+term: "move forward"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/muːv ˈfɔːwəd/"
+description: "Proceed to the next stage after agreement or preparation."
+descriptionJa: "合意形成後の迅速な決定・実行へ押し進めたことを表す。"
+meaning: "to continue or proceed with something"
+meaningJa: "前に進める、次の段階へ進む"
+usageExample: "Once we reached agreement, we moved forward with implementation."
+usageExampleJa: "合意後、実装へ前進させた。"
+difficulty: "Beginner"
+scene: "Career / Interview"
+---

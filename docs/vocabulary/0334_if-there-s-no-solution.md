@@ -1,0 +1,15 @@
+---
+id: "0334"
+term: "if there's no solution"
+type: "phrase"
+partOfSpeech: "clause"
+pronunciation: "/ɪf ðeəz nəʊ səˈluːʃn/"
+description: "Define fallback behavior when options are exhausted."
+descriptionJa: "代替手段が尽きた場合のフォールバック処理を規定する。"
+meaning: "if no solution exists"
+meaningJa: "解決策がなければ"
+usageExample: "If there's no solution, we'll return an error to the client."
+usageExampleJa: "解決策がなければクライアントにエラーを返す。"
+difficulty: "Intermediate"
+scene: "Meetings / Events"
+---

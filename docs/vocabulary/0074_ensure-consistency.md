@@ -1,0 +1,15 @@
+---
+id: "0074"
+term: "ensure consistency"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/ɪnˈʃʊə kənˈsɪstənsi/"
+description: "Standardize practices so teams produce uniform quality and behavior."
+descriptionJa: "設計・運用の方法や品質のばらつきを揃え組織全体で標準化した実績。"
+meaning: "to make things uniform across teams"
+meaningJa: "一貫性を確保する"
+usageExample: "I introduced a shared template to ensure consistency across all services."
+usageExampleJa: "共通テンプレで全サービスの一貫性を確保した。"
+difficulty: "Intermediate"
+scene: "Career / Interview"
+---

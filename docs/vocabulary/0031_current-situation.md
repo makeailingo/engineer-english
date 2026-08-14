@@ -1,0 +1,15 @@
+---
+id: "0031"
+term: "current situation"
+type: "phrase"
+partOfSpeech: "noun phrase"
+pronunciation: "/ˈkʌrənt ˌsɪtʃuˈeɪʃn/"
+description: "Describe the starting context before explaining actions taken."
+descriptionJa: "概況（現状分析）から前提課題・制約を整理するときに言いやすい。"
+meaning: "the present state of affairs"
+meaningJa: "現状、現在の状況"
+usageExample: "I began by explaining the current situation and the limitations of the existing design."
+usageExampleJa: "現状と既存設計の制約を説明することから始めた。"
+difficulty: "Beginner"
+scene: "Career / Interview"
+---

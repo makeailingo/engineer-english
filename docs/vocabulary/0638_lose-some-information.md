@@ -1,0 +1,15 @@
+---
+id: "0638"
+term: "lose some information"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/luːz sʌm ˌɪnfəˈmeɪʃn/"
+description: "Explain data lost during redirection or migration without a parameter."
+descriptionJa: "移行方式の弊害や不具合点を具体的に示す表現。"
+meaning: "to lose some information"
+meaningJa: "一部の情報が失われる"
+usageExample: "Without this parameter, we lose some information during redirection."
+usageExampleJa: "このパラメータがないと、リダイレクト中に一部情報が失われる。"
+difficulty: "Intermediate"
+scene: "Technical Writing"
+---

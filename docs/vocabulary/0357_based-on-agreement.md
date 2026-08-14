@@ -1,0 +1,15 @@
+---
+id: "0357"
+term: "based on agreement"
+type: "phrase"
+partOfSpeech: "prepositional phrase"
+pronunciation: "/beɪst ɒn əˈɡriːmənt/"
+description: "State that a plan follows a prior team agreement."
+descriptionJa: "チーム合意に基づいて方針や作業を進めることを示す。"
+meaning: "according to what was agreed"
+meaningJa: "合意に基づいて"
+usageExample: "Based on agreement, performance tests will use mocked upstream services."
+usageExampleJa: "合意に基づき、性能テストは上流サービスをモック化して行う。"
+difficulty: "Beginner"
+scene: "Design / Architecture"
+---

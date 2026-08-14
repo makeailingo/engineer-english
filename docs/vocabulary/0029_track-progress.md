@@ -1,0 +1,15 @@
+---
+id: "0029"
+term: "track progress"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/træk ˈprəʊɡres/"
+description: "Monitor milestones and raise blockers early during delivery."
+descriptionJa: "進捗管理を行い、継続的に状況を把握していたことを示す。"
+meaning: "to monitor how work is advancing"
+meaningJa: "進捗状況を追跡する"
+usageExample: "I tracked progress against weekly milestones and raised blockers early."
+usageExampleJa: "週次マイルストーンで進捗を追い、障害を早期に共有した。"
+difficulty: "Beginner"
+scene: "Career / Interview"
+---

@@ -1,0 +1,15 @@
+---
+id: "0548"
+term: "once the root cause is identified"
+type: "phrase"
+partOfSpeech: "clause"
+pronunciation: "/wʌns ðə ruːt kɔːz ɪz aɪˈdentɪfaɪd/"
+description: "Promise follow-up actions such as monitoring changes after RCA."
+descriptionJa: "原因解明後のアクション（例：監視ルールの調整）を約束する。"
+meaning: "after the root cause is found"
+meaningJa: "根本原因が特定されたら"
+usageExample: "Once the root cause is identified, we can adjust the monitoring rules accordingly."
+usageExampleJa: "根本原因が特定されたら、監視ルールを調整できる。"
+difficulty: "Intermediate"
+scene: "Incident Response"
+---

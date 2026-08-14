@@ -1,0 +1,15 @@
+---
+id: "0130"
+term: "include robust error handling"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/ɪnˈkluːd rəʊˈbʌst ˈerə ˈhændlɪŋ/"
+description: "Handle malformed or unexpected upstream responses safely in code."
+descriptionJa: "不正な形式の上流レスポンスに対してエラーハンドリングを行う時に使う。"
+meaning: "to include strong error handling"
+meaningJa: "堅牢なエラーハンドリングを含む"
+usageExample: "The client includes robust error handling for malformed upstream responses."
+usageExampleJa: "不正な上流レスポンス向けに堅牢なエラーハンドリングを含める。"
+difficulty: "Intermediate"
+scene: "Implementation / Review"
+---

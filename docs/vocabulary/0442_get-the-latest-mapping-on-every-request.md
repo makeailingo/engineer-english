@@ -1,0 +1,15 @@
+---
+id: "0442"
+term: "get the latest mapping on every request"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/ɡet ðə ˈleɪtɪst ˈmæpɪŋ ɒn ˈevri rɪˈkwest/"
+description: "Read authoritative mapping data instead of stale cache."
+descriptionJa: "重要フローでは毎リクエスト最新マッピングを取得する設計。"
+meaning: "to fetch fresh mapping each request"
+meaningJa: "リクエストごとに最新の対応関係を取得する"
+usageExample: "For critical workflows, we get the latest mapping on every request instead of reading stale cache data."
+usageExampleJa: "重要フローでは、古いキャッシュではなくリクエストごとに最新マッピングを取得する。"
+difficulty: "Advanced"
+scene: "Design / Architecture"
+---

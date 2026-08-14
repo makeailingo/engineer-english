@@ -1,0 +1,15 @@
+---
+id: "0263"
+term: "make a final decision"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/meɪk ə ˈfaɪnl dɪˈsɪʒn/"
+description: "Refer to the step of making a final call."
+descriptionJa: "最終決定を行うステップであることを指す。"
+meaning: "to decide finally"
+meaningJa: "最終判断を下す"
+usageExample: "Let's collect the metrics before we make a final decision."
+usageExampleJa: "最終判断の前にメトリクスを集めよう。"
+difficulty: "Beginner"
+scene: "Meetings / Events"
+---

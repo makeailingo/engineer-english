@@ -1,0 +1,15 @@
+---
+id: "0032"
+term: "as a result"
+type: "phrase"
+partOfSpeech: "adverb phrase"
+pronunciation: "/æz ə rɪˈzʌlt/"
+description: "Connect an action to its outcome in interview storytelling."
+descriptionJa: "行動と結果の論理的つながりを保ち、数言的で明確な説明に役立つ。"
+meaning: "because of something that happened"
+meaningJa: "その結果として"
+usageExample: "As a result, release preparation time decreased from two days to three hours."
+usageExampleJa: "その結果、リリース準備時間が2日から3時間に短縮した。"
+difficulty: "Beginner"
+scene: "Career / Interview"
+---

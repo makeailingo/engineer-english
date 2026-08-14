@@ -1,0 +1,15 @@
+---
+id: "0650"
+term: "expect ... in a request"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/ɪkˈspekt ɪn ə rɪˈkwest/"
+description: "Describe a field or status the API definition requires in requests."
+descriptionJa: "API定義上の要求の期待値を説明する表現。"
+meaning: "to expect in a request"
+meaningJa: "リクエストに〜を要求する"
+usageExample: "The API expects this status in a request."
+usageExampleJa: "APIはリクエストにこのステータスを要求する。"
+difficulty: "Intermediate"
+scene: "Technical Writing"
+---

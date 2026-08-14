@@ -1,0 +1,15 @@
+---
+id: "0758"
+term: "keep in mind that a proper solution will be required"
+type: "phrase"
+partOfSpeech: "clause"
+pronunciation: "/kiːp ɪn maɪnd ðæt ə ˈprɒpə səˈluːʃn wɪl biː rɪˈkwaɪəd/"
+description: "Use a workaround now while noting a permanent fix is still required."
+descriptionJa: "暫定策で時間を稼ぎつつ、それを恒久化させない意識づけをする表現。"
+meaning: "remember a proper solution will be needed"
+meaningJa: "適切な恒久策が必要になることを頭に置く"
+usageExample: "We can use the workaround now, keeping in mind that a proper solution will be required."
+usageExampleJa: "暫定策は使えるが、恒久策が必要な点は忘れないで。"
+difficulty: "Advanced"
+scene: "Management"
+---

@@ -1,0 +1,15 @@
+---
+id: "0757"
+term: "before answering, let me share some assumptions"
+type: "phrase"
+partOfSpeech: "clause"
+pronunciation: "/bɪˈfɔːr ˈɑːnsərɪŋ let miː ʃeə sʌm əˈsʌmpʃnz/"
+description: "Disclose assumptions upfront to prevent misunderstanding."
+descriptionJa: "判断の前提条件を先に開示し、誤解によるすれ違いを防ぐ表現。"
+meaning: "before answering, let me share assumptions"
+meaningJa: "回答する前に、いくつか前提条件を共有する"
+usageExample: "Before answering, let me share some assumptions about capacity and delivery risk."
+usageExampleJa: "回答前に、キャパシティと納期リスクの前提を共有する。"
+difficulty: "Advanced"
+scene: "Management"
+---

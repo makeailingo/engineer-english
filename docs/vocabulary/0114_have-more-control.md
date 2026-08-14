@@ -1,0 +1,15 @@
+---
+id: "0114"
+term: "have more control"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/hæv mɔː kənˈtrəʊl/"
+description: "Justify direct calls to control retries, timeouts, or behavior."
+descriptionJa: "自前実装に変更することで制御性を向上させた意図を伝える。"
+meaning: "to gain finer control"
+meaningJa: "より細かい制御・主導権を持つ"
+usageExample: "Calling the service directly gives us more control over retries and timeouts."
+usageExampleJa: "直接呼び出しでリトライとタイムアウトをより細かく制御できる。"
+difficulty: "Beginner"
+scene: "Implementation / Review"
+---

@@ -1,0 +1,15 @@
+---
+id: "0172"
+term: "prevent an unnecessary call"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/prɪˈvent ən ʌnˈnesəsəri kɔːl/"
+description: "Add guards to skip redundant downstream calls."
+descriptionJa: "ガード条件による処理省略や性能最適化をアピールする。"
+meaning: "to avoid an unnecessary call"
+meaningJa: "不要な呼び出しを防ぐ"
+usageExample: "The empty-state check prevents an unnecessary downstream call."
+usageExampleJa: "空状態チェックで不要な下流呼び出しを防ぐ。"
+difficulty: "Intermediate"
+scene: "Implementation / Review"
+---

@@ -1,0 +1,15 @@
+---
+id: "0258"
+term: "currently working on"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/ˈkʌrəntli ˈwɜːkɪŋ ɒn/"
+description: "Share what you are actively doing this sprint."
+descriptionJa: "現在進行中の具体的な作業内容を共有する基本表現。"
+meaning: "working on now"
+meaningJa: "現在〜に取り組んでいる"
+usageExample: "I'm currently working on the fallback implementation."
+usageExampleJa: "フォールバック実装に取り組んでいる。"
+difficulty: "Beginner"
+scene: "Meetings / Events"
+---

@@ -1,0 +1,15 @@
+---
+id: "0382"
+term: "just an assumption"
+type: "phrase"
+partOfSpeech: "noun phrase"
+pronunciation: "/dʒʌst ən əˈsʌmpʃn/"
+description: "Mark throughput or load figures as unvalidated until tested."
+descriptionJa: "まだ検証されていない仮定であることを明示する表現。"
+meaning: "only an unverified assumption"
+meaningJa: "まだ検証・確定されていない仮定にすぎない"
+usageExample: "The expected throughput is just an assumption until we run a representative load test."
+usageExampleJa: "代表負荷テストまで、想定スループットは未検証の仮定にすぎない。"
+difficulty: "Beginner"
+scene: "Design / Architecture"
+---

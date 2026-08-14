@@ -1,0 +1,15 @@
+---
+id: "0550"
+term: "review in depth"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/rɪˈvjuː ɪn depθ/"
+description: "Ask for deep review of assumptions or design, not surface checks."
+descriptionJa: "表面的な確認ではなく、設計・計画レベルまで深掘りして検証する。"
+meaning: "to review in depth"
+meaningJa: "前提に掘り下げてレビューする"
+usageExample: "The capacity assumptions should be reviewed in depth."
+usageExampleJa: "容量の前提条件を深くレビューすべきだ。"
+difficulty: "Intermediate"
+scene: "Incident Response"
+---

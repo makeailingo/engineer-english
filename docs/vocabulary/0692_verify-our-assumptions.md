@@ -1,0 +1,15 @@
+---
+id: "0692"
+term: "verify our assumptions"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/ˈverɪfaɪ ˈaʊə əˈsʌmpʃnz/"
+description: "State the next validation step before scaling a hypothesis-based decision."
+descriptionJa: "仮説ベースの意思決定で、次に確認すべきことを明確にする表現。"
+meaning: "to verify our assumptions"
+meaningJa: "自分たちの前提を検証する"
+usageExample: "We should verify our assumptions with users before scaling the solution."
+usageExampleJa: "スケール前に、ユーザーで前提を検証すべきだ。"
+difficulty: "Intermediate"
+scene: "Management"
+---

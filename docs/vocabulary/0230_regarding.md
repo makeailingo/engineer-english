@@ -1,0 +1,15 @@
+---
+id: "0230"
+term: "regarding"
+type: "phrase"
+partOfSpeech: "preposition"
+pronunciation: "/rɪˈɡɑːdɪŋ/"
+description: "Introduce a specific topic in a formal meeting update."
+descriptionJa: "特定のトピックを切り出して言及するときに使うフォーマルな表現。"
+meaning: "concerning"
+meaningJa: "〜に関して"
+usageExample: "Regarding the rollout, we still need final approval."
+usageExampleJa: "ロールアウトについて、最終承認がまだ必要だ。"
+difficulty: "Beginner"
+scene: "Meetings / Events"
+---

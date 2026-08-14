@@ -1,0 +1,15 @@
+---
+id: "0418"
+term: "mock external dependencies"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/mɒk ɪkˈstɜːnl dɪˈpendənsiz/"
+description: "Isolate the service under test in integration tests."
+descriptionJa: "統合テストで外部依存をモック化する設計方針。"
+meaning: "to replace external deps with mocks"
+meaningJa: "外部依存先モジュールをモック（模擬化）に置き換える"
+usageExample: "Integration tests should mock external dependencies to isolate the service under test."
+usageExampleJa: "統合テストでは外部依存をモック化し、対象サービスを分離する。"
+difficulty: "Intermediate"
+scene: "Design / Architecture"
+---

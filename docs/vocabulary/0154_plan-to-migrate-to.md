@@ -1,0 +1,15 @@
+---
+id: "0154"
+term: "plan to migrate to"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/plæn tuː maɪˈɡreɪt tuː/"
+description: "State a future migration target or schedule."
+descriptionJa: "将来的な移行スケジュールや方針を伝える。"
+meaning: "to intend to move to"
+meaningJa: "〜への移行を予定する"
+usageExample: "We plan to migrate to the versioned endpoint in the next release."
+usageExampleJa: "次リリースでバージョン付きエンドポイントへ移行予定だ。"
+difficulty: "Intermediate"
+scene: "Implementation / Review"
+---

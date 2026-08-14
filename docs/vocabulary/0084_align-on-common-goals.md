@@ -1,0 +1,15 @@
+---
+id: "0084"
+term: "align on common goals"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/əˈlaɪn ɒn ˈkɒmən ɡəʊlz/"
+description: "Agree on shared objectives before debating implementation details."
+descriptionJa: "実装の詳細に踏み込む前に、全体の共通目標を整理・共有したこと。"
+meaning: "to agree on shared objectives"
+meaningJa: "共通の目標について意識を合わせる"
+usageExample: "I brought the teams together to align on common goals before discussing implementation details."
+usageExampleJa: "実装詳細の前に共通目標でチームを揃えた。"
+difficulty: "Intermediate"
+scene: "Career / Interview"
+---

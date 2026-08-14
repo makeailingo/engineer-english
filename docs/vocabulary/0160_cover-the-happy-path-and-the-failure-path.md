@@ -1,0 +1,15 @@
+---
+id: "0160"
+term: "cover the happy path and the failure path"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/ˈkʌv ðə ˈhæpi pɑːθ ænd ðə ˈfeɪljə pɑːθ/"
+description: "Argue tests cover both success and downstream failure paths."
+descriptionJa: "テスト網羅性をレビューで主張・説明する際に使う。"
+meaning: "to cover success and failure cases"
+meaningJa: "正常系と異常系をカバーする"
+usageExample: "The tests cover the happy path and the downstream failure path."
+usageExampleJa: "テストは正常系と下流失敗系の両方をカバーする。"
+difficulty: "Intermediate"
+scene: "Implementation / Review"
+---

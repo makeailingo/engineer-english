@@ -1,0 +1,15 @@
+---
+id: "0302"
+term: "we concluded that"
+type: "phrase"
+partOfSpeech: "clause"
+pronunciation: "/wiː kənˈkluːdɪd ðæt/"
+description: "Announce the outcome the group reached in discussion."
+descriptionJa: "議論の結論として合意した内容を発表するときに使う。"
+meaning: "we agreed that"
+meaningJa: "〜という結論に至った"
+usageExample: "We concluded that the existing approach is sufficient for now."
+usageExampleJa: "既存アプローチで当面は十分だという結論に至った。"
+difficulty: "Intermediate"
+scene: "Meetings / Events"
+---

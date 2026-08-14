@@ -1,0 +1,15 @@
+---
+id: "0221"
+term: "be too tightly coupled to a specific use case"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/bi tuː ˈtaɪtli ˈkʌpld tuː ə spəˈsɪfɪk juːs keɪs/"
+description: "Explain a helper is not reusable across flows."
+descriptionJa: "共通化されているが汎用性が低く、修正や分離が必要な理由を説明する。"
+meaning: "to be too tied to one use case"
+meaningJa: "特定のユースケースに密結合しすぎている"
+usageExample: "The shared helper was too tightly coupled to a specific screen flow."
+usageExampleJa: "共有ヘルパーは特定画面フローに密結合しすぎていた。"
+difficulty: "Advanced"
+scene: "Implementation / Review"
+---

@@ -1,0 +1,15 @@
+---
+id: "0175"
+term: "avoid sending the app to the error page"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/əˈvɔɪd ˈsendɪŋ ði æp tuː ði ˈerə peɪdʒ/"
+description: "Adjust backend responses to prevent client error screens."
+descriptionJa: "バックエンドのレスポンス変更によりアプリ側のUX低下（画面エラー表示）を防ぐ。"
+meaning: "to keep the app off the error page"
+meaningJa: "アプリがエラーページへ遷移するのを防ぐ"
+usageExample: "The empty response avoids sending the app to the error page for this condition."
+usageExampleJa: "空レスポンスでこの条件時にアプリがエラーページへ遷移するのを防ぐ。"
+difficulty: "Intermediate"
+scene: "Implementation / Review"
+---

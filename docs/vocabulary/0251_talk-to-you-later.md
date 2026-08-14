@@ -1,0 +1,15 @@
+---
+id: "0251"
+term: "talk to you later"
+type: "phrase"
+partOfSpeech: "clause"
+pronunciation: "/tɔːk tuː juː ˈleɪtə/"
+description: "Close a side conversation before leaving."
+descriptionJa: "短い会話や議論を終える際にとる着地的な表現。"
+meaning: "see you later"
+meaningJa: "また後で話し合いましょう"
+usageExample: "You guys can talk later or next week – I'll talk to you later."
+usageExampleJa: "後で話そう。また後で。"
+difficulty: "Beginner"
+scene: "Meetings / Events"
+---

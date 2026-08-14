@@ -1,0 +1,15 @@
+---
+id: "0530"
+term: "errors could be caused by ..."
+type: "phrase"
+partOfSpeech: "clause"
+pronunciation: "/ˈerəz kʊd biː kɔːzd baɪ/"
+description: "Offer a candidate cause for observed errors."
+descriptionJa: "原因の候補・可能性を提示する。"
+meaning: "errors may be caused by something"
+meaningJa: "エラーは〜が原因の可能性がある"
+usageExample: "The errors could be caused by stale client-side data."
+usageExampleJa: "エラーは古いクライアント側データが原因の可能性がある。"
+difficulty: "Intermediate"
+scene: "Incident Response"
+---

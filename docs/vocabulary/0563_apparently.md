@@ -1,0 +1,15 @@
+---
+id: "0563"
+term: "apparently"
+type: "phrase"
+partOfSpeech: "adverb"
+pronunciation: "/əˈpærəntli/"
+description: "Share an observed behavior that is not yet fully confirmed."
+descriptionJa: "未確認の推測や観察結果に確証を付ける文脈。"
+meaning: "apparently"
+meaningJa: "見たところ、どうやら"
+usageExample: "The client apparently wraps the original exception."
+usageExampleJa: "クライアントはどうやら元の例外をラップしている。"
+difficulty: "Beginner"
+scene: "Technical Writing"
+---

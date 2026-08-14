@@ -1,0 +1,15 @@
+---
+id: "0048"
+term: "take action"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/teɪk ˈækʃn/"
+description: "Act on a problem or risk instead of only observing it."
+descriptionJa: "問題の観察だけに終始するのではなく、実際の対処・対応へ動いた主導性を示す。"
+meaning: "to do something in response to a situation"
+meaningJa: "行動を起こす、対策を実行する"
+usageExample: "Once I confirmed the risk, I took action before it affected production."
+usageExampleJa: "リスク確認後、本番影響前に行動を起こした。"
+difficulty: "Beginner"
+scene: "Career / Interview"
+---

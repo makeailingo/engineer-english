@@ -1,0 +1,15 @@
+---
+id: "0078"
+term: "solve complex problems"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/sɒlv ˈkɒmpleks ˈprɒbləmz/"
+description: "Handle difficult issues needing deep analysis and coordination."
+descriptionJa: "高度な技術的課題や、関係者の調整が必要な複雑な課題に対応できる能力を示す。"
+meaning: "to resolve difficult issues"
+meaningJa: "複雑な問題を解決する"
+usageExample: "I enjoy solving complex problems that require technical depth and stakeholder coordination."
+usageExampleJa: "技術深度と関係者調整が要る複雑課題の解決が好きだ。"
+difficulty: "Intermediate"
+scene: "Career / Interview"
+---

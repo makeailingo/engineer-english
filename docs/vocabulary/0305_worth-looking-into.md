@@ -1,0 +1,15 @@
+---
+id: "0305"
+term: "worth looking into"
+type: "phrase"
+partOfSpeech: "adjective phrase"
+pronunciation: "/wɜːθ ˈlʊkɪŋ ˈɪntuː/"
+description: "Suggest an option deserves further research."
+descriptionJa: "有益である可能性が高く、調査対象とする価値を言及する際に使う。"
+meaning: "worth investigating"
+meaningJa: "調べる価値がある"
+usageExample: "The open-source tool is worth looking into."
+usageExampleJa: "オープンソースツールは調査する価値がある。"
+difficulty: "Intermediate"
+scene: "Meetings / Events"
+---

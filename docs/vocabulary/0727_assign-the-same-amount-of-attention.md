@@ -1,0 +1,15 @@
+---
+id: "0727"
+term: "assign the same amount of attention"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/əˈsaɪn ðə seɪm əˈmaʊnt əv əˈtenʃn/"
+description: "Ensure critical handoffs get consistent attention across teams."
+descriptionJa: "案件ごとの偏りや不均衡を是正し、一律の決定基準を平等に考える指示。"
+meaning: "to give equal attention"
+meaningJa: "同じ程度の注意を向ける"
+usageExample: "Critical handoffs should receive the same amount of attention across teams."
+usageExampleJa: "重要な引き継ぎは、チーム間で同程度の注意を向けるべきだ。"
+difficulty: "Intermediate"
+scene: "Management"
+---

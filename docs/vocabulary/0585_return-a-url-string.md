@@ -1,0 +1,15 @@
+---
+id: "0585"
+term: "return a URL string"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/rɪˈtɜːn ə juː ɑːr el strɪŋ/"
+description: "Describe an endpoint response type and its purpose for next steps."
+descriptionJa: "返り値の型と用途を説明する表現。"
+meaning: "to return a URL string"
+meaningJa: "URL文字列を返す"
+usageExample: "The endpoint returns a URL string for the next step."
+usageExampleJa: "エンドポイントは次のステップ用にURL文字列を返す。"
+difficulty: "Intermediate"
+scene: "Technical Writing"
+---

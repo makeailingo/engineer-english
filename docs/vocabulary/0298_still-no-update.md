@@ -1,0 +1,15 @@
+---
+id: "0298"
+term: "still no update"
+type: "phrase"
+partOfSpeech: "clause"
+pronunciation: "/stɪl nəʊ ˈʌpdeɪt/"
+description: "State plainly that expected news or work has not moved forward."
+descriptionJa: "待っている報告や作業に進展がないことを率直に伝える表現。"
+meaning: "still no progress reported"
+meaningJa: "まだ更新・進展がない"
+usageExample: "Still no update from the platform team."
+usageExampleJa: "プラットフォームチームからはまだ更新がない。"
+difficulty: "Intermediate"
+scene: "Meetings / Events"
+---

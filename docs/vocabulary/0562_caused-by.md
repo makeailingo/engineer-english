@@ -1,0 +1,15 @@
+---
+id: "0562"
+term: "caused by"
+type: "phrase"
+partOfSpeech: "prepositional phrase"
+pronunciation: "/kɔːzd baɪ/"
+description: "State the root cause of a regression or failure clearly."
+descriptionJa: "根本原因を明確に示す表現。"
+meaning: "caused by"
+meaningJa: "〜によって引き起こされた"
+usageExample: "The regression was caused by a contract change."
+usageExampleJa: "リグレッションは契約変更によって引き起こされた。"
+difficulty: "Beginner"
+scene: "Technical Writing"
+---

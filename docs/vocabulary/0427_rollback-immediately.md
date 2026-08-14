@@ -1,0 +1,15 @@
+---
+id: "0427"
+term: "rollback immediately"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/ˈrəʊlbæk ɪˈmiːdiətli/"
+description: "Revert to the old version when error rates cross a threshold."
+descriptionJa: "異常検知時に即座に旧バージョンへ切り戻す対応を述べる。"
+meaning: "to revert right away"
+meaningJa: "異常（デグレ・エラー率高騰など）を検知した際に即座に旧バージョンへ切り戻す対応"
+usageExample: "If the error rate crosses the threshold, we must rollback immediately."
+usageExampleJa: "エラー率が閾値を超えたら、即座にロールバックする必要がある。"
+difficulty: "Intermediate"
+scene: "Design / Architecture"
+---

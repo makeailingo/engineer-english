@@ -1,0 +1,15 @@
+---
+id: "0404"
+term: "common schema"
+type: "phrase"
+partOfSpeech: "noun phrase"
+pronunciation: "/ˈkɒmən ˈskiːmə/"
+description: "Define one schema for identifiers used across OpenAPI paths."
+descriptionJa: "複数サービス間で共有する共通スキーマを定義する表現。"
+meaning: "shared schema definition"
+meaningJa: "全体で共有する共通のスキーマ"
+usageExample: "Define a common schema for identifiers used across all OpenAPI paths."
+usageExampleJa: "全OpenAPIパスで使う識別子の共通スキーマを定義する。"
+difficulty: "Intermediate"
+scene: "Design / Architecture"
+---

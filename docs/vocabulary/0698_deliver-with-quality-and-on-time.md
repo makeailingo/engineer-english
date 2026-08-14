@@ -1,0 +1,15 @@
+---
+id: "0698"
+term: "deliver with quality and on time"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/dɪˈlɪvə wɪð ˈkwɒləti ænd ɒn taɪm/"
+description: "State delivery goals covering both quality and schedule without burnout."
+descriptionJa: "デリバリーの納得感を、品質と期限の両面から明確に示す表現。"
+meaning: "to deliver with quality and on time"
+meaningJa: "品質を保ち、期限通りにお届けする"
+usageExample: "Our goal is to deliver with quality and on time, without burning out the team."
+usageExampleJa: "目標は、チームを燃え尽きさせず品質と期限を両立することだ。"
+difficulty: "Intermediate"
+scene: "Management"
+---

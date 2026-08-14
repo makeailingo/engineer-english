@@ -1,0 +1,15 @@
+---
+id: "0281"
+term: "in advance"
+type: "phrase"
+partOfSpeech: "adverb phrase"
+pronunciation: "/ɪn ədˈvɑːns/"
+description: "Describe preparation done ahead of time."
+descriptionJa: "前もって進めておく作業や準備事項を伝える。"
+meaning: "beforehand"
+meaningJa: "あらかじめ、事前に"
+usageExample: "I'll prepare the required dependencies in advance."
+usageExampleJa: "必要な依存関係を事前に準備する。"
+difficulty: "Beginner"
+scene: "Meetings / Events"
+---

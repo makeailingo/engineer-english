@@ -1,0 +1,15 @@
+---
+id: "0526"
+term: "assuming that's the case"
+type: "phrase"
+partOfSpeech: "clause"
+pronunciation: "/əˈsjuːmɪŋ ðæts ðə keɪs/"
+description: "Reason through impact or explanation based on a working hypothesis."
+descriptionJa: "ある推測を前提とした場合の説明や影響範囲を考察する。"
+meaning: "assuming that is true"
+meaningJa: "それが事実だと仮定すると"
+usageExample: "Assuming that's the case, the duplicate requests may explain the spike."
+usageExampleJa: "それが事実だと仮定すると、重複リクエストがスパイクを説明できる。"
+difficulty: "Intermediate"
+scene: "Incident Response"
+---

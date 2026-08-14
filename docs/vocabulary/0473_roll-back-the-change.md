@@ -1,0 +1,15 @@
+---
+id: "0473"
+term: "roll back the change"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/rəʊl bæk ðə tʃeɪndʒ/"
+description: "Discuss whether to revert a recent change during an incident."
+descriptionJa: "切り戻し（ロールバック）の検討・実行について話し合う。"
+meaning: "to roll back the change"
+meaningJa: "変更をロールバックする"
+usageExample: "We need to determine whether to roll back the change."
+usageExampleJa: "変更をロールバックするか判断する必要がある。"
+difficulty: "Beginner"
+scene: "Incident Response"
+---

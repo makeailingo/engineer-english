@@ -1,0 +1,15 @@
+---
+id: "0143"
+term: "introduce a breaking response contract change"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/ˌɪntrəˈdjuːs ə ˈbreɪkɪŋ rɪˈspɒns ˈkɒntrækt tʃeɪndʒ/"
+description: "Flag a response change that breaks existing client expectations."
+descriptionJa: "破壊的変更（利用側に影響が出る変更）を明示する際に使用。"
+meaning: "to make a breaking response change"
+meaningJa: "互換性のないレスポンス変更を導入する"
+usageExample: "Removing this property introduces a breaking response contract change."
+usageExampleJa: "このプロパティ削除は互換性のないレスポンス変更を導入する。"
+difficulty: "Intermediate"
+scene: "Implementation / Review"
+---

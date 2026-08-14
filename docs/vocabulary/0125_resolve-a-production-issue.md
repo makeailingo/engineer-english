@@ -1,0 +1,15 @@
+---
+id: "0125"
+term: "resolve a production issue"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/rɪˈzɒlv ə prəˈdʌkʃn ˈɪʃuː/"
+description: "Describe a hotfix for an active production problem."
+descriptionJa: "修正の緊急性や本番問題の解決目的を伝える。"
+meaning: "to fix a production issue"
+meaningJa: "本番環境の不具合を解消する"
+usageExample: "This hotfix resolves a production issue affecting upgraded accounts."
+usageExampleJa: "このホットフィックスはアップグレード済みアカウントの本番不具合を解消する。"
+difficulty: "Beginner"
+scene: "Implementation / Review"
+---

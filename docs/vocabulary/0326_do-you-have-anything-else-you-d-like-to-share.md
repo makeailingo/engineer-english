@@ -1,0 +1,15 @@
+---
+id: "0326"
+term: "do you have anything else you'd like to share?"
+type: "phrase"
+partOfSpeech: "question"
+pronunciation: "/duː juː hæv ˈeniθɪŋ els/"
+description: "Check for more input before moving on."
+descriptionJa: "発言を締めくくる前、または別の人へ振る際の確認。"
+meaning: "anything else to share"
+meaningJa: "ほかに共有したいことはありますか？"
+usageExample: "Before we move on, do you have anything else you'd like to share?"
+usageExampleJa: "他に共有したいことはあるか？"
+difficulty: "Intermediate"
+scene: "Meetings / Events"
+---

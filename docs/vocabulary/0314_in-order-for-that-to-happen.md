@@ -1,0 +1,15 @@
+---
+id: "0314"
+term: "in order for that to happen"
+type: "phrase"
+partOfSpeech: "clause"
+pronunciation: "/ɪn ˈɔːdə fɔː ðæt tuː ˈhæpən/"
+description: "List prerequisites needed to reach a stated goal."
+descriptionJa: "目標達成に必要な前提条件や前作業を説明する際に動く。"
+meaning: "for that to happen"
+meaningJa: "それを実現するためには"
+usageExample: "In order for that to happen, we need a network rule change."
+usageExampleJa: "それを実現するにはネットワークルール変更が必要だ。"
+difficulty: "Intermediate"
+scene: "Meetings / Events"
+---

@@ -1,0 +1,15 @@
+---
+id: "0480"
+term: "please help"
+type: "phrase"
+partOfSpeech: "clause"
+pronunciation: "/pliːz help/"
+description: "Ask for help when you lack access or cannot finish alone."
+descriptionJa: "権限がない・対応しきれない場合の協力依頼。"
+meaning: "please help"
+meaningJa: "支援を要請する"
+usageExample: "I don't have access to the configuration, so please help."
+usageExampleJa: "設定へのアクセスがないので、支援をお願いしたい。"
+difficulty: "Beginner"
+scene: "Incident Response"
+---

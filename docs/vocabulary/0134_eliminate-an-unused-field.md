@@ -1,0 +1,15 @@
+---
+id: "0134"
+term: "eliminate an unused field"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/ɪˈlɪmɪneɪt ən ʌnˈjuːzd fiːld/"
+description: "Drop a field no longer needed from responses or models."
+descriptionJa: "公開レスポンスから不要なフィールドを削除する変更を説明できる。"
+meaning: "to remove an unused field"
+meaningJa: "未使用フィールドを取り除く"
+usageExample: "The refactoring eliminates an unused field from the public response."
+usageExampleJa: "リファクタリングで公開レスポンスから未使用フィールドを除去した。"
+difficulty: "Intermediate"
+scene: "Implementation / Review"
+---

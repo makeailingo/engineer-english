@@ -1,0 +1,15 @@
+---
+id: "0099"
+term: "cross-functional scope"
+type: "phrase"
+partOfSpeech: "noun phrase"
+pronunciation: "/krɒs ˈfʌŋkʃənl skəʊp/"
+description: "Describe work spanning multiple roles, teams, or disciplines."
+descriptionJa: "影響範囲や関係者の幅広さ、組織横断プロジェクトだったことを説明できる。"
+meaning: "work involving multiple functions or teams"
+meaningJa: "複数職種・複数領域にまたがる範囲"
+usageExample: "The project had a cross-functional scope involving engineering, security, and operations."
+usageExampleJa: "エンジニアリング・セキュリティ・運用横断の範囲だった。"
+difficulty: "Advanced"
+scene: "Career / Interview"
+---

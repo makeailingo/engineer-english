@@ -1,0 +1,15 @@
+---
+id: "0429"
+term: "concerns about this direction"
+type: "phrase"
+partOfSpeech: "noun phrase"
+pronunciation: "/kənˈsɜːnz əˈbaʊt ðɪs daɪˈrekʃn/"
+description: "Invite concerns before updating the low-level design."
+descriptionJa: "提案された設計方向性への懸念を確認する表現。"
+meaning: "worries about this approach"
+meaningJa: "この方向性（方針・設計）に対する懸念・不安"
+usageExample: "Does anyone have any concerns about this direction before we update the LLD?"
+usageExampleJa: "LLD更新前に、この方向性への懸念はあるか。"
+difficulty: "Intermediate"
+scene: "Design / Architecture"
+---

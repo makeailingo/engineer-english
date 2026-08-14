@@ -1,0 +1,15 @@
+---
+id: "0104"
+term: "improve monitoring coverage"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/ɪmˈpruːv ˈmɒnɪtərɪŋ ˈkʌvərɪdʒ/"
+description: "Expand alerts and dashboards so issues are detected sooner."
+descriptionJa: "システムの可視性や検知能力を高めるため監視範囲を広げた実績。"
+meaning: "to broaden what systems are monitored"
+meaningJa: "監視範囲を改善する"
+usageExample: "I improved monitoring coverage by adding missing alerts and dashboards."
+usageExampleJa: "不足アラートとダッシュボード追加で監視範囲を改善した。"
+difficulty: "Advanced"
+scene: "Career / Interview"
+---

@@ -1,0 +1,15 @@
+---
+id: "0133"
+term: "streamline the internal data structures"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/ˈstriːmlaɪn ði ɪnˈtɜːnl ˈdeɪtə ˈstrʌktʃəz/"
+description: "Remove wrappers or fields so internal models are leaner."
+descriptionJa: "不要なラッパー関数を削除し、データ構造を簡潔にしたことを表す。"
+meaning: "to simplify internal data structures"
+meaningJa: "内部データ構造を合理化する"
+usageExample: "Removing the unused wrapper streamlines the internal data structures."
+usageExampleJa: "未使用ラッパー削除で内部データ構造を合理化した。"
+difficulty: "Intermediate"
+scene: "Implementation / Review"
+---

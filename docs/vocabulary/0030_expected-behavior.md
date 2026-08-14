@@ -1,0 +1,15 @@
+---
+id: "0030"
+term: "expected behavior"
+type: "phrase"
+partOfSpeech: "noun phrase"
+pronunciation: "/ɪkˈspektɪd bɪˈheɪvjə/"
+description: "Define correct system behavior when investigating bugs or incidents."
+descriptionJa: "不具合調査で、正しい仕様と実際の挙動の切り分けを行ったことを示す。"
+meaning: "the behavior something should show"
+meaningJa: "期待される動作"
+usageExample: "I documented the expected behavior and compared it with the production logs."
+usageExampleJa: "期待動作を文書化し、本番ログと比較した。"
+difficulty: "Beginner"
+scene: "Career / Interview"
+---

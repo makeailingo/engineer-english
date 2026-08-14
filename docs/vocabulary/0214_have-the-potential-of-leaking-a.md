@@ -1,0 +1,15 @@
+---
+id: "0214"
+term: "have the potential of leaking A"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/hæv ðə pəˈtenʃl ɒv ˈliːkɪŋ/"
+description: "Describe a security risk before a fix."
+descriptionJa: "修正前の問題としてセキュリティリスクを理由に記述する。"
+meaning: "to risk leaking A"
+meaningJa: "Aを漏洩させる可能性がある"
+usageExample: "The raw path request had the potential of leaking credential."
+usageExampleJa: "生パスリクエストは認証情報漏洩の可能性があった。"
+difficulty: "Advanced"
+scene: "Implementation / Review"
+---

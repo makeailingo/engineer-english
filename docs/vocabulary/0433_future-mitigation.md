@@ -1,0 +1,15 @@
+---
+id: "0433"
+term: "future mitigation"
+type: "phrase"
+partOfSpeech: "noun phrase"
+pronunciation: "/ˈfjuːtʃə ˌmɪtɪˈɡeɪʃn/"
+description: "Record follow-up actions after an incident review."
+descriptionJa: "再発防止に向けた今後の軽減策を設計・レビューに含める表現。"
+meaning: "future steps to reduce recurrence"
+meaningJa: "再発防止に向けた今後の軽減策"
+usageExample: "The incident review should include future mitigation for missed alerts and reduced traffic."
+usageExampleJa: "インシデントレビューには、見逃しアラートと流量低下への将来対策を含める。"
+difficulty: "Intermediate"
+scene: "Design / Architecture"
+---

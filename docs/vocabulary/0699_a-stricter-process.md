@@ -1,0 +1,15 @@
+---
+id: "0699"
+term: "a stricter process"
+type: "phrase"
+partOfSpeech: "noun phrase"
+pronunciation: "/ə ˈstrɪktə ˈprəʊses/"
+description: "Recommend tighter controls as a service becomes business-critical."
+descriptionJa: "事業のフェーズや重要性に応じて、徐々に厳格な統制アプローチを提言する。"
+meaning: "a stricter process"
+meaningJa: "より厳格なプロセス"
+usageExample: "Once the service becomes business-critical, we will need a stricter process."
+usageExampleJa: "サービスが事業クリティカルになれば、より厳格なプロセスが必要だ。"
+difficulty: "Intermediate"
+scene: "Management"
+---

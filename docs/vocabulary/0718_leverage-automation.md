@@ -1,0 +1,15 @@
+---
+id: "0718"
+term: "leverage automation"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/ˈlevərɪdʒ ˌɔːtəˈmeɪʃn/"
+description: "Automate repetitive updates so people focus on decisions."
+descriptionJa: "反復作業を自動化し、人間が判断に集中できる運用を提案するときに使う。"
+meaning: "to leverage automation"
+meaningJa: "自動化を活用する"
+usageExample: "We should leverage automation for status updates and keep human reviews focused on decisions."
+usageExampleJa: "ステータス更新は自動化し、人間は判断に集中すべきだ。"
+difficulty: "Intermediate"
+scene: "Management"
+---

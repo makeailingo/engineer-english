@@ -1,0 +1,15 @@
+---
+id: "0156"
+term: "fall back to A"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/fɔːl bæk tuː/"
+description: "Describe fallback logic when a preferred value is missing."
+descriptionJa: "主データが不在の場合の代替ロジックを説明する。"
+meaning: "to use A as a fallback"
+meaningJa: "Aにフォールバックする"
+usageExample: "If the preferred value is unavailable, we fall back to the latest cached entry."
+usageExampleJa: "優先値がなければ最新のキャッシュエントリにフォールバックする。"
+difficulty: "Intermediate"
+scene: "Implementation / Review"
+---

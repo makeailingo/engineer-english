@@ -1,0 +1,15 @@
+---
+id: "0285"
+term: "comments so far?"
+type: "phrase"
+partOfSpeech: "question"
+pronunciation: "/ˈkɒments səʊ fɑː/"
+description: "Check for questions midway through an update."
+descriptionJa: "報告の途中で参加者の理解や疑問を確認するフレーズ。"
+meaning: "any comments so far"
+meaningJa: "ここまでに質問やコメントはありますか？"
+usageExample: "Do you have any questions or comments so far?"
+usageExampleJa: "ここまでに質問やコメントはあるか？"
+difficulty: "Beginner"
+scene: "Meetings / Events"
+---

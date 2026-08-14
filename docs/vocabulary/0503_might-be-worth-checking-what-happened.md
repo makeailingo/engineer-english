@@ -1,0 +1,15 @@
+---
+id: "0503"
+term: "Might be worth checking what happened"
+type: "phrase"
+partOfSpeech: "clause"
+pronunciation: "/maɪt biː wɜːθ ˈtʃekɪŋ wɒt ˈhæpənd/"
+description: "Suggest checking events during a spike even if impact seems low."
+descriptionJa: "調査の必要性を提案する際、スパイク発生時の調査を進めると良い旨伝える。"
+meaning: "worth investigating what happened"
+meaningJa: "何が起きたか確認する価値がありそうだ"
+usageExample: "It might be worth checking what happened during that spike."
+usageExampleJa: "スパイク発生時に何が起きたか確認する価値がありそうだ。"
+difficulty: "Intermediate"
+scene: "Incident Response"
+---

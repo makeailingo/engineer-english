@@ -1,0 +1,15 @@
+---
+id: "0750"
+term: "tackle different aspects of the same problem"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/ˈtækl ˈdɪfrənt ˈæspekts əv ðə seɪm ˈprɒbləm/"
+description: "Note two groups work on different facets of one issue and urge coordination."
+descriptionJa: "独立した2つのグループが同一課題の別側面を扱っていると指摘し、連携を促す時に使用。"
+meaning: "to address different facets of one issue"
+meaningJa: "同じ問題の異なる側面に取り組む"
+usageExample: "The two groups are tackling different aspects of the same problem, so we should coordinate their work."
+usageExampleJa: "2グループが同一課題の別側面に取り組んでいるので、連携すべきだ。"
+difficulty: "Advanced"
+scene: "Management"
+---

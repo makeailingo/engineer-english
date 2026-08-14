@@ -1,0 +1,15 @@
+---
+id: "0103"
+term: "proactively enhance"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/prəʊˈæktɪvli ɪnˈhɑːns/"
+description: "Improve systems or processes before problems force reactive work."
+descriptionJa: "指示される前や問題が起きる前に、自主的に対策を行った実績を示す。"
+meaning: "to improve something before being asked"
+meaningJa: "先回りして強化・改善する"
+usageExample: "I proactively enhanced the test framework before the project entered its critical phase."
+usageExampleJa: "重要フェーズ前にテスト基盤を先回り強化した。"
+difficulty: "Advanced"
+scene: "Career / Interview"
+---

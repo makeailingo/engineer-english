@@ -1,0 +1,15 @@
+---
+id: "0471"
+term: "Turn them off"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/tɜːn ðem ɒf/"
+description: "Propose temporarily disabling alerts while fixing or investigating."
+descriptionJa: "修正や調査中に一時的に通知をオフにすることを共有する。"
+meaning: "to turn them off"
+meaningJa: "それらを停止する"
+usageExample: "We may need an additional rule to turn these alerts off temporarily."
+usageExampleJa: "一時的にこれらのアラートを停止する追加ルールが必要かもしれない。"
+difficulty: "Beginner"
+scene: "Incident Response"
+---

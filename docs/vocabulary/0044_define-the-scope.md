@@ -1,0 +1,15 @@
+---
+id: "0044"
+term: "define the scope"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/dɪˈfaɪn ðə skəʊp/"
+description: "Set boundaries early to prevent uncontrolled scope expansion."
+descriptionJa: "スコープの肥大化（スコープクリープ）を防ぐために初めに枠組みを定義したこと。"
+meaning: "to set the limits of work"
+meaningJa: "対象範囲を定義する"
+usageExample: "I defined the scope early to prevent the project from expanding uncontrollably."
+usageExampleJa: "早期にスコープを定義し、計画外の拡大を防いだ。"
+difficulty: "Beginner"
+scene: "Career / Interview"
+---

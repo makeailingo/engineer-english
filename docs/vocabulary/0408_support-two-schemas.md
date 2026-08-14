@@ -1,0 +1,15 @@
+---
+id: "0408"
+term: "support two schemas"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/səˈpɔːt tuː ˈskiːməz/"
+description: "Let clients read both formats during a producer migration."
+descriptionJa: "移行期間中に新旧2つのスキーマを両立させる設計を述べる。"
+meaning: "to handle old and new schemas"
+meaningJa: "新旧2つのデータ形式（スキーマ）を移行期間中に両立させること"
+usageExample: "The client should support two schemas before the producer changes its format."
+usageExampleJa: "プロデューサーが形式を変える前に、クライアントは新旧2スキーマを両立させる。"
+difficulty: "Intermediate"
+scene: "Design / Architecture"
+---

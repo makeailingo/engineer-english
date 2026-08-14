@@ -1,0 +1,15 @@
+---
+id: "0296"
+term: "if that doesn't work"
+type: "phrase"
+partOfSpeech: "clause"
+pronunciation: "/ɪf ðæt ˈdʌznt wɜːk/"
+description: "Offer a fallback if the first attempt fails."
+descriptionJa: "試みた手段が失敗した場合のフォールバック策を提示する。"
+meaning: "if that fails"
+meaningJa: "それがうまくいかなければ"
+usageExample: "If that doesn't work, we'll use the next window."
+usageExampleJa: "うまくいかなければ次のウィンドウを使う。"
+difficulty: "Beginner"
+scene: "Meetings / Events"
+---

@@ -1,0 +1,15 @@
+---
+id: "0327"
+term: "take this to Slack later"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/teɪk ðɪs tuː slæk ˈleɪtə/"
+description: "Move a topic offline when the meeting runs long."
+descriptionJa: "会議時間内で解決し切れない議論をチャットへ逃がす標準。"
+meaning: "to discuss on Slack later"
+meaningJa: "この話は後でSlackで話す"
+usageExample: "We'll take this item to Slack later for further discussion."
+usageExampleJa: "この件は後でSlackで議論する。"
+difficulty: "Intermediate"
+scene: "Meetings / Events"
+---

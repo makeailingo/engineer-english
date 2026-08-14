@@ -1,0 +1,15 @@
+---
+id: "0432"
+term: "consistency and reliability"
+type: "phrase"
+partOfSpeech: "noun phrase"
+pronunciation: "/kənˈsɪstənsi ænd rɪˌlaɪəˈbɪləti/"
+description: "Argue for server-side prefs to improve trust in shared state."
+descriptionJa: "サーバー側保存による整合性と信頼性の向上を述べる。"
+meaning: "data consistency and reliability"
+meaningJa: "整合性と信頼性"
+usageExample: "Moving preferences to server-side storage improves consistency and reliability."
+usageExampleJa: "設定をサーバー側保存に移すと、整合性と信頼性が向上する。"
+difficulty: "Intermediate"
+scene: "Design / Architecture"
+---

@@ -1,0 +1,15 @@
+---
+id: "0705"
+term: "confirm availability"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/kənˈfɜːm əˌveɪləˈbɪləti/"
+description: "Check actual capacity before assigning people to a milestone."
+descriptionJa: "人員割り当てスケジュールの前に、実際の対応可能性を確認するときに使う。"
+meaning: "to confirm availability"
+meaningJa: "対応可能な時間帯・合力を確認する"
+usageExample: "Could you confirm your team's availability for the next milestone?"
+usageExampleJa: "次マイルストーンに対応可能か、チームの可用性を確認して。"
+difficulty: "Intermediate"
+scene: "Management"
+---

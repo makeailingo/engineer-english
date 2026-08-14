@@ -1,0 +1,15 @@
+---
+id: "0064"
+term: "design details"
+type: "phrase"
+partOfSpeech: "noun phrase"
+pronunciation: "/dɪˈzaɪn ˈdiːteɪlz/"
+description: "Fill in concrete design specifics before handoff to implementation."
+descriptionJa: "抽象的な提案を具体的な設計レベルまで落とし込んだ文脈に使える。"
+meaning: "specific elements of a design"
+meaningJa: "設計の詳細"
+usageExample: "I filled in the missing design details before handing the proposal to the implementation team."
+usageExampleJa: "実装チームへ引き渡す前に不足していた設計詳細を補完した。"
+difficulty: "Intermediate"
+scene: "Career / Interview"
+---

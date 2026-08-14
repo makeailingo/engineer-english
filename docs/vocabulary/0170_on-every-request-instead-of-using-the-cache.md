@@ -1,0 +1,15 @@
+---
+id: "0170"
+term: "on every request instead of using the cache"
+type: "phrase"
+partOfSpeech: "prepositional phrase"
+pronunciation: "/ɒn ˈevri rɪˈkwest ɪnˈsted ɒv ˈjuːzɪŋ ðə kæʃ/"
+description: "Fetch fresh data each request instead of using cache."
+descriptionJa: "リアルタイム性確保や整合性のためにキャッシュを無効化する。"
+meaning: "on every request rather than cache"
+meaningJa: "キャッシュを使う代わりにリクエストごとに"
+usageExample: "The service retrieves the latest mapping on every request instead of using the cache."
+usageExampleJa: "キャッシュを使わずリクエストごとに最新マッピングを取得する。"
+difficulty: "Intermediate"
+scene: "Implementation / Review"
+---

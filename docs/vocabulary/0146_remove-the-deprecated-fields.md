@@ -1,0 +1,15 @@
+---
+id: "0146"
+term: "remove the deprecated fields"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/rɪˈmuːv ðə dɪˈprekeɪtɪd fiːldz/"
+description: "Plan cleanup of deprecated fields after clients migrate."
+descriptionJa: "移行期間終了後のクリーンアップを説明する。"
+meaning: "to delete deprecated fields"
+meaningJa: "非推奨フィールドを削除する"
+usageExample: "We will remove the deprecated fields after all clients have migrated."
+usageExampleJa: "全クライアント移行後に非推奨フィールドを削除する。"
+difficulty: "Intermediate"
+scene: "Implementation / Review"
+---

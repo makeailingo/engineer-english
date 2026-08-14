@@ -1,0 +1,15 @@
+---
+id: "0252"
+term: "by next week"
+type: "phrase"
+partOfSpeech: "prepositional phrase"
+pronunciation: "/baɪ nekst wiːk/"
+description: "Set or accept a deadline around the following week."
+descriptionJa: "期限を設定・受託するときに使う。"
+meaning: "before next week ends"
+meaningJa: "来週までに"
+usageExample: "I hope to resolve the issue by next week."
+usageExampleJa: "来週までに問題を解決したい。"
+difficulty: "Beginner"
+scene: "Meetings / Events"
+---

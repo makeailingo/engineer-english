@@ -1,0 +1,15 @@
+---
+id: "0683"
+term: "the priority is to agree on the scope"
+type: "phrase"
+partOfSpeech: "clause"
+pronunciation: "/ðə praɪˈɒrəti ɪz tuː əˈɡriː ɒn ðə skəʊp/"
+description: "Set scope agreement as the first priority before estimating delivery dates."
+descriptionJa: "作業時間と納期に合わせた全一の前に、概論を確定させるときに使う。"
+meaning: "agreeing on scope comes first"
+meaningJa: "優先すべきはスコープに合意することだ"
+usageExample: "The priority is to agree on the scope before estimating delivery dates."
+usageExampleJa: "納期見積もり前に、スコープ合意が優先だ。"
+difficulty: "Intermediate"
+scene: "Management"
+---

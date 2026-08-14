@@ -1,0 +1,15 @@
+---
+id: "0592"
+term: "redirect URL"
+type: "phrase"
+partOfSpeech: "noun phrase"
+pronunciation: "/ˌriːdəˈrekt juː ɑːr el/"
+description: "Refer to the callback or return URL used after external verification."
+descriptionJa: "外部検証など戻り先を示す定型表現。"
+meaning: "redirect URL"
+meaningJa: "リダイレクトURL"
+usageExample: "The provider returns the result through a redirect URL."
+usageExampleJa: "プロバイダーはリダイレクトURL経由で結果を返す。"
+difficulty: "Intermediate"
+scene: "Technical Writing"
+---

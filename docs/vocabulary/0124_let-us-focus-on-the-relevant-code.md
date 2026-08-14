@@ -1,0 +1,15 @@
+---
+id: "0124"
+term: "let us focus on the relevant code"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/let əs ˈfəʊkəs ɒn ðə ˈreləvənt kəʊd/"
+description: "Use helpers so reviews focus on the important changes."
+descriptionJa: "コードレビューの効率を改善するための工夫を説明する。"
+meaning: "to let reviewers focus on relevant code"
+meaningJa: "関連するコードに集中できるようにする"
+usageExample: "The helper lets reviewers focus on the client code during review."
+usageExampleJa: "ヘルパーによりレビュー時にクライアントコードへ集中できる。"
+difficulty: "Beginner"
+scene: "Implementation / Review"
+---

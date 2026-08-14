@@ -1,0 +1,15 @@
+---
+id: "0702"
+term: "an early heads-up"
+type: "phrase"
+partOfSpeech: "noun phrase"
+pronunciation: "/ən ˈɜːli hedz ʌp/"
+description: "Share advance notice so others can prepare for upcoming capacity changes."
+descriptionJa: "相手が事前に準備できるよう、予兆として情報を共有するときに使う。"
+meaning: "an early warning"
+meaningJa: "事前の早めの案内"
+usageExample: "This is an early heads-up that our capacity may drop next month."
+usageExampleJa: "来月、キャパシティが下がる可能性がある事前案内だ。"
+difficulty: "Intermediate"
+scene: "Management"
+---

@@ -1,0 +1,15 @@
+---
+id: "0107"
+term: "proactively onboard new members"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/prəʊˈæktɪvli ˈɒnbɔːd njuː ˈmembəz/"
+description: "Prepare docs and pairing so newcomers become productive quickly."
+descriptionJa: "新規参入者の早期オンボーディングのための手厚いサポートやメンター能力を表現できる。"
+meaning: "to help new members start effectively early"
+meaningJa: "新しいメンバーを先回りして受け入れ、立ち上がりを支援する"
+usageExample: "I proactively onboarded new members by preparing documentation and pairing with them during their first sprint."
+usageExampleJa: "資料準備と初回スプリントのペアリングで新メンバーを先回り支援した。"
+difficulty: "Advanced"
+scene: "Career / Interview"
+---

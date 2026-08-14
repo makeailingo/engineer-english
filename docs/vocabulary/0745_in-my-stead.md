@@ -1,0 +1,15 @@
+---
+id: "0745"
+term: "in my stead"
+type: "phrase"
+partOfSpeech: "prepositional phrase"
+pronunciation: "/ɪn maɪ sted/"
+description: "Ask someone to present or act on your behalf when unavailable."
+descriptionJa: "自身が出席・対応できない場合に、代理で対応してもらうことを依頼する表現。"
+meaning: "on my behalf"
+meaningJa: "私の代わりに"
+usageExample: "You have the full context, so I believe you can present it in my stead."
+usageExampleJa: "文脈を把握しているので、代理で発表できるはずだ。"
+difficulty: "Intermediate"
+scene: "Management"
+---

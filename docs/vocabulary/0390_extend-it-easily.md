@@ -1,0 +1,15 @@
+---
+id: "0390"
+term: "extend it easily"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/ɪkˈstend ɪt ˈiːzɪli/"
+description: "Keep models generic so new roles or types need minimal change."
+descriptionJa: "将来の拡張が容易な設計にしておくべきだと述べる。"
+meaning: "to extend it with little effort"
+meaningJa: "容易に拡張できる"
+usageExample: "Keep the policy model generic so we can extend it easily for new roles."
+usageExampleJa: "新しいロール向けに容易に拡張できるよう、ポリシーモデルは汎用的に保つ。"
+difficulty: "Intermediate"
+scene: "Design / Architecture"
+---

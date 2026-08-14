@@ -1,0 +1,15 @@
+---
+id: "0445"
+term: "API-level performance risk"
+type: "phrase"
+partOfSpeech: "noun phrase"
+pronunciation: "/ˌeɪ piː ˈlevəl pəˈfɔːməns rɪsk/"
+description: "Assess latency or I/O risk for a specific API handler."
+descriptionJa: "API単位でのパフォーマンス低下リスクを評価する表現。"
+meaning: "performance risk at the API layer"
+meaningJa: "API単位（処理レベル）でのパフォーマンス低下リスク"
+usageExample: "API-level performance risk seems to be relatively low because the handler performs no additional I/O."
+usageExampleJa: "ハンドラが追加I/Oを行わないため、API単位の性能リスクは比較的低い。"
+difficulty: "Advanced"
+scene: "Design / Architecture"
+---

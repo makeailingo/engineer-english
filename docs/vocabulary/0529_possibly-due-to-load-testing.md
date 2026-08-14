@@ -1,0 +1,15 @@
+---
+id: "0529"
+term: "possibly due to load testing"
+type: "phrase"
+partOfSpeech: "clause"
+pronunciation: "/ˈpɒsəbli djuː tuː ləʊd ˈtestɪŋ/"
+description: "Suggest load testing as a possible cause of spikes or alerts."
+descriptionJa: "テストによる影響・誤検知の可能性として挙げる。"
+meaning: "possibly caused by load testing"
+meaningJa: "負荷テストの影響の可能性がある"
+usageExample: "The spike was possibly due to load testing."
+usageExampleJa: "スパイクは負荷テストが原因の可能性がある。"
+difficulty: "Intermediate"
+scene: "Incident Response"
+---

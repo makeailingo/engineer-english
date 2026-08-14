@@ -1,0 +1,15 @@
+---
+id: "0636"
+term: "with an extra action before"
+type: "phrase"
+partOfSpeech: "prepositional phrase"
+pronunciation: "/wɪð ən ˈekstrə ˈækʃn bɪˈfɔː/"
+description: "Describe an additional step required before redirection occurs."
+descriptionJa: "遷移フローの途中で行う補足アクションを指示。"
+meaning: "with an extra action before"
+meaningJa: "その前に追加のアクションを行って"
+usageExample: "The target is the same page, with an extra action before redirection."
+usageExampleJa: "同じページだが、リダイレクト前に追加アクションがある。"
+difficulty: "Intermediate"
+scene: "Technical Writing"
+---

@@ -1,0 +1,15 @@
+---
+id: "0338"
+term: "assign this to someone else"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/əˈsaɪn ðɪs tuː ˈsʌmwʌn els/"
+description: "Move work to another person when needed."
+descriptionJa: "タスクの負荷分散や担当変更を行う際の表現。"
+meaning: "to reassign this task"
+meaningJa: "これを他の人に割り当てる"
+usageExample: "Since you are occupied, I'll assign this to someone else."
+usageExampleJa: "多忙なので、他の人に割り当てる。"
+difficulty: "Intermediate"
+scene: "Meetings / Events"
+---
