@@ -307,6 +307,7 @@ code {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: var(--spacing-base);
+  min-width: 0;
 }
 
 .vocabulary-table__usage-en,
