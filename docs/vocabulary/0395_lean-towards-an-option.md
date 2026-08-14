@@ -1,0 +1,15 @@
+---
+id: "0395"
+term: "lean towards an option"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/liːn təˈwɔːdz ən ˈɒpʃn/"
+description: "State a tentative preference for one design option among several."
+descriptionJa: "設計議論で複数案のうち一方向に傾いている状態を述べる表現。"
+meaning: "to favor one option"
+meaningJa: "選択肢のうち一つに傾いている"
+usageExample: "We lean towards the relational option because future reporting requires joins."
+usageExampleJa: "将来のレポートにJOINが必要なため、リレーショナル案に傾いている。"
+difficulty: "Intermediate"
+scene: "Design / Architecture"
+---

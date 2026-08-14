@@ -1,0 +1,15 @@
+---
+id: "0384"
+term: "phase out"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/feɪz aʊt/"
+description: "Deprecate legacy tokens after clients adopt the new model."
+descriptionJa: "レガシー機能を段階的に廃止していく移行計画を述べる。"
+meaning: "to retire gradually"
+meaningJa: "段階的に廃止・廃版（非推奨）にしていくこと"
+usageExample: "We will phase out the legacy token after all clients adopt the new identity model."
+usageExampleJa: "全クライアントが新IDモデルを採用後、レガシートークンを段階的に廃止する。"
+difficulty: "Beginner"
+scene: "Design / Architecture"
+---

@@ -1,0 +1,15 @@
+---
+id: "0401"
+term: "default fallbacks"
+type: "phrase"
+partOfSpeech: "noun phrase"
+pronunciation: "/dɪˈfɔːlt ˈfɔːlbæks/"
+description: "Use built-in defaults when upstream data or services fail."
+descriptionJa: "障害時や未設定時に使うデフォルトの代替値を指す。"
+meaning: "default backup values"
+meaningJa: "デフォルトの代替手段・代用値"
+usageExample: "The client can serve as default fallbacks during an outage."
+usageExampleJa: "障害時、クライアントがデフォルトの代替値として機能できる。"
+difficulty: "Intermediate"
+scene: "Design / Architecture"
+---

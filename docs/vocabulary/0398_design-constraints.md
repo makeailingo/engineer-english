@@ -1,0 +1,15 @@
+---
+id: "0398"
+term: "design constraints"
+type: "phrase"
+partOfSpeech: "noun phrase"
+pronunciation: "/dɪˈzaɪn kənˈstreɪnts/"
+description: "List requirements or limits that shape architecture choices."
+descriptionJa: "設計上守るべき制約条件を列挙・確認するときに使う。"
+meaning: "limits on the design"
+meaningJa: "設計上の制約事項"
+usageExample: "These design constraints require stable identifiers and RESTful endpoints."
+usageExampleJa: "これらの設計制約により、安定した識別子とRESTfulエンドポイントが必要だ。"
+difficulty: "Intermediate"
+scene: "Design / Architecture"
+---

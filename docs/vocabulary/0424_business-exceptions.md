@@ -1,0 +1,15 @@
+---
+id: "0424"
+term: "business exceptions"
+type: "phrase"
+partOfSpeech: "noun phrase"
+pronunciation: "/ˈbɪznəs ɪkˈsepʃnz/"
+description: "Capture account or workflow exceptions in the design doc."
+descriptionJa: "業務ルール上の例外パターンを設計文書に記載する表現。"
+meaning: "business-rule exception cases"
+meaningJa: "業務ルール・ユースケース上の例外パターン"
+usageExample: "The design document should capture business exceptions for suspended accounts."
+usageExampleJa: "設計文書には停止アカウントの業務例外を記載すべきだ。"
+difficulty: "Intermediate"
+scene: "Design / Architecture"
+---

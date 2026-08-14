@@ -1,0 +1,15 @@
+---
+id: "0410"
+term: "in this scope"
+type: "phrase"
+partOfSpeech: "prepositional phrase"
+pronunciation: "/ɪn ðɪs skəʊp/"
+description: "State what will be delivered in the current project boundary."
+descriptionJa: "今回の対象範囲内で対応することを示す。"
+meaning: "within this effort"
+meaningJa: "今回の対象範囲内"
+usageExample: "We will update the preferences API in this scope."
+usageExampleJa: "今回のスコープでは設定APIを更新する。"
+difficulty: "Intermediate"
+scene: "Design / Architecture"
+---

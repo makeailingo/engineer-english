@@ -1,0 +1,15 @@
+---
+id: "0435"
+term: "prevent PII leaks"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/prɪˈvent piː aɪ aɪ liːks/"
+description: "Mask structured error fields so logs do not expose PII."
+descriptionJa: "ログ等から個人情報漏洩を防ぐ設計対策を述べる。"
+meaning: "to stop personal data leaks"
+meaningJa: "個人情報（PII）の漏洩を防ぐ"
+usageExample: "Log masks for structured error fields to prevent PII leaks through application logs."
+usageExampleJa: "構造化エラーフィールドをマスクし、ログ経由のPII漏洩を防ぐ。"
+difficulty: "Intermediate"
+scene: "Design / Architecture"
+---

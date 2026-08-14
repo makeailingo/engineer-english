@@ -1,0 +1,15 @@
+---
+id: "0377"
+term: "breaking changes"
+type: "phrase"
+partOfSpeech: "noun phrase"
+pronunciation: "/ˈbreɪkɪŋ tʃeɪndʒɪz/"
+description: "Announce API changes that require client updates before rollout."
+descriptionJa: "非互換な仕様変更が必要になることを事前に周知する表現。"
+meaning: "incompatible specification changes"
+meaningJa: "仕様変更により必要となる非互換な変更"
+usageExample: "Breaking changes on BFF side should be announced before non-engineering teams begin testing."
+usageExampleJa: "BFF側の破壊的変更は、非エンジニアチームのテスト前に告知すべきだ。"
+difficulty: "Beginner"
+scene: "Design / Architecture"
+---

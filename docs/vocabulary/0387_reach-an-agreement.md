@@ -1,0 +1,15 @@
+---
+id: "0387"
+term: "reach an agreement"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/riːtʃ ən əˈɡriːmənt/"
+description: "Settle schema or interface decisions with upstream teams."
+descriptionJa: "関係チーム間で方針の合意に達することを述べる。"
+meaning: "to come to an agreement"
+meaningJa: "合意に達する・双方で方針を決定する"
+usageExample: "We hope to reach an agreement with the upstream team on the schema transition."
+usageExampleJa: "スキーマ移行について上流チームと合意に達することを望む。"
+difficulty: "Beginner"
+scene: "Design / Architecture"
+---

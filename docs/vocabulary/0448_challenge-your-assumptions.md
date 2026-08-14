@@ -1,0 +1,15 @@
+---
+id: "0448"
+term: "challenge your assumptions"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/ˈtʃælɪndʒ jɔːr əˈsʌmpʃnz/"
+description: "Ask the team to re-examine beliefs about load, scope, or behavior."
+descriptionJa: "設計の前提条件を疑い、再検証するよう促す表現。"
+meaning: "to question your assumptions"
+meaningJa: "前提条件を疑う・再検証する"
+usageExample: "The architecture team wants to challenge your assumptions about peak traffic."
+usageExampleJa: "アーキテクチャチームはピークトラフィックに関する前提の再検証を求めている。"
+difficulty: "Advanced"
+scene: "Design / Architecture"
+---

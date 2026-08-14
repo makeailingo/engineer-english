@@ -1,0 +1,15 @@
+---
+id: "0412"
+term: "resource-based endpoints"
+type: "phrase"
+partOfSpeech: "noun phrase"
+pronunciation: "/rɪˈsɔːs beɪst ˈendpɔɪnts/"
+description: "Split APIs into endpoints aligned with domain entities."
+descriptionJa: "リソース単位に分割したAPIエンドポイント設計を指す。"
+meaning: "endpoints organized by resource"
+meaningJa: "リソース（概念）単位に特化したエンドポイント"
+usageExample: "We split the API into resource-based endpoints for users and cards."
+usageExampleJa: "APIをユーザーとカード向けのリソース単位エンドポイントに分割した。"
+difficulty: "Intermediate"
+scene: "Design / Architecture"
+---

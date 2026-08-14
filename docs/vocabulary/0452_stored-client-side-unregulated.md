@@ -1,0 +1,15 @@
+---
+id: "0452"
+term: "stored client-side unregulated"
+type: "phrase"
+partOfSpeech: "adjective phrase"
+pronunciation: "/stɔːd ˈklaɪənt saɪd ʌnˈreɡjuleɪtɪd/"
+description: "Flag uncontrolled client storage that breaks retention rules."
+descriptionJa: "クライアント側に無制限保存されるリスクを指摘する表現。"
+meaning: "stored on the client without controls"
+meaningJa: "クライアント側に無制限に保存されている"
+usageExample: "If data is stored client-side unregulated, so retention rules are not enforced."
+usageExampleJa: "クライアント側に無制限保存されると、保持ルールが適用されない。"
+difficulty: "Advanced"
+scene: "Design / Architecture"
+---

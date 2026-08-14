@@ -1,0 +1,15 @@
+---
+id: "0428"
+term: "instead of using the cache"
+type: "phrase"
+partOfSpeech: "prepositional phrase"
+pronunciation: "/ɪnˈsted əv ˈjuːzɪŋ ðə kæʃ/"
+description: "Call the source service directly when cache risk is too high."
+descriptionJa: "キャッシュではなく正規データソースを参照する設計判断。"
+meaning: "rather than using the cache"
+meaningJa: "キャッシュを使わない"
+usageExample: "The read path calls the authoritative service instead of using the cache."
+usageExampleJa: "読み取りパスはキャッシュではなく、正規サービスを呼び出す。"
+difficulty: "Intermediate"
+scene: "Design / Architecture"
+---

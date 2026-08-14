@@ -1,0 +1,15 @@
+---
+id: "0437"
+term: "rollback mechanism"
+type: "phrase"
+partOfSpeech: "noun phrase"
+pronunciation: "/ˈrəʊlbæk ˈmekənɪzm/"
+description: "Test how to revert traffic or config before going live."
+descriptionJa: "リリースを元に戻す切り戻し手順・仕組みを設計する表現。"
+meaning: "way to revert a release"
+meaningJa: "変更・リリースを元に戻すための切り戻し手順や仕組み"
+usageExample: "We should test the rollback mechanism before routing production traffic to the new stack."
+usageExampleJa: "本番トラフィックを新スタックへ向ける前に、ロールバック手順をテストすべきだ。"
+difficulty: "Intermediate"
+scene: "Design / Architecture"
+---

@@ -1,0 +1,15 @@
+---
+id: "0396"
+term: "an appropriate approach"
+type: "phrase"
+partOfSpeech: "noun phrase"
+pronunciation: "/ən əˈprəʊpriət əˈprəʊtʃ/"
+description: "Ask whether a proposed pattern fits the problem and constraints."
+descriptionJa: "提案する設計方針が妥当かどうか確認を求める際に使う。"
+meaning: "a suitable design approach"
+meaningJa: "妥当な進め方・設計方針"
+usageExample: "Please review whether event sourcing is an appropriate approach for this audit trail."
+usageExampleJa: "監査証跡にイベントソーシングが妥当な進め方かレビューしてほしい。"
+difficulty: "Intermediate"
+scene: "Design / Architecture"
+---

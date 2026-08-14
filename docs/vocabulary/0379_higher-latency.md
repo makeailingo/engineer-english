@@ -1,0 +1,15 @@
+---
+id: "0379"
+term: "higher latency"
+type: "phrase"
+partOfSpeech: "noun phrase"
+pronunciation: "/ˈhaɪə ˈleɪtənsi/"
+description: "Ensure monitoring shows any added latency clearly."
+descriptionJa: "レイテンシ増大を監視で可視化する必要があると述べる。"
+meaning: "increased response delay"
+meaningJa: "レイテンシー（応答速度）の増大・遅延"
+usageExample: "Any higher latency must remain visible in the monitoring histogram."
+usageExampleJa: "レイテンシー増加は監視ヒストグラムで可視化され続けなければならない。"
+difficulty: "Beginner"
+scene: "Design / Architecture"
+---

@@ -1,0 +1,15 @@
+---
+id: "0403"
+term: "cross-squad dependency"
+type: "phrase"
+partOfSpeech: "noun phrase"
+pronunciation: "/krɒs skwɒd dɪˈpendənsi/"
+description: "Note when work spans teams and must appear in delivery plans."
+descriptionJa: "複数スクワッドにまたがる依存関係を設計で扱う表現。"
+meaning: "dependency across squads"
+meaningJa: "複数スクワッド間にまたがる依存関係"
+usageExample: "This endpoint creates a cross-squad dependency that must be reflected in the delivery plan."
+usageExampleJa: "このエンドポイントはクロススクワッド依存を生み、計画に反映すべきだ。"
+difficulty: "Intermediate"
+scene: "Design / Architecture"
+---

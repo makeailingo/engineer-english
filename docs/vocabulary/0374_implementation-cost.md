@@ -1,0 +1,15 @@
+---
+id: "0374"
+term: "implementation cost"
+type: "phrase"
+partOfSpeech: "noun phrase"
+pronunciation: "/ˌɪmplɪmenˈteɪʃn kɒst/"
+description: "Compare engineering effort with expected operational savings."
+descriptionJa: "開発・実装にかかる工数やコストを比較検討するときに使う。"
+meaning: "effort to build the change"
+meaningJa: "開発・実装にかかる工数やコスト"
+usageExample: "We should compare the implementation cost with the operational savings."
+usageExampleJa: "実装コストと運用削減効果を比較すべきだ。"
+difficulty: "Beginner"
+scene: "Design / Architecture"
+---

@@ -1,0 +1,15 @@
+---
+id: "0434"
+term: "edge cases we may have missed"
+type: "phrase"
+partOfSpeech: "noun phrase"
+pronunciation: "/edʒ keɪsɪz wiː meɪ hæv mɪst/"
+description: "Ask reviewers to flag rare cases before rollout."
+descriptionJa: "見落とし得る例外ケースを確認してほしいと依頼する表現。"
+meaning: "edge cases we might have overlooked"
+meaningJa: "見落としている可能性のある例外・特殊ケース"
+usageExample: "Please flag any edge cases we may have missed before the rollout."
+usageExampleJa: "ロールアウト前に、見落としている例外ケースがあれば指摘してほしい。"
+difficulty: "Intermediate"
+scene: "Design / Architecture"
+---

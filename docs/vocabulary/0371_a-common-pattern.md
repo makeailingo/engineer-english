@@ -1,0 +1,15 @@
+---
+id: "0371"
+term: "a common pattern"
+type: "phrase"
+partOfSpeech: "noun phrase"
+pronunciation: "/ə ˈkɒmən ˈpætn/"
+description: "Suggest a solution other teams could reuse for similar features."
+descriptionJa: "他チームでも再利用できる共通パターンとして設計する意図を述べる。"
+meaning: "a shared reusable pattern"
+meaningJa: "複数チームで共有できる共通パターン"
+usageExample: "This ownership transfer could become a common pattern for small cross-squad features."
+usageExampleJa: "この所有権移譲は、小規模なクロススクワッド機能の共通パターンになり得る。"
+difficulty: "Beginner"
+scene: "Design / Architecture"
+---

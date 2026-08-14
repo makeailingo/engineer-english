@@ -1,0 +1,15 @@
+---
+id: "0464"
+term: "still in the testing phase"
+type: "phrase"
+partOfSpeech: "clause"
+pronunciation: "/stɪl ɪn ðə ˈtestɪŋ feɪz/"
+description: "Say logic is experimental and must not hit production yet."
+descriptionJa: "まだテスト段階であり本番適用すべきでないと述べる。"
+meaning: "still being tested"
+meaningJa: "まだテスト段階にあるため変更や仕様追加が起こり得る状態"
+usageExample: "The feature flag logic is still in the testing phase and must not target production branches."
+usageExampleJa: "フィーチャーフラグロジックはテスト段階のため、本番ブランチを対象にしてはならない。"
+difficulty: "Advanced"
+scene: "Design / Architecture"
+---
