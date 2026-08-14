@@ -1,0 +1,15 @@
+---
+id: "0132"
+term: "introduce a new API"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/ˌɪntrəˈdjuːs ə njuː ˌeɪ piː ˈaɪ/"
+description: "Add a new API endpoint or contract in a PR or design note."
+descriptionJa: "ユーザー通知設定を取得する新しいAPIを導入する時に使う。"
+meaning: "to add a new API"
+meaningJa: "新しいAPIを導入する"
+usageExample: "This PR introduces a new API for retrieving the user notification setting;"
+usageExampleJa: "このPRはユーザー通知設定取得用の新APIを導入する。"
+difficulty: "Intermediate"
+scene: "Implementation / Review"
+---

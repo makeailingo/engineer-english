@@ -1,0 +1,15 @@
+---
+id: "0163"
+term: "support partial updates"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/səˈpɔːt ˈpɑːʃl ˈʌpdeɪts/"
+description: "Switch to PATCH or similar to update only some fields."
+descriptionJa: "リクエストの一部のみを変更するPUT/PATCH系の修正理由を述べる。"
+meaning: "to allow partial updates"
+meaningJa: "部分更新をサポートする"
+usageExample: "The method was changed to PATCH to support partial updates."
+usageExampleJa: "部分更新対応のためメソッドをPATCHに変更した。"
+difficulty: "Intermediate"
+scene: "Implementation / Review"
+---

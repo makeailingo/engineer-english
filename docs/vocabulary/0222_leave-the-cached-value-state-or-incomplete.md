@@ -1,0 +1,15 @@
+---
+id: "0222"
+term: "leave the cached value state or incomplete"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/liːv ðə kæʃt ˈvæljuː steɪt ɔːr ˌɪnkəmˈpliːt/"
+description: "Warn that failed updates can leave cache inconsistent."
+descriptionJa: "キャッシュ不整合や非同期処理での失敗時の危険性を説明する。"
+meaning: "to leave cache stale or incomplete"
+meaningJa: "キャッシュされた値を古い、または不完全な状態にしておく"
+usageExample: "A failed update can leave the cached mapping state or incomplete."
+usageExampleJa: "更新失敗でキャッシュマッピングが古いか不完全な状態に残る。"
+difficulty: "Advanced"
+scene: "Implementation / Review"
+---

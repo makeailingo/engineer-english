@@ -1,0 +1,15 @@
+---
+id: "0232"
+term: "move the read path to a dedicated resource"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/muːv ðə riːd pɑːθ tuː ə ˈdedɪkeɪtɪd rɪˈsɔːs/"
+description: "Separate read paths for clearer ownership or CQRS."
+descriptionJa: "CQRS的な切り分けやリソースの明確化のためのパス変更。"
+meaning: "to move reads to a dedicated resource"
+meaningJa: "読み取りパスを専用リソースへ移動する"
+usageExample: "This change moves the read path to a dedicated resource with clearer ownership."
+usageExampleJa: "読み取りパスを所有権が明確な専用リソースへ移した。"
+difficulty: "Advanced"
+scene: "Implementation / Review"
+---

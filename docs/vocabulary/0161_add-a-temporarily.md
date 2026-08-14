@@ -1,0 +1,15 @@
+---
+id: "0161"
+term: "add A temporarily"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/æd ˈtempərərili/"
+description: "Mark code as temporary for migration or tracking."
+descriptionJa: "恒久的ではない、期間限定で必要なコードであることを明記する。"
+meaning: "to add A for a limited time"
+meaningJa: "Aを一時的に追加する"
+usageExample: "This PR adds the identifier temporarily for migration tracking."
+usageExampleJa: "このPRは移行追跡用に識別子を一時的に追加する。"
+difficulty: "Intermediate"
+scene: "Implementation / Review"
+---

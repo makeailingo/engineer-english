@@ -1,0 +1,15 @@
+---
+id: "0137"
+term: "refactor A to simplify and standardize B"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/riːˈfæktə tuː ˈsɪmplɪfaɪ ænd ˈstændədaɪz/"
+description: "Restructure code so setup or logic is simpler and more consistent."
+descriptionJa: "テストを整理し、認証設定を簡素化・標準化する変更であることを指す。"
+meaning: "to refactor A to simplify B"
+meaningJa: "Bを簡素化・標準化するためにAをリファクタリングする"
+usageExample: "This change refactors the tests to simplify and standardize authentication setup."
+usageExampleJa: "認証設定を簡素化・標準化するためテストをリファクタリングした。"
+difficulty: "Intermediate"
+scene: "Implementation / Review"
+---

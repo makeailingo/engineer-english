@@ -1,0 +1,15 @@
+---
+id: "0125"
+term: "the root cause was that"
+type: "phrase"
+partOfSpeech: "clause"
+pronunciation: "/ðə ruːt kɔːz wɒz ðæt/"
+description: "State the direct cause found during debugging."
+descriptionJa: "バグ調査の結果や不具合の直接的な原因を説明する。"
+meaning: "the root cause was"
+meaningJa: "根本原因は〜だった"
+usageExample: "The root cause was that the ownership lookup ran before input validation."
+usageExampleJa: "根本原因は所有権ルックアップが入力検証より先に走っていたことだった。"
+difficulty: "Beginner"
+scene: "Implementation / Review"
+---

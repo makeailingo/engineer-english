@@ -1,0 +1,15 @@
+---
+id: "0171"
+term: "be covered by unit and integration tests"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/bi ˈkʌvəd baɪ ˈjuːnɪt ænd ˌɪntɪˈɡreɪʃn tests/"
+description: "State that behavior is protected by existing tests."
+descriptionJa: "既存の動的な信頼性を保証できている理由を述べる。"
+meaning: "to be covered by unit and integration tests"
+meaningJa: "単体・結合テストでカバーされている"
+usageExample: "The behavior is currently covered by unit and integration tests."
+usageExampleJa: "この挙動は単体・結合テストでカバーされている。"
+difficulty: "Intermediate"
+scene: "Implementation / Review"
+---

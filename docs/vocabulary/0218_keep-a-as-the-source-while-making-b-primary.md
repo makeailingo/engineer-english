@@ -1,0 +1,15 @@
+---
+id: "0218"
+term: "keep A as the source while making B primary"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/kiːp æz ðə sɔːs waɪl ˈmeɪkɪŋ ˈpraɪməri/"
+description: "Describe dual documentation roles during a transition."
+descriptionJa: "設計資料などのドキュメント構成に関する役割分担を指す。"
+meaning: "to keep A as source and B as primary"
+meaningJa: "Aを保管元として維持しつつBを主ソースとする"
+usageExample: "We keep PlantUML as the source while making TDD the primary design document."
+usageExampleJa: "PlantUMLを保管元としつつTDDを主設計資料とする。"
+difficulty: "Advanced"
+scene: "Implementation / Review"
+---

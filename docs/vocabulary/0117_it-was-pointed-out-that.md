@@ -1,0 +1,15 @@
+---
+id: "0117"
+term: "it was pointed out that"
+type: "phrase"
+partOfSpeech: "clause"
+pronunciation: "/ɪt wɒz ˈpɔɪntɪd aʊt ðæt/"
+description: "Record feedback received during review or discussion."
+descriptionJa: "レビューや議論で指摘を受けた経緯を記す際に使用。"
+meaning: "someone noted that"
+meaningJa: "〜であると指摘された"
+usageExample: "It was pointed out that the original name was ambiguous."
+usageExampleJa: "元の名前が曖昧であると指摘された。"
+difficulty: "Beginner"
+scene: "Implementation / Review"
+---

@@ -1,0 +1,15 @@
+---
+id: "0203"
+term: "ensure compatibility with the latest frameworks"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/ɪnˈʃʊə kəmˌpætəˈbɪləti wɪð ðə ˈleɪtɪst ˈfreɪmwɜːks/"
+description: "Upgrade dependencies to stay compatible with supported frameworks."
+descriptionJa: "依存ライブラリのバージョンアップ理由を明記する。"
+meaning: "to ensure latest framework compatibility"
+meaningJa: "最新フレームワークとの互換性を確保する"
+usageExample: "The update ensures compatibility with the latest supported frameworks."
+usageExampleJa: "更新は最新サポートフレームワークとの互換性を確保する。"
+difficulty: "Intermediate"
+scene: "Implementation / Review"
+---

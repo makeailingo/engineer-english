@@ -1,0 +1,15 @@
+---
+id: "0205"
+term: "follow the single-responsibility principle"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/ˈfɒləʊ ðə ˌsɪŋɡl rɪˌspɒnsəˈbɪləti ˈprɪnsəpl/"
+description: "Split layers to give each component one clear job."
+descriptionJa: "クラスやモジュールの分割理由として、単一責任原則への準拠を挙げる。"
+meaning: "to follow single responsibility"
+meaningJa: "単一責任の原則に従う"
+usageExample: "The repository was separated from the service to follow the single-responsibility principle."
+usageExampleJa: "単一責任原則に従いリポジトリをサービスから分離した。"
+difficulty: "Intermediate"
+scene: "Implementation / Review"
+---

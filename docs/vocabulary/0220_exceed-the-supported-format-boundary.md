@@ -1,0 +1,15 @@
+---
+id: "0220"
+term: "exceed the supported format boundary"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/ɪkˈsiːd ðə səˈpɔːtɪd ˈfɔːmæt ˈbaʊndri/"
+description: "Explain input exceeded allowed format or length."
+descriptionJa: "入力値がサポートされているフォーマットや長さの範囲を超えているケースを示す。"
+meaning: "to go beyond supported format limits"
+meaningJa: "サポートされる形式の境界を超える"
+usageExample: "The error occurred when the identifier exceeds the supported format boundary."
+usageExampleJa: "識別子がサポート形式の境界を超えたときにエラーが起きた。"
+difficulty: "Advanced"
+scene: "Implementation / Review"
+---

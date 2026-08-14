@@ -1,0 +1,15 @@
+---
+id: "0215"
+term: "improvement might be limited unless"
+type: "phrase"
+partOfSpeech: "clause"
+pronunciation: "/ɪmˈpruːvmənt maɪt biː ˈlɪmɪtɪd ʌnˈles/"
+description: "Point out that local optimization needs broader changes too."
+descriptionJa: "ボトルネックや局所的な最適化の限界を指摘する際で使う。"
+meaning: "gains may be small unless"
+meaningJa: "〜しない限り改善効果は限定的かもしれない"
+usageExample: "The performance improvement might be limited unless the downstream calls are also non-blocking."
+usageExampleJa: "下流呼び出しも非ブロッキングでなければ性能改善は限定的かもしれない。"
+difficulty: "Advanced"
+scene: "Implementation / Review"
+---

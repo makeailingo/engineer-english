@@ -1,0 +1,15 @@
+---
+id: "0234"
+term: "conduct a size impact analysis"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/kənˈdʌkt ə saɪz ˈɪmpækt əˈnæləsɪs/"
+description: "Analyze capacity impact before storing new data in cache."
+descriptionJa: "容量増加やパフォーマンス影響に関する事前検証を行ったことを述べる。"
+meaning: "to analyze size impact"
+meaningJa: "影響サイズを分析する"
+usageExample: "We conducted a size impact analysis before storing the new context in the existing cache."
+usageExampleJa: "既存キャッシュへ新コンテキスト保存前にサイズ影響分析を実施した。"
+difficulty: "Advanced"
+scene: "Implementation / Review"
+---

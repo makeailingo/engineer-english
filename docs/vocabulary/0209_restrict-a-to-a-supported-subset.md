@@ -1,0 +1,15 @@
+---
+id: "0209"
+term: "restrict A to a supported subset"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/rɪˈstrɪkt tuː ə səˈpɔːtɪd ˈsʌbset/"
+description: "Filter inputs or features to an allowed subset."
+descriptionJa: "入力値や利用可能な機能のスコープを制限・フィルタリングする。"
+meaning: "to limit A to a supported subset"
+meaningJa: "Aをサポート対象の一部に制限する"
+usageExample: "The renderer restricts Markdown to a supported subset of formatting features."
+usageExampleJa: "レンダラーはMarkdownをサポート対象の書式機能に制限する。"
+difficulty: "Intermediate"
+scene: "Implementation / Review"
+---

@@ -1,0 +1,15 @@
+---
+id: "0177"
+term: "provide examples that reviewers can follow"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/prəˈvaɪd ɪɡˈzɑːmplz ðæt rɪˈvjuːəz kæn ˈfɒləʊ/"
+description: "Include sample steps reviewers can reuse later."
+descriptionJa: "サンプル手順や判断の基準・レビューの指標を示す。"
+meaning: "to give examples for reviewers"
+meaningJa: "レビュー担当者が参考にする例を示す"
+usageExample: "The document provides examples that reviewers can follow for future migrations."
+usageExampleJa: "文書は今後の移行でレビュー担当者が参考にできる例を示す。"
+difficulty: "Intermediate"
+scene: "Implementation / Review"
+---

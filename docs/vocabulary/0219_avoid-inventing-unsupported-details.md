@@ -1,0 +1,15 @@
+---
+id: "0219"
+term: "avoid inventing unsupported details"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/əˈvɔɪd ɪnˈventɪŋ ˌʌnsəˈpɔːtɪd ˈdiːteɪlz/"
+description: "Stick to the spec instead of adding nonstandard behavior."
+descriptionJa: "非標準な対応や独自の解釈を排除して標準・仕様に従う意図。"
+meaning: "to avoid adding unsupported details"
+meaningJa: "サポートされていない詳細を独自に作成しない"
+usageExample: "The conversion rules avoid inventing unsupported implementation details."
+usageExampleJa: "変換ルールは未サポートの実装詳細を独自に作らない。"
+difficulty: "Advanced"
+scene: "Implementation / Review"
+---

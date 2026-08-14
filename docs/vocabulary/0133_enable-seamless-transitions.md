@@ -1,0 +1,15 @@
+---
+id: "0133"
+term: "enable seamless transitions"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/ɪˈneɪbl ˈsiːmləs trænˈzɪʃnz/"
+description: "Allow users or data to move between apps or states without friction."
+descriptionJa: "共有コンテキストにより、2つのアプリケーション間のスムーズな遷移を可能にする時に使う。"
+meaning: "to allow smooth transitions"
+meaningJa: "シームレスな遷移を可能にする"
+usageExample: "The shared context enables seamless transitions between the two applications."
+usageExampleJa: "共有コンテキストにより2アプリ間のシームレスな遷移を可能にする。"
+difficulty: "Intermediate"
+scene: "Implementation / Review"
+---

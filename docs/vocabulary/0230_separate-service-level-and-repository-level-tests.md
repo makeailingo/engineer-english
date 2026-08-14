@@ -1,0 +1,15 @@
+---
+id: "0230"
+term: "separate service-level and repository-level tests"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/ˈseprət ˈsɜːvɪs levəl ænd rɪˈpɒzɪtəri levəl tests/"
+description: "Organize tests by layer for clearer coverage."
+descriptionJa: "テストコード構造の整備やレイヤー別のテストカバレッジ設定を説明する。"
+meaning: "to separate service and repository tests"
+meaningJa: "サービスレベルとリポジトリレベルのテストを分離する"
+usageExample: "The integration suite separates service-level and repository-level tests."
+usageExampleJa: "結合スイートはサービス層とリポジトリ層のテストを分離する。"
+difficulty: "Advanced"
+scene: "Implementation / Review"
+---

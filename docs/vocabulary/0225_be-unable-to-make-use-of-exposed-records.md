@@ -1,0 +1,15 @@
+---
+id: "0225"
+term: "be unable to make use of exposed records"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/bi ʌnˈeɪbl tuː meɪk juːs ɒv ɪkˈspəʊzd ˈrekɔːdz/"
+description: "Argue hashed records are useless if leaked."
+descriptionJa: "ハッシュ化などによる万が一のデータ漏洩時の安全性を強調する。"
+meaning: "to be unable to abuse exposed records"
+meaningJa: "漏洩した記録を悪用できない"
+usageExample: "An attacker would be unable to make use of the exposed hashed records."
+usageExampleJa: "攻撃者は漏洩したハッシュ記録を悪用できない。"
+difficulty: "Advanced"
+scene: "Implementation / Review"
+---

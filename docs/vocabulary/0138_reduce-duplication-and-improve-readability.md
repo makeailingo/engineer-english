@@ -1,0 +1,15 @@
+---
+id: "0138"
+term: "reduce duplication and improve readability"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/rɪˈdjuːs ˌdjuːplɪˈkeɪʃn ænd ɪmˈpruːv ˌriːdəˈbɪləti/"
+description: "Use shared helpers to remove repeated code and clarify tests."
+descriptionJa: "共通ヘルパー関数により、重複を削減しテストコード全体の可読性を向上させた。"
+meaning: "to cut duplication and improve clarity"
+meaningJa: "重複を減らして可読性を向上させる"
+usageExample: "The shared helper reduces duplication and improves readability across the test suite."
+usageExampleJa: "共通ヘルパーで重複を減らし、テスト全体の可読性を向上させた。"
+difficulty: "Intermediate"
+scene: "Implementation / Review"
+---

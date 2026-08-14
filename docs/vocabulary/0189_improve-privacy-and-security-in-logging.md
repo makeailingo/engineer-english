@@ -1,0 +1,15 @@
+---
+id: "0189"
+term: "improve privacy and security in Logging"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/ɪmˈpruːv ˈprɪvəsi ænd sɪˈkjʊərəti ɪn ˈlɒɡɪŋ/"
+description: "Strengthen log redaction to reduce sensitive data exposure."
+descriptionJa: "ログ内の感性データ漏洩を防ぎセキュリティ向上させたことを表す。"
+meaning: "to improve logging privacy and security"
+meaningJa: "ログのプライバシーとセキュリティを向上させる"
+usageExample: "The redaction rules improves privacy and security in logging."
+usageExampleJa: "マスキングルールでログのプライバシーとセキュリティを向上させた。"
+difficulty: "Intermediate"
+scene: "Implementation / Review"
+---

@@ -1,0 +1,15 @@
+---
+id: "0172"
+term: "consider it passed if the build succeeds"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/kənˈsɪdər ɪt pɑːst ɪf ðə bɪld səkˈsiːdz/"
+description: "Accept CI build success as sufficient for low-risk changes."
+descriptionJa: "CIビルドの合格をもって変更の正当性を証明したとみなす。"
+meaning: "to treat a green build as pass"
+meaningJa: "ビルドが成功すれば合格とみなす"
+usageExample: "For this internal change, consider it passed if the build succeeds in CI."
+usageExampleJa: "内部変更はCIビルド成功をもって合格とみなしてよい。"
+difficulty: "Intermediate"
+scene: "Implementation / Review"
+---

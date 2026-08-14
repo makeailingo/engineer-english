@@ -1,0 +1,15 @@
+---
+id: "0151"
+term: "support both the new and old formats"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/səˈpɔːt bəʊθ ðə njuː ænd əʊld ˈfɔːmæts/"
+description: "Keep both payload formats during a migration period."
+descriptionJa: "移行期間中の新旧形式互換のための変更を行ったことを示す。"
+meaning: "to accept new and old formats"
+meaningJa: "新旧両方の形式に対応する"
+usageExample: "The server temporarily supports both the new and old payload formats."
+usageExampleJa: "サーバーは移行期間中、新旧両方のペイロード形式に対応する。"
+difficulty: "Intermediate"
+scene: "Implementation / Review"
+---

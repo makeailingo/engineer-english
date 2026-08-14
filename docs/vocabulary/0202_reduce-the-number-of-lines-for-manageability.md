@@ -1,0 +1,15 @@
+---
+id: "0202"
+term: "reduce the number of lines for manageability"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/rɪˈdjuːs ðə ˈnʌmbər ɒv laɪnz fɔː ˌmænɪdʒəˈbɪləti/"
+description: "Split or refactor large files to improve maintainability."
+descriptionJa: "巨大なファイルの分割やコード整理の目的を示す。"
+meaning: "to reduce line count for manageability"
+meaningJa: "管理しやすくするため行数を減らす"
+usageExample: "The logic was split into multiple files to reduce the number of lines for manageability."
+usageExampleJa: "管理しやすくするためロジックを複数ファイルに分割した。"
+difficulty: "Intermediate"
+scene: "Implementation / Review"
+---

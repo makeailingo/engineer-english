@@ -1,0 +1,15 @@
+---
+id: "0183"
+term: "avoid an unnecessary client error"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/əˈvɔɪd ən ʌnˈnesəsəri ˈklaɪənt ˈerə/"
+description: "Change responses so clients do not error unnecessarily."
+descriptionJa: "意図しないエラーレスポンスによる不必要なアラートやログ出力を抑止する。"
+meaning: "to avoid unnecessary client errors"
+meaningJa: "不必要なクライアントエラーを避ける"
+usageExample: "Returning no content avoids an unnecessary client error for expired data."
+usageExampleJa: "期限切れデータで不要なクライアントエラーを避けるため空応答を返す。"
+difficulty: "Intermediate"
+scene: "Implementation / Review"
+---

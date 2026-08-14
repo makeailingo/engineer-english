@@ -1,0 +1,15 @@
+---
+id: "0146"
+term: "have a mismatch between A and B"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/hæv ə ˈmɪsmætʃ bɪˈtwiːn/"
+description: "Describe inconsistency between a spec and a runtime model."
+descriptionJa: "仕様と実行時モデルの間にあった不整合を説明する際に使う。"
+meaning: "to have a mismatch between two things"
+meaningJa: "AとBの間に不一致がある"
+usageExample: "The field had a mismatch between the specification and the runtime model."
+usageExampleJa: "仕様と実行時モデルの間に不一致があった。"
+difficulty: "Intermediate"
+scene: "Implementation / Review"
+---

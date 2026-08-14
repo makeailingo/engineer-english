@@ -1,0 +1,15 @@
+---
+id: "0150"
+term: "be backward-compatible"
+type: "phrase"
+partOfSpeech: "adjective phrase"
+pronunciation: "/bi ˌbækwəd kəmˈpætəbl/"
+description: "State that existing clients can keep working after a change."
+descriptionJa: "既存クライアントに影響を与えない追加・修正であることを伝える。"
+meaning: "to remain compatible with older clients"
+meaningJa: "後方互換性がある"
+usageExample: "The new request field is optional, so the change is backward-compatible."
+usageExampleJa: "新フィールドは任意のため変更は後方互換性がある。"
+difficulty: "Intermediate"
+scene: "Implementation / Review"
+---
