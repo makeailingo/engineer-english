@@ -26,10 +26,13 @@ Scope: `docs/vocabulary/**/*.md`
 - Usage examples must be natural, concrete expressions informed by how the term was actually heard or seen. The target term's meaning must be clear from context.
 - Follow the [japanese-tech-writing Skill](.agents/skills/japanese-tech-writing/SKILL.md) when writing or reviewing `usageExampleJa`.
 - Check for duplicates against existing Vocabulary before creating a new entry.
+- Prefer reusable phrases over one-off PR wording. Each entry should survive a project change: if replacing nouns with `A`, `B`, or a generic role still yields a useful engineering phrase, keep it; if generalization would make it trivial or meaningless, remove or rewrite it instead of copying the original PR sentence.
+
+## Reusability
+
+Ask whether another engineer could reuse the phrase in a different project by swapping nouns for `A`, `B`, or a generic role. Keep phrases at that level of abstraction. Delete or rewrite entries that only make sense in one original PR or ticket.
 
 ## Field Order
-
-YAML front matter is the canonical data. Use this field order:
 
 1. `id`
 2. `term`
