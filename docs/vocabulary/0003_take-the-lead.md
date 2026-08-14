@@ -1,0 +1,15 @@
+---
+id: "0003"
+term: "take the lead"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/teɪk ði liːd/"
+description: "Lead an initiative even without a formal leadership title."
+descriptionJa: "特別の役職ではなくてもリーダーシップをとったエピソードを語る時。"
+meaning: "to be the main person driving something"
+meaningJa: "主導する、先頭に立つ"
+usageExample: "I took the lead on the redesign and guided the team through implementation."
+usageExampleJa: "再設計を主導し、実装までチームを支援した。"
+difficulty: "Beginner"
+scene: "Career / Interview"
+---

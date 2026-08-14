@@ -1,0 +1,15 @@
+---
+id: "0009"
+term: "reach out to"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/riːtʃ aʊt tuː/"
+description: "Contact someone proactively for help, input, or coordination."
+descriptionJa: "不明点や課題の解決のために、必要な専門家・担当者に自ら連絡したアプローチ。"
+meaning: "to contact someone"
+meaningJa: "〜に相談する・働きかける"
+usageExample: "I reached out to domain experts when the requirements were unclear."
+usageExampleJa: "要件が不明確な際、専門家に相談した。"
+difficulty: "Beginner"
+scene: "Career / Interview"
+---

@@ -1,0 +1,15 @@
+---
+id: "0106"
+term: "drive the transformation forward"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/draɪv ðə ˌtrænsfəˈmeɪʃn ˈfɔːwəd/"
+description: "Turn broad organizational goals into executable milestones."
+descriptionJa: "組織や運用の大きな改革・改善を主導した場面に使える。"
+meaning: "to push a major change forward"
+meaningJa: "変革・改善を推し進める"
+usageExample: "I helped drive the transformation forward by turning broad goals into executable milestones."
+usageExampleJa: "大きな目標を実行可能なマイルストーンに落とし変革を推進した。"
+difficulty: "Advanced"
+scene: "Career / Interview"
+---

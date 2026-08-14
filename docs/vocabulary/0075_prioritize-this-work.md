@@ -1,0 +1,15 @@
+---
+id: "0075"
+term: "prioritize this work"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/praɪˈɒrətaɪz ðɪs wɜːk/"
+description: "Raise urgency for work that affects critical outcomes."
+descriptionJa: "業務の優先順位を判断し、理由とともに決定した実績。"
+meaning: "to treat this work as more urgent"
+meaningJa: "この作業の優先度を高くする"
+usageExample: "We prioritized this work because it affected a critical customer journey."
+usageExampleJa: "重要なカスタマージャーニーに影響するため優先した。"
+difficulty: "Intermediate"
+scene: "Career / Interview"
+---

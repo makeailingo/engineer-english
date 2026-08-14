@@ -1,0 +1,15 @@
+---
+id: "0111"
+term: "execute in a phased manner"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/ˈeksɪkjuːt ɪn ə feɪzd ˈmænə/"
+description: "Roll out changes in stages to control operational risk."
+descriptionJa: "一括（ビッグバン）変更のリスクを避け、リスク管理をして段階的に実行したこと。"
+meaning: "to carry out work in planned stages"
+meaningJa: "段階的に実行する"
+usageExample: "We executed the migration in a phased manner to limit operational risk."
+usageExampleJa: "運用リスクを抑え段階的に移行を実行した。"
+difficulty: "Advanced"
+scene: "Career / Interview"
+---

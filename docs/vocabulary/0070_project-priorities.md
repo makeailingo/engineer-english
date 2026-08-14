@@ -1,0 +1,15 @@
+---
+id: "0070"
+term: "project priorities"
+type: "phrase"
+partOfSpeech: "noun phrase"
+pronunciation: "/ˈprɒdʒekt praɪˈɒrətiz/"
+description: "Adjust plans when the team's focus or urgency changes."
+descriptionJa: "優先度の変更に応じて計画やリソースを割り振り直した実績。"
+meaning: "the most important tasks for a project"
+meaningJa: "プロジェクトの優先順位"
+usageExample: "I revisited the plan when the project priorities changed."
+usageExampleJa: "プロジェクト優先度の変更に合わせ計画を見直した。"
+difficulty: "Intermediate"
+scene: "Career / Interview"
+---

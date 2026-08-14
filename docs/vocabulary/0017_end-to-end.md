@@ -1,0 +1,15 @@
+---
+id: "0017"
+term: "end-to-end"
+type: "phrase"
+partOfSpeech: "adjective"
+pronunciation: "/end tuː end/"
+description: "Cover an entire workflow from design through production operation."
+descriptionJa: "設計・実装・テスト・リリース・運用まで、全行程をカバーした範囲の広さをアピール。"
+meaning: "covering the whole process"
+meaningJa: "端から端まで、一貫して"
+usageExample: "I owned the feature end-to-end, from design through production monitoring."
+usageExampleJa: "設計から本番監視まで機能を一貫して担当した。"
+difficulty: "Beginner"
+scene: "Career / Interview"
+---

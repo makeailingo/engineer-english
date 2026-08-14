@@ -1,0 +1,15 @@
+---
+id: "0019"
+term: "decided to"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/dɪˈsaɪdɪd tuː/"
+description: "State a deliberate choice made after reviewing options."
+descriptionJa: "状況を分析した結果として何を選択したかをシンプルに示す。"
+meaning: "chose to do something after consideration"
+meaningJa: "〜することを決めた"
+usageExample: "We decided to prioritize reliability before adding new functionality."
+usageExampleJa: "新機能より信頼性を優先することを決めた。"
+difficulty: "Beginner"
+scene: "Career / Interview"
+---

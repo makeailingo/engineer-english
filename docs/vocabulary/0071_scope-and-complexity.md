@@ -1,0 +1,15 @@
+---
+id: "0071"
+term: "scope and complexity"
+type: "phrase"
+partOfSpeech: "noun phrase"
+pronunciation: "/skəʊp ænd kəmˈpleksəti/"
+description: "Explain estimates using both breadth of work and technical difficulty."
+descriptionJa: "プロジェクトの「規模（スコープ）」と「技術的難易度」を考慮して見積もりした根拠。"
+meaning: "the size and difficulty of work"
+meaningJa: "範囲と複雑さ"
+usageExample: "I estimated the timeline based on the scope and complexity of the migration."
+usageExampleJa: "移行の範囲と複雑さからスケジュールを見積もった。"
+difficulty: "Intermediate"
+scene: "Career / Interview"
+---

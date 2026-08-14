@@ -1,0 +1,15 @@
+---
+id: "0024"
+term: "short-term solution"
+type: "phrase"
+partOfSpeech: "noun phrase"
+pronunciation: "/ʃɔːt tɜːm səˈluːʃn/"
+description: "Propose a temporary fix while planning a sustainable long-term approach."
+descriptionJa: "応急処置と恒久対策（長期解決策）を区別して説明した実績に使える。"
+meaning: "a temporary fix for a problem"
+meaningJa: "短期的な応急処置"
+usageExample: "I proposed a short-term solution while we designed a more sustainable architecture."
+usageExampleJa: "恒久設計と並行し短期対応を提案した。"
+difficulty: "Beginner"
+scene: "Career / Interview"
+---

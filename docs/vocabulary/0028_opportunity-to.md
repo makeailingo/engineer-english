@@ -1,0 +1,15 @@
+---
+id: "0028"
+term: "opportunity to"
+type: "phrase"
+partOfSpeech: "noun phrase"
+pronunciation: "/ˌɒpəˈtjuːnəti tuː/"
+description: "Describe a chance to take on meaningful work or growth."
+descriptionJa: "新しい挑戦や学習の機会を前向きに捉えたことを示す。"
+meaning: "a chance to do something"
+meaningJa: "〜する機会"
+usageExample: "I used the opportunity to lead a cross-functional migration project."
+usageExampleJa: "部門横断移行プロジェクトを率いる機会を活かした。"
+difficulty: "Beginner"
+scene: "Career / Interview"
+---

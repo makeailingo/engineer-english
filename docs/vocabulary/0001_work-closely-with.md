@@ -1,0 +1,15 @@
+---
+id: "0001"
+term: "work closely with"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/wɜːk ˈkləʊsli wɪð/"
+description: "Collaborate intensively with another role or team on shared goals."
+descriptionJa: "他部門や他ロールのメンバーと合意形成しながら進めたことを説明できる。"
+meaning: "to collaborate intensively with someone"
+meaningJa: "〜と密接に協働する"
+usageExample: "I worked closely with product managers to translate customer needs into technical requirements."
+usageExampleJa: "PMと密に連携し、顧客ニーズを技術要件に落とし込んだ。"
+difficulty: "Beginner"
+scene: "Career / Interview"
+---

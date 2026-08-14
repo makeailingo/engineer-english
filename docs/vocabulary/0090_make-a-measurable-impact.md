@@ -1,0 +1,15 @@
+---
+id: "0090"
+term: "make a measurable impact"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/meɪk ə ˈmeʒərəbl ˈɪmpækt/"
+description: "Show results that can be quantified with metrics or numbers."
+descriptionJa: "数字や指標など定量的成果（KPI向上等）をあげた際のアピール表現。"
+meaning: "to create results that can be measured"
+meaningJa: "測定可能な明確なインパクト（成果）を生む"
+usageExample: "I made a measurable impact by reducing deployment time by 40%."
+usageExampleJa: "デプロイ時間40%短縮という測定可能な成果を出した。"
+difficulty: "Intermediate"
+scene: "Career / Interview"
+---

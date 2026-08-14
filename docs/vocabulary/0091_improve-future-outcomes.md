@@ -1,0 +1,15 @@
+---
+id: "0091"
+term: "improve future outcomes"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/ɪmˈpruːv ˈfjuːtʃə ˈaʊtkʌmz/"
+description: "Use retrospectives or feedback to improve later results."
+descriptionJa: "事後振り返り（レトロスペクティブ）を通じて、将来の質の向上へ活かした文脈。"
+meaning: "to make later results better"
+meaningJa: "今後の成果・結果を改善する"
+usageExample: "We used feedback to improve future outcomes and refine the program."
+usageExampleJa: "FBを活かし今後の成果とプログラムを改善した。"
+difficulty: "Intermediate"
+scene: "Career / Interview"
+---

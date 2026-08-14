@@ -1,0 +1,15 @@
+---
+id: "0094"
+term: "adapt to changes"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/əˈdæpt tuː ˈtʃeɪndʒɪz/"
+description: "Adjust plans when priorities, risks, or constraints shift."
+descriptionJa: "優先順位、リスク、制約などの急な変化に応じて柔軟に行動を変更対応した経験。"
+meaning: "to adjust when conditions change"
+meaningJa: "変化に適応する"
+usageExample: "I adapted to changing priorities by revising the plan and reallocating testing effort."
+usageExampleJa: "優先度変更に合わせ計画とテスト工数を再配分した。"
+difficulty: "Intermediate"
+scene: "Career / Interview"
+---

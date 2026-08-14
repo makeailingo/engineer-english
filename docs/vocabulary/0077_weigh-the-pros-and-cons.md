@@ -1,0 +1,15 @@
+---
+id: "0077"
+term: "weigh the pros and cons"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/weɪ ðə prəʊz ænd kɒnz/"
+description: "Compare advantages and disadvantages before recommending a path."
+descriptionJa: "メリット・デメリットを客観的に比較して判断を下した根拠を示す。"
+meaning: "to compare advantages and disadvantages"
+meaningJa: "長所と短所を比較検討する"
+usageExample: "I weighed the pros and cons of centralizing the service before making a recommendation."
+usageExampleJa: "サービス集約の長所短所を比較し提案した。"
+difficulty: "Intermediate"
+scene: "Career / Interview"
+---

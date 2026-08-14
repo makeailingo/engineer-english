@@ -1,0 +1,15 @@
+---
+id: "0023"
+term: "focus on"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/ˈfəʊkəs ɒn/"
+description: "Direct attention or effort toward a specific goal, task, or area."
+descriptionJa: "限られた時間やリソースの中で優先度を絞って対応した姿勢を示す。"
+meaning: "to give most attention to something"
+meaningJa: "〜に集中する、重点を置く"
+usageExample: "I focused on the highest-risk components first."
+usageExampleJa: "高リスク箇所から優先して対応した。"
+difficulty: "Beginner"
+scene: "Career / Interview"
+---

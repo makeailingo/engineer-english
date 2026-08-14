@@ -1,0 +1,15 @@
+---
+id: "0015"
+term: "successfully completed"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/səkˈsesfli kəmˈpliːtɪd/"
+description: "Report finishing a project or milestone without major issues."
+descriptionJa: "STAR形式のResult（成果）部分で、完遂した実績を語る際に最適。"
+meaning: "finished something with success"
+meaningJa: "無事に完了した"
+usageExample: "We successfully completed the migration without customer-facing downtime."
+usageExampleJa: "顧客影響なしで移行を完了した。"
+difficulty: "Beginner"
+scene: "Career / Interview"
+---

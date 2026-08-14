@@ -1,0 +1,15 @@
+---
+id: "0014"
+term: "positive impact"
+type: "phrase"
+partOfSpeech: "noun phrase"
+pronunciation: "/ˈpɒzətɪv ˈɪmpækt/"
+description: "Describe beneficial effects your work had on teams or systems."
+descriptionJa: "定量成果をまとめる際や、成果を広義に捉える時に使える表現。"
+meaning: "a beneficial effect"
+meaningJa: "良い影響、良い効果"
+usageExample: "The change had a positive impact on both reliability and developer productivity."
+usageExampleJa: "変更は信頼性と開発生産性の両方に良い影響を与えた。"
+difficulty: "Beginner"
+scene: "Career / Interview"
+---

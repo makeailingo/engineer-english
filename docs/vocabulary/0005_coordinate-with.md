@@ -1,0 +1,15 @@
+---
+id: "0005"
+term: "coordinate with"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/kəʊˈɔːdɪneɪt wɪð/"
+description: "Align plans and timing with other teams or stakeholders."
+descriptionJa: "部署間・ステークホルダー間での合意形成を進めた際に使える。"
+meaning: "to organize activities with others"
+meaningJa: "〜と調整を行う・神調を合わせる"
+usageExample: "I coordinated with security and operations to finalize the rollout plan."
+usageExampleJa: "セキュリティ・運用と調整し展開計画を確定した。"
+difficulty: "Beginner"
+scene: "Career / Interview"
+---

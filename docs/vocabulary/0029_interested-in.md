@@ -1,0 +1,15 @@
+---
+id: "0029"
+term: "interested in"
+type: "phrase"
+partOfSpeech: "adjective phrase"
+pronunciation: "/ˈɪntrəstɪd ɪn/"
+description: "Express genuine interest in a role, domain, or type of work."
+descriptionJa: "志望動機や今後関わりたい専門分野を伝える際に使える。"
+meaning: "wanting to know or learn about something"
+meaningJa: "〜に関心がある"
+usageExample: "I am particularly interested in platform engineering and developer productivity."
+usageExampleJa: "プラットフォームエンジニアリングと開発生産性に関心がある。"
+difficulty: "Beginner"
+scene: "Career / Interview"
+---

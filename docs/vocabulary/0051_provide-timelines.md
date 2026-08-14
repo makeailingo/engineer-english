@@ -1,0 +1,15 @@
+---
+id: "0051"
+term: "provide timelines"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/prəˈvaɪd ˈtaɪmlaɪnz/"
+description: "Share schedule estimates with assumptions and known risks."
+descriptionJa: "根拠ある見積もりに基づいた具体的な完成・リリース目標を設定・提示した。"
+meaning: "to give expected schedules"
+meaningJa: "スケジュール・見通しを提示する"
+usageExample: "After reviewing the requirements, I provided timelines with clear assumptions and risks."
+usageExampleJa: "要件確認後、前提とリスク付きスケジュールを提示した。"
+difficulty: "Beginner"
+scene: "Career / Interview"
+---

@@ -1,0 +1,15 @@
+---
+id: "0098"
+term: "miss out on"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/mɪs aʊt ɒn/"
+description: "Warn that a process may lose useful input or opportunities."
+descriptionJa: "プロセスの欠陥やリスクとして「〜を逃す」可能性の指摘。"
+meaning: "to fail to get something useful"
+meaningJa: "〜を逃す、〜を機会を取りこぼす"
+usageExample: "Without a shared review process, we could miss out on useful contributions from other teams."
+usageExampleJa: "共有レビューがなければ他チームの有用な知見を逃す。"
+difficulty: "Intermediate"
+scene: "Career / Interview"
+---

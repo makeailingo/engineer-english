@@ -1,0 +1,15 @@
+---
+id: "0018"
+term: "make a decision"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/meɪk ə dɪˈsɪʒn/"
+description: "Choose a direction after weighing facts, risks, and constraints."
+descriptionJa: "判断に至った根拠やトレードオフを明確にしつつ、意図的で主導した決断。"
+meaning: "to choose what to do"
+meaningJa: "意思決定をする"
+usageExample: "I made a decision after comparing the operational cost and reliability of both options."
+usageExampleJa: "両案の運用コストと信頼性を比較し意思決定した。"
+difficulty: "Beginner"
+scene: "Career / Interview"
+---

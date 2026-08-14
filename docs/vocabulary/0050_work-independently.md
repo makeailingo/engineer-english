@@ -1,0 +1,15 @@
+---
+id: "0050"
+term: "work independently"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/wɜːk ˌɪndɪˈpendəntli/"
+description: "Progress work with minimal supervision while keeping others informed."
+descriptionJa: "マイクロマネジメントを受けずに高い自律性を持って対応できること。"
+meaning: "to work without close supervision"
+meaningJa: "自律的に仕事を進める"
+usageExample: "I worked independently on the investigation while keeping the team updated."
+usageExampleJa: "調査は自律的に進めつつ、チームへ状況を共有した。"
+difficulty: "Beginner"
+scene: "Career / Interview"
+---

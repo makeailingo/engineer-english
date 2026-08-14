@@ -1,0 +1,15 @@
+---
+id: "0093"
+term: "step up when the team needs you"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/step ʌp wen ðə tiːm niːdz juː/"
+description: "Take responsibility voluntarily during gaps or urgent moments."
+descriptionJa: "突発的な緊急事態や役割の空白に対し、自発的に責任を引き受け対処した実績。"
+meaning: "to help when the team is in need"
+meaningJa: "チームがピンチの時や必要な場面で、主導権をとってサポートする"
+usageExample: "I stepped up when the team needed an interim technical lead during a critical release."
+usageExampleJa: "重要リリース時、暫定テックリードとして主導した。"
+difficulty: "Intermediate"
+scene: "Career / Interview"
+---

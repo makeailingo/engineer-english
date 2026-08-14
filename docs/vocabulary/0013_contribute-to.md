@@ -1,0 +1,15 @@
+---
+id: "0013"
+term: "contribute to"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/kənˈtrɪbjuːt tuː/"
+description: "Help achieve a shared outcome through your work or ideas."
+descriptionJa: "自身のアクションが基盤・成果・他チームの効率化へどう役立ったかを示す。"
+meaning: "to help cause or achieve something"
+meaningJa: "〜に貢献する"
+usageExample: "I contributed to the platform by improving its deployment tooling."
+usageExampleJa: "デプロイ基盤の改善でプラットフォームに貢献した。"
+difficulty: "Beginner"
+scene: "Career / Interview"
+---

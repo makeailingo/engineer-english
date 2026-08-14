@@ -1,0 +1,15 @@
+---
+id: "0025"
+term: "expected outcome"
+type: "phrase"
+partOfSpeech: "noun phrase"
+pronunciation: "/ɪkˈspektɪd ˈaʊtkʌm/"
+description: "Define the result you aim to achieve before choosing an approach."
+descriptionJa: "目標成果をあらかじめ定義し、逆算して実装手法を決めた思考プロセス。"
+meaning: "the result you plan to achieve"
+meaningJa: "期待される成果"
+usageExample: "I defined the expected outcome before selecting the technical approach."
+usageExampleJa: "技術方針決定前に期待成果を定義した。"
+difficulty: "Beginner"
+scene: "Career / Interview"
+---

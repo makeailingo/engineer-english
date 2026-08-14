@@ -1,0 +1,15 @@
+---
+id: "0097"
+term: "work with limited bandwidth"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/wɜːk wɪð ˈlɪmɪtɪd ˈbændwɪdθ/"
+description: "Deliver results despite tight time or staffing constraints."
+descriptionJa: "リソース不足・時間制限のある厳しい状況下で、優先順位を設けて対応した実績。"
+meaning: "to work with little available capacity"
+meaningJa: "限られた時間・人的余裕の中で取り組む"
+usageExample: "We had to work with limited bandwidth, so I prioritized the highest-risk scenarios first."
+usageExampleJa: "余力が限られる中、高リスクシナリオを優先した。"
+difficulty: "Intermediate"
+scene: "Career / Interview"
+---

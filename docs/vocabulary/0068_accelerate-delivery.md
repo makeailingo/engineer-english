@@ -1,0 +1,15 @@
+---
+id: "0068"
+term: "accelerate delivery"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/əkˈseləreɪt dɪˈlɪvəri/"
+description: "Speed up delivery while keeping quality and safety acceptable."
+descriptionJa: "品質を維持しつつ、リリースまでのスピードを向上させた実績に使える。"
+meaning: "to deliver work faster"
+meaningJa: "開発・提供スピードを加速する"
+usageExample: "I automated the verification process to accelerate delivery without lowering quality."
+usageExampleJa: "検証を自動化し、品質を保ちながら提供速度を上げた。"
+difficulty: "Intermediate"
+scene: "Career / Interview"
+---

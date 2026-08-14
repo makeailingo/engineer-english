@@ -1,0 +1,15 @@
+---
+id: "0053"
+term: "follow through on"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/ˈfɒləʊ θruː ɒn/"
+description: "Complete agreed actions reliably through to verification."
+descriptionJa: "途中で投げ出さずに最後まで責任を持ってやり完了させた報告。"
+meaning: "to complete something you promised"
+meaningJa: "〜を最後（最後までやり遂げる）"
+usageExample: "I followed through on every action item and confirmed the fixes in production."
+usageExampleJa: "全アクションを完遂し、本番で修正を確認した。"
+difficulty: "Beginner"
+scene: "Career / Interview"
+---

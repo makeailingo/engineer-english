@@ -1,0 +1,15 @@
+---
+id: "0010"
+term: "valuable feedback"
+type: "phrase"
+partOfSpeech: "noun phrase"
+pronunciation: "/ˈvæljuəbl ˈfiːdbæk/"
+description: "Acknowledge useful input from others and act on it."
+descriptionJa: "他者からの助言を柔軟に受け入れて改善につなげたことを表現する。"
+meaning: "useful comments or advice"
+meaningJa: "貴重なフィードバック"
+usageExample: "I collected valuable feedback and used it to simplify the design."
+usageExampleJa: "貴重なFBを集め、設計の簡素化に活かした。"
+difficulty: "Beginner"
+scene: "Career / Interview"
+---

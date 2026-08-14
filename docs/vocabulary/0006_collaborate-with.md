@@ -1,0 +1,15 @@
+---
+id: "0006"
+term: "collaborate with"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/kəˈlæbəreɪt wɪð/"
+description: "Work jointly with others toward a shared engineering goal."
+descriptionJa: "共通のゴールに向かって他チームと連携した文脈を言い表せる。"
+meaning: "to work jointly with others"
+meaningJa: "〜と協働する"
+usageExample: "I collaborated with platform engineers to design a maintainable deployment process."
+usageExampleJa: "基盤エンジニアと協働し保守しやすいデプロイ手順を設計した。"
+difficulty: "Beginner"
+scene: "Career / Interview"
+---

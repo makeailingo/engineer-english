@@ -1,0 +1,15 @@
+---
+id: "0099"
+term: "identify common pain points"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/aɪˈdentɪfaɪ ˈkɒmən peɪn pɔɪnts/"
+description: "Find recurring problems shared across teams or workflows."
+descriptionJa: "組織内の不満や不便の根本原因を明確化して環境改善を図った実績。"
+meaning: "to find shared recurring problems"
+meaningJa: "共通して直面する課題や痛点を特定する"
+usageExample: "I interviewed several teams to identify common pain points in the deployment process."
+usageExampleJa: "複数チームへヒアリングしデプロイの共通課題を特定した。"
+difficulty: "Intermediate"
+scene: "Career / Interview"
+---

@@ -1,0 +1,15 @@
+---
+id: "0027"
+term: "experience with"
+type: "phrase"
+partOfSpeech: "noun phrase"
+pronunciation: "/ɪkˈspɪəriəns wɪð/"
+description: "State practical background with tools, domains, or responsibilities."
+descriptionJa: "自らの技術スタックや経験年数を簡潔に提示する基本表現。"
+meaning: "practical knowledge gained from doing something"
+meaningJa: "〜を使った経験"
+usageExample: "I have five years of experience with distributed systems and cloud infrastructure."
+usageExampleJa: "分散システムとクラウド基盤で5年の実務経験がある。"
+difficulty: "Beginner"
+scene: "Career / Interview"
+---

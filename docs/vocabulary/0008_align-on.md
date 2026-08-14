@@ -1,0 +1,15 @@
+---
+id: "0008"
+term: "align on"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/əˈlaɪn ɒn/"
+description: "Reach shared agreement on a specific topic before starting work."
+descriptionJa: "設計・仕様・基準などを着手前にすり合わせ、align on 命名として一致を明示。"
+meaning: "to agree on a specific point"
+meaningJa: "〜について合意・認識合わせをする"
+usageExample: "We aligned on the naming convention before starting implementation."
+usageExampleJa: "実装前に命名規則について認識を合わせた。"
+difficulty: "Beginner"
+scene: "Career / Interview"
+---

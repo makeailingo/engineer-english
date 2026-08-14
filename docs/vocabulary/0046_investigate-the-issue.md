@@ -1,0 +1,15 @@
+---
+id: "0046"
+term: "investigate the issue"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/ɪnˈvestɪɡeɪt ði ˈɪʃuː/"
+description: "Lead or perform structured analysis to understand a problem."
+descriptionJa: "トラブルに対し自ら主導で調査を進めたアクション。"
+meaning: "to examine a problem carefully"
+meaningJa: "問題の原因・状況を調査する"
+usageExample: "I investigated the issue by tracing permissions across the entire request path."
+usageExampleJa: "リクエスト経路全体の権限を追跡し問題を調査した。"
+difficulty: "Beginner"
+scene: "Career / Interview"
+---

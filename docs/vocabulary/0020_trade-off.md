@@ -1,0 +1,15 @@
+---
+id: "0020"
+term: "trade-off"
+type: "word"
+partOfSpeech: "noun"
+pronunciation: "/ˈtreɪd ɒf/"
+description: "Explain a balance where improving one factor sacrifices another."
+descriptionJa: "一方を高めるために他方を犠牲にする関係性を明示する言語。"
+meaning: "a balance between two competing factors"
+meaningJa: "トレードオフ、トレードオフの考慮"
+usageExample: "The main trade-off was faster delivery versus long-term maintainability."
+usageExampleJa: "主なトレードオフは提供速度と長期保守性だった。"
+difficulty: "Beginner"
+scene: "Career / Interview"
+---

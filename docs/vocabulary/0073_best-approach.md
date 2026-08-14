@@ -1,0 +1,15 @@
+---
+id: "0073"
+term: "best approach"
+type: "phrase"
+partOfSpeech: "noun phrase"
+pronunciation: "/best əˈprəʊtʃ/"
+description: "Recommend the option that best fits constraints and goals."
+descriptionJa: "複数の選択肢から条件・制約に最も適した手段を選択・提案した。"
+meaning: "the most suitable way to do something"
+meaningJa: "最善のアプローチ・手法"
+usageExample: "I evaluated three options and recommended the best approach for our constraints."
+usageExampleJa: "3案を評価し、制約に最適な手法を提案した。"
+difficulty: "Intermediate"
+scene: "Career / Interview"
+---

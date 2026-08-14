@@ -1,0 +1,15 @@
+---
+id: "0095"
+term: "strike a better balance"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/straɪk ə ˈbetə ˈbæləns/"
+description: "Find a workable compromise between competing priorities."
+descriptionJa: "二律背反する要素（スピードと品質、自由度と管理など）のバランスを取った技術的判断。"
+meaning: "to find a better compromise"
+meaningJa: "より良いバランスを取る、うまい折衷案を見つける"
+usageExample: "I proposed a hybrid strategy to strike a better balance between autonomy and consistency."
+usageExampleJa: "自律性と一貫性のバランスを取るハイブリッド戦略を提案した。"
+difficulty: "Intermediate"
+scene: "Career / Interview"
+---

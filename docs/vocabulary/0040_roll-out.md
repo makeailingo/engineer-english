@@ -1,0 +1,15 @@
+---
+id: "0040"
+term: "roll out"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/rəʊl aʊt/"
+description: "Release or deploy a change gradually to users or environments."
+descriptionJa: "段階的・計画的に新機能や変更を運用適用したプロセス。"
+meaning: "to introduce something gradually"
+meaningJa: "リリースする、順次展開する"
+usageExample: "We rolled out the feature to a small user group before the full release."
+usageExampleJa: "全量リリース前に小規模ユーザーグループへ展開した。"
+difficulty: "Beginner"
+scene: "Career / Interview"
+---

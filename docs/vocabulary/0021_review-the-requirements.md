@@ -1,0 +1,15 @@
+---
+id: "0021"
+term: "review the requirements"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/rɪˈvjuː ðə rɪˈkwaɪəmənts/"
+description: "Check requirements with stakeholders before estimating or building."
+descriptionJa: "着手前に要件の齟齬（そご）がないかを事前に検討し、認識違いを防いだ文脈。"
+meaning: "to examine requirements carefully"
+meaningJa: "要件を確認・レビューする"
+usageExample: "I reviewed the requirements with the stakeholders before estimating the work."
+usageExampleJa: "見積前に関係者と要件を確認した。"
+difficulty: "Beginner"
+scene: "Career / Interview"
+---

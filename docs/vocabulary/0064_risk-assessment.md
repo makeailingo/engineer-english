@@ -1,0 +1,15 @@
+---
+id: "0064"
+term: "risk assessment"
+type: "phrase"
+partOfSpeech: "noun phrase"
+pronunciation: "/rɪsk əˈsesmənt/"
+description: "Refer to a structured review of risks affecting a decision."
+descriptionJa: "判断に至った体系的なリスク分析を名詞として表現できる。"
+meaning: "a formal review of risks"
+meaningJa: "リスク評価"
+usageExample: "I conducted a risk assessment covering security, availability, and operational cost."
+usageExampleJa: "セキュリティ・可用性・運用コストのリスク評価を実施した。"
+difficulty: "Intermediate"
+scene: "Career / Interview"
+---

@@ -1,0 +1,15 @@
+---
+id: "0012"
+term: "next steps"
+type: "phrase"
+partOfSpeech: "noun phrase"
+pronunciation: "/nekst steps/"
+description: "Name follow-up actions after a decision or discussion."
+descriptionJa: "議論や会議の結びに、次のアクションへ落とし込んだことを言及。"
+meaning: "actions planned after the current stage"
+meaningJa: "今後のステップ、次の行動"
+usageExample: "I summarized the decision and clarified the next steps for each team."
+usageExampleJa: "決定を整理し、各チームの次アクションを明確にした。"
+difficulty: "Beginner"
+scene: "Career / Interview"
+---

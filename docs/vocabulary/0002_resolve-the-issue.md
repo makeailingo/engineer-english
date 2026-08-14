@@ -1,0 +1,15 @@
+---
+id: "0002"
+term: "resolve the issue"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/rɪˈzɒlv ði ˈɪʃuː/"
+description: "Fix a problem with a concrete solution, not just analysis."
+descriptionJa: "成果指向の文脈で、問題に対して具体的な解決策で行えたことを言及できる。"
+meaning: "to fix or settle a problem"
+meaningJa: "課題を解決する"
+usageExample: "I resolved the issue by correcting the configuration and adding a regression test."
+usageExampleJa: "設定修正と回帰テスト追加で課題を解決した。"
+difficulty: "Beginner"
+scene: "Career / Interview"
+---

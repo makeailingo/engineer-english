@@ -1,0 +1,15 @@
+---
+id: "0107"
+term: "keep discussions solution-oriented"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/kiːp dɪˈskʌʃnz səˈluːʃn ˈɔːrientɪd/"
+description: "Guide disagreements toward constructive outcomes and shared goals."
+descriptionJa: "意見の対立が起きた際に、建設的な議論に導いた実績。"
+meaning: "to focus talks on solving problems"
+meaningJa: "議論を解決志向に保つ"
+usageExample: "During the disagreement, I kept the discussion solution-oriented and focused on shared goals."
+usageExampleJa: "対立時も解決志向で共通目標に議論を集中させた。"
+difficulty: "Advanced"
+scene: "Career / Interview"
+---

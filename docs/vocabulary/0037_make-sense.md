@@ -1,0 +1,15 @@
+---
+id: "0037"
+term: "make sense"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/meɪk sens/"
+description: "Explain why a choice or design is reasonable in context."
+descriptionJa: "特定の設計手法やアプローチを選んだ理由を説明する際に使える。"
+meaning: "to be reasonable or logical"
+meaningJa: "理にかなう、筋が通っている"
+usageExample: "It made sense to consolidate the components because they shared the same lifecycle."
+usageExampleJa: "同一ライフサイクルのため、部品統合は合理的だった。"
+difficulty: "Beginner"
+scene: "Career / Interview"
+---

@@ -1,0 +1,15 @@
+---
+id: "0007"
+term: "align with"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/əˈlaɪn wɪð/"
+description: "Match your approach with another team, policy, or direction."
+descriptionJa: "方針や既存の設計・他チームの意図と一致させたことを表す。"
+meaning: "to match or agree with something"
+meaningJa: "〜と整合性を取る・方向性を合わせる"
+usageExample: "I aligned with the security team before changing the authentication flow."
+usageExampleJa: "認証フロー変更前にセキュリティチームと整合を取った。"
+difficulty: "Beginner"
+scene: "Career / Interview"
+---

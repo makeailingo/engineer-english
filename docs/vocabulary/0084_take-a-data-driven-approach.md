@@ -1,0 +1,15 @@
+---
+id: "0084"
+term: "take a data-driven approach"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/teɪk ə ˈdeɪtə ˈdrɪvn əˈprəʊtʃ/"
+description: "Use metrics and evidence rather than intuition alone."
+descriptionJa: "主観ではなくデータに基づいて分析や意思決定を行ったことを示す。"
+meaning: "to decide using data and evidence"
+meaningJa: "データに基づくアプローチを取る"
+usageExample: "I took a data-driven approach and prioritized failures with the highest customer impact."
+usageExampleJa: "データに基づき、顧客影響の大きい障害を優先した。"
+difficulty: "Intermediate"
+scene: "Career / Interview"
+---

@@ -1,0 +1,15 @@
+---
+id: "0086"
+term: "align stakeholders"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/əˈlaɪn ˈsteɪkhəʊldəz/"
+description: "Build agreement among people affected by a decision or rollout."
+descriptionJa: "複数部署や異なる意見の利害関係者を調整し、合意をまとめたこと。"
+meaning: "to get stakeholders to agree"
+meaningJa: "ステークホルダー（利害関係者）の方向性を揃える"
+usageExample: "I aligned stakeholders around a shared rollout plan and success criteria."
+usageExampleJa: "共通展開計画と成功基準で関係者を揃えた。"
+difficulty: "Intermediate"
+scene: "Career / Interview"
+---

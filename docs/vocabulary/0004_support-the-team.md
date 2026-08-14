@@ -1,0 +1,15 @@
+---
+id: "0004"
+term: "support the team"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/səˈpɔːt ðə tiːm/"
+description: "Help teammates succeed through reviews, unblocking, or guidance."
+descriptionJa: "個人プレイではなく、全体の成功に貢献した姿勢を強調できる。"
+meaning: "to help a team succeed"
+meaningJa: "チームを支援する"
+usageExample: "I supported the team by reviewing designs and helping remove technical blockers."
+usageExampleJa: "設計レビューと技術的障害の除去でチームを支援した。"
+difficulty: "Beginner"
+scene: "Career / Interview"
+---

@@ -1,0 +1,15 @@
+---
+id: "0011"
+term: "share knowledge"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/ʃeə ˈnɒlɪdʒ/"
+description: "Spread what you learned so others can work more effectively."
+descriptionJa: "得た知見やノウハウをチーム全体へ展開した実績を示す。"
+meaning: "to pass useful information to others"
+meaningJa: "知識を共有する"
+usageExample: "I shared knowledge through design reviews and short technical workshops."
+usageExampleJa: "設計レビューと技術勉強会で知識を共有した。"
+difficulty: "Beginner"
+scene: "Career / Interview"
+---

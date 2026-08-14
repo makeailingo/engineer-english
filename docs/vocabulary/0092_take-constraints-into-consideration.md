@@ -1,0 +1,15 @@
+---
+id: "0092"
+term: "take constraints into consideration"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/teɪk kənˈstreɪnts ˌɪntuː kənˌsɪdəˈreɪʃn/"
+description: "Factor security, cost, and schedule limits into decisions."
+descriptionJa: "技術面だけでなく、ビジネス上の制限や制約を踏まえて判断した実績。"
+meaning: "to include limits when deciding"
+meaningJa: "制約条件を考慮に入れる"
+usageExample: "I took security, cost, and delivery constraints into consideration before selecting the architecture."
+usageExampleJa: "アーキテクチャ選定前にセキュリティ・コスト・納期制約を考慮した。"
+difficulty: "Intermediate"
+scene: "Career / Interview"
+---

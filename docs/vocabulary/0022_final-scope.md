@@ -1,0 +1,15 @@
+---
+id: "0022"
+term: "final scope"
+type: "phrase"
+partOfSpeech: "noun phrase"
+pronunciation: "/ˈfaɪnl skəʊp/"
+description: "Refer to the agreed delivery boundary after scope discussions."
+descriptionJa: "最終的な実装範囲・成果物の合意に達した状態を表現できる。"
+meaning: "the agreed range of work"
+meaningJa: "最終的に確定した範囲"
+usageExample: "Once we agreed on the final scope, I produced a realistic delivery plan."
+usageExampleJa: "最終スコープ合意後、現実的な提供計画を作成した。"
+difficulty: "Beginner"
+scene: "Career / Interview"
+---

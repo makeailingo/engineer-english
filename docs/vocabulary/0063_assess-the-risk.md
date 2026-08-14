@@ -1,0 +1,15 @@
+---
+id: "0063"
+term: "assess the risk"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/əˈses ðə rɪsk/"
+description: "Evaluate potential harm before a release or major change."
+descriptionJa: "変更やリリースに伴うリスクを未然に洗い出して対策を講じた実績。"
+meaning: "to judge how risky something is"
+meaningJa: "リスクを評価・分析する"
+usageExample: "Before the release, I assessed the risk and proposed a gradual rollout."
+usageExampleJa: "リリース前にリスクを評価し段階展開を提案した。"
+difficulty: "Intermediate"
+scene: "Career / Interview"
+---

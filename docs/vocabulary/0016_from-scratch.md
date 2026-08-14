@@ -1,0 +1,15 @@
+---
+id: "0016"
+term: "from scratch"
+type: "phrase"
+partOfSpeech: "adverb phrase"
+pronunciation: "/frɒm skrætʃ/"
+description: "Build something new without relying on an existing implementation."
+descriptionJa: "既存コードの修正や既存枠組みではなく、新しくゼロから構築した主体性を強調できる。"
+meaning: "starting with nothing existing"
+meaningJa: "ゼロから、何もない状態から"
+usageExample: "I built the pipeline from scratch and documented it for the team."
+usageExampleJa: "パイプラインを一から構築し、チーム向けに文書化した。"
+difficulty: "Beginner"
+scene: "Career / Interview"
+---

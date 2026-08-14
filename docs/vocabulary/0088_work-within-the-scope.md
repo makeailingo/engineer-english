@@ -1,0 +1,15 @@
+---
+id: "0088"
+term: "work within the scope"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/wɜːk wɪˈðɪn ðə skəʊp/"
+description: "Deliver agreed work and defer extra requests appropriately."
+descriptionJa: "スコープ肥大化（スコープクリープ）を防ぎ、計画通りの枠組み内で成果を出したこと。"
+meaning: "to stay inside agreed boundaries"
+meaningJa: "スコープの範囲内で作業する"
+usageExample: "I worked within the agreed scope and documented additional requests for a later phase."
+usageExampleJa: "合意スコープ内で作業し、追加要望は次フェーズ用に記録した。"
+difficulty: "Intermediate"
+scene: "Career / Interview"
+---
