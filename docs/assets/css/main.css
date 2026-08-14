@@ -203,7 +203,7 @@ code {
 
 #vocabulary-table {
   width: 100%;
-  min-width: 56rem;
+  min-width: 48rem;
   border-collapse: collapse;
   font-size: 14px;
 }
@@ -234,8 +234,8 @@ code {
   overflow-wrap: anywhere;
 }
 
-#vocabulary-table td:nth-child(3),
-#vocabulary-table td:nth-child(4) {
+#vocabulary-table td:nth-child(5),
+#vocabulary-table td:nth-child(6) {
   white-space: nowrap;
 }
 
@@ -274,16 +274,12 @@ code {
 
   #vocabulary-table th:first-child,
   #vocabulary-table td:first-child,
+  #vocabulary-table th:nth-child(3),
+  #vocabulary-table td:nth-child(3),
   #vocabulary-table th:nth-child(4),
   #vocabulary-table td:nth-child(4),
   #vocabulary-table th:nth-child(5),
-  #vocabulary-table td:nth-child(5),
-  #vocabulary-table th:nth-child(6),
-  #vocabulary-table td:nth-child(6),
-  #vocabulary-table th:nth-child(7),
-  #vocabulary-table td:nth-child(7),
-  #vocabulary-table th:nth-child(8),
-  #vocabulary-table td:nth-child(8) {
+  #vocabulary-table td:nth-child(5) {
     display: none;
   }
 
@@ -292,8 +288,8 @@ code {
     width: 55%;
   }
 
-  #vocabulary-table th:nth-child(3),
-  #vocabulary-table td:nth-child(3) {
+  #vocabulary-table th:nth-child(6),
+  #vocabulary-table td:nth-child(6) {
     width: 45%;
     text-align: right;
   }
