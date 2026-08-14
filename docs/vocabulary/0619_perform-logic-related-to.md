@@ -1,0 +1,15 @@
+---
+id: "0619"
+term: "perform logic related to"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/pəˈfɔːm ˈlɒdʒɪk rɪˈleɪtɪd tuː/"
+description: "Direct backend work on business rules such as eligibility checks."
+descriptionJa: "ビジネスロジック処理を指示する表現。"
+meaning: "to perform logic related to"
+meaningJa: "〜に関連するロジックを実行する"
+usageExample: "The backend needs to perform logic related to campaign eligibility."
+usageExampleJa: "バックエンドはキャンペーン適格性に関連するロジックを実行する必要がある。"
+difficulty: "Intermediate"
+scene: "Technical Writing"
+---

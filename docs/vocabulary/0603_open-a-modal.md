@@ -1,0 +1,15 @@
+---
+id: "0603"
+term: "open a modal"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/ˈəʊpən ə ˈməʊdl/"
+description: "Specify UI behavior such as opening a modal for external auth."
+descriptionJa: "UI上の挙動を指定する表現。"
+meaning: "to open a modal"
+meaningJa: "モーダルを開く"
+usageExample: "The application opens a modal for external authentication."
+usageExampleJa: "アプリは外部認証用のモーダルを開く。"
+difficulty: "Intermediate"
+scene: "Technical Writing"
+---

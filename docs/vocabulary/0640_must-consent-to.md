@@ -1,0 +1,15 @@
+---
+id: "0640"
+term: "must consent to"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/mʌst kənˈsent tuː/"
+description: "Require user consent before continuing a sensitive flow."
+descriptionJa: "フロー上で必須となる同意ステップを明確にする表現。"
+meaning: "must consent to"
+meaningJa: "〜に同意しなければならない"
+usageExample: "The user must consent to information sharing before continuing."
+usageExampleJa: "続行する前に、ユーザーは情報共有に同意しなければならない。"
+difficulty: "Intermediate"
+scene: "Technical Writing"
+---

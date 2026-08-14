@@ -1,0 +1,15 @@
+---
+id: "0580"
+term: "get rid of"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/ɡet rɪd əv/"
+description: "Propose removing an unnecessary layer, field, or component."
+descriptionJa: "不必要な構成要素を取り除く意図を伝える表現。"
+meaning: "to remove or eliminate"
+meaningJa: "取り除く、廃止する"
+usageExample: "We would like to get rid of the redundant conversion layer."
+usageExampleJa: "冗長な変換レイヤーを取り除きたい。"
+difficulty: "Intermediate"
+scene: "Technical Writing"
+---

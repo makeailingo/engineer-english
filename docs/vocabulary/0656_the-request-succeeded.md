@@ -1,0 +1,15 @@
+---
+id: "0656"
+term: "the request succeeded"
+type: "phrase"
+partOfSpeech: "clause"
+pronunciation: "/ðə rɪˈkwest səkˈsiːdɪd/"
+description: "Separate HTTP success from a later parsing or handling failure."
+descriptionJa: "通信自体の成否と処理異常を分ける説明。"
+meaning: "the request succeeded"
+meaningJa: "リクエストは成功したが"
+usageExample: "The request succeeded, but response parsing failed."
+usageExampleJa: "リクエストは成功したが、レスポンス解析に失敗した。"
+difficulty: "Intermediate"
+scene: "Technical Writing"
+---

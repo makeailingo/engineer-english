@@ -1,0 +1,15 @@
+---
+id: "0600"
+term: "the steps are"
+type: "phrase"
+partOfSpeech: "clause"
+pronunciation: "/ðə steps ɑː/"
+description: "Begin documenting a procedure, flow, or reproduction sequence."
+descriptionJa: "処理フローや再現手順の開始を告げる表現。"
+meaning: "the steps are"
+meaningJa: "手順は以下のとおり"
+usageExample: "The steps are as follows."
+usageExampleJa: "手順は以下のとおりです。"
+difficulty: "Intermediate"
+scene: "Technical Writing"
+---

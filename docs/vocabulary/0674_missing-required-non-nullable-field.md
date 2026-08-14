@@ -1,0 +1,15 @@
+---
+id: "0674"
+term: "missing required non-nullable field"
+type: "phrase"
+partOfSpeech: "noun phrase"
+pronunciation: "/ˈmɪsɪŋ rɪˈkwaɪəd nɒn ˈnʌləbl fiːld/"
+description: "Name a schema mismatch where a required non-null field is absent."
+descriptionJa: "スキーマ不整合の問題を具体的に定義する表現。"
+meaning: "missing required non-nullable field"
+meaningJa: "必須のnull不可フィールドの欠落"
+usageExample: "The response contains a missing required non-nullable field."
+usageExampleJa: "レスポンスに必須のnull不可フィールドの欠落がある。"
+difficulty: "Advanced"
+scene: "Technical Writing"
+---

@@ -1,0 +1,15 @@
+---
+id: "0608"
+term: "using this algorithm"
+type: "phrase"
+partOfSpeech: "prepositional phrase"
+pronunciation: "/ˈjuːzɪŋ ðɪs ˈælɡərɪðəm/"
+description: "Refer to a specific validation or processing algorithm in specs."
+descriptionJa: "特定のロジックやアルゴリズムへの言及。"
+meaning: "using this algorithm"
+meaningJa: "このアルゴリズムを使って"
+usageExample: "We should validate this data using this algorithm."
+usageExampleJa: "このアルゴリズムを使ってデータを検証すべきだ。"
+difficulty: "Intermediate"
+scene: "Technical Writing"
+---

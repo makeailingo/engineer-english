@@ -1,0 +1,15 @@
+---
+id: "0623"
+term: "only necessary to"
+type: "phrase"
+partOfSpeech: "clause"
+pronunciation: "/ˈəʊnli ˈnesəsəri tuː/"
+description: "State the minimum action required, such as setting a field on create."
+descriptionJa: "必要最小限の処理条件を示す表現。"
+meaning: "only necessary to"
+meaningJa: "〜するだけでよい"
+usageExample: "It is only necessary to set this field during creation."
+usageExampleJa: "作成時にこのフィールドを設定するだけでよい。"
+difficulty: "Intermediate"
+scene: "Technical Writing"
+---

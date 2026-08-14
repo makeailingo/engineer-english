@@ -1,0 +1,15 @@
+---
+id: "0591"
+term: "be called when"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/biː kɔːld wen/"
+description: "Specify the trigger event or user action that invokes an API."
+descriptionJa: "トリガーとなる操作やイベントを指定する表現。"
+meaning: "to be called when"
+meaningJa: "〜のときに呼び出される"
+usageExample: "The API is called when the user confirms the change."
+usageExampleJa: "APIはユーザーが変更を確認したときに呼び出される。"
+difficulty: "Intermediate"
+scene: "Technical Writing"
+---

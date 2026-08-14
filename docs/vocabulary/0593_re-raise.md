@@ -1,0 +1,15 @@
+---
+id: "0593"
+term: "re-raise"
+type: "phrase"
+partOfSpeech: "verb"
+pronunciation: "/riː reɪz/"
+description: "Bring up a previously discussed requirement again before implementation."
+descriptionJa: "以前却下された提案等を再度確認するための要請。"
+meaning: "to re-raise"
+meaningJa: "再度提起する、再度の議論を促す"
+usageExample: "I want to re-raise this requirement before implementation starts."
+usageExampleJa: "実装開始前に、この要件を再度提起したい。"
+difficulty: "Intermediate"
+scene: "Technical Writing"
+---

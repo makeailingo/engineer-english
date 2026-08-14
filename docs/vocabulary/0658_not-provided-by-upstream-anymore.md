@@ -1,0 +1,15 @@
+---
+id: "0658"
+term: "not provided by upstream anymore"
+type: "phrase"
+partOfSpeech: "clause"
+pronunciation: "/nɒt prəˈvaɪdɪd baɪ ˈʌpstr iːm ˈeni mɔː/"
+description: "Note upstream no longer returns fields the client still expects."
+descriptionJa: "外部依存先の変更の変更を明確に述べる表現。"
+meaning: "not provided by upstream anymore"
+meaningJa: "上流からはもう提供されていない"
+usageExample: "These fields are not provided by upstream anymore."
+usageExampleJa: "これらのフィールドは上流からはもう提供されていない。"
+difficulty: "Intermediate"
+scene: "Technical Writing"
+---

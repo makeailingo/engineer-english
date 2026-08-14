@@ -1,0 +1,15 @@
+---
+id: "0606"
+term: "call the following endpoints"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/kɔːl ðə ˈfɒləʊɪŋ ˈendpɔɪnts/"
+description: "List subsequent API calls the client should make in order."
+descriptionJa: "後続処理のAPI呼び出し順番を指定する表現。"
+meaning: "to call the following endpoints"
+meaningJa: "以下のエンドポイントを呼び出す"
+usageExample: "The client then calls the following endpoints."
+usageExampleJa: "クライアントは続けて以下のエンドポイントを呼び出す。"
+difficulty: "Intermediate"
+scene: "Technical Writing"
+---

@@ -1,0 +1,15 @@
+---
+id: "0585"
+term: "cannot be required"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/ˈkænɒt biː rɪˈkwaɪəd/"
+description: "Ask why a field cannot be mandatory due to a spec or system constraint."
+descriptionJa: "仕様上の制約や理由を尋ねる表現。"
+meaning: "cannot be required"
+meaningJa: "必須にできない"
+usageExample: "Please explain why this field cannot be required."
+usageExampleJa: "このフィールドを必須にできない理由を説明してください。"
+difficulty: "Intermediate"
+scene: "Technical Writing"
+---

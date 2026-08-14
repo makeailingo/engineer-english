@@ -1,0 +1,15 @@
+---
+id: "0611"
+term: "create tasks for"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/kriˈeɪt tɑːsks fɔː/"
+description: "Break work into follow-up tasks for contract and implementation updates."
+descriptionJa: "作業の分割や関連して発生する作業の割り振り表現。"
+meaning: "to create tasks for"
+meaningJa: "〜のタスクを作成する"
+usageExample: "We should create tasks for updating the contract and implementation."
+usageExampleJa: "契約と実装更新のタスクを作成すべきだ。"
+difficulty: "Intermediate"
+scene: "Technical Writing"
+---

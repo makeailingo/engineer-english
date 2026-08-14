@@ -1,0 +1,15 @@
+---
+id: "0627"
+term: "no-content status"
+type: "phrase"
+partOfSpeech: "noun phrase"
+pronunciation: "/nəʊ ˈkɒntent ˈsteɪtəs/"
+description: "Recommend a 204-style response when no body should be returned."
+descriptionJa: "204などデータなしの判定を示す表現。"
+meaning: "no-content status"
+meaningJa: "本文なしのステータス"
+usageExample: "A no-content status is appropriate when the response has no payload."
+usageExampleJa: "レスポンスにペイロードがない場合、本文なしステータスが適切だ。"
+difficulty: "Intermediate"
+scene: "Technical Writing"
+---

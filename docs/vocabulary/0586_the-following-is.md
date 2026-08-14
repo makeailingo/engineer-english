@@ -1,0 +1,15 @@
+---
+id: "0586"
+term: "the following is"
+type: "phrase"
+partOfSpeech: "clause"
+pronunciation: "/ðə ˈfɒləʊɪŋ ɪz/"
+description: "Introduce an expected format, example, or specification detail."
+descriptionJa: "仕様・例説・例示を指示する導入表現。"
+meaning: "the following is"
+meaningJa: "以下は〜である"
+usageExample: "The following is the expected response format."
+usageExampleJa: "以下が期待されるレスポンス形式です。"
+difficulty: "Intermediate"
+scene: "Technical Writing"
+---

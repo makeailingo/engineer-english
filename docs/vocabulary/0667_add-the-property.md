@@ -1,0 +1,15 @@
+---
+id: "0667"
+term: "add the property"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/æd ðə ˈprɒpəti/"
+description: "Propose adding a missing property to a shared schema."
+descriptionJa: "不足項目に対する具体的提案を行う表現。"
+meaning: "to add the property"
+meaningJa: "そのプロパティを追加する"
+usageExample: "Could we add the property to the shared schema?"
+usageExampleJa: "共有スキーマにそのプロパティを追加できますか？"
+difficulty: "Intermediate"
+scene: "Technical Writing"
+---

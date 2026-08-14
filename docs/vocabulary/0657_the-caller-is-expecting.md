@@ -1,0 +1,15 @@
+---
+id: "0657"
+term: "the caller is expecting"
+type: "phrase"
+partOfSpeech: "clause"
+pronunciation: "/ðə ˈkɔːlər ɪz ɪkˈspektɪŋ/"
+description: "Highlight mismatch between client expectations and provider behavior."
+descriptionJa: "消費側の期待値と実際の挙動の齟齬。"
+meaning: "the caller is expecting"
+meaningJa: "呼び出し側は〜を期待している"
+usageExample: "The caller is expecting fields that the provider no longer returns."
+usageExampleJa: "呼び出し側はプロバイダーが返さなくなったフィールドを期待している。"
+difficulty: "Intermediate"
+scene: "Technical Writing"
+---

@@ -1,0 +1,15 @@
+---
+id: "0579"
+term: "have a couple of"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/hæv ə ˈkʌpl əv/"
+description: "Report a small number of concerns or issues that need attention."
+descriptionJa: "少数の問題点や懸念をまとめて報告する表現。"
+meaning: "to have a few"
+meaningJa: "いくつかある"
+usageExample: "We have a couple of compatibility concerns to address."
+usageExampleJa: "対応が必要な互換性の懸念がいくつかある。"
+difficulty: "Intermediate"
+scene: "Technical Writing"
+---

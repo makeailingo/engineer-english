@@ -1,0 +1,15 @@
+---
+id: "0605"
+term: "with data in query parameters"
+type: "phrase"
+partOfSpeech: "prepositional phrase"
+pronunciation: "/wɪð ˈdeɪtə ɪn ˈkwɪəri pəˈræmɪtəz/"
+description: "Describe passing result data via URL query parameters."
+descriptionJa: "リクエスト/レスポンスのデータ受け渡し方法を示す表現。"
+meaning: "with data in query parameters"
+meaningJa: "クエリパラメータにデータを含めて"
+usageExample: "The provider sends the result with data in query parameters."
+usageExampleJa: "プロバイダーはクエリパラメータにデータを含めて結果を送る。"
+difficulty: "Intermediate"
+scene: "Technical Writing"
+---

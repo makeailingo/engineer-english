@@ -1,0 +1,15 @@
+---
+id: "0620"
+term: "rename ... to ..."
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/riːˈneɪm tuː/"
+description: "Propose renaming a field to better reflect its actual meaning."
+descriptionJa: "意図に沿ったプロパティ名の変更提案。"
+meaning: "to rename to"
+meaningJa: "〜を〜に名前変更する"
+usageExample: "Can we rename this field to reflect its actual meaning?"
+usageExampleJa: "実際の意味を反映するようこのフィールド名を変更できますか？"
+difficulty: "Intermediate"
+scene: "Technical Writing"
+---

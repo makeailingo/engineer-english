@@ -1,0 +1,15 @@
+---
+id: "0612"
+term: "update the specification"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/ˈʌpdeɪt ðə ˌspesɪfɪˈkeɪʃn/"
+description: "Direct changes to OpenAPI, contract, or design documents before coding."
+descriptionJa: "契約/OpenAPI文書の変更更新を指示する表現。"
+meaning: "to update the specification"
+meaningJa: "仕様書を更新する"
+usageExample: "We need to update the specification before implementation."
+usageExampleJa: "実装前に仕様書を更新する必要がある。"
+difficulty: "Intermediate"
+scene: "Technical Writing"
+---

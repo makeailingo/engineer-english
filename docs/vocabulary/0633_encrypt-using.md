@@ -1,0 +1,15 @@
+---
+id: "0633"
+term: "encrypt ... using ..."
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/ɪnˈkrɪpt ˈjuːzɪŋ/"
+description: "Specify encryption of a value with a named or configured key."
+descriptionJa: "処理ロジックや指定パラメタを明確にする表現。"
+meaning: "to encrypt using"
+meaningJa: "〜を使って〜を暗号化する"
+usageExample: "Encrypt the identifier using the configured key."
+usageExampleJa: "設定されたキーを使って識別子を暗号化する。"
+difficulty: "Intermediate"
+scene: "Technical Writing"
+---

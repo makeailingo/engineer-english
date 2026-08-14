@@ -1,0 +1,15 @@
+---
+id: "0625"
+term: "partial updates"
+type: "phrase"
+partOfSpeech: "noun phrase"
+pronunciation: "/ˈpɑːʃl ˈʌpdeɪts/"
+description: "Refer to PATCH-style updates that change only some fields."
+descriptionJa: "PATCHなど更新範囲を限定する文脈に使う表現。"
+meaning: "partial updates"
+meaningJa: "部分更新"
+usageExample: "Add a PATCH endpoint to support partial updates."
+usageExampleJa: "部分更新をサポートするPATCHエンドポイントを追加する。"
+difficulty: "Intermediate"
+scene: "Technical Writing"
+---

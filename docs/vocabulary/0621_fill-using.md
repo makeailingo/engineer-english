@@ -1,0 +1,15 @@
+---
+id: "0621"
+term: "fill ... using"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/fɪl ˈjuːzɪŋ/"
+description: "Describe populating a field from an upstream response or source."
+descriptionJa: "情報の取得元や設定方法を示す表現。"
+meaning: "to fill using"
+meaningJa: "〜を使って埋める/設定する"
+usageExample: "We can fill this field using the upstream response."
+usageExampleJa: "上流レスポンスを使ってこのフィールドを設定できる。"
+difficulty: "Intermediate"
+scene: "Technical Writing"
+---

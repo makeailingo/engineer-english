@@ -1,0 +1,15 @@
+---
+id: "0615"
+term: "support ... with ..."
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/səˈpɔːt wɪð/"
+description: "Require shared defaults alongside per-case configuration or handlers."
+descriptionJa: "共通処理と固有設定を併存させる要件構造。"
+meaning: "to support something with something"
+meaningJa: "一括で〜をサポートする"
+usageExample: "The client should support shared configuration with individual error handlers."
+usageExampleJa: "クライアントは個別エラーハンドラ付きの共有設定をサポートすべきだ。"
+difficulty: "Intermediate"
+scene: "Technical Writing"
+---

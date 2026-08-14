@@ -1,0 +1,15 @@
+---
+id: "0592"
+term: "in addition to"
+type: "phrase"
+partOfSpeech: "prepositional phrase"
+pronunciation: "/ɪn əˈdɪʃn tuː/"
+description: "Add another issue, requirement, or observation alongside an existing one."
+descriptionJa: "複数の問題や要件を並列で追加する表現。"
+meaning: "in addition to"
+meaningJa: "〜に加えて"
+usageExample: "In addition to the timeout, we observed duplicate requests."
+usageExampleJa: "タイムアウトに加えて、重複リクエストも観測した。"
+difficulty: "Intermediate"
+scene: "Technical Writing"
+---

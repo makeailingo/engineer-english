@@ -1,0 +1,15 @@
+---
+id: "0643"
+term: "for the first step"
+type: "phrase"
+partOfSpeech: "prepositional phrase"
+pronunciation: "/fɔː ðə fɜːst step/"
+description: "Set conditions or behavior for the initial stage of a multi-step flow."
+descriptionJa: "段階的処理の初期段階に条件を設ける表現。"
+meaning: "for the first step"
+meaningJa: "最初のステップでは"
+usageExample: "For the first step, the client should reuse the cached identifier."
+usageExampleJa: "最初のステップでは、クライアントはキャッシュ識別子を再利用すべきだ。"
+difficulty: "Intermediate"
+scene: "Technical Writing"
+---

@@ -1,0 +1,15 @@
+---
+id: "0641"
+term: "validate ... against ..."
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/ˈvælɪdeɪt əˈɡenst/"
+description: "Direct comparing submitted data with verified or reference data."
+descriptionJa: "二つのデータを照合する操作を表す表現。"
+meaning: "to validate against"
+meaningJa: "〜を〜と照合する"
+usageExample: "Validate the submitted profile against the verified identity data."
+usageExampleJa: "提出プロフィールを検証済み本人データと照合する。"
+difficulty: "Intermediate"
+scene: "Technical Writing"
+---

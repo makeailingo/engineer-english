@@ -1,0 +1,15 @@
+---
+id: "0618"
+term: "have the same meaning as"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/hæv ðə seɪm ˈmiːnɪŋ æz/"
+description: "Explain that two fields or tags represent the same concept."
+descriptionJa: "属性の用途や概念の共通性を示す表現。"
+meaning: "to have the same meaning as"
+meaningJa: "〜と同じ意味を持つ"
+usageExample: "This tag has the same meaning as the existing status field."
+usageExampleJa: "このタグは既存のステータスフィールドと同じ意味を持つ。"
+difficulty: "Intermediate"
+scene: "Technical Writing"
+---

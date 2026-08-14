@@ -1,0 +1,15 @@
+---
+id: "0577"
+term: "given a post code"
+type: "phrase"
+partOfSpeech: "prepositional phrase"
+pronunciation: "/ˈɡɪvn ə pəʊst kəʊd/"
+description: "State an input condition used to return matching results such as addresses."
+descriptionJa: "入力条件を指定して結果を取得する文脈。"
+meaning: "given a post code"
+meaningJa: "郵便番号を指定して"
+usageExample: "The service returns address candidates given a post code."
+usageExampleJa: "サービスは郵便番号を指定して住所候補を返す。"
+difficulty: "Intermediate"
+scene: "Technical Writing"
+---

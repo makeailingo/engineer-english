@@ -1,0 +1,15 @@
+---
+id: "0587"
+term: "be required for"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/biː rɪˈkwaɪəd fɔː/"
+description: "State that a change is needed for a release, bug fix, or dependency."
+descriptionJa: "特定のリリースや不具合に対応を示す表現。"
+meaning: "to be required for"
+meaningJa: "〜に必要である"
+usageExample: "This change is required for the next release."
+usageExampleJa: "この変更は次のリリースに必要である。"
+difficulty: "Intermediate"
+scene: "Technical Writing"
+---

@@ -1,0 +1,15 @@
+---
+id: "0672"
+term: "returning ... isn't meaningful"
+type: "phrase"
+partOfSpeech: "clause"
+pronunciation: "/rɪˈtɜːnɪŋ ˈɪznt ˈmiːnɪŋfl/"
+description: "Argue against returning an empty or useless success payload."
+descriptionJa: "非推奨なレスポンス設計を指摘する際の使用。"
+meaning: "returning is not meaningful"
+meaningJa: "〜を返すのは意味がない"
+usageExample: "Returning an empty success message isn't meaningful."
+usageExampleJa: "空の成功メッセージを返すのは意味がない。"
+difficulty: "Advanced"
+scene: "Technical Writing"
+---

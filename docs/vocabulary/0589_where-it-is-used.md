@@ -1,0 +1,15 @@
+---
+id: "0589"
+term: "where it is used"
+type: "phrase"
+partOfSpeech: "clause"
+pronunciation: "/weər ɪt ɪz juːzd/"
+description: "Ask which screens, services, or components use a field or property."
+descriptionJa: "コンポーネントやプロパティの使用箇所を示す表現。"
+meaning: "where it is used"
+meaningJa: "どこで使用されているか"
+usageExample: "The document should explain where it is used."
+usageExampleJa: "文書はどこで使用されているかを説明すべきだ。"
+difficulty: "Intermediate"
+scene: "Technical Writing"
+---

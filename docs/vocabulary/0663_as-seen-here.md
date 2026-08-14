@@ -1,0 +1,15 @@
+---
+id: "0663"
+term: "as seen here"
+type: "phrase"
+partOfSpeech: "adverbial phrase"
+pronunciation: "/æz siːn hɪər/"
+description: "Point to code or an example as evidence for a requirement."
+descriptionJa: "根拠となる実装や例を示す表示。"
+meaning: "as seen here"
+meaningJa: "ここで確認できるように"
+usageExample: "The handler requires the field, as seen here."
+usageExampleJa: "ここで確認できるように、ハンドラはこのフィールドを要求する。"
+difficulty: "Intermediate"
+scene: "Technical Writing"
+---
