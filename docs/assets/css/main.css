@@ -129,8 +129,6 @@ code {
 
   .hero-band__subtitle {
     max-width: none;
-    word-break: normal;
-    overflow-wrap: anywhere;
   }
 
 }
@@ -166,11 +164,11 @@ code {
 
 .hero-band__subtitle {
   margin: 0;
-  max-width: 38rem;
+  max-width: 52rem;
   font-size: 15px;
   line-height: 1.6;
   color: var(--color-muted);
-  overflow-wrap: anywhere;
+  text-wrap: balance;
 }
 
 /* Cards */
