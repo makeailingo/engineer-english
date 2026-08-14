@@ -441,23 +441,6 @@ code {
   border-radius: var(--rounded-md);
 }
 
-.vocabulary__source {
-  margin: 0;
-  padding-left: var(--spacing-lg);
-}
-
-.vocabulary__source li {
-  margin-bottom: var(--spacing-xs);
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 1.5;
-  color: var(--color-body);
-}
-
-.vocabulary__source li:last-child {
-  margin-bottom: 0;
-}
-
 /* Footer */
 
 .footer {

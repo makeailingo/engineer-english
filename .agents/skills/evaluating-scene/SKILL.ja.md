@@ -1,13 +1,12 @@
 ---
 name: evaluating-scene
-description: usageExample と source context から Vocabulary の scene が整合しているか評価する。Vocabulary の作成・更新前、または scene の検証時に使用する。
+description: meaning と usageExample から Vocabulary の scene が整合しているか評価する。Vocabulary の作成・更新前、または scene の検証時に使用する。
 ---
 # Evaluating Scene
 
 > English: [SKILL.md](SKILL.md)
 
-Vocabulary の `scene` が、その語義・使用例・一次資料で確認した
-エンジニアリング文脈と整合しているか評価する。
+Vocabularyの`scene`が、その意味と使用例に整合しているか評価する。
 
 Scene は term 単体では判定しない。
 
@@ -15,12 +14,9 @@ Scene は term 単体では判定しない。
 
 ```yaml
 term: "router"
+meaning: "a device or rule that directs traffic along a path"
 meaningJa: "ルーター、経路振分"
 usageExample: "..."
-source:
-  title: "..."
-  url: "..."
-  context: "..."
 currentScene: "Meetings / Events"
 ```
 
@@ -74,23 +70,7 @@ Scene は、
 
 → 解決できない技術的対立について上位者に判断を求めている。
 
-### 3. 一次資料の文脈を確認する
-
-`source.url` を開き、実際にその term が使われている周辺を確認する。
-
-検索結果の要約だけで判定しない。
-
-一次資料上で、
-
-* code review
-* incident handling
-* system design
-* implementation
-* testing
-
-など、どの活動について述べられているか確認する。
-
-### 4. Scene Master に対応させる
+### 3. Scene Master に対応させる
 
 以下の定義に最も直接一致する Scene を1つ選ぶ。
 
@@ -188,16 +168,16 @@ term: "router"
 actionSummary: "トラフィック移行前にルーター規則を更新している。"
 scene: "Design / Architecture"
 confidence: High
-notes: "source は Express デプロイ文脈だが、行為はインフラ運用。"
+notes: "使用例の行為は実装ではなくインフラ運用。"
 ```
 
 `actionSummary` を先に書き、その後 `scene` または `expectedScene` を書く。
 
 ## Confidence
 
-- `High`: 使用例の主目的と一次資料の活動が一致し、Scene が1つに定まる
+- `High`: 使用例の主目的が明確で、Sceneが1つに定まる
 - `Medium`: 主目的は特定できるが、複数 Scene の境界付近である
-- `Low`: 使用例だけでは主目的が曖昧、または一次資料と乖離がある
+- `Low`: 使用例から主目的を特定できない
 
 `confidence` が Low でも、Scene Master から1つ選ぶ。`notes` に迷いを記録する。
 
@@ -213,7 +193,6 @@ FAIL の場合は `expectedScene` で Vocabulary の `scene` を修正する。
 * term 単体で Scene を決めない。
 * カタカナ技術用語のカテゴリだけで決めない。
 * usageExample に登場する名詞だけで決めない。
-* `source` のカテゴリを無条件に Scene にコピーしない。
 * usageExample の **主たる仕事・目的** を最優先する。
 * 必ず Scene Master から1つだけ選ぶ。
 

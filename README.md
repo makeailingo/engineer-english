@@ -2,13 +2,14 @@
 
 > Japanese: [README.ja.md](README.ja.md)
 
-An open dataset of English used in day-to-day software engineering work.
+A dataset designed to improve software engineers' English skills, built from words and phrases personally heard or seen by software engineers in workplaces where English is the working language.
 
 ## Concept
 
-- We include words and phrases that engineers repeatedly encounter regardless of role or tech stack—career and interviewing, meetings, implementation, code review, design, incident response, technical writing, management, and similar cross-cutting work. We exclude specialized terminology whose meaning depends on a particular technology, role, or domain.
-- We extract words and phrases actually used in software engineering from reliable primary sources.
-- We obtain senses, parts of speech, and pronunciation (US English IPA) from reliable external dictionaries (Cambridge Dictionary as the primary source; Oxford Advanced Learner's Dictionary for cross-checking).
+- Each entry must be something a software engineer has personally heard or seen while working in English.
+- Entries may come from meetings, implementation, code review, interviews, written communication, lunch, after-work gatherings, and other interactions around engineering work.
+- We include vocabulary useful across roles and technology stacks, rather than terminology specific to one technology, role, or domain.
+- Meanings, parts of speech, and English IPA are checked in Cambridge Dictionary and cross-checked in Oxford Advanced Learner's Dictionary. Descriptions and usage examples are written independently, informed by how each term was actually heard or seen.
 - Difficulty is classified into three levels:
 
 | Difficulty | Guideline |
@@ -17,33 +18,19 @@ An open dataset of English used in day-to-day software engineering work.
 | Intermediate | General vocabulary with learning value in professional use, or frequent in technical contexts |
 | Advanced | Uncommon in everyday English; even engineers are unlikely to know the word as English vocabulary |
 
-- Learner-facing content is written independently.
-
-## Primary Source Usage
-
-Primary sources are handled according to their licenses.
-
-- **Open-license materials:** Google Engineering Practices, Google Developer Documentation Style Guide, explicitly licensed Google SRE CC BY 4.0 materials, and MDN Web Docs. Each source is used according to its license. MDN body text is not reused because doing so would trigger share-alike obligations.
-- **Usage-reference materials:** Amazon Jobs Interview Prep. No open license has been identified, so these pages are used only to verify that a term appears in an engineering context:
-  - [Software development interview topics](https://www.amazon.jobs/content/en/how-we-hire/interview-prep/software-development-topics)
-  - [SDE II Interview Prep](https://www.amazon.jobs/content/en/how-we-hire/sde-ii-interview-prep)
-  - [SDE III/Sr. SDE Interview Prep](https://www.amazon.jobs/content/en/how-we-hire/sde-iii-interview-prep)
-
-Amazon Jobs body text, examples, and questions are not copied, translated, summarized, or adapted into the dataset. Meanings, explanations, usage examples, translations, and source-context descriptions are written independently.
-
 ## Learning Order (ID)
 
 Each vocabulary `id` (0001 onward) reflects learning order across seven Scenes in this sequence:
 
-| Order | Scene | ID range (1,000 entries) |
-| --- | --- | --- |
-| 1 | Career / Interview | 0001–0079 |
-| 2 | Implementation / Review | 0080–0399 |
-| 3 | Meetings / Events | 0400–0546 |
-| 4 | Design / Architecture | 0547–0849 |
-| 5 | Incident Response | 0850–0929 |
-| 6 | Technical Writing | 0930–0969 |
-| 7 | Management | 0970–1000 |
+| Order | Scene |
+| --- | --- |
+| 1 | Career / Interview |
+| 2 | Implementation / Review |
+| 3 | Meetings / Events |
+| 4 | Design / Architecture |
+| 5 | Incident Response |
+| 6 | Technical Writing |
+| 7 | Management |
 
 Within each Scene, entries are ordered by **difficulty → learning value → practical frequency**.
 See the [sorting-vocabulary Skill](.agents/skills/sorting-vocabulary/SKILL.md) for details.
@@ -93,6 +80,4 @@ Output is written to `docs/_site/`.
 
 ## License
 
-MIT. See [LICENSE](LICENSE).
-
-This license covers content in this repository, not linked third-party source pages. Those pages remain subject to their respective licenses and terms.
+AGPL-3.0-only. See [LICENSE](LICENSE).

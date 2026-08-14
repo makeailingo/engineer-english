@@ -9,7 +9,7 @@ description: Rules for Japanese technical writing and editing. Use when writing 
 
 This Skill defines rules for Japanese technical manuscripts: formatting, paragraph structure, argument rigor, reader load, tone, and anti-LLM phrasing.
 
-The canonical rule set is maintained in Japanese because it governs Japanese output such as `usageExampleJa`, `descriptionJa`, and `source.context`.
+The canonical rule set is maintained in Japanese because it governs Japanese output such as `usageExampleJa` and `descriptionJa`.
 
 When writing or reviewing Japanese text for this repository:
 
@@ -30,7 +30,7 @@ Use this Skill at minimum for:
 Before finishing, confirm:
 
 - The Japanese matches `usageExample` in meaning and tone.
-- The 40-character limit is met without broken noun chains.
+- The 80-character limit is met without broken noun chains.
 - Established technical translations are used consistently.
 - There are no em dashes, middle-dot lists, or isolated イ-adjective + 「です」 sentences.
 

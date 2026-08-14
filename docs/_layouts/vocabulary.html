@@ -58,16 +58,4 @@ layout: default
   </section>
   {% endif %}
 
-  {% if page.source %}
-  <section class="vocabulary__section">
-    <h2>Source / 出典</h2>
-    <ul class="vocabulary__source">
-      <li>
-        <a href="{{ page.source.url }}">{{ page.source.title }}</a>
-        （{{ page.source.license }}）
-      </li>
-      <li>{{ page.source.context }}</li>
-    </ul>
-  </section>
-  {% endif %}
 </article>

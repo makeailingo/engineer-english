@@ -35,7 +35,7 @@ Always use this order:
 
 Always work in this order:
 
-1. Decide which Scene each entry belongs to from its usage example and source context
+1. Decide which Scene each entry belongs to from its meaning and usage example
 2. Sort within each Scene only
 3. Concatenate the seven Scenes in the fixed order
 4. Renumber IDs
@@ -108,7 +108,6 @@ During sorting, do not change:
 - scene
 - usageExample
 - usageExampleJa
-- source
 
 ## 8. Updating References
 

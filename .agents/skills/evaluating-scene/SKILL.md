@@ -1,14 +1,13 @@
 ---
 name: evaluating-scene
-description: Evaluate whether a Vocabulary scene matches usageExample and source context. Use before creating or updating Vocabulary, or when validating scene.
+description: Evaluate whether a Vocabulary scene matches its meaning and usageExample. Use before creating or updating Vocabulary, or when validating scene.
 ---
 
 # Evaluating Scene
 
 > Japanese: [SKILL.ja.md](SKILL.ja.md)
 
-Evaluate whether Vocabulary `scene` aligns with the adopted sense,
-usage example, and engineering context verified in the primary source.
+Evaluate whether Vocabulary `scene` aligns with the adopted meaning and usage example.
 
 Do not assign Scene from the term alone.
 
@@ -19,10 +18,6 @@ term: "router"
 meaning: "a device or rule that directs traffic along a path"
 meaningJa: "ルーター、経路振分"
 usageExample: "..."
-source:
-  title: "..."
-  url: "..."
-  context: "..."
 currentScene: "Meetings / Events"
 ```
 
@@ -70,21 +65,7 @@ Example:
 
 → Asking a senior decision-maker to resolve a technical disagreement.
 
-### 3. Confirm primary-source context
-
-Open `source.url` and read the surrounding text where the term appears.
-
-Do not decide from search-result snippets alone.
-
-Confirm which activity the source discusses, such as:
-
-* code review
-* incident handling
-* system design
-* implementation
-* testing
-
-### 4. Map to Scene Master
+### 3. Map to Scene Master
 
 Choose the one Scene that most directly matches.
 
@@ -180,16 +161,16 @@ term: "router"
 actionSummary: "Updating router rules before a traffic migration."
 scene: "Design / Architecture"
 confidence: High
-notes: "The source discusses Express deployment, but the action is infrastructure operations."
+notes: "The example describes infrastructure operations rather than implementation."
 ```
 
 Write `actionSummary` first, then `scene` or `expectedScene`.
 
 ## Confidence
 
-- `High`: primary purpose in the example and source activity align; one Scene is clear
+- `High`: the example has one clear primary purpose and maps directly to one Scene
 - `Medium`: primary purpose is identifiable, but near a boundary between Scenes
-- `Low`: primary purpose is ambiguous from the example alone, or the source diverges
+- `Low`: primary purpose is ambiguous from the example
 
 Even when `confidence` is Low, choose one Scene from Scene Master and record uncertainty in `notes`.
 
@@ -205,7 +186,6 @@ When validation FAILs, update Vocabulary `scene` to `expectedScene`.
 * Do not assign Scene from the term alone.
 * Do not assign Scene from katakana technical category alone.
 * Do not assign Scene from nouns in `usageExample` alone.
-* Do not copy `source` category to Scene unconditionally.
 * Prioritize the **primary work or purpose** in `usageExample`.
 * Always choose exactly one Scene from Scene Master.
 

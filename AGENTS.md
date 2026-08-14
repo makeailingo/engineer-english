@@ -2,18 +2,19 @@
 
 > Japanese: [AGENTS.ja.md](AGENTS.ja.md)
 
-A dataset of English used in day-to-day software engineering work.
+A dataset designed to improve software engineers' English skills, built from words and phrases personally heard or seen by software engineers in workplaces where English is the working language.
 
 ## Concept
 
-- Include words and phrases that engineers repeatedly encounter regardless of role or tech stack—career and interviewing, meetings, implementation, code review, design, incident response, technical writing, management, and similar cross-cutting work. Exclude specialized terminology whose meaning depends on a particular technology, role, or domain.
-- Extract words and phrases actually used in software engineering from reliable primary sources. Open-license sources are Google Engineering Practices, explicitly licensed Google SRE CC BY 4.0 materials, and MDN Web Docs. Amazon Jobs Interview Prep is a usage-reference source because no open license has been identified.
-- Obtain senses, parts of speech, and US English IPA pronunciation from reliable external dictionaries (primary: Cambridge Dictionary; cross-check: Oxford Advanced Learner's Dictionary).
+- Include only words and phrases that a software engineer has personally heard or seen while working in English.
+- Include language from meetings, implementation, code review, interviews, written communication, lunch, after-work gatherings, and other interactions around engineering work.
+- Include vocabulary useful across roles and technology stacks. Exclude terminology specific to one technology, role, or domain.
+- Check meanings, parts of speech, and English IPA in Cambridge Dictionary, then cross-check them in Oxford Advanced Learner's Dictionary.
 - Classify difficulty into three levels:
   - **Beginner**: widely known general vocabulary; engineers can infer the meaning easily
   - **Intermediate**: general vocabulary with learning value in professional use, or frequent in technical contexts
   - **Advanced**: uncommon in everyday English; even engineers are unlikely to know the word as English vocabulary
-- Write learner-facing content independently. Do not copy, translate, summarize, or adapt source text from usage-reference materials.
+- Write descriptions and usage examples independently, informed by how each term was actually heard or seen.
 
 ## Working Rules
 

@@ -2,13 +2,14 @@
 
 > English: [README.md](README.md)
 
-ソフトウェアエンジニアが実務で使う英語のデータセットです。
+ソフトウェアエンジニアの英語力向上を目的に、英語を共通言語とする環境で働くソフトウェアエンジニア自身が、実際に見聞きした英単語・フレーズを収録するデータセットです。
 
 ## コンセプト
 
-- 転職・面接、会議、実装、コードレビュー、設計、障害対応、テクニカルライティング、マネジメントなど、職種や技術スタックを問わず繰り返し遭遇する英単語・フレーズを収録します。一方で、特定の技術・職種・ドメインを理解するための専門用語そのものは対象外とします。
-- 信頼性の高い一次資料から、ソフトウェアエンジニアリングの文脈で実際に使われる単語やフレーズを抽出しています。
-- 語義・品詞・発音記号は、信頼性の高い外部の辞書（Cambridge Dictionary を一次情報とし、Oxford Advanced Learner's Dictionary で照合）から取得しています。
+- ソフトウェアエンジニア自身が実際に見聞きした英単語・フレーズだけを収録する。
+- 転職、面接、実装、コードレビュー、テクニカルライティング、アーキテクチャの設計など、ソフトウェアエンジニアとして働く中で交わされる英語を対象とする。
+- 特定の技術、職種、ドメインだけで使われる専門用語ではなく、幅広いソフトウェアエンジニアに役立つ語彙を収録する。
+- 意味・品詞・発音記号は Cambridge Dictionary で確認し、Oxford Advanced Learner's Dictionary で照合する。
 - 難易度は次の3段階で分類しています。
 
 | 難易度 | 目安 |
@@ -17,34 +18,19 @@
 | Intermediate（中級） | 一般語だが実務での用法に学習価値がある、または技術文脈で頻出する |
 | Advanced（上級） | 一般英語として日常的に使われず、エンジニアも英単語としては馴染みが薄い |
 
-- 学習用コンテンツは独自に作成しています。
-
-## 一次資料の利用区分
-
-一次資料はライセンスに応じて扱いを分けています。
-
-- **オープンライセンス資料**：Google Engineering Practices、Google Developer Documentation Style Guide、CC BY 4.0と明記されたGoogle SRE資料、MDN Web Docs。各資料のライセンス条件に従います。MDNの本文は、再利用によって継承ライセンスの条件が生じるため使用しません。
-- **用法参照資料**：Amazon Jobs Interview Prep。オープンライセンスを確認できないため、対象語がエンジニアリングの文脈で使われていることの確認に限って、次のページを使用します。
-  - [Software development interview topics](https://www.amazon.jobs/content/en/how-we-hire/interview-prep/software-development-topics)
-  - [SDE II Interview Prep](https://www.amazon.jobs/content/en/how-we-hire/sde-ii-interview-prep)
-  - [SDE III/Sr. SDE Interview Prep](https://www.amazon.jobs/content/en/how-we-hire/sde-iii-interview-prep)
-
-Amazon Jobsの本文、例文、質問文は、データセットへコピー、翻訳、要約、翻案しません。
-語義、説明、使用例、日本語訳、出典の文脈説明は独自に作成します。
-
 ## 学習順（ID）
 
 語彙の `id`（0001 から連番）は、次の7つのSceneをこの順に並べた学習順を表します。
 
-| 順序 | Scene | ID 範囲（1,000語） |
-| --- | --- | --- |
-| 1 | 転職・面接 | 0001–0079 |
-| 2 | 実装・レビュー | 0080–0399 |
-| 3 | 会議・イベント | 0400–0546 |
-| 4 | 設計・アーキテクチャ | 0547–0849 |
-| 5 | 障害対応 | 0850–0929 |
-| 6 | テクニカルライティング | 0930–0969 |
-| 7 | マネジメント | 0970–1000 |
+| 順序 | Scene |
+| --- | --- |
+| 1 | 転職・面接 |
+| 2 | 実装・コードレビュー |
+| 3 | 会議・イベント |
+| 4 | 設計・アーキテクチャ |
+| 5 | 障害対応 |
+| 6 | テクニカルライティング |
+| 7 | マネジメント |
 
 Scene分類を先に確定し、各Scene内では **難易度 → 学習価値 → 実用性** の順で並べます。
 詳細は [sorting-vocabulary Skill](.agents/skills/sorting-vocabulary/SKILL.md) を参照してください。
@@ -94,7 +80,4 @@ bundle exec jekyll build --baseurl ""
 
 ## ライセンス
 
-MIT. See [LICENSE](LICENSE).
-
-このライセンスはリポジトリ内のコンテンツに適用され、リンク先の第三者資料には適用されません。
-リンク先の資料には、それぞれのライセンスと利用条件が適用されます。
+AGPL-3.0-only. See [LICENSE](LICENSE).

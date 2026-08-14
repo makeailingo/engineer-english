@@ -8,7 +8,7 @@ description: Assign Vocabulary difficulty using two evaluation axes and fixed de
 > Japanese: [SKILL.ja.md](SKILL.ja.md)
 
 Assign Vocabulary `difficulty` from two evaluation axes and the decision rules below.
-Do not use external vocabulary lists such as CEFR or TOEIC as the source of truth.
+Do not use external vocabulary lists such as CEFR or TOEIC as the deciding standard.
 
 ## Difficulty Definitions
 

@@ -1,6 +1,6 @@
 ---
 name: researching-vocabulary
-description: 英単語・フレーズの品詞、語義、米国英語のIPA、ソフトウェア開発での用法を複数の資料で調査する。Vocabularyの作成・更新前に使用する。
+description: ソフトウェアエンジニア自身が英語で働く中で見聞きした語彙について、意味・品詞・英語の発音記号を辞書で確認する。Vocabularyの作成・更新前に使用する。
 ---
 # Researching Vocabulary
 
@@ -8,38 +8,36 @@ description: 英単語・フレーズの品詞、語義、米国英語のIPA、�
 
 ## 辞書
 
-- 一次情報とする辞書: [Cambridge Dictionary](https://dictionary.cambridge.org/dictionary/english/)
-- ダブルチェック用の辞書: [Oxford Advanced Learner's Dictionary](https://www.oxfordlearnersdictionaries.com/definition/english/)
+- 確認に使う辞書: [Cambridge Dictionary](https://dictionary.cambridge.org/dictionary/english/)
+- 照合に使う辞書: [Oxford Advanced Learner's Dictionary](https://www.oxfordlearnersdictionaries.com/definition/english/)
 
-Cambridgeは品詞、語義ごとの定義、米国英語のIPAを同じ項目で確認できる。学習者向けで、コーパスにも基づいているため、辞書情報の一次資料として使用する。Oxfordは一般米語（General American）のIPA、語義、用例を独立して確認できるため、ダブルチェックに使用する。
+Cambridgeでは品詞、意味ごとの定義、発音記号を同じ項目で確認できる。Oxfordでは発音と意味を別の辞書で照合できる。
 
 ## Input
 
 ```yaml
 term: "address"
+observedUsage: "<英語で働く中で実際に見聞きした使われ方>"
 ```
 
 ## Workflow
 
-1. Cambridgeで対象語の品詞を確認する。
-2. Cambridgeで一般的な語義と、語義ごとの区分を確認する。
-3. Cambridgeで米国英語のIPAを確認する。
-4. 承認済みの一次資料（Google Engineering Practices、CC BY 4.0と明記されたGoogle SRE資料、MDN Web Docs、Amazon Jobs Interview Prep）で実務用法を確認する。
-5. 辞書に掲載された語義のうち、一次資料のソフトウェア開発文脈で実際に使われているものを特定する。
-6. 特定した語義に限定して、自然で簡潔な日本語訳を作成する。
-7. Oxfordで品詞、語義、米国英語のIPAを照合し、不一致がないか確認する。
-8. 各 Vocabulary を確定する前に、`evaluating-meaningJa` のルールを適用する。
+1. `observedUsage`を読み、対象語がどの意味で使われていたかを特定する。
+2. Cambridgeで対象語の品詞と意味を確認する。
+3. Cambridgeで英語の発音記号を確認する。
+4. `observedUsage`に一致する意味を選ぶ。
+5. 選んだ意味に限定して、自然で簡潔な日本語訳を作成する。
+6. Oxfordで品詞、意味、英語の発音記号を照合し、不一致がないか確認する。
+7. 各Vocabularyを確定する前に、`evaluating-meaningJa`のルールを適用する。
 
-   Before finalizing each vocabulary item, apply the `evaluating-meaningJa` rules.
+   特に次の点を確認する。
 
-   In particular:
+   - `meaningJa`は、日本人学習者が英語の意味を理解できる内容にする。
+   - カタカナ表記だけを意味として記載しない。
+   - カタカナを残す場合は、役に立つ日本語の説明を添える。
+   - 説明は簡潔にし、`usageExample`で使われている意味に合わせる。
 
-   - `meaningJa` must explain the English meaning to a Japanese learner.
-   - Do not use katakana transliteration alone as the meaning.
-   - Katakana may be retained only when accompanied by a useful Japanese explanation.
-   - Keep the explanation concise and aligned with the intended sense in `usageExample`.
-
-   Examples:
+   例:
 
    NG:
    blocker → ブロッカー
@@ -51,46 +49,22 @@ term: "address"
    backlog → 未着手の作業や要望の一覧、バックログ
    on-call → 障害対応のため待機する当番、オンコール
 
-検索結果に表示される要約だけで判断せず、各ページを開いて確認する。不一致を解消できない場合は推測せず、`confidence: Low`として理由を示す。
-
-## 一次資料の取り扱い
-
-vocabulary-markdownルールの一次資料区分に従う。
-Amazon Jobs Interview Prepはオープンライセンスを確認できないため、用法参照資料とする。
-対象語がエンジニアリングの文脈で使われていることの確認に限って使用する。
-
-Amazon Jobsを出典とする場合は、次の規則に従う。
-
-- 本文、例文、質問文をコピー、翻訳、要約、翻案しない。
-- 学習用の全フィールドと`source.context`を独自に作成する。
-- `source.license`には`No open license identified`と記載する。
+不一致を解消できない場合は推測せず、`confidence: Low`として理由を示す。
 
 ## Output
 
 ```yaml
-partOfSpeech: "<採用した語義に対応する品詞>"
-meaningJa: "<ソフトウェア開発の文脈に対応する日本語訳>"
-pronunciation: "<米国英語のIPA>"
-engineeringSense: "<ソフトウェア開発の文脈における簡潔な英語の語義>"
-sources:
-  - role: primaryDictionary
-    title: "<Cambridgeの項目名>"
-    url: "<確認したURL>"
-  - role: crossCheckDictionary
-    title: "<Oxfordの項目名>"
-    url: "<確認したURL>"
-  - role: engineeringPrimary
-    title: "<一次資料のページタイトル>"
-    url: "<確認したURL>"
-    license: "<ライセンス>"
-    context: "<実務用法の簡潔な日本語要約>"
+partOfSpeech: "<選んだ意味に対応する品詞>"
+meaning: "<observedUsageに合う簡潔な英語の意味>"
+meaningJa: "<選んだ意味の自然な日本語訳>"
+description: "<使われ方をまとめた簡潔な英語の説明>"
+pronunciation: "<英語の発音記号>"
 confidence: "<High | Medium | Low>"
+notes: "<必要な場合のみ、不確かな点と理由>"
 ```
 
 ## Confidence
 
-- `High`: 2つの辞書と一次資料の間で、品詞、語義、IPAに不一致がない。
-- `Medium`: 語義は一致しているが、表記に差がある、または一次資料の用例が間接的である。
+- `High`: 2つの辞書で、選んだ意味、品詞、発音記号に不一致がない。
+- `Medium`: 選んだ意味は一致しているが、表記や発音に差がある。
 - `Low`: 必須情報が不足している、または不一致を解消できない。Vocabularyには採用しない。
-
-調査用の辞書URLは中間出力に残す。Vocabularyの`source`には`engineeringPrimary`だけを転記する。

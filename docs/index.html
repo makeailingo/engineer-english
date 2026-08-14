@@ -14,6 +14,7 @@ title: Engineer English
   <p class="hero-band__subtitle">{{ site.description }}</p>
 </section>
 
+{% if vocabularies.size > 0 %}
 <section class="vocabulary-section">
 
   <div class="vocabulary-toolbar">
@@ -113,3 +114,4 @@ title: Engineer English
 
 <link rel="stylesheet" href="{{ '/assets/css/vocabulary-controls.css' | relative_url }}">
 <script src="{{ '/assets/js/vocabulary-table.js' | relative_url }}"></script>
+{% endif %}

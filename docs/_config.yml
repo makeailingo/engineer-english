@@ -1,7 +1,7 @@
 title: Engineer English
-description: Open-source English Vocabulary Dataset for Software Engineers.
+description: Improve your English with words and phrases personally heard or seen by software engineers working in English.
 github_url: https://github.com/makeailingo/engineer-english
-license: MIT
+license: AGPL-3.0-only
 license_url: https://github.com/makeailingo/engineer-english/blob/main/LICENSE
 url: https://makeailingo.github.io
 baseurl: /engineer-english
@@ -22,7 +22,7 @@ labels:
     Advanced: 上級
   scene:
     Career / Interview: 転職・面接
-    Implementation / Review: 実装・レビュー
+    Implementation / Review: 実装・コードレビュー
     Meetings / Events: 会議・イベント
     Design / Architecture: 設計・アーキテクチャ
     Incident Response: 障害対応
