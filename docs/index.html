@@ -68,7 +68,7 @@ title: Engineer English
             <th>ID</th>
             <th>Term / 単語</th>
             <th>Meaning (JA) / 意味（日本語）</th>
-            <th>Usage Example / 使用例</th>
+            <th>Usage Example / 使用例（英語・日本語）</th>
             <th>Scene / シーン</th>
             <th>Difficulty / 難易度</th>
           </tr>
@@ -92,7 +92,10 @@ title: Engineer English
                   </a>
                 </td>
                 <td>{{ vocabulary.meaningJa }}</td>
-                <td>{{ vocabulary.usageExample }}</td>
+                <td class="vocabulary-table__usage">
+                  <span class="vocabulary-table__usage-en">{{ vocabulary.usageExample }}</span>
+                  <span class="vocabulary-table__usage-ja">{{ vocabulary.usageExampleJa }}</span>
+                </td>
                 <td>{{ site.labels.scene[vocabulary.scene] }}</td>
                 <td>
                   <span class="badge-pill badge-pill--{{ vocabulary.difficulty | downcase }}">
