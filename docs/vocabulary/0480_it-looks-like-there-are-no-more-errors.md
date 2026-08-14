@@ -1,0 +1,15 @@
+---
+id: "0480"
+term: "It looks like there are no more errors"
+type: "phrase"
+partOfSpeech: "clause"
+pronunciation: "/ɪt lʊks laɪk ðeər ɑː nəʊ mɔː ˈerəz/"
+description: "Signal recovery while continuing to monitor for recurrence."
+descriptionJa: "収束傾向を示しつつ、完全復旧の確認を続ける。"
+meaning: "there seem to be no more errors"
+meaningJa: "追加のエラーはなさそうだ"
+usageExample: "It looks like there are no more errors, but I'll keep monitoring."
+usageExampleJa: "追加のエラーはなさそうだが、監視を継続する。"
+difficulty: "Beginner"
+scene: "Incident Response"
+---

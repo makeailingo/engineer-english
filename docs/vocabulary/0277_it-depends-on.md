@@ -1,0 +1,15 @@
+---
+id: "0277"
+term: "it depends on"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/ɪt dɪˈpendz ɒn/"
+description: "Say the outcome hinges on other factors."
+descriptionJa: "結果や要件が他の要素に依存して決定することを示す。"
+meaning: "it depends on"
+meaningJa: "〜による、〜次第だ"
+usageExample: "It depends on what we learn from the trial."
+usageExampleJa: "トライアル結果次第だ。"
+difficulty: "Beginner"
+scene: "Meetings / Events"
+---

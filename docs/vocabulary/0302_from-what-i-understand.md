@@ -1,0 +1,15 @@
+---
+id: "0302"
+term: "from what I understand"
+type: "phrase"
+partOfSpeech: "clause"
+pronunciation: "/frɒm wɒt aɪ ˌʌndəˈstænd/"
+description: "Share your understanding while inviting correction."
+descriptionJa: "自分の理解を提示しつつ、相手に訂正の余地を残す丁寧な表現。"
+meaning: "as I understand it"
+meaningJa: "私の理解では"
+usageExample: "From what I understand, the schema is generated automatically."
+usageExampleJa: "私の理解では、スキーマは自動生成される。"
+difficulty: "Intermediate"
+scene: "Meetings / Events"
+---

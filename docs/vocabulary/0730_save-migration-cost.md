@@ -1,0 +1,15 @@
+---
+id: "0730"
+term: "save migration cost"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/seɪv maɪˈɡreɪʃn kɒst/"
+description: "Justify long-term investment by comparing upfront and migration costs."
+descriptionJa: "短期費用と長期費用のトレードオフを説明し、長期的投資を正当化するときに使う。"
+meaning: "to save migration cost"
+meaningJa: "移行コストを抑える"
+usageExample: "A shared platform may cost more initially but save migration cost later."
+usageExampleJa: "共有プラットフォームは初期費用こそ高いが、移行コストを抑えられる。"
+difficulty: "Intermediate"
+scene: "Management"
+---

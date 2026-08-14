@@ -1,0 +1,15 @@
+---
+id: "0367"
+term: "regression risk"
+type: "phrase"
+partOfSpeech: "noun phrase"
+pronunciation: "/rɪˈɡreʃn rɪsk/"
+description: "Assess whether legacy clients may break after a change."
+descriptionJa: "仕様変更によるデグレリスクを評価・確認する表現。"
+meaning: "risk of breaking existing behavior"
+meaningJa: "仕様変更・修正によってデグレ（先祖返り・機能不全）が発生するリスク"
+usageExample: "What is the regression risk for clients still using the legacy identifier?"
+usageExampleJa: "レガシー識別子を使うクライアントのデグレリスクはどの程度か。"
+difficulty: "Beginner"
+scene: "Design / Architecture"
+---

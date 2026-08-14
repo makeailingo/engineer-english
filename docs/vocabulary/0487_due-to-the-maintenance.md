@@ -1,0 +1,15 @@
+---
+id: "0487"
+term: "due to the maintenance"
+type: "phrase"
+partOfSpeech: "prepositional phrase"
+pronunciation: "/djuː tuː ðə ˈmeɪntənəns/"
+description: "Explain an issue as caused by planned or recent maintenance."
+descriptionJa: "事前作業やメンテナンスに起因する事象であることを説明する。"
+meaning: "because of maintenance"
+meaningJa: "メンテナンスが原因で"
+usageExample: "Some instances retained stale connections due to the maintenance."
+usageExampleJa: "メンテナンスにより、一部インスタンスが古い接続を保持した。"
+difficulty: "Beginner"
+scene: "Incident Response"
+---

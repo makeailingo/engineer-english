@@ -1,0 +1,15 @@
+---
+id: "0411"
+term: "relational queries"
+type: "phrase"
+partOfSpeech: "noun phrase"
+pronunciation: "/rɪˈleɪʃənl ˈkwɪəriz/"
+description: "Choose a relational DB when joins and relations matter."
+descriptionJa: "テーブル間の関係を利用するクエリ要件を設計判断に使う表現。"
+meaning: "queries using table relationships"
+meaningJa: "テーブル間の関係を利用するクエリ"
+usageExample: "Choose a relational database if future use cases require relational queries."
+usageExampleJa: "将来の利用ケースでリレーショナルクエリが必要なら、リレーショナルDBを選ぶ。"
+difficulty: "Intermediate"
+scene: "Design / Architecture"
+---

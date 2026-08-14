@@ -1,0 +1,15 @@
+---
+id: "0706"
+term: "the timeline doesn't align with yours"
+type: "phrase"
+partOfSpeech: "clause"
+pronunciation: "/ðə ˈtaɪmlaɪn ˈdʌznt əˈlaɪn wɪð jɔːz/"
+description: "Flag schedule misalignment and discuss interim options."
+descriptionJa: "進捗遅延や別チームの都合の乖離を認識し、代理策の必要性につなげられる。"
+meaning: "the timeline does not match yours"
+meaningJa: "そのスケジュールはあなたの予定と合わない"
+usageExample: "If the platform timeline doesn't align with ours, we so need an interim option."
+usageExampleJa: "プラットフォームのスケジュールが合わなければ、暫定案が必要だ。"
+difficulty: "Intermediate"
+scene: "Management"
+---

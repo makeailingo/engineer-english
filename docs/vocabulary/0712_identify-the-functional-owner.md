@@ -1,0 +1,15 @@
+---
+id: "0712"
+term: "identify the functional owner"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/aɪˈdentɪfaɪ ðə ˈfʌŋkʃənl ˈəʊnə/"
+description: "Clarify who owns a functional area rather than an entire team."
+descriptionJa: "チーム全体ではなく、特定の機能領域の明確な責任者を明確にするときに使う。"
+meaning: "to identify the functional owner"
+meaningJa: "機能上の責任者を特定する"
+usageExample: "Mapping each domain to a team will help us identify the functional owner."
+usageExampleJa: "各ドメインをチームに割り当てれば、機能上の責任者を特定できる。"
+difficulty: "Intermediate"
+scene: "Management"
+---

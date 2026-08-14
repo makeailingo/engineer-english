@@ -1,0 +1,15 @@
+---
+id: "0259"
+term: "put on hold"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/pʊt ɒn həʊld/"
+description: "Explain pausing work due to higher priorities."
+descriptionJa: "優先度の関係で作業を一時中断している状態を説明。"
+meaning: "to pause"
+meaningJa: "保留にする、保留中である"
+usageExample: "I put the refactoring work on hold to handle a production issue."
+usageExampleJa: "本番障害対応のためリファクタリングを保留にした。"
+difficulty: "Beginner"
+scene: "Meetings / Events"
+---

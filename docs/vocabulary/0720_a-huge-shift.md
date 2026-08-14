@@ -1,0 +1,15 @@
+---
+id: "0720"
+term: "a huge shift"
+type: "phrase"
+partOfSpeech: "noun phrase"
+pronunciation: "/ə hjuːdʒ ʃɪft/"
+description: "Stress broad impact on organization, mindset, and operations."
+descriptionJa: "単なる小修正ではなく、組織、思想、運用に広い影響があることを強調する。"
+meaning: "a major change"
+meaningJa: "大幅な転換"
+usageExample: "Moving to domain-based ownership would be a huge shift for several teams."
+usageExampleJa: "ドメイン別オーナーシップへの移行は、複数チームにとって大転換だ。"
+difficulty: "Intermediate"
+scene: "Management"
+---

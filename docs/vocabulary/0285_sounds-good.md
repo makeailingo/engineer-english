@@ -1,0 +1,15 @@
+---
+id: "0285"
+term: "sounds good"
+type: "phrase"
+partOfSpeech: "clause"
+pronunciation: "/saʊndz ɡʊd/"
+description: "Agree quickly to a proposal or answer."
+descriptionJa: "提案や回答に対して同意・賛同を示す軽快な返答。"
+meaning: "that works"
+meaningJa: "よさそうです、それで進めましょう"
+usageExample: "Sounds good; let me proceed with the simpler option."
+usageExampleJa: "了解。シンプルな方で進める。"
+difficulty: "Beginner"
+scene: "Meetings / Events"
+---

@@ -1,0 +1,15 @@
+---
+id: "0255"
+term: "as you all know"
+type: "phrase"
+partOfSpeech: "discourse marker"
+pronunciation: "/æz juː ɔːl nəʊ/"
+description: "Build on information the group already has."
+descriptionJa: "既に共有済みの情報を前提として、話を展開する際に使用。"
+meaning: "as you already know"
+meaningJa: "皆さんご存じのとおり"
+usageExample: "As you all know, we changed the session validation flow."
+usageExampleJa: "ご存じの通り、セッション検証フローを変更した。"
+difficulty: "Beginner"
+scene: "Meetings / Events"
+---

@@ -1,0 +1,15 @@
+---
+id: "0330"
+term: "Given all that"
+type: "phrase"
+partOfSpeech: "discourse marker"
+pronunciation: "/ˈɡɪvn ɔːl ðæt/"
+description: "Move to a conclusion after listing context."
+descriptionJa: "前述の諸条件・背景を考慮した結論へ移行する指示語。"
+meaning: "considering all of that"
+meaningJa: "以上を踏まえると"
+usageExample: "Given all that, I think the fallback is justified."
+usageExampleJa: "以上を踏まえると、フォールバックは妥当だと思う。"
+difficulty: "Intermediate"
+scene: "Meetings / Events"
+---

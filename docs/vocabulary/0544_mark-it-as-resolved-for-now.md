@@ -1,0 +1,15 @@
+---
+id: "0544"
+term: "mark it as resolved for now"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/mɑːk ɪt æz rɪˈzɒlvd fɔː naʊ/"
+description: "Set incident status to resolved while still watching closely."
+descriptionJa: "暫定対処後の経過観察中のステータスとして設定する。"
+meaning: "to mark it resolved for now"
+meaningJa: "一旦解決済みとする"
+usageExample: "Since no new errors have appeared, I'll mark it as resolved for now."
+usageExampleJa: "新規エラーがないため、一旦解決済みとする。"
+difficulty: "Intermediate"
+scene: "Incident Response"
+---

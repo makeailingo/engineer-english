@@ -1,0 +1,15 @@
+---
+id: "0376"
+term: "no concerns from my side"
+type: "phrase"
+partOfSpeech: "clause"
+pronunciation: "/nəʊ kənˈsɜːnz frɒm maɪ saɪd/"
+description: "Signal approval and ask the team to proceed."
+descriptionJa: "自分の観点からは懸念がないと述べる。"
+meaning: "I have no concerns"
+meaningJa: "自分の観点からは懸念（不都合）はない"
+usageExample: "No concerns from my side; please continue with the interface update."
+usageExampleJa: "私の側から懸念はない。インターフェース更新を続けてほしい。"
+difficulty: "Beginner"
+scene: "Design / Architecture"
+---

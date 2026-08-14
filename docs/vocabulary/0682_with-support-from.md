@@ -1,0 +1,15 @@
+---
+id: "0682"
+term: "with support from"
+type: "phrase"
+partOfSpeech: "prepositional phrase"
+pronunciation: "/wɪð səˈpɔːt frɒm/"
+description: "Clarify who owns work and which team provides supporting help."
+descriptionJa: "主体と支援を明確に区別し、役割分担を表すときに使う。"
+meaning: "with support from"
+meaningJa: "〜の支援を受けながら"
+usageExample: "One team will own the proposal, with support from the platform team."
+usageExampleJa: "1チームが提案を所有し、プラットフォームが支援する。"
+difficulty: "Intermediate"
+scene: "Management"
+---

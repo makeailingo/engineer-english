@@ -1,0 +1,15 @@
+---
+id: "0741"
+term: "make sure we have a scale-up plan"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/meɪk ʃʊə wiː hæv ə ˈskeɪl ʌp plæn/"
+description: "Verify readiness for traffic growth before a peak period."
+descriptionJa: "運用の増加時や急増を見越して、準備が整っているかを確認するときに使う。"
+meaning: "to ensure a scale-up plan exists"
+meaningJa: "スケールアップ計画があることを確認する"
+usageExample: "Please make sure we have a scale-up plan before the traffic peak."
+usageExampleJa: "トラフィックピーク前に、スケールアップ計画を確認して。"
+difficulty: "Intermediate"
+scene: "Management"
+---

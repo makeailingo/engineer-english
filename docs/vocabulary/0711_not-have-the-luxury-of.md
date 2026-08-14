@@ -1,0 +1,15 @@
+---
+id: "0711"
+term: "not have the luxury of"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/nɒt hæv ðə ˈlʌkʃəri əv/"
+description: "Explain practical constraints that rule out an ideal option."
+descriptionJa: "理想を追求できない現実的な理由を示し、現実的な代替案につなげる表現。"
+meaning: "to not have the luxury of"
+meaningJa: "〜できるほどの余裕がない"
+usageExample: "We do not have the luxury of adding a dedicated coordinator this quarter."
+usageExampleJa: "今四半期、専任コーディネーターを追加する余裕はない。"
+difficulty: "Intermediate"
+scene: "Management"
+---

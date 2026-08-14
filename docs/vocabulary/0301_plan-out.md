@@ -1,0 +1,15 @@
+---
+id: "0301"
+term: "plan out"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/plæn aʊt/"
+description: "Describe breaking work into concrete steps and order."
+descriptionJa: "大まかだけでなく、対策や順番も含めて具体化するときに使う表現。"
+meaning: "to plan in detail"
+meaningJa: "具体的に計画する、段取りを組み立てる"
+usageExample: "We need to plan out which scenarios to include."
+usageExampleJa: "どのシナリオを含めるか具体化して計画する必要がある。"
+difficulty: "Intermediate"
+scene: "Meetings / Events"
+---

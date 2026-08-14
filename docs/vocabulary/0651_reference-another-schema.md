@@ -1,0 +1,15 @@
+---
+id: "0651"
+term: "reference another schema"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/ˈrefrəns əˈnʌðə ˈskiːmə/"
+description: "Explain schema reuse or dependency between OpenAPI components."
+descriptionJa: "スキーマ間の依存関係を説明する表現。"
+meaning: "to reference another schema"
+meaningJa: "別のスキーマを参照する"
+usageExample: "This schema references another schema for shared fields."
+usageExampleJa: "このスキーマは共有フィールド用に別スキーマを参照する。"
+difficulty: "Intermediate"
+scene: "Technical Writing"
+---

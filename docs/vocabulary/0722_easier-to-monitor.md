@@ -1,0 +1,15 @@
+---
+id: "0722"
+term: "easier to monitor"
+type: "phrase"
+partOfSpeech: "adjective phrase"
+pronunciation: "/ˈiːziə tuː ˈmɒnɪtə/"
+description: "Recommend daytime rollouts for easier monitoring and faster response."
+descriptionJa: "段階的リリースや可視化を、問題発生時の早期対応の観点から推奨するときに使う。"
+meaning: "easier to monitor"
+meaningJa: "監視しやすい"
+usageExample: "A daytime rollout is easier to monitor and gives us more people to respond."
+usageExampleJa: "日中ロールアウトの方が監視しやすく、対応人員も増える。"
+difficulty: "Intermediate"
+scene: "Management"
+---

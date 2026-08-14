@@ -1,0 +1,15 @@
+---
+id: "0743"
+term: "keep members informed"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/kiːp ˈmembəz ɪnˈfɔːmd/"
+description: "Promise ongoing updates to affected people during an investigation."
+descriptionJa: "調査や対応の途中で、継続的に状況を共有することを約束・指示するときに使う。"
+meaning: "to keep members informed"
+meaningJa: "メンバーに随時情報共有する"
+usageExample: "Please keep the affected numbers informed while the investigation continues."
+usageExampleJa: "調査中、影響メンバーに随時情報共有して。"
+difficulty: "Intermediate"
+scene: "Management"
+---

@@ -1,0 +1,15 @@
+---
+id: "0538"
+term: "should be silenced by now"
+type: "phrase"
+partOfSpeech: "clause"
+pronunciation: "/ʃʊd biː ˈsaɪlənst baɪ naʊ/"
+description: "Expect known alerts to be silenced after config propagation time."
+descriptionJa: "設定反映の反映時間を考慮し、確認見込みを伝える。"
+meaning: "should be silenced by now"
+meaningJa: "今頃はアラートが停止されているはずだ"
+usageExample: "The known alerts should be silenced by now."
+usageExampleJa: "既知のアラートは今頃停止されているはずだ。"
+difficulty: "Intermediate"
+scene: "Incident Response"
+---

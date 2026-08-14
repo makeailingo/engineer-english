@@ -1,0 +1,15 @@
+---
+id: "0453"
+term: "identify the exact agreement you need"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/aɪˈdentɪfaɪ ði ɪɡˈzækt əˈɡriːmənt juː niːd/"
+description: "Define the specific decision needed before contacting another team."
+descriptionJa: "必要な合意事項の具体内容を明確にする表現。"
+meaning: "to clarify required agreement"
+meaningJa: "必要な合意（合意事項）の具体的内容を明確にする"
+usageExample: "Before contacting the platform team, identify the exact agreement you need."
+usageExampleJa: "プラットフォームチームに連絡する前に、必要な合意内容を明確にする。"
+difficulty: "Advanced"
+scene: "Design / Architecture"
+---

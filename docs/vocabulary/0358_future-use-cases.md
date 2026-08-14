@@ -1,0 +1,15 @@
+---
+id: "0358"
+term: "future use cases"
+type: "phrase"
+partOfSpeech: "noun phrase"
+pronunciation: "/ˈfjuːtʃə juːs ˈkeɪsɪz/"
+description: "Design keys or APIs to support needs that may come later."
+descriptionJa: "将来想定される利用ケースを設計に織り込む必要性を述べる。"
+meaning: "anticipated future needs"
+meaningJa: "将来想定される利用ケース"
+usageExample: "The storage key should accommodate future use cases without a breaking migration."
+usageExampleJa: "破壊的移行なしで将来の利用ケースに対応できるよう、ストレージキーを設計する。"
+difficulty: "Beginner"
+scene: "Design / Architecture"
+---

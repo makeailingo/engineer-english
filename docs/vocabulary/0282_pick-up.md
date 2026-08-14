@@ -1,0 +1,15 @@
+---
+id: "0282"
+term: "pick up"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/pɪk ʌp/"
+description: "Say you will start a task from the backlog."
+descriptionJa: "優先度リスト等からタスクを拾って担当・着手すること。"
+meaning: "to take on"
+meaningJa: "（タスクなどを）着手する、取り上げる"
+usageExample: "I can pick up this testing task next sprint."
+usageExampleJa: "次スプリントでこのテストタスクを担当できる。"
+difficulty: "Beginner"
+scene: "Meetings / Events"
+---

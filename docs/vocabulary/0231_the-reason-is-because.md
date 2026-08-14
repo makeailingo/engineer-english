@@ -1,0 +1,15 @@
+---
+id: "0231"
+term: "the reason is because"
+type: "phrase"
+partOfSpeech: "clause"
+pronunciation: "/ðə ˈriːzn ɪz bɪˈkɒz/"
+description: "Start explaining why something is true or needed."
+descriptionJa: "理由や背景の骨組みを明確にする句で自発的に説明を開始。"
+meaning: "the reason is"
+meaningJa: "その理由は〜だからです"
+usageExample: "The reason is because the environment is shared with other teams."
+usageExampleJa: "理由は環境が他チームと共有されているからだ。"
+difficulty: "Beginner"
+scene: "Meetings / Events"
+---

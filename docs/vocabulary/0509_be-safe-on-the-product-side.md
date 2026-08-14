@@ -1,0 +1,15 @@
+---
+id: "0509"
+term: "be safe on the product side"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/biː seɪf ɒn ðə ˈprɒdʌkt saɪd/"
+description: "Say backend looks fine while other layers still need investigation."
+descriptionJa: "バックエンド側で問題が確認されていないものの、安全が確認できていない部分の調査を継続する。"
+meaning: "to be safe on the product side"
+meaningJa: "プロダクト側としては問題ない状態"
+usageExample: "It seems to be safe on the product side, but the frontend flow still needs investigation."
+usageExampleJa: "プロダクト側は問題なさそうだが、フロントエンドは調査が必要だ。"
+difficulty: "Intermediate"
+scene: "Incident Response"
+---

@@ -1,0 +1,15 @@
+---
+id: "0286"
+term: "split things up"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/splɪt θɪŋz ʌp/"
+description: "Break a large task so people can work in parallel."
+descriptionJa: "複雑なタスクや巨大な変更を細分化し、手分けして進める。"
+meaning: "to divide work"
+meaningJa: "作業や品目を分割する・切り分ける"
+usageExample: "Let's split things up so we can work in parallel."
+usageExampleJa: "並行作業できるよう分割しよう。"
+difficulty: "Beginner"
+scene: "Meetings / Events"
+---

@@ -1,0 +1,15 @@
+---
+id: "0467"
+term: "if I understand the situation correctly"
+type: "phrase"
+partOfSpeech: "clause"
+pronunciation: "/ɪf aɪ ˌʌndəˈstænd ðə ˌsɪtʃuˈeɪʃn kəˈrektli/"
+description: "State your read of the situation and invite correction."
+descriptionJa: "現状の認識を述べつつ間違っていないかのすり合わせをする。"
+meaning: "if my understanding is correct"
+meaningJa: "状況の理解が正しければ"
+usageExample: "If I understand the situation correctly, this is isolated to the cache layer."
+usageExampleJa: "理解が正しければ、これはキャッシュ層に限定されている。"
+difficulty: "Beginner"
+scene: "Incident Response"
+---

@@ -1,0 +1,15 @@
+---
+id: "0557"
+term: "if available"
+type: "phrase"
+partOfSpeech: "clause"
+pronunciation: "/ɪf əˈveɪləbl/"
+description: "Apply optional data or behavior only when the value exists."
+descriptionJa: "任意パラメータや、データが存在する場合だけ適用する条件。"
+meaning: "if available"
+meaningJa: "利用可能であれば"
+usageExample: "Use the cached identifier if available."
+usageExampleJa: "利用可能であればキャッシュ識別子を使う。"
+difficulty: "Beginner"
+scene: "Technical Writing"
+---

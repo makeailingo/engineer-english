@@ -1,0 +1,15 @@
+---
+id: "0580"
+term: "still out of scope"
+type: "phrase"
+partOfSpeech: "clause"
+pronunciation: "/stɪl aʊt əv skəʊp/"
+description: "Ask whether a scenario remains excluded from the current scope."
+descriptionJa: "現状でもスコープ外か確認を促す表現。"
+meaning: "still out of scope"
+meaningJa: "まだ対象外である"
+usageExample: "If this scenario is still out of scope, please confirm it."
+usageExampleJa: "このシナリオがまだ対象外なら、確認してください。"
+difficulty: "Intermediate"
+scene: "Technical Writing"
+---

@@ -1,0 +1,15 @@
+---
+id: "0280"
+term: "take a look at"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/teɪk ə lʊk æt/"
+description: "Suggest checking logs or materials after the meeting."
+descriptionJa: "ログや資料などの確認・チェックを提案する表現。"
+meaning: "to review"
+meaningJa: "〜を確認する、〜を見る"
+usageExample: "Let's take a look at the logs after this meeting."
+usageExampleJa: "会議後にログを確認しよう。"
+difficulty: "Beginner"
+scene: "Meetings / Events"
+---

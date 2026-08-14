@@ -1,0 +1,15 @@
+---
+id: "0665"
+term: "feel free to reach out to"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/fiːl friː tuː riːtʃ aʊt tuː/"
+description: "Lower the barrier to asking for help from a lead or partner team."
+descriptionJa: "相談のハードルを下げ、心理的負荷のハードルを下げる協調的な表現。"
+meaning: "feel free to contact"
+meaningJa: "遠慮なく〜に連絡する"
+usageExample: "Feel free to reach out to the platform lead if you need help removing the blocker."
+usageExampleJa: "ブロッカー解消に困ったら、プラットフォームリードに遠慮なく連絡して。"
+difficulty: "Beginner"
+scene: "Management"
+---

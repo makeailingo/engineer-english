@@ -1,0 +1,15 @@
+---
+id: "0248"
+term: "I agree with you"
+type: "phrase"
+partOfSpeech: "clause"
+pronunciation: "/aɪ əˈɡriː wɪð juː/"
+description: "Express clear agreement with another person's point."
+descriptionJa: "他者の提案や指摘への明快な同意を表す。"
+meaning: "I agree with you"
+meaningJa: "あなたに同意します"
+usageExample: "I agree with you; the simpler option is safer."
+usageExampleJa: "同意する。シンプルな方が安全だ。"
+difficulty: "Beginner"
+scene: "Meetings / Events"
+---

@@ -1,0 +1,15 @@
+---
+id: "0679"
+term: "park this topic for now"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/pɑːk ðɪs ˈtɒpɪk fɔː naʊ/"
+description: "Briefly table a topic to prevent meeting drift and return to the agenda."
+descriptionJa: "会議の脱線を手短に防ぎ、脱線を防いで議論を連れ戻す意志を示す。"
+meaning: "to defer this topic temporarily"
+meaningJa: "この話題はいったん保留にする"
+usageExample: "Let's park this topic for now and return to the staffing decision."
+usageExampleJa: "この話題はいったん保留にし、人員決定に戻ろう。"
+difficulty: "Intermediate"
+scene: "Management"
+---

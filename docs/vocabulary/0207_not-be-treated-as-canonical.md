@@ -1,0 +1,15 @@
+---
+id: "0207"
+term: "not be treated as canonical"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/nɒt bi ˈtriːtɪd æz kəˈnɒnɪkl/"
+description: "Warn that a patch is temporary, not the official design."
+descriptionJa: "仮実装や暫定コードを正式版と混同しないよう注意する。"
+meaning: "not to be treated as canonical"
+meaningJa: "正式な実装として扱わない"
+usageExample: "This temporary patch should not be treated as canonical."
+usageExampleJa: "この暫定パッチは正式な実装として扱うべきではない。"
+difficulty: "Advanced"
+scene: "Implementation / Review"
+---

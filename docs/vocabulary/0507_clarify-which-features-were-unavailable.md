@@ -1,0 +1,15 @@
+---
+id: "0507"
+term: "clarify which features were unavailable"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/ˈklærɪfaɪ wɪtʃ ˈfiːtʃəz wɜː ˌʌnəˈveɪləbl/"
+description: "Identify which features were down to define customer impact scope."
+descriptionJa: "どの機能が使えなかったかを明確にし、顧客影響の範囲を明確にする。"
+meaning: "to clarify unavailable features"
+meaningJa: "利用不能だった機能を明確にする"
+usageExample: "We should clarify which features were unavailable during the incident."
+usageExampleJa: "インシデント中に利用不能だった機能を明確にすべきだ。"
+difficulty: "Intermediate"
+scene: "Incident Response"
+---

@@ -1,0 +1,15 @@
+---
+id: "0356"
+term: "long-term fix"
+type: "phrase"
+partOfSpeech: "noun phrase"
+pronunciation: "/lɒŋ tɜːm fɪks/"
+description: "Contrast a durable solution with a temporary workaround."
+descriptionJa: "暫定対応ではなく恒久的な根本解決策を指す。"
+meaning: "a permanent fix"
+meaningJa: "恒久的な修正・根本解決"
+usageExample: "Schema versioning is the long-term fix; the parser fallback is temporary."
+usageExampleJa: "スキーマバージョニングが恒久対応で、パーサーのフォールバックは暫定だ。"
+difficulty: "Beginner"
+scene: "Design / Architecture"
+---

@@ -1,0 +1,15 @@
+---
+id: "0244"
+term: "before that"
+type: "phrase"
+partOfSpeech: "discourse marker"
+pronunciation: "/bɪˈfɔː ðæt/"
+description: "Pause to check something before continuing."
+descriptionJa: "予定した作業に入る前、点検や確認を促したいときに重宝。"
+meaning: "before that step"
+meaningJa: "その前に"
+usageExample: "Before that, does anyone have a question?"
+usageExampleJa: "その前に、質問はあるか？"
+difficulty: "Beginner"
+scene: "Meetings / Events"
+---

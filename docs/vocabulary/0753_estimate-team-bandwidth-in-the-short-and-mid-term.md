@@ -1,0 +1,15 @@
+---
+id: "0753"
+term: "estimate team bandwidth in the short and mid term"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/ˈestɪmeɪt tiːm ˈbændwɪdθ ɪn ðə ʃɔːt ænd mɪd tɜːm/"
+description: "Estimate load over coming months before changing the roadmap."
+descriptionJa: "直近だけでなく数ヶ月先も含めて、受け入れられる負荷を見積もるときに使う。"
+meaning: "to estimate short- and mid-term team capacity"
+meaningJa: "短期中期のチームの出力を見積もる"
+usageExample: "Let's estimate team bandwidth in the short and mid term before changing the roadmap."
+usageExampleJa: "ロードマップ変更前に、短期・中期のチーム余力を見積もろう。"
+difficulty: "Advanced"
+scene: "Management"
+---

@@ -1,0 +1,15 @@
+---
+id: "0569"
+term: "if there is a reason"
+type: "phrase"
+partOfSpeech: "clause"
+pronunciation: "/ɪf ðeər ɪz ə ˈriːzn/"
+description: "Ask for documentation when an exception or non-standard behavior is kept."
+descriptionJa: "例外や例外条件の理由を求めて指示表現。"
+meaning: "if there is a reason"
+meaningJa: "理由がある場合"
+usageExample: "If there is a reason to retain this behavior, please document it."
+usageExampleJa: "この挙動を残す理由がある場合は、文書化してください。"
+difficulty: "Intermediate"
+scene: "Technical Writing"
+---

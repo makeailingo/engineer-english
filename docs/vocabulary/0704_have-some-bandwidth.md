@@ -1,0 +1,15 @@
+---
+id: "0704"
+term: "have some bandwidth"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/hæv sʌm ˈbændwɪdθ/"
+description: "Ask when a team can realistically take on new work."
+descriptionJa: "単なる人手ではなく、実質的に新しい仕事を受け入れられる余力を尋ねる表現。"
+meaning: "to have spare capacity"
+meaningJa: "対応する余力がある"
+usageExample: "Let us know when your team will have some bandwidth for this work."
+usageExampleJa: "この作業に対応余力がある時期を教えて。"
+difficulty: "Intermediate"
+scene: "Management"
+---

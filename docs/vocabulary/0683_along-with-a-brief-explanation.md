@@ -1,0 +1,15 @@
+---
+id: "0683"
+term: "along with a brief explanation"
+type: "phrase"
+partOfSpeech: "prepositional phrase"
+pronunciation: "/əˈlɒŋ wɪð ə briːf ˌekspləˈneɪʃn/"
+description: "Ask for risks listed with minimal context needed to judge impact."
+descriptionJa: "一言だけでなく、判定に必要な最小限の小文を添えたいときに便利。"
+meaning: "together with a short explanation"
+meaningJa: "簡単な説明を添えて"
+usageExample: "Please list the risks along with a brief explanation of their impact."
+usageExampleJa: "リスクと影響の簡単な説明を添えて一覧にして。"
+difficulty: "Intermediate"
+scene: "Management"
+---

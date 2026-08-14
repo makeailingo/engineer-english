@@ -1,0 +1,15 @@
+---
+id: "0321"
+term: "roughly estimate how long it would take"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/ˈrʌfli ˈestɪmeɪt/"
+description: "Ask for an approximate duration, not exact effort."
+descriptionJa: "正確な工数ではなく、大体の見通しを要求するときに使う。"
+meaning: "to give a rough time estimate"
+meaningJa: "どのくらいかかるか概算する"
+usageExample: "Could you roughly estimate how long it would take to fix?"
+usageExampleJa: "修正にどのくらいかかるか概算してもらえるか？"
+difficulty: "Intermediate"
+scene: "Meetings / Events"
+---

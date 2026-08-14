@@ -1,0 +1,15 @@
+---
+id: "0673"
+term: "bring the topic to your attention"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/brɪŋ ðə ˈtɒpɪk tuː jɔːr əˈtenʃn/"
+description: "Escalate an important issue politely before a planning meeting."
+descriptionJa: "重要課題をエスカレーションするときに、余計な摩擦を生まない表現。"
+meaning: "to bring a topic to someone's attention"
+meaningJa: "この話題に注目を向けてもらう、共有する"
+usageExample: "I'd like to bring the staffing risk to your attention before the planning meeting."
+usageExampleJa: "計画会議前に、人員リスクを共有したい。"
+difficulty: "Intermediate"
+scene: "Management"
+---

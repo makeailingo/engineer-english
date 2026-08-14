@@ -1,0 +1,15 @@
+---
+id: "0349"
+term: "think otherwise"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/θɪŋk ˈʌðəwaɪz/"
+description: "Check whether anyone holds a different view."
+descriptionJa: "反対意見や異論がないか軽く確認する表現。"
+meaning: "disagree"
+meaningJa: "別の考えを持つ、異なる見方をする"
+usageExample: "Does anyone think otherwise?"
+usageExampleJa: "異なる見方をする人はいるか？"
+difficulty: "Advanced"
+scene: "Meetings / Events"
+---

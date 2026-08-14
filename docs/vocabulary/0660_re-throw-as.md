@@ -1,0 +1,15 @@
+---
+id: "0660"
+term: "re-throw ... as ..."
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/riː θrəʊ æz/"
+description: "Explain converting one exception into another generic type."
+descriptionJa: "例外変換の実際の動作を説明する表現。"
+meaning: "to re-throw as"
+meaningJa: "〜として再度スローする"
+usageExample: "The client re-throws the parsing error as a generic exception."
+usageExampleJa: "クライアントはパースエラーを汎用例外として再スローする。"
+difficulty: "Advanced"
+scene: "Technical Writing"
+---

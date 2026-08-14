@@ -1,0 +1,15 @@
+---
+id: "0268"
+term: "let's wrap things up here"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/lets ræp θɪŋz ʌp hɪə/"
+description: "Close the meeting at a natural stopping point."
+descriptionJa: "時間切れや区切りの良いところで会議を締めくくる表現。"
+meaning: "let us finish here"
+meaningJa: "ここで区切りにしましょう"
+usageExample: "It's almost noon, so let's wrap things up here."
+usageExampleJa: "もうすぐ昼だから、ここで区切ろう。"
+difficulty: "Beginner"
+scene: "Meetings / Events"
+---

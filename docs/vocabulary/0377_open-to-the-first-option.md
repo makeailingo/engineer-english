@@ -1,0 +1,15 @@
+---
+id: "0377"
+term: "open to the first option"
+type: "phrase"
+partOfSpeech: "clause"
+pronunciation: "/ˈəʊpən tuː ðə fɜːst ˈɒpʃn/"
+description: "Accept the first proposal if limits are documented."
+descriptionJa: "第一案を受け入れる意思があることを述べる。"
+meaning: "willing to accept option one"
+meaningJa: "第一案（選択肢1）を受け入れる準備がある・好意的である"
+usageExample: "I am open to the first option if we document its operational limits."
+usageExampleJa: "運用上の限界を文書化すれば、第一案を受け入れられる。"
+difficulty: "Beginner"
+scene: "Design / Architecture"
+---

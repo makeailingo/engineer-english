@@ -1,0 +1,15 @@
+---
+id: "0423"
+term: "risk of rollback"
+type: "phrase"
+partOfSpeech: "noun phrase"
+pronunciation: "/rɪsk əv ˈrəʊlbæk/"
+description: "Warn when rollback may fail due to schema or data mismatch."
+descriptionJa: "ロールバックに伴うデータ不整合などのリスクを評価する。"
+meaning: "risk when rolling back"
+meaningJa: "切り戻し（ロールバック）に伴うリスク（データ不整合など）"
+usageExample: "The risk of rollback is high if the old schema cannot read newly written records."
+usageExampleJa: "旧スキーマが新規レコードを読めない場合、ロールバックリスクは高い。"
+difficulty: "Intermediate"
+scene: "Design / Architecture"
+---

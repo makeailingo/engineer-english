@@ -1,0 +1,15 @@
+---
+id: "0329"
+term: "source of truth"
+type: "phrase"
+partOfSpeech: "noun phrase"
+pronunciation: "/sɔːs əv truːθ/"
+description: "Name which system holds the canonical data."
+descriptionJa: "システム間でデータ乖離が生じる際、真のデータ保持側がどれか示す基本用語。"
+meaning: "authoritative data source"
+meaningJa: "正確な情報源、信頼できる基本データ"
+usageExample: "The database remains the source of truth."
+usageExampleJa: "データベースが正の情報源のままである。"
+difficulty: "Intermediate"
+scene: "Meetings / Events"
+---

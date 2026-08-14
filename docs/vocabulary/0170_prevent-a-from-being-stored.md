@@ -1,0 +1,15 @@
+---
+id: "0170"
+term: "prevent A from being stored"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/prɪˈvent frɒm ˈbiːɪŋ stɔːd/"
+description: "Validate inputs so invalid values are not persisted."
+descriptionJa: "バリデーションで不正な値が保存されないようにする。"
+meaning: "to prevent A from being stored"
+meaningJa: "Aが保存されるのを防ぐ"
+usageExample: "The validation prevents an oversized expiration value from being stored."
+usageExampleJa: "検証で過大な有効期限値が保存されるのを防ぐ。"
+difficulty: "Intermediate"
+scene: "Implementation / Review"
+---

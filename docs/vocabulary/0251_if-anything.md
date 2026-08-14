@@ -1,0 +1,15 @@
+---
+id: "0251"
+term: "if anything"
+type: "phrase"
+partOfSpeech: "adverb phrase"
+pronunciation: "/ɪf ˈeniθɪŋ/"
+description: "Explain what to do if the situation changes."
+descriptionJa: "状況に変化が生じた場合の対応をあらかじめ教える。"
+meaning: "if needed"
+meaningJa: "何かあれば、必要なら"
+usageExample: "If anything changes, you can discuss the progress directly."
+usageExampleJa: "状況が変われば直接進捗を議論してほしい。"
+difficulty: "Beginner"
+scene: "Meetings / Events"
+---

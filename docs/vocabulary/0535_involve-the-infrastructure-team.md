@@ -1,0 +1,15 @@
+---
+id: "0535"
+term: "involve the infrastructure team"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/ɪnˈvɒlv ði ˌɪnfrəˈstrʌktʃə tiːm/"
+description: "Bring in infra when the app layer cannot resolve the issue."
+descriptionJa: "アプリレイヤーだけでは解決できない場合、他チームへ協力・依頼を求める。"
+meaning: "to involve the infrastructure team"
+meaningJa: "インフラチームを巻き込む"
+usageExample: "We need to bring in the infrastructure team."
+usageExampleJa: "インフラチームを巻き込む必要がある。"
+difficulty: "Intermediate"
+scene: "Incident Response"
+---

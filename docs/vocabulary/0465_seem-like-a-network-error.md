@@ -1,0 +1,15 @@
+---
+id: "0465"
+term: "seem like a network error"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/siːm laɪk ə ˈnetwɜːk ˈerə/"
+description: "Hypothesize a network cause while seeking confirming logs."
+descriptionJa: "ネットワーク要因と推測・仮説として提示する。"
+meaning: "to seem like a network error"
+meaningJa: "ネットワークエラーのプロミスに見える"
+usageExample: "This seems like a network error, but we need the client logs to confirm."
+usageExampleJa: "ネットワークエラーのように見えるが、クライアントログで確認が必要だ。"
+difficulty: "Beginner"
+scene: "Incident Response"
+---

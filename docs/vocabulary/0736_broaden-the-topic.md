@@ -1,0 +1,15 @@
+---
+id: "0736"
+term: "broaden the topic"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/ˈbrɔːdn ðə ˈtɒpɪk/"
+description: "Expand discussion from one issue to related support or compliance areas."
+descriptionJa: "単一の課題から関連領域へ視野を広げ、議論を深めたい時に使う。"
+meaning: "to broaden the topic"
+meaningJa: "議論の対象を広げる"
+usageExample: "Let me broaden the topic to include the support and compliance implications."
+usageExampleJa: "サポートとコンプライアンスの影響も含め、議論を広げよう。"
+difficulty: "Intermediate"
+scene: "Management"
+---

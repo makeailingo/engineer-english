@@ -1,0 +1,15 @@
+---
+id: "0201"
+term: "ensure that tests reflect the new requirements"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/ɪnˈʃʊə ðæt tests rɪˈflekt ðə njuː rɪˈkwaɪəmənts/"
+description: "Update fixtures when specs or data requirements change."
+descriptionJa: "仕様変更に伴うテストコード・フィクスチャの適正化を述べる。"
+meaning: "to ensure tests match new requirements"
+meaningJa: "テストが新しい要件を反映していることを確認する"
+usageExample: "The fixtures were updated to ensure that tests reflect the new data requirements."
+usageExampleJa: "新データ要件を反映するためフィクスチャを更新した。"
+difficulty: "Intermediate"
+scene: "Implementation / Review"
+---

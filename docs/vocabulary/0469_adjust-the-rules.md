@@ -1,0 +1,15 @@
+---
+id: "0469"
+term: "adjust the rules"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/əˈdʒʌst ðə ruːlz/"
+description: "Tune alert rules to cut false positives or noisy notifications."
+descriptionJa: "誤検知や過剰通知を減らすためルールの見直しを行う。"
+meaning: "to adjust alert rules"
+meaningJa: "アラート条件を調整する"
+usageExample: "If the alert fires again, we can adjust the rules."
+usageExampleJa: "アラートが再発したら、ルールを調整できる。"
+difficulty: "Beginner"
+scene: "Incident Response"
+---

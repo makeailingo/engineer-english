@@ -1,0 +1,15 @@
+---
+id: "0611"
+term: "replace ... with ..."
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/rɪˈpleɪs wɪð/"
+description: "Propose swapping a response payload or behavior for another."
+descriptionJa: "レスポンス構造や挙動の置き換え。"
+meaning: "to replace with"
+meaningJa: "〜を〜に置き換える"
+usageExample: "Replace the success payload with a no-content response."
+usageExampleJa: "成功ペイロードを本文なしレスポンスに置き換える。"
+difficulty: "Intermediate"
+scene: "Technical Writing"
+---

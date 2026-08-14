@@ -1,0 +1,15 @@
+---
+id: "0752"
+term: "identify areas that need immediate attention"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/aɪˈdentɪfaɪ ˈeəriəz ðæt niːd ɪˈmiːdiət əˈtenʃn/"
+description: "Find issues requiring manager intervention, especially blockers."
+descriptionJa: "業務の優先度の判断で、マネージャーの介入が必要な課題を見つけるときに向う。"
+meaning: "to identify areas needing immediate attention"
+meaningJa: "すぐに注意が必要な領域を特定する"
+usageExample: "Use the review to identify areas that need immediate attention, especially unresolved blockers."
+usageExampleJa: "レビューで、特に未解決ブロッカーなど即対応領域を特定して。"
+difficulty: "Advanced"
+scene: "Management"
+---

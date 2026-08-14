@@ -1,0 +1,15 @@
+---
+id: "0197"
+term: "check that paired values are complete"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/tʃek ðæt peəd ˈvæljuːz ɑː kəmˈpliːt/"
+description: "Validate related fields exist together before transforming."
+descriptionJa: "関連する複数フィールドの整合性チェック（両方存在するか等）を説明する。"
+meaning: "to verify paired values are complete"
+meaningJa: "対になる値が揃っていることを確認する"
+usageExample: "The validator checks that paired locate values are complete before transformation."
+usageExampleJa: "変換前にペアのlocate値が揃っていることをバリデータが確認する。"
+difficulty: "Intermediate"
+scene: "Implementation / Review"
+---

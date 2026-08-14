@@ -1,0 +1,15 @@
+---
+id: "0335"
+term: "a more conservative approach"
+type: "phrase"
+partOfSpeech: "noun phrase"
+pronunciation: "/ə mɔː kənˈsɜːvətɪv əˈprəʊtʃ/"
+description: "Offer a lower-risk option in planning."
+descriptionJa: "リスクを抑えた安全側の選択肢を提示するときに使う。"
+meaning: "a safer approach"
+meaningJa: "より慎重な方法"
+usageExample: "A more conservative approach is to keep both options for now."
+usageExampleJa: "より慎重な方法は当面両方の選択肢を残すことだ。"
+difficulty: "Intermediate"
+scene: "Meetings / Events"
+---

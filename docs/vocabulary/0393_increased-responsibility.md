@@ -1,0 +1,15 @@
+---
+id: "0393"
+term: "increased responsibility"
+type: "phrase"
+partOfSpeech: "noun phrase"
+pronunciation: "/ɪnˈkriːst rɪˌspɒnsəˈbɪləti/"
+description: "Explain that moving a service adds retention or access duties."
+descriptionJa: "設計変更により管理責任が大きくなることを示す。"
+meaning: "greater operational responsibility"
+meaningJa: "より大きな管理責任・責務"
+usageExample: "Moving the service inside the boundary increases responsibility for retention and access control."
+usageExampleJa: "境界内にサービスを移すと、保持とアクセス制御の責務が増える。"
+difficulty: "Intermediate"
+scene: "Design / Architecture"
+---

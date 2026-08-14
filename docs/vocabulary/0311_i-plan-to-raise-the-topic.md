@@ -1,0 +1,15 @@
+---
+id: "0311"
+term: "I plan to raise the topic"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/aɪ plæn tuː reɪz ðə ˈtɒpɪk/"
+description: "Say you will introduce an item in another forum."
+descriptionJa: "別の会議や議場へ議題を持ち込む予定を伝える。"
+meaning: "I will bring up the topic"
+meaningJa: "その話題を取り上げる予定です"
+usageExample: "I plan to raise the topic at the next platform meeting."
+usageExampleJa: "次回のプラットフォーム会議で話題を取り上げる予定だ。"
+difficulty: "Intermediate"
+scene: "Meetings / Events"
+---

@@ -1,0 +1,15 @@
+---
+id: "0495"
+term: "CPU usage briefly spiked again"
+type: "phrase"
+partOfSpeech: "clause"
+pronunciation: "/ˌsiː piː ˈjuːsɪdʒ ˈbriːfli spaɪkt əˈɡen/"
+description: "Report a short CPU spike and note whether it is easing."
+descriptionJa: "一時的にスパイクが発生したものの、現在の傾向とともに報告する。"
+meaning: "CPU usage spiked again briefly"
+meaningJa: "CPU使用率が再び一時的に急上昇した"
+usageExample: "CPU usage briefly spiked again, but it is decreasing now."
+usageExampleJa: "CPU使用率が再び一時的に急上昇したが、現在は低下している。"
+difficulty: "Intermediate"
+scene: "Incident Response"
+---

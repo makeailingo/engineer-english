@@ -1,0 +1,15 @@
+---
+id: "0609"
+term: "not during"
+type: "phrase"
+partOfSpeech: "prepositional phrase"
+pronunciation: "/nɒt ˈdjʊərɪŋ/"
+description: "Restrict when a rule applies, such as excluding partial updates."
+descriptionJa: "適用を制限したいタイミングを明示して示す表現。"
+meaning: "not during"
+meaningJa: "〜の間は行わない"
+usageExample: "The value should be set on creation, but not during partial updates."
+usageExampleJa: "作成時に値を設定するが、部分更新時には設定しない。"
+difficulty: "Intermediate"
+scene: "Technical Writing"
+---

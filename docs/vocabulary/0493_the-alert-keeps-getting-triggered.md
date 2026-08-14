@@ -1,0 +1,15 @@
+---
+id: "0493"
+term: "The alert keeps getting triggered"
+type: "phrase"
+partOfSpeech: "clause"
+pronunciation: "/ði əˈlɜːt kiːps ˈɡetɪŋ ˈtrɪɡəd/"
+description: "Share that alerts are repeating at short intervals during an incident."
+descriptionJa: "数分おきにアラートが連続発生している状況を共有する。"
+meaning: "the alert keeps firing"
+meaningJa: "アラートが繰り返し発生している"
+usageExample: "The alert keeps getting triggered every few minutes."
+usageExampleJa: "数分おきにアラートが繰り返し発生している。"
+difficulty: "Intermediate"
+scene: "Incident Response"
+---

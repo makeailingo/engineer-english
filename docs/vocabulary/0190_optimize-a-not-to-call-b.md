@@ -1,0 +1,15 @@
+---
+id: "0190"
+term: "optimize A not to call B"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/ˈɒptɪmaɪz nɒt tuː kɔːl/"
+description: "Remove unnecessary downstream calls from a hot path."
+descriptionJa: "不要なAPI通信を省くことによる最適化を説明する。"
+meaning: "to optimize A to avoid calling B"
+meaningJa: "Bを呼び出さないようAを最適化する"
+usageExample: "We optimized the summary endpoint not to call two unrelated downstream services."
+usageExampleJa: "サマリーエンドポイントが2つの下流を呼ばないよう最適化した。"
+difficulty: "Intermediate"
+scene: "Implementation / Review"
+---

@@ -1,0 +1,15 @@
+---
+id: "0243"
+term: "next up"
+type: "phrase"
+partOfSpeech: "discourse marker"
+pronunciation: "/nekst ʌp/"
+description: "Move the meeting to the next agenda item."
+descriptionJa: "次のアジェンダやヘンジポックへ進む指示語。"
+meaning: "next"
+meaningJa: "次は、続いて"
+usageExample: "Next up, let's review the deployment status."
+usageExampleJa: "次はデプロイ状況を確認しよう。"
+difficulty: "Beginner"
+scene: "Meetings / Events"
+---

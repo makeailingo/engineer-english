@@ -1,0 +1,15 @@
+---
+id: "0522"
+term: "It seems like the call is failing"
+type: "phrase"
+partOfSpeech: "clause"
+pronunciation: "/ɪt siːmz laɪk ðə kɔːl ɪz ˈfeɪlɪŋ/"
+description: "Suspect an inter-service call is failing before a response returns."
+descriptionJa: "サービス間通信の失敗が疑われる際に使う。"
+meaning: "the call appears to be failing"
+meaningJa: "呼び出しが失敗しているようだ"
+usageExample: "It seems like the upstream call is failing before the response is returned."
+usageExampleJa: "レスポンス返却前に上流呼び出しが失敗しているようだ。"
+difficulty: "Intermediate"
+scene: "Incident Response"
+---

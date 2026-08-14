@@ -1,0 +1,15 @@
+---
+id: "0513"
+term: "cannot see errors from production"
+type: "phrase"
+partOfSpeech: "clause"
+pronunciation: "/ˈkænɒt siː ˈerəz frɒm prəˈdʌkʃn/"
+description: "Report no matching server errors found in production logs."
+descriptionJa: "調べてみた結果、本番環境側で確認できないことを伝える。存在しない可能性の提示。"
+meaning: "cannot see production errors"
+meaningJa: "本番環境からのエラーは確認できない"
+usageExample: "We don't see any corresponding server errors from production."
+usageExampleJa: "本番環境から対応するサーバーエラーは確認できない。"
+difficulty: "Intermediate"
+scene: "Incident Response"
+---

@@ -1,0 +1,15 @@
+---
+id: "0734"
+term: "a requirement regarding the delivery timing"
+type: "phrase"
+partOfSpeech: "noun phrase"
+pronunciation: "/ə rɪˈkwaɪəmənt rɪˈɡɑːdɪŋ ðə dɪˈlɪvəri ˈtaɪmɪŋ/"
+description: "Check whether delivery timing is fixed or the quarter can move."
+descriptionJa: "納期の絶対性と柔軟性を確認し、計画の自由度を確保するときに使う。"
+meaning: "a requirement about delivery timing"
+meaningJa: "納期に関する要件"
+usageExample: "Is there a firm requirement regarding the delivery timing, or can we adjust the quarter?"
+usageExampleJa: "納期要件は固定か、四半期調整は可能か？"
+difficulty: "Intermediate"
+scene: "Management"
+---

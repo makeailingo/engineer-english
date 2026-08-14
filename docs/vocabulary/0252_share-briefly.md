@@ -1,0 +1,15 @@
+---
+id: "0252"
+term: "share briefly"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/ʃeə ˈbriːfli/"
+description: "Introduce a short summary before giving details."
+descriptionJa: "長くならないよう要点だけ要約説明する前置き。"
+meaning: "to share briefly"
+meaningJa: "簡潔に共有する"
+usageExample: "I'll share briefly about the investigation."
+usageExampleJa: "調査内容を簡潔に共有する。"
+difficulty: "Beginner"
+scene: "Meetings / Events"
+---

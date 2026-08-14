@@ -1,0 +1,15 @@
+---
+id: "0223"
+term: "align the contract with the actual semantics"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/əˈlaɪn ðə ˈkɒntrækt wɪð ði ˈæktʃuəl sɪˈmæntɪks/"
+description: "Match the published contract to what the code actually does."
+descriptionJa: "公開契約と実装の意味が一致するよう整える。"
+meaning: "to align the contract with actual semantics"
+meaningJa: "契約を実際の意味に合わせる"
+usageExample: "We should align the contract with the actual semantics before clients adopt the new field."
+usageExampleJa: "クライアントが新フィールドを使う前に、契約を実際の意味に合わせるべきだ。"
+difficulty: "Advanced"
+scene: "Implementation / Review"
+---

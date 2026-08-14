@@ -1,0 +1,15 @@
+---
+id: "0654"
+term: "improve test coverage"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/ɪmˈpruːv test ˈkʌvərɪdʒ/"
+description: "State a goal to add tests, often for error handling paths."
+descriptionJa: "テスト改善の目的を提示する標準表現。"
+meaning: "to improve test coverage"
+meaningJa: "テストカバレッジを改善する"
+usageExample: "We'd like to improve test coverage for error handling."
+usageExampleJa: "エラーハンドリングのテストカバレッジを改善したい。"
+difficulty: "Intermediate"
+scene: "Technical Writing"
+---

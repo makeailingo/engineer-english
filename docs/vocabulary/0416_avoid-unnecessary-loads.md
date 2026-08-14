@@ -1,0 +1,15 @@
+---
+id: "0416"
+term: "avoid unnecessary loads"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/əˈvɔɪd ʌnˈnesəsri ləʊdz/"
+description: "Keep UI components from overcalling backend services."
+descriptionJa: "不要な高負荷を避ける設計・実装方針を述べる。"
+meaning: "to avoid needless load"
+meaningJa: "不要な高負荷を避ける"
+usageExample: "The profile header component should avoid unnecessary loads on the profile service."
+usageExampleJa: "プロフィールヘッダーはプロフィールサービスへの不要な負荷を避けるべきだ。"
+difficulty: "Intermediate"
+scene: "Design / Architecture"
+---

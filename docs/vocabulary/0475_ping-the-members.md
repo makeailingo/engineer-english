@@ -1,0 +1,15 @@
+---
+id: "0475"
+term: "ping the members"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/pɪŋ ðə ˈmembəz/"
+description: "Ask someone to notify on-call or specific members in chat."
+descriptionJa: "当番や特定メンバーをメンションやチャットで直接呼び出す。"
+meaning: "to ping the members"
+meaningJa: "担当メンバーに連絡する"
+usageExample: "Can you ping the on-call members for this service?"
+usageExampleJa: "このサービスの当番メンバーに連絡してもらえるか？"
+difficulty: "Beginner"
+scene: "Incident Response"
+---

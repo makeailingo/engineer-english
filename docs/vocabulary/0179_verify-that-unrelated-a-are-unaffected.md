@@ -1,0 +1,15 @@
+---
+id: "0179"
+term: "verify that unrelated A are unaffected"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/ˈverɪfaɪ ðæt ʌnrɪˈleɪtɪd ɑːr ʌnəˈfektɪd/"
+description: "Show a shared change did not affect unrelated areas."
+descriptionJa: "共通変更の影響が無関係な箇所に及ばないことを確認する。"
+meaning: "to verify unrelated areas are unaffected"
+meaningJa: "無関係な箇所に影響がないことを確認する"
+usageExample: "The tests verify that unrelated endpoints are unaffected by the masking rule."
+usageExampleJa: "テストで無関係なエンドポイントがマスキング規則の影響を受けないことを確認した。"
+difficulty: "Intermediate"
+scene: "Implementation / Review"
+---

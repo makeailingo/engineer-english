@@ -1,0 +1,15 @@
+---
+id: "0474"
+term: "escalate it to them"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/ˈeskəleɪt ɪt tuː ðem/"
+description: "Propose handing the incident to the owning or on-call team."
+descriptionJa: "適切な担当チームへの正式な割り振りを提議する。"
+meaning: "to escalate to them"
+meaningJa: "彼らへエスカレーションする"
+usageExample: "Should we escalate it to the owning team?"
+usageExampleJa: "所有チームへエスカレーションすべきか？"
+difficulty: "Beginner"
+scene: "Incident Response"
+---

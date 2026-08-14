@@ -1,0 +1,15 @@
+---
+id: "0390"
+term: "external dependencies"
+type: "phrase"
+partOfSpeech: "noun phrase"
+pronunciation: "/ɪkˈstɜːnl dɪˈpendənsiz/"
+description: "Discuss upstream or third-party systems the design relies on."
+descriptionJa: "外部システムへの依存関係を設計で明示・管理する表現。"
+meaning: "dependencies on outside systems"
+meaningJa: "外部依存関係"
+usageExample: "The gateway should not pass external dependencies to avoid affecting other applications."
+usageExampleJa: "他アプリへの影響を避けるため、ゲートウェイは外部依存を渡さない。"
+difficulty: "Intermediate"
+scene: "Design / Architecture"
+---

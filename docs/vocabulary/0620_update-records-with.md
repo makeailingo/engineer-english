@@ -1,0 +1,15 @@
+---
+id: "0620"
+term: "update records with"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/ˈʌpdeɪt ˈrekɔːdz wɪð/"
+description: "Instruct updating stored records using returned identifiers or data."
+descriptionJa: "変更に更新するパラメータを指定する表現。"
+meaning: "to update records with"
+meaningJa: "〜を使ってレコードを更新する"
+usageExample: "Update the authentication records with the returned identifier."
+usageExampleJa: "返された識別子で認証レコードを更新する。"
+difficulty: "Intermediate"
+scene: "Technical Writing"
+---

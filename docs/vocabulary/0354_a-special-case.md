@@ -1,0 +1,15 @@
+---
+id: "0354"
+term: "a special case"
+type: "phrase"
+partOfSpeech: "noun phrase"
+pronunciation: "/ə ˈspeʃl keɪs/"
+description: "Call out a flow that differs from the normal path or rules."
+descriptionJa: "通常フローとは異なる例外ケースを設計で扱う際に使う。"
+meaning: "an exceptional case"
+meaningJa: "例外処理や特別なケース"
+usageExample: "Account recovery is a special case because the normal authentication context is unavailable."
+usageExampleJa: "通常の認証コンテキストが使えないため、アカウント復旧は特別なケースだ。"
+difficulty: "Beginner"
+scene: "Design / Architecture"
+---

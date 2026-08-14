@@ -1,0 +1,15 @@
+---
+id: "0225"
+term: "first of all"
+type: "phrase"
+partOfSpeech: "adverb phrase"
+pronunciation: "/fɜːst əv ɔːl/"
+description: "Open a discussion by naming the first topic to cover."
+descriptionJa: "議論や報告の導入部として最初に話すトピックを明確にする。"
+meaning: "to begin with"
+meaningJa: "まずはじめに"
+usageExample: "First of all, let me explain the current behavior."
+usageExampleJa: "まず、現在の挙動を説明する。"
+difficulty: "Beginner"
+scene: "Meetings / Events"
+---

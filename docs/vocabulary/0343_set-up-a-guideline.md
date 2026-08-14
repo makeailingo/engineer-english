@@ -1,0 +1,15 @@
+---
+id: "0343"
+term: "set up a guideline"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/set ʌp ə ˈɡaɪdlaɪn/"
+description: "Propose establishing a team or org standard."
+descriptionJa: "運用基準や開発ガイドラインを新しく設けることを指す。"
+meaning: "to create a guideline"
+meaningJa: "ガイドラインを設定・策定する"
+usageExample: "We need to set up a guideline for cross-service testing."
+usageExampleJa: "クロスサービステストのガイドラインを策定する必要がある。"
+difficulty: "Intermediate"
+scene: "Meetings / Events"
+---

@@ -1,0 +1,15 @@
+---
+id: "0721"
+term: "not a huge fan of"
+type: "phrase"
+partOfSpeech: "clause"
+pronunciation: "/nɒt ə hjuːdʒ fæn əv/"
+description: "Express concern softly without outright rejecting a proposal."
+descriptionJa: "完全拒否で波風を立てず、自分の懸念や不満を伝える角を立てない表現。"
+meaning: "not very enthusiastic about"
+meaningJa: "〜にはあまり乗り気ではない"
+usageExample: "I'm not a huge fan of adding another approval without a clear risk reduction."
+usageExampleJa: "明確なリスク低減なしに承認追加にはあまり乗り気ではない。"
+difficulty: "Intermediate"
+scene: "Management"
+---

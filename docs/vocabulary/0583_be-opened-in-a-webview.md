@@ -1,0 +1,15 @@
+---
+id: "0583"
+term: "be opened in a webview"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/biː ˈəʊpənd ɪn ə ˈwebvjuː/"
+description: "Explain how the client should display a returned URL."
+descriptionJa: "クライアント側での利用方法を説明する表現。"
+meaning: "to be opened in a webview"
+meaningJa: "WebViewで開かれる"
+usageExample: "The returned URL will be opened in a webview."
+usageExampleJa: "返されたURLはWebViewで開かれる。"
+difficulty: "Intermediate"
+scene: "Technical Writing"
+---

@@ -1,0 +1,15 @@
+---
+id: "0478"
+term: "lack permissions"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/læk pəˈmɪʃnz/"
+description: "Explain a blocked change due to missing permissions."
+descriptionJa: "対処できない理由を明示し、権限所有者への引き継ぎを促す。"
+meaning: "to lack permissions"
+meaningJa: "必要な権限がない"
+usageExample: "I tried to apply the change, but I lack permissions."
+usageExampleJa: "変更を適用しようとしたが、必要な権限がない。"
+difficulty: "Beginner"
+scene: "Incident Response"
+---

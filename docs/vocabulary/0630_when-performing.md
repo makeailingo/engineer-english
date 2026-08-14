@@ -1,0 +1,15 @@
+---
+id: "0630"
+term: "when performing"
+type: "phrase"
+partOfSpeech: "prepositional phrase"
+pronunciation: "/wen pəˈfɔːmɪŋ/"
+description: "Scope a requirement to a specific operation such as account linkage."
+descriptionJa: "特定の操作を行う実行中の文脈を限定する要件。"
+meaning: "when performing"
+meaningJa: "〜を行う際に"
+usageExample: "When performing account linkage, preserve the original state value."
+usageExampleJa: "アカウント連携を行う際は、元のstate値を保持する。"
+difficulty: "Intermediate"
+scene: "Technical Writing"
+---

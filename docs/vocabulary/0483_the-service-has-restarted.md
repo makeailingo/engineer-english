@@ -1,0 +1,15 @@
+---
+id: "0483"
+term: "the service has restarted"
+type: "phrase"
+partOfSpeech: "clause"
+pronunciation: "/ðə ˈsɜːvɪs hæz riːˈstɑːtɪd/"
+description: "Announce a service restart and that it accepts requests again."
+descriptionJa: "サービス再稼働の報告。"
+meaning: "the service has restarted"
+meaningJa: "サービスが再起動した"
+usageExample: "The service has restarted and is accepting requests again."
+usageExampleJa: "サービスが再起動し、再びリクエストを受け付けている。"
+difficulty: "Beginner"
+scene: "Incident Response"
+---

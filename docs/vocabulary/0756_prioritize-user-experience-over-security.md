@@ -1,0 +1,15 @@
+---
+id: "0756"
+term: "prioritize user experience over security"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/praɪˈɒrətaɪz ˈjuːzər ɪkˈspɪəriəns ˈəʊvə sɪˈkjʊərəti/"
+description: "State a trade-off and document accepted risk if UX wins."
+descriptionJa: "二つの価値のどちらを優先するか表明し、その裏に伴うリスクを認識させるときに使う。"
+meaning: "to prioritize UX over security"
+meaningJa: "セキュリティよりユーザー体験を優先する"
+usageExample: "If we prioritize user experience over security, we should document the accepted risk."
+usageExampleJa: "UXを優先するなら、受容リスクを文書化すべきだ。"
+difficulty: "Advanced"
+scene: "Management"
+---

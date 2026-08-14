@@ -1,0 +1,15 @@
+---
+id: "0265"
+term: "proceed with"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/prəˈsiːd wɪð/"
+description: "Start execution after agreement is reached."
+descriptionJa: "合意後に実際に作業や処理を実行する段階で使う。"
+meaning: "to move ahead with"
+meaningJa: "〜を進める、〜に移る"
+usageExample: "If frontend agrees, we'll proceed with the fallback."
+usageExampleJa: "フロントエンドが合意すればフォールバックを進める。"
+difficulty: "Beginner"
+scene: "Meetings / Events"
+---

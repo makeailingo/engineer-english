@@ -1,0 +1,15 @@
+---
+id: "0366"
+term: "performance improvements"
+type: "phrase"
+partOfSpeech: "noun phrase"
+pronunciation: "/pəˈfɔːməns ɪmˈpruːvmənts/"
+description: "Highlight payload or path changes that improve response time."
+descriptionJa: "ペイロード削減などによる性能改善効果を述べる。"
+meaning: "gains in speed or efficiency"
+meaningJa: "パフォーマンス（応答性・処理能力）の向上・改善"
+usageExample: "A smaller payload offers meaningful performance improvements for large configuration files."
+usageExampleJa: "小さなペイロードは大規模設定ファイルで有意な性能改善をもたらす。"
+difficulty: "Beginner"
+scene: "Design / Architecture"
+---

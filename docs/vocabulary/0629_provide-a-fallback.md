@@ -1,0 +1,15 @@
+---
+id: "0629"
+term: "provide a fallback"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/prəˈvaɪd ə ˈfɔːlbæk/"
+description: "Require an alternate path when a primary value or service is missing."
+descriptionJa: "障害発生時や値が存在しない場合に対応する代替手段。"
+meaning: "to provide a fallback"
+meaningJa: "代替策・代替手段を提供する"
+usageExample: "The client should provide a fallback when the primary value is absent."
+usageExampleJa: "主要な値がない場合、クライアントは代替手段を提供すべきだ。"
+difficulty: "Intermediate"
+scene: "Technical Writing"
+---

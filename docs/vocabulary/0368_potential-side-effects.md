@@ -1,0 +1,15 @@
+---
+id: "0368"
+term: "potential side effects"
+type: "phrase"
+partOfSpeech: "noun phrase"
+pronunciation: "/pəˈtenʃl saɪd ɪˈfekts/"
+description: "Review impact on legacy apps before merging a design change."
+descriptionJa: "マージ前に想定される副作用を評価する表現。"
+meaning: "possible unintended effects"
+meaningJa: "起こり得る副作用・予期せぬ影響"
+usageExample: "We should assess potential side effects on the legacy application before merging."
+usageExampleJa: "マージ前に、レガシーアプリへの潜在的副作用を評価すべきだ。"
+difficulty: "Beginner"
+scene: "Design / Architecture"
+---

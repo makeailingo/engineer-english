@@ -1,0 +1,15 @@
+---
+id: "0678"
+term: "make sure they are aware of"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/meɪk ʃʊə ðeɪ ɑː əˈweər əv/"
+description: "Ensure reviewers understand deadlines and risks, not just receive information."
+descriptionJa: "単なる伝達ではなく、相手の理解まで想定した意識の向上に使う。"
+meaning: "to ensure they understand"
+meaningJa: "〜を認識している状態にする"
+usageExample: "Please make sure the reviewers are aware of the deadline and the remaining risk."
+usageExampleJa: "レビュアーが期限と残リスクを認識していることを確認して。"
+difficulty: "Intermediate"
+scene: "Management"
+---

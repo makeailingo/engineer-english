@@ -1,0 +1,15 @@
+---
+id: "0639"
+term: "be thrown"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/biː θrəʊn/"
+description: "Describe an exception raised during deserialization or processing."
+descriptionJa: "例外が発生する実際の動作と受動態で説明する表現。"
+meaning: "to be thrown"
+meaningJa: "スローされる"
+usageExample: "A deserialization exception will be thrown in this case."
+usageExampleJa: "この場合、デシリアライズ例外がスローされる。"
+difficulty: "Intermediate"
+scene: "Technical Writing"
+---

@@ -1,0 +1,15 @@
+---
+id: "0182"
+term: "as part of a security review response"
+type: "phrase"
+partOfSpeech: "prepositional phrase"
+pronunciation: "/æz pɑːt ɒv ə sɪˈkjʊərəti rɪˈvjuː rɪˈspɒns/"
+description: "Note a change addresses security review findings."
+descriptionJa: "修正がセキュリティレビューへの対応であることを明記する。"
+meaning: "as part of a security review response"
+meaningJa: "セキュリティレビューへの対応の一環として"
+usageExample: "The token encryption was updated as part of a security review response."
+usageExampleJa: "トークン暗号化はセキュリティレビュー対応の一環として更新した。"
+difficulty: "Intermediate"
+scene: "Implementation / Review"
+---

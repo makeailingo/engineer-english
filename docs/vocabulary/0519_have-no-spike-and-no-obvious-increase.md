@@ -1,0 +1,15 @@
+---
+id: "0519"
+term: "have no spike and no obvious increase"
+type: "phrase"
+partOfSpeech: "clause"
+pronunciation: "/hæv nəʊ spaɪk ænd nəʊ ˈɒbviəs ˈɪŋkriːs/"
+description: "Report no notable spike or error increase after investigation."
+descriptionJa: "調査により特定の異常値や目立った増加が見られないことを報告する。"
+meaning: "no spike or clear increase seen"
+meaningJa: "スパイクや明確な増加はない"
+usageExample: "The upstream service has no spike and no obvious increase in errors."
+usageExampleJa: "上流サービスにスパイクや明確なエラー増加はない。"
+difficulty: "Intermediate"
+scene: "Incident Response"
+---

@@ -1,0 +1,15 @@
+---
+id: "0350"
+term: "just reiterating"
+type: "phrase"
+partOfSpeech: "discourse marker"
+pronunciation: "/dʒʌst riːˈɪtəreɪtɪŋ/"
+description: "Repeat key numbers or settings for clarity."
+descriptionJa: "議論の要点や重要数値・設定をもう一度明確にする際に使う。"
+meaning: "to restate"
+meaningJa: "繰り返し確認すると、要点を言い換えると"
+usageExample: "So basically, this is like the whole so is just reiterating."
+usageExampleJa: "要するに、全体として要点を言い換えている。"
+difficulty: "Advanced"
+scene: "Meetings / Events"
+---

@@ -1,0 +1,15 @@
+---
+id: "0717"
+term: "a written trace we can refer to"
+type: "phrase"
+partOfSpeech: "noun phrase"
+pronunciation: "/ə ˈrɪtn treɪs wiː kæn rɪˈfɜː tuː/"
+description: "Capture decisions in writing instead of relying on verbal agreement."
+descriptionJa: "口頭合意で終わらせず、文章で記録を残し、後で実務上の参照物として提示する。"
+meaning: "a written record for later reference"
+meaningJa: "後から参照できる書面の記録"
+usageExample: "Please capture the decision in writing so we have a written trace we can refer to later."
+usageExampleJa: "後から参照できるよう、決定を文書で記録して。"
+difficulty: "Intermediate"
+scene: "Management"
+---

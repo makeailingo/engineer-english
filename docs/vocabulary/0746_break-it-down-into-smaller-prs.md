@@ -1,0 +1,15 @@
+---
+id: "0746"
+term: "break it down into smaller PRs"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/breɪk ɪt daʊn ˈɪntuː ˈsmɔːlə piː ɑːz/"
+description: "Split large changes into smaller PRs to simplify review and risk."
+descriptionJa: "大きな変更意図を小分けにし、レビュー、検証、リスク管理をしやすくする実践的な表現。"
+meaning: "to break into smaller pull requests"
+meaningJa: "より小さなPRに分割する"
+usageExample: "To simplify review and risk, I'll break it down into smaller PRs with clear owners."
+usageExampleJa: "レビューとリスク低減のため、小さなPRに分割する。"
+difficulty: "Intermediate"
+scene: "Management"
+---

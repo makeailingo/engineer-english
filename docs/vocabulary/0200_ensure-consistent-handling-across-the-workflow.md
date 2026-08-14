@@ -1,0 +1,15 @@
+---
+id: "0200"
+term: "ensure consistent handling across the workflow"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/ɪnˈʃʊə kənˈsɪstənt ˈhændlɪŋ əˈkrɒs ðə ˈwɜːkfləʊ/"
+description: "Use shared models so identifiers are handled uniformly."
+descriptionJa: "ドメインモデルや処理の流れ全体で処理の一貫性を担保したこと。"
+meaning: "to ensure consistent handling"
+meaningJa: "ワークフロー全体で一貫した処理を保障する"
+usageExample: "The shared model ensures consistent handling of identifiers across the workflow."
+usageExampleJa: "共有モデルでワークフロー全体の識別子処理を一貫させる。"
+difficulty: "Intermediate"
+scene: "Implementation / Review"
+---

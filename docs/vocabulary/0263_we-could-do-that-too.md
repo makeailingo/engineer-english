@@ -1,0 +1,15 @@
+---
+id: "0263"
+term: "we could do that too"
+type: "phrase"
+partOfSpeech: "clause"
+pronunciation: "/wiː kʊd duː ðæt tuː/"
+description: "Accept an option while noting trade-offs."
+descriptionJa: "相手の提案を可能と認めつつも、コストなどの理由で積極的にお勧めしない。"
+meaning: "that is also possible"
+meaningJa: "それも可能ですが、それも可能ではあります"
+usageExample: "We could do that too, but it would add operational overhead."
+usageExampleJa: "それも可能だが、運用オーバーヘッドが増える。"
+difficulty: "Beginner"
+scene: "Meetings / Events"
+---

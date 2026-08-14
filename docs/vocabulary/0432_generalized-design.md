@@ -1,0 +1,15 @@
+---
+id: "0432"
+term: "generalized design"
+type: "phrase"
+partOfSpeech: "noun phrase"
+pronunciation: "/ˈdʒenrəlaɪzd dɪˈzaɪn/"
+description: "Aim for a generic model that supports new types without schema churn."
+descriptionJa: "特定用途に偏らない汎用的な設計方針を述べる。"
+meaning: "broad reusable design"
+meaningJa: "特定用途に偏らない汎用化された設計"
+usageExample: "The goal is a generalized design to let us add new preference types without changing the storage model."
+usageExampleJa: "ストレージモデルを変えずに新しい設定タイプを追加できる汎用設計が目標だ。"
+difficulty: "Advanced"
+scene: "Design / Architecture"
+---

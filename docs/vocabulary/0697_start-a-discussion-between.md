@@ -1,0 +1,15 @@
+---
+id: "0697"
+term: "start a discussion between"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/stɑːt ə dɪˈskʌʃn bɪˈtwiːn/"
+description: "Begin cross-functional dialogue before scope is finalized."
+descriptionJa: "開催条件を早めに提示、部門横断の対話を始めたいときに使う。"
+meaning: "to start a discussion between"
+meaningJa: "〜の間で議論を始める"
+usageExample: "We need to start a discussion between Product, QA, and Engineering before the scope is finalized."
+usageExampleJa: "スコープ確定前に、Product・QA・Engineering間で議論を始めよう。"
+difficulty: "Intermediate"
+scene: "Management"
+---

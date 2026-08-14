@@ -1,0 +1,15 @@
+---
+id: "0607"
+term: "on the backend side"
+type: "phrase"
+partOfSpeech: "prepositional phrase"
+pronunciation: "/ɒn ðə ˈbækend saɪd/"
+description: "Clarify that validation or processing should happen server-side."
+descriptionJa: "処理を行う側を明確にする表現。"
+meaning: "on the backend side"
+meaningJa: "バックエンド側で"
+usageExample: "Validation should be performed on the backend side."
+usageExampleJa: "バリデーションはバックエンド側で実行すべきだ。"
+difficulty: "Intermediate"
+scene: "Technical Writing"
+---

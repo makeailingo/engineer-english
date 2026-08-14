@@ -1,0 +1,15 @@
+---
+id: "0267"
+term: "that's all from me"
+type: "phrase"
+partOfSpeech: "clause"
+pronunciation: "/ðæts ɔːl frɒm miː/"
+description: "Signal the end of your update and hand off."
+descriptionJa: "発言・報告の終わりを告げ、次の発表者へ渡す合図。"
+meaning: "that is all from me"
+meaningJa: "私からは以上です"
+usageExample: "That's all from me. Let's move to the next update."
+usageExampleJa: "私からは以上だ。次の更新に移ろう。"
+difficulty: "Beginner"
+scene: "Meetings / Events"
+---

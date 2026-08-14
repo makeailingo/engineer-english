@@ -1,0 +1,15 @@
+---
+id: "0203"
+term: "add a validation layer"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/æd ə ˌvælɪˈdeɪʃn ˈleɪə/"
+description: "Modularize validation in its own layer."
+descriptionJa: "バリデーションの責務を独立した層として追加する変更。"
+meaning: "to add a validation layer"
+meaningJa: "検証層を追加する"
+usageExample: "The PR adds a validation layer for external metadata before it reaches the core service."
+usageExampleJa: "外部メタデータ用の検証層をコアサービスの前段に追加した。"
+difficulty: "Intermediate"
+scene: "Implementation / Review"
+---

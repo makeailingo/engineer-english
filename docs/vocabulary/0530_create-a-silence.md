@@ -1,0 +1,15 @@
+---
+id: "0530"
+term: "create a silence"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/kriˈeɪt ə ˈsaɪləns/"
+description: "Set a temporary silence for a known warning during an incident."
+descriptionJa: "一時的に特定の既知アラートの通知を抑止する。"
+meaning: "to create an alert silence"
+meaningJa: "アラート停止設定を作成する"
+usageExample: "I created a silence for the known warning until tomorrow."
+usageExampleJa: "既知の警告に対して明日までサイレンスを作成した。"
+difficulty: "Intermediate"
+scene: "Incident Response"
+---

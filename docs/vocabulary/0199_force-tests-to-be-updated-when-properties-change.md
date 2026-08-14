@@ -1,0 +1,15 @@
+---
+id: "0199"
+term: "force tests to be updated when properties change"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/fɔːs tests tuː biː ˈʌpdeɪtɪd wen ˈprɒpətiz tʃeɪndʒ/"
+description: "Use strict assertions so tests break when responses change."
+descriptionJa: "型変更やプロパティ追加時にサイレントにテストが通るのを防ぐアサーション。"
+meaning: "to force test updates on property changes"
+meaningJa: "プロパティ変更時にテストの更新を強要する"
+usageExample: "Strict comparison forces tests to be updated when response properties change."
+usageExampleJa: "厳密比較でレスポンスプロパティ変更時にテスト更新を強要する。"
+difficulty: "Intermediate"
+scene: "Implementation / Review"
+---

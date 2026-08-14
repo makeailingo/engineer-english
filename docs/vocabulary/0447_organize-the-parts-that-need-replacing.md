@@ -1,0 +1,15 @@
+---
+id: "0447"
+term: "organize the parts that need replacing"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/ˈɔːɡənaɪz ðə pɑːts ðæt niːd rɪˈpleɪsɪŋ/"
+description: "Inventory modules to swap and assign owners before migration."
+descriptionJa: "移行前に置き換え対象を整理・特定する表現。"
+meaning: "to list components to replace"
+meaningJa: "置き換えが必要な部品・モジュールを整理・特定する"
+usageExample: "Before migration, organize the parts that need replacing and identify their owners."
+usageExampleJa: "移行前に、置き換えが必要な部品を整理し、担当者を特定する。"
+difficulty: "Advanced"
+scene: "Design / Architecture"
+---

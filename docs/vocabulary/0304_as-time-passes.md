@@ -1,0 +1,15 @@
+---
+id: "0304"
+term: "as time passes"
+type: "phrase"
+partOfSpeech: "adverb phrase"
+pronunciation: "/æz taɪm ˈpɑːsɪz/"
+description: "Describe expected change over the medium or long term."
+descriptionJa: "中長期的な変化や見通しを表現するときに使う。"
+meaning: "over time"
+meaningJa: "時間がたつにつれて"
+usageExample: "As time passes, more services will adopt the new protocol."
+usageExampleJa: "時間が経つにつれ、より多くのサービスが新プロトコルを採用する。"
+difficulty: "Intermediate"
+scene: "Meetings / Events"
+---

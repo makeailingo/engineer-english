@@ -1,0 +1,15 @@
+---
+id: "0760"
+term: "concerned that it might look bloated"
+type: "phrase"
+partOfSpeech: "clause"
+pronunciation: "/kənˈsɜːnd ðæt ɪt maɪt lʊk ˈbləʊtɪd/"
+description: "Flag report bloat to reduce meeting burden and improve clarity."
+descriptionJa: "内容の重複や肥大化を指摘し、可視性や会議の負担を低減させたい時に使う。"
+meaning: "concerned it may look bloated"
+meaningJa: "情報が多く見えすぎるのではと懸念する"
+usageExample: "From a management view, I'm concerned that the weekly report might look bloated."
+usageExampleJa: "週次レポートが情報過多に見えるのではと懸念している。"
+difficulty: "Advanced"
+scene: "Management"
+---

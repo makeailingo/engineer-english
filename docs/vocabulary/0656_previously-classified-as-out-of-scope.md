@@ -1,0 +1,15 @@
+---
+id: "0656"
+term: "previously classified as out of scope"
+type: "phrase"
+partOfSpeech: "clause"
+pronunciation: "/ˈpriːviəsli ˈklæsɪfaɪd æz aʊt əv skəʊp/"
+description: "Contrast a past scope decision with a current change or reconsideration."
+descriptionJa: "過去のスコープ判断と現在の変更を対比する表現。"
+meaning: "previously classified as out of scope"
+meaningJa: "以前は対象外と分類されていた"
+usageExample: "This process was previously classified as out of scope."
+usageExampleJa: "この処理は以前は対象外と分類されていた。"
+difficulty: "Advanced"
+scene: "Technical Writing"
+---

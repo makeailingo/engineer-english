@@ -1,0 +1,15 @@
+---
+id: "0428"
+term: "make data consistent across platforms"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/meɪk ˈdeɪtə kənˈsɪstənt əˈkrɒs ˈplætfɔːmz/"
+description: "Use server-side storage so all clients see the same data."
+descriptionJa: "複数プラットフォーム間でデータ整合を保つ設計を述べる。"
+meaning: "to keep data consistent everywhere"
+meaningJa: "複数プラットフォーム間でデータを一致させる"
+usageExample: "Server-side preferences make data consistent across platforms and devices."
+usageExampleJa: "サーバー側設定により、プラットフォームとデバイス間でデータを一致させる。"
+difficulty: "Intermediate"
+scene: "Design / Architecture"
+---

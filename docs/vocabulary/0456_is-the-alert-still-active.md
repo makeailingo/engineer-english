@@ -1,0 +1,15 @@
+---
+id: "0456"
+term: "Is the alert still active?"
+type: "phrase"
+partOfSpeech: "clause"
+pronunciation: "/ɪz ði əˈlɜːt stɪl ˈæktɪv/"
+description: "Ask whether an alert is still open or was auto-resolved."
+descriptionJa: "アラートが現在も発生中か、自動解決したかを確認する。"
+meaning: "is the alert still firing"
+meaningJa: "アラートがまだ有効か"
+usageExample: "Is the alert still active, or was it auto-resolved?"
+usageExampleJa: "アラートはまだ有効か、それとも自動解決したか？"
+difficulty: "Beginner"
+scene: "Incident Response"
+---

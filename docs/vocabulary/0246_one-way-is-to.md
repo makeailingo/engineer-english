@@ -1,0 +1,15 @@
+---
+id: "0246"
+term: "one way is to"
+type: "phrase"
+partOfSpeech: "clause"
+pronunciation: "/wʌn weɪ ɪz tuː/"
+description: "Offer one possible solution among several."
+descriptionJa: "解決策の一つを例示し、選択肢を提示するときに便利。"
+meaning: "one option is to"
+meaningJa: "一つの方法は〜することです"
+usageExample: "One way is to check the existing configuration first."
+usageExampleJa: "一つの方法は既存設定を先に確認することだ。"
+difficulty: "Beginner"
+scene: "Meetings / Events"
+---

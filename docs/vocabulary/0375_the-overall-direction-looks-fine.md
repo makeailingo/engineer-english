@@ -1,0 +1,15 @@
+---
+id: "0375"
+term: "the overall direction looks fine"
+type: "phrase"
+partOfSpeech: "clause"
+pronunciation: "/ði ˈəʊvərɔːl daɪˈrekʃn lʊks faɪn/"
+description: "Approve the broad direction while noting follow-up items."
+descriptionJa: "全体的な設計方向性に問題がないと述べる。"
+meaning: "the general approach seems acceptable"
+meaningJa: "全体的な方向性には問題ない"
+usageExample: "The overall direction looks fine to me, but the error path needs explicit tests."
+usageExampleJa: "全体的な方向性は問題ないが、エラーパスには明示的テストが必要だ。"
+difficulty: "Beginner"
+scene: "Design / Architecture"
+---

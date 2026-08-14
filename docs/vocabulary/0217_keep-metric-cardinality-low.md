@@ -1,0 +1,15 @@
+---
+id: "0217"
+term: "keep metric cardinality low"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/kiːp ˈmetrɪk ˌkɑːdɪˈnæləti ləʊ/"
+description: "Use route templates to limit unique metric label values."
+descriptionJa: "モニタリングの負荷・コスト増加を抑える適切な設計手法を示す。"
+meaning: "to keep metric cardinality low"
+meaningJa: "メトリクスのカーディナリティを低く保つ"
+usageExample: "Route templates keep metric cardinality low across dynamic requests."
+usageExampleJa: "ルートテンプレートで動的リクエストのメトリクスカーディナリティを低く保つ。"
+difficulty: "Advanced"
+scene: "Implementation / Review"
+---

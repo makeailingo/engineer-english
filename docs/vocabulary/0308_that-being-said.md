@@ -1,0 +1,15 @@
+---
+id: "0308"
+term: "that being said"
+type: "phrase"
+partOfSpeech: "discourse marker"
+pronunciation: "/ðæt ˈbiːɪŋ sed/"
+description: "Acknowledge the prior point, then add a caveat."
+descriptionJa: "直前の内容を認めつつ、条件や例外の補足を付け加える表現。"
+meaning: "nevertheless"
+meaningJa: "そうは言っても、それをふまえると"
+usageExample: "That being said, we still need a fallback plan."
+usageExampleJa: "そうは言っても、フォールバック計画は必要だ。"
+difficulty: "Intermediate"
+scene: "Meetings / Events"
+---

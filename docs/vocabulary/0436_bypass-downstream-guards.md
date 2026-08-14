@@ -1,0 +1,15 @@
+---
+id: "0436"
+term: "bypass downstream guards"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/ˈbaɪpɑːs ˌdaʊnˈstriːm ɡɑːdz/"
+description: "Warn that a change must not skip later validation or policy checks."
+descriptionJa: "後続のガード処理を迂回してはならないと警告する表現。"
+meaning: "to skip downstream checks"
+meaningJa: "後続のガード処理を迂回する"
+usageExample: "This change must not bypass downstream guards that enforce eligibility rules."
+usageExampleJa: "この変更は資格ルールを強制する後続ガードを迂回してはならない。"
+difficulty: "Advanced"
+scene: "Design / Architecture"
+---

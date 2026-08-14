@@ -1,0 +1,15 @@
+---
+id: "0402"
+term: "schema mismatch"
+type: "phrase"
+partOfSpeech: "noun phrase"
+pronunciation: "/ˈskiːmə ˈmɪsmætʃ/"
+description: "Resolve differences between client, server, and generated types."
+descriptionJa: "クライアントとサーバー間のスキーマ不一致を解消する表現。"
+meaning: "inconsistency between schemas"
+meaningJa: "定義・不一致による不整合や不統一"
+usageExample: "The client and server must map enum values to resolve the schema mismatch."
+usageExampleJa: "クライアントとサーバーは列挙値をマッピングし、スキーマ不一致を解消する。"
+difficulty: "Intermediate"
+scene: "Design / Architecture"
+---

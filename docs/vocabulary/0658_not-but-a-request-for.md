@@ -1,0 +1,15 @@
+---
+id: "0658"
+term: "not ... but a request for ..."
+type: "phrase"
+partOfSpeech: "clause"
+pronunciation: "/nɒt bət ə rɪˈkwest fɔː/"
+description: "Clarify an issue is a platform request rather than a backend bug."
+descriptionJa: "Issueの分類や期待値を正しく提示する表現。"
+meaning: "not but a request for"
+meaningJa: "〜ではなく〜の要請である"
+usageExample: "This is not a backend defect but a request for platform support."
+usageExampleJa: "これはバックエンド不具合ではなく、プラットフォーム支援の要請だ。"
+difficulty: "Advanced"
+scene: "Technical Writing"
+---

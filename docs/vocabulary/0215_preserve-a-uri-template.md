@@ -1,0 +1,15 @@
+---
+id: "0215"
+term: "preserve a URI template"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/prɪˈzɜːv ə ˌjuː ɑːr ˈaɪ ˈtemplət/"
+description: "Keep route templates so metrics labels stay stable."
+descriptionJa: "メトリクスやタグ作成のために生のURIパターンを保つ。"
+meaning: "to keep a URI template intact"
+meaningJa: "URIテンプレートを保持する"
+usageExample: "The router preserves the URI template so the metrics suite can route labels."
+usageExampleJa: "ルーターはメトリクス用にURIテンプレートを保持する。"
+difficulty: "Advanced"
+scene: "Implementation / Review"
+---

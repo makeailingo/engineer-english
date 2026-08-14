@@ -1,0 +1,15 @@
+---
+id: "0235"
+term: "I was wondering if"
+type: "phrase"
+partOfSpeech: "clause"
+pronunciation: "/aɪ wɒz ˈwʌndərɪŋ ɪf/"
+description: "Make a polite suggestion or question in a meeting."
+descriptionJa: "控えめな提案や質疑応答のための切り出し表現。"
+meaning: "I wanted to ask if"
+meaningJa: "〜ではないかと思っていました、〜か伺いたいです"
+usageExample: "I was wondering if we could automate this check."
+usageExampleJa: "このチェックを自動化できないかと考えていた。"
+difficulty: "Beginner"
+scene: "Meetings / Events"
+---

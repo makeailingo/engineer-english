@@ -1,0 +1,15 @@
+---
+id: "0490"
+term: "next actions"
+type: "phrase"
+partOfSpeech: "noun phrase"
+pronunciation: "/nekst ˈækʃnz/"
+description: "List post-recovery tasks such as impact review and monitoring."
+descriptionJa: "復旧後・事後対応のアクションとして記載する。"
+meaning: "follow-up actions"
+meaningJa: "次に実施する対応"
+usageExample: "Next actions: quantify the impact, improve monitoring, and document the timeline."
+usageExampleJa: "次の対応：影響の定量化、監視改善、タイムライン文書化。"
+difficulty: "Beginner"
+scene: "Incident Response"
+---

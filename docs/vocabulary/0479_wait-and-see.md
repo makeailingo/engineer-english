@@ -1,0 +1,15 @@
+---
+id: "0479"
+term: "wait and see"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/weɪt ænd siː/"
+description: "Hold off on action and watch whether the issue recurs."
+descriptionJa: "状態変更後に即対応と断定せず、再現の有無を静観する。"
+meaning: "to wait and see"
+meaningJa: "しばらく様子を見る"
+usageExample: "The last alert was ten minutes ago, so we'll wait and see."
+usageExampleJa: "最後のアラートは10分前なので、しばらく様子を見る。"
+difficulty: "Beginner"
+scene: "Incident Response"
+---

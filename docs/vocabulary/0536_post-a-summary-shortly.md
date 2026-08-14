@@ -1,0 +1,15 @@
+---
+id: "0536"
+term: "post a summary shortly"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/pəʊst ə ˈsʌməri ˈʃɔːtli/"
+description: "Promise a written incident update after initial investigation."
+descriptionJa: "調査・対応の進捗状況を後ほど一括で共有することを告知する。"
+meaning: "to post a summary soon"
+meaningJa: "まもなく概要を更新する"
+usageExample: "I have completed the initial investigation, and I'll post a summary shortly."
+usageExampleJa: "初期調査を完了した。まもなく概要を共有する。"
+difficulty: "Intermediate"
+scene: "Incident Response"
+---

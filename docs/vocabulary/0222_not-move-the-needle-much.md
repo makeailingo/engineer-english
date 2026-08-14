@@ -1,0 +1,15 @@
+---
+id: "0222"
+term: "not move the needle much"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/nɒt muːv ðə ˈniːdl mʌtʃ/"
+description: "Say further optimization would barely help at this scale."
+descriptionJa: "これ以上の最適化を行っても全体的なインパクトが微小である旨を伝える。"
+meaning: "to make little overall difference"
+meaningJa: "刻みを大きく変えない、大した差を生まない"
+usageExample: "Shortening the key further would not move the needle much at this scale."
+usageExampleJa: "この規模ではキーをさらに短くしても大した差は生まれない。"
+difficulty: "Advanced"
+scene: "Implementation / Review"
+---

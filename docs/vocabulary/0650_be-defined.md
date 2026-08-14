@@ -1,0 +1,15 @@
+---
+id: "0650"
+term: "be defined"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/biː dɪˈfaɪnd/"
+description: "Confirm a field exists in the specification or schema."
+descriptionJa: "仕様上の存在を明確に述べる表現。"
+meaning: "to be defined"
+meaningJa: "定義されている"
+usageExample: "The field is defined in the request schema."
+usageExampleJa: "フィールドはリクエストスキーマで定義されている。"
+difficulty: "Intermediate"
+scene: "Technical Writing"
+---

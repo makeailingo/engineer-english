@@ -1,0 +1,15 @@
+---
+id: "0193"
+term: "avoid the same issue when copying code"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/əˈvɔɪd ðə seɪm ˈɪʃuː wen ˈkɒpiɪŋ kəʊd/"
+description: "Fix other call sites to prevent copy-paste bugs from spreading."
+descriptionJa: "コピペで同様の不具合が広がらないよう他箇所も直す理由。"
+meaning: "to avoid the same issue when copying code"
+meaningJa: "コードをコピーしたときに同じ問題を避ける"
+usageExample: "I updated the other call sites to avoid the same issue when copying code."
+usageExampleJa: "コードをコピーしても同問題が起きないよう他呼び出し箇所も更新した。"
+difficulty: "Intermediate"
+scene: "Implementation / Review"
+---

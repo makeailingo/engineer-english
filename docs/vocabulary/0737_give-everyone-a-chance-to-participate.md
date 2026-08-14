@@ -1,0 +1,15 @@
+---
+id: "0737"
+term: "give everyone a chance to participate"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/ɡɪv ˈevriwʌn ə tʃɑːns tuː pɑːˈtɪsɪpeɪt/"
+description: "Share proposals widely to offer fair opportunity to join in."
+descriptionJa: "透明性を確保し、関心の機会を公平に与える姿勢を示す。"
+meaning: "to give everyone a chance to participate"
+meaningJa: "全員に参加の機会を与える"
+usageExample: "I'll share the proposal in the wider channel to give everyone a chance to participate."
+usageExampleJa: "広いチャンネルで提案を共有し、全員に参加機会を与える。"
+difficulty: "Intermediate"
+scene: "Management"
+---

@@ -1,0 +1,15 @@
+---
+id: "0473"
+term: "working on it"
+type: "phrase"
+partOfSpeech: "clause"
+pronunciation: "/ˈwɜːkɪŋ ɒn ɪt/"
+description: "Tell the team you are actively handling the incident."
+descriptionJa: "自身が進行中であることをチームに提示する。"
+meaning: "currently working on it"
+meaningJa: "対応中である"
+usageExample: "I'm working on it and preparing the configuration change."
+usageExampleJa: "対応中で、設定変更を準備している。"
+difficulty: "Beginner"
+scene: "Incident Response"
+---

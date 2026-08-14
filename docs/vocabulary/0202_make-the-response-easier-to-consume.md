@@ -1,0 +1,15 @@
+---
+id: "0202"
+term: "make the response easier to consume"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/meɪk ðə rɪˈspɒns ˈiːziə tuː kənˈsjuːm/"
+description: "Shape API responses for simpler client consumption."
+descriptionJa: "クライアント側が扱いやすいレスポンス形に整える変更。"
+meaning: "to make a response easier to consume"
+meaningJa: "レスポンスを扱いやすくする"
+usageExample: "Replacing the boolean with an enum makes the response easier to consume."
+usageExampleJa: "booleanをenumに置き換え、レスポンスを扱いやすくした。"
+difficulty: "Intermediate"
+scene: "Implementation / Review"
+---

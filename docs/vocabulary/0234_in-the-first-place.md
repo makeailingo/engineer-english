@@ -1,0 +1,15 @@
+---
+id: "0234"
+term: "in the first place"
+type: "phrase"
+partOfSpeech: "adverb phrase"
+pronunciation: "/ɪn ðə fɜːst pleɪs/"
+description: "Return to a root cause or prerequisite in discussion."
+descriptionJa: "議論の前提や根本的な要因に立ち返るときに使う。"
+meaning: "to begin with"
+meaningJa: "そもそも、第一に"
+usageExample: "In the first place, we need to agree on the ownership."
+usageExampleJa: "そもそも、所有権について合意する必要がある。"
+difficulty: "Beginner"
+scene: "Meetings / Events"
+---

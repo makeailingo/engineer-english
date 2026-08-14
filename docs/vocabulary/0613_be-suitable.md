@@ -1,0 +1,15 @@
+---
+id: "0613"
+term: "be suitable"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/biː ˈsuːtəbl/"
+description: "Say a proposed response type or approach fits the requirements."
+descriptionJa: "提案した選択肢が要件に合うことを述べる表現。"
+meaning: "to be suitable"
+meaningJa: "適切である"
+usageExample: "A no-content response is suitable for this operation."
+usageExampleJa: "本文なしレスポンスはこの操作に適切だ。"
+difficulty: "Intermediate"
+scene: "Technical Writing"
+---

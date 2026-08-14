@@ -1,0 +1,15 @@
+---
+id: "0568"
+term: "be ideally required"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/biː aɪˈdiːəli rɪˈkwaɪəd/"
+description: "Propose fields or rules that should ideally be mandatory in a schema."
+descriptionJa: "望ましい仕様、修正後提案する表現。"
+meaning: "to ideally be required"
+meaningJa: "理想的には必須である"
+usageExample: "These fields would ideally be required in the schema."
+usageExampleJa: "これらのフィールドはスキーマ上、理想的には必須である。"
+difficulty: "Intermediate"
+scene: "Technical Writing"
+---

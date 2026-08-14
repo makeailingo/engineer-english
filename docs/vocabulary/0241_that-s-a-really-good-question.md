@@ -1,0 +1,15 @@
+---
+id: "0241"
+term: "that's a really good question"
+type: "phrase"
+partOfSpeech: "clause"
+pronunciation: "/ðæts ə ˈrɪəli ɡʊd ˈkwestʃən/"
+description: "Acknowledge a question positively before answering."
+descriptionJa: "質問の重要性を認め、前向きに答える好感度な返事。"
+meaning: "that is a great question"
+meaningJa: "それはとても良い質問ですね"
+usageExample: "That's a really good question; let me check the dependency."
+usageExampleJa: "良い質問だ。依存関係を確認する。"
+difficulty: "Beginner"
+scene: "Meetings / Events"
+---

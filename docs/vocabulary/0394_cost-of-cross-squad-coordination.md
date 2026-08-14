@@ -1,0 +1,15 @@
+---
+id: "0394"
+term: "cost of cross-squad coordination"
+type: "phrase"
+partOfSpeech: "noun phrase"
+pronunciation: "/kɒst əv krɒs skwɒd kəʊˌɔːdɪˈneɪʃn/"
+description: "Weigh coordination effort against benefit for small changes."
+descriptionJa: "スクワッド間調整コストが実装コストを上回る可能性を述べる。"
+meaning: "overhead of coordinating across squads"
+meaningJa: "スクワッド間調整にかかるコスト"
+usageExample: "The cost of cross-squad coordination may exceed the implementation cost for this small change."
+usageExampleJa: "この小変更では、スクワッド間調整コストが実装コストを上回る可能性がある。"
+difficulty: "Intermediate"
+scene: "Design / Architecture"
+---

@@ -1,0 +1,15 @@
+---
+id: "0616"
+term: "check if ... is available"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/tʃek ɪf ɪz əˈveɪləbl/"
+description: "Require a precondition check on an external service or feature."
+descriptionJa: "前処理や外部機能の状態確認を示す表現。"
+meaning: "to check if available"
+meaningJa: "〜が利用可能か確認する"
+usageExample: "Check if the external service is available."
+usageExampleJa: "外部サービスが利用可能か確認する。"
+difficulty: "Intermediate"
+scene: "Technical Writing"
+---

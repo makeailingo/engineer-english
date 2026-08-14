@@ -1,0 +1,15 @@
+---
+id: "0499"
+term: "Be quickly auto-resolved"
+type: "phrase"
+partOfSpeech: "verb phrase"
+pronunciation: "/biː ˈkwɪkli ˌɔːtəʊ rɪˈzɒlvd/"
+description: "Note alerts cleared quickly, suggesting a brief or false-positive spike."
+descriptionJa: "瞬間的な誤検知や一時的な問題であったと推測する根拠として共有する。"
+meaning: "to be auto-resolved quickly"
+meaningJa: "短時間で自動解決される"
+usageExample: "The alerts were quickly auto-resolved, so this may have been a brief spike."
+usageExampleJa: "アラートは短時間で自動解決したため、一時的なスパイクの可能性がある。"
+difficulty: "Intermediate"
+scene: "Incident Response"
+---
