@@ -67,7 +67,7 @@ bundle exec jekyll serve --baseurl ""
 
 ブラウザで http://127.0.0.1:4000/ を開く。
 
-`--baseurl ""` は GitHub Pages 用の `/engineer-english` プレフィックスを外し、ローカルではルートから表示するための指定。
+`--baseurl ""` は GitHub Pages 用の `/software-engineer-english-vocabulary` プレフィックスを外し、ローカルではルートから表示するための指定。
 
 ### ビルドのみ
 

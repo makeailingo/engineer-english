@@ -1,10 +1,10 @@
 title: Engineer English
 description: Improve your English with words and phrases personally heard or seen by software engineers working in English.
-github_url: https://github.com/makeailingo/engineer-english
+github_url: https://github.com/makeailingo/software-engineer-english-vocabulary
 license: AGPL-3.0-only
-license_url: https://github.com/makeailingo/engineer-english/blob/main/LICENSE
+license_url: https://github.com/makeailingo/software-engineer-english-vocabulary/blob/main/LICENSE
 url: https://makeailingo.github.io
-baseurl: /engineer-english
+baseurl: /software-engineer-english-vocabulary
 
 scene_order:
   - Career / Interview

@@ -67,7 +67,7 @@ bundle exec jekyll serve --baseurl ""
 
 Open http://127.0.0.1:4000/ in a browser.
 
-`--baseurl ""` removes the GitHub Pages `/engineer-english` prefix so the site is served from the root locally.
+`--baseurl ""` removes the GitHub Pages `/software-engineer-english-vocabulary` prefix so the site is served from the root locally.
 
 ### Build only
 
